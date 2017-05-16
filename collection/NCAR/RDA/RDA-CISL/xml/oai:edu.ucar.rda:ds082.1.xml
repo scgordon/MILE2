@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="082.1"
+            type="historical">
+   <timeStamp value="2015-02-11 21:37:21 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NCEP FNL Operational Model Global Tropospheric Analyses, near surface subset, daily July 1976 to 12 April 1997</title>
+   <summary>
+      <p>These NCEP FNL (Final) Operational Global Analysis data are on pairs of 2.5 by 2.5 degree hemispheric grids every twelve hours.  This product was from the Global Forecast System (GFS) that was run operationally in near-real time at NCEP. DSS prepared this surface subset from ds082.0.</p>
+      <p>The analyses are available on the surface, at 1000 millibars, and a boundary
+              layer.
+              Parameters include surface pressure, sea level pressure, geopotential
+              height, temperature, sea surface temperature, potential temperature,
+              relative humidity, snow depth (weekly, Northern Hemisphere only), and
+              u- and v-winds.</p>
+      <p>
+         <a href="http://rda.ucar.edu/datasets/ds082.1/more.html">More information is available.</a>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Boundary Layer Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Snow</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Potential Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">NCEP-FNL &gt; NCEP Final Global Data Assimilation System</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Trenberth, K.E., and J.G. Olson</authorList>
+      <year>1988</year>
+      <title>Evaluation of NMC Global Analyses: 1979-1987</title>
+      <organization reportID="TN-299+STR" pages="82">National Center for Atmospheric Research</organization>
+   </reference>
+   <reference type="technical_report">
+      <authorList>Randel, W.J.</authorList>
+      <year>1992</year>
+      <title>Global atmospheric circulation statistics, 1000 - 1 mb</title>
+      <organization reportID="TN-366+STR" pages="256">National Center for Atmospheric Research</organization>
+   </reference>
+   <reference type="technical_report">
+      <authorList>Baker, Waymon, ed</authorList>
+      <year>1992</year>
+      <title>Research Highlights of the NMC Development Division: 1989-1991</title>
+      <organization reportID="null" pages="469">NOAA</organization>
+   </reference>
+   <reference type="journal">
+      <authorList>Cressman, G.P.</authorList>
+      <year>1959</year>
+      <title>An Operational Objective Analysis System</title>
+      <periodical number="87" pages="367-374">Mon. Weather Rev.</periodical>
+   </reference>
+   <reference type="journal">
+      <authorList>Parrish, D.F., and Derber, J.C.</authorList>
+      <year>1992</year>
+      <title>The National Meteorological Center's Spectral Statistical-Interpolation Analysis System</title>
+      <periodical number="120" pages="1747-1763">Mon. Wea. Rev.</periodical>
+   </reference>
+   <reference type="journal">
+      <authorList>Kanamitsu, M.</authorList>
+      <year>1989</year>
+      <title>Description of the NMC Global Data Assimilation and Forecast System</title>
+      <periodical number="4(3)" pages="335-342">Wea. and Forecasting</periodical>
+   </reference>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/gmb/STATS/html/model_changes.html">MRF/AVN/GDAS CHANGES SINCE 1991</relatedResource>
+   <relatedDataset ID="082.0"/>
+   <relatedDataset ID="083.1"/>
+   <publicationDate>1982-08-17</publicationDate>
+   <contentMetadata>
+      <temporal start="1976-07" end="1997-04-12" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <dataType>grid</dataType>
+      <format>NCEP_ON84</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0.0E"
+               startLat="90.0S"
+               endLon="360.0E"
+               endLat="0.0S"
+               xRes="2.5"
+               yRes="2.5"/>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0.0E"
+               startLat="0.0N"
+               endLon="360.0E"
+               endLat="90.0N"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,219 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-pal.34.2" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=PAL,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier>34</alternateIdentifier>
+    <title>Average monthly sea ice coverage for the PAL LTER region West of the Antarctic Peninsula derived from passive microwave, 1978 - present.</title>
+    <creator>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office</deliveryPoint>
+        <deliveryPoint>208 Geoscience</deliveryPoint>
+        <deliveryPoint>61 Route 9W - PO Box 1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sharon</givenName>
+        <surName>Stammerjohn</surName>
+      </individualName>
+      <organizationName>INSTAAR, University of Colorado Boulder</organizationName>
+      <electronicMailAddress>sharon.stammerjohn@colorado.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office</deliveryPoint>
+        <deliveryPoint>208 Geoscience</deliveryPoint>
+        <deliveryPoint>61 Route 9W - PO Box 1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </metadataProvider>
+    <pubDate>2016</pubDate>
+    <abstract>Monthly sea ice coverage derived from passive microwave satellite measurements. Ice extent is defined as the area bounded by the 15% ice concentration contour which is determined by summing up all the pixel areas (nominally 25km by 25km) which have concentrations greater than 15%. Sea-ice extent refers to the total surface area inside the ice-edge. This area inside the ice-edge is not necessarily covered by 100%.</abstract>
+    <keywordSet>
+      <keyword>disturbance</keyword>
+      <keyword>ecology</keyword>
+      <keyword>habitats</keyword>
+      <keyword>marine</keyword>
+      <keyword>remote sensing</keyword>
+      <keyword>ice</keyword>
+      <keyword>ice</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>The data available here are intended for scholarly use by the research community,
+    with the express understanding that data users will properly acknowledge the originating investigator. Use or
+    reproduction of any material herein for any commercial purpose is prohibited without prior written permission
+    from the responsible party.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://oceaninformatics.ucsd.edu/datazoo/data/pallter/datasets?action=summary&amp;id=34</url>
+      </online>
+    </distribution>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>PAL LTER Information Manager</positionName>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <electronicMailAddress>pallter-im@ucsd.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office</deliveryPoint>
+        <deliveryPoint>208 Geoscience</deliveryPoint>
+        <deliveryPoint>61 Route 9W - PO Box 1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>General Methods</title>
+            <para>Ice concentration grids on cdrom provided by National Snow and Ice Data Center (NSIDC), Boulder, CO ice extent is derived from the NASA Team algorithm applied to the passive microwave remotely sensed brightness temperature and is defined as the area bounded by the 15% ice concentration contour which is determined by summing up all the pixel areas (nominally 25km by 25km) which have concentrations greater than 15%. Note: data were originally from the GSFC Bootstrap SMMR-SSMI time-series, i.e.the intercalibrated, corrected data. PAL LTER sea ice data were recently updated using Version 2 of the Bootstrap sea ice concentrations from Nimbus-7 SMMR and DMSP SSM/I that are now referenced to daily tiepoints consistent with the AMSR-E Bootstrap algorithm. Since Version 2 is inter-calibrated with AMSR-E, it is NO longer compatible with the original version (Version 1) of the Bootstrap SMMR-SSM/I time series, as previously used by the PAL LTER.
+Sea-ice extent refers to the total surface area inside the ice-edge. This area inside the ice-edge is not necessarily covered by 100% sea-ice, because sea-ice concentrations inside the ice-edge can be anywhere from 15-100%. Satellite sensors can usually detect the ice-edge with fairly good accuracy because the physical properties of open water versus sea-ice are very different (the most obvious is that one is a liquid, the other is a solid, but also sea water is both warmer and saltier than sea-ice). The satellite senses these different physical properties so that large areas of open water can be distinguished easily from large areas of sea-ice. One satellite sensor detects microwave signals from the surface, and with the use of some mathematical formulae, we can interpret those microwave signals in terms of percent ice cover. From field experiments we have determined that when the satellite senses 15% sea-ice cover, it is detecting the ice-edge. So we map where the ice-edge is, then we determine the area inside that ice-edge and call that sea-ice extent. Again, note that the area inside the ice-edge could be covered with sea-ice in concentrations anywhere from 15-100%.
+
+In this case the information about the percent sea-ice cover is used and only the area inside the ice-edge that is actually covered by sea-ice is used.
+
+EXAMPLE: Let's say that the LTER study region is a rectangle where the length is 900 km and the width is 200 km. Then the surface area would be 900 kmx 200 km which equals 180,000 km2. (Notice however that in using the satellite data we actually use a surface area of 194,319.8 km2.)
+
+If the ice-edge was north of the LTER study region, then we would say that sea-ice extent is 180,000 km2 (ie., the total area of the LTER region because it all lies within the ice-edge). But let's say the half of the LTER study region is covered by 50% sea-ice and the other half is covered by 90% sea-ice, then sea-ice area would be:
+Half of the LTER study region = 180,000 km2 / 2 = 90,000 km2
+sea-ice area = (90,000 km2 * 0.50) + (90,000 km2 * 0.90)
+= 45,000 km2 + 81,000 km2
+= 126,000 km2
+
+EXAMPLE: When to use sea-ice extent and when to use sea-ice area? Because satellites can easily detect the difference between large areas of open water and large areas of sea-ice covered waters, the satellite estimates of sea-ice extent are fairly consistent - even between different kinds of sensors (for example, sensors that detect visible versus infrard versus microwave signals). So the measure of sea-ice extent is fairly robust and can be consistently observed over time and space.
+
+Sea-ice area is in general a less accurate estimate, and its accuracy is strongly dependent on the sensor being used. Each sensor, and the mathematical formulae that convert the signals into sea-ice concentrations, all have caveats. However, if one is aware of these caveats, then the estimate of sea-ice area can be used to interpret general changes in sea-ice cover over time and space. There is no doubt that we need more validation studies to fully understand the errors involved in the estimate of sea-ice area, and in general this is an area of active research.
+</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <otherEntity>
+      <entityName>20160212_34_grid_monow_1178_0116.txt</entityName>
+      <entityDescription>Monthly Open Water Area (km^2) for new PAL sampling area (-200 to 600 lines)
+
+Dataset: GSFC Bootstrap time series data (version 2.0) for 1/1979 to 12/2014, supplemented
+        by preliminary Near-Real-Time-Sea-Ice (NRTSI) data for Jan-Dec 2015 and Jan 2016;
+        this version also has an updated landmask so values will differ slightly from previous
+        releases of this time series
+
+Nodata: -999.00
+
+OW: open water area inside the ice edge (i.e., extent - area)
+
+Caution: The 2015-16 monthly data are preliminary and will be updated when available</entityDescription>
+      <physical>
+        <objectName>20160212_34_grid_monow_1178_0116.txt</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Plain Text</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-pal/34/2/d071de0176274eef89876d818cc60ac4</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Plain Text</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>20160212_34_grid_monext_1178_0116.txt</entityName>
+      <entityDescription>Monthly Sea Ice Extent (km^2) for new PAL sampling area (-200 to 600 lines)
+
+Dataset: GSFC Bootstrap time series data (version 2.0) for 1/1979 to 12/2014, supplemented
+        by preliminary Near-Real-Time-Sea-Ice (NRTSI) data for Jan-Dec 2015 and Jan 2016;
+        this version also has an updated landmask so values will differ slightly from previous
+        releases of this time series
+
+Nodata: -999.00
+
+Ext: total area enclosed by the outer ice edge (so includes ocean areas covered by
+     sea ice concentrations ranging from 15% to 100%)
+
+Caution: The 2015-16 monthly data are preliminary and will be updated when available</entityDescription>
+      <physical>
+        <objectName>20160212_34_grid_monext_1178_0116.txt</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Plain Text</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-pal/34/2/f7c240a0494f3a49e7c99f395c8c8e9d</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Plain Text</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>20160212_34_grid_monarea_1178_0116.txt</entityName>
+      <entityDescription>Monthly Sea Ice Area (km^2) for new PAL sampling area (-200 to 600 lines)
+
+Dataset: GSFC Bootstrap time series data (version 2.0) for 1/1979 to 12/2014, supplemented
+        by preliminary Near-Real-Time-Sea-Ice (NRTSI) data for Jan-Dec 2015 and Jan 2016;
+        this version also has an updated landmask so values will differ slightly from previous
+        releases of this time series
+
+Nodata: -999.00
+
+Area: actual area covered by sea ice inside the outer ice edge (so takes into account
+      the range in sea ice concentration)
+
+Caution: The 2015-16 monthly data are preliminary and will be updated when available</entityDescription>
+      <physical>
+        <objectName>20160212_34_grid_monarea_1178_0116.txt</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Plain Text</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-pal/34/2/138b3488425f5e4ef97eb255f281a136</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Plain Text</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="522.0"
+            type="primary">
+   <timeStamp value="2015-02-11 14:55:05 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>End-of-Day Temperature and Precipitation for Long-Period U.S. and Canadian Stations</title>
+   <summary>
+      <p>Daily maximum and minimum temperature and precipitation amount are available for 497 U.S. and Canadian stations, which were extracted from other DSS datasets because of their long periods of record.  The general period of record is 1874 to 1979, but it varies by individual station.  For the U.S. stations, no period is shorter than 29 years, with most being much longer.  There is more variation in the periods of the Canadian stations.  For specific station information, you should view the <a href="http://rda.ucar.edu/datasets/ds522.0/inventories/">inventories</a>.  Most users will probably want to use the ASCII record format, but a packed-binary version of the data is also available.</p>
+      <p>For more information about the data itself, please see the source datasets.  The Texas stations were extracted from <a href="http://rda.ucar.edu/datasets/ds510.2/">ds510.2</a>.  The other U.S. stations were selected from <a href="http://rda.ucar.edu/datasets/ds510.4/">ds510.4</a>, <a href="http://rda.ucar.edu/datasets/ds520.0/">ds520.0</a>, and <a href="http://rda.ucar.edu/datasets/ds521.0/">ds521.0</a>.  The Canadian stations are from <a href="http://rda.ucar.edu/datasets/ds516.0/">ds516.0</a>.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CGD/CAS &gt; Climate Analysis Section, Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                contact="Dennis Shea"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Maximum/Minimum Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="510.2"/>
+   <relatedDataset ID="510.4"/>
+   <relatedDataset ID="516.0"/>
+   <relatedDataset ID="520.0"/>
+   <relatedDataset ID="521.0"/>
+   <publicationDate>1980-03-20</publicationDate>
+   <contentMetadata>
+      <temporal start="1874-10-01" end="1979-12-31" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <temporalFrequency type="regular" number="4" unit="day"/>
+      <temporalFrequency type="regular" number="2" unit="day"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format>proprietary_ASCII</format>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,929 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-arc.10200.4" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=ARC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>2011ARF_AbvgrdBiomassCN_mod</shortName>
+    <title>Above ground plant and below ground stem biomass of samples from the moderately burned site at Anaktuvuk River, Alaska</title>
+    <creator>
+      <individualName>
+        <givenName>M. Syndonia</givenName>
+        <surName>Bret-Harte</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology,Irving I room 311</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775-7000</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>msbretharte@alaska.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Michelle</givenName>
+        <surName>Mack</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Northern Arizona University, Center for Ecosystem Science and Society, PO Box 5620</deliveryPoint>
+        <city>Northern Arizona University Center for Ecosystem Science and Society PO Box 5620</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>86011</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>Michelle.Mack@nau.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Gaius</givenName>
+        <surName>Shaver</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>7 M B L St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>US</country>
+      </address>
+      <onlineUrl>http://www.mbl.edu/ecosystems/staff/shaver/</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Laundre</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Biological Laboratory,Ecosystems Center</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>jlaundre@mbl.edu</electronicMailAddress>
+      <role>data manager</role>
+    </associatedParty>
+    <pubDate>2015-12-14</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>Above ground plant and below ground stem biomass were measured in 2011 from three sites at and around the Anaktuvuk River Burn: severely burned, moderately burned and unburned. These samples were analyzed for carbon and nitrogen concentrations.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>tundra</keyword>
+      <keyword>recovery</keyword>
+      <keyword>productivity</keyword>
+      <keyword>primary production</keyword>
+      <keyword>populations</keyword>
+      <keyword>organic matter</keyword>
+      <keyword>disturbance</keyword>
+      <keyword>burns</keyword>
+      <keyword>biomass</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. Permission to use this dataset is granted to the Data User free of charge subject to the following terms: 1) Acceptable use. Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not-for-profit professional purposes. The Data User is permitted to produce and distribute derived works from this dataset provided that they are released under the same license terms as those accompanying this Data Set. Any other uses for the Data Set or its derived products will require explicit permission from the dataset owner. 2 ) Redistribution. The data are provided for use by the Data User. The metadata and this license must accompany all copies made and be available to all users of this Data Set. The Data User will not redistribute the original Data Set beyond this collaboration sphere. 3 ) Citation. It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator, Year of Data Publication, Title of Dataset, Publisher, Dataset identifier. For example: Shaver, G. 1989. Above ground biomass in acidic tussock tundra experimental site, 1989, Arctic LTER, Toolik, Alaska. Arctic LTER, Marine Biological Lab, Woods Hole, Ma 02543. 1989gsttbm http://ecosystems.mbl.edu/arc/terrest/biomass/index.shtml 4 ) Acknowledgement. The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data sets were provided by the Arctic LTER. This material is based upon work supported by the National Science Foundation under Grants #DEB-981022, 9211775, 8702328; #OPP-9911278, 9911681, 9732281, 9615411, 9615563, 9615942, 9615949, 9400722, 9415411, 9318529; #BSR 9019055, 8806635, 8507493. 5 ) Notification. The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed. The Data User will provide the data contact with two reprints of any publications resulting from use of the Data Set and will provide copies, or on-line access to, any derived digital products. Notification will include an explanation of how the Data Set was used to produce the derived work. 6 ) Collaboration. The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. By accepting this Data Set, the Data User agrees to abide by the terms of this agreement. The Data Owner shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Disclaimer While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available "as is". The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://arc-lter.ecosystems.mbl.edu/2011arfabvgrdbiomasscnmod</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Anaktuvuk River Fire - Moderate burn</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.212</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.212</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.9522</northBoundingCoordinate>
+          <southBoundingCoordinate>68.9522</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2011-07-24</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-07-28</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>Updated Metadata sheet Version 1: updated metadata form to newer version (with sites sheet). CH March 2013 Version 2 Corrected eml excel .xls -&amp;amp;gt; .xlsx JimL Version 3: Checked keywords against the LTER network preferred list and replaced non-preferred terms. Jim L 15Jan14</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Arctic_LTER</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>7 M B L St.</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02536</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(508) 548-3705</phone>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Arctic LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>The Anaktuvuk River Fire occurred in 2007 on the North Slope of Alaska. In 2008, three eddy covariance towers were established at sites representing unburned tundra, moderately burned tundra, and severely burned tundra. The three sites (unburned, moderately burned and severely burned) were harvested for analysis of biomass, carbon concentration and nitrogen concentration during the summer of 2011. Units: Tissue mass data are expressed in g/m2, carbon and nitrogen concentrations are expressed in percentages.Sampling description: Two transects at each of three sites were harvested for aboveground biomass, where transect 108 and 109 are from the unburned control site, 101 and 114 are from the severely burned site and 103 and 104 are from the moderately burned site. Quadrats measuring 10 x 40 cm were harvested every 5 meters over 50 meter transects for a total of 20 quadrats per site. Aboveground biomass is considered &amp;quot;within&amp;quot; the quadrat if it is associated with a meristem that is within the quadrat. Briefly, harvest method were as follows: the rhizome-containing soil layer was harvested by cutting around each quadrat boundary with a serrated bread knife. All aboveground live vascular plant biomass, and all live rhizomes and belowground stems within the quadrat boundaries, were separated by species. Current-year&#226;&#8364;&#8482;s growth from meristems located within the quadrat was included in the sample even if that growth extended outside the quadrat. New growth from meristems located outside, but that extended into the quadrat, was not included in the sample. For older stems that crossed the boundary, only the portion within the quadrat boundaries was included. Biomass produced in the current year by each vascular plant was separated into leaves, new aboveground stems, and inflorescences with their peduncles, except that new growth from rhizomes was included with previous years&#226;&#8364;&#8482; growth. Older biomass was separated into belowground stems and rhizomes, aboveground stems, and (for evergreens only) old leaves. All graminoid, forb, and deciduous shrub leaves were considered to be new biomass. Belowground stems were separated from aboveground old stems at the position of the first adventitious roots. Vascular plant litter and attached dead biomass were saved, but not separated by species. These biomass harvest methods are consistent with our previous and ongoing LTER studies and thus allow direct comparisons. Lichens, mosses (green portions only), and liverworts (Marchantia polymorpha from burned sites) were not separated into species or new and old growth. Green moss biomass has been estimated to consist of approximately 20% new growth in those species where old and new growth can be distinguished, but they are not the majority of moss species present in tussock tundra. All plant samples were dried at 60oC for 72 hours and weighed to the nearest milligram at Toolik Field Station. Samples lighter than 0.004 g were weighed on a five-place scale in Woods Hole, MA. Samples were weighed in their bags unless they were lighter than 10 standard deviations of the average weight of the bag. We pooled material of each plant tissue type (excluding roots) and species from all quadrats from a given transect into blocks where quadrats 1-5 and 6-10 for each transect were lumped, resulting in four blocks per sample site. Blocked samples were ground in a Wiley mill with a 40 mm sieve and analyzed for C and N content by a Thermo Scientific Flash 2000 NC Soil Analyzer (Thermo Fisher Scientific, Cambridge, UK). C and N pools in biomass and NPP were calculated by multiplying the biomass of each plant species and tissue component by the appropriate concentration of C or N (from the pooled sample), and then summing over all species and tissues for each growth form in each quadrat. For further information reference: Bret-Harte, M.S., Mack, M.C., Shaver, G.R., Huebner, D.C., Johnston, M., Johica, C.A., Pizano, M.C., Reiskind, J.A. (2013) The response of arctic vegetation and soils following the Anaktuvuk River fire of 2007. Philosophical Transactions of the Royal Society: Biological Science, Submitted. Biomass harvest methods: Shaver GR, Chapin FS, III. Production: biomass relationships and element cycling in contrasting arctic vegetation types. Ecological Monographs. 1991; 61(1):1-31. Bret-Harte MS, Mack MC, Goldsmith GR, Sloan D, DeMarco J, Shaver GR, et al. Plant functional types do not predict biomass responses to removal and fertilization in Alaskan tussock tundra. Journal of Ecology. 2008; 96:713-26. Zeros/Dots:If no sample of a tissue type was present in the biomass data, zeros were used. Where calculations were not possible dots were used as place holders. Taxonomic nomenclature: scientific names reflect historic names in conformity with other documents on this site. Note that Ledum palustre is now currently known as Rhododendron tomentosum, Saxifrage nelsoniana is now known as Micranthes nelsoniana (information from the Integrated Taxonomic Information System (itis.gov)).</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>2011ARF_AbvgrdBiomassCN_mod_csv</entityName>
+      <entityDescription>Above ground plant and below ground stem biomass of samples from the moderately burned site at Anaktuvuk River, Alaska</entityDescription>
+      <physical>
+        <objectName>2011ARF_AbvgrdBiomassCN_mod.csv</objectName>
+        <size>16026</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-arc/10200/4/f9ebfef87a81a895ef03d05604713bf1</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of pluck start</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD-mon-YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Sampling area</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Fire disturbance</attributeName>
+          <attributeLabel>Fire disturbance</attributeLabel>
+          <attributeDefinition>burn severity: unburned, moderately burned or severely burned</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>burn severity: unburned, moderately burned or severely burned</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Growth Form</attributeName>
+          <attributeLabel>Growth Form</attributeLabel>
+          <attributeDefinition>Taxonomic grouping of sample</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Taxonomic grouping of sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>plant species or type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>plant species or type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tissue</attributeName>
+          <attributeLabel>Tissue</attributeLabel>
+          <attributeDefinition>Tissue type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tissue type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Biomass Categroy</attributeName>
+          <attributeLabel>Biomass Categroy</attributeLabel>
+          <attributeDefinition>New growth, old growth or below ground growth</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>New growth, old growth or below ground growth</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q1</attributeName>
+          <attributeLabel>103-Q1</attributeLabel>
+          <attributeDefinition>Oven dried weight of sample collected in a quadrat.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q2</attributeName>
+          <attributeLabel>103-Q2</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q3</attributeName>
+          <attributeLabel>103-Q3</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q4</attributeName>
+          <attributeLabel>103-Q4</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q5</attributeName>
+          <attributeLabel>103-Q5</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q6</attributeName>
+          <attributeLabel>103-Q6</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q7</attributeName>
+          <attributeLabel>103-Q7</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q8</attributeName>
+          <attributeLabel>103-Q8</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q9</attributeName>
+          <attributeLabel>103-Q9</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>103-Q10</attributeName>
+          <attributeLabel>103-Q10</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q1</attributeName>
+          <attributeLabel>104-Q1</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q2</attributeName>
+          <attributeLabel>104-Q2</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q3</attributeName>
+          <attributeLabel>104-Q3</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q4</attributeName>
+          <attributeLabel>104-Q4</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q5</attributeName>
+          <attributeLabel>104-Q5</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q6</attributeName>
+          <attributeLabel>104-Q6</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q7</attributeName>
+          <attributeLabel>104-Q7</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q8</attributeName>
+          <attributeLabel>104-Q8</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q9</attributeName>
+          <attributeLabel>104-Q9</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>104-Q10</attributeName>
+          <attributeLabel>104-Q10</attributeLabel>
+          <attributeDefinition>oven dried weight of sample collected in a quadrat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Average (g/m2)</attributeName>
+          <attributeLabel>Average (g/m2)</attributeLabel>
+          <attributeDefinition>Average of all quadrats in a particular Fire disturbance for that species and tissue type</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Std Err (g/m2)</attributeName>
+          <attributeLabel>Std Err (g/m2)</attributeLabel>
+          <attributeDefinition>Standard error of the mean for species and tissue type</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>count</attributeName>
+          <attributeLabel>count</attributeLabel>
+          <attributeDefinition>Number of quadrats</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>%C 103 Q1-5</attributeName>
+          <attributeLabel>%C 103 Q1-5</attributeLabel>
+          <attributeDefinition>Average percent carbon in the oven dried samples from quadrats 1-5 in transect A (where A is quadrats 101, 103 or 108 and B is quadrat 114, 104 or 108 depending on burn severity)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>%N 103 Q1-5</attributeName>
+          <attributeLabel>%N 103 Q1-5</attributeLabel>
+          <attributeDefinition>Average percent nitrogen in the oven dried samples from quadrats 1-5 in transect A (where A is quadrats 101, 103 or 108 and B is quadrat 114, 104 or 108 depending on burn severity)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>%C 103 Q6-10</attributeName>
+          <attributeLabel>%C 103 Q6-10</attributeLabel>
+          <attributeDefinition>Average percent carbon in transect A quadrats 6-10</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>%N 103 Q6-10</attributeName>
+          <attributeLabel>%N 103 Q6-10</attributeLabel>
+          <attributeDefinition>Average percent nitrogen in transect A quadrats 6-10</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>%C 104 Q1-5</attributeName>
+          <attributeLabel>%C 104 Q1-5</attributeLabel>
+          <attributeDefinition>Average percent carbon in transect B quadrats 6-10</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>%N 104 Q1-5</attributeName>
+          <attributeLabel>%N 104 Q1-5</attributeLabel>
+          <attributeDefinition>Average percent nitrogen in transect B quadrats 6-10</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>%C 104 Q6-10</attributeName>
+          <attributeLabel>%C 104 Q6-10</attributeLabel>
+          <attributeDefinition>Average percent carbon in transect B quadrats 6-10</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>%N 104 Q6-10</attributeName>
+          <attributeLabel>%N 104 Q6-10</attributeLabel>
+          <attributeDefinition>Average percent nitrogen in transect B quadrats 6-10</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>2011ARF_AbvgrdBiomassCN_mod_excel</entityName>
+      <entityDescription>Excel file with metadata and data sheets. Above ground plant and below ground stem biomass of samples from the moderately burned site at Anaktuvuk River, Alaska</entityDescription>
+      <physical>
+        <objectName>2011ARF_AbvgrdBiomassCN_mod.xlsx</objectName>
+        <size>258691</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-arc/10200/4/20054ec0fde238a175a6e140844140bd</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>document</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <ns2:unit abbreviation="g/m&#178;" constantToSI="0" id="gramPerMeterSquared" multiplierToSI="0.001" name="gramPerMeterSquared" parentSI="kilogramsPerSquareMeter" unitType="arealMassDensity">
+          <ns2:description>grams per square meter</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="number" constantToSI="0" id="number" multiplierToSI="1" name="number" parentSI="dimensionless" unitType="dimensionless">
+          <ns2:description>dimensionless number, i.e., ratio, count</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="%" constantToSI="0" id="percent" multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless">
+          <ns2:description>ratio of two quantities as percent composition (1:100)</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

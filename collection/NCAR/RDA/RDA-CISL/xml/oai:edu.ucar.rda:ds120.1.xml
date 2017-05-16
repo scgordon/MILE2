@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="120.1"
+            type="primary">
+   <timeStamp value="2015-02-11 13:32:02 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>ERA40 Monthly Mean 2.5 Degree Latitude-Longitude Gridded Upper Air Analysis on Pressure Surfaces from ECMWF</title>
+   <summary>
+      <p>The ECMWF Re-Analysis (ERA40) is a global atmospheric analysis of many
+              conventional observations and satellite data streams for the
+              period September 1957 to August 2002.  There are numerous data products that are separated
+              into dataset series' based on resolution, vertical coordinate
+              reference, and likely research applications.  Descriptions of the series
+              organization and direct links to information about all ERA40 products
+              are <a href="http://rda.ucar.edu/cgi-bin/joey/era40sum.pl?ds=ds120.1">available</a>.</p>
+      <p>This dataset contains 11 variables on 23 pressure surfaces on an equally spaced global 2.5 degree latitude-longitude grid.
+              Monthly means have been computed for each analysis hour as
+              well as a daily mean.</p>
+      <p>The ERA-Interim data from ECMWF is an update to the ERA-40 project.  The ERA-Interim data starts in 1989 and has a higher horizontal resolution (T255, N128 nominally 0.703125 degrees) than the ERA-40 data (T159, N80 nominally  1.125 degrees).  ERA-Interim is based on a more current model than ERA-40 and uses 4DVAR (as opposed to 3DVAR in ERA-40).  ECMWF will continue to run the ERA-Interim model in near real time through at least 2010, and possibly longer.  This data is available in        <a href="http://rda.ucar.edu/datasets/ds627.0/">ds627.0</a>. </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"
+                citable="yes"/>
+   <restrictions>
+      <access>
+         <p>We are allowed to distribute this data to US scientists, scientists visiting US organizations, and Canadian scientists affiliated with UCAR member organizations only.</p>
+      </access>
+      <usage>
+         <p>The data can be used for non-commercial research only.</p>
+      </usage>
+   </restrictions>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Convergence/Divergence</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vorticity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Boundary Layer Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Air Quality &gt; Tropospheric Ozone</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">ERA40DAS &gt; ERA40 Data Assimilation System</platform>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <project vocabulary="GCMD">ERA40 &gt; ECMWF ERA40 Reanalysis Project</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <referenceURL url="http://www.ecmwf.int/publications/library/do/references/list/192">ERA40 Report Series</referenceURL>
+   <relatedResource url="http://www.ecmwf.int/en/research/climate-reanalysis">ECMWF's Climate Reanalysis web site</relatedResource>
+   <relatedDataset ID="627.0"/>
+   <publicationDate>2004-02-04</publicationDate>
+   <contentMetadata>
+      <temporal start="1957-09-01 00:00 +0000"
+                end="2002-08-31 18:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="73"
+               startLon="0E"
+               startLat="90N"
+               endLon="357.5E"
+               endLat="90S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

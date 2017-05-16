@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="759.4"
+            type="primary">
+   <timeStamp value="2015-07-21 18:53:03 -0600"/>
+   <doi>10.5065/D69Z92Z5</doi>
+   <continuingUpdate value="no"/>
+   <title>ETOPO1, Global 1 Arc-minute Ocean Depth and Land Elevation from the US National Geophysical Data Center (NGDC)</title>
+   <summary>
+      <p>ETOPO1 is a 1 arc-minute global relief model of Earth's surface that integrates land topography and ocean bathymetry. It was built from numerous global and regional data sets, and is available in "Ice Surface" (top of Antarctic and Greenland ice sheets) and "Bedrock" (base of the ice sheets) versions. Data are available in two grid registrations. For grid/node-registration, cells are centered on lines of latitude and longitude (21601 by 10801 cells), and for cell/pixel-registration, cell edges are along lines of latitude and longitude (21600 by 10800 cells). The grid-registered is the authoritative registration. The cell-registered is derived from the grid-registered, and the conversion produces slightly flattened relief.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                contact="Barry W. Eakins, (303)497-6505, Barry.Eakins@noaa.gov"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Frozen Ground &gt; Ground Ice</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Topography &gt; Terrain Elevation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Bathymetry/Seafloor Topography &gt; Seafloor Topography</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">SATELLITES</platform>
+   <platform vocabulary="GCMD">SHIPS</platform>
+   <platform vocabulary="GCMD">MAPS</platform>
+   <topic vocabulary="ISO">elevation</topic>
+   <reference type="technical_report">
+      <authorList>Amante, C. and B. W. Eakins</authorList>
+      <year>2009</year>
+      <title>ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis</title>
+      <organization reportID="24" pages="19">NOAA Technical Memorandum NESDIS NGDC</organization>
+      <url>http://rda.ucar.edu/datasets/ds759.4/docs/ETOPO1.pdf</url>
+   </reference>
+   <relatedResource url="http://www.ngdc.noaa.gov/mgg/global/global.html">ETOPO1</relatedResource>
+   <relatedDataset ID="759.2"/>
+   <relatedDataset ID="759.3"/>
+   <publicationDate>2011-11-08</publicationDate>
+   <contentMetadata>
+      <temporal start="9999" end="9999" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="21601"
+               numY="10801"
+               startLon="180W"
+               startLat="90S"
+               endLon="180E"
+               endLat="90N"
+               xRes="0.01667"
+               yRes="0.01667"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

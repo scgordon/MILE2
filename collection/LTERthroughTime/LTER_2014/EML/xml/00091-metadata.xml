@@ -1,0 +1,773 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.76.2" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=MCM,o=lter,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset>
+		<shortName>LIMNO_FLOWCAM</shortName>
+		<title>McMurdo Dry Valleys Lakes phytoplankton identification and census</title>
+		<creator>
+			<individualName>
+				<givenName>Diane</givenName>
+				<surName>McKnight</surName>
+			</individualName>
+			<address>
+				<deliveryPoint>INSTAAR</deliveryPoint>
+				<deliveryPoint>1560 30th Street</deliveryPoint>
+				<deliveryPoint>Campus Box 450 </deliveryPoint>
+				<city>Boulder</city>
+				<administrativeArea>CO</administrativeArea>
+				<postalCode>80309-0450</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">(303)492-4687</phone>
+			<electronicMailAddress>Diane.Mcknight@colorado.edu</electronicMailAddress>
+		</creator>
+		<creator>
+			<individualName>
+				<givenName>John</givenName>
+				<surName>Priscu</surName>
+			</individualName>
+			<address>
+				<deliveryPoint> Department of Biology</deliveryPoint>
+				<deliveryPoint>309 Lewis Hall</deliveryPoint>
+				<deliveryPoint>   Montana State University </deliveryPoint>
+				<city>Bozeman</city>
+				<administrativeArea>MT</administrativeArea>
+				<postalCode> 59717</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">(406)994-3250</phone>
+			<electronicMailAddress>jpriscu@montana.edu</electronicMailAddress>
+		</creator>
+		<metadataProvider>
+			<organizationName>McMurdo Dry Valleys LTER</organizationName>
+			<address>
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>University of New Mexico</deliveryPoint>
+				<deliveryPoint>MSC03 2020</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505-277-3418</phone>
+			<phone phonetype="fax">505-277-0304</phone>
+			<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+		</metadataProvider>
+		<associatedParty>
+			<individualName>
+				<givenName>Frank</givenName>
+				<surName>Dragotta </surName>
+			</individualName>
+			<role>Lab and Field Crew</role>
+		</associatedParty>
+		<associatedParty>
+			<individualName>
+				<givenName>Katherine</givenName>
+				<surName>Hell</surName>
+			</individualName>
+			<role>Lab and Field Crew</role>
+		</associatedParty>
+		<associatedParty>
+			<individualName>
+				<givenName>Amy</givenName>
+				<surName>Chiuchiolo</surName>
+			</individualName>
+			<role>Lab and Field Crew</role>
+		</associatedParty>
+		<associatedParty>
+			<individualName>
+				<givenName>Inigo</givenName>
+				<surName>San Gil</surName>
+			</individualName>
+			<role>data custodian</role>
+		</associatedParty>
+		<abstract>
+			<section>
+				<para> An important part of the McMurdo Long Term Ecological Research (LTER) is monitoring of spatiotemporal patterns, the ecology and biogeochemistry in perennial ice-covered lakes. This FlowCam data set addresses this core area of research by quantifying algae and micron-size organisms at specific depths in the Lakes of the McMurdo Dry Valleys.</para>
+			</section>
+		</abstract>
+		<keywordSet>
+			<keyword keywordType="theme"> lake</keyword>
+			<keyword keywordType="theme"> limnology</keyword>
+			<keyword keywordType="theme"> algae</keyword>
+			<keyword keywordType="theme"> Antarctica</keyword>
+			<keyword keywordType="place">McMurdo Dry Valleys</keyword>
+			<keyword keywordType="theme">MCM</keyword>
+		</keywordSet>
+		<additionalInfo>
+		<section>
+		<title>Publications</title>
+			<para>Sarah A. Spaulding, Jewson, D. H., Bixby, R. J., Nelson, H., Diane M. McKnight, 2012: Automated measurement of diatom size. Limnology and Oceanography&#8212;Methods, 10: 882-890. DOI: 10.4319/lom.2012.10.882</para>
+<para>
+Sieracki, C. K., Sieracki, M. E., and Yentsch, C. S., 1998: An imaging-in-flow system for automated analysis of marine microplankton. Marine ecology progress series, 168285-296.
+</para><para>
+Goss, NR (Goss, Natasha R.); Mladenov, N (Mladenov, Natalie);; Seibold, CM (Seibold, Christine M.); Chowanski, K (Chowanski, Kurt); Seitz, L (Seitz, Leslie);;Wellemeyer, TB (Wellemeyer, T. Barret); Williams, MW (Williams, Mark W.), 2013: Quantifying particulate matter deposition in Niwot Ridge, Colorado: Collection of dry deposition using marble inserts and particle imaging using the FlowCAM. Atmospheric Environment. 80: 549-558. DOI: 10.1016/j.atmosenv.2013.08.037</para>
+		</section>
+			<section>
+				<title>Notes</title>
+				<para>
+					<literalLayout> Data contained in these files has been subjected to quality control standards
+      imposed by the investigator. The user of this data should be aware that, while efforts have
+      been taken to ensure that these data are of the highest quality, there is no guarantee of
+      perfection for the data contained herein and the possibility of errors exists. If you
+      encounter questionable data, please contact the MCM LTER data manager corrected or qualified.
+      Thus, these data may be modified and future data will be appended.</literalLayout>
+				</para>
+			</section>
+		</additionalInfo>
+		<intellectualRights>
+			<section>
+				<title>MCM LTER data may be used freely with the following restrictions:</title>
+				<para>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<literalLayout>The Principal Investigator be sent a notice stating reasons for acquiring any
+         data and a description of the publication intentions. </literalLayout>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<literalLayout>The Principal Investigator of the data set be sent a copy of the report or
+         manuscript prior to submission and be adequately cited in any resultant
+        publications.</literalLayout>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<literalLayout>A copy of any resultant publications should be sent to the McMurdo data
+         manager and principal investigator.</literalLayout>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<literalLayout>The end-user follow the guidelines set forth in the LTER Network Data Access
+         Policy, Data Access Requirements, and General Data Use Agreement found at
+         http://www.mcmlter.org/data_guidelines.htm</literalLayout>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</para>
+			</section>
+		</intellectualRights>
+		<distribution>
+			<online>
+				<url>http://www.mcmlter.org/queries/limno_results.jsp?begDate=01/01/0001&amp;endDate=01/01/3000&amp;dataType=FLOWCAM</url>
+			</online>
+		</distribution>
+		<coverage>
+			<geographicCoverage>
+				<geographicDescription>Site Name: Lake Fryxell 
+    Lake Fryxell is a lake 4.5 kilometres (2.8 mi) long, between Canada Glacier and Commonwealth Glaciers at the lower end of Taylor Valley in Victoria Land, Antarctica. Mapped by the British Antarctic Expedition under Robert Falcon Scott, 1910-13, the lake was visited by Professor T.L. P&#233;w&#233; during USN Operation Deep Freeze, 1957-58, who named it for Dr. Fritiof M. Fryxell, glacial geologist of Augustana College, Illinois.
+     </geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>163.0343628</westBoundingCoordinate>
+					<eastBoundingCoordinate>163.2678223</eastBoundingCoordinate>
+					<northBoundingCoordinate>-77.5933910</northBoundingCoordinate>
+					<southBoundingCoordinate>-77.6255103</southBoundingCoordinate>
+					<boundingAltitudes>
+						<altitudeMinimum>0</altitudeMinimum>
+						<altitudeMaximum>50</altitudeMaximum>
+						<altitudeUnits>meter</altitudeUnits>
+					</boundingAltitudes>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage>
+				<rangeOfDates>
+					<beginDate>
+						<calendarDate>2007</calendarDate>
+					</beginDate>
+					<endDate>
+						<calendarDate>2014</calendarDate>
+					</endDate>
+				</rangeOfDates>
+			</temporalCoverage>
+		</coverage>
+		<maintenance>
+			<description>
+				<section>
+					<para>
+       Data from this table was submitted to the UNM by Diane McKnight's team at
+       INSTAAR, from Katherine Hell to Inigo San Gil.
+       </para>
+					<para> 
+       The raw data are stored in folders that encode metadata such as the location code, the limno run, date and depth.
+Subfolders contain data that encodes the repeat subsample (Run1, Run2 Run 3).
+Each Run folder contain two folders, a "Class data" and "Whole Run" folder:
+Class Datahas per-class data: a class refers to taxonomy classification, 3 to 5 files per class are here:
+class.csv : summary + paragraph on particle measurements, each measurement with basic stats.
+class.txt : all data, not just stats - includes instrument calibration parameters and about 20 parameters
+class_summary.txt : a copy of the [class].csv file
+class_picture.tif : a folio with pictures of the particles
+Whole Run aggregates the class-files for all classed in two main files, but no pictures.
+_data.csv : aggregates the 'raw' data (with 20 params).
+_summary.csv : concatenates the per-class summary files
+     </para>
+					<para>
+     Table LIMNO FLOWCAM created in DB with 3 referencial constraints and one unique key on limnorun, depth, date_time, run and class. Labels on columns as follow:
+     DATASET_CODE	LIMNO_RUN	LOCATION_CODE	LOCATION_NAME	DATE_TIME	DEPTH	RUN	CLASS	COUNT	PARTICLE_CONCENTRATION	ASPECT_RATIO	DIAMETER	EDGE_GRADIENT	LENGTH PERIMETER	VOLUME	WIDTH	IMAGE	RAW_DATA_LINK COMMENTS
+     </para>
+					<para>There are links to the raw data from which these data are derived, in addition to links to figures in the website.  This XML cannot transport all that information, and we urge you to visit the specialize query pages for a better experience and http://mcm.lternet.edu </para>
+				</section>
+			</description>
+		</maintenance>
+		<contact>
+			<organizationName>McMurdo Dry Valleys LTER</organizationName>
+			<address>
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>University of New Mexico</deliveryPoint>
+				<deliveryPoint>MSC03 2020</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505-277-3418</phone>
+			<phone phonetype="fax">505-277-0304</phone>
+			<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+		</contact>
+		<publisher>
+			<organizationName>McMurdo Dry Valleys LTER</organizationName>
+			<address>
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>University of New Mexico</deliveryPoint>
+				<deliveryPoint>MSC03 2020</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505-277-3418</phone>
+			<phone phonetype="fax">505-277-0304</phone>
+			<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+		</publisher>
+		<methods>
+			<methodStep>
+				<description>
+					<section>
+						<title>General Methodology</title>
+						<para> 
+       Lake water samples are collected at specific depths with a five-liter Niskin bottle 
+       during normal LTER limnological sampling. In a darkened environment, water is decanted 
+       through tubing directly from the Niskin bottle into three-150 mL borosilicate glass 
+       bottles with Teflon screw cap liners (2-light, 1-dark). Each sample is inoculated with 
+       an appropriate volume.
+						</para>
+						<para>
+						<itemizedlist>
+							<listitem>
+								<para>Material</para>
+								<itemizedlist>
+									<listitem>
+										<para>Sample</para>
+									</listitem>
+									<listitem>
+										<para>Centrifuge bottles</para>
+									</listitem>
+									<listitem>
+										<para>Labeling tape and Sharpie</para>
+									</listitem>
+									<listitem>
+										<para>o	5mL volumetric pipet (glass)
+(Volumetric glass pipets are cleaned with water and then soaked in ready HCl over night after which they&#8217;re taken out to dry on the rack.)
+</para>
+									</listitem>
+									<listitem>
+										<para>Ethanol 95%</para>
+									</listitem>
+									<listitem>
+										<para>HCl</para>
+									</listitem>
+									<listitem>
+										<para>&#8220;green&#8221; cleaning solution</para>
+									</listitem>
+									<listitem>
+										<para>&#8220;Focusing solution&#8221;</para>
+									</listitem>
+									<listitem>
+										<para>Shanking table</para>
+									</listitem>
+									<listitem>
+										<para>Flowcell</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+							<listitem>
+								<para>Sample preparation</para>
+								<orderedlist>
+									<listitem>
+										<para>Invert sample bottle 3 times	</para>
+									</listitem>
+									<listitem>
+										<para>Fill 150mL of original sample into centrifuge bottles</para>
+									</listitem>
+									<listitem>
+										<para>Label bottle with sample ID</para>
+									</listitem>
+									<listitem>
+										<para>Shake bottle at 150rpm for 4min. on mixing table</para>
+									</listitem>
+									<listitem>
+										<para>Note exact time after shaking on bottle</para>
+									</listitem>
+									<listitem>
+										<para>Let sit/settle for 24hrs</para>
+									</listitem>
+									<listitem>
+										<para>After exactly 24h aspirate the sample at the meniscus down to 30mL (careful to not stick the hose 
+    too deep into the settled sample to not loose particles)
+</para>
+									</listitem>
+								</orderedlist>
+								<para>Centrifuge bottles are cleaned after every sample. Fill half way with clean water and shake then empty bottle.  Clean with lab soap, water and scrubber/brush then rinse with clean water until no soap left. Air-dry bottles and caps until completely dry.</para>
+							</listitem>
+							<listitem>
+								<para>Installing a flowcell</para>
+								<orderedlist>
+									<listitem>
+										<para>Remove the Flow Cell Holder from the Flow Cell Holder Mount by loosening the thumb screw by 
+ turning counter-clockwise. </para>
+									</listitem>
+									<listitem>
+										<para>Unscrew and remove the retaining cap from the base of the Flow Cell Holder. This is accomplished 
+by turning  the cap counter-clockwise.</para>
+									</listitem>
+									<listitem>
+										<para>Place the appropriate flow cell into the slots of the Flow Cell Holder. </para>
+									</listitem>
+									<listitem>
+										<para>Re-install the retaining cap onto the Flow Cell Holder by turning the cap clockwise. Gently hold the flow cell straight when tightening the cap. The cap is sufficiently tightened when the flow cell cannot be moved.  Do not over- tighten the Flow Cell Holder cap. Excess pressure can break the glass flow cell.</para>
+									</listitem>
+									<listitem>
+										<para>Re-install the Flow Cell Holder onto the FlowCell Holder Mount and tighten the thumb screw. </para>
+									</listitem>
+									<listitem>
+										<para>Connect the flow cell tubing:  Attach the inlet tube of the flow cell to the Sample Funnel or Pipette tip. Sample fluid should enter the top of the flow cell and flow down through and exit at the bottom. The shorter and  straighter the tubing, the better.</para>
+									</listitem>
+								</orderedlist>
+							</listitem>
+							<listitem>
+								<para>Starting and final cleanup</para>
+								<orderedlist>
+									<listitem>
+										<para>Turn on FlowCAM </para>
+									</listitem>
+									<listitem>
+										<para>	Fill pipet tip with Ethanol/ Acetone and run on prime/forward until fluid has finished running through flowcell </para>
+									</listitem>
+									<listitem>
+										<para>	In the main window, select the setup  &gt;setup and focus. Watch for particles</para>
+									</listitem>
+									<listitem>
+										<para>If starting up, begin sample run if focused, If shutting down; After Ethanol/Acetone has left tubing, set the speed to off and remove tubing from peristaltic pump</para>
+									</listitem>
+								</orderedlist>
+							</listitem>
+				            <listitem>
+								<para>Focusing</para>
+								<para>After the starting cleanup the camera needs to be focused, either using the waste of old, already analyzed sample (similar to the one you&#8217;re about to run), or a concentrated solution</para>
+							</listitem>
+							<listitem>
+								<para>Run Sample</para>
+								<para>3x5mL of each sample are run (3 replicates of each sample).</para>
+							</listitem>
+							<listitem>
+								<para>Decontamination (BETWEEN SAMPLES). </para>
+								<para> After sample leaves the flowcell , repeat the steps above. Only fill pipet tip half-way, making sure to rinse all sides of pipet tip. If highly concentrated sample, run on reverse first </para>
+							</listitem>
+							<listitem>
+								<para> Shutting down and maintenance</para>
+							</listitem>
+							<listitem>
+								<para>Data analysis</para>
+								<para>Classification: To make a new classification a library has to be established first as well as filters within the library!
+Libraries are for grouping similar particles in order to create a filter. Typically a user will want to use between 6-60 particles in a Library to create a filter
+</para>
+<para>Library and Classification details in manual link below.</para>
+							</listitem>
+						</itemizedlist>
+						
+						</para>
+						<para>A copy of the FlowCam manual can be obtained at 
+						http://mcmlter.org/data/lakes/biology/core/flowcam/FlowCAM_Manual_Ver3.0_SEP11.pdf</para>
+					</section>
+				</description>
+			</methodStep>
+		</methods>
+		<dataTable>
+			<entityName>LIMNO_FLOWCAM</entityName>
+			<entityDescription>LIMNO_FLOWCAM data units and columns </entityDescription>
+			<physical>
+				<objectName>LIMNO_FLOWCAM</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>27</numHeaderLines>
+						<numFooterLines>1</numFooterLines>
+						<recordDelimiter>\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://www.mcmlter.org/queries/limno_results.jsp?begDate=01/01/0001&amp;endDate=01/01/3000&amp;dataType=FLOWCAM</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>DATASET_CODE</attributeName>
+					<attributeDefinition>Code to ID the data table</attributeDefinition>
+					<storageType typeSystem="Text" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Code to ID the data table, in this case, LIMNO_FLOWCAM</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>LIMNO_RUN</attributeName>
+					<attributeLabel>Limno Run</attributeLabel>
+					<attributeDefinition>Code for lake's sampling location and date</attributeDefinition>
+					<storageType typeSystem="Text" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Code for lake's sampling location and date</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>LOCATION_NAME</attributeName>
+					<attributeDefinition>Name of lake where measurement was made</attributeDefinition>
+					<storageType typeSystem="Text" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Name of lake where measurement was made, for example: Lake Fryxell</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>LOCATION_CODE</attributeName>
+					<attributeDefinition>Code for site where measurement was made</attributeDefinition>
+					<storageType typeSystem="Text" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Code for site where measurement was made</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>DATE_TIME</attributeName>
+					<attributeDefinition>Date on which sample was gathered</attributeDefinition>
+					<storageType typeSystem="Date" />
+					<measurementScale>
+						<dateTime>
+							<formatString>mm/dd/yyyy</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>DEPTH_M</attributeName>
+					<attributeDefinition>Distance below ice from which sample was drawn, in meters</attributeDefinition>
+					<storageType typeSystem="Number" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">1</minimum>
+									<maximum exclusive="false">50</maximum>
+								</bounds>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>RUN</attributeName>
+					<attributeDefinition>Run is an identifier to distinguish the sub-samples of the sample, meant for repetition for statistical significance of the main Limno Run.  Usually 1,2 and 3</attributeDefinition>
+					<storageType typeSystem="Number" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Run is an identifier to distinguish the sub-samples of the sample, meant for repetition for statistical significance of the main Limno Run.  Usually 1,2 and 3</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>CLASS</attributeName>
+					<attributeDefinition>The class name of the organism described</attributeDefinition>
+					<storageType typeSystem="Text" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>The class name of the organism described, for example, Ciliates</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>COUNT</attributeName>
+					<attributeDefinition>The total organisms counted</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>dimensionless</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>integer</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>PARTICLE_CONCENTRATION</attributeName>
+					<attributeDefinition>The number of particles per mililiter of sample</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>numberPerMilliliter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>ASPECT_RATIO</attributeName>
+					<attributeDefinition>ratio between its sizes in different dimensions. For example, the aspect ratio of a rectangle is the ratio of width to height</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>dimensionless</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>DIAMETER</attributeName>
+					<attributeDefinition>Equivalent Spherical Diameter, in micrometers</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>micrometer</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>EDGE_GRADIENT</attributeName>
+					<attributeDefinition>Average intensity of pixels making up the outside border of a particle after a Sobel Edge Detect convolution filter has been applied to the raw image. </attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>dimensionless</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>LENGTH</attributeName>
+					<attributeDefinition> the length of the particle (max.) in microns</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>micrometer</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>PERIMETER</attributeName>
+					<attributeDefinition>Total length of the Edges making up a particle including the edges of any holes </attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>micrometer</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>VOLUME</attributeName>
+					<attributeDefinition>Sphere volume calculated from Diameter (Equivalent Sphere diameter)</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>micrometerCubed</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>WIDTH</attributeName>
+					<attributeDefinition>- width of a particle (min.) in microns</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>micrometer</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>RAW_DATA_LINK,</attributeName>
+					<attributeDefinition>file name containing the raw data for all these summarized data</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>file name containing the raw data for all these summarized data. Example: FRX_L1_10m_11_11_2007_Run2_data.csv</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>IMAGE</attributeName>
+					<attributeDefinition>Name of file that contains the particle image</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Name of file that contains the particle image. Example: FRX_L1_10m_11_11_2007_Run2_Lepadella Triptera_pictures.tif</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>COMMENTS</attributeName>
+					<attributeDefinition>Comments about the sample or data record</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Comments about the sample or data record</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+		</dataTable>
+	</dataset>
+	<additionalMetadata>
+		<metadata>
+			<ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+				<ns2:unit abbreviation="&#181;m&#179;" constantToSI="0" id="micrometerCubed" multiplierToSI="0.0000000000000000001" name="micrometerCubed" parentSI="meterCubed" unitType="volume">
+					<ns2:description>cubic micro meter, a volume measurement</ns2:description>
+				</ns2:unit>
+			</ns2:unitList>
+		</metadata>
+	</additionalMetadata>
+</eml:eml>

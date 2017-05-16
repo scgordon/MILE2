@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="684.0"
+            type="historical">
+   <timeStamp value="2015-02-11 17:10:13 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Waliser and Zhou Satellite Equatorial Crossing Time-Corrected Monthly Tropical OLR and HRC Datasets</title>
+   <summary>
+      <p>Gridded analyses of OLR (Outgoing Longwave Radiation) and HRC
+              (Highly Reflective Cloud) anomalies wherein the bias due to
+              changing equatorial crossing times has been estimated and removed. The OLR data is available for 30N to 30S and the HRC is available for 24N to 24S.   This dataset also contains
+              long term monthly climatologies for both OLR and HRC.</p>
+      <p>
+         <font color="red">Note that this dataset is obsolete and users should use dataset <a href="http://rda.ucar.edu/datasets/ds684.1/">ds684.1</a> instead.</font>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="SUNY-SB/MSRC/ITPA &gt; Institute for Terrestrial and Planetary Atmospheres, Marine Sciences Research Center, State University of New York, Stony Brook"
+                contact="Duane Waliser"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Longwave Radiation</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Waliser, D.E. and W. Zhou</authorList>
+      <year>1997</year>
+      <title>Removing Satellite Equatorial Crossing Time Biases from the OLR and HRC Datasets</title>
+      <periodical number="10(9)" pages="2125-2146">J. Clim.</periodical>
+   </reference>
+   <relatedDataset ID="684.1"/>
+   <publicationDate>1997-11-21</publicationDate>
+   <contentMetadata>
+      <temporal start="1971-01" end="1996-07" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month" statistics="mean"/>
+      <temporalFrequency type="climatology" unit="year"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="25"
+               startLon="1.25E"
+               startLat="30N"
+               endLon="1.25W"
+               endLat="30S"
+               xRes="2.5"
+               yRes="2.5"/>
+         <grid definition="latLon"
+               numX="144"
+               numY="25"
+               startLon="0.0E"
+               startLat="24N"
+               endLon="2.0W"
+               endLat="24S"
+               xRes="2.0"
+               yRes="2.0"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

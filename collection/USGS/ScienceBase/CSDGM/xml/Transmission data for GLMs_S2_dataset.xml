@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Christina Aiello</origin>
+        <origin>Todd Esque</origin>
+        <pubdate>2016</pubdate>
+        <title>Transmission data for GLMs(S2)</title>
+        <geoform>Tabular Digital Data</geoform>
+        <onlink>http://dx.doi.org/10.5066/F78W3BC8</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These datasets (S1-S3) document the transmission of a bacterial pathogen (Mycoplasma agassizii) between desert tortoises (Gopherus agassizii) experimentally introduced in captivity and were used to create and compare models predicting transmission probability given data on the hosts and their interactions. Datasets S1 &amp; S2 include variables describing the individual tortoises interacting, e.g. id, sex, and variables describing the length of their interaction, e.g., number of days cohabitating, hours of direct contact. Two types of analysis were run on these data (survival models and generalized linear mixed models or GLMMs), which required the data to be structured in different ways: the S1 dataset is structured for use in survival analysis while the S2 dataset was used in GLMMs. The response variable or event of interest in both methods was the infection status of the exposed tortoise after a period of interaction. Infection status was defined in three ways (described in section 15) and determined using qPCR of tissue samples collected at intervals – the results of which are presented in the S3 dataset. The S2 dataset includes additional variables estimating the infection level (also based on data in S3) of infected tortoises involved in the interaction with the focal host.  Interaction time and the amount of bacteria present in an infected host were used to calculate “dose” variables that represent the intensity of exposure to the pathogen. The analyses allowed us to identify interactions that have high transmission likelihood, and so we explored the contact patterns of a wild tortoise population (25 individuals with overlapping or contiguous homeranges) to estimate how frequently high-risk contacts occur (S4 dataset). This dataset includes all interactions (tortoise ids of interacting pair, date &amp; time interaction began, and interaction duration) documented between tortoises fitted with proximity logging devices. Each device detects other devices when tortoises are approximately 10 cm apart and ends an interaction when tortoises have remained further than 10 cm for 1 minute.</abstract>
+      <purpose>Used to create and compare generalized linear models that predict infection probability given data on the interaction time with an infected tortoise and the infection level of that transmitting host.</purpose>
+      <supplinf>Data were developed with field visits and remote instrumentation (proximity loggers for contact data)
+Analyses were performed on dataset S2 using program R [6], results of which are reported in manuscript listed in section 5. 
+6. R Development Core Team. R: a language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing; 2014. Available: http://www.R-project.org.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20130601</begdate>
+          <enddate>20140718</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>See Supplemental Info</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-115.259</westbc>
+        <eastbc>-115.248</eastbc>
+        <northbc>35.982</northbc>
+        <southbc>35.973</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Mycoplasma agassizii transmission</themekey>
+        <themekey>disease models</themekey>
+        <themekey>desert tortoise</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Clark County, NV</placekey>
+        <placekey>Desert Tortoise Conservation Center (DTCC)</placekey>
+        <placekey>Clark County</placekey>
+      </place>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>Nevada</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>The authors of these data require that users direct any questions pertaining to appropriate use or assistance with understanding limitations and interpretation of the data to the individuals/organization listed in the Point of Contact section.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, PACIFIC REGION</cntorg>
+          <cntper>Christina M Aiello</cntper>
+        </cntorgp>
+        <cntpos>Student Trainee (Biology)</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>160 Stephanie Boulevard</address>
+          <city>Henderson</city>
+          <state>NV</state>
+          <postal>89074</postal>
+        </cntaddr>
+        <cntvoice>702-564-4500</cntvoice>
+        <cntfax>702-564-4600</cntfax>
+        <cntemail>caiello@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Data collected under supervision of Peter J. Hudson (PSU), Kenneth E. Nussear (UNR), and Todd C. Esque (USGS) with help from Penn State University research assistants and USGS volunteers using funding from the National Science Foundation and Bureau of Land Management. S3 Dataset qPCR results provided by San Diego Zoo Amphibian Disease Lab, Escondido, CA and ELISA results provided by Dr. Mary Brown Lab, University of Florida, Gainesville, FL.</datacred>
+    <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2 (Build 3552) Service Pack N/A (Build N/A)</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Data entered or transferred between datasheets to electronic format or between two electronic forms are proofed twice to the original data to ensure accuracy. Health assessment procedures used aseptic and standardized techniques that only rigorously-trained biologists or technicians performed to ensure consistency when documenting infection in tortoises. Proximity logger data was verified using either observations or video of tortoise interactions. Data from loggers determined to poorly document the intended interactions were not included in the dataset.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>Interaction data determined to be inaccurate (described above) or incomplete for intervals between health assessments were not included in this dataset or are listed as NA.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>N/A</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>spreadsheets were created using data collected in the field by observers, data produced by proximity loggers, and tissue results produced by San Diego Zoo and University of Florida. Field data was entered into electronic formats and proofed twice for accuracy before use at numerous dates throughout the study. Proximity logger data was first verified using video footage taken during periods of the study. Interactions were identified on the video and proximity logger data checked to insure the interaction was recorded. Data from units that did not consistently document the observed interaction were not included in the dataset. The remaining data was then run through script in R that summed interaction time for each pair during the interaction interval of interest.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>tortoise</attrlabl>
+        <attrdef>unique id of the exposed tortoise</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>14839</rdommin>
+            <rdommax>22419</rdommax>
+            <attrunit>unique id</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sex</attrlabl>
+        <attrdef>sex (male or female) of the exposed tortoise – all study animals were classified as adults based on carapace size (greater than 180mm)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Female</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>Male</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>inf1_id</attrlabl>
+        <attrdef>unique id of the infected tortoise introduced to “Tortoise”</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6070</rdommin>
+            <rdommax>21897</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>inf2_id</attrlabl>
+        <attrdef>Unique id of a second infected tortoise housed with “Tortoise”. Tortoises in grp 2 were housed with an infected tortoise and a second uninfected tortoise. During some intervals, the second uninfected tortoise changed status to infected and is considered a second transmitting host.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>22003</edomv>
+            <edomvd>Unknown</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>22301</edomv>
+            <edomvd>Unknown</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>22409</edomv>
+            <edomvd>Unknown</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Not Applicable</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>analysis1</attrlabl>
+        <attrdef>Data were subset using these columns to estimate different models due to lack of data for certain variables or confounding circumstances (presence of a second infected tortoise, inf2_id), as described in the manuscript associated with this dataset.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Indicates the absence of a second infected tortoise</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Indicates the presence of a second infected tortoise</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>analysis2</attrlabl>
+        <attrdef>Data were subset using these columns to estimate different models due to lack of data for certain variables or confounding circumstances (presence of a second infected tortoise, inf2_id), as described in the manuscript associated with this dataset.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Indicates the absence of a second infected tortoise</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Indicates the presence of a second infected tortoise</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>analysis3</attrlabl>
+        <attrdef>Data were subset using these columns to estimate different models due to lack of data for certain variables or confounding circumstances (presence of a second infected tortoise, inf2_id), as described in the manuscript associated with this dataset.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Indicates the absence of a second infected tortoise</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Indicates the presence of a second infected tortoise</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>analysis4</attrlabl>
+        <attrdef>Data were subset using these columns to estimate different models due to lack of data for certain variables or confounding circumstances (presence of a second infected tortoise, inf2_id), as described in the manuscript associated with this dataset.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Indicates the absence of a second infected tortoise</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Indicates the presence of a second infected tortoise</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>grp</attrlabl>
+        <attrdef>two groups of uninfected tortoises were used in exposure trials and exposed at similar times of year. This field identified to which group “Tortoise” belongs</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>2</rdommax>
+            <attrunit>group number</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>month_exposed</attrlabl>
+        <attrdef>month during which the exposure occurred. Format: Month-Year</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Apr-14</edomv>
+            <edomvd>Month-Year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Aug-13</edomv>
+            <edomvd>Month-Year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Jun-13</edomv>
+            <edomvd>Month-Year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Oct-13</edomv>
+            <edomvd>Month-Year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Sep-13</edomv>
+            <edomvd>Month-Year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>int_days</attrlabl>
+        <attrdef>number of days “Tortoise” was exposed to “inf1_id” during an interval of exposure (period between health assessments)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>30</rdommax>
+            <attrunit>days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>cum_days</attrlabl>
+        <attrdef>cumulative number of days “Tortoise” was exposed to “inf1_id” from the start of exposure up to the point of infection or censor (end of exposure)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>75</rdommax>
+            <attrunit>days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>cumdur</attrlabl>
+        <attrdef>total hours of close contact between “tortoise” and “inf1_id” from the start of exposure up to the point of infection or censor (end of exposure)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>hours of contact</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>int_dur</attrlabl>
+        <attrdef>total hours of close contact between “tortoise” and “inf1_id” during an interval of exposure (period between health assessments)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>hours</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>inf_pcr</attrlabl>
+        <attrdef>estimated Mycoplasma agassizii load of infected tortoise 1 (inf1_id). This value is the mean abundance calculated from three abundance estimates provided by San Diego Zoo Amphibian Disease Lab from qPCR of an oral swab collected prior to the exposure event. All abundance estimates are provided in the S3 Dataset.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>815127</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>dose1</attrlabl>
+        <attrdef>a variable describing intensity of exposure to M. agassizii during an exposure event based on the days spent in a pen with an infected tortoise and the infection load of that tortoise.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Calculated as: (int_days*inf_pcr)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>dose2</attrlabl>
+        <attrdef>a variable describing intensity of exposure to M. agassizii during an exposure event based on the hours spent in close contact with infected tortoise and the infection load of that tortoise.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Calculated as: (int_dur*inf_pcr)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>logmethod</attrlabl>
+        <attrdef>Close interaction duration in hours (cum_dur or int_dur) between infected and uninfected tortoises was recorded by a proximity logger (logged), observer (observed), or a combination of the two (both).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>both</edomv>
+            <edomvd>combination of the two</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>logged</edomv>
+            <edomvd>proximity logger</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Unknown</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>observed</edomv>
+            <edomvd>by observer</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>status1</attrlabl>
+        <attrdef>At the end of each exposure oral swabs and nasal lavages were collected at multiple intervals and analyzed with qPCR for M. agassizii presence and abundance. We identified a new infection following exposure using two methods based on the qPCR results: 1) first positive qPCR result in a series of positive results; 2) any positive qPCR result after exposure.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>status2</attrlabl>
+        <attrdef>At the end of each exposure oral swabs and nasal lavages were collected at multiple intervals and analyzed with qPCR for M. agassizii presence and abundance. We identified a new infection following exposure using two methods based on the qPCR results: 1) first positive qPCR result in a series of positive results; 2) any positive qPCR result after exposure. . If the qPCR results met the definition criteria for definition 1, status1 = 1, if not, status1 = 0</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Criteria not met</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Criteria met</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Unknown</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+      <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Denver Federal Center</address>
+          <address>Building 810</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <custom>http://dx.doi.org/10.5066/F78W3BC8</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20160216</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christina M Aiello</cntper>
+          <cntorg>U.S. Geological Survey, PACIFIC REGION</cntorg>
+        </cntperp>
+        <cntpos>Student Trainee (Biology)</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>160 Stephanie Boulevard</address>
+          <city>Henderson</city>
+          <state>NV</state>
+          <postal>89074</postal>
+        </cntaddr>
+        <cntvoice>702-564-4500</cntvoice>
+        <cntfax>702-564-4600</cntfax>
+        <cntemail>caiello@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,2630 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.80.14" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="HF080">
+    <alternateIdentifier>HF080</alternateIdentifier>
+    <title>Massachusetts Timber Harvesting Study 1984-2003</title>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Kittredge</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Foster</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Robert</givenName>
+        <surName>McDonald</surName>
+      </individualName>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Burk</surName>
+      </individualName>
+      <role>Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Glenn</givenName>
+        <surName>Motzkin</surName>
+      </individualName>
+      <role>Researcher</role>
+    </associatedParty>
+    <pubDate>2009</pubDate>
+    <abstract>
+      <section>
+        <para>Sustainability of the forest at a regional scale in landscapes dominated by non-industrial private forest (NIPF) ownership depends on the often-independent actions and behaviors of thousands of private families and individuals. These NIPF lands comprise the dominant forest ownership in many parts of the United States, and represent an important part of the greater forest landscape matrix even in parts of the region where industrial and/or public lands dominate. In northeastern states, NIPF lands can represent 75% or more of total forest area. While forest landowner attitudinal survey work in the past several decades has explored reasons for ownership, motivations, and perspectives on traditional management (e.g., do you intend to harvest in the next 10 years?), little if any study has focused on attitudes and, importantly, documented behaviors related to sustainability on their lands. Some landowner attitudes pertaining to the notion of sustainability can be inferred from earlier work (e.g., documented interest in wildlife habitat and nature, aesthetics, and privacy), but these do not directly link to sustainability or timber productivity on their own lands.</para>
+        <para>As the urban-rural interface expands from metropolitan centers, though this wooded landscape may appear to be forested from the air, it no longer sustains a number of benefits upon which society has grown to depend. In particular, timber harvesting declines as a viable and sustainable land use activity. We seek to: 1. Study the decision-making process, priorities, and behaviors of different types of NIPF owners, in terms of sustainable harvesting, and sale/ development;  2. Use landscape-scale spatial data and associated demographic data to assess the extent to which such landscapes can remain sustainable producers of wood products in the face of expanding urban/ suburban influence; and 3. study sites that have sustained harvests and document the successional trajectory, in an effort to estimate the future composition of the forest landscape based on this form of human-induced disturbance.  In so doing, we will identify characteristics of a NIPF landscape in which harvesting or the production of timber is no longer sustainable.</para>
+        <para>Sustainable timber production from local forested landscapes plays a role in global environmental quality. In the Illusion of Preservation, Berlik et al  argue for decreases in wood consumption, coupled with increases in local wood production, to avoid "exporting" the need to harvest wood from countries that have a negligible environmental safety net. The result of this is that forest that does not sustainably produce wood "at home" in effect shifts the demand to other places, thereby making local preservation an illusion.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>conservation</keyword>
+      <keyword>disturbance patterns</keyword>
+      <keyword>succession</keyword>
+      <keyword>timber harvest</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>disturbance</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Harvard Forest</keyword>
+      <keyword>HFR</keyword>
+      <keyword>LTER</keyword>
+      <keyword>USA</keyword>
+      <keywordThesaurus>HFR default</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf080</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Massachusetts</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-73.5</westBoundingCoordinate>
+          <eastBoundingCoordinate>-69.9</eastBoundingCoordinate>
+          <northBoundingCoordinate>+42.9</northBoundingCoordinate>
+          <southBoundingCoordinate>+41.5</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>1063</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1984-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2003-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Kittredge</surName>
+      </individualName>
+      <organizationName>University of Massachusetts</organizationName>
+      <address>
+        <deliveryPoint>Dept. of Forestry and Wildlife Management</deliveryPoint>
+        <deliveryPoint>Holdsworth Natural Resources Center</deliveryPoint>
+        <city>Amherst</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01003</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(413) 545-2943</phone>
+      <electronicMailAddress>dbk@forwild.umass.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <phone phonetype="fax">(978) 724-3595</phone>
+      <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Background</title>
+            <para>Massachusetts General Laws Chapter 132 covers forestry in the Commonwealth. Sections 40-47 specifically refer to forest cutting practices. For specific text see: http://www.mass.gov/legis/laws/mgl/gl-132-toc.htm. MGL Ch. 132, section 41 established the formation of a state forestry committee to create forest practice regulations and guidelines. Though chapter 132 sections 40-47 have been in effect since the 1940s, they were changed by the state forestry committee in the early 1980s to require submission of a Forest Cutting Plan (FCP) prior to any harvest greater than 25 Mbf or 50 cords or any combination thereof. FCPs need review and approval by Bureau of Forestry Service Foresters. The regulations were more recently revised in 1994-1995, and became effective 1 January 1996 (304 CMR 11.00 &#8211; 11.10).  see:   http://www.mass.gov/dem/regs/304011a.htm. Information on the Forest Cutting Practices Act and its implementing regulations are here: http://www.mass.gov/dcr/stewardship/forestry/service/cutprac.htm. Since 1983, the regulations have required submission of a FCP, including two maps, thus enabling the estimated capture of the spatial location of harvest activity on public and private land in Massachusetts.</para>
+          </section>
+          <section>
+            <title>Explanation of the rules/ regs/process</title>
+            <para>Prior to any timber harvest greater than 25 thousand board feet (Mbf) or 50 cords or any combination thereof, on public or private land, a Forest Cutting Plan [FCP] must be submitted to as regional office of the Massachusetts Bureau of Forestry. Once the FCP is submitted, the Bureau has 10 business days to review and approve or disapprove the FCP, or else harvest may begin, as long as it is not in a wetland resource area that falls under the jurisdiction of the Massachusetts Wetland Protection act (MGL chapter 131). </para>
+            <para>A FCP must describe the proposed harvest in terms of silviculture, management intent (i.e., long-term management, or short-term liquidation of timber value, devoid of legitimate long-term forest management intent), estimated volumes to be removed, and erosion control methods to be applied (Best Management Practices). In addition, two maps must be prepared: one of the actual property, showing the proposed harvest area, access, and any streams, wetlands, or other water resources), and one locus map placing the property in a larger context most commonly [though not always] on a topographic quad map. For a sample FCP, see:
+http://www.mass.gov/dcr/stewardship/forestry/docs/sample132LT.doc. FCPs may only be prepared by: a licensed forester, a licensed timber harvester, or the actual owner of the property.</para>
+            <para>The Bureau of Forestry Service Forester makes a site visit as part of the approval process to determine if the proposed harvest will be in compliance with cutting practice regulations. If approved, an orange permit is posted on the landing /access point of the operation. An approved FCP is valid for two years, with up to two additional one-year extensions. Service Foresters make periodic interim inspections and a final inspection to ensure compliance with the regulations. Upon making a final inspection, Service Foresters issue a Certificate of Compliance appended to the original cutting plan.</para>
+            <para>Chapter 132 only requires submission of a FCP for land that will remain in forest use following the harvest. Thus, a FCP is NOT required for harvest operations that will result in a change of land use, e.g., from forest to developed use. As a result, these data only reflect harvest for areas that have remained in forest, and thus not all harvesting.</para>
+          </section>
+          <section>
+            <title>Data acquisition process</title>
+            <para>Summer 1995: REU student Cinnie Chou begins data acquisition.   She gathered ch. 132 forest cutting plans [FCPs] for ten contiguous towns on the western side of the 19-town North Quabbin Study Region [Erving, Leverett, Montague, New Salem, Northfield, Orange, Pelham, Shutesbury, Warwick, Wendell] by traveling to the two Bureau of Forestry regional offices that have data for those towns. Note that the western boundary of the 19-town North Quabbin Study Region is scribed not by town boundaries, but by the change in ecoregion from uplands to the Connecticut River Valley. Thus some of the western towns were not entirely captured.</para>
+            <para>Data acquisition at this phase consisted of: Acquire photocopies of ch.132 FCPs for the ten towns. Free-hand estimate / draw the polygon of the harvest onto a hard-copy usgs topo quad, interpreting its location by reading the FCP and its two maps, and following contour lines, boundaries, and other features (e.g., steams, roads). Once all harvest polygons have been drawn on the topo quads, tape the quad sheets to a digitizer, register the corners, and digitize the polygons (using &#8220;Roots&#8221; software). Give each polygon a unique identifier, and enter tabular attribute data. Topo quads were then merged with one another and georeferenced, to compile a total; landscape-level rendition of a spatial estimate of harvest in ten towns for ten years (1984 - 1993). This one data layer was then rasterized in Idrisi for subsequent initial data analysis.</para>
+            <para>Preliminary data looked interesting. It was decided to capture the remaining 9 towns in the North Quabbin Study Region in the fall of 1995, winter 1996 (i.e., Athol, Barre, Hardwick, Hubbardston, Petersham, Phillipston, Royalston, Templeton, Winchendon). Ken Holmberg, an outside gis contractor, was hired to capture these data in the same way. At this point, FCP data were acquired for 19 towns, 1984-1995. Subsequent to this, Ben Slater, HF GIS specialist, converted the Idrisi [raster] files to ArcView [vector] format.</para>
+            <para>Summer 1999: REU student Andrew Finley acquired additional FCP data for the 19 NQ towns, bringing the data up-to-date for 1984 - 1999. Finley introduces new data capture technique: Acquires photocopies of the FCPs from the Bureau of Forestry regional offices. Acquires topographic quad TIF files from MASSGIS and brings them up in ArcView. Heads-up free-hand digitizing of the harvest polygons on-screen, by interpreting harvest boundaries according to topographic features, roads, boundaries, and other information from the harvest plan and its two maps.</para>
+            <para>Summer 2000: REU student Andrew Finley returns to capture more North Quabbin data for the 19 towns, bringing the data up to date for 1984 - 2000.</para>
+            <para>2000 - 2002: data analysis and manuscript preparation, resulting in: Kittredge, D.B., A.O. Finley, and D.R. Foster. 2003. Timber harvesting as ongoing disturbance in a landscape of diverse ownership.  Forest Ecology and Management. 180 (2003) 425&#8211;442.</para>
+            <para>2001: John Burk, Harvard Forest staff archivist, begins to capture FCP data from across the Commonwealth for  1997 - 2001. This involves visiting the 5 regional Bureau of Forestry offices across the Commonwealth, and either capturing data as described previously on a laptop computer, or, photocopying FCPs and bringing them back to HF for subsequent data entry. Once these data are acquired statewide, the decision is made to go back and acquire all data from the 5 regional offices from 1984 forward. All data are gathered and entered by John Burk, according to the following schema:</para>
+            <para>(1) Collecting Plans. Chapter 132 cutting plans for the fiscal years 1984 to 2003 were gathered from the files of state foresters for each of the five Department of Environmental Management regional districts.  The districts were numbered as follows:  1=Southeast, 2=Northeast, 3=Central, 4=Connecticut Valley (with a separate office for the Westfield River communities), and 5=Berkshire. Gaps in the data exist for Middlesex County from 1984 to 1988, and Essex County for 1985 to 1996 (both housed in the region 2 office in Carlisle).  These plans were reported as discarded by the DEM, and extensive searching by John Burk and state foresters Jack Jackson and Laura Dooley have failed to turn up anything.  There may be other isolated harvests for which paperwork was lost or misfiled over the years. Plans marked &#8220;disapproved&#8221; or &#8220;not cut&#8221; were not entered.  It is possible that other harvests which were approved were not carried out (In informal conversations, based on field experience DEM/DCR foresters estimated that perhaps 5-10% of areas for which FCPs filed were not harvested). If two or more identical plans for the same property were filed in different years, the most recent was entered and the others disregarded, the assumption being that the recent was a refiling of the older plan and not a separate harvest.</para>
+            <para>(2) Digital. The program used to map harvest data was Arcview GIS, in conjunction with digital USGS topographic maps from MassGIS. Each cutting plan usually contained two maps, a locus map (a general map of the town showing the location of the property to be harvested) and a more detailed map of the specific location, including harvest boundaries.  While many locus maps were drawn on topographic sheets, a number of others were either: (a) drawn on less detailed street or survey maps, or (b) missing entirely, increasing the potential for error. Polygons representing harvest areas were drawn freehand onto the topographic MassGIS quads, based on the specific harvest boundaries marked on the property map, and also taking into consideration details such as acres reported, boundaries of adjacent harvests, and natural/human features such as ponds, roads, and buildings.   As the plans were prepared by many different individuals for regulatory purposes, there is inconsistency in the level of detail on the maps.</para>
+            <para>(3) Data Entry. For each polygon, the following information was recorded from the original cutting plan: File Number (the DEM/DCR number of the plan, i.e. HD05696). Fiscal Year. Date Received (date the plan was filed with the DEM). Town where the harvest occurred. Town 2 (if the harvest area covered more than one town). Landowner Name.</para>
+            <para>Landowner Type:  a numeric code assigned as follows: 1-DEM (DCR) state lands. 2-MDC. 3- Local agencies:  town DPWs, airports, commissions, etc. 4- Nonprofits:  conservation groups, churches. 5- Private landowners . 6- Sawmills, industrial forestland owned by a processing firm. 7- U.S. Army Corps of Engineers. 8- MA Fish and Wildlife.</para>
+            <para>Private: whether the person/agency filing the plan was a Massachusetts public land owner, indicated by a (Y)es or (N)o. Wetland Crossing: (Y)es if a wetland or stream crossing was indicated on the form, blank if no. Stand treatment data was recorded for the following categories, using codes provided on the cutting plan form:</para>
+            <para>Forest Type: WP=White Pine, WK=Pine/Hemlock, WH=Pine/Hardwood, WO=Pine/Oak, RP=Red Pine, SR=Red Spruce, SF=Spruce, PP=Pitch Pine, PO=Pitch Pine/Oak, HK=Hemlock, HH=Hemlock/Hardwood, TK=Tamarack, CD=Cedar, OH=Oak/Hardwood, BW=White Birch, OR=Red Oak, OM=Mixed Oak, RM=Red Maple, BC=Black Cherry, BB=Beech/Birch/Maple, SM=Sugar Maple, BM=Birch/Red Maple, BE=Beech, OT=Other.</para>
+            <para>Primary Objective(s) of Cut: WP=Wood Production, WH=Wildlife Habitat, IMP=Improvement, IN=Short term income, SW=soils and water management, AR=aesthetics/recreation, INTER=intermediate, SA=salvage, OT=other. Note: the cutting plan form changed after 1996, and the codes IMP and INTER were discontinued.</para>
+            <para>Type(s) of Regeneration Cut: SE=Selective, SH=Shelterwood, ST=Seed Tree, CC=Clearcut, SA=Salvage, CO=Coppice, CS=Coppice with Standards, OT=Other. Multiple forest types, objectives, and regenerative cuts were sometimes listed for each stand (i.e. WPINSW).</para>
+            <para>Species Data for types of trees harvested:  Volume totals for each species harvested were recorded.  All totals are presented in MBF unless otherwise noted; a small number of plans had totals presented as a percentage or in cords. When the forms were changed in 1997, Black Oak was added as a species; prior to this it was included in &#8220;other oak.&#8221;  The category &#8220;other hardwood&#8221; sometimes was used as a general reference to a &#8216;hardwood&#8217; stand. A number of plans had no information for species harvested. No species data were collected for the North Quabbin pilot study during the initial phase of the project.  These data were added by John Burk during 2002-03.  Approximately 100-125 additional North Quabbin 1984-96 plans were also discovered and added to the chapter 132 &#8216;all years&#8217; file.</para>
+            <para>The total MBF and total cords data recorded was based on the number given in the plan, and is subject to any errors made by the plan&#8217;s preparer. Number of polygons (drawn for each plan):  This ranged from 1 to 35; the higher numbers were usually state agencies making numerous small (1-2 acre) fuelwood or management harvests and filing them under one plan. Note that once approved, an operator has 2 years to perform an approved harvest and may apply for 2, one-year extensions; i.e. a plan approved in 2003 may not be cut until 2005 (or with extensions, until 2007).</para>
+          </section>
+          <section>
+            <title>Data quality control</title>
+            <para>Julie Hall began independently capturing in a heads-up digitizing format a ~ 4% sample of FCPs. These sampled FCPs were compared with the FCP polygons in the original dataset. Results: (1) Differences in area between the FCPs digitized by Burk and Hall are unsystematic, with neither source being consistently higher or lower, and uncorrelated, so that errors tend to cancel when areas of FCPs are added across the state?. On average (median), for any FCP the two sources are 18% different in area. (2) For any FCP, the median distance from the centroid of Burk&#8217;s polygon to Hall&#8217;s polygon is 88m.</para>
+          </section>
+          <section>
+            <title>Data acquisition caveats</title>
+            <para>Ch. 132 FCPs were prepared originally by a wide variety of foresters, loggers, and private landowners. There is a minimal standard required by the regulating agency, and the data are required for regulatory purposes, not research. Thus, there is a wide range in quality of FCPs submitted, from maps and volume estimates that are computer generated and prepared by professional foresters with 4, 6, or more years of higher education and years of professional experience, to &#8220;back-of-napkin&#8221; estimates of volume, area, and spatial location that were barely adequate  -  but apparently acceptable -  for regulatory purposes. The Bureau of Forestry service forester apparently had sufficient information on the plan to make a field visit and ensure compliance with forest practice regulations. Thus there is a considerable range in data quality that the acquirers of data had to contend with as they worked to interpret spatial and tabular information on the plans, and capture it in the database.</para>
+            <para>Artistic rendition of polygons. Harvest areas have not generally been surveyed or ground truthed. The original polygons from the FCPs are the plan preparer&#8217;s best estimate of where the harvest took place, for regulatory purposes. In turn, the GIS rendition of a harvest polygon by the data acquirers was their best estimate of where the harvest occurred based on maps and descriptions in the FCPs. There was no field checking, however, on the part of data entry staff. These digitized best estimates of harvest polygon location are thus &#8220;best estimates of best estimates&#8221;, and thus can not be construed to represent actual truth on the ground -  only the best faith effort to characterize spatially where a harvest event occurred.</para>
+            <para>Likewise, preparers of FCPs report their estimate of the area harvested [in acres], but this is merely their estimate. They are not required to survey or use other spatial techniques to determine area. Depending on the plan preparer, the area of harvest may be determined by a dot-grid estimation method, based on tax assessment estimates of area of the property, or be a simple guess to round numbers. It is likely that the estimated spatial extent of the proposed harvest area, as described on the FCP&#8217;s maps, provide a better estimate of the spatial extent and thus area, than an estimate of area. Thus, it is probably preferable to use the gis-calculated areas of harvest polygons, rather than the estimated areas  reported by plan preparers.</para>
+            <para>Volume estimates are exactly that - estimates. These estimates are required as part of the regulatory process, though nobody officially checks or controls them. And- the FCPs are filed before the harvest as part of an approval process. There is no confirmation of the final volume removed. Chapter 132 only requires submission of a FCP for land that will remain in forest use following the harvest. Thus, a FCP is NOT required for harvest operations that will result in a change of land use, e.g., from forest to developed use. As a result, these data only reflect harvest for areas that have remained in forest, and thus not all harvesting.
+</para>
+            <para>Chapter 132 requires FCPs submitted for harvest operations greater than 25 Mbf. [from Alerich 2000:  1 Mbf = 3.48 cubic meters. Although 1 Mbf are theoretically equivalent to 2.36 cubic meters, this is true only when a board foot is actually a piece of wood with a volume of 1/12 of a cubic foot. The International &#188;-inch log rule is used by the USDA Forest Service in the East to estimate the product potential in board feet. The reliability of the estimate obtained by conversion will vary with the size of the log measured. The conversion of 3.48 cubic meters to 1 Mbf is based on the cubic volume of a log 16 feet long and 15 inches in diameter, inside bark and the small end. Because the board foot unit is not a true measure of wood volume and because products other than dimension lumber are becoming important, this unit may eventually be phased out and replaced by the cubic meter].  Harvest operations commonly remove between 2 and 10 Mbf/acre, resulting in 25 Mbf representing a relatively small area. It is unlikely that a commercial timber sale would remove less than this amount, due to adverse economies of scale. It is possible that small operations will remove less than the threshold amount and still file a FCP, since an approved FCP creates an exemption from the Massachusetts Wetlands Protection Act (MGL Chapter 131). It is improbable that much commercial harvest falls beneath 25 Mbf and this is not accounted for in these FCP data, and indeed, it is quite possible that smaller operations are included due to the advantageous wetlands protection exemption.  Some small-scale, non-commercial harvesting (less than 25 Mbf) that does not require FCPs to be filed also occurs on private lands, although the distribution and volume of such harvests is unknown.</para>
+            <para>FCPs only list the official date that they are approved, but they are valid for a two-year period, and are eligible for up to two one-year extensions. Thus, it is difficult to say exactly when the harvest occurred, other than to conclude that it happened within the 2 to 4 year window following date of approval. &#8220;Date&#8221; thus provides only an approximate indication of the timing of harvest.</para>
+            <para>The upshot of these caveats is this:     The more than 13,000 harvest events represent the best estimate or collective characterization of harvest activity that took place between 1984 and 2003 across ownerships throughout Massachusetts (roughly 2.6 million acres of forest, out of a total of  5  Million acres of land). It is possible that any individual event may not be depicted in a spatially accurate way (e.g., either the best estimate of the plan preparer, and / or the best estimate of the data acquirer may result in the depiction of a harvest polygon as spatially inaccurate). Consequently, the data can not be used with confidence to represent specific individual harvest events. It remains however, to our knowledge the best estimate of harvest activity at a broad spatial landscape scale over two decades across the diversity of public and private ownerships typical of Massachusetts and much of the eastern United States. Alerich, C.L. 2000. Forest statistics for Massachusetts: 1985 and 1998. USDA Forest Service Resource Bulletin NE-148. 104 pp.</para>
+          </section>
+          <section>
+            <title>Further data processing notes</title>
+            <para>To ease data manipulation, the FILE_ID (the code assigned by the state to a cut) was standardized so that all letters are in lower case. For example, &#8220;HD9599&#8221; was changed to &#8220;hd9599&#8221;. Previously, the dataset had a mix of lower and upper case letters. Furthermore, the ArcView shapefile PAT was simplified to contain solely the FILE_ID. The boundaries of the polygons are thus saved in the shapefile all_cutting_plans_v3.shp (and related files), while the remaining information that Burk et al. entered was stored in a separate DBF file: plan_info.dbf.</para>
+            <para>A shapefile containing the centroid of all the harvesting polygons was created, for use when graphing information at a statewide level: all_cutting_plans_v3_point (and related files).</para>
+            <para>The varying units of volume in the original dataset (usually MBF, but sometime tons, cords, etc.) were standardized to m3, using published conversion factors. Some FCPs had missing data or unrealistic data, and those FCPs were not included in this calculation. Using the digitized area of the FCP, cutting intensity (m3/ha) was calculated as well. Information is stored in: volume_and_intensity_v4.dbf. The format of this file mirrors that of the original dataset to some extent.</para>
+            <para>The columns are: FILE_ID: the ID code given the plan by the state. AREA_HA: The digitized area of the FCP, in ha. 	FIS_YEAR: The year the plan was filed. ACRES_REP: The area, in acres, that a plan reported. WTPINEM3: The reported volume of white pine, in cubic meters. RDPINEM3: The reported volume of red pine, in cubic meters. PITCPINEM3: The reported volume of pitch pine, in cubic meters. HEMLOKM3: The reported volume of hemlock, in cubic meters. SPRCEM3: The reported volume of spruce, in cubic meters. OTH_SOFTM3: The reported volume of other softwoods, in cubic meters. WTASHM3: The reported volume of white ash, in cubic meters. BEECHM3: The reported volume of beech, in cubic meters. WHITEBIRM3: The reported volume of white birch, in cubic meters. BYBRCHM3: The reported volume of black and yellow birch, in cubic meters. BLK_CHERRM: The reported volume of black cherry, in cubic meters. REDMAPM3: The reported volume of red maple, in cubic meters. SUGMAPLEM3: The reported volume of sugar maple, in cubic meters. REDOAKM3: The reported volume of red oak, in cubic meters. BLKOAKM3: The reported volume of black oak, in cubic meters. WTOAKM3: The reported volume of white oak, in cubic meters. OTHEROAKM3: The reported volume of other oaks, in cubic meters. OTHHARDM3: The reported volume of other hardwoods, in cubic meters. HDFUELM3: The reported volume of hardwoods cut for firewood, in cubic meters. SFFUELM3: The reported volume of softwoods cut for firewood, in cubic meters. CHIPM3: The reported volume of chipwood, in cubic meters. ESTIMATED_: The FCP&#8217;s estimate of total volume removed, in cubic meters. TOT_M3: The sum of the species volumes. Ideally, this should equal ESTIMATED_, but occasionally it doesn&#8217;t. BEST_M3: The most accurate estimate of the volume removed. This column corrects for cases where either the species volumes weren&#8217;t entered, or the FCP did not estimate total volume removed. WTPINEHA: The reported harvest intensity of white pine, in cubic meters per hectare. RDPINEHA: The reported harvest intensity of red pine, in cubic meters per hectare. PITCPINEHA: The reported harvest intensity of pitch pine, in cubic meters per hectare. 
+HEMLOKHA: The reported harvest intensity of hemlock, in cubic meters per hectare. SPRCEHA: The reported harvest intensity of spruce, in cubic meters per hectare. OTH_SOFTHA: The reported harvest intensity of other softwoods, in cubic meters per hectare. WTASHHA: The reported harvest intensity of white ash, in cubic meters per hectare. BEECHHA: The reported harvest intensity of beech, in cubic meters per hectare. WHITEBIRHA: The reported harvest intensity of white birch, in cubic meters per hectare. BYBRCHHA: The reported harvest intensity of black and yellow birch, in cubic meters per hectare. BLK_CHERRM: The reported harvest intensity of black cherry, in cubic meters per hectare. REDMAPHA: The reported harvest intensity of red maple, in cubic meters per hectare. SUGMAPLEHA: The reported harvest intensity of sugar maple, in cubic meters per hectare. REDOAKHA: The reported harvest intensity of red oak, in cubic meters per hectare. BLKOAKHA: The reported harvest intensity of black oak, in cubic meters per hectare. WTOAKHA: The reported harvest intensity of white oak, in cubic meters per hectare. OTHEROAKHA: The reported harvest intensity of other oaks, in cubic meters per hectare. OTHHARDHA: The reported harvest intensity of other hardwoods, in cubic meters per hectare. HDFUELHA: The reported intensity of hardwoods cut for firewood, in cubic meters per hectare. SFFUELHA: The reported intensity of softwoods cut for firewood, in cubic meters per hectare. CHIPHA: The reported harvest intensity of chipwood, in cubic meters per hectare. ESTIMATED_: The FCP&#8217;s estimate of total intensity removed, in cubic meters per hectare. TOT_HA: TOT_M3/the number of hectares. BEST_HA: The most accurate estimate of the intensity removed. This column corrects for cases where either the species volumes weren&#8217;t entered, or the FCP did not estimate total volume removed.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="hf080-01">
+      <entityName>hf080-01-plan.csv</entityName>
+      <entityDescription>forest cutting plans</entityDescription>
+      <physical id="1243351270173">
+        <objectName>hf080-01-plan.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/80/14/8e2094b308aca2b1d2d72abc555da0af</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1243351271017">
+          <attributeName>FILE_ID</attributeName>
+          <attributeDefinition>the unique ID code assigned by the state to the cut</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the unique ID code assigned by the state to the cut</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271032">
+          <attributeName>FIS_YEAR</attributeName>
+          <attributeDefinition>the year the cut was reported. Note that landowners had two years to cut the site, and need not do so. I estimated ~5% of the time an FCP is not executed.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271048">
+          <attributeName>DATE_REC</attributeName>
+          <attributeDefinition>the date a cut was recorded</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYYMMDD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271064">
+          <attributeName>TOWN_1</attributeName>
+          <attributeDefinition>the principal town of the cut</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the principal town of the cut</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271079">
+          <attributeName>TOWN_2</attributeName>
+          <attributeDefinition>a secondary town of the cut, used when the cut crossed town boundaries</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>a secondary town of the cut</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271095">
+          <attributeName>ACRES_REP</attributeName>
+          <attributeDefinition>the reported number of acres of the plan. Inaccurate, use GIS-calculate hectares</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>acre</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271111">
+          <attributeName>VOLU_MBF</attributeName>
+          <attributeDefinition>the total reported volume of timber removed in thousand board feet (mbf)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271126">
+          <attributeName>VOLU_CDS</attributeName>
+          <attributeDefinition>he total reported firewood removed in cords (cords)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271142">
+          <attributeName>VOL_OTH</attributeName>
+          <attributeDefinition>the total reported wood taken for other purposes. Units often unclear.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271157">
+          <attributeName>OWN_TYPE</attributeName>
+          <attributeDefinition>ownership type. The coding here is from the state.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>DEM (DCR) state lands</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>MDC</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Local agencies: town DPWs, airports, commissions, etc.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Nonprofits: conservation groups, churches</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Private landowners</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Sawmills, industrial forestland owned by a processing firm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>U.S. Army Corps of Engineers</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>MA Fish and Wildlife</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271173">
+          <attributeName>PUBLIC_</attributeName>
+          <attributeDefinition>whether the land is public</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>not public land</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>y</code>
+                    <definition>public land</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271189">
+          <attributeName>WETLND_CR</attributeName>
+          <attributeDefinition>wetland presence or absence</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>no wetland contained in the bounds of the FCP</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>y</code>
+                    <definition>wetland contained in the bounds of the FCP</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271204">
+          <attributeName>FORTYPE1</attributeName>
+          <attributeDefinition>the primary type of forest</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>wp</code>
+                    <definition>White Pine</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wk</code>
+                    <definition>Pine/Hemlock</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wh</code>
+                    <definition>Pine/Hardwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wo</code>
+                    <definition>Pine/Oak</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>rp</code>
+                    <definition>Red Pine</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sr</code>
+                    <definition>Red Spruce</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sf</code>
+                    <definition>Spruce</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>pp</code>
+                    <definition>Pitch Pine</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>po</code>
+                    <definition>Pitch Pine/Oak</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hk</code>
+                    <definition>Hemlock</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hh</code>
+                    <definition>Hemlock/Hardwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>tk</code>
+                    <definition>Tamarack</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>cd</code>
+                    <definition>Cedar</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>oh</code>
+                    <definition>Oak/Hardwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bw</code>
+                    <definition>White Birch</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>or</code>
+                    <definition>Red Oak</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>om</code>
+                    <definition>Mixed Oak</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>rm</code>
+                    <definition>Red Maple</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bc</code>
+                    <definition>Black Cherry</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bb</code>
+                    <definition>Beech/Birch/Maple</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sm</code>
+                    <definition>Sugar Maple</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bm</code>
+                    <definition>Birch/Red Maple</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>be</code>
+                    <definition>Beech</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ot</code>
+                    <definition>Other</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271220">
+          <attributeName>PRIMOBJ1</attributeName>
+          <attributeDefinition>the goal of the cut in type 1</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>wp</code>
+                    <definition>Wood Production</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wh</code>
+                    <definition>Wildlife Habitat</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>imp</code>
+                    <definition>Improvement. Note: the cutting plan form changed after 1996, and the code IMP was discontinued.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>in</code>
+                    <definition>Short term income</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sw</code>
+                    <definition>soils and water management</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ar</code>
+                    <definition>Aesthetics/Recreation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>inter</code>
+                    <definition>Intermediate. Note: the cutting plan form changed after 1996, and the code INTER was discontinued.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sa</code>
+                    <definition>Salvage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ot</code>
+                    <definition>Other</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271236">
+          <attributeName>TYPEREG1</attributeName>
+          <attributeDefinition>the type of regeneration that is the goal for type 1. Multiple forest types, objectives, and regenerative cuts were sometimes listed for each stand (i.e. WPINSW).</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>se</code>
+                    <definition>Selective</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sh</code>
+                    <definition>Shelterwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>st</code>
+                    <definition>Seed Tree</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>cc</code>
+                    <definition>Clear Cut</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sa</code>
+                    <definition>Salvage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>co</code>
+                    <definition>Coppice</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>cs</code>
+                    <definition>Coppice with standards</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ot</code>
+                    <definition>Other</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271251">
+          <attributeName>FORTYPE2</attributeName>
+          <attributeDefinition>the secondary type of forest. See codes above.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the secondary type of forest</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271267">
+          <attributeName>PRIMOBJ2</attributeName>
+          <attributeDefinition>the goal of the cut in type 2. See codes above.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the goal of the cut in type 2</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271282">
+          <attributeName>TYPEREG2</attributeName>
+          <attributeDefinition>the type of regeneration that is the goal for type 2. Multiple forest types, objectives, and regenerative cuts were sometimes listed for each stand (i.e. WPINSW).  See codes above.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the type of regeneration that is the goal for type 2</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271298">
+          <attributeName>FORTYPE3</attributeName>
+          <attributeDefinition>the tertiary type of forest. See codes above.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the tertiary type of forest</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271314">
+          <attributeName>PRIMOBJ3</attributeName>
+          <attributeDefinition>the goal of the cut in type 3. See codes above.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the goal of the cut in type 3</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271329">
+          <attributeName>TYPEREG3</attributeName>
+          <attributeDefinition>the type of regeneration that is the goal for type 3. Multiple forest types, objectives, and regenerative cuts were sometimes listed for each stand (i.e. WPINSW).  See codes above.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the type of regeneration that is the goal for type 3</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271345">
+          <attributeName>FORTYPE4</attributeName>
+          <attributeDefinition>the quartiary type of forest. See codes above.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the quartiary type of forest</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271361">
+          <attributeName>PRIMOBJ4</attributeName>
+          <attributeDefinition>the goal of the cut in type 4. See codes above.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the goal of the cut in type 4</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271376">
+          <attributeName>TYPEREG4</attributeName>
+          <attributeDefinition>the type of regeneration that is the goal for type 4. Multiple forest types, objectives, and regenerative cuts were sometimes listed for each stand (i.e. WPINSW).  See codes above.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the type of regeneration that is the goal for type 4</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271392">
+          <attributeName>WTPINEU</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271407">
+          <attributeName>WTPINEV</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271423">
+          <attributeName>RDPINEUNI</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271439">
+          <attributeName>RDPINEVOL</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271454">
+          <attributeName>PITCPINEU</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271470">
+          <attributeName>PITCPINEV</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271486">
+          <attributeName>HEMLCKUNI</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271501">
+          <attributeName>HEMLOKVOL</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271517">
+          <attributeName>SPRCEUNI</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271532">
+          <attributeName>SPRCEVOL</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271548">
+          <attributeName>OTH_SOFTU</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271564">
+          <attributeName>OTH_SOFTV</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271579">
+          <attributeName>WTASHUN</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271595">
+          <attributeName>WTASHVO</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271611">
+          <attributeName>BEECHUNIT</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271626">
+          <attributeName>BEECHVOLU</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271642">
+          <attributeName>WHITEBIRU</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271657">
+          <attributeName>WHITEBIRV</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271673">
+          <attributeName>BYBRCHUNI</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271689">
+          <attributeName>BYBRCHVOL</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271704">
+          <attributeName>BLK_CHERRU</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271720">
+          <attributeName>BLK_CHERRV</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271736">
+          <attributeName>REDMAPUN</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271751">
+          <attributeName>REDMAPVO</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271767">
+          <attributeName>SUGMAPLEU</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271782">
+          <attributeName>SUGMAPLEV</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271798">
+          <attributeName>REDOAKUNI</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271814">
+          <attributeName>REDOAKVO</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271829">
+          <attributeName>BLKOAKUN</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271845">
+          <attributeName>BLKOAKVO</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271861">
+          <attributeName>WTOAKUN</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271876">
+          <attributeName>WTOAKVO</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271892">
+          <attributeName>OTHEROAKU</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271907">
+          <attributeName>OTHEROAKV</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271923">
+          <attributeName>OTHHARDUNI</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271939">
+          <attributeName>OTHHARDVOL</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271954">
+          <attributeName>HDFUELUN</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351271970">
+          <attributeName>HDFUELVOL</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351271986">
+          <attributeName>SFFUELUN</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351272001">
+          <attributeName>SFFUELVOL</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351272017">
+          <attributeName>CHIPUNITS</attributeName>
+          <attributeDefinition>species-specific volumne unit. Units the volume is measured in (if not stated, in MBF)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species-specific volumne unit</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351272032">
+          <attributeName>CHIPVOL</attributeName>
+          <attributeDefinition>species-specific volumne. Each species is abbreviated by 6-8 letters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351272048">
+          <attributeName>TOT_MBF</attributeName>
+          <attributeDefinition>the sum of the MBF measurements. Sometimes, the landowner did the math wrong.  (mbf)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351272064">
+          <attributeName>TOT_CDS</attributeName>
+          <attributeDefinition>the sum of the cords measurements. Sometimes, the landowner did the math wrong. (cords)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351272079">
+          <attributeName>TOT_TON</attributeName>
+          <attributeDefinition>the sum of the tons measurements. Sometimes, the landowner did the math wrong.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>ton</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351272095">
+          <attributeName>TOT_CCF</attributeName>
+          <attributeDefinition>the sum of the Cubic cord feet measurements. Sometimes, the landowner did the math wrong. (ccf)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351272111">
+          <attributeName>APPROVED</attributeName>
+          <attributeDefinition>sometimes explictly coded as "y" for yes, but all these plans were approved.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>not explicitly coded as approved</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>y</code>
+                    <definition>explicitly coded as approved</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243351272126">
+          <attributeName>N_POLYS</attributeName>
+          <attributeDefinition>the number of polygons in the FCP</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243351272142">
+          <attributeName>NOTES_</attributeName>
+          <attributeDefinition>notes</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>13324</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf080-02">
+      <entityName>hf080-02-volume.csv</entityName>
+      <entityDescription>volume and intensity</entityDescription>
+      <physical id="1243356685451">
+        <objectName>hf080-02-volume.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/80/14/a12fead68e1268958567e17d81b80077</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1243356686420">
+          <attributeName>FILE_ID</attributeName>
+          <attributeDefinition>the unique ID code assigned by the state to the cut</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the unique ID code assigned by the state to the cut</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1243356686436">
+          <attributeName>AREA_HA</attributeName>
+          <attributeDefinition>the area in hectares as defined by the GIS boundaries</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686451">
+          <attributeName>FIS_YEAR</attributeName>
+          <attributeDefinition>the year the cut was reported. Note that landowners had two years to cut the site, and need not do so. Estimated ~5% of the time an FCP is not executed.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686467">
+          <attributeName>ACRES_REP</attributeName>
+          <attributeDefinition>the acres the landowner reported. Often wrong.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>acre</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686483">
+          <attributeName>WTPINEM3</attributeName>
+          <attributeDefinition>species-specific volume. Each species is abbreviated by 6-8 letters, and the volume removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686498">
+          <attributeName>RDPINEM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686514">
+          <attributeName>PITCPINEM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686529">
+          <attributeName>HEMLOKM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686545">
+          <attributeName>SPRCEM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686561">
+          <attributeName>OTH_SOFTM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686576">
+          <attributeName>WTASHM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686592">
+          <attributeName>BEECHM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686608">
+          <attributeName>WHITEBIRM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686623">
+          <attributeName>BYBRCHM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686639">
+          <attributeName>BLK_CHERRM</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686654">
+          <attributeName>REDMAPM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686670">
+          <attributeName>SUGMAPLEM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686686">
+          <attributeName>REDOAKM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686701">
+          <attributeName>BLKOAKM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686717">
+          <attributeName>WTOAKM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686733">
+          <attributeName>OTHEROAKM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686748">
+          <attributeName>OTHHARDM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686764">
+          <attributeName>HDFUELM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686779">
+          <attributeName>SFFUELM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686795">
+          <attributeName>CHIPM3</attributeName>
+          <attributeDefinition>removed is listed in cubic meters. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686811">
+          <attributeName>ESTIMATED_</attributeName>
+          <attributeDefinition>the sum of the landowners itemized removals</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686826">
+          <attributeName>TOT_M3</attributeName>
+          <attributeDefinition>the landowners stated total removal</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686842">
+          <attributeName>BEST_M3</attributeName>
+          <attributeDefinition>based on the above two columns, my best guess of what was removed. See Methods.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686858">
+          <attributeName>WTPINEHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686873">
+          <attributeName>RDPINEHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686889">
+          <attributeName>PITCPINEHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686904">
+          <attributeName>HEMLOKHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686920">
+          <attributeName>SPRCEHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686936">
+          <attributeName>OTH_SOFTHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686951">
+          <attributeName>WTASHHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686967">
+          <attributeName>BEECHHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686983">
+          <attributeName>WHITEBIRHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356686998">
+          <attributeName>BYBRCHHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687014">
+          <attributeName>BLK_CHERRM</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687029">
+          <attributeName>REDMAPHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687045">
+          <attributeName>SUGMAPLEHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687061">
+          <attributeName>REDOAKHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687076">
+          <attributeName>BLKOAKHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687092">
+          <attributeName>WTOAKHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687108">
+          <attributeName>OTHEROAKHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687123">
+          <attributeName>OTHHARDHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687139">
+          <attributeName>HDFUELHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687154">
+          <attributeName>SFFUELHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687170">
+          <attributeName>CHIPHA</attributeName>
+          <attributeDefinition>species-specific intensity. Each species is abbreviated by 6-8 letters, and the intensity is listed in cubic meters per hectare. The order and naming of these columns mirrors that in John Burk's original file.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687186">
+          <attributeName>ESTIMATED_</attributeName>
+          <attributeDefinition>the sum of the landowners itemized removals</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687201">
+          <attributeName>TOT_HA</attributeName>
+          <attributeDefinition>the landowners stated total removal</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1243356687217">
+          <attributeName>BEST_HA</attributeName>
+          <attributeDefinition>based on the above two columns, best guess of the intensity of harvesting. See Methods.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>12969</numberOfRecords>
+    </dataTable>
+    <otherEntity id="hf080-03">
+      <entityName>hf080-03-gis.zip</entityName>
+      <entityDescription>zip file contains ArcView shape files for Massachusetts Timber Harvesting Study (GIS)</entityDescription>
+      <physical>
+        <objectName>hf080-03-gis.zip</objectName>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/80/14/2713422c7d6bb6b3db0490a38d2c1b78</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>zip</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalClassifications>
+        <status>completed</status>
+        <researchTopic>conservation</researchTopic>
+        <researchTopic>historical</researchTopic>
+        <researchTopic>community</researchTopic>
+        <studyType>historical</studyType>
+      </additionalClassifications>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <additionalLinks>
+        <url name="Timber Harvesting Study in North Quabbin Region of Central Massachusetts 1984-2001">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf046</url>
+        <url name="Timber Harvesting Field Study in Western Massachusetts 2004-2005">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf127</url>
+      </additionalLinks>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList convention="CML">
+        <ns2:unit constantToSI="0.0" id="meterCubedPerHectare" multiplierToSI="0.0001" name="meterCubedPerHectare" parentSI="meterCubedPerMeterSquared" unitType="volumetricArea" />
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

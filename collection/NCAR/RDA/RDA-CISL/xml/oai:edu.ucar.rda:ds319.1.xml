@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="319.1"
+            type="primary">
+   <timeStamp value="2015-07-21 21:18:00 -0600"/>
+   <continuingUpdate value="no"/>
+   <title>Climate Model Products from the First-generation Global Coupled Model at the Canadian Centre for Climate Modelling and Analysis</title>
+   <summary>
+      <p>The Canadian Centre for Climate Modelling and Analysis
+              (CCCMA) has developed several climate simulation models for use
+              in projecting natural climate change and assessing the impact of
+              human activities on climate change.  CCCMA's first-generation
+              global coupled model (CGCM1) was run with three scenarios: one
+              with constant atmospheric forcing (control run), one with carbon
+              dioxide (CO2) increasing at a compounded one percent per year
+              rate, and one with a combination of CO2 and sulfate aerosol
+              concentrations.</p>
+      <p>The model was run at T32 resolution, resulting in a 97 by 48
+              gaussian latitude/longitude grid with approximately 3.75 degree
+              by 3.75 degree resolution.  Daily (once- or twice-daily
+              depending on the parameter) and monthly output grids were
+              produced.  Upper level (850mb and 500mb) parameters include
+              geopotential heights, temperature, winds, and humidity.  At the
+              surface, the model outputs include temperature, wind, humidity,
+              pressure, sea-level pressure, precipitation, and radiation
+              fluxes.</p>
+      <p>DSS has used the monthly-mean grids to compute decadal means
+              for years zero through nine (e.g. 2000-2009) for each decade.
+              DSS also computed smoothed decadal means which are 30-year
+              running means of the raw decadal means.  Because of the large
+              variability in the decadal means of parameters such as
+              precipitation, it is recommended that the smoothed decadal-mean
+              grids be used and applied to the middle decade of the period
+              (e.g. apply the 2000-2029 mean to the year 2015).</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="CA/EC/MSC/CRB/CCMA &gt; Canadian Centre for Climate Modelling and Analysis, Climate Research Branch, Meteorological Service of Canada, Environment Canada"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Maximum/Minimum Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Rate</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Incoming Solar Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Circulation &gt; Fresh Water Flux</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Evaporation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Land Temperature &gt; Skin Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Longwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Snow</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Cryosphere &gt; Sea Ice &gt; Ice Extent</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Moisture/Water Content</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Outgoing Longwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Albedo</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Coastal Processes &gt; Sea Level Rise</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">CLIMATE MODELS</platform>
+   <supportsProject vocabulary="GCMD">IPCC &gt; Intergovernmental Panel on Climate Change</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="319.2"/>
+   <relatedDataset ID="319.3"/>
+   <publicationDate>1998-06-23</publicationDate>
+   <contentMetadata>
+      <temporal start="1900-01-01 00:00 +0000"
+                end="2100-12-31 23:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="10-year"/>
+      <temporalFrequency type="regular" number="1" unit="30-year"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <format>proprietary_ASCII</format>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="96"
+               numY="48"
+               startLon="0E"
+               startLat="87.159N"
+               endLon="356.25E"
+               endLat="87.159S"
+               xRes="3.75"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="97"
+               numY="48"
+               startLon="0E"
+               startLat="87.159N"
+               endLon="360E"
+               endLat="87.159S"
+               xRes="3.75"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

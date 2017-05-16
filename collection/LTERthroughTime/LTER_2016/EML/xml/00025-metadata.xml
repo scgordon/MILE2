@@ -1,0 +1,1536 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.7007.12" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MCM,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>commonwealth_met</shortName>
+    <title>McMurdo Dry Valleys Commonwealth Glacier Meteorological Station Measurements</title>
+    <creator>
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>Fountain</surName>
+      </individualName>
+      <organizationName>Portland State University</organizationName>
+      <address>
+        <deliveryPoint>Department of Geology, Cramer Hall 1721 SW Broadway</deliveryPoint>
+        <city>Portland</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97207</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(503) 725-3386</phone>
+      <electronicMailAddress>andrew@pdx.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Peter</givenName>
+        <surName>Doran</surName>
+      </individualName>
+      <organizationName>Louisiana State University</organizationName>
+      <address>
+        <deliveryPoint>Dept. of Geology and Geophysics</deliveryPoint>
+        <city>Baton Rouge</city>
+        <administrativeArea>LA</administrativeArea>
+        <postalCode>70803</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">2255781734</phone>
+      <electronicMailAddress>pdoran@lsu.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Hassan</givenName>
+        <surName>Basagic</surName>
+      </individualName>
+      <organizationName>Portland State University</organizationName>
+      <electronicMailAddress>Basagic@gmail.com</electronicMailAddress>
+      <role>field crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Thomas</givenName>
+        <surName>Nylen</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>thomasnylen@gmail.com</electronicMailAddress>
+      <role>field crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Maciej</givenName>
+        <surName>Obryk</surName>
+      </individualName>
+      <organizationName>Portland State University</organizationName>
+      <address>
+        <deliveryPoint>Dept. of Geology</deliveryPoint>
+        <city>Portland</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97207</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">5037253386</phone>
+      <electronicMailAddress>mobryk@pdx.edu</electronicMailAddress>
+      <role>field crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Inigo</givenName>
+        <surName>San Gil</surName>
+      </individualName>
+      <organizationName>University Of New Mexico</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology, MSC03 2020 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(505) 277-2625</phone>
+      <phone phonetype="facsimile">(505) 277-2541</phone>
+      <electronicMailAddress>isangil@lternet.edu</electronicMailAddress>
+      <role>data manager</role>
+    </associatedParty>
+    <pubDate>2014-11-04</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>As part of the Long Term Ecological Research in the McMurdo Dry Valleys of Antarctica, meteorological data was collected from various locations throughout Taylor, Wright and Victoria Valleys. These files contain data for the Commonwealth Glacier meteorology station (in Taylor Valley).</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>air temperature</keyword>
+      <keyword>atmosphere</keyword>
+      <keyword>climate</keyword>
+      <keyword>ice</keyword>
+      <keyword>meteorology</keyword>
+      <keyword>relative humidity</keyword>
+      <keyword>solar radiation</keyword>
+      <keyword>wind</keyword>
+      <keyword>wind direction</keyword>
+      <keyword>wind speed</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>air temperature</keyword>
+      <keyword>depth</keyword>
+      <keyword>glacier</keyword>
+      <keyword>humidity</keyword>
+      <keyword>ice</keyword>
+      <keyword>meteorology</keyword>
+      <keyword>radiation</keyword>
+      <keyword>snow</keyword>
+      <keyword>temperature</keyword>
+      <keyword>wind</keyword>
+      <keyword>wind direction</keyword>
+      <keyword>wind speed</keyword>
+      <keywordThesaurus>Station Keywords</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>
+        <literalLayout>&#194;&#160;Meteorological data is collected year-round at each of the stations in the McMurdo Dry Valleys of Antarctica.&#194;&#160; &#194;&#160; After retrieving this data (usually every January), the parameters that are recorded are processed from level 0 (raw) to level &#194;&#160;1 (processed, provided on the web). The &#194;&#160;raw data file descriptions and task lists summarize what was done to get from &#194;&#160;level 0 to level 1 &#194;&#160;for all station found at the following address: &#194;&#160; &#194;&#160;http://www.mcmlter.org/data/meteorology/tasks/task_lists.htm &#194;&#160;</literalLayout>
+      </para>
+    </additionalInfo>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>MCM LTER data may be used freely with the following restrictions: The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions. The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications. A copy of any resultant publications should be sent to the McMurdo data manager and principal investigator. The end-user follow the guidelines set forth in the LTER Network Data Access Policy, Data Access Requirements, and General Data Use Agreement here: Definitions &#226;&#8364;&#339;Data Set&#226;&#8364; &#226;&#8364;&#8220; Digital data and its metadata derived from any research activity such as field observations, collections, laboratory analysis, experiments, or the post-processing of existing data and identified by a unique identifier issued by a recognized cataloging authority such as a site, university, agency, or other organization. &#226;&#8364;&#339;Data User&#226;&#8364; - individual to whom access has been granted to this Data Set, including his or her immediate collaboration sphere, defined here as the institutions, partners, students and staff with whom the Data User collaborates, and with whom access must be granted, in order to fulfill the Data User's intended use of the Data Set &#226;&#8364;&#339;Data Set Creator&#226;&#8364; - individual or institution that produced the Data Set &#226;&#8364;&#339;Data Set Owner&#226;&#8364; &#226;&#8364;&#8220; individual or institution that holds intellectual property rights to the dataset. Note that this may or may not be defined as a legal copyright. If no other party is designated in the metadata as Data Set Owner, it may be presumed that these rights are held by the Data Set Creator. &#226;&#8364;&#339;Data Set Distributor&#226;&#8364; - individual or institution providing access to the Data Sets. &#226;&#8364;&#339;Data Set Contact&#226;&#8364; - party designated in the accompanying metadata of the Data Set as the primary contact for the Data Set. Conditions of Use The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. Permission to use this dataset is granted to the Data User free of charge subject to the following terms: 1) Acceptable use. Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not-for-profit professional purposes. The Data User is permitted to produce and distribute derived works from this dataset provided that they are released under the same license terms as those accompanying this Data Set. Any other uses for the Data Set or its derived products will require explicit permission from the dataset owner. 2 ) Redistribution. The data are provided for use by the Data User. The metadata and this license must accompany all copies made and be available to all users of this Data Set. The Data User will not redistribute the original Data Set beyond this collaboration sphere. 3 ) Citation. It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator, Year of Data Publication, Title of Dataset, Publisher, Dataset identifier. For example: McKee, W. 2001. Vascular plant list on the Andrews Experimental Forest and nearby Research Natural Areas: Long-Term Ecological Research. Corvallis, OR: Forest Science Data Bank: SA002. [Database]. http://www.fsl.orst.edu/lter/data/abstract.cfm?dbcode=SA002. (21 October 2004) 4 ) Acknowledgement. The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data sets were provided by the Forest Science Data Bank, a partnership between the Department of Forest Science, Oregon State University, and the U.S. Forest Service Pacific Northwest Research Station, Corvallis, Oregon. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers BSR-90-11663 and DEB-96-32921). 5 ) Notification. The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed. The Data User will provide the data contact with two reprints of any publications resulting from use of the Data Set and will provide copies, or on-line access to, any derived digital products. Notification will include an explanation of how the Data Set was used to produce the derived work. 6 ) Collaboration. The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. By accepting this Data Set, the Data User agrees to abide by the terms of this agreement. The Data Owner shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Disclaimer While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available "as is". The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcm.lternet.edu/content/commonwealth-glacier-meteorological-station-measurements</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Meteorology station located at same coordinates as stake 11 on the Commonwealth Glacier mass balance gridID: COHM</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>163.282</westBoundingCoordinate>
+          <eastBoundingCoordinate>163.282</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5646</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5646</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>290</altitudeMinimum>
+            <altitudeMaximum>290</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1993-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>&#194;&#160;While processing the 1997-98 files, Peter Doran identified an error in the LWRadIn values for the Commonwealth station in 1996-97's data from Julian day 319 of 1996 at 15:45 local time to &#194;&#160;Julian day 27 of 1997 at 9:00 local time. To correct the LWRadIn values during this period the &#194;&#160;values needed to be multiplied by 0.800514. The data manager at INSTAAR did this and provided &#194;&#160;updated versions of the data sets in May, 1999. &#194;&#160; On August 18, 1999, the data manager added the 1998-1999 data to this dataset. In the process, &#194;&#160;she did some fine-tuning of the data, which included:&#194;&#160; &#194;&#160; &#194;&#160;1. removal of the relative humidity values from November 14, 1996 through December 4, &#194;&#160;1996, as requested by Peter Doran. Since the temperatures were bad during this period, &#194;&#160;and relative humidity is based on temperature, the RH data needed to be voided as well. &#194;&#160;They had been marked as subjectively voided in the comments field, but needed the &#194;&#160;values removed from the RH field. &#194;&#160; &#194;&#160;2. removal of records on 5/20/1994 2:00:00 and 5/20/1994 11:00:00. These contained &#194;&#160;incorrect data. &#194;&#160; &#194;&#160;3. removal of SwRadOut values on 12/25/1994 13:00:00, 12/25/1994 13:20:00, and 12/25/1994 13:40:00. These records had very high SwRadOut and no SwRadIn values, so Peter Doran determined that it was best to delete the 3 SwRadOut values. &#194;&#160; &#194;&#160;4. removal of ThmIR values of -999.99 from the 1994 data. This was a level 0 campbell code and should not have been in the level 1 data set. &#194;&#160; &#194;&#160;5. making the file layout consistent from year to year. This results in many null values being present for periods when certain values were not collected. However, it simplifies combining data from different years. &#194;&#160; &#194;&#160;6. making corrections so that the files containing data for a given year started on January 1 at 0:00 and ended on December 31 at 23:45. Up to this point, records for January 1 between 0:00 and 12:45 were appearing in the previous year's file. &#194;&#160; On August 31, 1999, at the request of Thomas Nylen, more updates were made including: &#194;&#160; &#194;&#160;1. removal of wind direction and wind direction standard deviation values for records where &#194;&#160;wind speed = 0; &#194;&#160; &#194;&#160;2. removal of all commas from the comments fields, since commas cause spreadsheet &#194;&#160;software packages to add additional columns; &#194;&#160; &#194;&#160;3. addition of relative humidity values from Jan 23, 1995 @ 14:20 to Nov 27, 1995 @ 10:20. The task sheet gives no explanation nor data to indicate why it was omitted. The data looks good when plotted, so it was decided to include it. &#194;&#160; &#194;&#160;4. addition of ice temperature values (at 20 cm and 1 m depths) from Nov 27, 1995 @ 12:15 to Jan 24, 1996 @ 10:30. Up to this point, the values were omitted from the data column and flagged. Looking at the values before and after this time period, the ice temperature data was also flagged, but the values were left in the data column. The data appears to be continuous across each of these time periods, and it was not logical why one period was omitted, but the before and after values were not. The data between Nov 27, 1995 @ 12:15 and Jan 24, 1996 @ 10:30 was therefore placed back, though flagged. &#194;&#160; &#194;&#160;5. addition of wind direction values from Dec 19, 1995 @ 15:15 to Jan 24, 1996 @ 10:15. The task list stated that the arm was rotated 13 degrees on Jan 24. According to Peter Doran, the data should be left, but flagged. &#194;&#160; &#194;&#160;6. removal of ThmIR values between 12/19/1995 11:15 and 12/19/1995 13:00. &#194;&#160; &#194;&#160;7. updating of SwRadIn and SwRadOut values between Nov 25, 1997 @ 13:00 and Jan 16, 1998 @ 9:45. The wrong multiplier was used for SwRadIn and SwRadOut between Nov 25, 1997 @ 13:00 and Jan 16, 1998 @ 9:45. Two flags for SwRadOut, 01/02/1998 11:30 and 01/02/1998 12:00 were removed with the recalculated values. &#194;&#160; &#194;&#160;8. removal of LwRadIn2 and LwRadOut2 values between Jan 1, 1999 and Jan 22, 1999 @ 10:15. These values were bad for the whole dataset. &#194;&#160; &#194;&#160;9. removal of 1998-99 IceT20cm values above 0 (above the range limit). &#194;&#160; &#194;&#160;In May 2000, the 1999-2000 data was posted. In the process, Denise Steigerwald changed the &#194;&#160;layout of the files so that they were sorted by category (air temperatures, humidity, radiation, &#194;&#160;wind etc.) rather than by year. Files containing monthly and daily averages were generated and &#194;&#160;minor adjustments were made to the metadata. &#194;&#160; &#194;&#160;On May 17, 2000, relative humidity (RH) values were corrected for a systematic error in the measurement created by an instrument manufacturer error. All RH data with air temperatures below freezing were corrected using the vapor pressure over ice (rather than over water which was used initially). The error became quite large for very cold temperatures (the correction could grow to around 30%). The formula used for the correction was: &#194;&#160; &#194;&#160;RH_corr=RH_orig/((A*temp*temp)+(B*temp)+C) &#194;&#160; &#194;&#160;where &#194;&#160;RH_corr = corrected relative humidity &#194;&#160;RH_orig = original relative humidity &#194;&#160;temp = air temperature &#194;&#160; &#194;&#160;A = 4.165E-5 &#194;&#160;B = 9.7E-3 &#194;&#160;C = 1.0 &#194;&#160; &#194;&#160;For example, with an air temperature of -2.3 and RH_orig of 50.6, the RH_corr will be 51.7. &#194;&#160; &#194;&#160;Records that showed corrected RH values greater than or equal to 100 were changed to 99.99 and flagged. &#194;&#160; &#194;&#160;On June 6, 2000, the dataset showing longwave radiation measurements was updated. Thomas Nylen had gone through values recorded before January 22, 1999 and made some changes to these values and their corresponding flags (comments). Many of the fields were originally left blank but have now been assigned an appropriate number. &#194;&#160;In June 2000, summary files were added to the web containing daily and monthly statistics. &#194;&#160; &#194;&#160;These were generated by creating "views" of daily and monthly means, minimums, maximums and counts of the records represented in the Oracle database's meteorology tables. &#194;&#160; &#194;&#160;In April 2003, the LwRadOut2 data were adjusted between 01/20/1999 12:45 PM and 01/23/2003 04:15 PM to account for erroneous dome thermister measurements made by the Eppley precision spectral pyranometer. The problem was identified by Eppley when recalibrating the instrument. The dome and case temperatures should be about the same, &#194;&#160;especially in the winter. The voltage measured by the dome thermister was consistently 9% higher than the case thermister. To correct the problem the dome thermister were divided by 1.09 and the LwRadOut2 values were calculated again using the methods outlined in Procedures for Correcting Eppley Pyrgeometer Data. The revised values were on average 11.2% higher than the previous calculated values. &#194;&#160; In 2006, metadata was standardized (Chris Gardner and Inigo San Gil) to the EML format. &#194;&#160; in 2014, metadata was enhanced using the Drupal Ecological Information Management System (Inigo San Gil) &#194;&#160; In 2015, metadata was checked to conform to new LTER quality demands &#194;&#160;</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </publisher>
+    <pubPlace>McMurdo Dry Valleys LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>&#194;&#160;At the start of the 1993-1994 field season, the Commonwealth Glacier meteorological station was constructed at the same coordinates as stake 11 on the glacier's mass balance grid. The station was set up to sample sensors every 30 seconds and send summary statistics (for example, averages and maximums) to solid-state storage modules every:&#194;&#160; &#194;&#160; &#194;&#160; 3 hours between November 22 and December 3, 1993,&#194;&#160; &#194;&#160; 30 minutes between December 3 and December 24, 1993,&#194;&#160; &#194;&#160; 30 minutes for the main array andamp; every 24 hours for the max/min thermal infrared between December 24, 1993 and; January 12, 1994,&#194;&#160; &#194;&#160; 6 hours for the main array andamp; every 24 hours for the max/min thermal infrared between January 12, 1994 and; January 18, 1994,&#194;&#160; &#194;&#160; 20 minutes between January 18, 1994 and November 27, 1995,&#194;&#160; &#194;&#160; 15 minutes thereafter.&#194;&#160; &#194;&#160;&#194;&#160; This has resulted in approximately 20 values being recorded for final storage in every output interval.&#194;&#160; &#194;&#160; Sampling and Averaging Intervals &#194;&#160; &#194;&#160; &#194;&#160; &#194;&#160; For Sampling frequency and Data Logger output and averaging intervals please visit&#194;&#160; &#194;&#160;&#194;&#160; &#194;&#160; &#194;&#160; http://www.mcmlter.org/data/meteorology/methods/Interval_Dates.pdf &#194;&#160; &#194;&#160; Seasonal Task Summary &#194;&#160; &#194;&#160; &#194;&#160; &#194;&#160; To view the data post-processing steps for each season please visit: &#194;&#160; &#194;&#160; http://www.mcmlter.org/data/meteorology/tasks/task_lists.htm</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>COHM_AIRT</entityName>
+      <entityDescription>Commonwealth Station Air Temperature spreadsheet column description and units used</entityDescription>
+      <physical>
+        <objectName>COHM_AIRT.csv</objectName>
+        <size>31126959</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7007/12/e2cb9a4de6de79cd0d15ffa4d80c19ff</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>1999-2000 - present: Campbell Scientific 107 temp probe.&#194;&#160;</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>1993-1994 - 1999-2000: Campbell Scientific 207 temp/rh probe.</instrumentation>
+        </methodStep>
+        <qualityControl>
+          <description>
+            <para>
+              <literalLayout>1993-1994 - 1999-2000: Campbell Scientific 207 temp/rh probe.</literalLayout>
+            </para>
+          </description>
+        </qualityControl>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET CODE</attributeName>
+          <attributeLabel>DATASET CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AIRT3M</attributeName>
+          <attributeLabel>AIRT3M</attributeLabel>
+          <attributeDefinition>Average air temperature at 3 m above ground</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-70</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AIRTMAX</attributeName>
+          <attributeLabel>AIRTMAX</attributeLabel>
+          <attributeDefinition>Maximum air temperature at 3 m above ground</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-70</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AIRTMIN</attributeName>
+          <attributeLabel>AIRTMIN</attributeLabel>
+          <attributeDefinition>Minumum air temperature at 3 m above ground</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-70</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AIRT_COMMENTS</attributeName>
+          <attributeLabel>air temperature comments</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of air temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AIRT1M</attributeName>
+          <attributeLabel>AIRT1M</attributeLabel>
+          <attributeDefinition>Average air temperature at 1 m above ground</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>COHM_ICESURFCHANGE</entityName>
+      <entityDescription>Commonwealth met station ice surface change spreadsheet description and units used</entityDescription>
+      <physical>
+        <objectName>COHM_ICESURFCHANGE.csv</objectName>
+        <size>21596707</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7007/12/1bbd7bab2a20197e42c9176a6227abab</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>Campbell Scientific Inc. SR50 Ultrasonic Distance Sensor&#194;&#160;</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>Campbell Scientific Inc. SR50 Ultrasonic Distance Sensor</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET CODE</attributeName>
+          <attributeLabel>DATASET CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ICESURFCHANGE_CM</attributeName>
+          <attributeLabel>ICESURFCHANGE_CM</attributeLabel>
+          <attributeDefinition>Elevation of ice surface measured from fixed datum (Elevation of ice surface referenced to 0 at the time of installation)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ICESURFCHANGE_COMMENTS</attributeName>
+          <attributeLabel>ICESURFCHANGE_COMMENTS</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of DEPTH_</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of DEPTH_</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DIST_TO_SURFACE</attributeName>
+          <attributeLabel>Distance to surface</attributeLabel>
+          <attributeDefinition>the distance between the sensor and the surface in meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.4</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>COHM_ICET</entityName>
+      <entityDescription>Commonwealth station Ice Temperature spreadsheet column descriptions and units used</entityDescription>
+      <physical>
+        <objectName>COHM_ICET.csv</objectName>
+        <size>33835935</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7007/12/d3650188cf237b48edfbb297e7862c25</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>Ice T @ 20cm 1993-1994 - 2002-2003: Campbell Scientific 107B temperature probeIce T @ 50cm 2002-2003 - present: Fenwall Thermisters (192-102DEW-A01) and Caddock Tetrinox(TF050N) hi precision resistor (10Kohm) with +-5ppm/celcius and 0.01percent ResistorIce T @ 1m 1993-1994 - 2002-2003: Campbell Scientific 107B temperature probeIce T @ 1m 2002-2003 - present: Fenwall Thermisters (192-102DEW-A01) and Caddock Tetrinox(TF050N) hi precision resistor (10Kohm) with +-5ppm/celcius and 0.01percent ResistorIce Elevation 2002-2003 present: Campbell Scientific SR50 Sonic Ranging Sensor</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>Ice T @ 20cm 1993-1994 - 2002-2003: Campbell Scientific 107B temperature probe Ice T @ 50cm 2002-2003 - present: Fenwall Thermisters (192-102DEW-A01) and Caddock Tetrinox(TF050N) hi precision resistor (10Kohm) with +-5ppm/celcius and 0.01percent Resistor Ice T @ 1m 1993-1994 - 2002-2003: Campbell Scientific 107B temperature probe Ice T @ 1m 2002-2003 - present: Fenwall Thermisters (192-102DEW-A01) and Caddock Tetrinox(TF050N) hi precision resistor (10Kohm) with +-5ppm/celcius and 0.01percent Resistor Ice Elevation 2002-2003 present: Campbell Scientific SR50 Sonic Ranging Sensor</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET CODE</attributeName>
+          <attributeLabel>DATASET CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ICET20CM</attributeName>
+          <attributeLabel>ICET20CM</attributeLabel>
+          <attributeDefinition>Ice temperature at 20 cm depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ICET1M</attributeName>
+          <attributeLabel>ICET1M</attributeLabel>
+          <attributeDefinition>Ice temperature at 1 meter depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ICET50CM</attributeName>
+          <attributeLabel>ICET50CM</attributeLabel>
+          <attributeDefinition>Ice temperature at 50 centimeters depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ICEELEVATION</attributeName>
+          <attributeLabel>ICEELEVATION</attributeLabel>
+          <attributeDefinition>Elevation of ice surface measured from fixed datum (based on original height of sonic)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ICET_COMMENTS</attributeName>
+          <attributeLabel>ICET_COMMENTS</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of ICET_</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of ICET_</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>COHM_RADN</entityName>
+      <entityDescription>Commonwealth Solar Radiation spreadsheet columns description and units used</entityDescription>
+      <physical>
+        <objectName>COHM_RADN.csv</objectName>
+        <size>68315947</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7007/12/1617b67e3a1b0c0f6dcc71925ebcd2af</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>see task list and instrumentation</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>Longwave Radiation (incoming): Eppley precision infrared radiometer (pyrgeometer) Longwave Radiation (outgoing): Eppley precision infrared radiometer (pyrgeometer) Solar Flux (incoming): Eppley precision spectral pyranometer Solar Flux (outgoing): Eppley precision spectral pyranometer THMIR (ice surface thermal infrared - summer only 1995-1996) Everest model 4000 4GL infared temperature transducer. Summer-only measurements.</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET CODE</attributeName>
+          <attributeLabel>DATASET CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LWRADIN</attributeName>
+          <attributeLabel>LWRADIN</attributeLabel>
+          <attributeDefinition>Incoming longwave radiation based on applying instrument-specific multiplier</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>W/m2</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-5</minimum>
+                  <maximum exclusive="false">400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWRADIN2</attributeName>
+          <attributeLabel>LWRADIN2</attributeLabel>
+          <attributeDefinition>Incoming longwave radiation calculated from thermopile, case thermistor and the dome or hemisphere thermistor measurements</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>W/m2</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-5</minimum>
+                  <maximum exclusive="false">400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWRADOUT</attributeName>
+          <attributeLabel>LWRADOUT</attributeLabel>
+          <attributeDefinition>Outgoing longwave radiation based on applying instrument-specific multiplier</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>W/m2</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-5</minimum>
+                  <maximum exclusive="false">400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWRADOUT2</attributeName>
+          <attributeLabel>LWRADOUT2</attributeLabel>
+          <attributeDefinition>Outgoing longwave radiation calculated from thermopile, case thermistor and the dome or hemisphere thermistor measurements</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>W/m2</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-5</minimum>
+                  <maximum exclusive="false">400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SWRADIN</attributeName>
+          <attributeLabel>SWRADIN</attributeLabel>
+          <attributeDefinition>Incoming shortwave radiation/solar flux</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>W/m2</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SWRADOUT</attributeName>
+          <attributeLabel>SWRADOUT</attributeLabel>
+          <attributeDefinition>Outoing shortwave radiation/solar flux</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>W/m2</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>THMIR</attributeName>
+          <attributeLabel>THMIR</attributeLabel>
+          <attributeDefinition>Thermal infrared surface temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>RADN_COMMENTS</attributeName>
+          <attributeLabel>radiation comments</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of radiation</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of radiation</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>COHM_RH</entityName>
+      <entityDescription>Commonwealth station Relative Humidity spreadsheet and columns descriptions and units used</entityDescription>
+      <physical>
+        <objectName>COHM_RH.csv</objectName>
+        <size>27902158</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7007/12/986af48673b4f88a37a50f95b67c7101</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>See task list and instrumentation</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>1993-1994 - 1999-2000: Campbell Scientific 207B temp/rh probe. 1999-2000 - present: Vaisala HMP45C RH probe</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET CODE</attributeName>
+          <attributeLabel>DATASET CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RH</attributeName>
+          <attributeLabel>RH</attributeLabel>
+          <attributeDefinition>Relative humidity at 3 meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>RH_COMMENTS</attributeName>
+          <attributeLabel>relative humidity comments</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of relative humidity</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of relative humidity</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>COHM_SURFTEMP</entityName>
+      <entityDescription>Commonwealth station Ice Surface Temperature Units</entityDescription>
+      <physical>
+        <objectName>COHM_SURFTEMP.csv</objectName>
+        <size>20700420</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7007/12/e162af5bfccf0d833d9a53913599bf45</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>see task list</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>Everest Interscience 3600ZL Micro-Miniature Infared Thermometer System</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET CODE</attributeName>
+          <attributeLabel>DATASET CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SURFTEMP</attributeName>
+          <attributeLabel>SURFTEMP</attributeLabel>
+          <attributeDefinition>Ice surface temperature thermal infrared</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SURFTEMP_COMMENTS</attributeName>
+          <attributeLabel>ice surface temp comments</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of ice surface temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of ice surface temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>COHM_WIND</entityName>
+      <entityDescription>Commonwealth Station Wind Measurement Units</entityDescription>
+      <physical>
+        <objectName>COHM_WIND.csv</objectName>
+        <size>40549561</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7007/12/6f076ae6060c28bc4107695ff4ef3138</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>see task list and instrumentation used</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>(wind direction and speed): R.M. Young model 05103 wind monitor.</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET CODE</attributeName>
+          <attributeLabel>DATASET CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WDIR</attributeName>
+          <attributeLabel>WDIR</attributeLabel>
+          <attributeDefinition>Averagewind direction</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degreesfromnorth</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WDIRSTD</attributeName>
+          <attributeLabel>WDIRSTD</attributeLabel>
+          <attributeDefinition>Standard deviation of wind direction</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degreesfromnorth</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WSPD</attributeName>
+          <attributeLabel>WSPD</attributeLabel>
+          <attributeDefinition>Windspeed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WSPDMAX</attributeName>
+          <attributeLabel>WSPDMAX</attributeLabel>
+          <attributeDefinition>Maximumwind speed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WSPDMIN</attributeName>
+          <attributeLabel>WSPDMIN</attributeLabel>
+          <attributeDefinition>Minimumwind speed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WIND_COMMENTS</attributeName>
+          <attributeLabel>WIND_COMMENTS</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of WIND_</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of WIND_</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>COHM_WVAPD</entityName>
+      <entityDescription>Commonwealth Station Water Vapor Density Units</entityDescription>
+      <physical>
+        <objectName>COHM_WVAPD.csv</objectName>
+        <size>846155</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7007/12/e8e44bcf3fb16970c26a43cf1e69aadd</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET CODE</attributeName>
+          <attributeLabel>DATASET CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Commonwealth Glacier meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Commonwealth Glacier meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WVAPD</attributeName>
+          <attributeLabel>WVAPD</attributeLabel>
+          <attributeDefinition>Water Vapor Density</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramspercubicmeter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WVAPD_COMMENTS</attributeName>
+          <attributeLabel>WVAPD_COMMENTS</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of WVAPD_</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of WVAPD_</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <ns2:unit id="W/m2">
+          <ns2:description />
+        </ns2:unit>
+        <ns2:unit abbreviation="%" constantToSI="0" id="percent" multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless">
+          <ns2:description>ratio of two quantities as percent composition (1:100)</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="" id="degreesfromnorth" name="degreesfromnorth" unitType="">
+          <ns2:description />
+        </ns2:unit>
+        <ns2:unit id="gramspercubicmeter">
+          <ns2:description />
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

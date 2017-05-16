@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="085.2"
+            type="primary">
+   <timeStamp value="2015-02-11 17:11:44 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Monthly Northern Hemisphere 2.5-degree Tropospheric Analyses for 1946-1972</title>
+   <summary>
+      <p>This dataset contains a time-series collection of monthly
+              Northern Hemisphere tropospheric data on a 2.5-degree
+              latitude/longitude grid.  These grids were created by DSS
+              from the grids of <a href="http://rda.ucar.edu/datasets/ds085.0/">ds085.0</a>, which
+              have a resolution of five degrees.  The intermediate points of
+              the grids in this set were interpolated from the existing
+              surrounding gridpoints using a 16-point Bessel interpolation
+              scheme.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                formerName="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOD/USNAVY/FNMOC &gt; Fleet Numerical Meteorology and Oceanography Center, U.S. Navy, U. S. Department of Defense"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Meteorological Center"
+                citable="no"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <platform vocabulary="GCMD">OPERATIONAL MODELS</platform>
+   <project vocabulary="GCMD">ESSPO &gt; 433L ESSPO</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="085.0"/>
+   <relatedDataset ID="085.1"/>
+   <publicationDate>2000-11-13</publicationDate>
+   <contentMetadata>
+      <temporal start="1946-01-01 15:00 +0000"
+                end="1976-06-30 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit=""/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="regular" number="1" unit="year"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="37"
+               startLon="0E"
+               startLat="0N"
+               endLon="357.5E"
+               endLat="90N"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

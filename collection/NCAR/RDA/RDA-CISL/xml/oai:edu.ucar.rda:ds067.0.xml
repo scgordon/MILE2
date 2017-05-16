@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="067.0"
+            type="primary">
+   <timeStamp value="2015-02-11 21:42:41 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NCEP Stratospheric Analyses, daily June 1981 to March 1997</title>
+   <summary>
+      <p>The Global Stratospheric Analyses are provided on a pair of 65 by 65 polar
+              grids.  These were operationally prepared by NCEP daily, at 12Z.</p>
+      <p>The analyses are available on 8 mandatory levels from 70 mbar to 0.4 mbar.
+              Parameters include pressure, geopotential height, temperature,
+              and total column ozone.</p>
+      <p>
+         <a href="http://rda.ucar.edu/datasets/ds067.0/more.html">More information is available</a>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Air Quality &gt; Tropospheric Ozone</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">OPERATIONAL MODELS</platform>
+   <supportsProject vocabulary="GCMD">WRF &gt; WRF (Weather Research and Forecasting) Modeling</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Jenne, Roy L.</authorList>
+      <year>1986</year>
+      <title>NMC Analyses (unpublished)</title>
+      <organization reportID="" pages="14">NCAR</organization>
+      <url>http://rda.ucar.edu/datasets/common/nmc.octagon/NMC-Analyses-RJ1986.pdf</url>
+   </reference>
+   <relatedDataset ID="067.3"/>
+   <relatedDataset ID="061.0"/>
+   <relatedDataset ID="067.1"/>
+   <relatedDataset ID="067.4"/>
+   <publicationDate>1982-06-18</publicationDate>
+   <contentMetadata>
+      <temporal start="1980-10-14 12:00 +0000"
+                end="1997-03-19 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="regular" number="1" unit="week"/>
+      <temporalFrequency type="regular" number="4" unit="day"/>
+      <temporalFrequency type="regular" number="3" unit="day"/>
+      <temporalFrequency type="regular" number="2" unit="day"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/datasets/common/nmc.on84/format_on84_jan88.html">NCEP_ON84</format>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="65"
+               numY="65"
+               startLon="125W"
+               startLat="20.83S"
+               projLon="80W"
+               xRes="381"
+               yRes="381"
+               pole="N"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="65"
+               numY="65"
+               startLon="145E"
+               startLat="20.83N"
+               projLon="100E"
+               xRes="381"
+               yRes="381"
+               pole="S"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

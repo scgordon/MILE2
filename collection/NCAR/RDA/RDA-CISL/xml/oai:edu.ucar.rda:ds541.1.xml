@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="541.1"
+            type="primary">
+   <timeStamp value="2007-08-13 09:00:48 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">all_free</access>
+   <title>Atlas of Surface Marine Data, climatology and monthly, by Da Silva and Young</title>
+   <summary>
+      <p>COADS observations (1945-1993) were used to derive
+              climatologies and year-month anomalies for the basic observed
+              variables and heat flux components.  The data are analyzed
+              to give full global coverage.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UWI-MIL/GEOL &gt; Department of Geosciences, University of Wisconsin-Milwaukee"
+                contact="Arlindo da Silva;Christine Young"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NODC/OCL &gt; Ocean Climate Laboratory, National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                contact="Syd Levitus"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Longwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Heat Budget &gt; Heat Flux</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <relatedDataset ID="540.0"/>
+   <relatedDataset ID="540.1"/>
+   <publicationDate>1994-07-20</publicationDate>
+   <contentMetadata>
+      <temporal start="1945" end="1993" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="climatology" unit="month"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <format>netCDF</format>
+      <levels>
+         <level type="Ground or water surface" value="0" units=""/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="720"
+               numY="360"
+               startLon="0.0E"
+               startLat="89.5S"
+               endLon="359.5E"
+               endLat="90.0N"
+               xRes="0.5"
+               yRes="0.5"/>
+         <grid definition="latLon"
+               numX="360"
+               numY="180"
+               startLon="0.5E"
+               startLat="89.5S"
+               endLon="359.5E"
+               endLat="89.5N"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,769 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-nwt.156.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document" system="knb">
+    <allow>
+      <principal>uid=NWT,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>snow_depth_usa_niwot.nm.data.csv</alternateIdentifier>
+    <title>Snow depth sensor measurement data for Upper Sub Alpine site, 2010 - ongoing.</title>
+    <creator>
+      <individualName>
+        <givenName>Leanne</givenName>
+        <surName>Lestak</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>University of Colorado, Institute of Arctic and Alpine Research (INSTAAR), UCB 450</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>Leanne.Lestak@colorado.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <positionName>Niwot Ridge LTER Data Manager</positionName>      
+      <organizationName>University of Colorado, Institute of Arctic and Alpine Research (INSTAAR), Niwot Ridge LTER</organizationName>
+      <address>
+<deliveryPoint>1560 30th Street</deliveryPoint>
+<city>Boulder</city>
+<administrativeArea>CO</administrativeArea>
+<postalCode>80309-0450</postalCode>
+<country>USA</country>
+</address>
+      <phone phonetype="voice">303-492-2594</phone>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <positionName>Niwot Ridge LTER Data Manager</positionName>      
+      <organizationName>University of Colorado, Institute of Arctic and Alpine Research (INSTAAR), Niwot Ridge LTER</organizationName>
+      <address>
+<deliveryPoint>1560 30th Street</deliveryPoint>
+<city>Boulder</city>
+<administrativeArea>CO</administrativeArea>
+<postalCode>80309-0450</postalCode>
+<country>USA</country>
+</address>
+      <phone phonetype="voice">303-492-2594</phone>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2013-06-15</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>This comma delimted file contains hourly snow depth measurements collected using Judd snow depth sensors for water year 2010-2012 (1 October 2009 &#226;&#128;&#147; 30 September 2012) at the Upper Sub Alpine site, located just southeast of the Tundra Lab, below treeline in the Niwot Ridge Long-Term Ecological Research (NWTLTER) project area. The file contains both level 0 and level 1 (see details in &#226;&#128;&#156;Process Description&#226;&#128;&#157; below) hourly snow depth data measured in centimeters, and an accompanying metadata file. The README file contains descriptive details about all files included in the data release. Datasets available in this series include measurements for 3 sites-Alpine, Upper Subalpine (USA) and Lower Subalpine (LSA)- consisting of data for 14 sensors at the Alpine site, 13 sensors at the USA site, and 15 sensors at the LSA site, for a total of 42 sensors at the 3 sites. Elevation ranges from 3060m at LSA to 3550m at the Alpine site.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>snow depth</keyword>
+      <keyword>hydrology</keyword>
+      <keyword>precipitation</keyword>
+      <keyword>alpine</keyword>
+      <keyword>subalpine</keyword>
+      <keyword>climate</keyword>
+      <keyword>climate change</keyword>
+      <keyword>climatology</keyword>
+      <keyword>depth</keyword>
+      <keyword>distribution</keyword>
+      <keyword>elevation</keyword>
+      <keyword>environment</keyword>
+      <keyword>frequency</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>frost</keyword>
+      <keyword>gradient</keyword>
+      <keyword>inventories</keyword>
+      <keyword>landscape</keyword>
+      <keyword>landscape change</keyword>
+      <keyword>latitude</keyword>
+      <keyword>locations</keyword>
+      <keyword>long term</keyword>
+      <keyword>long term ecological research</keyword>
+      <keyword>long term monitoring</keyword>
+      <keyword>longitude</keyword>
+      <keyword>naximum temperature</keyword>
+      <keyword>meteorology</keyword>
+      <keyword>minimum temperature</keyword>
+      <keyword>monitoring</keyword>
+      <keyword>physical</keyword>
+      <keyword>precipitation</keyword>
+      <keyword>remote sensing</keyword>
+      <keyword>sampling</keyword>
+      <keyword>seasonality</keyword>
+      <keyword>snow</keyword>
+      <keyword>snow accumulation</keyword>
+      <keyword>snow depth</keyword>
+      <keyword>snow temperature</keyword>
+      <keyword>spatial variability</keyword>
+      <keyword>surveys</keyword>
+      <keyword>air temperature</keyword>
+      <keyword>urban</keyword>
+      <keyword>water</keyword>
+      <keyword>water balance</keyword>
+      <keyword>sensor measurement data</keyword>
+      <keyword>CR1000</keyword>
+      <keyword>datalogger</keyword>
+      <keywordThesaurus>LTER Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>long-term change</keyword>
+      <keyword>meteorological data</keyword>
+      <keyword>Niwot Ridge LTER</keyword>
+      <keyword>NWT LTER</keyword>
+      <keyword>NWT related project</keyword>
+      <keyword>NWT</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Niwot LTER Data Policy</title>
+        <para> The following acknowledgment should accompany any publication or 
+          citation of these data: <itemizedlist>
+            <listitem>
+              <para> Logistical support and/or data were provided by the 
+                NSF-supported Niwot Ridge (NWT) Long-Term Ecological Research (LTER) 
+                project and the University of Colorado (CU) Mountain Research Station (MRS). </para>
+            </listitem>
+            <listitem>
+              <para> The user of NWT LTER data agrees to provide proper 
+                acknowledgment with each usage of the data. Citation of 
+                the name(s) of the investigator(s) responsible for the 
+                data set, in addition to the generic statement above, 
+                constitutes proper acknowledgment. Author(s) (including NWT investigators) 
+                of published material that makes use of previously unpublished 
+                NWT data agree to provide the NWT data manager with a PDF of 
+                that material as soon as it becomes available. The user of NWT 
+                data agrees not to resell or redistribute shared data. </para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para>The NSF-supported NWT LTER project shall not be held liable for 
+          improper or incorrect use of the data described and/or contained 
+          herein, nor assumes liability for misuse, manipulation or distribution 
+          of the data. These data  
+          are not legal documents and are not intended to be used as such. 
+          The information contained in these data is dynamic and may change 
+          over time. The user of these data should be aware that, 
+          while efforts have been taken to ensure that these data are of the 
+          highest quality, there is no guarantee of perfection for the data 
+          contained herein and the possibility of errors exists. It is the 
+          responsibility of the data user to use the data appropriately and 
+          in a manner consistent with the limitations of data in 
+          general and these data in particular. Users assume responsibility 
+          to determine the usability of the dataset. NWT LTER gives no warranty, expressed or implied, as to 
+          the accuracy, reliability, or completeness of these data. It is 
+          strongly recommended that these data be directly acquired from 
+          the NWT LTER server and not indirectly through other sources 
+          that may have changed the data in some way. Although these data 
+          have been processed successfully on computer systems at CU, no 
+          warranty expressed or implied is made regarding the utility of 
+          the data on other systems for general or scientific purposes, 
+          nor shall the act of distribution constitute any such warranty. 
+          This disclaimer applies both to individual use of the data and 
+          aggregate use with other data.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://niwot.colorado.edu/data_csvs/snow_depth_usa_niwot.nm.data.csv</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Niwot Ridge LTER Research Site, located in Boulder County, near Boulder, CO, USA.&#194;&#160;
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.660046</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.513014</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.085641</northBoundingCoordinate>
+          <southBoundingCoordinate>40.013564</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2010-04-15</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012-07-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>ongoing
+</para>
+      </description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Noah</givenName>
+        <surName>Molotch</surName>
+      </individualName>
+      <organizationName>University of Colorado, Institute of Arctic and Alpine Research (INSTAAR)</organizationName>
+      <positionName>Principal Investigator</positionName>
+      <address>
+        <deliveryPoint>University of Colorado - INSTAAR, UCB 450</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">303-492-6151</phone>
+      <electronicMailAddress>Noah.Molotch@colorado.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>University of Colorado, Institute of Arctic and Alpine Research (INSTAAR) Niwot Ridge LTER</organizationName>
+      <address>
+      <deliveryPoint>1560 30th Street</deliveryPoint>
+      <city>Boulder</city>
+      <administrativeArea>CO</administrativeArea>
+      <postalCode>80309-0450</postalCode>
+      <country>USA</country>
+      </address>
+      <phone phonetype="voice">303-492-2594</phone>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+    </publisher>
+    <pubPlace>Boulder, CO</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>Judd Communications depth sensors measure the time required for an ultrasonic pulse to travel to and from a target surface. A board-based microcontroller calculates a temperature compensated distance to surface from the signal travel time, and integrated air temperature sensor. The sensors output a digital ASCII string at 1200 baud, containing four parameters for each time step:  1) Air temperature in degrees Kelvin*2, 2) Travel time in 10*microseconds, 3) Temperature compensated distance measured in mm, 4) the number of times the error checking algorithm was used after the first pass (retries). The ASCII string is input to a common Campbell Scientific Datalogger at each site. Dataloggers are programmed to store the travel time, and retries parameters as read, and to store temperature values converted to degrees Celsius and distance values converted to cm.
+              At all three LTER sites, sensors are attached to pre-built structures developed by University of California, Merced. All structures are constructed with &#194;&#189;&#226;&#128;&#157; galvanized pipe. The heated sensor is located in the middle of a 3m boom, which crosses the center of Merced's plots (which are circles 3m in diameter).  A 5-foot pipe extended from the boom is where the control sensor is located. Due to differences in structure and topography, sensors vary in their height from the ground. Data are retrieved from the datalogger during the snow season by field personnel managed by Dominik Schneider. The raw datalogger output is imported into an Excel spreadsheet, appending all previous data collected for the site. The data set is then analyzed for missing or grossly anomalous values, the findings of which are noted in the datalogger specific metadata file. Original data files can be requested from the Principal Investigator (PI), but to most users they will be useless. Snow depth data files were put into an Excel spreadsheet after minimal processing performed by the field technicians. Sensor offsets (distance from sensor to snow-free ground surface) were not measured until after melt at the USA site and were not measured at the Alpine and LSA sites. Distance to sensor was converted to snow depth by subtracting the maximum distance to sensor from all values.
+              The Excel spreadsheet was then delivered to Leanne Lestak who performed initial processing on each file, checking for consecutive date/times, and changing missing data values to NaN. Initial processing is considered level 0 data, which was then input into a Matlab program written by Keith Musselman. An overall bias was applied to each sensor dataset (noted below under &#226;&#128;&#156;Bias Applied&#226;&#128;&#157;), extraneous noisy values (either positive (noted in &#226;&#128;&#156;Maximum Depth Applied During Matlab Post-Processing&#226;&#128;&#157;, i.e., data points greater than this number were deleted) or negative) were deleted, depths were interpolated across missing data &#226;&#128;&#156;holes&#226;&#128;&#157;, and data was smoothed using a splining routine. This produced a preliminary level 1 dataset. Through consultations with data users, field technicians and Principal Investigators (PIs) a perfected level 1 product was produced. It is the responsibility of the PIs and applicable technicians to produce a viable level 2 product. This product will be delivered to Leanne Lestak for incorporation into the original dataset series. During production of the level 2 data set consultation with Leanne Lestak is highly advised. Data used for scientific purposes require level 2 processing. Contact Noah Molotch (contact information provided herein) for assistance with scientific data use.
+              Each plot has a control and heated sensor and is labeled accordingly, e.g., plots 24c (control) and 24h (heated). Plots 21, 22, and 23 are adjacent to each other in the northwest part of the site.  Plot 29 lies to the northeastern edge of the site.  These plots were chosen because at the time of sensor installment in 2010, they were the only sites that did not have snow above the heaters, and thus the only sites where installment was possible.</para>
+          </section>
+          <section>
+            <para>Data Processing Levels:
+          Raw: Data as collected from the site-specific datalogger. Only grossly erroneous data removed (sensor malfunction, sensor absence). The raw datalogger output is imported into an Excel spreadsheet, appending all previous data collected for the site. For each timestamp there are four parameters per sensor in the raw data file:  1) air temperature in degrees C, 2) signal travel time in 10*microseconds, 3) snow depth in cm, 4) number of times the sensor had to retry in order to get a distance value
+          Level 0: Initial processing check for consecutive date/times, missing values converted to NaN, distance converted to snow depth. Reformatted for input into Matlab post-processing code. Format required is tab-delimited text, rows are date/time stamp and columns are 1) Excel format date/time, 2) snow depth #1, 3) snow depth #2, etc.
+          Level 1: An overall bias was applied to each sensor dataset (noted below under &#226;&#128;&#156;Bias Applied&#226;&#128;&#157;), extraneous noisy values (either positive or negative) were deleted, depths were interpolated across missing data &#226;&#128;&#156;holes&#226;&#128;&#157;, and data was smoothed using a splining routine. Through consultations with data users, field technicians and Principal Investigators (PIs) a perfected level 1 product was produced. Data is released as an Excel formatted file, which contains the following columns: 1) Date/time stamp, 2) Level 0 depth #1, 3) Level 1 depth #1, 4) Level 1 depth #2, 5) Level 1 depth #2, etc.
+          Level 2: It is the responsibility of the PIs and applicable technicians to produce a viable level 2 product. This product will be delivered to Leanne Lestak for incorporation into the original dataset series. Data used for scientific purposes require level 2 processing. Contact Noah Molotch (contact information provided herein) for assistance with scientific data use.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>snow_depth_usa_niwot.nm.data.csv</entityName>
+      <entityDescription>Judd snow depth sensor measurements at the Upper Sub Alpine site, Niwot Ridge LTER project area, for water years 2010-2012. Parameters measured include: snow depth, and air temperature.</entityDescription>
+      <physical>
+        <objectName>snow_depth_usa_niwot.nm.data.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://niwot.colorado.edu/data_csvs/snow_depth_usa_niwot.nm.data.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+         <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2010-04-15</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2012-07-15</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>time</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>HH:MM</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>air temperature</attributeName>
+          <attributeLabel>air temperature</attributeLabel>
+          <attributeDefinition>air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.5</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 21c level 0</attributeName>
+          <attributeLabel>21C Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 21 c (control) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 21c level 1</attributeName>
+          <attributeLabel>21C Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 21 c (control) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 21h level 0</attributeName>
+          <attributeLabel>21H Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 21 h (heated) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 21h level 1</attributeName>
+          <attributeLabel>21H Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 21 h (heated) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>       
+        <attribute>
+          <attributeName>snow depth sensor 22c level 0</attributeName>
+          <attributeLabel>22c Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 22 c (control) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 22c level 1</attributeName>
+          <attributeLabel>22c Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 22 c (control) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 22h level 0</attributeName>
+          <attributeLabel>22H Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 22 h (heated) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 22h level 1</attributeName>
+          <attributeLabel>22H Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 22 h (heated) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>         
+        <attribute>
+          <attributeName>snow depth sensor 23c level 0</attributeName>
+          <attributeLabel>23C Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 23 c (control) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 23c level 1</attributeName>
+          <attributeLabel>23C Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 23 c (control) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 29c level 0</attributeName>
+          <attributeLabel>29C Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 29 c (control) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 29c level 1</attributeName>
+          <attributeLabel>29C Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 29 c (control) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>       
+        <attribute>
+          <attributeName>snow depth sensor 29h level 0</attributeName>
+          <attributeLabel>29H Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 29 h (heated) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 29h level 1</attributeName>
+          <attributeLabel>29H Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 29 h (heated) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>        
+        <attribute>
+          <attributeName>snow depth sensor 32c level 0</attributeName>
+          <attributeLabel>32C Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 32 c (control) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 32c level 1</attributeName>
+          <attributeLabel>32C Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 32 c (control) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 32h level 0</attributeName>
+          <attributeLabel>32H Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 32 h (heated) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 32h level 1</attributeName>
+          <attributeLabel>32H Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 32 h (heated) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>              
+        <attribute>
+          <attributeName>snow depth sensor 34c level 0</attributeName>
+          <attributeLabel>34C Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 34 c (control) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 34c level 1</attributeName>
+          <attributeLabel>34C Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 34 c (control) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>        
+        <attribute>
+          <attributeName>snow depth sensor 34h level 0</attributeName>
+          <attributeLabel>34H Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 34 h (heated) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 34h level 1</attributeName>
+          <attributeLabel>34H Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 34 h (heated) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>          
+        <attribute>
+          <attributeName>snow depth sensor 40c level 0</attributeName>
+          <attributeLabel>40C Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 40 c (control) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 40c level 1</attributeName>
+          <attributeLabel>40C Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 40 c (control) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 40h level 0</attributeName>
+          <attributeLabel>40H Level 0</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 40 h (heated) level 0 (minimally processed) hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth sensor 40h level 1</attributeName>
+          <attributeLabel>40H Level 1</attributeLabel>
+          <attributeDefinition>Judd snow sensor number 40 h (heated) level 1 processed hourly measurement data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>  
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

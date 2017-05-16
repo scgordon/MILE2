@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="316.0"
+            type="primary">
+   <timeStamp value="2015-11-17 11:59:17 -0700"/>
+   <doi>10.5065/D6TH8JP5</doi>
+   <continuingUpdate value="no"/>
+   <title>NCAR Community Earth System Model, EaSM Project Dataset</title>
+   <summary>
+      <p>This dataset includes climate model output data from NCAR's Community Earth System Model (CESM) CMIP 5 runs, with output fields for the 3-D global atmosphere at six hourly intervals.  A basic set of parameters is provided on 26 model hybrid level surfaces:  specific humidity, temperature, wind components, and geopotential height to support regional modeling studies.  Additional parameters are provided on single level grids to support analysis studies including surface temperature.  Data are available in yearly time-series parameter archive files, and monthly synoptic time archive files.  An interface is provided to give users the option to select parameter, temporal, and spatial subsets from the monthly synoptic time archive files.  The data are a single 20th Century (1950-2005) simulation and three concomitant Representative Concentration Pathway (RCP) future scenarios spanning 2005-2100.  These computer runs were completed in 2011.</p>
+      <p>
+         <font color="red">
+            <b>NOTE: All RCP2.6 data has been removed due to corrupted data caused by a model bug.  Users needing for WRF boundary conditions are recommended to use the bias corrected version of this dataset found in RDA dataset ds316.1, NCAR CESM Global Bias-corrected CMIP5 Output to Support WRF/MPAS Research.</b>
+         </font>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CGD/CCSM &gt; Community Climate System Model, Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Rate</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <contact>Doug Schuster</contact>
+   <platform vocabulary="GCMD">CLIMATE MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://www.cesm.ucar.edu/">CESM site</relatedResource>
+   <relatedResource url="http://www.cesm.ucar.edu/experiments/cesm1.0/">CESM Experiment Description</relatedResource>
+   <relatedResource url="http://www.nsf.gov/geo/sees/easm/">NSF EaSM website</relatedResource>
+   <relatedResource url="http://www.cesm.ucar.edu/experiments/cesm1.0/">CESM data website.  Provides access to monthly mean 20th Century and RCP data.</relatedResource>
+   <relatedResource url="https://www.earthsystemgrid.org/home.htm">Earth System Grid.  Provides access to 20thC and RCP monthly mean data.</relatedResource>
+   <relatedDataset ID="316.1"/>
+   <publicationDate>2011-08-27</publicationDate>
+   <contentMetadata>
+      <temporal start="1950-01-01 06:00 +0000"
+                end="2100-12-31 18:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="288"
+               numY="192"
+               startLon="0E"
+               startLat="90S"
+               endLon="358.75E"
+               endLat="90N"
+               xRes="1.25"
+               yRes="0.942"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

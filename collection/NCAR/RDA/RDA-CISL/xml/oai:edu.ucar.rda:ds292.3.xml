@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="292.3"
+            type="primary">
+   <timeStamp value="2015-02-05 19:44:25 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Blended and Reconstructed Oceanic Monthly Cloudiness Estimates</title>
+   <summary>
+      <p>Monthly cloudiness estimates are produced by blending satellite estimates from the International Satellite Cloud Climatology Project (ISCCP) with in situ estimates from the International Comprehensive Ocean Atmosphere Data Set (ICOADS). The monthly estimates are on a 2.5 degree spatial grid giving total cloud cover in oktas (0-8) for 1983-2008. The spatially complete blended estimate is then used to form reconstruction statistics for a longer time period. Using those statistics, the ICOADS historical cloudiness data is used to form a 5 degree global ocean total cloudiness reconstruction for 1900-2010.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UMD/ESSIC &gt; Earth System Science Interdisciplinary Center, University of Maryland"
+                contact="Thomas M. Smith, (301) 405-9635, tom.smith-at-noaa.gov"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">SATELLITES</platform>
+   <project vocabulary="GCMD">ISCCP &gt; International Satellite Cloud Climatology Project</project>
+   <project vocabulary="GCMD">ICOADS &gt; International Comprehensive Ocean Atmosphere Data Set</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Smith, T.M., P.A. Arkin, and L. Ren</authorList>
+      <year>2011</year>
+      <title>Analyses of Oceanic Total Cloudiness and Some Relationships with Precipitation and SST Beginnin 1900</title>
+      <periodical number="0" pages="0-0">JGR</periodical>
+   </reference>
+   <publicationDate>2011-10-25</publicationDate>
+   <contentMetadata>
+      <temporal start="1900" end="2010" groupID="RECONSTRUCTIONS"/>
+      <temporal start="1983-07" end="2008-06" groupID="BLENDED"/>
+      <temporalFrequency type="regular" number="1" unit="month" statistics="mean"/>
+      <dataType process="analysis">grid</dataType>
+      <format>proprietary_ASCII</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="36"
+               startLon="1.25E"
+               startLat="88.75S"
+               endLon="358.75E"
+               endLat="88.75N"
+               xRes="2.5"
+               yRes="2.5"/>
+         <grid definition="latLon"
+               numX="72"
+               numY="18"
+               startLon="2.5E"
+               startLat="87.5S"
+               endLon="357.5E"
+               endLat="87.5N"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

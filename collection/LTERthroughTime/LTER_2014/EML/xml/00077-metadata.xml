@@ -1,0 +1,803 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.582.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://code.ecoinformatics.org/code/eml/tags/RELEASE_EML_2_1_1/eml.xsd  eml://ecoinformatics.org/eml-2.1.1 http://caplter.asu.edu/php/eml2_1_1/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="582" system="gios_dataset">
+    <alternateIdentifier system="gios_dataset">582_1</alternateIdentifier>
+    <title>Land-Use by Parcel in early Central Phoenix, 1900-1963</title>
+    <creator>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Tuccillo</surName>
+      </individualName>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Tuccillo</surName>
+      </individualName>
+    </metadataProvider>
+    <pubDate>2014-04-25</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Parcel-level land-use data derived from Sanborn Fire Insurance Map coverage of Central Phoenix for 1900, 1915, 1949, 1963. This dataset traces urbanization in Central Phoenix from Phoenix&#8217;s pre-statehood settlement to postwar downtown development and change amid rapid urban growth.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">land-use</keyword>
+      <keyword keywordType="theme">urbanization</keyword>
+      <keyword keywordType="theme">early phoenix</keyword>
+      <keyword keywordType="theme">20th century</keyword>
+      <keyword keywordType="theme">postwar</keyword>
+      <keyword keywordType="theme">downtown</keyword>
+      <keyword keywordType="theme">environmental justice</keyword>
+      <keyword keywordType="theme">sanborn fire insurance maps</keyword>
+      <keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">caplter</keyword>
+      <keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword>
+      <keyword keywordType="place">arizona</keyword>
+      <keyword keywordType="theme">caplter created</keyword>
+      <keyword keywordType="place">az</keyword>
+      <keyword keywordType="theme">cap</keyword>
+      <keyword keywordType="theme">arid land</keyword>
+      <keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>Copyright Board of Regents, Arizona State University. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available 'as is.'</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.</para>
+            </listitem>
+            <listitem>
+              <para>It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users submit to the Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <onlineDescription>CAPLTER Metadata URL</onlineDescription>
+        <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=582</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Phoenix&#8217;s 1915 incorporated area, bounded roughly North-South by Oak St/Encanto Blvd-Buckeye Rd; East-West 18th St to 23rd Ave (present-day Interstate 17)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-113.34</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.59</eastBoundingCoordinate>
+          <northBoundingCoordinate>+34.01</northBoundingCoordinate>
+          <southBoundingCoordinate>+32.91</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1963-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1900-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <temporalCoverage>
+        <singleDateTime>
+          <calendarDate>1900-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>1915-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>1949-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>1963-01-01</calendarDate>
+        </singleDateTime>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This research has been concluded.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="info_manager_contact">
+      <positionName>Information Manager</positionName>
+      <organizationName>Global Institute of Sustainability, Arizona State University</organizationName>
+      <address>
+        <deliveryPoint>POB 875402</deliveryPoint>
+        <city>TEMPE</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-5402</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(480) 965 2975</phone>
+      <phone phonetype="fax">(480) 965-8087</phone>
+      <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Arizona State University, Global Institute of Sustainability</organizationName>
+    </publisher>
+    <pubPlace>Tempe, Arizona</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Research Methods:</title>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>Using ESRI ArcGIS, geocoded Sanborn Fire Insurance Maps in (.tif) format for Central Phoenix using ESRI basemap imagery and Maricopa County Flood Control District historical aerial photography (1930, 1949, 1979) as references. Despite some temporal mismatch with the Sanborn Map coverage, this imagery helped identify block boundaries for early Phoenix neighborhoods.</para>
+                </listitem>
+                <listitem>
+                  <para>Sanborn Maps for 1900-1949 were available through the ProQuest Digital Sanborn Maps database; Sanborn Maps for 1963 were derived from original scans of a microfilm available through the Arizona State University Libraries Map Collection.</para>
+                </listitem>
+                <listitem>
+                  <para>For each year, clipped a 2002 Maricopa Assessor parcel feature class to the Sanborn Fire Insurance Map coverage for 1915 (roughly Phoenix&#8217;s 1915 incorporated boundary). Modified the feature class to include a historical land-use field.</para>
+                </listitem>
+                <listitem>
+                  <para>Using the ArcGIS Editor Toolbar, for each year (working backwards from 1949 and later adding 1963) merged and cut parcel boundaries as delimited by the Sanborn Fire Insurance Maps. Assigned a land-use to each parcel based on classification scheme land-use types (see table). Recorded notes of nonconforming or atypical mixtures of features observed on parcels for future reclassification (as needed).</para>
+                </listitem>
+                <listitem>
+                  <para>For each year, created a secondary land-use field (&#8220;Compat_RC&#8221;) to generalize land-use into five categories for spatial analysis.</para>
+                </listitem>
+                <listitem>
+                  <para>Repaired parcel geometry and removed spurious &#8220;sliver&#8221; polygons; removed extraneous fields.</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Phoenix Spatial History Project</title>
+      <personnel>
+        <individualName>
+          <givenName>Joseph</givenName>
+          <surName>Tuccillo</surName>
+        </individualName>
+        <role>author</role>
+      </personnel>
+      <abstract>
+        <para>NO_METADATA_PROVIDED</para>
+      </abstract>
+    </project>
+    <spatialVector>
+      <entityName>Central_Phoenix_Parcels_1901</entityName>
+      <entityDescription>NO_METADATA_PROVIDED</entityDescription>
+      <physical>
+        <objectName>Central_Phoenix_Parcels_1901.shp</objectName>
+        <size unit="byte">360572</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/582_Central_Phoenix_Parcels_1901.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>No geographic/area/plot description available. Sorry.</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-112.100665</westBoundingCoordinate>
+            <eastBoundingCoordinate>-112.054716</eastBoundingCoordinate>
+            <northBoundingCoordinate>33.460797</northBoundingCoordinate>
+            <southBoundingCoordinate>33.438240</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>vector digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  582-fgdc-Central_Phoenix_Parcels_1901.xml</para>
+                <para>Bytes:  3363</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1901.dbf</para>
+                <para>Bytes:  232930</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1901.prj</para>
+                <para>Bytes:  401</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1901.sbn</para>
+                <para>Bytes:  18444</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1901.sbx</para>
+                <para>Bytes:  1036</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1901.shp</para>
+                <para>Bytes:  360572</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1901.shp.xml</para>
+                <para>Bytes:  20073</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1901.shx</para>
+                <para>Bytes:  15620</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  LU_Key.xlsx</para>
+                <para>Bytes:  11891</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LU</attributeName>
+          <attributeDefinition>Land-Use types observed and classified using Sanborn Fire Insurance Maps.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Compat_Rc</attributeName>
+          <attributeDefinition>Generalized land-use classification  used to assess interaction types between disamenity parcels (Nuisances and Hazards), Commercial/Institutional parcels, and Residential Parcels; Includes &#8220;Vacant&#8221;, &#8220;Residential&#8221;, &#8220;Commercial/Institutional&#8221;, &#8220;Nuisance&#8221;, and &#8220;Hazard&#8221; types. See &#8220;LU_Key&#8221; for reclassification scheme.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Area_Ac</attributeName>
+          <attributeDefinition>Parcel area in acres</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>1940</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+    </spatialVector>
+    <spatialVector>
+      <entityName>Central_Phoenix_Parcels_1915</entityName>
+      <entityDescription>NO_METADATA_PROVIDED</entityDescription>
+      <physical>
+        <objectName>Central_Phoenix_Parcels_1915.shp</objectName>
+        <size unit="byte">1183044</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/582_Central_Phoenix_Parcels_1915.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>vector digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  582-fgdc-Central_Phoenix_Parcels_1915.xml</para>
+                <para>Bytes:  2803</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1915.dbf</para>
+                <para>Bytes:  958690</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1915.prj</para>
+                <para>Bytes:  401</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1915.sbn</para>
+                <para>Bytes:  76100</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1915.sbx</para>
+                <para>Bytes:  4268</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1915.shp</para>
+                <para>Bytes:  1183044</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1915.shp.xml</para>
+                <para>Bytes:  19059</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1915.shx</para>
+                <para>Bytes:  64004</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  LU_Key.xlsx</para>
+                <para>Bytes:  11891</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LU</attributeName>
+          <attributeDefinition>Land-Use types observed and classified using Sanborn Fire Insurance Maps.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Compat_Rc</attributeName>
+          <attributeDefinition>Generalized land-use classification  used to assess interaction types between disamenity parcels (Nuisances and Hazards), Commercial/Institutional parcels, and Residential Parcels; Includes &#8220;Vacant&#8221;, &#8220;Residential&#8221;, &#8220;Commercial/Institutional&#8221;, &#8220;Nuisance&#8221;, and &#8220;Hazard&#8221; types. See &#8220;LU_Key&#8221; for reclassification scheme.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Area_Ac</attributeName>
+          <attributeDefinition>Parcel area in acres</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+    </spatialVector>
+    <spatialVector>
+      <entityName>Central_Phoenix_Parcels_1949</entityName>
+      <entityDescription>NO_METADATA_PROVIDED</entityDescription>
+      <physical>
+        <objectName>Central_Phoenix_Parcels_1949.shp</objectName>
+        <size unit="byte">1314560</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/582_Central_Phoenix_Parcels_1949.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>No geographic/area/plot description available. Sorry.</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-112.108025</westBoundingCoordinate>
+            <eastBoundingCoordinate>-112.045500</eastBoundingCoordinate>
+            <northBoundingCoordinate>33.473236</northBoundingCoordinate>
+            <southBoundingCoordinate>33.436167</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>vector digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  582-fgdc-Central_Phoenix_Parcels_1949.xml</para>
+                <para>Bytes:  3306</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1949.dbf</para>
+                <para>Bytes:  926290</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1949.prj</para>
+                <para>Bytes:  401</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1949.sbn</para>
+                <para>Bytes:  74036</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1949.sbx</para>
+                <para>Bytes:  4364</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1949.shp</para>
+                <para>Bytes:  1314560</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1949.shp.xml</para>
+                <para>Bytes:  19881</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1949.shx</para>
+                <para>Bytes:  61844</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  LU_Key.xlsx</para>
+                <para>Bytes:  11891</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LU</attributeName>
+          <attributeDefinition>Land-Use types observed and classified using Sanborn Fire Insurance Maps.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Compat_Rc</attributeName>
+          <attributeDefinition>Generalized land-use classification  used to assess interaction types between disamenity parcels (Nuisances and Hazards), Commercial/Institutional parcels, and Residential Parcels; Includes &#8220;Vacant&#8221;, &#8220;Residential&#8221;, &#8220;Commercial/Institutional&#8221;, &#8220;Nuisance&#8221;, and &#8220;Hazard&#8221; types. See &#8220;LU_Key&#8221; for reclassification scheme.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Area_Ac</attributeName>
+          <attributeDefinition>Area_Ac</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>7718</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+    </spatialVector>
+    <spatialVector>
+      <entityName>Central_Phoenix_Parcels_1963</entityName>
+      <entityDescription>NO_METADATA_PROVIDED</entityDescription>
+      <physical>
+        <objectName>Central_Phoenix_Parcels_1963.shp</objectName>
+        <size unit="byte">1139696</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/582_Central_Phoenix_Parcels_1963.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>No geographic/area/plot description available. Sorry.</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-112.108025</westBoundingCoordinate>
+            <eastBoundingCoordinate>-112.045500</eastBoundingCoordinate>
+            <northBoundingCoordinate>33.473232</northBoundingCoordinate>
+            <southBoundingCoordinate>33.436161</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>vector digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  582-fgdc-Central_Phoenix_Parcels_1963.xml</para>
+                <para>Bytes:  3242</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1963.dbf</para>
+                <para>Bytes:  723056</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1963.prj</para>
+                <para>Bytes:  401</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1963.sbn</para>
+                <para>Bytes:  69564</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1963.sbx</para>
+                <para>Bytes:  4372</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1963.shp</para>
+                <para>Bytes:  1139696</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1963.shp.xml</para>
+                <para>Bytes:  186485</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Central_Phoenix_Parcels_1963.shx</para>
+                <para>Bytes:  57364</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  LU_Key.xlsx</para>
+                <para>Bytes:  11891</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LU</attributeName>
+          <attributeDefinition>Land-Use types observed and classified using Sanborn Fire Insurance Maps.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Compat_Rc</attributeName>
+          <attributeDefinition>Generalized land-use classification  used to assess interaction types between disamenity parcels (Nuisances and Hazards), Commercial/Institutional parcels, and Residential Parcels; Includes &#8220;Vacant&#8221;, &#8220;Residential&#8221;, &#8220;Commercial/Institutional&#8221;, &#8220;Nuisance&#8221;, and &#8220;Hazard&#8221; types. See &#8220;LU_Key&#8221; for reclassification scheme.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>7158</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+    </spatialVector>
+  </dataset>
+</eml:eml>

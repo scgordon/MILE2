@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="240.1"
+            type="historical">
+   <timeStamp value="2015-02-10 21:28:43 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>U.S. Navy FNOC Northern Hemisphere Surface Analyses, daily September 1969 to December 1993</title>
+   <summary>
+      <p>Fleet Numerical Oceanographic Center in Monterey California
+              prepares many analyses, from which we receive this surface
+              subset on a 63-by-63 grid.  It includes sea surface temperature,
+              air surface temperature, surface vapor pressure, 19.5 meter surface
+              winds, and sea level pressure.</p>
+      <p>
+              Unless you have a special interest in this dataset, DSS recommends that you
+              use one of our reanalysis datasets, such as <a href="http://rda.ucar.edu/datasets/ds090.0/">ds090.0</a>.  That's because those are
+              based on a more complete collection of observations, improved analysis methods,
+              and are provided in a common modern format (GRIB).
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                formerName="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="DOD/USNAVY/FNMOC &gt; Fleet Numerical Meteorology and Oceanography Center, U.S. Navy, U. S. Department of Defense"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="018.0"/>
+   <relatedDataset ID="240.0"/>
+   <relatedDataset ID="240.5"/>
+   <relatedDataset ID="240.6"/>
+   <relatedDataset ID="273.0"/>
+   <publicationDate>1980-02-19</publicationDate>
+   <contentMetadata>
+      <temporal start="1969-09" end="1993-12" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <dataType>grid</dataType>
+      <format>DSS_Navy_Grid</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="63"
+               numY="63"
+               startLon="235.0E"
+               startLat="19.116S"
+               projLon="280E"
+               xRes="381"
+               yRes="381"
+               pole="N"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

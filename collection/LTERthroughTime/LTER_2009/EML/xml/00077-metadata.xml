@@ -1,0 +1,1862 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.1111.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="1111">
+    <alternateIdentifier>knb-lter-sbc.1111</alternateIdentifier>
+    <shortName>Underway data from cruise LTER11</shortName>
+    <title>SBC LTER: Meteorological and sea surface data from the R/V Pt. Sur Underway Data Acquisition System (UDAS) in the Santa Barbara Channel: LTER11, 2004-09-08 to 2004-09-16</title>
+    <creator id="sbclter">
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="mbrzezinski">
+      <individualName>
+        <givenName>Mark</givenName>
+        <givenName>Allen</givenName>
+        <surName>Brzezinski</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Department of Ecology, Evolution and Marine Biology</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-9620</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-8605</phone>
+      <phone phonetype="fax">805-893-8062</phone>
+      <electronicMailAddress>brzezins@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="ccarlson1">
+      <individualName>
+        <givenName>Craig</givenName>
+        <givenName>A</givenName>
+        <surName>Carlson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Department of Ecology, Evolution and Marine Biology</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-9620</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-2541</phone>
+      <phone phonetype="fax">805-893-8062</phone>
+      <electronicMailAddress>carlson@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="dsiegel">
+      <individualName>
+        <givenName>David</givenName>
+        <givenName>A</givenName>
+        <surName>Siegel</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Earth Research Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-3060</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-4547</phone>
+      <phone phonetype="voice">805-893-2578</phone>
+      <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="lwashburn">
+      <individualName>
+        <givenName>Libe</givenName>
+        <surName>Washburn</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-7367</phone>
+      <phone phonetype="fax">805-893-2578</phone>
+      <electronicMailAddress>washburn@icess.ucsb.edu</electronicMailAddress>
+    </creator>
+    <associatedParty id="cgotschalk">
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Gotschalk</surName>
+      </individualName>
+      <positionName>Data analyst</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>gots@lifesci.ucsb.edu</electronicMailAddress>
+      <role>Data analyst</role>
+    </associatedParty>
+    <associatedParty id="jjones2">
+      <individualName>
+        <givenName>Janice</givenName>
+        <givenName>L</givenName>
+        <surName>Jones</surName>
+      </individualName>
+      <positionName>Technician, analyst</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-7061</phone>
+      <phone phonetype="fax">805-893-8062</phone>
+      <electronicMailAddress>ja_jones@lifesci.ucsb.edu </electronicMailAddress>
+      <role>Technician, analyst</role>
+    </associatedParty>
+    <associatedParty id="dsalazar">
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Salazar</surName>
+      </individualName>
+      <positionName>Field technician</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-5822</phone>
+      <phone phonetype="fax">805-893-2578</phone>
+      <electronicMailAddress>salazar@msi.ucsb.edu</electronicMailAddress>
+      <role>Field technician</role>
+    </associatedParty>
+    <pubDate>2010-06-14</pubDate>
+    <language>english</language>
+    <abstract>
+      <section>
+        <para>The data described here were collected on LTER11 which took place from 2004-09-08 to 2004-09-16 on the RV Pt. Sur. Cruises have been conducted in the Santa Barbara Channel, California, USA, 3-4 times per year since March, 2001 and are approximately 7 days in length.</para>
+      </section>
+      <section>
+        <title>There are 2 basic types of measurements:</title>
+        <para>Underway measurements: fluorometry, salinity and temperature are collected at a depth of 3m with a flow-through system which also includes continuous atmospheric climate measurements.</para>
+        <para>Underway acoustic doppler current profiles were collected using a RDInstruments Workhorse 300kHz and RDInstruments Ocean Surveyor 75kHz ADCP.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">Santa Barbara Coastal</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean_biogeochemistry</keyword>
+      <keyword keywordType="theme">UNOLS_cruises</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Marine</keyword>
+      <keyword keywordType="theme">Nitrate</keyword>
+      <keyword keywordType="theme">Nutrients</keyword>
+      <keyword keywordType="theme">Radiation</keyword>
+      <keyword keywordType="theme">Temperature</keyword>
+      <keywordThesaurus>Knowledge Network for Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Air Temperature</keyword>
+      <keyword keywordType="theme">Humidity</keyword>
+      <keyword keywordType="theme">Incoming Solar Radiation</keyword>
+      <keyword keywordType="theme">Longwave Radiation</keyword>
+      <keyword keywordType="theme">Solar Radiation</keyword>
+      <keyword keywordType="theme">Surface Pressure</keyword>
+      <keyword keywordType="theme">Surface Winds</keyword>
+      <keywordThesaurus>GCMD v6.0.0.0.0 Atmosphere</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Attenuation/Transmission</keyword>
+      <keyword keywordType="theme">Conductivity</keyword>
+      <keyword keywordType="theme">Fluorescence</keyword>
+      <keyword keywordType="theme">Nitrate</keyword>
+      <keyword keywordType="theme">Nitrogen</keyword>
+      <keyword keywordType="theme">Ocean Currents</keyword>
+      <keyword keywordType="theme">Photosynthetically Active Radiation</keyword>
+      <keyword keywordType="theme">Salinity</keyword>
+      <keyword keywordType="theme">Sea Surface Temperature</keyword>
+      <keyword keywordType="theme">Water Temperature</keyword>
+      <keywordThesaurus>GCMD v6.0.0.0.0 Earth Science: Oceans</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="sbc_boilerplate-geoCov_SBCHAN">
+        <geographicDescription>Santa Barbara Channel: Santa Barbara Channel: SBCHAN: The Channel is roughly defined on the north by the coastline of mainland California, USA, on the east by the outlet of the Santa Clara River, on the south by the Santa Barbara Channel Islands, and on the west by Point Arguello.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.8</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.2</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.6</northBoundingCoordinate>
+          <southBoundingCoordinate>33.9</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-612</altitudeMinimum>
+            <altitudeMaximum>0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2004-09-08</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2004-09-16</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Collection/analysis protocols for UDAS</para>
+        </description>
+        <protocol>
+          <title>R/V Pt. Sur Underway Data Acquisition System</title>
+          <creator>
+            <organizationName> Moss Landing Marine Labs, Marine Operations </organizationName>
+            <onlineUrl>http://www.mlml.calstate.edu</onlineUrl>
+          </creator>
+        </protocol>
+        <protocol>
+          <title>UDAS Data Processing Protocol</title>
+          <creator>
+            <individualName>
+              <surName>Washburn</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url>http://sbc.lternet.edu/external/Ocean/Protocols/LTERcruise_UDAS_processing.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <instrumentation>UDAS</instrumentation>
+        <instrumentation>Meteorological: Eppley Precision Infrared Radiometer (PIR) Pyrgeometer which
+          measures longwave radiation in the infrared electromagnetic range 4 to 50 micrometers </instrumentation>
+        <instrumentation>Meteorological: RM Young 05103 Wind Monitor (2)</instrumentation>
+        <instrumentation>Meteorological: RM Young Barometric Pressure Sensor 61201</instrumentation>
+        <instrumentation>Meteorological: Biospherical QSR 2200 SPAR sensor</instrumentation>
+        <instrumentation>Sea Surface Sensors: Turner 10-AU-005 Fluorometer</instrumentation>
+        <instrumentation>Sea Surface Sensors: WetLabs 25cm path length CStar
+          Transmissometer</instrumentation>
+        <instrumentation>Sea Surface Sensors: SBE21 Seacat Thermosalinograph w/ remote temperature
+          sensor located in ship's hull</instrumentation>
+        <instrumentation>Sea Surface Sensors: ISUS V3 Nitrate Sensor (project-supplied, not standard
+          ship equipment</instrumentation>
+        <instrumentation>Navigation: Ashtec ADU2-GPS-based three dimensional position determination,
+          real-time heading, pitch and roll </instrumentation>
+        <instrumentation>Navigation: Sperry Gyro MK-37</instrumentation>
+        <instrumentation>Navigation: Furuno GP-80 GPS</instrumentation>
+        <instrumentation>Navigation: Leica MX-420 GPS</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Collection/analysis protocols for RDInstruments Workhorse 300kHz and RDInstruments Ocean Surveyor 75kHz ADCP</para>
+        </description>
+        <protocol>
+          <title>ADCP Data Collection Protocol</title>
+          <creator>
+            <organizationName> Moss Landing Marine Labs </organizationName>
+          </creator>
+          <creator>
+            <individualName>
+              <surName>Washburn</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url>http://sbc.lternet.edu/external/Ocean/Protocols/LTERcruise_ADCP_collection.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <protocol>
+          <title>ADCP Data Processing Protocol</title>
+          <creator>
+            <individualName>
+              <surName>Washburn</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url>http://sbc.lternet.edu/external/Ocean/Protocols/LTERcruise_ADCP_processing.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <instrumentation>RDInstruments Workhorse 300kHz and RDInstruments Ocean Surveyor 75kHz</instrumentation>
+        <instrumentation>ADCP: Teledyne RDI Ocean Surveyor 75khz LTA</instrumentation>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <otherEntity id="ent01">
+      <entityName>LTER_Cruise_11_UDASLines.png</entityName>
+      <entityDescription>Map showing track of Pt. Sur UDAS data on cruise 11</entityDescription>
+      <physical>
+        <objectName>LTER_Cruise_11_UDASLines.png</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>PNG</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Ocean/Data/Channel_Wide_UNOLS_Cruise_Data/LTER11/LTER_Cruise_11_UDASLines.png</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>image</entityType>
+    </otherEntity>
+    <dataTable id="ent02">
+      <entityName>LTER11_UDAS.txt</entityName>
+      <entityDescription>Measurments of sea surface (3m) and meteorological parameters collected using the shipboard underway data acquisition system</entityDescription>
+      <physical>
+        <objectName>LTER11_UDAS.txt</objectName>
+        <size unit="byte">609684</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Ocean/Data/Channel_Wide_UNOLS_Cruise_Data/LTER11/LTER11_UDAS.txt</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage id="geocov_udas.ds1111.e2">
+          <geographicDescription>geocov_udas.ds1111.e2: Data table bounding box coordinates</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-121.9939</westBoundingCoordinate>
+            <eastBoundingCoordinate>-119.2912</eastBoundingCoordinate>
+            <northBoundingCoordinate>36.6159</northBoundingCoordinate>
+            <southBoundingCoordinate>34.0255</southBoundingCoordinate>
+            <boundingAltitudes>
+              <altitudeMinimum>-3</altitudeMinimum>
+              <altitudeMaximum>-3</altitudeMaximum>
+              <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2004-09-08</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2004-09-15</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <additionalInfo>This data table was designed as a simple one headerline, comma delimited text file.</additionalInfo>
+      <attributeList>
+        <attribute id="ent1.att1">
+          <attributeName>Matlab serial time</attributeName>
+          <attributeLabel>Matlab serial time</attributeLabel>
+          <attributeDefinition>Numerical representation of UTC day and fraction of a day in Matlab format</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalDay</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att2">
+          <attributeName>Datetime yyyymmddHHMMSS</attributeName>
+          <attributeLabel>Datetime (yyyymmddHHMMSS)</attributeLabel>
+          <attributeDefinition>time, UTC string in yyyymmddHHMMSS format</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyymmddHHMMSS</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att3">
+          <attributeName>North Latitude furuno</attributeName>
+          <attributeLabel>North Latitude (furuno)</attributeLabel>
+          <attributeDefinition>Latitude of measurements collected by Furuno GPS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-90</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att4">
+          <attributeName>West Longitude furuno</attributeName>
+          <attributeLabel>West Longitude (furuno)</attributeLabel>
+          <attributeDefinition>Longitude of measurements collected by Furuno GPS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-180</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att5">
+          <attributeName>North Latitude ashtech</attributeName>
+          <attributeLabel>North Latitude (ashtech)</attributeLabel>
+          <attributeDefinition>Latitude of measurements collected by Ashtech GPS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-90</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att6">
+          <attributeName>West Longitude ashtech</attributeName>
+          <attributeLabel>West Longitude (ashtech)</attributeLabel>
+          <attributeDefinition>Longitude of measurements collected by Ashtech GPS.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-180</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att7">
+          <attributeName>DGPS flag</attributeName>
+          <attributeLabel>DGPS flag</attributeLabel>
+          <attributeDefinition>Logical flag identifying availability of differential correction</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Differential correction not used</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Differential correction used</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att8">
+          <attributeName>COG degrees_true</attributeName>
+          <attributeLabel>COG (degrees true)</attributeLabel>
+          <attributeDefinition>Vessel coarse over ground in degrees true</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att9">
+          <attributeName>SOG knots</attributeName>
+          <attributeLabel>SOG (knots)</attributeLabel>
+          <attributeDefinition>Vessel speed over ground in nautical miles per hour</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>knots</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att10">
+          <attributeName>Gyro heading degrees_true</attributeName>
+          <attributeLabel>Gyro heading (degrees true)</attributeLabel>
+          <attributeDefinition>Vessel heading in degrees true measured by ships gyroscope</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att11">
+          <attributeName>Wind dir starboard degrees_relative</attributeName>
+          <attributeLabel>Wind dir starboard (degrees relative)</attributeLabel>
+          <attributeDefinition>Wind direction relative to ship measured from starboard anemometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att12">
+          <attributeName>Wind speed starboard knots_relative</attributeName>
+          <attributeLabel>Wind speed starboard (knots relative)</attributeLabel>
+          <attributeDefinition>Wind speed relative to ship measured by starboard anemometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>knots</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att13">
+          <attributeName>Wind dir starboard degrees_true</attributeName>
+          <attributeLabel>Wind dir starboard (degrees true)</attributeLabel>
+          <attributeDefinition>True wind direction corrected for ships heading from starboard anemometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att14">
+          <attributeName>Wind speed starboard knots_true</attributeName>
+          <attributeLabel>Wind speed starboard (knots true)</attributeLabel>
+          <attributeDefinition>True wind speed corrected for ships speed and heading measured by starboard anemometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>knots</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att15">
+          <attributeName>Wind dir port degrees_relative</attributeName>
+          <attributeLabel>Wind dir port (degrees relative)</attributeLabel>
+          <attributeDefinition>Wind direction relative to ship measured from port anemometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att16">
+          <attributeName>Wind speed port knots_relative</attributeName>
+          <attributeLabel>Wind speed port (knots relative)</attributeLabel>
+          <attributeDefinition>Wind speed relative to ship measured by port anemometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>knots</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att17">
+          <attributeName>Wind dir port degrees_true</attributeName>
+          <attributeLabel>Wind dir port (degrees true)</attributeLabel>
+          <attributeDefinition>True wind direction corrected for ships heading from port anemometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att18">
+          <attributeName>Wind speed port knots_true</attributeName>
+          <attributeLabel>Wind speed port (knots true)</attributeLabel>
+          <attributeDefinition>True wind speed corrected for ships speed and heading measured by port anemometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>knots</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att19">
+          <attributeName>Air temp C</attributeName>
+          <attributeLabel>Air temp (C)</attributeLabel>
+          <attributeDefinition>Air temperature as measured by ships sensor</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-273</minimum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att20">
+          <attributeName>Barometric press mBar</attributeName>
+          <attributeLabel>Barometric pressure</attributeLabel>
+          <attributeDefinition>Atmospheric pressure measured by ships sensor</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millibar</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att21">
+          <attributeName>Rel humidity percent</attributeName>
+          <attributeLabel>Relative humidity</attributeLabel>
+          <attributeDefinition>Relative humidity measured by ships sensors.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att22">
+          <attributeName>Solar radiation Watts m-2</attributeName>
+          <attributeLabel>Solar radiation</attributeLabel>
+          <attributeDefinition>Solar radiation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>wattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att23">
+          <attributeName>SPAR uEm-2sec-1</attributeName>
+          <attributeLabel>Surface PAR</attributeLabel>
+          <attributeDefinition>Photosynthetically Available Radiation at the water surface</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microeinsteinPerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att24">
+          <attributeName>PIR Pile volts</attributeName>
+          <attributeLabel>PIR Pile volts</attributeLabel>
+          <attributeDefinition>voltage from Eppley PIR pyrgeometer thermopile</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>volt</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att25">
+          <attributeName>PIR Pile raw</attributeName>
+          <attributeLabel>PIR Pile raw</attributeLabel>
+          <attributeDefinition>raw value from Eppley PIR Pyrgeometer thermopile</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>volt</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att26">
+          <attributeName>PIR Pile longwave flux</attributeName>
+          <attributeLabel>PIR Pile longwave flux</attributeLabel>
+          <attributeDefinition>flux calculated from the Eppley PIR Pyrgeometer thermopile</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>wattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att27">
+          <attributeName>SST C</attributeName>
+          <attributeLabel>Water Temperature</attributeLabel>
+          <attributeDefinition>Sea surface temperature from ships flow through pumped system</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-273</minimum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att28">
+          <attributeName>Conductivity Sm-1</attributeName>
+          <attributeLabel>Conductivity</attributeLabel>
+          <attributeDefinition>Sea surface conductivity from ships flow through pumped system</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>siemensPerMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att29">
+          <attributeName>Salinity_psu</attributeName>
+          <attributeLabel>Salinity</attributeLabel>
+          <attributeDefinition>Salinity measured from sensors in ships flow through pumped system</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att30">
+          <attributeName>Fluorescence raw</attributeName>
+          <attributeLabel>Fluorescence (raw)</attributeLabel>
+          <attributeDefinition>uncalibrated estimate of chl concentration from flow through pumped system</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>volt</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att31">
+          <attributeName>Transmissometer volt</attributeName>
+          <attributeLabel>Transmissometer (volt)</attributeLabel>
+          <attributeDefinition>Transmissometer (volt) for diagnostic purposes</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>volt</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att32">
+          <attributeName>beamC m-1</attributeName>
+          <attributeLabel>beamC (1/m)</attributeLabel>
+          <attributeDefinition>Calculated from transmission according to: Beam attenuation coefficient c = - ( 1 / (path length[m]) * ln ( light transmission [decimal] ) from ships flow through pumped system</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>reciprocalMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att33">
+          <attributeName>ISUS volts</attributeName>
+          <attributeLabel>ISUS (volts)</attributeLabel>
+          <attributeDefinition>voltage from Satlantic In-Situ Ultraviolet Spectrophotometer, nitrate</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>volt</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent1.att34">
+          <attributeName>ISUS nitrate uM</attributeName>
+          <attributeLabel>nitrate concentration - ISUS umol/l</attributeLabel>
+          <attributeDefinition>nitrate measured with Satlantic In-Situ Ultraviolet Spectrophotometer Accuracy = 2uM or 10%</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="ent03">
+      <entityName>LTER_Cruise_11_ADCPLines.png</entityName>
+      <entityDescription>Map showing track of Pt. Sur ADCP data on cruise 11</entityDescription>
+      <physical>
+        <objectName>LTER_Cruise_11_ADCPLines.png</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>PNG</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Ocean/Data/Channel_Wide_UNOLS_Cruise_Data/LTER11/LTER_Cruise_11_ADCPLines.png</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>image</entityType>
+    </otherEntity>
+    <dataTable id="ent04">
+      <entityName>LTER11_ADCP_300.txt</entityName>
+      <entityDescription>Velocity profiles from 300kHz shipboard adcp</entityDescription>
+      <physical>
+        <objectName>LTER11_ADCP_300.txt</objectName>
+        <size unit="byte">7176114</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Ocean/Data/Channel_Wide_UNOLS_Cruise_Data/LTER11/LTER11_ADCP_300.txt</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage id="geocov_adcp300.ds1111.e4">
+          <geographicDescription>geocov_adcp300.ds1111.e4: Data table bounding box coordinates</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-121.9969</westBoundingCoordinate>
+            <eastBoundingCoordinate>-119.2861</eastBoundingCoordinate>
+            <northBoundingCoordinate>36.7925</northBoundingCoordinate>
+            <southBoundingCoordinate>34.023</southBoundingCoordinate>
+            <boundingAltitudes>
+              <altitudeMinimum>-206</altitudeMinimum>
+              <altitudeMaximum>-10</altitudeMaximum>
+              <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2004-09-08</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2004-09-15</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <additionalInfo>This data table was designed as a simple one headerline, space delimited text file.</additionalInfo>
+      <attributeList>
+        <attribute id="ent2.att1">
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date, UTC string in yyyy-mm-dd format</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att2">
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>time, UTC string in HH:MM:SSZ format</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>HH:MM:SSZ</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att3">
+          <attributeName>matlab_time</attributeName>
+          <attributeLabel>matlab_time</attributeLabel>
+          <attributeDefinition>Numerical representation of UTC day and fraction of a day in Matlab format</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalDay</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att4">
+          <attributeName>west_longitude</attributeName>
+          <attributeLabel>west_longitude</attributeLabel>
+          <attributeDefinition>West longitude of underway adcp measurements</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-180</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att5">
+          <attributeName>north_latitude</attributeName>
+          <attributeLabel>north_latitude)</attributeLabel>
+          <attributeDefinition>North latitude of underway adcp measurements</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att6">
+          <attributeName>bin_depth [m]</attributeName>
+          <attributeLabel>bin_depth [m]</attributeLabel>
+          <attributeDefinition>Depth to the midpoint within an adcp bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att7">
+          <attributeName>eastward</attributeName>
+          <attributeLabel>eastward</attributeLabel>
+          <attributeDefinition>adcp, east velocity, eastward values are positive</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeterPerSecond</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent2.att8">
+          <attributeName>northward</attributeName>
+          <attributeLabel>northward</attributeLabel>
+          <attributeDefinition>adcp, north velocity, northward values are positive</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeterPerSecond</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="ent05">
+      <entityName>LTER11_ADCP_75.txt</entityName>
+      <entityDescription>Velocity profiles from 75 kHz shipboard adcp</entityDescription>
+      <physical>
+        <objectName>LTER11_ADCP_75.txt</objectName>
+        <size unit="byte">349316</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Ocean/Data/Channel_Wide_UNOLS_Cruise_Data/LTER11/LTER11_ADCP_75.txt</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage id="geocov_adcp75.ds1111.e5">
+          <geographicDescription>geocov_adcp75.ds1111.e5: Data table bounding box coordinates</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-121.8328</westBoundingCoordinate>
+            <eastBoundingCoordinate>-121.1322</eastBoundingCoordinate>
+            <northBoundingCoordinate>36.1635</northBoundingCoordinate>
+            <southBoundingCoordinate>35.1502</southBoundingCoordinate>
+            <boundingAltitudes>
+              <altitudeMinimum>-731</altitudeMinimum>
+              <altitudeMaximum>-27</altitudeMaximum>
+              <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2004-09-08</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2004-09-09</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <additionalInfo>This data table was designed as a simple one headerline, space delimited text file.</additionalInfo>
+      <attributeList>
+        <attribute id="ent3.att1">
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date, UTC string in yyyy-mm-dd format</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att2">
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>time, UTC string in HH:MM:SSZ format</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>HH:MM:SSZ</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att3">
+          <attributeName>matlab_time</attributeName>
+          <attributeLabel>matlab_time</attributeLabel>
+          <attributeDefinition>Numerical representation of UTC day and fraction of a day in Matlab format</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalDay</customUnit>
+              </unit>
+              <precision>1e-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att4">
+          <attributeName>west_longitude</attributeName>
+          <attributeLabel>west_longitude</attributeLabel>
+          <attributeDefinition>West longitude of underway adcp measurements</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-180</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att5">
+          <attributeName>north_latitude</attributeName>
+          <attributeLabel>north_latitude)</attributeLabel>
+          <attributeDefinition>North latitude of underway adcp measurements</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.0000</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att6">
+          <attributeName>bin_depth [m]</attributeName>
+          <attributeLabel>bin_depth [m]</attributeLabel>
+          <attributeDefinition>Depth to the midpoint within an adcp bin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att7">
+          <attributeName>eastward</attributeName>
+          <attributeLabel>eastward</attributeLabel>
+          <attributeDefinition>adcp, east velocity, eastward values are positive</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeterPerSecond</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="ent3.att8">
+          <attributeName>northward</attributeName>
+          <attributeLabel>northward</attributeLabel>
+          <attributeDefinition>adcp, north velocity, northward values are positive</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeterPerSecond</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999.00</code>
+            <codeExplanation>no measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="C" constantToSI="273.18" id="celsius" multiplierToSI="1" name="celsius" parentSI="kelvin">
+          <ns2:description>SI-derived unit of temperature</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="cm/s" id="centimeterPerSecond" multiplierToSI="0.01" name="centimeterPerSecond" parentSI="metersPerSecond" unitType="speed">
+          <ns2:description>centimeters per second</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="&#176;" id="degree" multiplierToSI="0.0174532924" name="degree" parentSI="radian" unitType="angle">
+          <ns2:description>360 degrees comprise a unit circle.</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <ns2:description>a designation asserting the absence of an associated unit</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="knots" multiplierToSI="0.514444" name="knots" parentSI="metersPerSecond" unitType="speed">
+          <ns2:description>knots</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="m" id="meter" multiplierToSI="1" name="meter" unitType="length">
+          <ns2:description>SI unit of length</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="microeinsteinPerMeterSquaredPerSecond" name="microeinsteinPerMeterSquaredPerSecond" parentSI="joule" unitType="energy">
+          <ns2:description>PAR irradiance unit, Seabird 911. 1Ein = energy of 1 mole photons</ns2:description>
+        </ns2:unit>
+        <ns2:unit constantToSI="0" id="micromolePerLiter" name="micromolePerLiter" parentSI="molePerMeterCubed" unitType="amountOfSubstanceConcentration">
+          <ns2:description>commonly used for concentration of some chemical constituents of natural water bodies, e.g., nutrients. It has the same magnitude as micromolar, but micromolar can only be used for a dissolved constituent</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="mbar" id="millibar" multiplierToSI="100" name="millibar" parentSI="pascal" unitType="pressure">
+          <ns2:description>millibar</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="nominalDay" multiplierToSI="86400" name="nominalDay" parentSI="second" unitType="time">
+          <ns2:description>one day excluding leap seconds, 86400 seconds</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="%" id="percent" multiplierToSI="1" name="percent" unitType="dimensionless">
+          <ns2:description>ratio of two quantities as percent composition (1:100)</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="m-1" id="reciprocalMeter" name="reciprocalMeter" parentSI="meter" unitType="lengthReciprocal">
+          <ns2:description>per meter, describes optical properties</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="S/m" id="siemensPerMeter" multiplierToSI="1" name="siemensPerMeter" unitType="conductance">
+          <ns2:description>siemens per meter (electrolytic conductivity of a solution)</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="V" id="volt" multiplierToSI="1" name="volt" unitType="potentialDifference">
+          <ns2:description>volt</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="wattPerMeterSquared" name="wattPerMeterSquared" unitType="power">
+          <ns2:description>irradiance unit</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

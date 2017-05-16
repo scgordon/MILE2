@@ -1,0 +1,2382 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[OAK RIDGE NATIONAL LABORATORY DAAC]]></origin>
+        <origin><![CDATA[ALASKA SATELLITE FACILITY DAAC]]></origin>
+        <origin><![CDATA[JAPAN AEROSPACE EXPLORATION AGENCY]]></origin>
+        <title><![CDATA[SAR Subsets for Selected Field Sites, 2007-2010]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=993]]></onlink>
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/993.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/993.xml]]></alt_onlink>
+        <onlink><![CDATA[http://daac.ornl.gov//LAND_VAL/guides/SAR_Selected_Sites.html]]></onlink>
+        <geoform>metadata</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[This data set provides Synthetic Aperture Radar (SAR) images for 42 selected sites from various terrestrial ecology and meteorological monitoring networks including FLUXNET, Ameriflux, Long Term Ecological Research (LTER), and the Greenland Climate Network (GC-Net).
+
+The data set contains at least one image for all 42 sites, and six sites have multiple images. See Table 1 for the sites and the temporal range of the available images. The scenes are in GeoTIFF format in Universal Transverse Mercator (UTM), WGS-84 projection, and 15-meter resolution.
+
+The SAR images are subset scenes of approximately 60 km x 70 km that include an established site in one of the monitoring networks. The spatial resolution of all scenes is 15 meters. These scenes are distributed as geotif files with appropriate projection information defined within the file.The acquisition mode for all data is the Fine Beam Double Polarization or FBD with the HH/HV polarization. The HH and HV channels are distributed as 3 channels to allow for an intuitive image display. The HH band is displayed in the red and blue channels and the HV band is displayed in the green channel. For some images only single polarization is available; these images are distributed as grayscale images.
+
+The source of the data is the PALSAR (Phased Array type L-band Synthetic Aperture Radar) sensor flying on the Advanced Land Observing Satellite (ALOS). The PALSAR data are in dual Polarization, HH+HV, mode. Bands HH (red and blue) and Band-HV (green) can be used to visualize land use patterns. The resulting images show vegetation in shades of green and barren land in shades of pink or purple.
+
+]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[20070605]]></begdate>
+          <enddate><![CDATA[20101214]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update> As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc><![CDATA[-150.714]]></westbc>
+        <eastbc><![CDATA[-28.8805]]></eastbc>
+        <northbc><![CDATA[78.9459]]></northbc>
+        <southbc><![CDATA[-11.3224]]></southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey><![CDATA[LAND COVER|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[RECLAMATION/REVEGETATION/RESTORATION|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[PLANT PHENOLOGY|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[VEGETATION COVER|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[LAND COVER|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[ENVIRONMENTAL ASSESSMENTS|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|ALOS (Advanced Land Observing Satellite)]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey><![CDATA[LAND COVER]]></themekey>
+        <themekey><![CDATA[RECLAMATION/REVEGETATION/RESTORATION]]></themekey>
+        <themekey><![CDATA[PLANT PHENOLOGY]]></themekey>
+        <themekey><![CDATA[VEGETATION COVER]]></themekey>
+        <themekey><![CDATA[LAND COVER]]></themekey>
+        <themekey><![CDATA[ENVIRONMENTAL ASSESSMENTS]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey><![CDATA[ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[ALOS (Advanced Land Observing Satellite)]]></themekey>
+        <themekey><![CDATA[ALOS (Advanced Land Observing Satellite)]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></themekey>
+        <themekey><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></themekey>
+        <themekey><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></themekey>
+        <themekey><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></themekey>
+        <themekey><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></themekey>
+        <themekey><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[OAK RIDGE NATIONAL LABORATORY DAAC]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > xsl:value-of select="x_tags/Data_Originator/Investigator/Email" disable-output-escaping="yes" />]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Oak Ridge National Laboratory Distributed Active Archive Centers, Alaska Satellite Facility Distributed Active Archive Center, and Japan Aerospace Exploration Agency. 2011. SAR Subsets for Selected Field Sites, 2007-2010. Data set. Available on-line [http://daac.ornl.gov] from ORNL DAAC, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/993]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20110224</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <Local-Control-Number>Created 2016 10  4 21 30 10 1469631010 by 160.91.11.44</Local-Control-Number>
+  <mercury>
+    <begdate></begdate>
+    <enddate></enddate>
+    <Site_Information>
+      <Site></Site>
+      <Westernmost_Longitude><![CDATA[-150.714]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[-28.8805]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[78.9459]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-11.3224]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[SAR]]></Keywords>
+    <Keywords><![CDATA[ALOS]]></Keywords>
+    <Keywords><![CDATA[PALSAR]]></Keywords>
+    <Keywords><![CDATA[WETLANDS]]></Keywords>
+    <Keywords><![CDATA[ECOREGIONS]]></Keywords>
+    <Keywords><![CDATA[LAND COVER]]></Keywords>
+    <Keywords><![CDATA[DEFORESTATION]]></Keywords>
+    <Keywords><![CDATA[WOODY BIOMASS]]></Keywords>
+    <Keywords><![CDATA[VEGETATION COVER]]></Keywords>
+    <Keywords><![CDATA[STRUCTURAL ATTRIBUTES]]></Keywords>
+    <Keywords><![CDATA[SYNTHETIC APERTURE RADAR (SAR)]]></Keywords>
+    <Keywords><![CDATA[ADVANCED LAND OBSERVING SATELLITE]]></Keywords>
+    <Keywords><![CDATA[PHASED ARRAY TYPE L-BAND SYNTHETIC APERTURE RADAR]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND COVER]]></Parameter>
+      <Sensor><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></Sensor>
+      <Source><![CDATA[ALOS (Advanced Land Observing Satellite)]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[RECLAMATION/REVEGETATION/RESTORATION]]></Parameter>
+      <Sensor><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></Sensor>
+      <Source><![CDATA[ALOS (Advanced Land Observing Satellite)]]></Source>
+      <Term><![CDATA[NATURAL RESOURCES]]></Term>
+      <Topic><![CDATA[SOLID EARTH]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[PLANT PHENOLOGY]]></Parameter>
+      <Sensor><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></Sensor>
+      <Source><![CDATA[ALOS (Advanced Land Observing Satellite)]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION COVER]]></Parameter>
+      <Sensor><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></Sensor>
+      <Source><![CDATA[ALOS (Advanced Land Observing Satellite)]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND COVER]]></Parameter>
+      <Sensor><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></Sensor>
+      <Source><![CDATA[ALOS (Advanced Land Observing Satellite)]]></Source>
+      <Term><![CDATA[ECOLOGICAL DYNAMICS]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[ENVIRONMENTAL ASSESSMENTS]]></Parameter>
+      <Sensor><![CDATA[PALSAR (Phased Array type L-band Synthetic Aperture Radar)]]></Sensor>
+      <Source><![CDATA[ALOS (Advanced Land Observing Satellite)]]></Source>
+      <Term><![CDATA[ENVIRONMENTAL IMPACTS]]></Term>
+      <Topic><![CDATA[HUMAN DIMENSIONS]]></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[LAND VAL]]></Project>
+    <Navpath><![CDATA[ALOS (Advanced Land Observing Satellite)|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|LAND COVER]]></Navpath>
+    <Navpath><![CDATA[ALOS (Advanced Land Observing Satellite)|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|RECLAMATION/REVEGETATION/RESTORATION]]></Navpath>
+    <Navpath><![CDATA[ALOS (Advanced Land Observing Satellite)|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|PLANT PHENOLOGY]]></Navpath>
+    <Navpath><![CDATA[ALOS (Advanced Land Observing Satellite)|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|VEGETATION COVER]]></Navpath>
+    <Navpath><![CDATA[ALOS (Advanced Land Observing Satellite)|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|LAND COVER]]></Navpath>
+    <Navpath><![CDATA[ALOS (Advanced Land Observing Satellite)|PALSAR (Phased Array type L-band Synthetic Aperture Radar)|ENVIRONMENTAL ASSESSMENTS]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[OAK RIDGE NATIONAL LABORATORY DAAC]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[ALASKA SATELLITE FACILITY DAAC]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[JAPAN AEROSPACE EXPLORATION AGENCY]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=993]]></URL>
+      <Label><![CDATA[SAR Subsets for Selected Field Sites, 2007-2010]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//LAND_VAL/guides/SAR_Selected_Sites.html]]></URL>
+      <Label><![CDATA[SAR Subsets for Selected Field Sites, 2007-2010]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    <OME_Software_Version>/home/web/mercury/write_mercury_xml.pl</OME_Software_Version>
+    <OME_DTD_Version>mercury21.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID>993</File_ID>
+    <MD_Entry_id>SAR_SUBSETS</MD_Entry_id>
+    <Spatial_Extent></Spatial_Extent>
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//LAND_VAL/guides/SAR_Selected_Sites.html]]></URL>
+      <Label><![CDATA[SAR Subsets for Selected Field Sites, 2007-2010]]></Label>
+    </Search_Text_Link>
+    <Granule_Details>
+      <Granule>
+        <Granule_ID><![CDATA[993_1]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Arctic LTER (ARC1), 2010-07-11]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-150.7144826]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-148.7195945]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[69.15049676]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[68.47211079]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-11 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-11 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_10]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Bartlett Experimental Forest, 2010-09-12]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.02744773]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.02649925]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37282062]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74522144]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-12 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-12 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_100]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Humboldt Gl., 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-58.1024912]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.06554407]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[78.94593909]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[78.21784887]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_101]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Juniper Woodland Site, 2010-07-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-112.9058791]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-111.9751064]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42655322]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.80275522]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_102]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): KULU, 2008-05-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.69279756]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-37.92061624]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[65.95873219]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[65.31843515]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-05-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-05-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_103]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): KULU, 2008-07-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.79748275]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-38.01907565]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[65.95266005]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[65.31270237]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-07-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-07-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_104]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): KULU, 2008-08-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.86860999]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-38.08697879]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[65.95589026]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[65.31591675]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-08-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-08-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_105]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Lost Creek, 2010-10-08]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-90.77148035]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-89.69752981]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[46.36424197]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[45.69840414]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-08 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-08 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_106]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Luquillo LTER (LUQ1), 2010-10-11]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-65.90675854]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.15417856]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[18.62700344]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[17.99114555]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-11 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-11 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_107]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Metolius Eyerly Burn, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.0492363]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.017499]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.87281077]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[44.22803346]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_108]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Metolius Intermediate Pine, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.0492363]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.017499]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.87281077]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[44.22803346]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_109]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Missouri Ozark Site, 2010-08-04]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-92.72470962]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-91.81070614]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[38.94773445]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[38.31666639]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-04 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-04 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_11]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Bartlett Experimental Forest, 2010-10-28]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.02295161]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.01778179]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37093142]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74288678]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-28 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-28 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_110]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): NASA-E, 2009-12-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-31.89810316]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-28.88046076]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[75.16621214]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[74.43636919]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-12-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-12-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_111]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): NGRIP, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-43.6585744]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-40.51641784]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[75.58491747]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[74.83590005]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_112]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Niwot Ridge (LTER NWT1), 2007-06-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.97323]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.026572]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41933277]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79312306]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-06-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-06-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_113]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Niwot Ridge (LTER NWT1), 2007-07-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9611009]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0149568]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41530987]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.78960237]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-07-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-07-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_114]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Niwot Ridge (LTER NWT1), 2007-10-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9535185]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0077226]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42030903]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79439238]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-10-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-10-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_115]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Niwot Ridge (LTER NWT1), 2008-06-07]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9306639]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9849361]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42018381]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79458521]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-06-07 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-06-07 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_116]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Niwot Ridge (LTER NWT1), 2009-07-26]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9801523]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0339763]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41803223]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79136178]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-07-26 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-07-26 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_117]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Niwot Ridge (LTER NWT1), 2010-06-13]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9113277]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0038707]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42461231]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.80538009]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-13 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-13 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_118]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Niwot Ridge (LTER NWT1), 2010-07-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9436308]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9983985]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.4228558]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79836984]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_119]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Niwot Ridge (LTER NWT1), 2010-10-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9338175]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9888312]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41778113]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79310295]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_12]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: BOREAS NSA - Old Black Spruce, 2010-09-24]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-98.96103746]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-97.67887015]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[56.18319863]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[55.54474565]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-24 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-24 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_120]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Niwot Ridge (LTER NWT1), 2010-12-14]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9345652]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9890756]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41585211]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79062728]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-12-14 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-12-14 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_121]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Park Falls, 2010-10-08]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-90.77148035]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-89.69752981]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[46.36424197]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[45.69840414]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-08 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-08 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_122]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Phillips Creek Marsh (PHCK), 2010-10-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-76.40923141]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-75.51442698]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[37.94926376]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[37.32455044]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_123]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Rond.- Faz. Nossa Senhora-Ji Parana-pasture, 2010-10-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-62.9248503]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-62.18312109]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-10.66448857]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-11.32240663]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_124]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Rond.- Rebio Jaru Ji Parana- Tower B, 2010-07-17]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-62.07960383]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-61.34140943]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.666780124]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-10.32581254]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-17 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-17 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_125]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Santarem-Km77-Pasture, 2007-06-13]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05480244]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32841804]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.720801482]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.37605408]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-06-13 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-06-13 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_126]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Santarem-Km77-Pasture, 2008-05-30]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05030406]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32593965]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.725679812]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.379981915]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-05-30 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-05-30 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_127]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Santarem-Km77-Pasture, 2009-06-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.04919016]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32429093]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.720081729]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.374924976]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-06-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-06-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_128]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Santarem-Km77-Pasture, 2009-08-03]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05693194]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32974206]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.722818789]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.375903719]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-08-03 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-08-03 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_129]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Santarem-Km77-Pasture, 2010-06-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05646264]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32926997]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.725917579]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.378732909]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_13]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: BOREAS SSA Young Aspen, 2010-07-19]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-106.2320854]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0434659]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[53.72732448]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[53.10037283]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-19 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-19 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_130]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Santarem-Km77-Pasture, 2010-07-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05651743]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32919127]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.727639676]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.37923552]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_131]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Santarem-Km77-Pasture, 2010-08-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.04677325]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32295556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.724298177]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.376429125]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_132]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Santarem-Km77-Pasture, 2010-11-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.06210877]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.33748053]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.729587101]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.380498552]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-11-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-11-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_133]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Sask- SSA Old Aspen, 2010-11-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-106.7766934]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.5768205]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[53.7304211]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[53.10116963]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-11-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-11-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_134]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Sask- SSA Old Jack Pine, 2010-10-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.2933757]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.0849921]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[54.21969843]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[53.58947352]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_135]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Sioux Falls Portable, 2010-03-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.18429475]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.65601383]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.51529125]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.88030239]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-03-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-03-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_136]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Sioux Falls Portable, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.01394703]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.00157215]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.39894011]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.7418854]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_137]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Sioux Falls Portable, 2010-07-16]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.53898881]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.54020576]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.40273275]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.75368707]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-16 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-16 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_138]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Sioux Falls Portable, 2010-08-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.53435384]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.53557812]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.40037897]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.7518358]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_139]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Sioux Falls Portable, 2010-10-16]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.53039168]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.53162604]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.39767545]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.74923546]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-16 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-16 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_14]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: British Columbia- Campbell River - Clearcut Site, 2010-06-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-125.619492]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-124.4984548]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[50.28311099]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[49.65741954]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_140]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Sioux Falls Portable, 2010-12-01]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.52952274]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.53092608]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.39813244]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.7496891]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-12-01 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-12-01 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_141]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Sky Oaks, 2009-11-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-117.1928858]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-116.3364644]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[33.76769674]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[33.10572733]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-11-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-11-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_142]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Summit, 2010-01-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.03147504]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-36.52169904]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[72.75688354]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[72.06791612]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-01-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-01-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_143]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Swiss Camp, 2010-01-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-50.67782251]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-48.49016495]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[69.85327944]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[69.17391591]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-01-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-01-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_144]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Tablelands Juniper Savanna, 2010-09-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-106.2203868]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.3382385]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[34.49019518]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[33.86175253]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_145]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Tonzi Ranch, 2010-09-17]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-121.7138398]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-120.77541]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[38.95646031]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[38.30881832]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-17 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-17 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_146]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Valles Caldera Mixed Conifer, 2010-10-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-107.0548388]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-106.1771544]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[35.97946816]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[35.35356584]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_147]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Walker Branch Watershed, 2010-10-27]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-84.66502428]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-83.75165915]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[36.48587757]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[35.82892402]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-27 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-27 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_148]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Western Peatland- LaBiche-Black Spruce/Larch Fen, 2010-09-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-113.1234499]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-111.8862961]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[55.19790713]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[54.5686061]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_149]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Baltimore Ecosystem Study (BES1), 2009-07-28]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-76.89185951]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-75.97024675]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[39.92907208]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.30395095]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-07-28 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-07-28 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_15]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: British Columbia- Campbell River - Mature Forest Site, 2010-06-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-125.619492]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-124.4984548]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[50.28311099]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[49.65741954]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_150]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Bartlett Experimental Forest, 2007-07-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.04786679]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.04328122]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37726353]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74889875]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-07-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-07-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_151]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Bartlett Experimental Forest, 2007-09-04]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.0462687]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.04197223]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37190935]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.7434271]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-09-04 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-09-04 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_152]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Bartlett Experimental Forest, 2007-10-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.04121314]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.036419]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37138353]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.7430668]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-10-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-10-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_153]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Bartlett Experimental Forest, 2008-06-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.01582366]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.01187867]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37853961]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.75016973]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-06-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-06-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_154]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Bartlett Experimental Forest, 2009-07-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.06795622]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.06058788]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.3758027]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74682379]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-07-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-07-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_155]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Bartlett Experimental Forest, 2009-10-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.05787477]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.04993247]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37164794]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74287254]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-10-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-10-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_156]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Bartlett Experimental Forest, 2010-07-28]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.02601479]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.02466799]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37695108]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.75029993]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-28 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-28 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_157]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Bartlett Experimental Forest, 2010-09-12]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.02744773]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.02649925]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37282062]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74522144]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-12 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-12 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_158]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Bartlett Experimental Forest, 2010-10-28]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.02295161]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.01778179]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37093142]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74288678]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-28 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-28 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_159]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): BOREAS NSA - Old Black Spruce, 2010-09-24]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-98.96103746]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-97.67887015]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[56.18319863]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[55.54474565]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-24 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-24 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_16]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Buffalo 13 ESE- SDSU Antelope Research Station (Calving Pasture Site), 2010-10-02]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-103.4970891]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-102.4569874]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[45.86317214]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[45.21398404]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-02 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-02 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_160]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): BOREAS SSA Young Aspen, 2010-07-19]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-106.2320854]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0434659]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[53.72732448]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[53.10037283]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-19 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-19 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_161]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): British Columbia- Campbell River - Clearcut Site, 2010-06-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-125.619492]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-124.4984548]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[50.28311099]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[49.65741954]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_162]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): British Columbia- Campbell River - Mature Forest Site, 2010-06-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-125.619492]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-124.4984548]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[50.28311099]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[49.65741954]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_163]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Buffalo 13 ESE- SDSU Antelope Research Station (Calving Pasture Site), 2010-10-02]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-103.4970891]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-102.4569874]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[45.86317214]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[45.21398404]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-02 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-02 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_164]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Chamela Biological Station, 2010-10-10]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.2711085]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.5074856]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[19.61921069]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[18.98434003]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-10 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-10 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_165]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Duke Forest Hardwoods, 2010-09-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-79.29780715]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-78.3938045]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[36.48229711]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[35.82797288]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_166]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Harvard Forest EMS Tower (HFR1), 2007-08-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.76308995]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.75240975]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[42.90965264]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.24645154]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-08-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-08-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_167]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Harvard Forest EMS Tower (HFR1), 2010-08-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.74774799]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.73634574]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[42.91161661]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.2484104]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_168]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Harvard Forest EMS Tower (HFR1), 2010-10-16]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.74476107]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.73335307]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[42.91029176]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.24706194]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-16 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-16 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_169]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Howland Forest (Main Tower), 2010-10-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-69.04746727]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-68.035569]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[45.35815624]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[44.72927278]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_17]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Cascades/H.J. Andrews LTER- Oregon, 2008-10-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.9105171]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.9084737]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.36969964]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74123481]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-10-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-10-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_170]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Juniper Woodland Site, 2010-07-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-112.9058791]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-111.9751064]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42655322]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.80275522]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_171]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): KULU, 2008-05-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.69279756]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-37.92061624]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[65.95873219]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[65.31843515]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-05-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-05-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_172]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): KULU, 2008-07-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.79748275]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-38.01907565]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[65.95266005]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[65.31270237]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-07-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-07-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_173]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): KULU, 2008-08-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.86860999]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-38.08697879]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[65.95589026]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[65.31591675]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-08-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-08-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_174]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Lost Creek, 2010-10-08]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-90.77148035]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-89.69752981]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[46.36424197]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[45.69840414]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-08 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-08 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_175]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Luquillo LTER (LUQ1), 2010-10-11]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-65.90675854]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.15417856]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[18.62700344]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[17.99114555]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-11 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-11 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_176]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Metolius Eyerly Burn, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.0492363]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.017499]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.87281077]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[44.22803346]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_177]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Metolius Intermediate Pine, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.0492363]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.017499]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.87281077]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[44.22803346]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_178]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Missouri Ozark Site, 2010-08-04]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-92.72470962]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-91.81070614]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[38.94773445]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[38.31666639]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-04 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-04 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_179]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Niwot Ridge (LTER NWT1), 2007-06-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.97323]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.026572]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41933277]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79312306]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-06-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-06-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_18]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Chamela Biological Station, 2010-10-10]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.2711085]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.5074856]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[19.61921069]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[18.98434003]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-10 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-10 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_180]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Niwot Ridge (LTER NWT1), 2007-07-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9611009]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0149568]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41530987]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.78960237]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-07-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-07-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_181]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Niwot Ridge (LTER NWT1), 2007-10-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9535185]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0077226]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42030903]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79439238]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-10-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-10-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_182]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Niwot Ridge (LTER NWT1), 2008-06-07]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9306639]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9849361]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42018381]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79458521]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-06-07 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-06-07 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_183]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Niwot Ridge (LTER NWT1), 2009-07-26]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9801523]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0339763]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41803223]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79136178]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-07-26 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-07-26 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_184]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Niwot Ridge (LTER NWT1), 2010-06-13]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9113277]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0038707]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42461231]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.80538009]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-13 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-13 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_185]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Niwot Ridge (LTER NWT1), 2010-07-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9436308]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9983985]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.4228558]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79836984]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_186]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Niwot Ridge (LTER NWT1), 2010-10-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9338175]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9888312]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41778113]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79310295]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_187]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Niwot Ridge (LTER NWT1), 2010-12-14]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9345652]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9890756]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41585211]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79062728]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-12-14 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-12-14 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_188]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Park Falls, 2010-10-08]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-90.77148035]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-89.69752981]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[46.36424197]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[45.69840414]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-08 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-08 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_189]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Phillips Creek Marsh (PHCK), 2010-10-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-76.40923141]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-75.51442698]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[37.94926376]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[37.32455044]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_19]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: CP1, 2009-11-10]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-47.84735819]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-45.69109456]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[70.33048857]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[69.66926913]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-11-10 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-11-10 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_190]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Rond.- Faz. Nossa Senhora-Ji Parana-pasture, 2010-10-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-62.9248503]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-62.18312109]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-10.66448857]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-11.32240663]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_191]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Rond.- Rebio Jaru Ji Parana- Tower B, 2010-07-17]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-62.07960383]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-61.34140943]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.666780124]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-10.32581254]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-17 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-17 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_192]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Santarem-Km77-Pasture, 2007-06-13]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05480244]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32841804]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.720801482]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.37605408]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-06-13 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-06-13 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_193]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Santarem-Km77-Pasture, 2008-05-30]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05030406]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32593965]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.725679812]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.379981915]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-05-30 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-05-30 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_194]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Santarem-Km77-Pasture, 2009-06-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.04919016]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32429093]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.720081729]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.374924976]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-06-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-06-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_195]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Santarem-Km77-Pasture, 2009-08-03]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05693194]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32974206]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.722818789]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.375903719]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-08-03 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-08-03 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_196]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Santarem-Km77-Pasture, 2010-06-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05646264]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32926997]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.725917579]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.378732909]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_197]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Santarem-Km77-Pasture, 2010-07-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05651743]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32919127]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.727639676]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.37923552]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_198]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Santarem-Km77-Pasture, 2010-08-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.04677325]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32295556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.724298177]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.376429125]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_199]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Santarem-Km77-Pasture, 2010-11-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.06210877]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.33748053]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.729587101]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.380498552]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-11-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-11-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_2]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Baltimore Ecosystem Study (BES1), 2009-07-28]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-76.89185951]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-75.97024675]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[39.92907208]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.30395095]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-07-28 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-07-28 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_20]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Duke Forest Hardwoods, 2010-09-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-79.29780715]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-78.3938045]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[36.48229711]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[35.82797288]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_200]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Sask- SSA Old Aspen, 2010-11-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-106.7766934]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.5768205]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[53.7304211]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[53.10116963]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-11-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-11-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_201]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Sask- SSA Old Jack Pine, 2010-10-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.2933757]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.0849921]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[54.21969843]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[53.58947352]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_202]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Sioux Falls Portable, 2010-03-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.18429475]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.65601383]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.51529125]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.88030239]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-03-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-03-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_203]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Sioux Falls Portable, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.01394703]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.00157215]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.39894011]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.7418854]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_204]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Sioux Falls Portable, 2010-07-16]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.53898881]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.54020576]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.40273275]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.75368707]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-16 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-16 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_205]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Sioux Falls Portable, 2010-08-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.53435384]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.53557812]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.40037897]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.7518358]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_206]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Sioux Falls Portable, 2010-10-16]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.53039168]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.53162604]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.39767545]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.74923546]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-16 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-16 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_207]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Sioux Falls Portable, 2010-12-01]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.52952274]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.53092608]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.39813244]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.7496891]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-12-01 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-12-01 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_208]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Tablelands Juniper Savanna, 2010-09-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-106.2203868]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.3382385]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[34.49019518]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[33.86175253]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_209]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Tonzi Ranch, 2010-09-17]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-121.7138398]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-120.77541]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[38.95646031]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[38.30881832]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-17 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-17 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_21]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Harvard Forest EMS Tower (HFR1), 2007-08-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.76308995]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.75240975]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[42.90965264]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.24645154]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-08-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-08-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_210]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Valles Caldera Mixed Conifer, 2010-10-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-107.0548388]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-106.1771544]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[35.97946816]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[35.35356584]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_211]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Walker Branch Watershed, 2010-10-27]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-84.66502428]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-83.75165915]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[36.48587757]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[35.82892402]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-27 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-27 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_212]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HV): Western Peatland- LaBiche-Black Spruce/Larch Fen, 2010-09-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-113.1234499]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-111.8862961]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[55.19790713]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[54.5686061]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_22]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Harvard Forest EMS Tower (HFR1), 2010-08-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.74774799]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.73634574]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[42.91161661]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.2484104]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_23]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Harvard Forest EMS Tower (HFR1), 2010-10-16]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.74476107]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.73335307]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[42.91029176]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.24706194]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-16 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-16 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_24]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: HJ Andrews Aeronet Sunphotometer (AND1), 2010-10-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.9105171]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.9084737]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.36969964]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74123481]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_25]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Howland Forest (Main Tower), 2010-10-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-69.04746727]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-68.035569]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[45.35815624]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[44.72927278]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_26]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Humboldt Gl., 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-58.1024912]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.06554407]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[78.94593909]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[78.21784887]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_27]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Juniper Woodland Site, 2010-07-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-112.9058791]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-111.9751064]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42655322]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.80275522]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_28]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: KULU, 2008-05-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.69279756]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-37.92061624]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[65.95873219]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[65.31843515]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-05-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-05-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_29]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: KULU, 2008-07-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.79748275]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-38.01907565]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[65.95266005]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[65.31270237]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-07-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-07-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_3]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Bartlett Experimental Forest, 2007-07-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.04786679]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.04328122]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37726353]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74889875]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-07-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-07-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_30]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: KULU, 2008-08-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.86860999]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-38.08697879]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[65.95589026]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[65.31591675]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-08-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-08-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_31]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Lost Creek, 2010-10-08]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-90.77148035]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-89.69752981]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[46.36424197]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[45.69840414]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-08 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-08 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_32]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Luquillo LTER (LUQ1), 2010-10-11]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-65.90675854]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.15417856]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[18.62700344]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[17.99114555]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-11 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-11 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_33]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Metolius Eyerly Burn, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.0492363]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.017499]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.87281077]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[44.22803346]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_34]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Metolius Intermediate Pine, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.0492363]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.017499]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.87281077]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[44.22803346]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_35]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Missouri Ozark Site, 2010-08-04]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-92.72470962]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-91.81070614]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[38.94773445]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[38.31666639]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-04 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-04 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_36]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: NASA-E, 2009-12-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-31.89810316]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-28.88046076]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[75.16621214]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[74.43636919]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-12-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-12-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_37]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: NGRIP, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-43.6585744]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-40.51641784]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[75.58491747]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[74.83590005]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_38]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Niwot Ridge (LTER NWT1), 2007-06-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.97323]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.026572]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41933277]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79312306]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-06-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-06-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_39]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Niwot Ridge (LTER NWT1), 2007-07-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9611009]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0149568]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41530987]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.78960237]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-07-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-07-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_4]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Bartlett Experimental Forest, 2007-09-04]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.0462687]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.04197223]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37190935]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.7434271]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-09-04 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-09-04 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_40]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Niwot Ridge (LTER NWT1), 2007-10-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9535185]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0077226]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42030903]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79439238]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-10-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-10-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_41]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Niwot Ridge (LTER NWT1), 2008-06-07]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9306639]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9849361]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42018381]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79458521]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-06-07 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-06-07 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_42]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Niwot Ridge (LTER NWT1), 2009-07-26]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9801523]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0339763]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41803223]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79136178]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-07-26 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-07-26 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_43]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Niwot Ridge (LTER NWT1), 2010-06-13]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9113277]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0038707]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.42461231]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.80538009]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-13 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-13 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_44]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Niwot Ridge (LTER NWT1), 2010-07-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9436308]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9983985]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.4228558]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79836984]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_45]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Niwot Ridge (LTER NWT1), 2010-10-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9338175]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9888312]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41778113]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79310295]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_46]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Niwot Ridge (LTER NWT1), 2010-12-14]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.9345652]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.9890756]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[40.41585211]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.79062728]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-12-14 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-12-14 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_47]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Park Falls, 2010-10-08]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-90.77148035]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-89.69752981]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[46.36424197]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[45.69840414]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-08 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-08 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_48]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Phillips Creek Marsh (PHCK), 2010-10-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-76.40923141]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-75.51442698]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[37.94926376]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[37.32455044]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_49]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Rond.- Faz. Nossa Senhora-Ji Parana-pasture, 2010-10-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-62.9248503]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-62.18312109]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-10.66448857]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-11.32240663]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_5]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Bartlett Experimental Forest, 2007-10-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.04121314]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.036419]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37138353]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.7430668]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-10-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-10-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_50]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Rond.- Rebio Jaru Ji Parana- Tower B, 2010-07-17]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-62.07960383]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-61.34140943]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.666780124]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-10.32581254]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-17 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-17 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_51]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Santarem-Km77-Pasture, 2007-06-13]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05480244]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32841804]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.720801482]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.37605408]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-06-13 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-06-13 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_52]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Santarem-Km77-Pasture, 2008-05-30]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05030406]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32593965]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.725679812]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.379981915]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-05-30 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-05-30 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_53]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Santarem-Km77-Pasture, 2009-06-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.04919016]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32429093]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.720081729]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.374924976]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-06-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-06-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_54]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Santarem-Km77-Pasture, 2009-08-03]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05693194]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32974206]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.722818789]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.375903719]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-08-03 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-08-03 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_55]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Santarem-Km77-Pasture, 2010-06-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05646264]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32926997]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.725917579]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.378732909]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_56]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Santarem-Km77-Pasture, 2010-07-21]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.05651743]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32919127]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.727639676]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.37923552]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-21 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-21 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_57]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Santarem-Km77-Pasture, 2010-08-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.04677325]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.32295556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.724298177]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.376429125]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_58]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Santarem-Km77-Pasture, 2010-11-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.06210877]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.33748053]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.729587101]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.380498552]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-11-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-11-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_59]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Sask- SSA Old Aspen, 2010-11-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-106.7766934]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.5768205]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[53.7304211]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[53.10116963]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-11-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-11-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_6]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Bartlett Experimental Forest, 2008-06-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.01582366]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.01187867]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37853961]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.75016973]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-06-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-06-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_60]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Sask- SSA Old Jack Pine, 2010-10-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.2933757]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.0849921]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[54.21969843]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[53.58947352]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_61]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Sioux Falls Portable, 2010-03-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.18429475]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.65601383]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.51529125]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.88030239]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-03-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-03-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_62]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Sioux Falls Portable, 2010-06-29]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.01394703]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.00157215]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.39894011]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.7418854]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-29 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-29 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_63]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Sioux Falls Portable, 2010-07-16]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.53898881]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.54020576]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.40273275]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.75368707]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-16 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-16 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_64]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Sioux Falls Portable, 2010-08-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.53435384]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.53557812]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.40037897]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.7518358]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_65]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Sioux Falls Portable, 2010-10-16]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.53039168]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.53162604]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.39767545]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.74923546]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-16 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-16 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_66]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Sioux Falls Portable, 2010-12-01]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-97.52952274]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-96.53092608]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[43.39813244]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.7496891]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-12-01 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-12-01 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_67]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Sky Oaks, 2009-11-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-117.1928858]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-116.3364644]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[33.76769674]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[33.10572733]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-11-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-11-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_68]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Summit, 2010-01-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-39.03147504]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-36.52169904]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[72.75688354]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[72.06791612]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-01-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-01-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_69]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Swiss Camp, 2010-01-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-50.67782251]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-48.49016495]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[69.85327944]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[69.17391591]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-01-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-01-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_7]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Bartlett Experimental Forest, 2009-07-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.06795622]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.06058788]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.3758027]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74682379]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-07-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-07-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_70]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Tablelands Juniper Savanna, 2010-09-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-106.2203868]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.3382385]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[34.49019518]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[33.86175253]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-18 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_71]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Tonzi Ranch, 2010-09-17]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-121.7138398]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-120.77541]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[38.95646031]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[38.30881832]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-17 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-17 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_72]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Valles Caldera Mixed Conifer, 2010-10-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-107.0548388]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-106.1771544]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[35.97946816]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[35.35356584]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_73]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Walker Branch Watershed, 2010-10-27]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-84.66502428]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-83.75165915]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[36.48587757]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[35.82892402]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-27 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-27 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_74]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Western Peatland- LaBiche-Black Spruce/Larch Fen, 2010-09-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-113.1234499]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-111.8862961]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[55.19790713]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[54.5686061]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_75]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Arctic LTER (ARC1), 2010-07-11]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-150.7144826]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-148.7195945]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[69.15049676]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[68.47211079]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-11 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-11 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_76]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Baltimore Ecosystem Study (BES1), 2009-07-28]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-76.89185951]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-75.97024675]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[39.92907208]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[39.30395095]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-07-28 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-07-28 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_77]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Bartlett Experimental Forest, 2007-07-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.04786679]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.04328122]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37726353]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74889875]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-07-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-07-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_78]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Bartlett Experimental Forest, 2007-09-04]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.0462687]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.04197223]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37190935]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.7434271]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-09-04 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-09-04 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_79]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Bartlett Experimental Forest, 2007-10-20]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.04121314]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.036419]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37138353]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.7430668]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-10-20 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-10-20 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_8]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Bartlett Experimental Forest, 2009-10-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.05787477]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.04993247]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37164794]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74287254]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-10-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-10-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_80]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Bartlett Experimental Forest, 2008-06-06]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.01582366]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.01187867]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37853961]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.75016973]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-06-06 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-06-06 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_81]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Bartlett Experimental Forest, 2009-07-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.06795622]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.06058788]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.3758027]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74682379]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-07-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-07-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_82]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Bartlett Experimental Forest, 2009-10-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.05787477]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.04993247]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37164794]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74287254]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-10-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-10-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_83]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Bartlett Experimental Forest, 2010-07-28]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.02601479]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.02466799]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37695108]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.75029993]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-28 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-28 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_84]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Bartlett Experimental Forest, 2010-09-12]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.02744773]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.02649925]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37282062]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74522144]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-12 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-12 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_85]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Bartlett Experimental Forest, 2010-10-28]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.02295161]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.01778179]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37093142]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74288678]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-28 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-28 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_86]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): BOREAS NSA - Old Black Spruce, 2010-09-24]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-98.96103746]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-97.67887015]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[56.18319863]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[55.54474565]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-24 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-24 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_87]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): BOREAS SSA Young Aspen, 2010-07-19]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-106.2320854]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-105.0434659]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[53.72732448]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[53.10037283]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-19 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-19 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_88]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): British Columbia- Campbell River - Clearcut Site, 2010-06-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-125.619492]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-124.4984548]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[50.28311099]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[49.65741954]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_89]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): British Columbia- Campbell River - Mature Forest Site, 2010-06-05]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-125.619492]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-124.4984548]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[50.28311099]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[49.65741954]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-06-05 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-06-05 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_9]]></Granule_ID>
+        <Granule_Title><![CDATA[SAR Image: Bartlett Experimental Forest, 2010-07-28]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.02601479]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.02466799]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.37695108]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.75029993]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-07-28 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-07-28 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_90]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Buffalo 13 ESE- SDSU Antelope Research Station (Calving Pasture Site), 2010-10-02]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-103.4970891]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-102.4569874]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[45.86317214]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[45.21398404]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-02 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-02 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_91]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Cascades/H.J. Andrews LTER- Oregon, 2008-10-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.9105171]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.9084737]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.36969964]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74123481]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-10-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2008-10-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_92]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Chamela Biological Station, 2010-10-10]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-105.2711085]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-104.5074856]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[19.61921069]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[18.98434003]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-10 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-10 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_93]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): CP1, 2009-11-10]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-47.84735819]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-45.69109456]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[70.33048857]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[69.66926913]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-11-10 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2009-11-10 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_94]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Duke Forest Hardwoods, 2010-09-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-79.29780715]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-78.3938045]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[36.48229711]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[35.82797288]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-09-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-09-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_95]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Harvard Forest EMS Tower (HFR1), 2007-08-23]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.76308995]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.75240975]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[42.90965264]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.24645154]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-08-23 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2007-08-23 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_96]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Harvard Forest EMS Tower (HFR1), 2010-08-31]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.74774799]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.73634574]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[42.91161661]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.2484104]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-08-31 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-08-31 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_97]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Harvard Forest EMS Tower (HFR1), 2010-10-16]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-72.74476107]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-71.73335307]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[42.91029176]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[42.24706194]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-16 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-16 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_98]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): HJ Andrews Aeronet Sunphotometer (AND1), 2010-10-25]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-122.9105171]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-121.9084737]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[44.36969964]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[43.74123481]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-25 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-25 24:00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[993_99]]></Granule_ID>
+        <Granule_Title><![CDATA[NRCS SAR Image (HH): Howland Forest (Main Tower), 2010-10-18]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-69.04746727]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-68.035569]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[45.35815624]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[44.72927278]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-10-18 00:00:00]]></Start_Date>
+        <End_Date><![CDATA[2010-10-18 24:00:00]]></End_Date>
+      </Granule>
+    </Granule_Details>
+    <OGC_URL>https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=993</OGC_URL>
+    <THREDDS_URL></THREDDS_URL>
+  </mercury>
+</metadata>

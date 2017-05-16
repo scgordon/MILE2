@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.7.1.xsd">
+   <Entry_ID>GLAH09</Entry_ID>
+   <Entry_Title>GLAS/ICESat L2 Global Cloud Heights for Multi-layer Clouds (HDF5)</Entry_Title>
+   <Data_Set_Citation>
+      <Dataset_Creator>Zwally, H. J., R. Schutz, D. Hancock, and J. Dimarzio.</Dataset_Creator>
+      <Dataset_Title>GLAS/ICESat L2 Global Cloud Heights for Multi-layer Clouds (HDF5)</Dataset_Title>
+      <Dataset_Release_Date>2013-03-04</Dataset_Release_Date>
+      <Dataset_Release_Place>Boulder, Colorado USA</Dataset_Release_Place>
+      <Dataset_Publisher>NASA NSIDC DAAC: NASA National Snow and Ice Data Center Distributed Active Archive Center</Dataset_Publisher>
+      <Version>33</Version>
+      <Dataset_DOI>doi:10.5067/ICESAT/GLAS/DATA202</Dataset_DOI>
+      <Online_Resource>http://nsidc.org/data/GLAH09</Online_Resource>
+      <Dataset_Series_Name>GLAH09</Dataset_Series_Name>
+   </Data_Set_Citation>
+   <Personnel>
+      <Role>Technical Contact</Role>
+      <First_Name>NSIDC</First_Name>
+      <Last_Name>User Services</Last_Name>
+      <Email>nsidc@nsidc.org</Email>
+      <Phone>1-303-492-6199</Phone>
+      <Fax>1-303-492-2468</Fax>
+      <Contact_Address>
+         <Address>CIRES, 449 UCB</Address>
+         <Address>University of Colorado</Address>
+         <City>Boulder</City>
+         <Province_or_State>CO</Province_or_State>
+         <Postal_Code>80309-0449</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>David</First_Name>
+      <Last_Name>Hancock</Last_Name>
+      <Email>David.W.Hancock@nasa.gov</Email>
+      <Contact_Address>
+         <Address>ISIPS Manager</Address>
+         <Address>NASA Goddard Space Flight Center</Address>
+         <Address>Wallops Flight Facility</Address>
+         <Address>Wallops Island, VA</Address>
+         <Address>USA</Address>
+         <Country/>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>H.</First_Name>
+      <Middle_Name>Jay</Middle_Name>
+      <Last_Name>Zwally</Last_Name>
+      <Email>Jay.Zwally@nasa.gov</Email>
+      <Phone>1-301-614-5643</Phone>
+      <Fax>1-301-614-5644</Fax>
+      <Contact_Address>
+         <Address>Laboratory for Hydrospheric Processes</Address>
+         <Address>NASA/Goddard Space Flight Center</Address>
+         <Address>Code 971</Address>
+         <City>Greenbelt</City>
+         <Province_or_State>MD</Province_or_State>
+         <Postal_Code>20771</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Robert</First_Name>
+      <Last_Name>Schutz</Last_Name>
+      <Contact_Address>
+         <Address>GLAS Science Team Lead</Address>
+         <Address>University of Texas at Austin</Address>
+         <Address>Center for Space Research</Address>
+         <City>Austin</City>
+         <Province_or_State>TX</Province_or_State>
+         <Postal_Code>78712-1085</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>John</First_Name>
+      <Last_Name>Dimarzio</Last_Name>
+      <Email>john.dimarzio@gsfc.nasa.gov</Email>
+      <Phone>1-301-614-5893</Phone>
+      <Contact_Address>
+         <Address>SGT, Inc.</Address>
+         <Address>NASA/Goddard Space Flight Center</Address>
+         <Address>Cryospheric Sciences Branch Code 614.1</Address>
+         <City>Greenbelt</City>
+         <Province_or_State>MD</Province_or_State>
+         <Postal_Code>20771</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Atmosphere</Topic>
+      <Term>Clouds</Term>
+      <Variable_Level_1>Cloud Height</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Atmosphere</Topic>
+      <Term>Clouds</Term>
+      <Variable_Level_1>Cloud Vertical Distribution</Variable_Level_1>
+   </Parameters>
+   <ISO_Topic_Category>Elevation</ISO_Topic_Category>
+   <Keyword>Attenuated Backscatter Cross-section</Keyword>
+   <Keyword>Backscatter</Keyword>
+   <Keyword>Cloud Height</Keyword>
+   <Keyword>Cloud Layer</Keyword>
+   <Keyword>Clouds</Keyword>
+   <Keyword>DAAC</Keyword>
+   <Keyword>EOSDIS</Keyword>
+   <Keyword>GLA09</Keyword>
+   <Keyword>GLAS</Keyword>
+   <Keyword>Global Positioning System</Keyword>
+   <Keyword>GPS</Keyword>
+   <Keyword>ICESat</Keyword>
+   <Keyword>ICESat/GLASS-project</Keyword>
+   <Keyword>ISIPS</Keyword>
+   <Keyword>Laser Return Energy</Keyword>
+   <Keyword>Lidar</Keyword>
+   <Keyword>Lidar Backscatter</Keyword>
+   <Keyword>Lidar Return Signal</Keyword>
+   <Keyword>NASA</Keyword>
+   <Keyword>NSIDC</Keyword>
+   <Keyword>Orbit Number</Keyword>
+   <Keyword>Precision Attitude Determination</Keyword>
+   <Keyword>Precision Orbit Determination</Keyword>
+   <Keyword>Range</Keyword>
+   <Sensor_Name>
+      <Short_Name>ALTIMETERS</Short_Name>
+   </Sensor_Name>
+   <Sensor_Name>
+      <Short_Name>GLAS</Short_Name>
+      <Long_Name>Geoscience Laser Altimeter System</Long_Name>
+   </Sensor_Name>
+   <Source_Name>
+      <Short_Name>ICESAT</Short_Name>
+      <Long_Name>Ice, Cloud and Land Elevation Satellite</Long_Name>
+   </Source_Name>
+   <Temporal_Coverage>
+      <Start_Date>2003-02-20</Start_Date>
+      <Stop_Date>2009-10-11</Stop_Date>
+   </Temporal_Coverage>
+   <Data_Set_Progress>complete</Data_Set_Progress>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>-86</Southernmost_Latitude>
+      <Northernmost_Latitude>86</Northernmost_Latitude>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+   </Spatial_Coverage>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Global</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Data_Resolution>
+      <Latitude_Resolution>60 m to 70 m</Latitude_Resolution>
+      <Longitude_Resolution>60 m to 70 m</Longitude_Resolution>
+      <Vertical_Resolution>76.8 m</Vertical_Resolution>
+      <Temporal_Resolution>1288 minute</Temporal_Resolution>
+   </Data_Resolution>
+   <Project>
+      <Short_Name>ICESAT</Short_Name>
+      <Long_Name>Ice, Cloud and Land Elevation Satellite</Long_Name>
+   </Project>
+   <Quality>Each data granule has associated browse products that users can quickly view to determine the general quality of the data in the granule.</Quality>
+   <Data_Set_Language>English</Data_Set_Language>
+   <Originating_Center>NASA/GSFC/EOS/EO</Originating_Center>
+   <Data_Center>
+      <Data_Center_Name>
+         <Short_Name>NASA NSIDC DAAC</Short_Name>
+         <Long_Name>NASA National Snow and Ice Data Center Distributed Active Archive Center</Long_Name>
+      </Data_Center_Name>
+      <Data_Center_URL>http://nsidc.org/daac/index.html</Data_Center_URL>
+      <Personnel>
+         <Role>Data Center Contact</Role>
+         <First_Name>NSIDC</First_Name>
+         <Last_Name>User Services</Last_Name>
+         <Email>nsidc@nsidc.org</Email>
+         <Phone>1-303-492-6199</Phone>
+         <Fax>1-303-492-2468</Fax>
+         <Contact_Address>
+            <Address>National Snow and Ice Data Center</Address>
+            <Address>CIRES, 449 UCB</Address>
+            <Address>University of Colorado</Address>
+            <City>Boulder</City>
+            <Province_or_State>CO</Province_or_State>
+            <Postal_Code>80309-0449</Postal_Code>
+            <Country>USA</Country>
+         </Contact_Address>
+      </Personnel>
+   </Data_Center>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>25 GB</Distribution_Size>
+      <Distribution_Format>HDF</Distribution_Format>
+   </Distribution>
+   <Reference>Bae, S. and B.E. Schutz. 2002. Precision attitude determination (PAD). GLAS algorithm theoretical basis document. Version 2.2. Austin, TX: Center for Space Research, University of Texas at Austin.
+
+Center for Space Research. 'ICESat/GLAS.' January 2002. http://www.csr.utexas.edu/glas/.
+
+Earth Science Data and Information System (ESDIS). 1996. EOS Ground System (EGS)
+Systems and Operations Concept. Greenbelt, MD: Goddard Space Flight Center.
+
+GLAS Science Team. 2000. Mission Operations Requirement Document (MORD) for the
+Ice, Cloud and Land Elevation Satellite (ICESat) Mission. Greenbelt, MD: Goddard
+Space Flight Center.
+
+GLAS Science Team. 1997. GLAS Science Requirements. Version 2.01. Greenbelt, MD:
+Goddard Space Flight Center.
+
+Guzzi, R., ed. 2003. Exploring the atmosphere by remote sensing techniques. Heidelberg, Germany: Springer-Verlag.
+
+Heroux, D. 2000. Progress report on GLAS interface effort with ECS NOSE. Rev. 29
+December 2000. Landover, MD: Emergent-IT/Raytheon.
+
+Herring, T.A. and K. Quinn. 1999. Atmospheric delay correction to GLAS laser
+altimeter ranges. GLAS algorithm theoretical basis document. Version 1.0. Lanham, MD: Science Systems and Applications, Inc.
+
+Jester, P., and J. Lee. 2002. GLAS standard data products specification - level 1. Version 6.0. Wallops Island, VA: Raytheon ITSS.
+
+Lee, J. 2002. GSAS user's guide: Version 4.0. Wallops Island, VA: Raytheon ITSS.
+
+Palm, S., W. Hart, and D. Hlavka. 2002. GLAS atmospheric data products. GLAS
+algorithm theoretical basis document. Version 4.2. Lanham, MD: Science Systems
+and Applications, Inc.
+
+Rim, H., and B. Schutz. 2002. Precision orbit determination. GLAS algorithm theoretical basis document. Version 2.2. Austin, TX: Center for Space Research,
+University of Texas at Austin.
+
+Schutz, B. 2002. Laser footprint location (geolocation) and surface profiles.GLAS algorithm theoretical basis document. Version 3.0. Austin, TX: Center for Space Research, University of Texas at Austin.
+
+Schutz, B. 2000. GLAS altimeter post-launch calibration/validation plan. Version
+0.99. Austin, TX: Center for Space Research, University of Texas at Austin.
+
+Stephens, G.L. 1994. Remote sensing of the lower atmosphere: an introduction. New York: Oxford University Press.
+
+Wahr, J., D. Wingham, and C. Bentley. 2000. A method of combining ICESat and   GRACE satellite data to constrain Antarctic mass balance. Journal of Geophysical Research 105(B7):16,279-16,294.
+
+Yi, D., J. Minster, and C. Bentley. 1999. Ocean tidal loading corrections. GLAS
+algorithm theoretical basis document. Version 1.0. Greenbelt, MD: Goddard Space
+Flight Center.
+
+ Zwally, H.J., B. Schutz, D. Hancock, and A. Brenner. 2000. ICESat/GLAS Standard Data Products in HDF and SCF Formats. Version 1.2. Greenbelt, MD: Goddard Space Flight Center.</Reference>
+   <Summary>
+      <Abstract>GLAH09 Level-2 cloud heights for multi-layer clouds contain cloud layer top and bottom height data at sampling rates of 4 sec, 1 sec, 5 Hz, and 40 Hz.  Each data granule has an associated browse product.</Abstract>
+   </Summary>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/docs/daac/glas-icesat-l1-l2-global-atmosphere-hdf5-gd.html</URL>
+      <Description>Documentation</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>ftp://n5eil01u.ecs.nsidc.org/SAN/GLAS/GLAH09.033</URL>
+      <Description>FTP</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>http://reverb.echo.nasa.gov/reverb/#utf8=&amp;keywords=GLAH09</URL>
+      <Description>Reverb</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>https://n5eil01u.ecs.nsidc.org/GLAS/GLAH09.033</URL>
+      <Description>HTTPS</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>https://search.earthdata.nasa.gov/search?q=GLAH09</URL>
+      <Description>Earthdata Search</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://glas.wff.nasa.gov/</URL>
+      <Description>ICESat/GLAS web site at NASA Wallops Flight Facility</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://icesat.gsfc.nasa.gov/</URL>
+      <Description>ICESat/GLAS web site at NASA Goddard Space Flight Center</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://www.csr.utexas.edu/glas/</URL>
+      <Description>ICESat/GLAS web site at University of Texas</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/icesat/</URL>
+      <Description>ICESat/GLAS Data at NSIDC</Description>
+   </Related_URL>
+   <IDN_Node>
+      <Short_Name>USA/NASA</Short_Name>
+   </IDN_Node>
+   <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+   <Metadata_Version>VERSION 9.9</Metadata_Version>
+   <DIF_Creation_Date>2013-03-04</DIF_Creation_Date>
+   <Last_DIF_Revision_Date>2015-09-28</Last_DIF_Revision_Date>
+   <DIF_Revision_History> 2013-03-04, Deann Miller, New HDF5 data set.
+ 2013-03-04, Deann Miller, New HDF5 data set.
+ 2013-03-08, Daniel Webster, Revised data distribution size.
+ 2013-03-06, Daniel Webster, Updated Version Summary.
+ 2014-02-21, Daniel Webster,  Removed GLAS Subsetter from Data Access URLs list.  Subsetter for GLAS HDF5 data is not available yet.
+
+ 2015-07-22, Michon Scott, Added keyword as part of Drupal migration.
+ 2015-09-17, Daniel Webster, Revised Spatial Resolution, Temporal Resolution, and Platforms, and removed Order Data URL, for Landing Page / EDB cleanup.
+ 2015-09-28, Daniel Webster, Added HTTPS URL to Data Access.
+</DIF_Revision_History>
+   <Extended_Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Version Summary</Name>
+         <Value>For information about Version 33, see the NSIDC ICESat &lt;a href="http://nsidc.org/data/icesat/data_releases.html#rel33"&gt;Description of Data Releases&lt;/a&gt; page.</Value>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Current Version</Name>
+         <Value>1</Value>
+      </Metadata>
+   </Extended_Metadata>
+</DIF>

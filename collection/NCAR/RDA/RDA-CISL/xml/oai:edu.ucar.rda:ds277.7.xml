@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="277.7"
+            type="primary">
+   <timeStamp value="2015-02-12 08:37:05 -0700"/>
+   <continuingUpdate value="yes" frequency="monthly"/>
+   <title>NOAA Optimum Interpolation 1/4 Degree Daily Sea Surface Temperature Analysis, Version 2</title>
+   <summary>
+      <p>Two new high resolution sea surface temperature (SST) analysis products have been developed by NOAA NCDC using optimum interpolation (OI). The analyses have a spatial grid resolution of 0.25 degrees and temporal resolution of 1 day. One product uses Advanced Very High Resolution Radiometer (AVHRR) infrared satellite SST data. The other uses AVHRR and Advanced Microwave Scanning Radiometer (AMSR) on the NASA Earth Observing System satellite SST data. Both products also use in situ data from ships and buoys and include a large-scale adjustment of satellite biases with respect to the in situ data. Two products are needed because there is an increase in signal variance when AMSR became available in June 2002 due to its near all-weather coverage.</p>
+      <p>
+         <font color="red">Update October 6, 2011: AMSR + AVHRR OI SST production has been discontinued because<a href="http://global.jaxa.jp/press/2011/10/20111004_amsr-e_e.html">
+              the AMSR-E instrument has stopped working.</a>
+         </font>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                contact="Richard Reynolds, Richard.W.Reynolds@noaa.gov"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Cryosphere &gt; Sea Ice &gt; Sea Ice Concentration</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">SHIPS</platform>
+   <platform vocabulary="GCMD">SATELLITES</platform>
+   <platform vocabulary="GCMD">BUOYS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Reynolds, R. W., T. M. Smith, C. Liu, D. B. Chelton, K. S. Casey and M. G. Schlax</authorList>
+      <year>2007</year>
+      <title>Daily High-resolution Blended Analyses for Sea Surface Temperature</title>
+      <periodical number="20" pages="5473-5496">J. of Climate</periodical>
+      <doi>10.1175/2007JCLI1824.1</doi>
+      <url>http://journals.ametsoc.org/doi/full/10.1175/2007JCLI1824.1</url>
+   </reference>
+   <reference type="journal">
+      <authorList>Viva F. Banzon and Richard W. Reynolds</authorList>
+      <year>2013</year>
+      <title>Use of WindSat to Extend a Microwave-Based Daily Optimum Interpolation Sea Surface Temperature Time Series</title>
+      <periodical number="26" pages="2557-2562">Journal of Climate</periodical>
+      <doi>10.1175/JCLI-D-12-00628.1</doi>
+      <url>http://journals.ametsoc.org/doi/full/10.1175/JCLI-D-12-00628.1</url>
+   </reference>
+   <relatedResource url="http://www.ncdc.noaa.gov/oisst">NOAA Optimum Interpolation 1/4 Degree Daily Sea Surface Temperature Analysis</relatedResource>
+   <relatedDataset ID="277.0"/>
+   <publicationDate>2007-02-16</publicationDate>
+   <contentMetadata>
+      <temporal start="1981-09-01 00:00 +0000"
+                end="2015-10-31 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="1440"
+               numY="720"
+               startLon="0.125E"
+               startLat="89.875S"
+               endLon="359.875E"
+               endLat="89.875N"
+               xRes="0.25"
+               yRes="0.25"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

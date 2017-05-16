@@ -1,0 +1,605 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.111.18" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="111" system="VCR">
+   <alternateIdentifier>VCR03087</alternateIdentifier>
+   <title>Nutrient concentrations in fertilized and unfertilized dune plots on Hog Island at the Virginia Coast Reserve 1990-1991</title>
+   <creator>
+      <individualName>
+         <givenName>Frank</givenName>
+         <surName>Day</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University, Department of Biological Sciences</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23529-0266</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4198</phone>
+      <phone phonetype="facsimile">(757) 683-5283</phone>
+      <electronicMailAddress>fday@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">fday</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2003-12-31</pubDate>
+   <keywordSet>
+      <keyword keywordType="theme">Primary Production</keyword>
+      <keyword keywordType="theme">Inorganic Nutrients</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">nutrients</keyword>
+      <keyword keywordType="theme">dune vegetation</keyword>
+      <keyword keywordType="theme">nitrogen fertilization</keyword>
+      <keyword keywordType="theme">nitrogen fertilization</keyword>
+      <keyword keywordType="theme">Spartina patens</keyword>
+      <keyword keywordType="theme">Ammophila breviligulata</keyword>
+      <keyword keywordType="theme">fertilizer</keyword>
+      <keyword keywordType="theme">dunes</keyword>
+      <keyword keywordType="theme">nitrogen</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>
+Hog Island dunes</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1990-12-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>1991-11-30</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>Frank</givenName>
+         <surName>Day</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University, Department of Biological Sciences</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23529-0266</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4198</phone>
+      <phone phonetype="facsimile">(757) 683-5283</phone>
+      <electronicMailAddress>fday@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">fday</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <project id="VCR97037">
+      <title>Vegetation Dynamics on Hog Island Dunes</title>
+      <personnel>
+         <individualName>
+            <givenName>Frank</givenName>
+            <surName>Day</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>Old Dominion University, Department of Biological Sciences</deliveryPoint>
+            <city>Norfolk</city>
+            <administrativeArea>VA</administrativeArea>
+            <postalCode>23529-0266</postalCode>
+         </address>
+         <phone phonetype="voice">(757) 683-4198</phone>
+         <phone phonetype="facsimile">(757) 683-5283</phone>
+         <electronicMailAddress>fday@odu.edu</electronicMailAddress>
+         <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">fday</userId>
+         <role>originator</role>
+      </personnel>
+   </project>
+   <dataTable>
+      <entityName>VCR03087</entityName>
+      <entityDescription>Nutrient concentrations in fertilized and unfertilized dune plots on Hog Island at the Virginia Coast Reserve 1990-1991</entityDescription>
+      <physical>
+         <objectName>splot.csv</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>0</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0D#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0D#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.111.18&amp;urlHeadID=2&amp;urlTail=1/VCR03087/VCR03087/splot.csv</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR03087.SITE">
+            <attributeName>SITE</attributeName>
+            <attributeLabel>age of dune</attributeLabel>
+            <attributeDefinition>SITE - age of dune</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>R120</code>
+                           <definition>120 year old dune</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>R121</code>
+                           <definition>120 (121) year old dune (one year later)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>R24</code>
+                           <definition>24 year old dune</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>R36</code>
+                           <definition>36 year old dune</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR03087.REP">
+            <attributeName>REP</attributeName>
+            <attributeLabel>plot number</attributeLabel>
+            <attributeDefinition>REP - plot number</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1</minimum>
+                        <maximum exclusive="false">20</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR03087.FERT">
+            <attributeName>FERT</attributeName>
+            <attributeLabel>Unfertilized or fertilized plot</attributeLabel>
+            <attributeDefinition>FERT - Unfertilized or fertilized plot</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>C</code>
+                           <definition>Control plot</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>F</code>
+                           <definition>N-Fertilized plot</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR03087.STRT">
+            <attributeName>STRT</attributeName>
+            <attributeLabel>Screened or unscreened treatment</attributeLabel>
+            <attributeDefinition>STRT - Screened or unscreened treatment</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>S</code>
+                           <definition>Screened plot</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>U</code>
+                           <definition>Unscreened plot</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR03087.SPN">
+            <attributeName>SPN</attributeName>
+            <attributeLabel>Spartina patens stem nitrogen</attributeLabel>
+            <attributeDefinition>SPN - Spartina patens stem nitrogen</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Spartina patens stem nitrogen</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Autoanalyzer - colorimetric (TKN) </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR03087.SPP">
+            <attributeName>SPP</attributeName>
+            <attributeLabel>Sprtina patens stem phosphorus</attributeLabel>
+            <attributeDefinition>SPP - Sprtina patens stem phosphorus</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>% dry mass</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0.06</minimum>
+                        <maximum exclusive="false">0.16</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Autoanalyzer - colorimetric </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR03087.AMN">
+            <attributeName>AMN</attributeName>
+            <attributeLabel>Amomophila breviligulata stem nitrogen</attributeLabel>
+            <attributeDefinition>AMN - Amomophila breviligulata stem nitrogen</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>% dry mass</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0.58</minimum>
+                        <maximum exclusive="false">1.17</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Auto analyzer - colorimetric (TKN) </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR03087.AMP">
+            <attributeName>AMP</attributeName>
+            <attributeLabel>Ammophila briviligulata stem phosphorus</attributeLabel>
+            <attributeDefinition>AMP - Ammophila briviligulata stem phosphorus</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>% dry mass</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0.05</minimum>
+                        <maximum exclusive="false">0.24</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+         <attribute id="VCR03087.BULKN">
+            <attributeName>BULKN</attributeName>
+            <attributeLabel>Bulked other species -stem nitrogen</attributeLabel>
+            <attributeDefinition>BULKN - Bulked other species -stem nitrogen</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>% dry mass</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0.70</minimum>
+                        <maximum exclusive="false">7.88</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Auto analyzer - colorimetric (TKN) </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR03087.BULKP">
+            <attributeName>BULKP</attributeName>
+            <attributeLabel>Bulked other species - stem phosphorus</attributeLabel>
+            <attributeDefinition>BULKP - Bulked other species - stem phosphorus</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>% dry mass</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0.08</minimum>
+                        <maximum exclusive="false">0.37</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Auto analyzer - colorimetric </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR03087.RTN">
+            <attributeName>RTN</attributeName>
+            <attributeLabel>Root nitrogen</attributeLabel>
+            <attributeDefinition>RTN - Root nitrogen</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>% dry mass</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0.53</minimum>
+                        <maximum exclusive="false">3.66</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Auto analyzer - colorimetric (TKN) </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR03087.RTP">
+            <attributeName>RTP</attributeName>
+            <attributeLabel>Root phosphorus</attributeLabel>
+            <attributeDefinition>RTP - Root phosphorus</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>% dry mass</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0.03</minimum>
+                        <maximum exclusive="false">0.16</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <missingValueCode>
+               <code>.</code>
+               <codeExplanation>missing</codeExplanation>
+            </missingValueCode>
+         </attribute>
+      </attributeList>
+   </dataTable>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="% dry mass" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-24</weight>
+         <projectId>VCR97037</projectId>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</eml:eml>

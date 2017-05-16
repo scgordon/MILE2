@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="744.2"
+            type="primary">
+   <timeStamp value="2015-02-11 21:06:20 -0700"/>
+   <continuingUpdate value="yes" frequency="monthly"/>
+   <title>The SeaWinds QuikSCAT L2B Scatterometer Ocean Winds, Version 3.0</title>
+   <summary>
+      <p>The SeaWinds instrument on QuikSCAT is an active microwave radar
+              designed to measure electromagnetic backscatter from the wind roughened
+              ocean surface. The L2B data are presented as orbit swaths of wind speed
+              and direction at a 25 km resolution. The satellite is in a sun synchronous
+              orbit with a 101 minute period and a repeat cycle of 4 days (57 orbits).</p>
+      <p>
+         <i>Notice of potential satellite failure from JPL.PODAAC 10 December 2000.  The QuikSCAT antenna remains in a stalled position. Near-real-time data have not been available since 0700 UTC on 23 November 2009 (orbital revolution number 54315), and science-quality data have not been available since 00 UTC 22 November 2009 (orbital revolution 54296).</i>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="NASA/JPL/PODAAC &gt; Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <contact>Zaihua Ji</contact>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">SATELLITES</platform>
+   <project vocabulary="GCMD">QUIKSCAT &gt; Quick Scatterometer</project>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="technical_report">
+      <authorList>Callahan,P. S., and Ted Lungu - Editors</authorList>
+      <year>2006</year>
+      <title>QuikSCAT Science Data Product User's Manual, Version 3.0</title>
+      <organization reportID="D-18053 - Rev A" pages="85">JPL/NASA</organization>
+      <url>http://rda.ucar.edu/datasets/ds744.2/docs/QSUG_v3.pdf</url>
+   </reference>
+   <relatedResource url="http://podaac-www.jpl.nasa.gov/">NASA JPL PO.DAAC</relatedResource>
+   <relatedDataset ID="744.3"/>
+   <relatedDataset ID="744.4"/>
+   <relatedDataset ID="744.5"/>
+   <publicationDate>2000-05-22</publicationDate>
+   <contentMetadata>
+      <temporal start="1999-07-19" end="2009-11-30" groupID="QS-L2B-25KM"/>
+      <temporalFrequency type="regular" number="101" unit="minute"/>
+      <dataType>satellite</dataType>
+      <format>HDF4</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

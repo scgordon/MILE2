@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="228.0"
+            type="historical">
+   <timeStamp value="2015-10-27 17:18:41 -0600"/>
+   <continuingUpdate value="no"/>
+   <title>Historical Monthly Gridded Global Land Precipitation Climatology</title>
+   <summary>
+      <p>A historic monthly gridded precipitation dataset for global
+              land areas.  This dataset contains monthly precipitation from station rain gauges which have been
+              averaged for geographic boxes for January, 1900 through December, 1998. The data is available for both a 5 degree by 5 degree grid and a 2.5 degree latitude by 3.75 degree longitude  grid, but values are only available over land. </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UEA/CRU &gt; Climatic Research Unit, University of East Anglia"
+                contact="Mike Hulme"
+                citable="yes"/>
+   <author>M. Hulme</author>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1997-10-15</publicationDate>
+   <contentMetadata>
+      <temporal start="1900-01-01" end="1998-12-31" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <detailedVariables>
+         <detailedVariable>pcp</detailedVariable>
+      </detailedVariables>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="96"
+               numY="71"
+               startLon="180W"
+               startLat="87.5S"
+               endLon="176.25E"
+               endLat="87.5N"
+               xRes="3.75"
+               yRes="2.5"/>
+         <grid definition="latLon"
+               numX="72"
+               numY="36"
+               startLon="177.5W"
+               startLat="87.5S"
+               endLon="177.5E"
+               endLat="87.5N"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

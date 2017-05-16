@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="085.1"
+            type="historical">
+   <timeStamp value="2015-02-11 21:30:01 -0700"/>
+   <continuingUpdate value="yes" frequency="irregularly"/>
+   <title>Monthly Northern Hemisphere 5-Degree Tropospheric Analyses, continuing from April 1947</title>
+   <summary>
+      <p>This dataset contains a time-series collection of monthly
+              mean gridded Northern Hemisphere tropospheric data on a 5-degree
+              latitude/longitude grid.  This collection was assembled and
+              computed by DSS from the daily grids of various operational
+              models and meteorological projects.  The daily grids are
+              located in <a href="http://rda.ucar.edu/datasets/ds195.1/">
+              ds195.1</a>.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                formerName="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOD/USNAVY/FNMOC &gt; Fleet Numerical Meteorology and Oceanography Center, U.S. Navy, U. S. Department of Defense"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="no"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">OPERATIONAL MODELS</platform>
+   <project vocabulary="GCMD">ESSPO &gt; 433L ESSPO</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="195.1"/>
+   <relatedDataset ID="085.0"/>
+   <relatedDataset ID="195.0"/>
+   <publicationDate>1985-04-03</publicationDate>
+   <contentMetadata>
+      <temporal start="1946-01-01 12:00 +0000"
+                end="2011-01-31 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/datasets/common/ncar.latlon/format.html">DSS_5-Degree_LatLon_Grid</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="72"
+               numY="19"
+               startLon="0E"
+               startLat="0N"
+               endLon="355E"
+               endLat="90N"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="205.0"
+            type="primary">
+   <timeStamp value="2013-02-21 22:22:09 -0700"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">all_free</access>
+   <title>Jenne's Monthly Northern and Southern Hemisphere Climatologies</title>
+   <summary>
+      <p>A selected 15-year climatology of the Northern Hemisphere using the
+              Navy Marine Atlas Series and 5-year mean grids summarized from
+              daily grids from the National Climatic Center (NCC).  The input
+              data is from about January 1950 through December 1964.</p>
+      <p>A selected 17-year climatology of the Southern Hemisphere using the
+              Navy Marine Atlas Series and monthly mean rawinsonde data
+              from "climat temp" reports as published in NCC's "Monthly Climatic
+              Data for the World".  The input data is from about 1950 through
+              about 1966.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                formerName="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                formerName="National Climatic Center"
+                contact="Harry Crutcher"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Topography &gt; Terrain Elevation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Bathymetry/Seafloor Topography &gt; Seafloor Topography</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Tropopause</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Crutcher, H.L., and J.M. Meserve</authorList>
+      <year>1970</year>
+      <title>Selected level heights,temperatures and dew points for the northern hemisphere</title>
+      <organization reportID="NAVAIR 50-1C-52" pages="161">U.S. Naval Weather Service Command, Washington D.C.</organization>
+   </reference>
+   <relatedDataset ID="200.0"/>
+   <publicationDate>1980-01-17</publicationDate>
+   <contentMetadata>
+      <temporal start="1950" end="1966" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Mean sea level" value="0" units=""/>
+         <level type="Ground or water surface" value="0" units=""/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Tropopause level" value="0" units=""/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="72"
+               numY="19"
+               startLon="0E"
+               startLat="0N"
+               endLon="355E"
+               endLat="90N"
+               xRes="5"
+               yRes="5"/>
+         <grid definition="latLon"
+               numX="72"
+               numY="19"
+               startLon="0E"
+               startLat="0S"
+               endLon="355E"
+               endLat="90S"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

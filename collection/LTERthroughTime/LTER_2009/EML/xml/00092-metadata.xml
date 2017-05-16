@@ -1,0 +1,476 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.144.8" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF144">
+      <alternateIdentifier>HF144</alternateIdentifier>
+      <title>Soil Respiration in CRUI Land Use Project at Harvard Forest 1997</title>
+      <creator>
+         <individualName>
+            <givenName>Richard</givenName>
+            <surName>Bowden</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Charles</givenName>
+            <surName>McClaugherty</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Timothy</givenName>
+            <surName>Sipe</surName>
+         </individualName>
+      </creator>
+      <pubDate>2009</pubDate>
+      <abstract>
+         <section>
+            <para>Soil properties and processes were evaluated on three types of colonial agricultural land-use - plowing, pasturing, and selective tree removal in a woodlot that ceased in the mid to late 1800s.   Plowing, the most intensive type of agricultural disturbance, mixes soil to a depth of approximately 15cm, homogenizing the soil resources and likely reducing diversity in microenvironments.  Removing trees and replacing them with grasses for pasture decreases the organic matter amount and types of inputs to the system, decreasing resource diversity.  Woodlots, altered by selective and chronic tree removal, would have more limited decreases in resources and microenvironments.  This study examined soil surface (at 10cm above the soil surface) CO2 concentrations and soil respiration at the land use sites.  Soil respiration and surface CO2 concentrations were highest in the woodlot sites and lowest in the formerly plowed sites.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>air temperature</keyword>
+         <keyword>carbon dioxide</keyword>
+         <keyword>land use</keyword>
+         <keyword>soil</keyword>
+         <keyword>soil respiration</keyword>
+         <keyword>soil temperature</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>inorganic nutrients</keyword>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf144</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.20</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.17</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.55</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.53</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>335</altitudeMinimum>
+                  <altitudeMaximum>357</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1997-05-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>1997-10-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact>
+         <individualName>
+            <givenName>Richard</givenName>
+            <surName>Bowden</surName>
+         </individualName>
+         <organizationName>Allegheny College</organizationName>
+         <address>
+            <deliveryPoint>Department of Environmental Science</deliveryPoint>
+            <city>Meadville</city>
+            <administrativeArea>PA</administrativeArea>
+            <postalCode>16335</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(814) 332-2869</phone>
+         <electronicMailAddress>rbowden@allegheny.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Intersection points within the 5m x5m grid were used as loci for measurements of soil surface CO2 concentrations and soil respiration. Concentrations and soil respiration were measured weekly from July 1997 through October 1997 using a Li-Cor 6200 gas analyzer and Li-Cor 6250 IRGA chamberhead.  Concentrations were determined at 10cm above the soil surface; fluxes were measured using 10cm PVC rings that were inserted 2cm into the forest floor and were left affixed to the soil during the entire measurement period.  Soil temperature (upper 5 cm of forest floor) and air temperature (at 10 cm above the soil) were measured concurrently with concentration measurements; soil temperature was measured concurrently with respiration measurements.</para>
+                  <para>Plot locations: Plow #1 Site: Prospect Hill Tract, Compartment # III, southern end. Plow #2 Site: Prospect Hill Tract, Compartment # III, southern end. Pasture #1 Site: Prospect Hill Tract, Compartment # I, southeastern edge. Pasture #2 Site: Prospect Hill Tract, Compartment # VIII, central edge. Woodlot #1 Site: Prospect Hill Tract, Compartment # VIII, northeastern edge. Woodlot #2 Site:  Prospect Hill Tract, Compartment # VII, central.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf144-01">
+         <entityName>hf144-01-co2.csv</entityName>
+         <entityDescription>carbon dioxide</entityDescription>
+         <physical id="1242073862621">
+            <objectName>hf144-01-co2.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>2</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p14/hf144/hf144-01-co2.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1242073863824">
+               <attributeName>Site</attributeName>
+               <attributeDefinition>site</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>P1</code>
+                              <definition>Plow 1</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>P2</code>
+                              <definition>Plow 2</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1</code>
+                              <definition>Pasture 1</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S2</code>
+                              <definition>Pasture 2</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>W1</code>
+                              <definition>Woodlot 1</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>W2</code>
+                              <definition>Woodlot 2</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242073863840">
+               <attributeName>Row</attributeName>
+               <attributeDefinition>row within site (B-F)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>row within site (B-F)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242073863855">
+               <attributeName>Stake</attributeName>
+               <attributeDefinition>column number within row (1-10)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>column number within row (1-10)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242073863871">
+               <attributeName>Date</attributeName>
+               <attributeDefinition>date of CO2 Measurement</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242073863887">
+               <attributeName>Hour</attributeName>
+               <attributeDefinition>hour of CO2 Measurement</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242073863902">
+               <attributeName>Minute</attributeName>
+               <attributeDefinition>minute of CO2 Measurement</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>mm</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242073863918">
+               <attributeName>SoilTemp</attributeName>
+               <attributeDefinition>soil temperature in upper 5cm of soil</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1242073863933">
+               <attributeName>AirTemp</attributeName>
+               <attributeDefinition>ait temperature at 10cm above ground</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1242073863949">
+               <attributeName>CO2Conc</attributeName>
+               <attributeDefinition>CO2 concentration (ppm CO2)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1890</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf144-02">
+         <entityName>hf144-02-soil-resp.csv</entityName>
+         <entityDescription>soil respiration</entityDescription>
+         <physical id="1242074269624">
+            <objectName>hf144-02-soil-resp.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>2</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p14/hf144/hf144-02-soil-resp.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1242074270842">
+               <attributeName>Site</attributeName>
+               <attributeDefinition>site</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>P1</code>
+                              <definition>Plow 1</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>P2</code>
+                              <definition>Plow 2</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S1</code>
+                              <definition>Pasture 1</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>S2</code>
+                              <definition>Pasture 2</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>W1</code>
+                              <definition>Woodlot 1</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>W2</code>
+                              <definition>Woodlot 2</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242074270858">
+               <attributeName>Row</attributeName>
+               <attributeDefinition>row within site (B-F)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>row within site (B-F)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242074270874">
+               <attributeName>Stake</attributeName>
+               <attributeDefinition>column within row (1-10)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>column within row (1-10)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242074270889">
+               <attributeName>Date</attributeName>
+               <attributeDefinition>date of soil respiration measurement</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1242074270905">
+               <attributeName>SoilResp</attributeName>
+               <attributeDefinition>soil respiration rate</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>milligramPerMeterSquaredPerHour</customUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1242074270920">
+               <attributeName>SoilTemp</attributeName>
+               <attributeDefinition>soil temperature in upper 5cm of soil</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1680</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>historical</researchTopic>
+            <researchTopic>plot</researchTopic>
+            <researchTopic>soil</researchTopic>
+            <studyType>short-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Litterfall, Biomass and Productivity in CRUI Land Use Project at Harvard Forest 1996-1997">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf133</url>
+            <url name="Tree Canopy Leaf Area Index in CRUI Land Use Project at Harvard Forest 1997">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf134</url>
+            <url name="Canopy Sky Factors in CRUI Land Use Project at Harvard Forest 1998">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf135</url>
+            <url name="Herbaceous Species in CRUI Land Use Project at Harvard Forest 1996">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf136</url>
+            <url name="Mapped Trees in CRUI Land Use Project at Harvard Forest 1996-2006">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf137</url>
+            <url name="Microclimate in CRUI Land Use Project at Harvard Forest 1997">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf138</url>
+            <url name="Photosynthetic Light Response Curves in CRUI Land Use Project at Harvard Forest 1998">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf139</url>
+            <url name="Herbaceous Stratum Sunfleck Regimes in CRUI Land Use Project at Harvard Forest 1998">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf140</url>
+            <url name="Tree Seedlings in CRUI Land Use Project at Harvard Forest 1996">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf141</url>
+            <url name="Herbaceous Community Composition in CRUI Land Use Project at Harvard Forest 1996">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf142</url>
+            <url name="Soil Properties in CRUI Land Use Project at Harvard Forest 1995-1998">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf143</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <ns2:unitList convention="CML">
+            <ns2:unit constantToSI="0.0" id="milligramPerMeterSquaredPerHour" multiplierToSI="0.000000000277777778" name="milligramPerMeterSquaredPerHour" parentSI="kilogramPerMeterSquaredPerSecond" unitType="arealMassDensityRate" />
+         </ns2:unitList>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>

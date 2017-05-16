@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="087.0"
+            type="primary">
+   <timeStamp value="2009-03-04 20:11:23 -0700"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>Gelman's 72x19 Monthly Northern and Southern Hemisphere Stratospheric Analyses, October 1978 to December 1988</title>
+   <summary>
+      <p>72x19 hemispheric grids, 8 levels, temperature and height</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP/CPC &gt; Climate Prediction Center, National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                contact="Mel Gelman"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1991-05-14</publicationDate>
+   <contentMetadata>
+      <temporal start="1978-10" end="1988-12" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month" statistics="mean"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Isobaric level" value="70" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+         <level type="Isobaric level" value="30" units="mbar"/>
+         <level type="Isobaric level" value="10" units="mbar"/>
+         <level type="Isobaric level" value="5" units="mbar"/>
+         <level type="Isobaric level" value="2" units="mbar"/>
+         <level type="Isobaric level" value="1" units="mbar"/>
+         <level type="Isobaric level" value="0.4" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="72"
+               numY="19"
+               startLon="0E"
+               startLat="0N"
+               endLon="355E"
+               endLat="90N"
+               xRes="5"
+               yRes="5"/>
+         <grid definition="latLon"
+               numX="72"
+               numY="19"
+               startLon="0E"
+               startLat="0S"
+               endLon="355E"
+               endLat="90S"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

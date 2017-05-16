@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="084.6"
+            type="primary">
+   <timeStamp value="2013-01-26 10:29:45 -0700"/>
+   <continuingUpdate value="no"/>
+   <access>all_free</access>
+   <title>NCEP Global Forecast System (GFS) Analyses and Forecasts</title>
+   <summary>
+      <p>This dataset is a collection of various NCEP GFS data used by NCAR's researchers. It consists of periods of GFS spectral coefficients (in binary format) and flux terms (in GRIB format), as well as their transformed, gridded netcdf files of various spatial resolutions, T382, T254, T170 and T62. All data files are stored on HPSS. There is no attempt to recover, reconstruct missing data. All products are provided as is.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <contact>Chi-Fan Shih</contact>
+   <platform vocabulary="GCMD">NCEP-GFS &gt; NCEP Global Forecast System</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>2007-07-13</publicationDate>
+   <contentMetadata>
+      <temporal start="2001-05-19 00:00 +0000"
+                end="2012-07-17 18:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="1" unit="hour"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <temporalFrequency type="regular" number="8" unit="hour"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <temporalFrequency type="regular" number="5" unit="hour"/>
+      <temporalFrequency type="regular" number="4" unit="hour"/>
+      <temporalFrequency type="regular" number="3" unit="hour"/>
+      <temporalFrequency type="regular" number="2" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <format>WMO_GRIB2</format>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="512"
+               numY="256"
+               startLon="0E"
+               startLat="89.463N"
+               endLon="359.297E"
+               endLat="89.463S"
+               xRes="0.703"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="768"
+               numY="384"
+               startLon="0E"
+               startLat="89.642N"
+               endLon="359.531E"
+               endLat="89.642S"
+               xRes="0.469"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="1152"
+               numY="576"
+               startLon="0E"
+               startLat="89.761N"
+               endLon="359.688E"
+               endLat="89.761S"
+               xRes="0.312"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="1152"
+               numY="576"
+               startLon="0E"
+               startLat="89.761N"
+               endLon="359.687E"
+               endLat="89.761S"
+               xRes="0.313"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="1760"
+               numY="880"
+               startLon="0E"
+               startLat="89.844N"
+               endLon="359.795E"
+               endLat="89.844S"
+               xRes="0.205"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

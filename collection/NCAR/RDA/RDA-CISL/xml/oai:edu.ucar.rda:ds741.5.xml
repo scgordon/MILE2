@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="741.5"
+            type="primary">
+   <timeStamp value="2015-02-05 15:09:38 -0700"/>
+   <doi>10.5065/D62J68XR</doi>
+   <continuingUpdate value="no"/>
+   <title>Cloud Properties from ISCCP and PATMOS-x Corrected for Spurious Variability Related to Changes in Satellite Orbits, Instrument Calibrations, and Other Factors</title>
+   <summary>
+      <p>A post hoc empirical correction procedure has been applied to grid box anomalies in total cloud amount from the International Satellite Cloud Climatology Project (ISCCP) dataset and the Pathfinder Atmospheres - Extended (PATMOS-x) dataset to remove spurious variability related to changes in satellite orbit, instrument calibration, and other factors. The corrected satellite cloud datasets are useful for investigation of regional cloud changes but can not be used for studies of globally averaged cloud change because the methods employed remove any real cloud variability occurring on global scales together with spurious variability. Also note that the correction procedure does not remove spatial biases in climatological mean cloud properties. The available corrected data include monthly anomalies in total cloud amount on a 2.5 degree by 2.5 degree grid for the time period 1983-2009 (the first six months of 1983 are not available for ISCCP). No data are available poleward of 60 degree latitude due to difficulty in accurately retrieving cloud properties over cold, bright surfaces.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="SCRIPPS &gt; Scripps Institution of Oceanography"
+                contact="Joel Norris, (858)-822-4420, jnorris@ucsd.edu"
+                citable="yes"/>
+   <author>Joel R. Norris</author>
+   <author>Amato T. Evan</author>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <contact>Chi-Fan Shih</contact>
+   <platform vocabulary="GCMD">SATELLITES</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>2015-02-02</publicationDate>
+   <contentMetadata>
+      <temporal start="1983-01-15 12:00 +0000"
+                end="2009-12-15 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="72"
+               startLon="1.25E"
+               startLat="88.75S"
+               endLon="358.75E"
+               endLat="88.75N"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

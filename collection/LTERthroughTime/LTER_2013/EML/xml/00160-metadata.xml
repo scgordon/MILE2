@@ -1,0 +1,237 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.69.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=sbc,o=lter,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset scope="document">
+		<shortName>Gap Fire Perimeter, 2008</shortName>
+		<title>Gap Fire Perimeter (Santa Barbara County, CA), July 9, 2008 - From Geospatial Multi-Agency Coordination Group (GeoMAC)</title>
+
+		<creator id="USGS_Rocky_Mountain_Geographic_Science_Center" scope="document">
+			<organizationName>U.S. Geological Survey</organizationName>
+			<organizationName>GeoMAC, the Geospatial Multi-Agency Cooridination Group</organizationName>
+			<address scope="document">
+				<deliveryPoint>GeoMac</deliveryPoint>
+				<deliveryPoint>Rocky Mountain Geographic Science Center</deliveryPoint>
+				<deliveryPoint>Building 25, Denvery Federal Center</deliveryPoint>
+				<city>Denver, CO</city>
+				<postalCode>80225</postalCode>
+				<country>USA</country>
+			</address>
+			<electronicMailAddress>geomac@usgs.gov</electronicMailAddress>
+			<onlineUrl>http://glovis.usgs.gov/</onlineUrl>
+		</creator>
+		<associatedParty>
+			<organizationName>United States Geological Survey (USGS)</organizationName>
+			<role>Web Development</role>
+		</associatedParty>
+		<associatedParty>
+			<organizationName>National Interagency Fire Center (NIFC)</organizationName>
+			<role>Wildfire Location Data</role>
+		</associatedParty>
+		<associatedParty>
+			<organizationName>National Weather Service and Bureau of Land Management at NIFC</organizationName>
+			<role>RAWS Weather Data</role>
+		</associatedParty>
+		<associatedParty>
+			<organizationName>Remote Sensing Application Center (RSAC, USFS, NASA)</organizationName>
+			<role>MODIS Satellite Data</role>
+		</associatedParty>
+		<associatedParty>
+			<organizationName>Bureau of Land Managment (BLM)</organizationName>
+			<role>Land Status Data</role>
+		</associatedParty>
+		<associatedParty>
+			<organizationName>National Geophysical Data Center (NGDC, NOAA)</organizationName>
+			<role>Wildland Urban Interface Data</role>
+		</associatedParty>
+		<pubDate>2013</pubDate>
+		<abstract>
+			<para>The Gap Fire burned from 2008-07-01 to 2008-07-28, 
+				Lizard's Mouth area of Los Padres National Forest, Santa Barbara County. Approximately 9544
+				acres were burned
+				(information per http://cdfdata.fire.ca.gov). This dataset contains a KML polygon showing
+				the extent of the fire on 2008-07-09, and was acquired by request from the 			
+				Geospatial Multi-Agency Coordination Group (GeoMAC, http://www.geomac.gov).
+			</para>
+			<para>These data are based upon input from incident
+				intelligence sources, Global Positioning System (GPS) data, and infrared (IR)
+				imagery. See methods for more information.</para>
+		</abstract>
+		
+		<keywordSet>
+			<keyword keywordType="theme">Santa Barbara Coastal</keyword>
+			<keyword keywordType="theme">LTER</keyword>
+			<keyword keywordType="place">Santa Barbara</keyword>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="place">San Pedro Creek</keyword>
+			<keywordThesaurus>Santa Barbara Coastal LTER: Places</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword>fires</keyword>
+			<keyword>wildfires</keyword>
+			<keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+		</keywordSet>
+		
+		<keywordSet>
+			<keyword keywordType="theme">NASA</keyword>
+			<keyword keywordType="theme">USGS</keyword>
+			<keyword keywordType="theme">remote sensing</keyword>
+			<keyword keywordType="theme">satellite data</keyword>
+			<keyword keywordType="theme">imagery</keyword>
+			<keyword keywordType="theme">earth observation</keyword>
+			<keyword keywordType="theme">wildland fire</keyword>
+			<keyword keywordType="theme">perimeter</keyword>
+		</keywordSet>
+
+		<intellectualRights>
+			<para>Information describING the principal policies and other important notices that 
+				govern information posted on USGS Web sites can be found at
+				<ulink url="http://www.usgs.gov/">http://www.usgs.gov</ulink>.
+			</para>
+			<para>USGS-authored or produced data and information 
+				are considered to be in the U.S. public domain. 
+				
+				When using information from USGS information products, publications, or Web sites, 
+				we ask that proper credit be given. Reuse of these data should include the following credit: 
+				<literalLayout>
+					KML file courtesy of the U.S. Geological Survey 
+				</literalLayout>
+			</para>
+		</intellectualRights>
+
+		<coverage scope="document">
+			<geographicCoverage id="Wildland Fire - Gap Perimeters" scope="document">
+				<geographicDescription>Wildland fire perimeters for Gap, 2008. Bounding box shows only maximums and minimums of 
+					latititudes and longitudes. See kml file for complete perimeter of fire.</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-119.8024</westBoundingCoordinate>
+					<eastBoundingCoordinate>-119.9285</eastBoundingCoordinate>
+					<northBoundingCoordinate>34.51192</northBoundingCoordinate>
+					<southBoundingCoordinate>34.45534</southBoundingCoordinate>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage id="single_dates" scope="document">
+				<singleDateTime>
+					<calendarDate>2008-07-09</calendarDate>
+				</singleDateTime>
+			</temporalCoverage>
+		</coverage>
+
+		<maintenance>
+			<description>
+				<para>These data were retrieved from the USGS archive. </para>
+			</description>
+			<maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+		</maintenance>
+		<contact id="sbc-boilerplate-contact_SBC" scope="system" system="sbclter">
+			<positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+			<address scope="document"> <deliveryPoint>Marine Science Institute</deliveryPoint>
+ 			<deliveryPoint>University of California</deliveryPoint>
+ 			<city>Santa Barbara</city>
+ 			<administrativeArea>California</administrativeArea>
+ 			<postalCode>93106-6150</postalCode>
+ 			<country>United States</country>
+ 			</address>
+			<phone phonetype="voice">805 893 2071</phone>
+			<electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+			<onlineUrl>http://sbc.lternet.edu</onlineUrl>
+		</contact>
+		<contact id="Sandra P. Walters">
+			<individualName>
+				<givenName>Sandra</givenName>
+				<surName>Walters</surName>
+			</individualName>
+			<organizationName>US Geological Survey</organizationName>
+			<phone phonetype="voice">(303) 236-1708</phone>
+			<electronicMailAddress>geomac@usgs.gov</electronicMailAddress>
+		</contact>
+		<publisher>
+			<organizationName>United States Geological Survey (USGS)</organizationName>
+		</publisher>
+		<methods>
+			<methodStep>
+				<description>
+					<section>
+						<para>Data requested from Geospatial Multi-Agency Coordination (GeoMAC).</para>
+						<para> For more information see: 
+							<ulink url="http://rmgsc.cr.usgs.gov/outgoing/GeoMAC/historic_fire_data/">http://rmgsc.cr.usgs.gov/outgoing/GeoMAC/historic_fire_data/</ulink></para>
+					</section>
+					<section>
+						<para>
+							The Geospatial Multi-Agency Coordination (GeoMAC) has been collecting and storing
+							data on wildland fire perimeters since August 2000. The dataset presented via this
+							U.S. Geological Survey Data Series product contains the GeoMAC wildland fire
+							perimeter data based upon input from incident
+							intelligence sources, Global Positioning System (GPS) data, and infrared (IR)
+							imagery. Wildland fire perimeter data are obtained from the incidents, evaluated for
+							completeness and accuracy, and processed to reflect consistent field names and
+							attributes. After a quality check, the perimeters are loaded to GeoMAC databases,
+							which support the GeoMAC Web application for access by wildland fire managers and
+							the public. The wildland fire perimeters are viewed through the Web application. The
+							data are subsequently archived according to year and state and are made available
+							for downloading through the Internet in shapefile and Keyhole Markup Language (KML)
+							format. These wildland fire perimeter data are also retained for historical,
+							planning, and research purposes. The datasets that pertain to this report can be
+							found on the Rocky Mountain Geographic Science Center HTTP site at
+							<ulink url="http://rmgsc.cr.usgs.gov/outgoing/GeoMAC/historic_fire_data/">http://rmgsc.cr.usgs.gov/outgoing/GeoMAC/historic_fire_data/</ulink>. 
+						</para>
+					</section>
+				</description>
+			</methodStep>
+		</methods>
+		
+		<project scope="document">
+			<title>GeoMac (Geospatial Multi-Agency Coordination) 2008 Wildland Fire Perimeters</title>
+			<personnel id="1148664179579" scope="document">
+				<organizationName>NASA</organizationName>
+				<role>Publisher</role>
+			</personnel>
+			<funding>
+				<section>
+					<para>Funding by the DOI Office of Wildland Fire Coordination</para>
+				</section>
+			</funding>
+		</project>
+
+		<otherEntity id="GeoMAC.Gap_Fire_Perimeters_2008">
+			<entityName>GeoMAC.Gap_Fire_Perimeter_2008</entityName>
+			<entityDescription>Complete perimeter of Gap fire, 2008</entityDescription>
+			<physical>
+				<objectName>CA-LPF-D9MC_Gap_7-9-2008_0000.kml</objectName>
+				<size unit="Kb">60</size>
+				<dataFormat>
+					<externallyDefinedFormat>
+						<formatName>kml</formatName>
+					</externallyDefinedFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<onlineDescription>kml file</onlineDescription>
+						<url function="download">http://sbc.lternet.edu/external/Land/Data/fires_perimeters/CA-LPF-D9MC_Gap_7-9-2008_0000.kml</url>
+					</online>
+				</distribution>
+			</physical>
+			<coverage>
+				<temporalCoverage>
+					<singleDateTime>
+						<calendarDate>2008-07-09</calendarDate>
+					</singleDateTime>
+				</temporalCoverage>
+			</coverage>
+			<entityType>KML file</entityType>
+		</otherEntity>
+	</dataset>
+	<additionalMetadata>
+		<metadata>
+			<any_xml />
+		</metadata>
+	</additionalMetadata>
+</eml:eml>

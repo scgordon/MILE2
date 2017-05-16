@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<metadata><Source>ftp://ngee.ornl.gov/data/outgoing/metadata/Meteorological_Forcing_at_Barrow_AK_1985_2013.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <onlink>ftp://ngee.ornl.gov/data/outgoing/fine-scale_modeling/met_force_data_barrow_1985-2013.pdf</onlink>
+        <onlink>ftp://ngee.ornl.gov/data/outgoing/fine-scale_modeling/met_force_data_gapfilled_Barrow_1985-2013.zip</onlink>
+        <origin>Xiaofeng Xu (xux4@ornl.gov)</origin>
+        <origin>Fengming Yuan (yuanf@ornl.gov)</origin>
+        <title>Meteorological Forcing at Barrow AK 1985-2013</title>
+        <geoform>netcdf</geoform>
+        <pubinfo>
+          <pubplace>On-line</pubplace>
+          <publish>NOAA/ESRL GMD</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Gap-filled half-hourly meteorological driving data for CLM from 1985 - 2013. The original datasets are from the Barrow, AK station of NOAA/Earth System Laboratory, Global Monitoring Division (http://www.esrl.noaa.gov/gmd/obop/brw/), and NOAA's National Climate Data Center. The latter source provides daily precipitation at the Barrow Airport (station code - GHCND:USW00027502, station name - Barrow W Post W. Rogers Airport, AK, US), because the former datasets appear large amount of data missing for precipitation. Gap-filling generally follows AmeriFlux procedure and others.</abstract>
+      <purpose>Data processed to drive CLM modeling at Barrow, AK. It can be used for other purposes which may require historical climate information in the region.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19850101</begdate>
+          <enddate>20131231</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>complete</progress>
+      <update>annually</update>
+    </status>
+    <spdom>
+      <descgeog>NOAA-ESL-GMD Barrow Station, Barrow Airport</descgeog>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>Barrow, Alaska</placekey>
+      </place>
+    </keywords>
+    <accconst>public</accconst>
+    <useconst>No use constraints are associated with this data.</useconst>
+    <datacred>NOAA-ESL-GMD, NOAA-DOC</datacred>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Fengming Yuan</cntper>
+          <cntorg>Oak Ridge National Laboratory</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Bethel Valley Road</address>
+          <city>Oak Ridge</city>
+          <state>TN</state>
+          <postal>37831</postal>
+        </cntaddr>
+        <cntemail>yuanf@ornl.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <tool>
+      <toolcont>
+        <cntinfo>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+          </cntaddr>
+        </cntinfo>
+      </toolcont>
+    </tool>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <qattracc>
+        <attraccv>No formal uncertainty assessments were conducted and no estimates of uncertainty are reported.</attraccv>
+      </qattracc>
+    </attracc>
+    <logic>Data are considered of good quality in the context of the information presented in the abstract.  Users are advised to read the rest of the metadata record carefully for additional details.</logic>
+    <complete>Data are considered complete in the context of the information presented in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <lineage>
+      <method>
+        <methtype>field</methtype>
+        <methdesc>Raw meteorological data from NOAA/ESRL/GMD Barrow Station and NOAA/NCDC were downloaded. The data then was aggregated into half-hourly. For precipitation data, NOAA/NCDC Barrow Airport daily data were redistributed into half-hourly based on empirical relationship developed in the GMD Barrow Station dataset.</methdesc>
+      </method>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>NOAA/ESRL GMD Barrow Observatory</title>
+            <geoform>Observation</geoform>
+            <onlink>http://www.esrl.noaa.gov/gmd/dv/data/index.php?site=brw</onlink>
+            <pubinfo>
+              <publish>NOAA/ESRL GMD</publish>
+              <pubplace>On-line</pubplace>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <distrib>
+         <cntinfo>
+                                <cntperp>
+                                        <cntper>Data Center Support</cntper>
+                                        <cntorg>Next-Generation Ecosystem Experiments (NGEE) Arctic Project, Oak Ridge National Laboratory</cntorg>
+                                </cntperp>
+                                <cntaddr>
+                                        <addrtype>mailing and physical</addrtype>
+                                        <address>1 Bethel Valley Road</address>
+                                        <city>Oak Ridge</city>
+                                        <state>TN</state>
+                                        <postal>37831-6290</postal>
+                                        <country>USA</country>
+                                </cntaddr>
+                                <cntvoice></cntvoice>
+                                <cntfax></cntfax>
+                                <cntemail>support@ngee.ornl.gov</cntemail>
+                        </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141112</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Fengming Yuan</cntper>
+          <cntorg>CCSI/ESD, ORNL</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Bethel Vally Road</address>
+          <city>Oak Ridge</city>
+          <state>TN</state>
+          <postal>37831</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(865)574-8486</cntvoice>
+        <cntemail>yuanf@ornl.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FDGC Content Standard for Digital Geospatial Metadata and
+			Biological Data Profile</metstdn>
+    <metstdv>FDGC-STD-001-1998</metstdv>
+  </metainfo>
+  <ome>
+    <datause>The data is in netcdf format and ready to be used directly by CLM. The data files are organized monthly.</datause>
+    <ome_status>approved</ome_status>
+    <taskname>FM</taskname>
+  </ome>
+</metadata>
