@@ -9,5 +9,5 @@
 ./RunExtract.sh &&
 ./RunRubric.sh &&
 ./RubricCleaner.sh &&
-./GetData.sh &&
+./GetData.sh
 
