@@ -13,6 +13,9 @@ dialectCode=$1
 showCollectionName='1' \
 showDialect='1' \
 showFilename='1' \
+showValues='1' \
+showPaths='1' \
+
     
 
 	
