@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="728.0"
+            type="historical">
+   <timeStamp value="2015-11-23 15:24:07 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>GPCP Combined Precipitation Data (version 2.0)</title>
+   <summary>
+      <p>This dataset contains version 2.0 of the Global Precipitation Climatology Project (GPCP) monthly combined satellite-gauge precipitation data as well as error estimates.  A climatology is also available. All data is available on a 2.5 by 2.5 degree global latitude/longitude grid.
+              </p>
+      <p>
+              The general approach used to create the final product was to combine precipitation information
+              available from each of several sources into a final merged product, taking
+              advantage of the strengths of each data type.  The satellite data included
+              microwave estimates based on Special Sensor Microwave/Imager (SSM/I) data,
+              and IR precipitation estimates from geostationary and polar-orbiting satellites.
+              Additional low-Earth orbit estimates include the TIROS Operational Vertical Sounder (TOVS)
+              and OPI data from the NOAA series satellites.  The gauge data are assembled and analyzed
+              by the Global Precipitation Climatology Center (GPCC) of the Deutscher Wetterdienst
+              and by the Climate Prediction Center of NOAA.
+              </p>
+      <p>
+              A more detailed description of the data can be found <a href="http://rda.ucar.edu/datasets/ds728.0/docs/V2_doc">here</a>.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="NASA/GSFC/SED/ESD/LA/MAPB &gt; Mesoscale Atmospheric Processes Branch, Laboratory for Atmospheres, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA"
+                contact="G.J. Huffman;D.T. Bolvin;R.F. Adler"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <contact>Thomas Cram</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Adler, R.F., G.J. Huffman, A. Chang, R. Ferraro, P. Xie, J. Janowiak, B. Rudolf, U. Schneider, S. Curtis, D. Bolvin, A. Gruber, J. Susskind, and P. Arkin</authorList>
+      <year>2003</year>
+      <title>The Version 2 Global Precipitation Climatology Project (GPCP) Monthly Precipitation Analysis (1979-Present)</title>
+      <periodical number="4" pages="1147-1167">J. Hydrometeor.</periodical>
+   </reference>
+   <relatedResource url="http://precip.gsfc.nasa.gov/">GSFC Global Precipitation Analysis web site</relatedResource>
+   <publicationDate>1992-02-14</publicationDate>
+   <contentMetadata>
+      <temporal start="1979" end="2006-07" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="climatology" unit="month"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="72"
+               startLon="1.25E"
+               startLat="88.75N"
+               endLon="358.75E"
+               endLat="88.75S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="102.0"
+            type="primary">
+   <timeStamp value="2014-01-15 21:03:28 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NOTOS IGY Daily Southern Hemisphere Sea-Level Pressure and 500 mb Height Grids for 1957 June to 1958 December</title>
+   <summary>
+      <p>The grids in this dataset contain Southern Hemisphere
+              sea-level pressure and 500 millibar height data for the International
+              Geophysical Year (IGY) period of June 1957 to December 1958.
+              The data are on a 5-degree latitude/longitude grid covering the
+              hemisphere from 15S to the South Pole.</p>
+      <p>The data originally came from South Africa where it was on a
+              10-degree by 5-degree diamond latitude/longitude grid.  DSS
+              interpolated data to the missing gridpoints to provide a
+              resolution of five degrees in both directions.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CGD &gt; Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                contact="Harry van Loon"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="ZA/SAWB &gt; South African Weather Bureau, South Africa"
+                contact="J. J. Taljaard"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MAPS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>South African Weather Bureau</authorList>
+      <year>1960</year>
+      <title>Grid-Point and Monthly Mean Maps for the Southern Hemisphere for the Second Half of the International Geophysical Year (April to December 1958)</title>
+      <periodical number="9(1/4)" pages="3-287">Notos</periodical>
+   </reference>
+   <reference type="journal">
+      <authorList>South African Weather Bureau</authorList>
+      <year>1959</year>
+      <title>Grid-Point and Monthly Mean Maps for the Southern Hemisphere for the First Half of the International Geophysical Year (July 1957 to March 1958)</title>
+      <periodical number="8(1/4)" pages="3-304">Notos</periodical>
+   </reference>
+   <publicationDate>1980-04-01</publicationDate>
+   <contentMetadata>
+      <temporal start="1957-06-01 12:00 +0000"
+                end="1958-12-31 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/datasets/common/ncar.slp/format.html">DSS_SLP_Grid</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="72"
+               numY="16"
+               startLon="0E"
+               startLat="15S"
+               endLon="355E"
+               endLat="90S"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

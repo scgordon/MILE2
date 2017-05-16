@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[VERAVERBEKE, S.]]></origin>
+        <origin><![CDATA[ROGERS, B.M.]]></origin>
+        <origin><![CDATA[RANDERSON, J.T.]]></origin>
+        <title><![CDATA[CARVE: Alaskan Fire Emissions Database (AKFED), 2001-2013]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1282]]></onlink>
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/1282.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/1282.xml]]></alt_onlink>
+        <onlink><![CDATA[http://daac.ornl.gov//CARVE/guides/AKFED_V1.html]]></onlink>
+        <geoform>metadata</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[This data set provides estimates of annual carbon emissions (kg carbon per square meter) from boreal fires at 450-m resolution for the state of Alaska between 2001 and 2013. To produce these data, daily burned area for 2001 to 2013 was mapped using imagery from the Moderate Resolution Imaging Spectroradiometer (MODIS) combined with perimeters from the Alaska Large Fire Database. Carbon consumption was calibrated using available field measurements from black spruce forests in Alaska. Above- and below-ground carbon consumption were modeled based on environmental variables including elevation, day of burning within the fire season, pre-fire tree cover and the differenced normalized burn ratio (dNBR). Modeled uncertainties in carbon consumption are included in the data set. The derived burn area and carbon emissions product, referred to as the Alaskan Fire Emissions Database (AKFED), provides a resource for study of the environmental controls on daily fire dynamics, boreal fire emissions in biogeochemical models, and potential feedbacks from changing fire regimes. There are 26 data files in GeoTIFF (.tif) format with this data set. There are 13 *.tifs for carbon consumption, one for each year, and 13 *.tifs for carbon consumption uncertainty, one for each year.]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[20010101]]></begdate>
+          <enddate><![CDATA[20131231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update> As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc><![CDATA[-168.5]]></westbc>
+        <eastbc><![CDATA[-141]]></eastbc>
+        <northbc><![CDATA[71.499]]></northbc>
+        <southbc><![CDATA[58]]></southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey><![CDATA[ECOSYSTEM FUNCTIONS||]]></themekey>
+        <themekey><![CDATA[FORESTS||]]></themekey>
+        <themekey><![CDATA[EMISSIONS||]]></themekey>
+        <themekey><![CDATA[WILDFIRES||]]></themekey>
+        <themekey><![CDATA[FIRE ECOLOGY||]]></themekey>
+        <themekey><![CDATA[||FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[||Environmental Modeling]]></themekey>
+        <themekey><![CDATA[|MODIS|SATELLITES]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey><![CDATA[ECOSYSTEM FUNCTIONS]]></themekey>
+        <themekey><![CDATA[FORESTS]]></themekey>
+        <themekey><![CDATA[EMISSIONS]]></themekey>
+        <themekey><![CDATA[WILDFIRES]]></themekey>
+        <themekey><![CDATA[FIRE ECOLOGY]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey><![CDATA[FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[Environmental Modeling]]></themekey>
+        <themekey><![CDATA[SATELLITES]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey></themekey>
+        <themekey></themekey>
+        <themekey><![CDATA[MODIS]]></themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[VERAVERBEKE, S.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > xsl:value-of select="x_tags/Data_Originator/Investigator/Email" disable-output-escaping="yes" />]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Veraverbeke, S., B.M. Rogers, and J.T. Randerson. 2015. CARVE: Alaskan Fire Emissions Database (AKFED), 2001-2013. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1282]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20150917</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <Local-Control-Number>Created 2016 10  4 21 30 12 1469631012 by 160.91.11.44</Local-Control-Number>
+  <mercury>
+    <begdate></begdate>
+    <enddate></enddate>
+    <Site_Information>
+      <Site></Site>
+      <Westernmost_Longitude><![CDATA[-168.5]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[-141]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[71.499]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[58]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[ tree cover]]></Keywords>
+    <Keywords><![CDATA[ burned area]]></Keywords>
+    <Keywords><![CDATA[carbon emissions]]></Keywords>
+    <Keywords><![CDATA[ belowground carbon]]></Keywords>
+    <Keywords><![CDATA[ aboveground carbon]]></Keywords>
+    <Keywords><![CDATA[ carbon consumption by fire]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[ECOSYSTEM FUNCTIONS]]></Parameter>
+      <Sensor></Sensor>
+      <Source></Source>
+      <Term><![CDATA[ECOLOGICAL DYNAMICS]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[FORESTS]]></Parameter>
+      <Sensor></Sensor>
+      <Source></Source>
+      <Term><![CDATA[TERRESTRIAL ECOSYSTEMS]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[EMISSIONS]]></Parameter>
+      <Sensor></Sensor>
+      <Source></Source>
+      <Term><![CDATA[AIR QUALITY]]></Term>
+      <Topic><![CDATA[ATMOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[WILDFIRES]]></Parameter>
+      <Sensor></Sensor>
+      <Source></Source>
+      <Term><![CDATA[NATURAL HAZARDS]]></Term>
+      <Topic><![CDATA[HUMAN DIMENSIONS]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[FIRE ECOLOGY]]></Parameter>
+      <Sensor></Sensor>
+      <Source></Source>
+      <Term><![CDATA[ECOLOGICAL DYNAMICS]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter></Parameter>
+      <Sensor></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term></Term>
+      <Topic></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter></Parameter>
+      <Sensor></Sensor>
+      <Source><![CDATA[Environmental Modeling]]></Source>
+      <Term></Term>
+      <Topic></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter></Parameter>
+      <Sensor><![CDATA[MODIS]]></Sensor>
+      <Source><![CDATA[SATELLITES]]></Source>
+      <Term></Term>
+      <Topic></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[CARVE]]></Project>
+    <Navpath><![CDATA[||ECOSYSTEM FUNCTIONS]]></Navpath>
+    <Navpath><![CDATA[||FORESTS]]></Navpath>
+    <Navpath><![CDATA[||EMISSIONS]]></Navpath>
+    <Navpath><![CDATA[||WILDFIRES]]></Navpath>
+    <Navpath><![CDATA[||FIRE ECOLOGY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION||]]></Navpath>
+    <Navpath><![CDATA[Environmental Modeling||]]></Navpath>
+    <Navpath><![CDATA[SATELLITES|MODIS|]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[VERAVERBEKE, S.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[ROGERS, B.M.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[RANDERSON, J.T.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1282]]></URL>
+      <Label><![CDATA[CARVE: Alaskan Fire Emissions Database (AKFED), 2001-2013]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//CARVE/guides/AKFED_V1.html]]></URL>
+      <Label><![CDATA[CARVE: Alaskan Fire Emissions Database (AKFED), 2001-2013]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    <OME_Software_Version>/home/web/mercury/write_mercury_xml.pl</OME_Software_Version>
+    <OME_DTD_Version>mercury21.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID>1282</File_ID>
+    <MD_Entry_id>AKFED_V1</MD_Entry_id>
+    <Spatial_Extent></Spatial_Extent>
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//CARVE/guides/AKFED_V1.html]]></URL>
+      <Label><![CDATA[CARVE: Alaskan Fire Emissions Database (AKFED), 2001-2013]]></Label>
+    </Search_Text_Link>
+    <Granule_Details>
+      <Granule>
+        <Granule_ID><![CDATA[1282_1]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2001]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2001-01]]></Start_Date>
+        <End_Date><![CDATA[2001-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_10]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2010]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-01]]></Start_Date>
+        <End_Date><![CDATA[2010-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_11]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2011]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2011-01]]></Start_Date>
+        <End_Date><![CDATA[2011-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_12]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2012]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2012-01]]></Start_Date>
+        <End_Date><![CDATA[2012-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_13]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2013]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2013-01]]></Start_Date>
+        <End_Date><![CDATA[2013-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_14]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2001]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2001-01]]></Start_Date>
+        <End_Date><![CDATA[2001-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_15]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2002]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2002-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_16]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2003]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2003-01]]></Start_Date>
+        <End_Date><![CDATA[2003-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_17]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2004]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2004-01]]></Start_Date>
+        <End_Date><![CDATA[2004-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_18]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2005]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2005-01]]></Start_Date>
+        <End_Date><![CDATA[2005-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_19]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2006]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2006-01]]></Start_Date>
+        <End_Date><![CDATA[2006-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_2]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2002]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2002-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_20]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2007]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-01]]></Start_Date>
+        <End_Date><![CDATA[2007-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_21]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2008]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-01]]></Start_Date>
+        <End_Date><![CDATA[2008-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_22]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2009]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-01]]></Start_Date>
+        <End_Date><![CDATA[2009-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_23]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2010]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-01]]></Start_Date>
+        <End_Date><![CDATA[2010-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_24]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2011]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2011-01]]></Start_Date>
+        <End_Date><![CDATA[2011-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_25]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2012]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2012-01]]></Start_Date>
+        <End_Date><![CDATA[2012-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_26]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption Uncertainty in 2013]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2013-01]]></Start_Date>
+        <End_Date><![CDATA[2013-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_27]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2001]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2001-01]]></Start_Date>
+        <End_Date><![CDATA[2001-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_28]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2002]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2002-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_29]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2003]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2003-01]]></Start_Date>
+        <End_Date><![CDATA[2003-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_3]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2003]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2003-01]]></Start_Date>
+        <End_Date><![CDATA[2003-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_30]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2004]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2004-01]]></Start_Date>
+        <End_Date><![CDATA[2004-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_31]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2005]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2005-01]]></Start_Date>
+        <End_Date><![CDATA[2005-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_32]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2006]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2006-01]]></Start_Date>
+        <End_Date><![CDATA[2006-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_33]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2007]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-01]]></Start_Date>
+        <End_Date><![CDATA[2007-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_34]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2008]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-01]]></Start_Date>
+        <End_Date><![CDATA[2008-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_35]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2009]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-01]]></Start_Date>
+        <End_Date><![CDATA[2009-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_36]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2010]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2010-01]]></Start_Date>
+        <End_Date><![CDATA[2010-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_37]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2011]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2011-01]]></Start_Date>
+        <End_Date><![CDATA[2011-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_38]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2012]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2012-01]]></Start_Date>
+        <End_Date><![CDATA[2012-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_39]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Day of Burning in 2013]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2013-01]]></Start_Date>
+        <End_Date><![CDATA[2013-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_4]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2004]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2004-01]]></Start_Date>
+        <End_Date><![CDATA[2004-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_5]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2005]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2005-01]]></Start_Date>
+        <End_Date><![CDATA[2005-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_6]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2006]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2006-01]]></Start_Date>
+        <End_Date><![CDATA[2006-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_7]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2007]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2007-01]]></Start_Date>
+        <End_Date><![CDATA[2007-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_8]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2008]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2008-01]]></Start_Date>
+        <End_Date><![CDATA[2008-12]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1282_9]]></Granule_ID>
+        <Granule_Title><![CDATA[Alaskan Fire Emissions Database (AKFED): Carbon Consumption in 2009]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-167.999722222222]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-130.745555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[71.1016666666667]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[56.9997222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[2009-01]]></Start_Date>
+        <End_Date><![CDATA[2009-12]]></End_Date>
+      </Granule>
+    </Granule_Details>
+    <OGC_URL>https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=1282</OGC_URL>
+    <THREDDS_URL></THREDDS_URL>
+  </mercury>
+</metadata>

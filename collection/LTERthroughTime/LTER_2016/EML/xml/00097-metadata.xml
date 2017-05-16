@@ -1,0 +1,1536 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cwt.3034.22" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=CWT,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>knb-lter-cwt.3034.1.1</alternateIdentifier>
+    <title>Watershed 27 daily stream discharge, Coweeta Hydrologic Laboratory, Otto, NC, 1946-2015</title>
+    <creator id="CWT-LTER">
+      <organizationName>Coweeta Long Term Ecological Research Program</organizationName>
+      <address>
+        <deliveryPoint>Daniel B. Warnell School of Forestry and Natural Resources</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>cwtim@uga.edu</electronicMailAddress>
+      <onlineUrl>http://coweeta.uga.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephanie</givenName>
+        <surName>Laseter</surName>
+      </individualName>
+      <organizationName>USDA Forest Service</organizationName>
+      <address>
+        <deliveryPoint>Coweeta Hydrologic Laboratory</deliveryPoint>
+        <deliveryPoint>3160 Coweeta Lab Road</deliveryPoint>
+        <city>Otto</city>
+        <administrativeArea>NC</administrativeArea>
+        <postalCode>28763</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>slaseter@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.srs.fs.usda.gov/staff/587</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <references>CWT-LTER</references>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>John</givenName>
+        <givenName>F.</givenName>
+        <surName>Chamblee</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <electronicMailAddress>chamblee@uga.edu</electronicMailAddress>
+      <role>Curator</role>
+    </associatedParty>
+    <pubDate>2016</pubDate>
+    <abstract>
+      <para>Watershed 27 or Hard Luck Creek is a north-northeast facing reference catchment encompassing 96.5 acres (39ha) or .15080 sq. miles. The elevation ranges from 3380ft (1061m) at the weir to 4770ft (1454m). The average land slope is 54.7%, and the average channel slope is 33.2%. The channel is a total of 3894ft (1187m) long.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Coweeta Hydrologic Laboratory</keyword>
+      <keyword keywordType="theme">Coweeta LTER</keyword>
+      <keyword keywordType="theme">Macon County, North Carolina</keyword>
+      <keyword keywordType="theme">Watershed 27</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Coweeta Hydrologic Laboratory</keyword>
+      <keyword keywordType="place">North Carolina</keyword>
+      <keyword keywordType="place">USA</keyword>
+      <keyword keywordType="theme">CWT</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keywordThesaurus>GCE-LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">hydrology</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Inorganic Fluxes</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>publicly available</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://coweeta.uga.edu/dbpublic/dataset_details.asp?accession=3034</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1946-11-02</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-10-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Coweeta LTER Information Manager</positionName>
+      <address>
+        <deliveryPoint>Department of Anthropology</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602-1619</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>cwtim@uga.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <references>CWT-LTER</references>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Discharge Recording, 1946-1964</title>
+            <para>The first recorder was a FW-1 chart recorder.</para>
+          </section>
+        </description>
+        <instrumentation>FW-1 Chart Recorder.</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Discharge Recording 1964-1994</title>
+            <para>The recorder was changed to a Fisher-Porter punch tape analog to digital recorder on September 9, 1964</para>
+          </section>
+        </description>
+        <instrumentation>Fisher-Porter Tape-Analog to Digital Recorder.</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Discharge Recording 1994 - present</title>
+            <para>A Stevens A/F logger, Model 8901 was installed on May 10, 1994.</para>
+          </section>
+        </description>
+        <instrumentation>Stevens A/F logger, Model 8901.</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>1946-11-02</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2013-10-30</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CWT Study Site WS27 -- Watershed 27, North Carolina, USA.  Hard Luck Creek Watershed. Control watershed with records beginning 2 Nov. 1946. The weir is a 120 degree V notch. Partially defoliated by fall cankerworm infestations from 1972 to 1979.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.464543</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.458009</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.038446</northBoundingCoordinate>
+                <southBoundingCoordinate>35.029138</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Stream Discharge Monitoring</title>
+            <para>Discharge for WS27 is measured with a 120 degree v-notch sharp crested weir.  The weir blade is installed in a concrete wall that serves as a broad-crested weir for flows over 3-feet. The first record was collected on November 2, 1946 using an FW-1 chart recorder. The recorder was changed to a Fisher-Porter punch tape analog to digital recorder on September 9, 1964, then upgraded to the current Stevens Type A/F Logger, Model 8901 on May 10, 1994.</para>
+            <para>Head recorded at five minute intervals.</para>
+          </section>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <referencedEntityId>3034.kml</referencedEntityId>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Coweeta LTER Project VI</title>
+      <personnel>
+        <individualName>
+          <givenName>Ted</givenName>
+          <givenName>L</givenName>
+          <surName>Gragson</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>John</givenName>
+          <givenName>F.</givenName>
+          <surName>Chamblee</surName>
+        </individualName>
+        <role>information Manager</role>
+      </personnel>
+      <abstract>
+        <para>Multi-scale process-oriented research is proposed on the consequences to the southernAppalachian socio-ecological system of the interaction between changing climate and landuse. Landscapes in the southeastern U.S. are expected to change profoundly in the next fivedecades as the socioeconomic factors driving the dramatic exurbanization of the past threedecades persist, and the changes to the rates, frequencies, and intensities of importantclimatic factors occur. Climate and land use change will especially impact the rural andquasi-rural lands that still characterize much of southern Appalachia where this research iscentered.The proposed research will extend long-term measurements, field experiments andinterdisciplinary modeling from small watershed studies to regional-scale analyses so as toaccount for increases in resource demand and competition from adjacent and more distantareas. The research focus will be on the provisioning service of water quantity, the regulatingservice of water quality, and the supporting service of maintaining biodiversity. Theoverarching question that guides this research is: How will key ecosystem processes and thefocal ecosystem services of water quantity, water quality, and biodiversity be impacted bythe: (1) transition in land uses from wildland to urban and peri-urban; (2) changes in climate;and (3) interactions between changes in land use and climate including both on-site and off-site feedbacks?</para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under grant numbers DEB-0823293, DEB-9632854 and DEB-0218001. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>3034</entityName>
+      <entityDescription>Watershed 27 daily stream discharge, 1991 to 2015</entityDescription>
+      <physical>
+        <objectName>3034_2_3034.TXT</objectName>
+        <size unit="rows" />
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cwt/3034/22/7b66e8931c93da8c88a0a8b6dec62f9e</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=CWT,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Data file post-processing in the CWT-LTER Information Management Office</para>
+          </description>
+          <subStep>
+            <description>
+              <para>03/12/2014: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: 24468 rows imported from ASCII data file '3034.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: 24468 rows imported from ASCII data file '3034.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: 24468 rows imported from ASCII data file '3034.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: 24468 rows imported from ASCII data file '3034.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: 24468 rows imported from ASCII data file '3034.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: automatically assigned numerical types and precisions for columns OBS_NO, WATERSHED, YEAR, MONTH, DAY, MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM; assigned data types of columns OBS_NO, WATERSHED, YEAR, MONTH and DAY to 'd' (integer); assigned data types of columns MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: automatically assigned numerical types and precisions for columns OBS_NO, WATERSHED, YEAR, MONTH, DAY, MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM; assigned data types of columns OBS_NO, WATERSHED, YEAR, MONTH and DAY to 'd' (integer); assigned data types of columns MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: automatically assigned numerical types and precisions for columns OBS_NO, WATERSHED, YEAR, MONTH, DAY, MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM; assigned data types of columns OBS_NO, WATERSHED, YEAR, MONTH and DAY to 'd' (integer); assigned data types of columns MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: automatically assigned numerical types and precisions for columns OBS_NO, WATERSHED, YEAR, MONTH, DAY, MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM; assigned data types of columns OBS_NO, WATERSHED, YEAR, MONTH and DAY to 'd' (integer); assigned data types of columns MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: automatically assigned numerical types and precisions for columns OBS_NO, WATERSHED, YEAR, MONTH, DAY, MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM; assigned data types of columns OBS_NO, WATERSHED, YEAR, MONTH and DAY to 'd' (integer); assigned data types of columns MIN_FLOW_CSM, MAX_FLOW_CSM and MEAN_FLOW_CSM to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column MIN_FLOW_CSM changed to MIN_FLOW; Name of column MAX_FLOW_CSM changed to MAX_FLOW; Name of column MEAN_FLOW_CSM changed to MEAN_FLO ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column MIN_FLOW_CSM changed to MIN_FLOW; Name of column MAX_FLOW_CSM changed to MAX_FLOW; Name of column MEAN_FLOW_CSM changed to MEAN_FLO ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column MIN_FLOW_CSM changed to MIN_FLOW; Name of column MAX_FLOW_CSM changed to MAX_FLOW; Name of column MEAN_FLOW_CSM changed to MEAN_FLO ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column MIN_FLOW_CSM changed to MIN_FLOW; Name of column MAX_FLOW_CSM changed to MAX_FLOW; Name of column MEAN_FLOW_CSM changed to MEAN_FLO ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column MIN_FLOW_CSM changed to MIN_FLOW; Name of column MAX_FLOW_CSM changed to MAX_FLOW; Name of column MEAN_FLOW_CSM changed to MEAN_FLO ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column WATERSHED changed to WATERSHED_NUMBE ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column WATERSHED changed to WATERSHED_NUMBE ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column WATERSHED changed to WATERSHED_NUMBE ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column WATERSHED changed to WATERSHED_NUMBE ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: Name of column WATERSHED changed to WATERSHED_NUMBE ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Watershed_number, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Watershed_number, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Watershed_number, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Watershed_number, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: imported metadata from the template '3034_daily_discharge_csm', updating descriptors for columns Obs_no, Watershed_number, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('meta_template')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated 16 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/12/2014: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 365 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 365 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 365 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 365 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 365 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737 and 23738, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737 and 23738, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737 and 23738, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737 and 23738, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737 and 23738, deleted record(s) 23709, 23710, 23711, 23712, 23713, 23714, 23715, 23716, 23717, 23718, 23719, 23720, 23721, 23722, 23723, 23724, 23725, 23726, 23727, 23728, 23729, 23730, 23731, 23732, 23733, 23734, 23735, 23736, 23737, 23738 and 23739</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: deleted columns Obs_no and Watershed_number from data structure ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: deleted columns Obs_no and Watershed_number from data structure ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: deleted columns Obs_no and Watershed_number from data structure ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: deleted columns Obs_no and Watershed_number from data structure ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: deleted columns Obs_no and Watershed_number from data structure ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 303 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 303 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 303 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 303 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: edited structure data ('ui_datagrid'): deleted 303 record(s)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: 1326 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: 1326 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: 1326 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: 1326 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: 1326 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: updated 18 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: updated 18 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: updated 18 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: updated 18 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: updated 18 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: automatically assigned study date metadata descriptors based on the range of date values in date/time columns (add_studydates)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: automatically assigned study date metadata descriptors based on the range of date values in date/time columns (add_studydates)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: automatically assigned study date metadata descriptors based on the range of date values in date/time columns (add_studydates)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: automatically assigned study date metadata descriptors based on the range of date values in date/time columns (add_studydates)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/26/2016: automatically assigned study date metadata descriptors based on the range of date values in date/time columns (add_studydates)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: added column 'NewColumn' at position 7 ('addcol')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: added column 'NewColumn' at position 7 ('addcol')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: added column 'NewColumn' at position 7 ('addcol')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: added column 'NewColumn' at position 7 ('addcol')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: added column 'NewColumn' at position 7 ('addcol')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Description of column NewColumn edited; Name of column NewColumn changed to Watershed_ID;Units of column Watershed_ID changed from 'unspecified' to 'none';Variable Type of column Watershed_ID changed from 'unspecified' to 'nominal ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Description of column NewColumn edited; Name of column NewColumn changed to Watershed_ID;Units of column Watershed_ID changed from 'unspecified' to 'none';Variable Type of column Watershed_ID changed from 'unspecified' to 'nominal ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Description of column NewColumn edited; Name of column NewColumn changed to Watershed_ID;Units of column Watershed_ID changed from 'unspecified' to 'none';Variable Type of column Watershed_ID changed from 'unspecified' to 'nominal ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Description of column NewColumn edited; Name of column NewColumn changed to Watershed_ID;Units of column Watershed_ID changed from 'unspecified' to 'none';Variable Type of column Watershed_ID changed from 'unspecified' to 'nominal ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Description of column NewColumn edited; Name of column NewColumn changed to Watershed_ID;Units of column Watershed_ID changed from 'unspecified' to 'none';Variable Type of column Watershed_ID changed from 'unspecified' to 'nominal ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: copied/reordered columns Watershed_ID, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('copycols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: copied/reordered columns Watershed_ID, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('copycols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: copied/reordered columns Watershed_ID, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('copycols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: copied/reordered columns Watershed_ID, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('copycols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: copied/reordered columns Watershed_ID, Year, Month, Day, Min_flow, Max_flow and Mean_flow ('copycols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: replaced values of NaN in column(s) Watershed_ID with 27 ('num_replace')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: replaced values of NaN in column(s) Watershed_ID with 27 ('num_replace')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: replaced values of NaN in column(s) Watershed_ID with 27 ('num_replace')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: replaced values of NaN in column(s) Watershed_ID with 27 ('num_replace')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: replaced values of NaN in column(s) Watershed_ID with 27 ('num_replace')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: 25034 values in 'Watershed_ID' were updated with new values ('update_data')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: 25034 values in 'Watershed_ID' were updated with new values ('update_data')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: 25034 values in 'Watershed_ID' were updated with new values ('update_data')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: 25034 values in 'Watershed_ID' were updated with new values ('update_data')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: 25034 values in 'Watershed_ID' were updated with new values ('update_data')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Q/C flagging criteria applied for column(s) Watershed_ID, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Q/C flagging criteria applied for column(s) Watershed_ID, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Q/C flagging criteria applied for column(s) Watershed_ID, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Q/C flagging criteria applied for column(s) Watershed_ID, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Q/C flagging criteria applied for column(s) Watershed_ID, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Descriptions of columns Year, Month and Day edited; Precision of column Min_flow changed from 4 to 2; Precision of column Max_flow changed from 3 to 2; Precision of column Mean_flow changed from 3 to  ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Descriptions of columns Year, Month and Day edited; Precision of column Min_flow changed from 4 to 2; Precision of column Max_flow changed from 3 to 2; Precision of column Mean_flow changed from 3 to  ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Descriptions of columns Year, Month and Day edited; Precision of column Min_flow changed from 4 to 2; Precision of column Max_flow changed from 3 to 2; Precision of column Mean_flow changed from 3 to  ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Descriptions of columns Year, Month and Day edited; Precision of column Min_flow changed from 4 to 2; Precision of column Max_flow changed from 3 to 2; Precision of column Mean_flow changed from 3 to  ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/29/2016: Descriptions of columns Year, Month and Day edited; Precision of column Min_flow changed from 4 to 2; Precision of column Max_flow changed from 3 to 2; Precision of column Mean_flow changed from 3 to  ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Variable Type of column Min_flow changed from 'calculation' to 'data'; Variable Type of column Max_flow changed from 'calculation' to 'data ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Variable Type of column Min_flow changed from 'calculation' to 'data'; Variable Type of column Max_flow changed from 'calculation' to 'data ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Variable Type of column Min_flow changed from 'calculation' to 'data'; Variable Type of column Max_flow changed from 'calculation' to 'data ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Variable Type of column Min_flow changed from 'calculation' to 'data'; Variable Type of column Max_flow changed from 'calculation' to 'data ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Variable Type of column Min_flow changed from 'calculation' to 'data'; Variable Type of column Max_flow changed from 'calculation' to 'data ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: 61 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: 61 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: 61 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: 61 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: 61 rows added at the bottom of the data set ('datamerge')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: updated 22 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: updated 22 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: updated 22 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: updated 22 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: updated 22 metadata fields in the Dataset, Project, Site, Status, Study sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: Q/C flagging criteria applied, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: sorted by column Year(ascending) ('sortdata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: sorted by column Year(ascending) ('sortdata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: sorted by column Year(ascending) ('sortdata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: sorted by column Year(ascending) ('sortdata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2016: sorted by column Year(ascending) ('sortdata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: edited data set title in structure and metadata ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: Q/C flagging criteria applied for column(s) Month and Day, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: Q/C flagging criteria applied for column(s) Month and Day, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: Q/C flagging criteria applied for column(s) Month and Day, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: Q/C flagging criteria applied for column(s) Month and Day, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: Q/C flagging criteria applied for column(s) Month and Day, 'flags' field updated ('dataflag')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/02/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+        </methodStep>
+        <qualityControl>
+          <description>
+            <para>Quality control analysis was performed using the GCE Data Toolbox for MATLAB software. Column data types are validated upon importing the table into MATLAB, and qualifier flags are automatically generated for data values based on QA/QC criteria for each data column pre-defined in metadata templates (e.g. value range checks, sanity checks, pattern checks). Qualifier flags are also assigned to values that are imputed or derived, revised, or otherwise differ from values in the original data submission. A column of coded qualifier flags is generated and included in the data table if flags are assigned to any value in a data column.</para>
+          </description>
+        </qualityControl>
+      </methods>
+      <attributeList>
+        <attribute id="att.1">
+          <attributeName>Watershed_ID</attributeName>
+          <attributeDefinition>The Watershed ID within the Coweeta Basin assigned by the USDA Forest Service</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The Watershed ID within the Coweeta Basin assigned by the USDA Forest Service</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.2">
+          <attributeName>Year</attributeName>
+          <attributeDefinition>The calendar year of the measurement</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain />
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.3">
+          <attributeName>Month</attributeName>
+          <attributeDefinition>The calendar month of the measurement</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.4">
+          <attributeName>Day</attributeName>
+          <attributeDefinition>The calendar day of the measurement</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.5">
+          <attributeName>Min_flow</attributeName>
+          <attributeDefinition>minimum flow for 24 hour period; CSM (cubic feet per second per sq. mile)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubicFeetperSecondperSquareMile</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.6">
+          <attributeName>Max_flow</attributeName>
+          <attributeDefinition>maximum flow for 24 hour period; CSM (cubic feet per second per sq. mile)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubicFeetperSecondperSquareMile</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.7">
+          <attributeName>Mean_flow</attributeName>
+          <attributeDefinition>mean flow for 24 hour period; CSM (cubic feet per second per sq. mile)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubicFeetperSecondperSquareMile</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="3034.kml">
+      <entityName>3034.kml</entityName>
+      <entityDescription>Google Earth Keyhole Markup Language file describing the geographic locations sampled in data set knb-lter-cwt.3034.13</entityDescription>
+      <physical>
+        <objectName>3034.kml</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.google-earth.kml+xml</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cwt/3034/22/819b71596ac5d142a8b60fb89e32bd00</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=CWT,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>KML</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/stmml.xsd">
+        
+        <ns2:unit abbreviation="csm" id="cubicFeetperSecondperSquareMile" name="cubicFeetperSecondperSquareMile" unitType="volumetricRate">
+          <ns2:description>Cubic feet per second per square mile</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="day" id="day" multiplierToSI="86400" name="day" parentSI="second">
+          <ns2:description>day (86400 seconds)</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="MM" id="month" name="month" unitType="time">
+          <ns2:description>month of the year</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="YYYY" id="year" name="year" unitType="time">
+          <ns2:description>year</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

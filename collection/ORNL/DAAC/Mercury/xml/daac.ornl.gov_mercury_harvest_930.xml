@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[LOVELAND, T.R.]]></origin>
+        <origin><![CDATA[BROWN, J.]]></origin>
+        <origin><![CDATA[OHLEN, D.]]></origin>
+        <origin><![CDATA[REED, B.]]></origin>
+        <origin><![CDATA[ZHU, Z.]]></origin>
+        <origin><![CDATA[YANG, L.]]></origin>
+        <origin><![CDATA[HOWARD, S.]]></origin>
+        <title><![CDATA[ISLSCP II IGBP DISCover and SiB Land Cover, 1992-1993]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=930]]></onlink>
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/930.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/930.xml]]></alt_onlink>
+        <onlink><![CDATA[http://daac.ornl.gov//ISLSCP_II/guides/edc_landcover_xdeg.html]]></onlink>
+        <geoform>metadata</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[This data set describes the geographic distributions of 17 classes of land cover based on the International Geosphere-Biosphere DISCover land cover legend (Loveland and Belward 1997) and the 15 classes of the SiB model processed at the USGS EROS Data Center (EDC). Specifically, the resampled DISCover datasets were derived from the 1km DISCover data set compiled by the USGS. The 1km data sets for each classification scheme were aggregated to 1, 0.5 and 0.25 degree spatial resolutions for this ISLSCP II data collection. Each layer of the aggregated products corresponds to a single DISCover land cover category and the values represent the percentage of the coarse resolution cell (1 degree, etc&#195;&#162;&#195;&#175;&#194;&#191;&#194;&#189;&#194;&#166;) occupied by that land cover category. The dominant class data show the land cover category that occupies the majority of the cell and is derived from the percentage files for each cover type. 
+
+The objective of this study was to create a land cover map derived from 1 kilometer AVHRR data using a full year of data (April 1992-March 1993). This thematic map was resampled to 0.25, 0.5 and 1.0 degree grids for the International Satellite Land Surface Climatology Project (ISLSCP) data initiative II. During this re-processing, the original EDC land cover type and fraction maps were adjusted to match the water/land fraction of the ISLSCP II land/water mask. These maps were generated for use by global modelers and others. 
+
+This data set is one of the products of the International Satellite Land-Surface Climatology Project, Initiative II (ISLSCP II) data collection which contains 50 global time series data sets for the ten-year period 1986 to 1995. Selected data sets span even longer periods. ISLSCP II is a consistent collection of data sets that were compiled from existing data sources and algorithms, and were designed to satisfy the needs of modelers and investigators of the global carbon, water and energy cycle. The data were acquired from a number of U.S. and international agencies, universities, and institutions. The global data sets were mapped at consistent spatial (1, 0.5 and 0.25 degrees) and temporal (monthly, with meteorological data at finer (e.g., 3-hour)) resolutions and reformatted into a common ASCII format. The data and documentation have undergone two peer reviews.
+
+ISLSCP is one of several projects of Global Energy and Water Cycle Experiment (GEWEX) [http://www.gewex.org/] and has the lead role in addressing land-atmosphere interactions -- process modeling, data retrieval algorithms, field experiment design and execution, and the development of global data sets.]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19860101]]></begdate>
+          <enddate><![CDATA[19951231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update> As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc><![CDATA[-180]]></westbc>
+        <eastbc><![CDATA[180]]></eastbc>
+        <northbc><![CDATA[90]]></northbc>
+        <southbc><![CDATA[-90]]></southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey><![CDATA[LAND COVER|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        <themekey><![CDATA[REFLECTANCE|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[LEAF CHARACTERISTICS|LEAF AREA METER|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[PLANT CHARACTERISTICS|STEEL MEASURING TAPE|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[VEGETATION COVER|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        <themekey><![CDATA[VEGETATION INDEX|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[ALBEDO|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[CANOPY CHARACTERISTICS|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey><![CDATA[LAND COVER]]></themekey>
+        <themekey><![CDATA[REFLECTANCE]]></themekey>
+        <themekey><![CDATA[LEAF CHARACTERISTICS]]></themekey>
+        <themekey><![CDATA[PLANT CHARACTERISTICS]]></themekey>
+        <themekey><![CDATA[VEGETATION COVER]]></themekey>
+        <themekey><![CDATA[VEGETATION INDEX]]></themekey>
+        <themekey><![CDATA[ALBEDO]]></themekey>
+        <themekey><![CDATA[CANOPY CHARACTERISTICS]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        <themekey><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        <themekey><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></themekey>
+        <themekey><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></themekey>
+        <themekey><![CDATA[LEAF AREA METER]]></themekey>
+        <themekey><![CDATA[STEEL MEASURING TAPE]]></themekey>
+        <themekey><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></themekey>
+        <themekey><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></themekey>
+        <themekey><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></themekey>
+        <themekey><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey><![CDATA[GLOBAL]]></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[LOVELAND, T.R.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > xsl:value-of select="x_tags/Data_Originator/Investigator/Email" disable-output-escaping="yes" />]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Loveland, T., J. Brown, D. Ohlen, B. Reed, Z. Zhu, L. Yang, and S. Howard. 2009. ISLSCP II IGBP DISCover and SiB Land Cover, 1992-1993. In Hall, Forrest G., G. Collatz, B. Meeson, S. Los, E. Brown de Colstoun, and D. Landis  (eds.). ISLSCP Initiative II Collection. Data set. Available on-line [http://daac.ornl.gov/] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/930]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20091007</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <Local-Control-Number>Created 2016 10  4 21 30 09 1469631009 by 160.91.11.44</Local-Control-Number>
+  <mercury>
+    <begdate></begdate>
+    <enddate></enddate>
+    <Site_Information>
+      <Site><![CDATA[GLOBAL]]></Site>
+      <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[GCM]]></Keywords>
+    <Keywords><![CDATA[NDVI]]></Keywords>
+    <Keywords><![CDATA[FPAR]]></Keywords>
+    <Keywords><![CDATA[GEWEX]]></Keywords>
+    <Keywords><![CDATA[MARSH]]></Keywords>
+    <Keywords><![CDATA[FAPAR]]></Keywords>
+    <Keywords><![CDATA[UNFAO]]></Keywords>
+    <Keywords><![CDATA[SWAMP]]></Keywords>
+    <Keywords><![CDATA[ISCCP]]></Keywords>
+    <Keywords><![CDATA[ISLSCP]]></Keywords>
+    <Keywords><![CDATA[GRID DATA]]></Keywords>
+    <Keywords><![CDATA[SALTWATER]]></Keywords>
+    <Keywords><![CDATA[GREENNESS]]></Keywords>
+    <Keywords><![CDATA[BIOSPHERE]]></Keywords>
+    <Keywords><![CDATA[SALT FLATS]]></Keywords>
+    <Keywords><![CDATA[FASIR NDVI]]></Keywords>
+    <Keywords><![CDATA[VEGETATION]]></Keywords>
+    <Keywords><![CDATA[LAND COVER]]></Keywords>
+    <Keywords><![CDATA[SNOW COVER]]></Keywords>
+    <Keywords><![CDATA[SALT MARSH]]></Keywords>
+    <Keywords><![CDATA[SAND DUNES]]></Keywords>
+    <Keywords><![CDATA[SURFACE PAR]]></Keywords>
+    <Keywords><![CDATA[HOURLY DATA]]></Keywords>
+    <Keywords><![CDATA[MODEL OUTPUT]]></Keywords>
+    <Keywords><![CDATA[MONTHLY DATA]]></Keywords>
+    <Keywords><![CDATA[LEAF AREA INDEX]]></Keywords>
+    <Keywords><![CDATA[VEGETATION CLASSIFICATION MAP]]></Keywords>
+    <Keywords><![CDATA[GLOBAL ENERGY AND WATER CYCLE EXPERIMENT]]></Keywords>
+    <Keywords><![CDATA[INTERNATIONAL SATELLITE LAND-SURFACE CLIMATOLOGY PROJECT]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND COVER]]></Parameter>
+      <Sensor><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></Sensor>
+      <Source><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[REFLECTANCE]]></Parameter>
+      <Sensor><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></Source>
+      <Term><![CDATA[SURFACE RADIATIVE PROPERTIES]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[LEAF CHARACTERISTICS]]></Parameter>
+      <Sensor><![CDATA[LEAF AREA METER]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[PLANT CHARACTERISTICS]]></Parameter>
+      <Sensor><![CDATA[STEEL MEASURING TAPE]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION COVER]]></Parameter>
+      <Sensor><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></Sensor>
+      <Source><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION INDEX]]></Parameter>
+      <Sensor><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[ALBEDO]]></Parameter>
+      <Sensor><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></Source>
+      <Term><![CDATA[ATMOSPHERIC RADIATION]]></Term>
+      <Topic><![CDATA[ATMOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[CANOPY CHARACTERISTICS]]></Parameter>
+      <Sensor><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[ISLSCP II]]></Project>
+    <Navpath><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|LAND COVER]]></Navpath>
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|REFLECTANCE]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|LEAF AREA METER|LEAF CHARACTERISTICS]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|STEEL MEASURING TAPE|PLANT CHARACTERISTICS]]></Navpath>
+    <Navpath><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|VEGETATION COVER]]></Navpath>
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|VEGETATION INDEX]]></Navpath>
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|ALBEDO]]></Navpath>
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|CANOPY CHARACTERISTICS]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[LOVELAND, T.R.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[BROWN, J.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[OHLEN, D.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[REED, B.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[ZHU, Z.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[YANG, L.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[HOWARD, S.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=930]]></URL>
+      <Label><![CDATA[ISLSCP II IGBP DISCover and SiB Land Cover, 1992-1993]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//ISLSCP_II/guides/edc_landcover_xdeg.html]]></URL>
+      <Label><![CDATA[ISLSCP II IGBP DISCover and SiB Land Cover, 1992-1993]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    <OME_Software_Version>/home/web/mercury/write_mercury_xml.pl</OME_Software_Version>
+    <OME_DTD_Version>mercury21.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID>930</File_ID>
+    <MD_Entry_id>ISLSCP2_IDSLC</MD_Entry_id>
+    <Spatial_Extent></Spatial_Extent>
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//ISLSCP_II/guides/edc_landcover_xdeg.html]]></URL>
+      <Label><![CDATA[ISLSCP II IGBP DISCover and SiB Land Cover, 1992-1993]]></Label>
+    </Search_Text_Link>
+    <Granule_Details>
+      <Granule>
+        <Granule_ID><![CDATA[930_1]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_10]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (8)Woody Savannas]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_11]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (9)Savannas]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_12]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (10)Grasslands]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_13]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (11)Permanent Wetlands]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_14]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (12)Croplands]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_15]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (13)Urban and Built-Up]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_16]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (14)Cropland/Natural Vegetation Mosaic]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_17]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (15)Snow and Ice]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_18]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (16)Barren or Sparsely Vegetated]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_19]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (17)Missing Data]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_2]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (0)Water Bodies]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_20]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_21]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (0)Water Bodies]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_22]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (1)Evergreen Broadleaf Trees]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_23]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (2)Broadleaf Deciduous Trees]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_24]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (3)Deciduous and Evergreen Trees]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_25]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (4)Evergreen Needleleaf Trees]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_26]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (5)Deciduous Needleleaf Trees]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_27]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (6)Ground Cover with Trees and Shrubs]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_28]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (7)Groundcover Only]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_29]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (8)Broadleaf Shrubs with Perennial Ground Cover]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_3]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (1)Evergreen Needleleaf Forest]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_30]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (9)Broadleaf Shrubs with Bare Soil]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_31]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (10)Groundcover with Dwarf Trees and Shrubs]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_32]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (11)Bare Soil]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_33]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (12)Agriculture or C3 Grassland]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_34]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (13)Persistent Wetland]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_35]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (14)Ice Cap and Glacier]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_36]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II SIB DISCOVER LAND COVER (1/4 degree): Fraction of (15)Missing Data]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_4]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (2)Evergreen Broadleaf Forest]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_5]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (3)Deciduous Needleleaf Forest]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_6]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (4)Deciduous Broadleaf Forest]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_7]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (5)Mixed Forest]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_8]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (6)Closed Shrublands]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[930_9]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II IGBP DISCOVER LAND COVER (1/4 degree): Fraction of (7)Open Shrublands]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-04]]></Start_Date>
+        <End_Date><![CDATA[1993-03]]></End_Date>
+      </Granule>
+    </Granule_Details>
+    <OGC_URL>https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=930</OGC_URL>
+    <THREDDS_URL>http://thredds.daac.ornl.gov/thredds/catalog/ornldaac/930/catalog.html</THREDDS_URL>
+  </mercury>
+</metadata>

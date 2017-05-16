@@ -1,0 +1,1350 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.7015.9" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MCM,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>vanda_met</shortName>
+    <title>McMurdo Dry Valleys Lake Vanda Meteorological Station Measurements</title>
+    <creator>
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>Fountain</surName>
+      </individualName>
+      <organizationName>Portland State University</organizationName>
+      <address>
+        <deliveryPoint>Department of Geology, Cramer Hall 1721 SW Broadway</deliveryPoint>
+        <city>Portland</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97207</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(503) 725-3386</phone>
+      <electronicMailAddress>andrew@pdx.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Peter</givenName>
+        <surName>Doran</surName>
+      </individualName>
+      <organizationName>Lousiana State University</organizationName>
+      <address>
+        <deliveryPoint>Dept. of Geology and Geophysics</deliveryPoint>
+        <city>Baton Rouge</city>
+        <administrativeArea>LA</administrativeArea>
+        <postalCode>70803</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">2255781734</phone>
+      <electronicMailAddress>pdoran@lsu.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Maciej</givenName>
+        <surName>Obryk</surName>
+      </individualName>
+      <organizationName>Portland State University</organizationName>
+      <address>
+        <deliveryPoint>Dept. of Geology</deliveryPoint>
+        <city>Portland</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97207</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">5037253386</phone>
+      <electronicMailAddress>mobryk@pdx.edu</electronicMailAddress>
+      <role>field crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Thomas</givenName>
+        <surName>Nylen</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>thomasnylen@gmail.com</electronicMailAddress>
+      <role>field crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Hassan</givenName>
+        <surName>Basagic</surName>
+      </individualName>
+      <address>
+        <city>Portland</city>
+        <administrativeArea>OR</administrativeArea>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>Basagic@gmail.com</electronicMailAddress>
+      <role>field crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Inigo</givenName>
+        <surName>San Gil</surName>
+      </individualName>
+      <organizationName>University Of New Mexico</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology, MSC03 2020 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(505) 277-2625</phone>
+      <phone phonetype="facsimile">(505) 277-2541</phone>
+      <electronicMailAddress>isangil@lternet.edu</electronicMailAddress>
+      <role>data manager</role>
+    </associatedParty>
+    <pubDate>2015-10-16</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>As part of the Long Term Ecological Research in the McMurdo Dry Valleys of Antarctica, meteorological data was collected from various locations throughout Beacon, Taylor, Wright and Victoria Valleys. These files contain data for the Lake Vanda meteorology station.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>air temperature</keyword>
+      <keyword>meteorology</keyword>
+      <keyword>photosynthetically active radiation</keyword>
+      <keyword>relative humidity</keyword>
+      <keyword>snow depth</keyword>
+      <keyword>soil temperature</keyword>
+      <keyword>wind</keyword>
+      <keyword>wind direction</keyword>
+      <keyword>wind speed</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>air temperature</keyword>
+      <keyword>depth</keyword>
+      <keyword>humidity</keyword>
+      <keyword>lake</keyword>
+      <keyword>meteorology</keyword>
+      <keyword>PAR</keyword>
+      <keyword>photosynthetically active radiation</keyword>
+      <keyword>radiation</keyword>
+      <keyword>shortwave radiation</keyword>
+      <keyword>snow</keyword>
+      <keyword>soil</keyword>
+      <keyword>soil temperature</keyword>
+      <keyword>temperature</keyword>
+      <keyword>wind</keyword>
+      <keyword>wind direction</keyword>
+      <keyword>wind speed</keyword>
+      <keywordThesaurus>Station Keywords</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>
+        <literalLayout>&#194;&#160;Meteorological data is collected year-round at each of the stations in the McMurdo Dry Valleys of Antarctica.&#194;&#160; &#194;&#160; After retrieving this data (usually every January), the parameters that are recorded are processed from level 0 (raw) to level 1 (processed, provided on the web). The &#194;&#160;raw data file descriptions and task lists summarize what was done to get from &#194;&#160; level 0 to level 1 for all station found at the following address: &#194;&#160;http://www.mcmlter.org/data/meteorology/tasks/task_lists.htm &#194;&#160;</literalLayout>
+      </para>
+    </additionalInfo>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>MCM LTER data may be used freely with the following restrictions: The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions. The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications. A copy of any resultant publications should be sent to the McMurdo data manager and principal investigator. The end-user follow the guidelines set forth in the LTER Network Data Access Policy, Data Access Requirements, and General Data Use Agreement here: Definitions &#226;&#8364;&#339;Data Set&#226;&#8364; &#226;&#8364;&#8220; Digital data and its metadata derived from any research activity such as field observations, collections, laboratory analysis, experiments, or the post-processing of existing data and identified by a unique identifier issued by a recognized cataloging authority such as a site, university, agency, or other organization. &#226;&#8364;&#339;Data User&#226;&#8364; - individual to whom access has been granted to this Data Set, including his or her immediate collaboration sphere, defined here as the institutions, partners, students and staff with whom the Data User collaborates, and with whom access must be granted, in order to fulfill the Data User's intended use of the Data Set &#226;&#8364;&#339;Data Set Creator&#226;&#8364; - individual or institution that produced the Data Set &#226;&#8364;&#339;Data Set Owner&#226;&#8364; &#226;&#8364;&#8220; individual or institution that holds intellectual property rights to the dataset. Note that this may or may not be defined as a legal copyright. If no other party is designated in the metadata as Data Set Owner, it may be presumed that these rights are held by the Data Set Creator. &#226;&#8364;&#339;Data Set Distributor&#226;&#8364; - individual or institution providing access to the Data Sets. &#226;&#8364;&#339;Data Set Contact&#226;&#8364; - party designated in the accompanying metadata of the Data Set as the primary contact for the Data Set. Conditions of Use The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. Permission to use this dataset is granted to the Data User free of charge subject to the following terms: 1) Acceptable use. Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not-for-profit professional purposes. The Data User is permitted to produce and distribute derived works from this dataset provided that they are released under the same license terms as those accompanying this Data Set. Any other uses for the Data Set or its derived products will require explicit permission from the dataset owner. 2 ) Redistribution. The data are provided for use by the Data User. The metadata and this license must accompany all copies made and be available to all users of this Data Set. The Data User will not redistribute the original Data Set beyond this collaboration sphere. 3 ) Citation. It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator, Year of Data Publication, Title of Dataset, Publisher, Dataset identifier. For example: McKee, W. 2001. Vascular plant list on the Andrews Experimental Forest and nearby Research Natural Areas: Long-Term Ecological Research. Corvallis, OR: Forest Science Data Bank: SA002. [Database]. http://www.fsl.orst.edu/lter/data/abstract.cfm?dbcode=SA002. (21 October 2004) 4 ) Acknowledgement. The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data sets were provided by the Forest Science Data Bank, a partnership between the Department of Forest Science, Oregon State University, and the U.S. Forest Service Pacific Northwest Research Station, Corvallis, Oregon. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers BSR-90-11663 and DEB-96-32921). 5 ) Notification. The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed. The Data User will provide the data contact with two reprints of any publications resulting from use of the Data Set and will provide copies, or on-line access to, any derived digital products. Notification will include an explanation of how the Data Set was used to produce the derived work. 6 ) Collaboration. The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. By accepting this Data Set, the Data User agrees to abide by the terms of this agreement. The Data Owner shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Disclaimer While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available "as is". The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcmlter.org/content/lake-vanda-meteorological-station-measurements</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>located east of Lake Vanda ID: VAAM</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>161.687</westBoundingCoordinate>
+          <eastBoundingCoordinate>161.687</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5232</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5232</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>296</altitudeMinimum>
+            <altitudeMaximum>296</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1994-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>On September 9, 1999, the data manager added the 1998-1999 data to this dataset. In the process,at the &#194;&#160;request of Thomas Nylen, she did some fine-tuning of the data. Revisions included: &#194;&#160; &#194;&#160;1. Removal and flagging of WDir and WDirStd values on Nov 25, 1994 @ 9:20. Since windspeed was zero (0), &#194;&#160;it made no sense to have values for wind direction. &#194;&#160; &#194;&#160;2. Addition of PAR values between Dec 30, 1994 @ 17:00 and Jan 20, 1995 @ 15:00. &#194;&#160; &#194;&#160;On June 1, 2000, the 1999-2000 data was posted. In the process, Denise Steigerwald changed thelayout of &#194;&#160;the files so that they were sorted by category (air temperatures, humidity, radiation,wind etc.) rather than by year. &#194;&#160;Files containing monthly and daily averages were generated andminor adjustments were made to the metadata. &#194;&#160; &#194;&#160;On June 1, 2000, relative humidity (RH) values were corrected for a systematic error in themeasurement created &#194;&#160;by an instrument manufacturer error. All RH data with air temperaturesbelow freezing were corrected using the vapor pressure over ice (rather than over water which was used initially). The error became quite large for very &#194;&#160;cold temperatures (the correction could grow to around 30%). The formula used for the correction was: &#194;&#160; &#194;&#160;RH_corr=RH_orig/((A*temp*temp)+(B*temp)+C) &#194;&#160; &#194;&#160;where &#194;&#160; &#194;&#160;RH_corr = corrected relative humidity &#194;&#160;RH_orig = original relative humidity &#194;&#160;temp = air temperature &#194;&#160;A = 4.165E-5 &#194;&#160;B = 9.7E-3 &#194;&#160;C = 1.0 &#194;&#160; &#194;&#160;For example, with an air temperature of -2.3 and RH_orig of 50.6, the RH_corr will be 51.7.Records that &#194;&#160;showed corrected RH values greater tha n or equal to 100 were changed to 99.99and flagged.&#194;&#160; &#194;&#160; &#194;&#160;In June 2000, summary files were added to the web containing daily and monthly statistics.These were &#194;&#160;generated by creating "views" of daily and monthly means, minimums, maximums and counts of the records represented in the Oracle database's meteorology tables. &#194;&#160; In 2006, metadata was offered in EML format, the specification adopted by the LTER Network. (Gradner, San Gil) &#194;&#160; In 2014, Metadata was ported to the Drupal Ecological Information Management system (DEIMS, San Gil) &#194;&#160; In 2015, derivated data (daily amdn monthly averages) was given identifiers and included formally in the MCMLTER data catalog &#194;&#160; &#194;&#160; &#194;&#160;</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </publisher>
+    <pubPlace>McMurdo Dry Valleys LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>During the 1994-1995 field season, the Lake Vanda meteorological station was constructed near the mouth of the Onyx River. The station was set up to sample sensors every 30 seconds and send summary statistics (for example, averages and maximums) to solid-state storage modules every 20 minutes between November 24, 1994 and December 30, 1994, every hour between December 30, 1994 and November 21, 1995, and every 15 minutes thereafter. This has resulted in approximately 20 values being recorded for final storage in every output interval. Station was relocated after it was blown away in 2004. &#194;&#160;Onyx River temperature (thermistor) ceased then, as seen in the data record,&#194;&#160;</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+      <qualityControl>
+        <description>
+          <para>
+            <literalLayout>Season 1994/95 Notes files&#194;&#160;vaa94501 through vaa94503.dat 1) Day of year is one day greater than it should be (i.e. first day should be 328) 2) Downward-pointing pyranometer is wired and running but not mounted properly, ignore. 3) Wind speeds &amp;lt; threshold (0.9 m/s) zeroed. Data should be flagged&#194;&#160; file vaa94504.dat 1) Day of year fixed 2) Downward-pointing pyranometer running okay. 3) Collected data at 16:08 4) Moved position of river thermistor to closer location on Jan 20. 5) Keypad changes made to vaa945-1 did not get transfered to .doc file. Therefore, new file loaded with claus that zeros wind Season 1995/96 Notes Report by Gayle Dana. File vaa95001.dat 1) Moved position of river thermistor to closer location on Jan 20. 2) Keypad changes made to vaa945-1 did not get transfered to .doc file. Therefore, new file loaded with claus that zeros wind speeds &amp;lt; 0.9 m/s. Data should be flagged. This will continue through winters data.&#194;&#160; File vaa95601.dat 1) 2nd battery and diode wiring installed at end of file period. 2) Heads up for overwinter data: station powered down between 13:25 and 14:10 hours on 1/23/96 to install diodes. 3) RH Campbell: 21%; RH Sling Pyschrometer: 28% on 1/23/96 Season 1996/97 Notes Report by Peter Doran.&#194;&#160; Notes seem to be from previous season. Season 1997/98 Notes Report by Peter Doran 1) Wind storm damaged station. All wind and pyranometer data after day 166 is bad. Temperatures, RH, and PAR all appear ok&#194;&#160; 2) All wind and pyranometer data is bad. Temperatures, RH, and PAR all appear ok 3) Missing data at end of this file&#194;&#160; 4) Data missing before this file 5) All new sensors except for soil and river thermistors 6) file vaa978-1 is one line long with bad time stamp&#194;&#160; Season 1998/99 Notes Author:&#194;&#160;Paul Langevin 1) Date in raw data for 1998 103 400 is wrong, it reads 4199 400, changed 4199 to 103 2) Onyx temperature #17, Flagged &#226;&#8364;&#339;B&#226;&#8364;&#194;&#160; Season 1999/2000 Notes Report by Thomas Nylen 1. Onyx temperature #17 not working. Flagged &#226;&#8364;&#339;B&#226;&#8364; 2. On January 26, 2000 (26) @ 942, replaced upward pyranometer. Old sensor is PY27929 and new sensor number is PY25306. 3. On January 26, 2000 (26) @ 1000, replaced Quantum. Old sensor number is Q23210 and new sensor number is Q17248. 4. On January 26, 2000 (26) @ 1021, replaced 207 air temperature probe with 107 temperature probe. Air temperature went from 0.56, measured with 207, to 0.47 C, measured with 107. The shield was raised from 2.7 meters to 2.8 meters above the ground. It is the highest the shield can go without interfering with wind monitor. The bar holding the pyranometer and wind monitor was also raised 10cm. The wind monitor is now 3m from the ground surface. The roughness of the surface is 20cm. 5. The soil temperatures and Onyx temperature wires were switched around to match the specifications in the new program. Flag intervals with logger errors. 6. On January 26, 2000 (26) @ 1100, downloaded file, vaa20001. At 1124, downloaded file, vaa20002. 7. On January 26, 2000 (26) @ 1130, uploaded and compiled new program, vaa990v1 was loaded.&#194;&#160; Season 2000/01 Notes Thomas Nylen. No data mssing The wind monitor was replaced, since it appears the direction component of the monitor was not working. Flag all wind direction and WdirStd as bad. The new sensor appears to be working. Check next time visit station.&#194;&#160; (next file) Replaced downward pyranometer. Old sensor number is PY28167 and the new number is PY28170.&#194;&#160; (next file) Wind monitor seems to be working now.&#194;&#160; Season 2001/02 Thomas Nylen First file:&#194;&#160;1. Data lines missing on April 3, 2001 between 1245 and 1930&#194;&#160; Second file:&#194;&#160;1. Old CR10 clock behind by 00:03:52. Not adjusted&#194;&#160;2. 2 blades on the wind monitor were broken3. RH3m probe was disconnected on November 23, 2001 @ 14044. Wind monitor was disconnected on November 23, 2001 @ 14095. Upward and downward pyranometer was disconnected on November 23, 2001 @ 14156. Quantum was hooked up on November 23, 2001 @ 14177. OnxyT was disconnected on November 23, 2001 @ 14218. All temperature was disconnected on November 23, 2001 @ 14219. Powered off old CR10 on November 23, 2001 (338) @ 1430, and hooked up new CR10X. All sensors should be working10. Wind disconnected on November 23, 2001 (338) between ~1515-153011. Check wind alignment, rotated 10&#194;&#176; counterclockwise&#194;&#160; Third file: 1. Upward and downward pyranometer was disconnected between 1415 and 1445 on November 23, 2001. First two values of file are bad2. Wind disconnected on November 23, 2001 (337) between ~1515-1530, values flagged as bad between this interval. Minimum wind speed flagged as bad the first 3 of 4 values.3. Time adjust +00:00:22 on January 18, 2002 @ 11:12 4. Check wind alignment on January 18, 2002 @ 1148, adjusted 5 degrees clockwise5. Existing sensor numbers &#226;&#8364;&#8220; SwRadIn: PY31675, SwRadOut: PY40424, PAR: Q172486. Storage Modules replaced with 1 @ SM4M on January 18, 2002 @ 11347. Between 1115 and 1130 on January 18, 2002, swapped out Quantum (PAR). New sensor number: Q17248&#194;&#160; Season 2002/03 Thomas Nylen 1. No missing data2. Adjust time -00:01:25 on November 12, 2002 @ 10:403. Checked input values on November 12, 2002 @ 10:39 and 10:45. Everything looked good4. Check wind alignment on on November 12, 2002 @ 10:43. Pointed north5. Replaced SM4M with another SM4M on November 12, 2002 @ 10:44&#194;&#160; Season 2003/04 Thomas Nylen File vaa030401.dat 1. Station blew over on 9/9/03 2145 during a katabatic event. Station was rebuilt on December 8, 2003. All above surface measurements were flagged.2. Install new pyranometers on December 8, 2003. New sensor numbers are Upward: PY18400 and downward: PY186573. Installed new Quantum (PAR) on December 8, 2003. New sensor number is Q19649.4. Installed new wind monitor, but the wind speed was not working. Need to replace.5. Installed sonic sensor, about 65 cm (value from CR10X) from the surface. Did not have a ruler so could not measure exact depth.6. Swapped RH probes for recalibrated head on December 8, 20037. Swapped out batteries on December 8, 2003.&#194;&#160; File vaa030402.dat 1. First line of the data file repeats the last line of vaa03401.dat. Use the last line from vaa03401.dat.&#194;&#160; File vaa030403.dat 1. Installed new program, vaa034v1, on December 8, 2003 @ 1500. New program signature is 23474.2. No missing lines of data3. Adjust time +23 minutes and 02 seconds on December 8, 2003 @ 14574. Replaced SM4M with another SM4M on December 8, 2003 @ 1500 File vaa030404.dat 1. First line of the data file repeats the last line of vaa03403.dat. Use the last line from vaa03403.dat.&#194;&#160; File vaa030405.dat 1. Adjusted datalogger clock ahead by 18 secs on January 26, 2004 (26) @ 10362. Check wind monitor alignment on January 26, 2004 (26) @ 1039, pointing north3. Repositioned ultrasonic sensor and secured with guide wires on January 26, 2004 (26) @ 1100. New height is 55.1 cm.4. Installed new wind monitor on January 26, 2004 (26) @ 10575. Swapped SM4m module for another on January 26, 2004 (26) @ 1110.&#194;&#160; Season 2004/05 Thomas Nylen File vaa040501.dat 1. Adjusted datalogger clock back by 1 minute and 22 seconds on December 1, 2004 (336) @ 10062. Checked wind monitor alignment on December 1, 2004 (336) @ 1006, pointing north3. Checked input values, everything looks good.4. Sonic sensor depth is 64.8 cm.5. Swapped SM4m module for another on December 1, 2004 (336) @ 10156. Loaded new program, vaa045v1.dld on December 1, 2004 (336) @ 1015. Added instructions to not turn on sonic when battery voltage is below 11.5.7. Replaced datalogger on December 1, 2004 (336) @ 1015. Turned off power, swapped the datalogger can, and plugged the power back in, loading the new program from the storage module. May have lost 30 seconds of data.&#194;&#160; File vaa040502.dat 1. Missing line of data on December 1, 2004 (336) @ 10152. Adjusted datalogger clock ahead by 20 hours and 52 seconds on January 15, 2005 (15) @ 10023. Checked wind monitor alignment on January 15, 2005 (15) @ 1005, pointing north4. Checked input values on January 15, 2005 (15) @ 1004, everything looks good.5. Sonic sensor depth is 64.2 cm. 6. Swapped SM4m module for another on January 15, 2005 (15) @ Season 2005/06 Thomas Nylen File vaa040501.dat 1. No missing data.2. Adjusted datalogger clock back by 57 seconds on December 16, 2005 (350) @ 11243. Checked input values on December 16, 2005 (350) @ 1125, everything looks good.4. Checked wind monitor alignment on December 16, 2005 (350) @ 1130, pointing north 625. Sonic sensor depth is 64.4 cm.6. Swapped RH sensor on December 16, 2005 (350) @ 1136.7. Swapped upward facing pyranometer on December 16, 2005 (350) @ 1207. Old sensor # PY18400 with new sensor #PY28169. The upward pyranometer needs new lock screw.8. Swapped downward facing pyranometer on December 16, 2005 (350) @ 1215. Old sensor # PY18657 with new sensor #PY23277.9. Swapped quantum PAR on December 16, 2005 (350) @ 1150. Old sensor #Q19469 with new sensor #Q29765.10. Swapped SM4M module for another December 16, 2005 (350) @ 1201.&#194;&#160; vaa05602.dat 1. No missing data.2. Adjusted datalogger clock ahead 15 seconds on January 12, 2006 (12) @11543. Checked input values on January 12, 2006 (12) @1155, everything looks good.4. Checked wind monitor alignment on January 12, 2006 (12) @1157, pointing north.5. Sonic sensor depth is 65.0 cm on January 12, 2006 (12) @1159.6. Swapped SM4M module for another January 12, 2006 (12) @1203. 647. Replaced 1 missing bolt on quantum PAR sensor baseplate.&#194;&#160; Season 2006/07 Thomas Nylen 1. No missing data.2. Adjusted datalogger clock ahead 1 minute and 55 seconds on December 16, 2006 (350) at 930.3. Checked input values on December 16, 2006 (350) at 1000. Sonic ranger is down, all else appears to be good.4. Wind monitor is in alignment on December 16, 2006 (350) at 937. Swapped old sensor for new sensor at 957.5. Sonic sensor depth is 64.7 cm on December 16, 2006 (350) at 1000.6. Datalogger power off on December 16, 2006 (350) between 1001 and 1007 to swap batteries and storage module for another Season 2007/08 Hassan Basagic File&#194;&#160;vaa07801.dat1. No missing data. Two multiple lines on December 8, 2007 at 1200 and 1215, these were duplicate and were removed.2. Adjusted datalogger clock ahead 5 minute and 52 seconds on December 8, 2007 at 1150.3. Checked input values and wind alignment on December 8, 2007 at 1150, all appear correct except sonic ranger which is offline. 604. Maintenance: Swapped upfacing pyranometer (old#28169, new#41090) at 1205; swapped quantum PAR (old#29765, new#Q17248) at 1212; and RH sensor at 3m at 1215 on December 8, 2007. Repaired Ultrasonic distance ranger by replacing sensor (transducer had failed) at 1224.5. Sonic sensor depth is 65.6 cm on December 8, 2007 after replacing the sensor.6. Swapped SM on December 8, 2007 at 1305.&#194;&#160; File&#194;&#160;vaa07802.dat 1. No missing data. Adjusted datalogger back 10 seconds on January 18, 2008 at 1232.2. Checked input values and wind alignment on January 18, 2008 at 1233, all appear correct.3. Sonic sensor depth is 65.3 cm on January 18, 2008 at 1235.4. Swapped SM on January 18, 2008 at 1248.&#194;&#160; Season 2008/09 Hassan Basagic 1. No missing data. Adjusted datalogger ahead 3 min on December 30, 2008 at 9:37.2. Checked input values and wind alignment on December 30, 2008 at 9:38, all appear correct.3. Sonic sensor depth is 65.5 cm on December 30, 2008 at 9:40.4. Maintenance: on December 30, 2008 swapped wind sensor at 10:00, downfacing pyranometer (old#PY23277, new#PY20561) at 1020, station power off from 1025 to 1054 to swap battery (new: 100 A hr) and swapped power cable.5. Swapped SM on December 30, 2008 at 1100. Season 2009/10 Hassan Basagic 1. No missing data. Adjusted datalogger back 2 min on November 20, 2009 at 1454.2. Checked input values and wind alignment at 1456, all appear correct. Sonic sensor depth is 64.8 cm.3. Maintenance: on November 20, 2009 swapped quantum PAR sensor (old#Q17248, new#Q30794) at 1509, RH at 1448.4. Station power off to swap CR10x and SM on November 20, 2009 at 1517. Season 2010/11 Thomas Nylen 1. No missing data.2. Adjusted datalogger back 13 min and 35 secs on 11/19/2010 10:32.3. Checked input values and wind alignment at 10:30, all appear correct. Sonic sensor depth is 65.0 cm.4. Maintenance: on November 19, 2010 swapped upward pyranometer sensor (old#py41090, new#PY40424) at 11:30, swapped downward pyranometer sensor (old#py20561, new#PY33485) at 11:15, swapped wind mnitor5. Sonic ultrasonic ranger not working intermediately. Remove to replace resistor.6. Wind monitor not working properly. Not sure problem. Monitor was replaced.7. Station power off to load new program and swap SM on November 19, 2010 at 1145. New program is vaa1011v1. File 2 1. No missing data.2. Sonic ultrasonic ranger was not working, replaced with the same sonic with new RH chip</literalLayout>
+          </para>
+        </description>
+      </qualityControl>
+    </methods>
+    <dataTable>
+      <entityName>VAAM_AIRT</entityName>
+      <entityDescription>Lake Vanda station air temperature data spreadsheet description and nits</entityDescription>
+      <physical>
+        <objectName>VAAM_AIRT.csv</objectName>
+        <size>24305166</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7015/9/5a52f0363c7352d835f0f94431ce93cc</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>1994-1995 - 1999-2000: Campbell Scientific 207 temp/rh probe.&#194;&#160;</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>1999-2000 - present: Campbell Scientific 107 temp probe.</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>DATASET_CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH24:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AIRT3M</attributeName>
+          <attributeLabel>AIRT3M</attributeLabel>
+          <attributeDefinition>Average air temperature at 3 m above ground</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AIRTMAX</attributeName>
+          <attributeLabel>AIRTMAX</attributeLabel>
+          <attributeDefinition>Maximum air temperature at 2.5 - 3 m above ground</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AIRTMIN</attributeName>
+          <attributeLabel>AIRTMIN</attributeLabel>
+          <attributeDefinition>Minimum air temperature at 2.5 - 3 m above ground</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AIRT_COMMENTS</attributeName>
+          <attributeLabel>air temperature comments</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of air temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>VAAM_ONYXT</entityName>
+      <entityDescription>Lake Vanda at Onyx River temperature spreadsheet description and units</entityDescription>
+      <physical>
+        <objectName>VAAM_ONYXT.csv</objectName>
+        <size>20792815</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7015/9/50dc585bfbcdd451a4cd2d0bd5cd8869</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>DATASET_CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH24:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ONYXT</attributeName>
+          <attributeLabel>ONYXT</attributeLabel>
+          <attributeDefinition>Onyx River temperature measured from Vanda met station</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given - see comments</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ONYXT_COMMENTS</attributeName>
+          <attributeLabel>ONYXT_COMMENTS</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of ONYXT_</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of ONYXT_</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>VAAM_RADN</entityName>
+      <entityDescription>Lake Vanda station solar radiation spreadsheet description and units</entityDescription>
+      <physical>
+        <objectName>VAAM_RADN.csv</objectName>
+        <size>39348992</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7015/9/7549a1670da9278ade868998feb94e37</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>See task-list</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>PAR: LI-COR model 190SB quantum sensor. Solar Flux (incoming): LI-COR model L1200X silicon pyranometer</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>DATASET_CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH24:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PAR</attributeName>
+          <attributeLabel>PAR</attributeLabel>
+          <attributeDefinition>Photosynthetically active radiation</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromols/second/meter2</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SWRADIN</attributeName>
+          <attributeLabel>SWRADIN</attributeLabel>
+          <attributeDefinition>Incoming shortwave radiation/solar flux</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>W/m2</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SWRADOUT</attributeName>
+          <attributeLabel>SWRADOUT</attributeLabel>
+          <attributeDefinition>Outgoing shortwave radiation/solar flux</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>W/m2</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>RADN_COMMENTS</attributeName>
+          <attributeLabel>radiation comments</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of radiation</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of radiation</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>VAAM_RH</entityName>
+      <entityDescription>Lake Vanda station relative humidity spreadsheet description and units</entityDescription>
+      <physical>
+        <objectName>VAAM_RH.csv</objectName>
+        <size>21737195</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7015/9/2196cc0563ccba87c9485906e147940e</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>see task-list</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>1999-2000 - present: Vaisala HMP45C RH probe 1994-1995- 1999-2000: Campbell Scientific 207 temp/rh probe.</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>DATASET_CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH24:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RH</attributeName>
+          <attributeLabel>RH</attributeLabel>
+          <attributeDefinition>Relative humidity at 3 meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given - see comments column</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>RH_COMMENTS</attributeName>
+          <attributeLabel>relative humidity comments</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of relative humidity</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of relative humidity</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>VAAM_SOILT</entityName>
+      <entityDescription>Lake Vanda station soil temperature spreadsheet description and units</entityDescription>
+      <physical>
+        <objectName>VAAM_SOILT.csv</objectName>
+        <size>29346033</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7015/9/4e16246fa8dde1b9c79da8ecfbf20bf4</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>see task list</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>Campbell Sdentific 107B temperature probe.</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>DATASET_CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH24:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SOILT0CM</attributeName>
+          <attributeLabel>SOILT0CM</attributeLabel>
+          <attributeDefinition>Soil temperature at 0 cm depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given - see comments</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SOILT5CM</attributeName>
+          <attributeLabel>SOILT5CM</attributeLabel>
+          <attributeDefinition>Soil temperature at 5 cm depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given - see comments</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SOILT10CM</attributeName>
+          <attributeLabel>SOILT10CM</attributeLabel>
+          <attributeDefinition>Soil temperature at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given - see comments</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SOILT_COMMENTS</attributeName>
+          <attributeLabel>SOILT_COMMENTS</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular soil temperature measurement_</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular soil temperature measurement_</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>VAAM_WIND</entityName>
+      <entityDescription>Lake Vanda station wind measurement description and units</entityDescription>
+      <physical>
+        <objectName>VAAM_WIND.csv</objectName>
+        <size>43835249</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7015/9/347b05d46700d107d13e15b70c21b6cf</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>see task-list</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>R.M. Young model 05103 wind monitor.</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>DATASET_CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH24:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WDIR</attributeName>
+          <attributeLabel>WDIR</attributeLabel>
+          <attributeDefinition>Average wind direction</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degreesfromnorth</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WDIRSTD</attributeName>
+          <attributeLabel>WDIRSTD</attributeLabel>
+          <attributeDefinition>Standard deviation of wind direction</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degreesfromnorth</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WSPD</attributeName>
+          <attributeLabel>WSPD</attributeLabel>
+          <attributeDefinition>Wind speed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given- see comments</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WSPDMAX</attributeName>
+          <attributeLabel>WSPDMAX</attributeLabel>
+          <attributeDefinition>Maximum wind speed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WSPDMIN</attributeName>
+          <attributeLabel>WSPDMIN</attributeLabel>
+          <attributeDefinition>Minimum wind speed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WIND_COMMENTS</attributeName>
+          <attributeLabel>WIND_COMMENTS</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of WIND_</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of WIND_</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>VAAM_WVAPD</entityName>
+      <entityDescription>Lake Vanda station water vapor density description and units</entityDescription>
+      <physical>
+        <objectName>VAAM_WVAPD.csv</objectName>
+        <size>280670</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7015/9/f172ee2383b09b06a164f70ffdf24be6</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>DATASET_CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH24:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WVAPD</attributeName>
+          <attributeLabel>WVAPD</attributeLabel>
+          <attributeDefinition>Water vapor density</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramspercubicmeter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given - see comments</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WVAPD_COMMENTS</attributeName>
+          <attributeLabel>WVAPD_COMMENTS</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of WVAPD_</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of WVAPD_</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>VAAM_SURFCHANGE</entityName>
+      <entityDescription>Lake Vanda station snow height surface change spreadsheet description and units</entityDescription>
+      <physical>
+        <objectName>VAAM_SURFCHANGE.csv</objectName>
+        <size>13511707</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>27</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/7015/9/7ed0455df44e232ac6d5cb6c79e0c18b</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <para>
+                <literalLayout>see task -list</literalLayout>
+              </para>
+            </section>
+          </description>
+          <instrumentation>Campbell Scientific SR50-L Ultrasonic Distance Sensor</instrumentation>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>DATASET_CODE</attributeLabel>
+          <attributeDefinition>Code for given set of information for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for given set of information for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>METLOCID</attributeName>
+          <attributeLabel>METLOCID</attributeLabel>
+          <attributeDefinition>Location code for Lake Vanda meteorology station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location code for Lake Vanda meteorology station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date/time of sample (New Zealand DST, +13 UTC)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH24:MI</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SURF_CHANGE</attributeName>
+          <attributeLabel>SURF_CHANGE</attributeLabel>
+          <attributeDefinition>Surface Height Change - snowfall / sediment accumulation or loss</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>0.4</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given - see comments</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SURFCHANGE_COMMENTS</attributeName>
+          <attributeLabel>ice surface thickness comments</attributeLabel>
+          <attributeDefinition>Noted comments by the investigator about the particular measure of ice surface thickness</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Noted comments by the investigator about the particular measure of ice surface thickness</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <ns2:unit abbreviation="" id="micromols/second/meter2" name="micromols/second/meter2" unitType="">
+          <ns2:description />
+        </ns2:unit>
+        <ns2:unit id="W/m2">
+          <ns2:description />
+        </ns2:unit>
+        <ns2:unit abbreviation="%" constantToSI="0" id="percent" multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless">
+          <ns2:description>ratio of two quantities as percent composition (1:100)</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="" id="degreesfromnorth" name="degreesfromnorth" unitType="">
+          <ns2:description />
+        </ns2:unit>
+        <ns2:unit id="gramspercubicmeter">
+          <ns2:description />
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

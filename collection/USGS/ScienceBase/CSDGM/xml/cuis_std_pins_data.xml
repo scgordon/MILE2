@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Daniel Calhoun</origin>
+        <pubdate>2016</pubdate>
+        <title>Standard erosion pin data from Cumberland Island National Seashore (CUIS), February 2012 - May 2013</title>
+        <geoform>comma separated values (.csv)</geoform>
+        <pubinfo>
+          <pubplace>Denver</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://dx.doi.org/10.5066/F7Z60M4M</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Daniel Calhoun</origin>
+            <origin>Jeffrey Riley</origin>
+            <pubdate>2016</pubdate>
+            <title>Spatial  and Temporal Assessment of Back-Barrier Erosion on Cumberland Island National Seashore, Georgia, 2011–2013</title>
+            <geoform>pdf</geoform>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains cumulative erosion magnitude measured at individual erosion pins at select sites along the western margin of CUIS. Additionally, the data are presented as rates and summarized to the site level to facilitate comparison with other methods used to estimate erosion with slightly varying temporal ranges.</abstract>
+      <purpose>These data were collected to evaluate the spatial and temporal behavior of erosion at select locations along the back barrier of CUIS. The primary goal of the standard erosion pins was to provide a context which to view the continuous erosion by having a better understanding of the variability along a greater reach of the selected margins. The standard pins also allowed a quantification of gross erosion between site visits providing important data when PEEPs became completely exposed thus collecting no meaningful data.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20120222</begdate>
+          <enddate>20130514</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>observed</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Not planned</update>
+    </status>
+    <spdom>
+      <descgeog>Cumberland Island National Seashore</descgeog>
+      <bounding>
+        <westbc>-81.482936</westbc>
+        <eastbc>-81.443104</eastbc>
+        <northbc>30.930110</northbc>
+        <southbc>30.736775</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>barrier islands</themekey>
+        <themekey>coastal erosion</themekey>
+        <themekey>bank pins</themekey>
+        <themekey>erosion pins</themekey>
+        <themekey>cumberland island</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Cumberland Island National Seashore</placekey>
+        <placekey>Camden County</placekey>
+        <placekey>Georgia</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Daniel Calhoun</cntper>
+          <cntorg>USGS</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1770 Corporate Dr. Suite 500</address>
+          <city>Norcross</city>
+          <state>GA</state>
+          <postal>30093</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>678-924-6629</cntvoice>
+        <cntemail>dcalhoun@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>funding provided by National Park Service Cumberland Island National Seashore</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Data were processed by creating cumulative erosion magnitude/distance from each pin by summing values from individual site visits and then averaging cumulative magnitudes and rates over each sites.</procdesc>
+        <procdate>20130505</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>cuis_std_pins_data.csv</enttypl>
+        <enttypd>Magnitude and rates of erosion at individual erosion pins along 4 sites - Brickhill Bluff (bb), Dungeness Wharf (dw), Plum Orchard (po), and Racoon Key (rk) - on CUIS and summarized to the site level</enttypd>
+        <enttypds>Daniel Calhoun</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>site</attrlabl>
+        <attrdef>Site identifier to which the data belong -</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>two letter representation of the site id</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>id</attrlabl>
+        <attrdef>identification assigned to each pin</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>identification assigned to each vertical nest of pins</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vloc</attrlabl>
+        <attrdef>vertical sequence of pins - top, middle, bottom</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>vertical sequence of pins - top, middle, bottom</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>days_deployed</attrlabl>
+        <attrdef>number of days in record used for converting erosion magnitude into a rate</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>number of days in record used for converting erosion magnitude into a rate</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>pin_cum_mm</attrlabl>
+        <attrdef>cumulative distance of margin retreat at pin location in millimeters</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>cumulative distance of margin retreat at pin location in millimeters (mm)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>pin_mm_day</attrlabl>
+        <attrdef>estimated daily rate of erosion in mm per day</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>estimated daily rate of erosion in mm per day</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>pin_m_yr</attrlabl>
+        <attrdef>estimated annual rate of erosion in meters (m) per year</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>estimated annual rate of erosion in meters (m) per year</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site_med_m_yr</attrlabl>
+        <attrdef>median of annual erosion rate in meters per year based on all pins located at a site</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>median of annual erosion rate in meters per year based on all pins located at a site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site_avg_m_yr</attrlabl>
+        <attrdef>average annual erosion rate in meters per year based on all pins located at a site</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>average of annual erosion rates in meters per year based on all pins located at a site</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>There is no guarantee concerning the accuracy of the data. No warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general scientific purposes, nor shall the act of distribution constitute any such warranty. Users should not use this data for critical applications without a full awareness of the limitations. Acknowledgement of originating agencies would be appreciated in products derived from this data.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20160711</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jeffrey Riley</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1770 Corporate Dr Suite 500</address>
+          <city>Norcross</city>
+          <state>GA</state>
+          <postal>30093</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>678-924-6682</cntvoice>
+        <cntemail>jriley@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,708 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.204.9" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="204" system="VCR">
+   <alternateIdentifier>VCR12196</alternateIdentifier>
+   <title>Beach Morphology of the Virginia Barrier Islands 1998, 2005 and 2009</title>
+   <creator>
+      <individualName>
+         <givenName>Dana</givenName>
+         <surName>Oster</surName>
+      </individualName>
+      <electronicMailAddress>djo2cu@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">doster</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <givenName>Laura</givenName>
+         <surName>Moore</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Geological Sciences, Univ. N. Caroli, 104 South Road, Mitchell Hall, Campus Box #3315</deliveryPoint>
+         <city>Chapel Hill</city>
+         <administrativeArea>NC</administrativeArea>
+         <postalCode>27599-3315</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(919) 962-5960</phone>
+      <phone phonetype="facsimile">(919) 962-4519</phone>
+      <electronicMailAddress>moorelj@email.unc.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">lmoore</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2009-12-31</pubDate>
+   <abstract>
+  <para>Beach features (dune crest, dune toe and shoreline) extracted from LiDAR datasets and used in Dana Oster's 2012 M.S. Thesis at the University of Virginia.</para>
+  <para>Also included are overwash probablities associated with a hypothetical storm similar to Hurricane Bonnie.&#194;&#160;</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">LiDAR</keyword>
+      <keyword keywordType="theme">beach</keyword>
+      <keyword keywordType="theme">shoreline</keyword>
+      <keyword keywordType="theme">overwash</keyword>
+      <keyword keywordType="theme">dunes</keyword>
+      <keyword keywordType="theme">storms</keyword>
+   </keywordSet>
+   <additionalInfo>
+<section>
+<title>Relevant URLs</title>
+<para><orderedlist>
+<listitem><para>
+USGS Page describing storm impact scale) 
+URL=http://coastal.er.usgs.gov/hurricanes/impact-scale/
+</para></listitem>
+<listitem><para>Sallenger 2000 paper describing storm impact scales) 
+URL=http://coastal.er.usgs.gov/hurricanes/publications/jcr.pdf
+</para></listitem>
+</orderedlist>
+</para>
+</section>
+
+   </additionalInfo>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>CEDARIS - Cedar Island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.580000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.640000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.480000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.390000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>COBB - Barrier Island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.720000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.780000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.370000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.290000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>HOG - Hog Island, VA</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.650000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.730000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.460000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.370000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>MYRTLE - Barrier Island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.800000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.840000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.210000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.180000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>PARRAMORE - Barrier Island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.627982</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.653537</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.538746</northBoundingCoordinate>
+            <southBoundingCoordinate>37.491525</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>Beaches along the barrier islands of the Eastern Shore of Virginia</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>SMITHISLE - Smith Island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.820000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.930000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.180000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.110000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>WRECK - Barrier Island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.790000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.820000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.300000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.240000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1998-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2009-12-31</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>Laura</givenName>
+         <surName>Moore</surName>
+      </individualName>
+      <electronicMailAddress>moorelj@email.unc.edu</electronicMailAddress>
+   </contact>
+   <contact>
+      <individualName>
+         <givenName>Dana</givenName>
+         <surName>Oster</surName>
+      </individualName>
+      <electronicMailAddress>djo2cu@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">doster</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <givenName>Laura</givenName>
+         <surName>Moore</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Geological Sciences, Univ. N. Caroli, 104 South Road, Mitchell Hall, Campus Box #3315</deliveryPoint>
+         <city>Chapel Hill</city>
+         <administrativeArea>NC</administrativeArea>
+         <postalCode>27599-3315</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(919) 962-5960</phone>
+      <phone phonetype="facsimile">(919) 962-4519</phone>
+      <electronicMailAddress>moorelj@email.unc.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">lmoore</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para>LiDAR data was analyzed to extract shoreline and dune features to extract points every 10 meters along the shoreline.</para>
+  <para>ATM 1998, 2005 CHARTS and 2009 ERAL LiDAR data were used. 1997 data used a first-return LiDAR and was only used for shoreline delineation.</para>
+  <para>Features were defined using definitions from Sallenger, A. H. 2000. Storm impact scale for barrier islands. Journal of Coastal Research 16:890&#226;&#8364;&#8220;895.&#194;&#160;</para>
+  <para>Dhigh&#194;&#160; are point features of the position and elevation of the most seaward dune crest (known as Dhigh) derived from the lidar data. If there was no dune crest above 1.5m elev the berm was selected as Dhigh. All Dhigh points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each Dhigh point is represented as well as northing and easting. The elevation of the dune crest is in the 'dhigh_z' column. The position of the dune is presented in a few columns. The cross-shore position of the dune is called 'dhigh_x' which refers to meters inland from the position 0. The 0 position is located between the two segment points.</para>
+  <para>Dlow&#194;&#160; are point features of the position and elevation of the most seaward dune toe (known as Dlow) derived from the lidar data. If there was no dune crest above 1.5m elev the berm was selected as Dhigh and no Dlow exists. All Dlow points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each Dlow point is represented as well as northing and easting. The elevation of the dune tow is in the 'dlow_z' column. The position of the dune is presented in a few columns. The cross-shore position of the dune toe is called 'dlow_x' which refers to meters inland from the position 0. The 0 position is located between the two segment points (VA_segments).&#194;&#160;</para>
+  <para>Polygons of overwash probability during a hypothetical storm with characteristics similar to Hurricane Bonnie in 1998. The bar to the west is the probability of overwash for the VCR based on 1998 lidar data. The middle bar is the 2005 overwash probability based on the 2005 lidar data. And the most east bar is the 2009 overwash probability to the hypothetical storm. The storm surge used was 1.1m, the significant water wave height was 3.7m and the period was 7s. The probability is in part determined by comparing the relative elevation of the most seaward dune crest (Dhigh) and the maximum wave runup (Rhigh). Dhigh elevations are given in the attribute table. Each elevation value is a mean value representing 100m alongshore. The elevation of the most seaward dune toe (Dlow) also represents mean dlow elevation along the same 100m. R2 is the 2% exceedence elevation the swash will reach during the hypothetical storm. That elevation is added to the surge (1.1m) to equal Rhigh. Then the probability is represented as a % of overwash probability for each 100m segment of beach.</para>
+         </description>
+      </methodStep>
+   </methods>
+   <otherEntity>
+      <entityName>VCR12196</entityName>
+      <entityDescription>
+Zip files contain ESRI shapefiles. The name of the file identifies the parameter contained in the file and the year. Dhigh files have the most seaward dune crest. Dlow files have the most seaward dune toe. Shoreline position is mean-high water (0.34 m &gt; mean-sea level).Additionally, the KML.zip file contains graphical representation of overwash probabilities for specific island-year combinations for display in Google Earth.
+      </entityDescription>
+      <physical>
+         <objectName>shoreline1997.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>Esoteric</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=1/VCR12196/VCR12196/shoreline1997.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>shoreline1998.zip</entityName>
+      <entityDescription>
+Shoreline location in 1997 of mean high water (MHW) which is 0.34m above sea level by Virginia standards. The shoreline points were derived from the 1997 lidar data. All shoreline points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each shoreline point is represented as well as northing and easting. The position of the shoreline is presented in a few columns. The cross-shore position of the shoreline is called 'xsl' which refers to meters inland from the position 0. The 0 position is located between the two segment points (VA_segments).
+      </entityDescription>
+      <physical>
+         <objectName>shoreline1998.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=2/VCR12196/shoreline1998.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>shoreline2005.zip</entityName>
+      <entityDescription>
+Shoreline location in 2005 of mean high water (MHW) which is 0.34m above sea level by Virginia standards. The shoreline points were derived from the 2005 lidar data. All shoreline points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each shoreline point is represented as well as northing and easting. The position of the shoreline is presented in a few columns. The cross-shore position of the shoreline is called 'xsl' which refers to meters inland from the position 0. The 0 position is located between the two segment points (VA_segments).
+      </entityDescription>
+      <physical>
+         <objectName>shoreline2005.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=3/VCR12196/shoreline2005.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>shoreline2009.zip</entityName>
+      <entityDescription>
+Shoreline location in 2009 of mean high water (MHW) which is 0.34m above sea level by Virginia standards. The shoreline points were derived from the 2009 lidar data. All shoreline points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each shoreline point is represented as well as northing and easting. The position of the shoreline is presented in a few columns. The cross-shore position of the shoreline is called 'xsl' which refers to meters inland from the position 0. The 0 position is located between the two segment points (VA_segments).
+      </entityDescription>
+      <physical>
+         <objectName>shoreline2009.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=4/VCR12196/shoreline2009.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>Dhigh1998.zip</entityName>
+      <entityDescription>
+Dhigh 1998 are point features of the position and elevation of the most seaward dune crest (known as Dhigh) derived from the 1998 lidar data. If there was no dune crest above 1.5m elev the berm was selected as Dhigh. All Dhigh points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each Dhigh point is represented as well as northing and easting. The elevation of the dune crest is in the 'dhigh_z' column. The position of the dune is presented in a few columns. The cross-shore position of the dune is called 'dhigh_x' which refers to meters inland from the position 0. The 0 position is located between the two segment points 
+      </entityDescription>
+      <physical>
+         <objectName>Dhigh1998.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=5/VCR12196/Dhigh1998.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>Dhigh2005.zip</entityName>
+      <entityDescription>
+Dhigh 2005 are point features of the position and elevation of the most seaward dune crest (known as Dhigh) derived from the 2005 lidar data. If there was no dune crest above 1.5m elev the berm was selected as Dhigh. All Dhigh points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each Dhigh point is represented as well as northing and easting. The elevation of the dune crest is in the 'dhigh_z' column. The position of the dune is presented in a few columns. The cross-shore position of the dune is called 'dhigh_x' which refers to meters inland from the position 0. The 0 position is located between the two segment points 
+      </entityDescription>
+      <physical>
+         <objectName>Dhigh2005.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=6/VCR12196/Dhigh2005.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>Dhigh2009.zip</entityName>
+      <entityDescription>
+Dhigh 2009 are point features of the position and elevation of the most seaward dune crest (known as Dhigh) derived from the 2009 lidar data. If there was no dune crest above 1.5m elev the berm was selected as Dhigh. All Dhigh points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each Dhigh point is represented as well as northing and easting. The elevation of the dune crest is in the 'dhigh_z' column. The position of the dune is presented in a few columns. The cross-shore position of the dune is called 'dhigh_x' which refers to meters inland from the position 0. The 0 position is located between the two segment points 
+      </entityDescription>
+      <physical>
+         <objectName>Dhigh2009.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=7/VCR12196/Dhigh2009.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>dlow1998.zip</entityName>
+      <entityDescription>
+Dlow 1998 are point features of the position and elevation of the most seaward dune toe (known as Dlow) derived from the 1998 lidar data. If there was no dune crest above 1.5m elev the berm was selected as Dhigh and no Dlow exists. All Dlow points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each Dlow point is represented as well as northing and easting. The elevation of the dune tow is in the 'dlow_z' column. The position of the dune is presented in a few columns. The cross-shore position of the dune toe is called 'dlow_x' which refers to meters inland from the position 0. The 0 position is located between the two segment points (VA_segments).
+      </entityDescription>
+      <physical>
+         <objectName>dlow1998.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=8/VCR12196/dlow1998.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>dlow2005.zip</entityName>
+      <entityDescription>
+Dlow 2005 are point features of the position and elevation of the most seaward dune toe (known as Dlow) derived from the 2005 lidar data. If there was no dune crest above 1.5m elev the berm was selected as Dhigh and no Dlow exists. All Dlow points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each Dlow point is represented as well as northing and easting. The elevation of the dune tow is in the 'dlow_z' column. The position of the dune is presented in a few columns. The cross-shore position of the dune toe is called 'dlow_x' which refers to meters inland from the position 0. The 0 position is located between the two segment points (VA_segments).
+      </entityDescription>
+      <physical>
+         <objectName>dlow2005.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=9/VCR12196/dlow2005.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>dlow2009.zip</entityName>
+      <entityDescription>
+Dlow 2009 are point features of the position and elevation of the most seaward dune toe (known as Dlow) derived from the 2009 lidar data. If there was no dune crest above 1.5m elev the berm was selected as Dhigh and no Dlow exists. All Dlow points were selected from lidar data that was gridded and smoothed into cross-shore profiles every 10m alongshore. The grids are broken up into segments alongshore of similar shoreline orientation. To view the segments open the VA_segments shapefile. With in each segment the cross-shore profiles every 10 m were named profile 1, profile 2, profile 3, etc. That profile value is reflected in the attribute table in the column labeled 'profile'. The lat and lon of each Dlow point is represented as well as northing and easting. The elevation of the dune tow is in the 'dlow_z' column. The position of the dune is presented in a few columns. The cross-shore position of the dune toe is called 'dlow_x' which refers to meters inland from the position 0. The 0 position is located between the two segment points (VA_segments).
+      </entityDescription>
+      <physical>
+         <objectName>dlow2009.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=11/VCR12196/dlow2009.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>Bonnie_Overwashprob_98_05_09.zip</entityName>
+      <entityDescription>
+Polygon of overwash probability during a hypothetical storm with characteristics similar to Hurricane Bonnie in 1998. The bar to the west is the probability of overwash for the VCR based on 1998 lidar data. The middle bar is the 2005 overwash probability based on the 2005 lidar data. And the most east bar is the 2009 overwash probability to the hypothetical storm. The storm surge used was 1.1m, the significant water wave height was 3.7m and the period was 7s. The probability is in part determined by comparing the relative elevation of the most seaward dune crest (Dhigh) and the maximum wave runup (Rhigh). Dhigh elevations are given in the attribute table. Each elevation value is a mean value representing 100m alongshore. The elevation of the most seaward dune toe (Dlow) also represents mean dlow elevation along the same 100m. R2 is the 2% exceedence elevation the swash will reach during the hypothetical storm. That elevation is added to the surge (1.1m) to equal Rhigh. Then the probability is represented as a % of overwash probability for each 100m segment of beach.
+      </entityDescription>
+      <physical>
+         <objectName>Bonnie_Overwashprob_98_05_09.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=12/VCR12196/Bonnie_Overwashprob_98_05_09.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>KML.zip</entityName>
+      <entityDescription>
+Google Earth (KML) files containing coded bands representing overwash probabilities on Cedar, Cobb, Hog, Myrtle, Parramore, Shipshoal, Smith and Wreck Islands for different 1998, 2005 and 2009, along with a legend graphic. 
+      </entityDescription>
+      <physical>
+         <objectName>KML.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.204.9&amp;urlHeadID=2&amp;urlTail=13/VCR12196/KML.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-38</weight>
+         <researchTheme>Landscape BI resilience</researchTheme>
+         <researchTheme>Landscape BI response to SLR</researchTheme>
+         <researchTheme>Landscape change analysis</researchTheme>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</eml:eml>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="609.1"
+            type="primary">
+   <timeStamp value="2015-02-05 19:02:30 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>GCIP FSL MAPS MORDS and MOLTS data, hourly.</title>
+   <summary>
+      <p>The NOAA FSL MAPS model data (including Model Output Reduced
+              Data Set (MORDS) and Model Location Time Series (MOLTS) data)
+              for the GCIP project.  The MAPS model used for GCIP is an advanced,
+              experimental version which is running on a 40 km grid with 40
+              vertical isentropic-sigma levels.  Data are ingested into MAPS
+              on a 1-hour assimilation cycle. Forecasts are run from MAPS out
+              to 12-hour every 3 hours.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/OAR/FSL &gt; Forecast Systems Laboratory, OAR, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vorticity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Water Equivalent</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Precipitable Water</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Heat Flux</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Infrared Wavelengths &gt; Thermal Infrared</variable>
+   <contact>Chi-Fan Shih</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">FSL-MAPS &gt; FSL Mesoscale Analysis and Prediction System</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1998-02-17</publicationDate>
+   <contentMetadata>
+      <temporal start="2011-03-27 00:00 +0000"
+                end="2012-01-01 23:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="hour"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <temporalFrequency type="regular" number="8" unit="hour"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <temporalFrequency type="regular" number="5" unit="hour"/>
+      <temporalFrequency type="regular" number="4" unit="hour"/>
+      <temporalFrequency type="regular" number="3" unit="hour"/>
+      <temporalFrequency type="regular" number="2" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="lambertConformal"
+               numX="451"
+               numY="337"
+               startLon="233.862E"
+               startLat="16.281N"
+               projLon="265E"
+               resLat="25N"
+               xRes="13.545"
+               yRes="13.545"
+               pole="N"
+               stdParallel1="25N"
+               stdParallel2="25N"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

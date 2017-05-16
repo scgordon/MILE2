@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="082.2"
+            type="historical">
+   <timeStamp value="2015-11-02 13:34:25 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NMC Global Tropospheric Analyses, tropopause subset</title>
+   <summary>
+      <p>NCEP Global Tropospheric Analyses on 2.5 degree grids, one for each
+              hemisphere, from 1 July 1976 to 12 April 1997.  The Flattery analysis
+              method was used through 21 September 1978.  It forced a
+              relationship between heights and winds which causes the zonal
+              mean meridional wind at every level to be zero.  This also
+              caused other problems with winds in equatorial areas.  The
+              optimal analysis (OI) method (12 layer) started on 22 September 1978.
+              In April 1985 the Medium Range Forecast (MRF) model started,
+              with 18 layers.  Analyses include geopotential height,
+              temperature, wind (u- and v-components) and potential
+              temperature. In more recent years the temperature analyses are
+              derived from thickness temperatures.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Meteorological Center"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Tropopause</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">NCEP-FNL &gt; NCEP Final Global Data Assimilation System</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Trenberth, K.E., and J.G. Olson</authorList>
+      <year>1988</year>
+      <title>Evaluation of NMC Global Analyses: 1979-1987</title>
+      <organization reportID="TN-299+STR" pages="82">National Center for Atmospheric Research</organization>
+   </reference>
+   <publicationDate>1993-12-01</publicationDate>
+   <contentMetadata>
+      <temporal start="1976-07-01 00:00 +0000"
+                end="1996-08-27 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/datasets/common/nmc.on84/format_on84_jan88.html">NCEP_ON84</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0E"
+               startLat="0N"
+               endLon="360E"
+               endLat="90N"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0E"
+               startLat="90S"
+               endLon="360E"
+               endLat="0N"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,570 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.150.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://caplter.asu.edu/php/eml2_1_0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+            <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+            <principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+    <dataset id="150_1" system="gios_dataset">
+        <alternateIdentifier system="gios_dataset">150</alternateIdentifier>
+        <title>Urban Fringe Morphology: City of Phoenix Sewer Lines</title>
+        <creator>
+            <organizationName>City of Phoenix, Central Records Counter at City
+                Hall</organizationName>
+            <address>
+                <deliveryPoint>200 W. Washington St.</deliveryPoint>
+                <city>Phoenix</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85003</postalCode>
+            </address>
+            <phone phonetype="voice">602-262-4935</phone>
+            <electronicMailAddress>crecords@ci.phoenix.az.us</electronicMailAddress>
+        </creator>
+        <pubDate>2001</pubDate>
+        <language>english</language>
+        <abstract>
+            <para>location of sewer lines in the city of Phoenix</para>
+        </abstract>
+        <keywordSet>
+            <keyword keywordType="place">SONORAN DESERT</keyword>
+            <keyword keywordType="place">PHOENIX</keyword>
+            <keyword keywordType="theme">urban</keyword>
+            <keyword keywordType="theme">caplter</keyword>
+            <keyword keywordType="theme">Central Arizona Phoenix Longterm Ecological
+                Research</keyword>
+            <keyword keywordType="theme">metropolitan area</keyword>
+            <keyword keywordType="place">Arizona</keyword>
+            <keyword keywordType="theme">Sewer lines</keyword>
+            <keyword keywordType="theme">tap</keyword>
+            <keyword keywordType="theme">Land-Use, Land-Cover and Land Architecture</keyword>
+            <keyword keywordType="theme">Land Use Changes</keyword>
+            <keyword keywordType="theme">Project id 3</keyword>
+            <keyword keywordType="theme">gis</keyword>
+        </keywordSet>
+        <intellectualRights>
+            <section>
+                <para>Copyright Board of Regents, Arizona State University. This dataset is released
+                    to the public and may be used for academic, educational, or commercial purposes
+                    subject to the following restrictions:</para>
+                <para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>While CAP LTER will make every effort possible to control and
+                                document the quality of the data it publishes, the data are made
+                                available "as is".</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER cannot assume responsibility for damages resulting from
+                                mis-use or mis-interpretation of datasets or from errors or
+                                omissions that may exist in the data.</para>
+                        </listitem>
+                        <listitem>
+                            <para>It is considered a matter of professional ethics to acknowledge
+                                the work of other scientists that has resulted in data used in
+                                subsequent research.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER expects that any use of data from this server will be
+                                accompanied with the appropriate citations and
+                                acknowledgments.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER encourages users to contact the original investigator
+                                responsible for the data that they are accessing. Where appropriate,
+                                researchers whose projects are integrally dependent on CAP LTER data
+                                are encouraged to consider collaboration and/or co-authorship with
+                                original investigators.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users submit to the Global Institute of
+                                Sustainability, ASU, one copy of any publication resulting from the
+                                use of data obtained from this site.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users not redistribute data obtained from
+                                this site. However, links or references to this site may be freely
+                                posted.</para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+            </section>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://caplter.asu.edu/php/data/HarvestListFileShow.php?id=150</url>
+            </online>
+        </distribution>
+        
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>City of Phoenix, Arizona</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-112.303814</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-111.924896</eastBoundingCoordinate>
+                    <northBoundingCoordinate>33.871516</northBoundingCoordinate>
+                    <southBoundingCoordinate>33.29021</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <singleDateTime>
+                    <calendarDate>2001-06-01</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para>
+                    <literalLayout>completed</literalLayout>
+                </para>
+            </description>
+        </maintenance>
+        <contact>
+            <positionName>Information Manager</positionName>
+            <organizationName>Global Institute of Sustainability, Arizona State
+                University</organizationName>
+            <address>
+                <deliveryPoint>POB 875402</deliveryPoint>
+                <city>TEMPE</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85287-5402</postalCode>
+            </address>
+            <phone phonetype="voice">(480) 965 2975</phone>
+            <phone phonetype="fax">(480) 965-8087</phone>
+            <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+        </contact>
+        <spatialVector id="sewera">
+            <entityName>sewera</entityName>
+            <physical>
+                <objectName>sewera</objectName>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>Shapefile</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url>http://caplter.asu.edu/gisdata/150.zip</url>
+                    </online>
+                </distribution>
+                
+            </physical>
+            <attributeList id="sewera.attributeList">
+                <attribute id="sewera.FID">
+                    <attributeName>FID</attributeName>
+                    <attributeDefinition>Internal feature number.</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.Shape">
+                    <attributeName>Shape</attributeName>
+                    <attributeDefinition>Feature geometry.</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Coordinates defining the features.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.MIS_QS_NO">
+                    <attributeName>MIS_QS_NO</attributeName>
+                    <attributeDefinition>Quarter Section Map</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>City of Phoenix quarter section map that water
+                                        feature resides in</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.A_ORIG_ID">
+                    <attributeName>A_ORIG_ID</attributeName>
+                    <attributeDefinition>ID</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Id number</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.FEATURE">
+                    <attributeName>FEATURE</attributeName>
+                    <attributeDefinition>FEATURE</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain>
+                                    <codeDefinition>
+                                        <code>A</code>
+                                        <definition>Main</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>B</code>
+                                        <definition>Tap</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>G</code>
+                                        <definition>Tics and Fittings</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.TYPE">
+                    <attributeName>TYPE</attributeName>
+                    <attributeDefinition>Type of Sewer</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain>
+                                    <codeDefinition>
+                                        <code>AF</code>
+                                        <definition>Forced sewer main</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>AP</code>
+                                        <definition>Private sewer main</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>AE</code>
+                                        <definition>Encased sewer main</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>AS</code>
+                                        <definition>Standard sewer main</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>BX</code>
+                                        <definition>Sewer tap</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>BB</code>
+                                        <definition>Sewer QS tap</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>GA</code>
+                                        <definition>As-built tics</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>GB</code>
+                                        <definition>Main fittings</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.AB_JOB_TYP">
+                    <attributeName>AB_JOB_TYP</attributeName>
+                    <attributeDefinition>Job type</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain>
+                                    <codeDefinition>
+                                        <code>6</code>
+                                        <definition>water</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>7</code>
+                                        <definition>sewer</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>15</code>
+                                        <definition>CIP</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>QS</code>
+                                        <definition>Quarter section file</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.AB_YEAR">
+                    <attributeName>AB_YEAR</attributeName>
+                    <attributeDefinition>As-built drawing year</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Year as-built drawing was accepted</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.AB_SEQ_NO">
+                    <attributeName>AB_SEQ_NO</attributeName>
+                    <attributeDefinition>Id Numbers</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Sequentially assigned numbers to make a unique
+                                        id</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.DIAMETER">
+                    <attributeName>DIAMETER</attributeName>
+                    <attributeDefinition>Inside diameter of main</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.MATERIAL">
+                    <attributeName>MATERIAL</attributeName>
+                    <attributeDefinition>Material main is made of</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain>
+                                    <codeDefinition>
+                                        <code>A</code>
+                                        <definition>ACP Asbestos Cement Pipe</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>B</code>
+                                        <definition>DIP Ductile Iron Pipe</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>C</code>
+                                        <definition>CIP Cast Iron Pipe</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>D</code>
+                                        <definition>RCP Reinforced Concrete</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>E</code>
+                                        <definition>PVC Plastic</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>F</code>
+                                        <definition>VCP Vitrified Clay Pipe</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>G</code>
+                                        <definition>TR TRUSS (Manufacturer&#194;&#8217;s name)</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>H</code>
+                                        <definition>LINE Material Type Unknown</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>I</code>
+                                        <definition>RGRCP Rubber Gasket Reinforced
+                                            Concrete</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>J</code>
+                                        <definition>AMPL Amer Plate (d)</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.ACT_LENGTH">
+                    <attributeName>ACT_LENGTH</attributeName>
+                    <attributeDefinition>Actual length of pipe segments</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>foot</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.STATIONING">
+                    <attributeName>STATIONING</attributeName>
+                    <attributeDefinition>Distance in feet from nearest downstream manhole or
+                        cleanout; values...-1 &#194;&#8211; Means tap in manhole-2 &#194;&#8211; Means tap in
+                        cleanout</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>foot</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.APPL_NO">
+                    <attributeName>APPL_NO</attributeName>
+                    <attributeDefinition>Permit application number</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Permit number from service application
+                                        form</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.SACCT_NO">
+                    <attributeName>SACCT_NO</attributeName>
+                    <attributeDefinition>Account number</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>WCIS account number</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.SCUST_NO">
+                    <attributeName>SCUST_NO</attributeName>
+                    <attributeDefinition>Customer number</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>WCIS customer number</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.SYMBOL_COD">
+                    <attributeName>SYMBOL_COD</attributeName>
+                    <attributeDefinition>Feature and type</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Combination of feature and type</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.ASBUILT">
+                    <attributeName>ASBUILT</attributeName>
+                    <attributeDefinition>AS-BUILT</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Combination of ab_job_typ, ab_year,
+                                        ab_seq_no</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.ARC_TYPE">
+                    <attributeName>ARC_TYPE</attributeName>
+                    <attributeDefinition>ARC_TYPE code</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>type according to code in type column</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.STND_ABBR">
+                    <attributeName>STND_ABBR</attributeName>
+                    <attributeDefinition>Abbreviation of main material</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>abbreviation of main material, according to material
+                                        code</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="sewera.MAT_TYPE">
+                    <attributeName>MAT_TYPE</attributeName>
+                    <attributeDefinition>Material type</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>material according to code in material
+                                        column</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <geometry>LineString</geometry>
+            <geometricObjectCount>493478</geometricObjectCount>
+            <spatialReference>
+                <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+            </spatialReference>
+        </spatialVector>
+    </dataset>
+</eml:eml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="370.1"
+            type="primary">
+   <timeStamp value="2015-09-28 15:38:02 -0600"/>
+   <continuingUpdate value="yes" frequency="monthly"/>
+   <title>NCAR Upper Air Database, 1920-ongoing</title>
+   <summary>
+      <p>The NCAR Upper Air Database (UADB) contains global observations beginning in the 1920s and extends to a near current date.  Upper air soundings from about 50 different sources have been consolidated into products that are well documented and provide the longest possible, duplicate-free, station time series. Historical sampling methods have been accounted for by creating two product lines, one with soundings that have wind (UADB-Wind) and another with temperature and humidity (UADB-TRH) measurements. This approach maximizes the amount of data consolidated, and when profiles have simultaneous temperature, humidity, and wind measurements, they are replicated in both products.</p>
+      <p>The first consolidation step was compositing stations with identical WMO station numbers across all data sources. The UADB-TRH product has nearly 1100 stations that report for 20 years or more, and over 400 stations have time series of 50 years or longer. The UADB-Wind product has about 1600 stations that report for 20 years or more, and over 500 stations have soundings for at least 50 years. Next stations with different WMO station numbers, but that are located at identical latitudes and longitudes, or nearly so (within 40 kilometers) were combined, accounting for WMO station number changes and small position relocations. The result is that even longer station time series are created; extensions occur at over 240 and 250 locations in the UADB-TRH and UADB-Wind products, respectively.  The composited and combined products are both available.</p>
+      <p>
+         <font color="red">
+            <b>Note: This dataset (UADB) is currently being supported in maintenance mode, and is not receiving regular updates.  Additionally, some services such as subsetting may not be available.</b>
+         </font>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <contact>Grace Peng</contact>
+   <platform vocabulary="GCMD">RADIOSONDES</platform>
+   <platform vocabulary="GCMD">PIBAL &gt; Pilot Balloons</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>2014-02-24</publicationDate>
+   <contentMetadata>
+      <temporal start="1943-02-09" end="2015-06-30" groupID="uadb-trh"/>
+      <temporal start="1922-07-10" end="2015-06-30" groupID="uadb-wind"/>
+      <temporal start="1943-02-09" end="2015-06-30" groupID="uadb-trhc"/>
+      <temporal start="1922-07-10" end="2015-06-30" groupID="uadb-windc"/>
+      <dataType>platform_observation</dataType>
+      <format>proprietary_ASCII</format>
+   </contentMetadata>
+</dsOverview>

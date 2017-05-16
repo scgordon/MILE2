@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Michael E. Wieczorek, USGS-WRD MDWSC, Geographer</origin>
+            <pubdate>20140710</pubdate>
+            <title>Area- and Depth-Weighted Averages of Selected SSURGO Variables for the Conterminous United States and District of Columbia</title>
+            <geoform>tabular digital data</geoform>
+            <serinfo>
+               <sername>U.S. Geological Survey Data Series</sername>
+               <issue>866</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Reston, VA</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?ds866_ssurgo_variables</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This digital data release consists of seven data files of soil attributes for the United States and the District of Columbia. The files are derived from Natural Resources Conservations Service’s (NRCS) Soil Survey Geographic database (SSURGO). The data files can be linked to the raster datasets of soil mapping unit identifiers (MUKEY) available through the NRCS’s Gridded Soil Survey Geographic (gSSURGO) database (http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcs142p2_053628). The associated files, named DRAINAGECLASS, HYDRATING, HYDGRP, HYDRICCONDITION, LAYER, TEXT, and WTDEP are area- and depth-weighted average values for selected soil characteristics from the SSURGO database for the conterminous United States and the District of Columbia. The SSURGO tables were acquired from the NRCS on March 5, 2014. The soil characteristics in the DRAINAGE table are drainage class (DRNCLASS), which identifies the natural drainage conditions of the soil and refers to the frequency and duration of wet periods. The soil characteristics in the HYDRATING table are hydric rating (HYDRATE), a yes/no field that indicates whether or not a map unit component is classified as a "hydric soil". The soil characteristics in the HYDGRP table are the percentages for each hydrologic group per MUKEY. The soil characteristics in the HYDRICCONDITION table are hydric condition (HYDCON), which describes the natural condition of the soil component. The soil characteristics in the LAYER table are available water capacity (AVG_AWC), bulk density (AVG_BD), saturated hydraulic conductivity (AVG_KSAT), vertical saturated hydraulic conductivity (AVG_KV), soil erodibility factor (AVG_KFACT), porosity (AVG_POR), field capacity (AVG_FC), the soil fraction passing a number 4 sieve (AVG_NO4), the soil fraction passing a number 10 sieve (AVG_NO10), the soil fraction passing a number 200 sieve (AVG_NO200), and organic matter (AVG_OM). The soil characteristics in the TEXT table are percent sand, silt, and clay (AVG_SAND, AVG_SILT, and AVG_CLAY). The soil characteristics in the WTDEP table are the annual minimum water table depth (WTDEP_MIN), available water storage in the 0-25 cm soil horizon (AWS025), the minimum water table depth for the months April, May and June (WTDEPAMJ), the available water storage in the first 25 centimeters of the soil horizon (AWS25), the dominant drainage class (DRCLSD), the wettest drainage class (DRCLSWET), and the hydric classification (HYDCLASS), which is an indication of the proportion of the map unit, expressed as a class, that is "hydric", based on the hydric classification of a given MUKEY. (See Entity_Description for more detail). The tables were created with a set of arc macro language (aml) and awk (awk was created at Bell Labsin the 1970s and its name is derived from the first letters of the last namesof its authors – Alfred Aho, Peter Weinberger, and Brian Kernighan) scripts. Send an email to mewieczo@usgs.gov to obtain copies of the computer code (See Process_Description.) The methods used are outlined in NRCS's "SSURGO Data Packaging and Use" (NRCS, 2011). The tables can be related or joined to the gSSURGO rasters of MUKEYs by the item 'MUKEY.' Joining or relating the tables to a MUKEY grid allows the creation of grids of area- and depth-weighted soil characteristics. A 90-meter raster of MUKEYs is provided which can be used to produce rasters of soil attributes.  More detailed resolution rasters are available through NRCS via the link above.</abstract>
+         <purpose>The data were derived for use in studies requiring estimates of soil characteristics. The georeferenced soil characteristics were intended to be averaged over large areas, such as over a river basin, and used for (1) watershed simulation models that require spatially lumped estimates of soil hydraulic parameters, and (2) as explanatory variables in regional and national water-quality assessment studies.</purpose>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>20140305</begdate>
+               <enddate>20140710</enddate>
+            </rngdates>
+         </timeinfo>
+         <current>Data was processed from a March 2014 version of SSURGO.  Updates will be made as new SSURGO county data becomes available.</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>As needed</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-129.4956</westbc>
+            <eastbc>-64.4393</eastbc>
+            <northbc>48.6336</northbc>
+            <southbc>21.8079</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>environment</themekey>
+            <themekey>geoscientific Information</themekey>
+            <themekey>inlandWaters</themekey>
+            <themekey>Soils</themekey>
+            <themekey>SSURGO</themekey>
+            <themekey>percent clay</themekey>
+            <themekey>percent sand</themekey>
+            <themekey>percent silt</themekey>
+            <themekey>average water capacity</themekey>
+            <themekey>organic material</themekey>
+            <themekey>saturated hydraulic conductivity</themekey>
+            <themekey>ksat</themekey>
+            <themekey>vertical saturated hydraulic conductivity</themekey>
+            <themekey>bulk density</themekey>
+            <themekey>hydrologic groups</themekey>
+            <themekey>soil erodibility factor</themekey>
+            <themekey>kfact</themekey>
+            <themekey>porosity</themekey>
+            <themekey>drainage class</themekey>
+            <themekey>hydric condition</themekey>
+            <themekey>hydric rating</themekey>
+            <themekey>annual minimum water table depth</themekey>
+            <themekey>minimum water table depth for  the months April, May and June</themekey>
+            <themekey>available water storage in the first 25 centimeters of the soil horizon</themekey>
+            <themekey>dominant drainage class</themekey>
+            <themekey>wettest drainage class</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Categories</themekt>
+            <themekey>environment</themekey>
+            <themekey>geoscientificInformation</themekey>
+            <themekey>inlandWaters</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>United States</placekey>
+            <placekey>Alaska</placekey>
+            <placekey>Hawaii</placekey>
+            <placekey>Puerto Rico</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>The U.S. Department of Agriculture, Natural Resources Conservation Service (NRCS, 2014), should be acknowledged as the data source in products derived from these data.  This data is an interpretation of the SSURGO source data and users are cautioned to read all the meatdata and use it accordingly.  This dataset is not designed for use as a primary regulatory tool in permitting or siting decisions, but may be used as a reference source. This is public information and may be interpreted by organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application. Federal, State, or local regulatory bodies are not to reassign to the Natural Resources Conservation Service any authority for the decisions that they make. The Natural Resources Conservation Service will not perform any evaluations of these maps for purposes related solely to State or local regulatory programs.Photographic or digital enlargement of these maps to scales greater than those at which they were originally mapped can cause misinterpretation of the data. If enlarged, maps do not show the small areas of contrasting soils that could have been shown at a larger scale. The depicted soil boundaries, interpretations, and analysis derived from them do not eliminate the need for onsite sampling, testing, and detailed study of specific sites for intensive uses. Thus, these data and their interpretations are intended for planning purposes only. Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>USGS-WRD MDWSC</cntorg>
+               <cntper>Michael E. Wieczorek</cntper>
+            </cntorgp>
+            <cntpos>Geographer</cntpos>
+            <cntaddr>
+               <addrtype>physical</addrtype>
+               <address>5522 Research Park Drive</address>
+               <city>Baltimore</city>
+               <state>MD</state>
+               <postal>21228</postal>
+               <country>US</country>
+            </cntaddr>
+            <cntvoice>443-498-5550</cntvoice>
+            <cntfax>443-498-5510</cntfax>
+            <cntemail>mewieczo@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <browse>
+         <browsen>http://water.usgs.gov/GIS/browse/SSURGOsand.jpg</browsen>
+         <browsed>Illustration of data set</browsed>
+         <browset>jpg</browset>
+      </browse>
+      <datacred>I wish to acknowledge Roland Viger, Curtis Price and David Wolock for their assistance in coding and quality assurance of the data. I also would like to thank Andrew LaMotte and David Wolock for their peer reviews.</datacred>
+      <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3497</native>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>The values of the items were verified for computational accuracy by the author and reviewers.</attraccr>
+      </attracc>
+      <logic>The values of the items were verified for computational accuracy by the author and reviewers.</logic>
+      <complete>Current March 3, 2014.</complete>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>United States Department of Agriculture</origin>
+                  <pubdate>20140305</pubdate>
+                  <title>Soil Survey Geographic (SSURGO) Database Accessed [03/05/2014]</title>
+                  <geoform>tabular digital data</geoform>
+                  <othercit>Soil Survey Staff, Natural Resources Conservation Service, United States Department of Agriculture. Web Soil Survey. Available online at http://websoilsurvey.nrcs.usda.gov/. Accessed [03/05/2014].</othercit>
+                  <onlink>http://websoilsurvey.nrcs.usda.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>None</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2014</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>2014</srccurr>
+            </srctime>
+            <srccitea>Soil Survey Geographic (SSURGO) Database</srccitea>
+            <srccontr>The SSURGO database contains information about soil as collected by the National Cooperative Soil Survey over the course of a century. The information can be displayed in tables or as maps and is available for most areas in the United States and the Territories, Commonwealths, and Island Nations served by the USDA-NRCS. The information was gathered by walking over the land and observing the soil. Many soil samples were analyzed in laboratories. The maps outline areas called map units. The map units describe soils and other components that have unique properties, interpretations, and productivity. The information was collected at scales ranging from 1:12,000 to 1:63,360. More details were gathered at a scale of 1:12,000 than at a scale of 1:63,360. The mapping is intended for natural resource planning and management by landowners, townships, and counties. Some knowledge of soils data and map scale is necessary to avoid misunderstandings.
+
+The maps are linked in the database to information about the component soils and their properties for each map unit. Each map unit may contain one to three major components and some minor components. The map units are typically named for the major components. Examples of information available from the database include available water capacity, soil reaction, electrical conductivity, and frequency of flooding; yields for cropland, woodland, rangeland, and pastureland; and limitations affecting recreational development, building site development, and other engineering uses.
+
+SSURGO datasets consist of map data, tabular data, and information about how the maps and tables were created. The extent of a SSURGO dataset is a soil survey area, which may consist of a single county, multiple counties, or parts of multiple counties. SSURGO map data can be viewed in the Web Soil Survey or downloaded in ESRI® Shapefile format. The coordinate systems are Geographic. Attribute data can be downloaded in text format that can be imported into a Microsoft® Access® database.</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>In order to process soil attributes by soil mapping unit (MUKEY) from the SSURGO database, at least three tables (mapunit, component, and CHORIZON) are needed along with the spatial coverages.  These files can be accessed from NRCS (http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcs142p2_053628).  All available data were downloaded, processed as outlined below.
+
+        SSURGO map unit data are stored in the map unit table (MAPUNIT.TXT), and are referenced by the field MUKEY.  Map units consist of multiple, unmapped soil types called "components."   Component data are stored in the component table (COMP.TXT), and are referenced by the field COKEY.  Soil components (or soil type) are associated with multiple horizons.  Horizon data are stored in the CHORIZON table (CHORIZON.TXT), and are referenced by the field COKEY.  Since there is a one to many (mapunit:component:horizon) relationship between spatial and horizon-level soil property data, two aggregation steps are required in order to produce a thematic map.
+
+        Deriving MUKEY average values for permeability, available water capacity, bulk density, saturated hydraulic conductivity, soil erodibility, field capacity, porosity, average soil thickness, and organic matter required that a weighted-average value be computed for all the soil horizons in a soil component, and then a weighted-average value was computed for all the soil components in a soil mapping unit. First, the component average values were computed by weighting the layer values by their thickness. Second, the MUKEY average was computed by weighting the component average values by their percentage composition of the MUKEY.
+
+        Each step of the two-step weighting process was done exactly as described above: first, the layer values were weighted by their thicknesses and then the component values were weighted by their percentage composition.  The methods used to derive soil variables were taken from the NRCS's SSURGO Data Packaging and Use (NRCS, 2011, http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_053631).  ESRI's ArcInfo Workstation version 9.2 and GNU's awk program version 1.2.0 were used to process all SSURGO files.
+
+        A weighted average of the soil property value for all components in the map unit is used to attribute the map unit for that soil property. Percent composition is used as the weighting factor. This aggregation method is only suitable for numerical attributes.  If the soil property being aggregated is an attribute of a soil horizon, then a single value for all included horizons must be determined for each component before computing a weighted average for all components. In this case, the single  component value is also computed as a weighted average, where the weighting factor for each horizon is its percentage of the depth range in question.  In the following example, a weighted-average value for total clay is calculated.
+
+        Step 1. For each component, a weighted-average value for clay is calculated.
+        Clay  = SUM (horizon thickness/total thickness X total clay) for all included soil horizons.
+
+        Table: component:
+        MUKEY (Mapping Unit)        COKEY (component key)     Percent of Component*
+        100017                            100017:149541               60
+        100017                            100017:149542               40
+
+        Table: CHORIZON
+        COKEY (component key)          Horizon Depth                Clay
+        100017:149541                          20                    9.5
+        100017:149541                          56                   12.5
+        100017:149541                          76                    1.5
+
+        100017:149542                          20                    9.5
+        100017:149542                          10                   11.5
+        100017:149542                         122                     3.5
+
+        100017:149541  [ ( ( 20/152) *9.5 ) + ( ( 56/152 ) * 12.5 ) + ( ( 76/152 ) * 1.5 ) ] = 6.60
+        100017:149542  [ ( ( 20/152) *9.5 ) + ( ( 10/152 ) * 11.5 ) + ( ( 122/152 ) * 3.5 ) ]= 4.82
+
+        Step 2.  For each map unit, a weighted-average value for total clay in the upper 50 centimeters (cm) or less of the soil is
+        calculated.  Total Clay in the Upper 50 cm (or less) = SUM (percent composition* Total Clay in the Upper 50 cm (or less) for
+        all components in the map unit mukey Total Clay in the Upper 50 cm (or less)
+        100017:149541  .60 * 6.60 = 3.96
+        100017:149542  .40 * 4.82 = 1.93
+
+        10017 = 3.96 + 1.93 = 5.89
+
+        * SSURGO is often an incomplete database and at times, the component percentages do not add up to 100 for a MUKEY. When
+        components do not add up to 100, the following calculation is used to ensure that the components are treated as 100%
+        Table: component:
+        MUKEY (Mapping Unit)        COKEY (component key)     Percent of Component
+        100017                            100017:149541               60
+        100017                            100017:149542               30
+
+        100017:149541               60 / (60 + 30 ) = 66.66 Percent of Component
+        100017:149542               30 / (60 + 30 ) = 33.33 Percent of Component
+
+        MUKEYs where components did not add up to 100% were flagged accoding to the following criteria (NRCS, written communic. 3/2014):
+		95 - 105 data were deemed reliable.
+		Less than 95 data were deemed unreliable.
+		Greater than 105 data were deemed suspect.
+		Each soil attribute in this table was processed this way except for vertical saturated hydraulic conductivity (KV) and porosity (POR).  Saturated hydraulic   
+        conductivity (KV)  was calculated the following way:
+
+        KV = d / sum ( di / Ki )
+        where
+        KV is the vertical conductivity;
+        d   is the total soil thickness = sum (di);
+        di  is the thickness of layer i; and
+        Ki  is the permeability of layer i (found in the SSURGO table CHORIZON; KSAT_R which is the saturated hydraulic conductivity).
+
+        Porosity (POR) was calculated the following way:
+ 
+        POR = 1 - [( bulk density) / (particle density)]
+         where
+         bulk density is the item wthirdbar_r found in the SSURGO table CHORIZON.
+         particledensity is the item partdensity found in the SSURGO table CHORIZON.
+        </procdesc>
+            <procdate>20140305</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <indspref>
+  These tabular data are meant to be used with the USDA's NRCS' rasters of soil Mapping Units found at http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcs142p2_053628.
+  </indspref>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <mapprojn>Albers Conical Equal Area</mapprojn>
+               <albers>
+                  <stdparll>29.5000</stdparll>
+                  <stdparll>45.5000</stdparll>
+                  <longcm>-96.000</longcm>
+                  <latprjo>37.5000</latprjo>
+                  <feast>0.0000</feast>
+                  <fnorth>0.0000</fnorth>
+               </albers>
+            </mapproj>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>30.000000</absres>
+                  <ordres>30.000000</ordres>
+               </coordrep>
+               <plandu>Meters</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>Geodetic Reference System 80</ellips>
+            <semiaxis>6378137.000000</semiaxis>
+            <denflat>298.257222</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>LAYER.dbf</enttypl>
+            <enttypd>Selected soil characteristics computed from SSURGO's CHORIZON tables.</enttypd>
+            <enttypds>NRCS (SSURGO CHORIZON tables)</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Rowid</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>Esri</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>MUKEY</attrlabl>
+            <attrdef>Map Unit key.</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>MUKEY id in numeric form</udom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Specific number generated by NRCS.</edomv>
+                  <edomvd>variable</edomvd>
+                  <edomvds>unrepresented domain</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COMPPCT_R</attrlabl>
+            <attrdef>Percentage of all components of a MUKEY used to compute the average </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CONFIDENCE</attrlabl>
+            <attrdef>Denotes quality of data based on component percentages, 95%- 100% denotes reliable data (R), less than 95% denotes unreliable data (U), greater than 105% denotes suspect data (S), and 0% denotes no data (ND). </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_AWC</attrlabl>
+            <attrdef>Area- and depth-weighted available water capacity (cm/cm), -9999 denotes no data.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item awc_r</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>0.6</rdommax>
+                  <attrunit>volume fraction (cm/cm).</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_OM</attrlabl>
+            <attrdef>Area- and depth-weighted value of organic matter content (percent by weight), -9999 denotes no data.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item om_r</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_KSAT</attrlabl>
+            <attrdef>Area- and depth-weighted saturated hydraulic conductivity value in micrometers per second, -9999 denotes no data.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item ksat_r</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>648.966</rdommax>
+                  <attrunit>micrometers per second</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_BD</attrlabl>
+            <attrdef>Area- and depth-weighted value for bulk density (grams per cubic centimeter), -9999 denotes no data.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item bd_r</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>2.52</rdommax>
+                  <attrunit>grams per cubic centimeter</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_FC</attrlabl>
+            <attrdef>The volumetric content of soil water retained at a tension of 1/3 bar (33 kPa), expressed as a percentage of the whole soil, -9999 denotes no data.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item wthirdbar_r</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_POR</attrlabl>
+            <attrdef>Porosity = 100(1 - (moist bulk density/particle density)), -9999 denotes no data</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON items bd_r and partdensity</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_KFACT</attrlabl>
+            <attrdef>Area- and depth-weighted for soil erodibility factor (unitless), -9999 denotes no data.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item kfact_r</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>.64</rdommax>
+                  <attrunit>unitless</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_NO4</attrlabl>
+            <attrdef>Area- and depth-weighted percentage of the soil fraction passing a number 4 sieve, -9999 denotes no data.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item sieveno4.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_NO10</attrlabl>
+            <attrdef>Area- and depth-weighted percentage of the soil fraction passing a number 10 sieve, -9999 denotes no data.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item sieveno10.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_NO200</attrlabl>
+            <attrdef>Area- and depth-weighted Area- and depth-weighted percentage of the soil fraction passing a number 200 sieve, -9999 denotes no data.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item sieveno200.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_KV</attrlabl>
+            <attrdef>vertical saturated conductivity calculated the following way:
+        KV = d / sum ( di / Ki )
+        where
+        KV is the vertical conductivity;
+        d   is the total soil thickness = sum (di);
+        di  is the thickness of layer i; and
+        Ki  is the permeability of layer i (found in the SSURGO table CHORIZON item KSAT_R, which is the saturated hydraulic conductivity), -9999 denotes no data.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON items KSAT_R and HZTHK_R</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>125.53</rdommax>
+                  <attrunit>micrometers per second</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>TEXT.dbf</enttypl>
+            <enttypd>Selected soil characteristics computed from SSURGO's CHORIZON tables.</enttypd>
+            <enttypds>NRCS (SSURGO CHORIZON tables)</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>MUKEY</attrlabl>
+            <attrdef>Map Unit key.</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>MUKEY id in numeric form</udom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Specific number generated by NRCS.</edomv>
+                  <edomvd>variable</edomvd>
+                  <edomvds>unrepresented domain</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COMPPCT_R</attrlabl>
+            <attrdef>Percentage of all components of a MUKEY used to compute the average </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CONFIDENCE</attrlabl>
+            <attrdef>Denotes quality of data based on component percentages, 95%- 100% denotes reliable data (R), less than 95% denotes unreliable data (U), greater than 105% denotes suspect data (S), and 0% denotes no data (ND). </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_SAND</attrlabl>
+            <attrdef>Area- and depth-weighted average percent sand, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item sandtotal_r</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_SILT</attrlabl>
+            <attrdef>Area- and depth-weighted average percent silt, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item silttotal_r</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AVG_CLAY</attrlabl>
+            <attrdef>Area- and depth-weighted average percent clay.</attrdef>
+            <attrdefs>USGS, processed from NRCS table CHORIZON item claytotal_r</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>HYDGRP.dbf</enttypl>
+            <enttypd>Selected soil characteristics computed from SSURGO's CHORIZON tables.</enttypd>
+            <enttypds>NRCS (SSURGO CHORIZON tables)</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>MUKEY</attrlabl>
+            <attrdef>Map Unit key.</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>Specific number generated by NRCS.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDGRP_A</attrlabl>
+            <attrdef>Percentage of a MUKEY with NRCS’ designation of Hydrologic Group A, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDGRP.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDGRP_AD</attrlabl>
+            <attrdef>Percentage of a MUKEY with NRCS’ designation of Hydrologic Group AD, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDGRP.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDGRP_B</attrlabl>
+            <attrdef>Percentage of a MUKEY with NRCS’ designation of Hydrologic Group B, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDGRP.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDGRP_BD</attrlabl>
+            <attrdef>Percentage of a MUKEY with NRCS’ designation of Hydrologic Group BD, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDGRP.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDGRP_C</attrlabl>
+            <attrdef>Percentage of a MUKEY with NRCS’ designation of Hydrologic Group C, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDGRP.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDGRP_CD</attrlabl>
+            <attrdef>Percentage of a MUKEY with NRCS’ designation of Hydrologic Group CD, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDGRP.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDGRP_D</attrlabl>
+            <attrdef>Percentage of a MUKEY with NRCS’ designation of Hydrologic Group D, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDGRP.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDGRP_NA</attrlabl>
+            <attrdef>Percentage of a MUKEY with NRCS’ designation of "not applicable" Hydrologic Group, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDGRP.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>DRAINCLASS.dbf</enttypl>
+            <enttypd>Selected soil characteristics computed from SSURGO's COMPONENT table item DRAINAGECL.</enttypd>
+            <enttypds>NRCS (SSURGO CHORIZON tables)</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>MUKEY</attrlabl>
+            <attrdef>Map Unit key.</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>MUKEY id in numeric form</udom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Specific number generated by NRCS.</edomv>
+                  <edomvd>variable</edomvd>
+                  <edomvds>unrepresented domain</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COMPPCT_R</attrlabl>
+            <attrdef>Percentage of all components of a MUKEY used to compute the average </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CONFIDENCE</attrlabl>
+            <attrdef>Denotes quality of data based on component percentages, 95%- 100% denotes reliable data (R), less than 95% denotes unreliable data (U), greater than 105% denotes suspect data (S), and 0% denotes no data (ND). </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS0</attrlabl>
+            <attrdef>The soil drainage classes identify the natural drainage condition as not reported or filed is NULL in the SSURGO source data, also -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS1</attrlabl>
+            <attrdef>Percent of MUKEY with soil drainage class identifying the natural drainage condition of the soil as excessively drained.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS2</attrlabl>
+            <attrdef>Percent of MUKEY with soil drainage class identifying the natural drainage condition of the soil as moderately well drained, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS3</attrlabl>
+            <attrdef>Percent of MUKEY with soil drainage class identifying the natural drainage condition of the soil as not appllicable, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS4</attrlabl>
+            <attrdef>Percent of MUKEY with soil drainage class identifying the natural drainage condition of the soil as poorly drained, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS5</attrlabl>
+            <attrdef>Percent of MUKEY with soil drainage class identifying the natural drainage condition of the soil as somewhat excessively drained, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS6</attrlabl>
+            <attrdef>Percent of MUKEY with soil drainage class identifying the natural drainage condition of the soil as somewhat poorly drained, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS7</attrlabl>
+            <attrdef>Percent of MUKEY with soil drainage class identifying the natural drainage condition of the soil as subaqueous, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS8</attrlabl>
+            <attrdef>Percent of MUKEY with soil drainage class identifying the natural drainage condition of the soil as very poorly drained, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNCLASS9</attrlabl>
+            <attrdef>Percent of MUKEY with soil drainage class identifying the natural drainage condition of the soil as well drained, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>HYDRATING.dbf</enttypl>
+            <enttypd>Selected soil characteristics computed from SSURGO's COMPONENT table item HYDRATING.</enttypd>
+            <enttypds>NRCS (SSURGO CHORIZON tables)</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>MUKEY</attrlabl>
+            <attrdef>Map Unit key.</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>MUKEY id in numeric form</udom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Specific number generated by NRCS.</edomv>
+                  <edomvd>variable</edomvd>
+                  <edomvds>unrepresented domain</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COMPPCT_R</attrlabl>
+            <attrdef>Percentage of all components of a MUKEY used to compute the average </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CONFIDENCE</attrlabl>
+            <attrdef>Denotes quality of data based on component percentages, 95%- 100% denotes reliable data (R), less than 95% denotes unreliable data (U), greater than 105% denotes suspect data (S), and 0% denotes no data (ND). </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Hydrate_Y</attrlabl>
+            <attrdef>Percent of MUKEY that has "yes" in its field that indicates whether or not a map unit component is classified as a "hydric soil", -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDRICRATING.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Hydrate_N</attrlabl>
+            <attrdef>Percent of MUKEY that has "no" in its field that indicates whether or not a map unit component is classified as a "hydric soil", -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDRICRATING.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Hydrate_NA</attrlabl>
+            <attrdef>Percent of MUKEY that has "NA" (not applicable) in its field that indicates whether or not a map unit component is classified as a "hydric soil", -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDRICRATING.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Hydrate_U</attrlabl>
+            <attrdef>Percent of MUKEY that has "unranked" in its field that indicates whether or not a map unit component is classified as a "hydric soil", -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item HYDRICRATING.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>HYDRICCONDITION.dbf</enttypl>
+            <enttypd>Selected soil characteristics computed from SSURGO's COMPONENT table item HYDRICON.</enttypd>
+            <enttypds>NRCS (SSURGO CHORIZON tables)</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>MUKEY</attrlabl>
+            <attrdef>Map Unit key.</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>MUKEY id in numeric form</udom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Specific number generated by NRCS.</edomv>
+                  <edomvd>variable</edomvd>
+                  <edomvds>unrepresented domain</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COMPPCT_R</attrlabl>
+            <attrdef>Percentage of all components of a MUKEY used to compute the average </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CONFIDENCE</attrlabl>
+            <attrdef>Denotes quality of data based on component percentages, 95%- 100% denotes reliable data (R), less than 95% denotes unreliable data (U), greater than 105% denotes suspect data (S), and 0% denotes no data (ND). </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDCON_1</attrlabl>
+            <attrdef>Percent of MUKEY with the natural condition of the soil component being "farmable under natural conditions", -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDCON_2</attrlabl>
+            <attrdef>Percent of MUKEY with the natural condition of the soil component being "not applicable", -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDCON_3</attrlabl>
+            <attrdef>Percent of MUKEY with the natural condition of the soil component being "neither wooded nor farmable under natural conditions", -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDCON4</attrlabl>
+            <attrdef>Percent of MUKEY with the natural condition of the soil component being "no" or no hydric condition present, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDCON_5</attrlabl>
+            <attrdef>Percent of MUKEY with the natural condition of the soil component being "unranked", -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDCON_6</attrlabl>
+            <attrdef>Percent of MUKEY with the natural condition of the soil component being "wooded under natural condition, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDCON_7</attrlabl>
+            <attrdef>Percent of MUKEY with the natural condition of the soil component being "yes", hydric conditions exist, -9999 denotes no data available, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS component (COMP) table’s item DRAINAGECL.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>WTDEP.dbf</enttypl>
+            <enttypd>Selected soil characteristics computed from SSURGO's MUAGGATT table.</enttypd>
+            <enttypds>NRCS (SSURGO CHORIZON tables)</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>MUKEY</attrlabl>
+            <attrdef>Map Unit key.</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>MUKEY id in numeric form</udom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Specific number generated by NRCS.</edomv>
+                  <edomvd>variable</edomvd>
+                  <edomvds>unrepresented domain</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COMPPCT_R</attrlabl>
+            <attrdef>Percentage of all components of a MUKEY used to compute the average </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CONFIDENCE</attrlabl>
+            <attrdef>Denotes quality of data based on component percentages, 95%- 100% denotes reliable data (R), less than 95% denotes unreliable data (U), greater than 105% denotes suspect data (S), and 0% denotes no data (ND). </attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WTDEP_MIN</attrlabl>
+            <attrdef>The shallowest depth to a wet soil layer (water table) at any time during the year expressed as centimeters from the soil surface, for components whose composition in the map unit is equal to or exceeds 15%.</attrdef>
+            <attrdefs>USGS, processed from NRCS's MUAGGATT table’s item WTDEPANNMIN.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>98</rdommax>
+                  <attrunit>centimeters</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WTDEPAMJ</attrlabl>
+            <attrdef>Percent of MUKEY with the natural condition of the soil component being "not applicable", -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS's MUAGGATT table’s item WTDEPAPRJUNMIN.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>281</rdommax>
+                  <attrunit>centimeters</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AWS25</attrlabl>
+            <attrdef>Available water storage (AWS). The volume of water that the soil, to a depth of 25 centimeters, can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of water,  -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS's MUAGGATT table’s item AWS025WTA.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>15</rdommax>
+                  <attrunit>centimters</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRCLSD</attrlabl>
+            <attrdef>The natural drainage condition of the soil refers to the frequency and duration of wet periods. This column displays the dominant drainage class for the map unit, based on composition percentage of each map unit component, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS's MUAGGATT table’s item DRCLASSCD.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRCLSWET</attrlabl>
+            <attrdef>The natural wettest drainage class, -9999 denotes no data available.
+</attrdef>
+            <attrdefs>USGS, processed from NRCS's MUAGGATT table’s item DRCLASSWETTEST.</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Specific definition generated by NRCS.</edomv>
+                  <edomvd>variable</edomvd>
+                  <edomvds>unrepresented domain</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HYDCLASS</attrlabl>
+            <attrdef>Percent of MUKEY with a the presence of a hydric classification, -9999 denotes no data available.</attrdef>
+            <attrdefs>USGS, processed from NRCS's MUAGGATT table’s item HYDCLPRS.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <overview>
+         <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+         <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS - - Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>Virginia</state>
+               <postal>20192</postal>
+               <country>US</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8487 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://water.usgs.gov/user_feedback_form.html</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>Raster data representing aquifer vulnerability for Colorado and New Mexico</resdesc>
+      <distliab>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+
+Although this information product, for the most part, is in the public domain, it also contains copyrighted materials as noted in the text. Permission to reproduce copyrighted items must be secured from the copyright owner.
+
+Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.
+</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>DRAINAGECLASSS.zip</formname>
+               <formvern>ESRI ArcGIS, Version 102 (dbf files)</formvern>
+               <filedec>Zip Archive (unzip with WinZip, GNUzip, 7zip, or similar program)</filedec>
+               <transize>3534 kb</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/DrainageClass.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>HydGrp.zip</formname>
+               <formvern>ESRI ArcGIS, Version 102 (dbf files)</formvern>
+               <filedec>Zip Archive (unzip with WinZip, GNUzip, 7zip, or similar program)</filedec>
+               <transize>3329 kb</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/HydGrp.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>Hydrating.zip</formname>
+               <formvern>ESRI ArcGIS, Version 102 (dbf files)</formvern>
+               <filedec>Zip Archive (unzip with WinZip, GNUzip, 7zip, or similar program)</filedec>
+               <transize>2433 kb</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/Hydrating.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>HydricCondition.zip</formname>
+               <formvern>ESRI ArcGIS, Version 102 (dbf files)</formvern>
+               <filedec>Zip Archive (unzip with WinZip, GNUzip, 7zip, or similar program)</filedec>
+               <transize>3987 kb</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/HydricCondition.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>Layer.zip</formname>
+               <formvern>ESRI ArcGIS, Version 102 (dbf files)</formvern>
+               <filedec>Zip Archive (unzip with WinZip, GNUzip, 7zip, or similar program)</filedec>
+               <transize>16030 kb</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/Layer.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>Text.zip</formname>
+               <formvern>ESRI ArcGIS, Version 102 (dbf files)</formvern>
+               <filedec>Zip Archive (unzip with WinZip, GNUzip, 7zip, or similar program)</filedec>
+               <transize>6583 kb</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/Text.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>WtDep.zip</formname>
+               <formvern>ESRI ArcGIS, Version 102</formvern>
+               <filedec>Zip Archive (unzip with WinZip, GNUzip, 7zip, or similar program)</filedec>
+               <transize>2572 kb</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/WtDep.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>MUKEY90m.zip</formname>
+               <formvern>GeoTiff</formvern>
+               <filedec>Zip Archive (unzip with WinZip, GNUzip, 7zip, or similar program)</filedec>
+               <transize>720 mb</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/MUKEY90m.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None.</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20140710</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>US Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>Virginia</state>
+               <postal>20192</postal>
+               <country>US</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8487 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ds866_ssurgo_variables</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

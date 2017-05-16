@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Cheryl Hapke</origin>
+            <origin>David Reid</origin>
+            <pubdate>2006</pubdate>
+            <title>NORCAL_BASELINES - Offshore Baseline for Northern California Generated to Calculate Shoreline Change Rates</title>
+            <edition>1.1</edition>
+            <geoform Sync="TRUE">vector digital data</geoform>
+            <serinfo>
+               <sername>Open-File Report</sername>
+               <issue>2006-1251</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Pacific Science Center, Santa Cruz, CA</pubplace>
+               <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <onlink>http://pubs.usgs.gov/of/2006/1251/NCal.zip</onlink>
+            <lworkcit>
+               <citeinfo>
+                  <origin>Cheryl Hapke</origin>
+                  <origin>David Reid</origin>
+                  <pubdate>2006</pubdate>
+                  <title>National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the Sandy Shorelines of the California Coast</title>
+                  <edition>1.1</edition>
+                  <serinfo>
+                     <sername>Open-File Report</sername>
+                     <issue>2006-1251</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <pubplace>Pacific Science Center, Santa Cruz, CA</pubplace>
+                     <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+                  </pubinfo>
+                  <onlink>http://pubs.usgs.gov/of/2006/1251/</onlink>
+               </citeinfo>
+            </lworkcit>
+            <ftname Sync="TRUE">Norcal_Baseline</ftname>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>Rates of long-term and short-term shoreline change were generated in a GIS using the Digital Shoreline Analysis System (DSAS) version 3.0; An ArcGIS extension for calculating shoreline change: U.S. Geological Survey Open-File Report 2005-1304, Thieler, E.R., Himmelstoss, E.A., Zichichi, J.L., and Miller, T.M. The extension is designed to efficiently lead a user through the major steps of shoreline change analysis. This extension to ArcGIS contains three main components that define a baseline, generate orthogonal transects at a user-defined separation along the coast, and calculate rates of change (linear regression, endpoint rate, average of rates, average of endpoints, jackknife).</abstract>
+         <purpose>Historical shoreline change is considered to be a crucial element in studying the vulnerability of the national shoreline.  These data are used in a shoreline change analysis for the U.S. Geological Survey (USGS) National Assessment Project.</purpose>
+         <langdata Sync="TRUE">en</langdata>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>2006</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>Unknown</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc Sync="TRUE">-124.409354</westbc>
+            <eastbc Sync="TRUE">-122.968455</eastbc>
+            <northbc Sync="TRUE">41.999479</northbc>
+            <southbc Sync="TRUE">38.231342</southbc>
+         </bounding>
+         <lboundng>
+            <leftbc Sync="TRUE">-124.409354</leftbc>
+            <rightbc Sync="TRUE">-122.968455</rightbc>
+            <topbc Sync="TRUE">41.999479</topbc>
+            <bottombc Sync="TRUE">38.231342</bottombc>
+         </lboundng>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>General</themekt>
+            <themekey>Shoreline</themekey>
+            <themekey>Historic Shoreline</themekey>
+            <themekey>Shoreline Change Rate</themekey>
+            <themekey>Linear Regression Rate</themekey>
+            <themekey>Endpoint Rate</themekey>
+            <themekey>Baseline</themekey>
+            <themekey>Beach Erosion</themekey>
+            <themekey>Beach Nourishment</themekey>
+            <themekey>LIDAR</themekey>
+            <themekey>T-sheet</themekey>
+            <themekey>Tp-sheet</themekey>
+            <themekey>Coastal Survey Map</themekey>
+            <themekey>U.S. Geological Survey</themekey>
+            <themekey>USGS</themekey>
+            <themekey>Coastal and Marine Geology Program</themekey>
+            <themekey>CMGP</themekey>
+            <themekey>ESRI polyline shapefile</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Category</themekt>
+            <themekey>oceans</themekey>
+            <themekey>oceans and estuaries</themekey>
+            <themekey>oceans and coastal</themekey>
+            <themekey>environment</themekey>
+            <themekey>geoscientificInformation</themekey>
+         </theme>
+         <place>
+            <placekey>United States</placekey>
+            <placekey>California</placekey>
+            <placekt>General</placekt>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>Public domain data from the U.S. government are freely redistributable with proper metadata and source attribution.  Please recognize the U.S. Geological Survey (USGS) as the source of this information.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Bruce Richmond</cntper>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>Pacific Science Center</address>
+               <address>400 Natural Bridges Drive</address>
+               <city>Santa Cruz</city>
+               <state>Ca</state>
+               <postal>95060</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>(831) 427-4450</cntvoice>
+            <cntfax>(831) 427-4748</cntfax>
+            <hours>Monday through Friday, 8 a.m. to 5 p.m., Eastern Standard Time</hours>
+         </cntinfo>
+      </ptcontac>
+      <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
+      <crossref>
+         <citeinfo>
+            <origin>Cheryl J. Hapke</origin>
+            <origin>David Reid</origin>
+            <origin>Bruce M. Richmond</origin>
+            <origin>Peter Ruggiero</origin>
+            <origin>Jeff List</origin>
+            <pubdate>2006</pubdate>
+            <title>National Assessment of Shoreline Change Part 3: Historical Shoreline Change and Associated Coastal Land Loss Along Sandy Shorelines of the California Coast</title>
+            <edition>1.0</edition>
+            <serinfo>
+               <sername>Open-File Report</sername>
+               <issue>2006-1219</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Pacific Science Center, Santa Cruz, CA</pubplace>
+               <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <onlink>http://pubs.usgs.gov/of/2006/1219/</onlink>
+         </citeinfo>
+      </crossref>
+      <crossref>
+         <citeinfo>
+            <origin>E. Robert Thieler</origin>
+            <origin>Emily A. Himmelstoss</origin>
+            <origin>Jessica L. Zichichi</origin>
+            <origin>Tara L. Miller</origin>
+            <pubdate>2005</pubdate>
+            <title>The Digital Shoreline Analysis System (DSAS) version 3.0, an ArcGIS Extension for Calculating Historic Shoreline Change</title>
+            <edition>3.0</edition>
+            <serinfo>
+               <sername>Open-File Report</sername>
+               <issue>2005-1304</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Woods Hole Science Center, Woods Hole, MA</pubplace>
+               <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <onlink>http://woodshole.er.usgs.gov/project-pages/DSAS/version3/</onlink>
+         </citeinfo>
+      </crossref>
+      <natvform Sync="TRUE">Shapefile</natvform>
+   </idinfo>
+   <dataqual>
+      <logic>Baseline generation was made as part of the calculation process for the Digital Shoreline Analysis System an Extension for ArcGIS (http://pubs.usgs.gov/of/2005/1304/)</logic>
+      <complete>This baseine data represents a generalization of the shoreline of California used by DSAS.  Remaining gaps in this data, if applicable, are a consequence of non-existing shoreline data. </complete>
+      <posacc>
+         <horizpa>
+            <horizpar>A Baseline was generated within ArcGIS to be used by the Digital Shoreline Anaylsis System (http://pubs.usgs.gov/of/2005/1304/)in the calculation of shoreline change rates. Please visit our full report on shoreline change in the Coastline of California (http://pubs.usgs.gov/of/2006/1219/) for more information about this analysis</horizpar>
+         </horizpa>
+      </posacc>
+      <lineage>
+         <procstep>
+            <procdesc>
+A baseline was manually constructed seaward of, and parallel to, the trend of shorelines representing four general time periods (1800s, 1920s-1930s, 1970s, and 1998-2002).  Using DSAS (USGS OFR 2005-1304), transects were generated with a spacing of 50m and transect-shoreline intersection points were saved to a separate layer.  Transects were manually eliminated to prevent calculation of rates in areas where less than four shorelines were intersected.  
+
+Long-term rates of shoreline change, in units of m/yr, were calculated at each transect using linear regression applied to all four shoreline positions from the earliest (1800s) to the most recent (derived from lidar).  Linear regression was selected because it has been shown to be the most statistically robust quantitative method when a limited number of shorelines are available and it is the most commonly applied statistical technique for expressing shoreline movement and estimating rates of change.  Uncertainties for the long-term rates are also reported in units of m/yr and represent a 90% confidence interval for the slope of the regression line.  This means with 90% statistical confidence that the true rate of shoreline change falls within the range defined by the reported value plus or minus the error value.  The variability around the trend reflects both measurement and sampling errors.  Short-term rates of shoreline change, in units of m/yr, were calculated using the endpoint method comparing the 1970s and most recent shoreline positions.
+</procdesc>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Bruce Richmond</cntper>
+                     <cntorg>U.S. Geological Survey</cntorg>
+                  </cntperp>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>Pacific Science Center</address>
+                     <address>400 Natural Bridges Drive</address>
+                     <city>Santa Cruz</city>
+                     <state>Ca</state>
+                     <postal>95060</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>(831) 427-4450</cntvoice>
+                  <cntfax>(831) 427-4748</cntfax>
+                  <hours>Monday through Friday, 8 a.m. to 5 p.m., Pacific Standard Time</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Data were projected from UTM zone 10 to geographic with Datum shift from NAD27 to NAD83_6
+
+Tool: ArcGIS &gt; ArcToolbox &gt; Toolboxes &gt; Data Management Tools &gt; Project
+
+Command issued:
+
+['GCS_North_American_1983',DATUM['D_North_American_1983',
+SPHEROID['GRS_1980',6378137.0,298.257222101]],
+PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] 
+NAD_1927_To_NAD_1983_6</procdesc>
+            <procdate>20070215</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Emily Himmelstoss</cntper>
+                     <cntorg>U.S. Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Geologist</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>384 Woods Hole Road</address>
+                     <city>Woods Hole</city>
+                     <state>MA</state>
+                     <postal>02543-1598</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>508-548-8700 x2262</cntvoice>
+                  <cntfax>(508) 457-2310</cntfax>
+                  <cntemail>ehimmelstoss@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+            <procsv>ArcGIS 9.1 Toolbox</procsv>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct Sync="TRUE">Vector</direct>
+      <ptvctinf>
+         <sdtsterm Name="Norcal_Baseline">
+            <sdtstype Sync="TRUE">String</sdtstype>
+            <ptvctcnt Sync="TRUE">1</ptvctcnt>
+         </sdtsterm>
+         <esriterm Name="Norcal_Baseline">
+            <efeatyp Sync="TRUE">Simple</efeatyp>
+            <esritopo Sync="TRUE">FALSE</esritopo>
+            <linrefer Sync="TRUE">FALSE</linrefer>
+            <spindex Sync="TRUE">TRUE</spindex>
+            <efeageom Sync="TRUE">Polyline</efeageom>
+            <efeacnt Sync="TRUE">1</efeacnt>
+         </esriterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <geodetic>
+            <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+            <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+            <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+            <denflat Sync="TRUE">298.257222</denflat>
+         </geodetic>
+         <cordsysn>
+            <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+         </cordsysn>
+         <geograph>
+            <geogunit Sync="TRUE">Decimal degrees</geogunit>
+            <latres Sync="TRUE">0.000000</latres>
+            <longres Sync="TRUE">0.000000</longres>
+         </geograph>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed Name="Norcal_Baseline">
+         <enttyp>
+            <enttypl Sync="TRUE">Norcal_Baseline</enttypl>
+            <enttypd>Baseline for Southern California</enttypd>
+            <enttypds>USGS</enttypds>
+            <enttypc Sync="TRUE">1</enttypc>
+            <enttypt Sync="TRUE">Feature Class</enttypt>
+         </enttyp>
+         <attr>
+            <attrlabl Sync="TRUE">FID</attrlabl>
+            <attrdef Sync="TRUE">Internal feature number.</attrdef>
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+            <attrdomv>
+               <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attalias Sync="TRUE">FID</attalias>
+            <attrtype Sync="TRUE">OID</attrtype>
+            <attscale Sync="TRUE">0</attscale>
+            <attwidth Sync="TRUE">4</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Shape</attrlabl>
+            <attrdef Sync="TRUE">Feature geometry.</attrdef>
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+            <attrdomv>
+               <udom Sync="TRUE">Coordinates defining the features.</udom>
+            </attrdomv>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attalias Sync="TRUE">Shape</attalias>
+            <attrtype Sync="TRUE">Geometry</attrtype>
+            <attscale Sync="TRUE">0</attscale>
+            <attwidth Sync="TRUE">0</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">ID</attrlabl>
+            <attrdef>Feature number.</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>30</rdommax>
+               </rdom>
+            </attrdomv>
+            <attalias Sync="TRUE">ID</attalias>
+            <attrtype Sync="TRUE">Number</attrtype>
+            <attwidth Sync="TRUE">6</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">SOURCE</attrlabl>
+            <attrdef>Agency that provided feature or data used to create feature.</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>USGS</edomv>
+                  <edomvd>United States Geological Survey</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+            </attrdomv>
+            <attalias Sync="TRUE">SOURCE</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">20</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">ACCURACY</attrlabl>
+            <attrdef>Position accuracy of feature.</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0</edomv>
+                  <edomvd>The accuracy is not given or is not known.</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+            </attrdomv>
+            <attalias Sync="TRUE">ACCURACY</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">10</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">TYPE</attrlabl>
+            <attrdef>Type of feature.</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Baseline</edomv>
+                  <edomvd>Vector baseline.</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+            </attrdomv>
+            <attalias Sync="TRUE">TYPE</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">64</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">DESCR</attrlabl>
+            <attrdef>Detailed description of the feature.</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <udom>Describes additional characteristics of feature.</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">DESCR</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">32</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">DATE_</attrlabl>
+            <attalias Sync="TRUE">DATE_</attalias>
+            <attrtype Sync="TRUE">Number</attrtype>
+            <attwidth Sync="TRUE">3</attwidth>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>Pacific Science Center</address>
+               <city>Santa Cruz</city>
+               <state>Ca</state>
+               <postal>95060</postal>
+               <country>USA</country>
+               <address>400 Natural Bridges Drive</address>
+            </cntaddr>
+            <cntvoice>(831) 427-4450</cntvoice>
+            <cntfax>(831) 427-4748</cntfax>
+            <hours>Monday through Friday, 8 a.m. to 5 p.m., Eastern Standard Time</hours>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data: USGS Open-File Report 2006-1251</resdesc>
+      <distliab>
+Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, these data and information are provided with the understanding that they are not guaranteed to be usable, timely, accurate, or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+
+Neither the U.S. Government nor any agency thereof, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any data, software, information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights.
+
+Trade, firm, or product names and other references to non-USGS products and services are provided for information only and do not constitute endorsement or warranty, express or implied, by the USGS, USDOI, or U.S. Government, as to their suitability, content, usefulness, functioning, completeness, or accuracy.
+</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>SHP</formname>
+               <formvern>20060901</formvern>
+               <formspec>ESRI polyline shapefile</formspec>
+               <formcont>Seven files comprise the ArcView shapefile: &lt;filename&gt;.dbf, &lt;filename&gt;.shp, &lt;filename&gt;.shx, &lt;filename&gt;.prj, &lt;filename&gt;.avl, &lt;filename&gt;.sbx, &lt;filename&gt;.sbn</formcont>
+               <filedec>zip archive</filedec>
+               <transize>0.038</transize>
+               <dssize Sync="TRUE">0.015</dssize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://pubs.usgs.gov/of/2006/1251/NCal.zip</networkr>
+                        <networkr>http://pubs.usgs.gov/of/2006/1251/#gis</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Data may be downloaded via the World Wide Web (WWW).</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None</fees>
+      </stdorder>
+      <techpreq>These data are available in Environmental Systems Research Institute (ESRI) shapefile format. The user must have ArcGIS or ArcView 3.0 or greater software to read and process the data file. In lieu of ArcView or ArcGIS, the user may utilize another GIS application package capable of importing the data. A free data viewer, ArcExplorer, capable of displaying the data is available from ESRI at www.esri.com.</techpreq>
+   </distinfo>
+   <metainfo>
+      <metd Sync="TRUE">20070301</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>Pacific Science Center</address>
+               <address>400 Natural Bridges Drive</address>
+               <city>Santa Cruz</city>
+               <state>Ca</state>
+               <postal>95060</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>(831) 427-4450</cntvoice>
+            <cntfax>(831) 427-4748</cntfax>
+            <hours>Monday through Friday, 8 a.m. to 5 p.m., Eastern Standard Time</hours>
+         </cntinfo>
+      </metc>
+      <metac>None</metac>
+      <metuc>None</metuc>
+      <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+      <mettc Sync="TRUE">local time</mettc>
+      <langmeta Sync="TRUE">en</langmeta>
+      <metextns>
+         <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+         <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+      </metextns>
+      <metrd>20070301</metrd>
+   </metainfo>
+   <dataIdInfo>
+      <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</envirDesc>
+      <dataLang>
+         <languageCode Sync="TRUE" value="en"/>
+      </dataLang>
+      <geoBox esriExtentType="decdegrees">
+         <westBL Sync="TRUE">-124.409354</westBL>
+         <northBL Sync="TRUE">41.999479</northBL>
+         <southBL Sync="TRUE">38.231342</southBL>
+         <eastBL Sync="TRUE">-122.968455</eastBL>
+         <exTypeCode Sync="TRUE">1</exTypeCode>
+      </geoBox>
+      <idCitation>
+         <resTitle Sync="TRUE">Norcal_Baseline</resTitle>
+         <presForm>
+            <PresFormCd Sync="TRUE" value="005"/>
+         </presForm>
+      </idCitation>
+      <spatRpType>
+         <SpatRepTypCd Sync="TRUE" value="001"/>
+      </spatRpType>
+      <dataExt>
+         <geoEle>
+            <GeoBndBox esriExtentType="native">
+               <westBL Sync="TRUE">-124.409354</westBL>
+               <northBL Sync="TRUE">41.999479</northBL>
+               <southBL Sync="TRUE">38.231342</southBL>
+               <eastBL Sync="TRUE">-122.968455</eastBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </GeoBndBox>
+         </geoEle>
+      </dataExt>
+   </dataIdInfo>
+   <distInfo>
+      <distributor>
+         <distorTran>
+            <onLineSrc>
+               <orDesc Sync="TRUE">002</orDesc>
+               <protocol Sync="TRUE">Local Area Network</protocol>
+               <linkage Sync="TRUE">file://\\gisdata\data01\regional\westcoast\shoreline_change\ca_coast\geo\norcal\Norcal_Baseline.shp</linkage>
+            </onLineSrc>
+            <transSize Sync="TRUE">0.015</transSize>
+         </distorTran>
+         <distorFormat>
+            <formatName Sync="TRUE">Shapefile</formatName>
+         </distorFormat>
+      </distributor>
+   </distInfo>
+   <Esri>
+      <CreaDate>20060822</CreaDate>
+      <ModDate>20070301</ModDate>
+      <ModTime>19284800</ModTime>
+      <Sync>FALSE</Sync>
+      <SyncDate>20070301</SyncDate>
+      <SyncOnce>FALSE</SyncOnce>
+      <SyncTime>19172000</SyncTime>
+      <CreaTime>10374400</CreaTime>
+      <MetaID>{8B6B10B6-58E0-4FF9-89AB-7A3C19F1FF1F}</MetaID>
+   </Esri>
+   <mdChar>
+      <CharSetCd Sync="TRUE" value="004"/>
+   </mdChar>
+   <mdDateSt Sync="TRUE">20070301</mdDateSt>
+   <mdHrLv>
+      <ScopeCd Sync="TRUE" value="005"/>
+   </mdHrLv>
+   <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+   <mdLang>
+      <languageCode Sync="TRUE" value="en"/>
+   </mdLang>
+   <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+   <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+   <refSysInfo>
+      <RefSystem>
+         <refSysID>
+            <identCode Sync="TRUE">GCS_North_American_1983</identCode>
+         </refSysID>
+      </RefSystem>
+   </refSysInfo>
+   <spatRepInfo>
+      <VectSpatRep>
+         <topLvl>
+            <TopoLevCd Sync="TRUE" value="001"/>
+         </topLvl>
+         <geometObjs Name="Norcal_Baseline">
+            <geoObjTyp>
+               <GeoObjTypCd Sync="TRUE" value="001"/>
+            </geoObjTyp>
+            <geoObjCnt Sync="TRUE">1</geoObjCnt>
+         </geometObjs>
+      </VectSpatRep>
+   </spatRepInfo>
+</metadata>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="111.2"
+            type="primary">
+   <timeStamp value="2015-11-18 15:00:57 -0700"/>
+   <continuingUpdate value="yes" frequency="monthly"/>
+   <title>ECMWF TOGA 2.5 degree Global Surface and Upper Air Analyses</title>
+   <summary>
+      <p>This dataset contains 2.5 degree latitude-longitude output grids from the
+              ECMWF operational model.  Both upper air and surface grids
+              are archived in this dataset.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"
+                contact="Keith Fielding"
+                citable="yes"/>
+   <restrictions>
+      <access>
+         <p>Must be a registered user of RDA ECMWF Data (Other Than Operational Data). Please update your current RDA user profile by clicking on the "ECMWF Data (Other Than Operational Data)" terms of acceptance, or create a new RDA user profile if you have not already done so (and click on the "ECMWF Data (Other Than Operational Data)" terms of acceptance during the registration process).</p>
+      </access>
+   </restrictions>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Land Temperature &gt; Skin Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <contact>Doug Schuster</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">ECMWFIFS &gt; ECMWF Integrated Forecast System</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Trenberth, K.E.</authorList>
+      <year>1992</year>
+      <title>Global Analyses from ECMWF and Atlas of 1000 to 10 mb Circulation Statistics</title>
+      <organization reportID="TN-373+STR" pages="205">National Center for Atmospheric Research</organization>
+   </reference>
+   <relatedResource url="http://www.ecmwf.int">ECMWF Web Site</relatedResource>
+   <relatedDataset ID="111.0"/>
+   <relatedDataset ID="111.1"/>
+   <relatedDataset ID="111.3"/>
+   <relatedDataset ID="111.6"/>
+   <relatedDataset ID="117.0"/>
+   <relatedDataset ID="627.0"/>
+   <relatedDataset ID="113.0"/>
+   <publicationDate>1990-12-28</publicationDate>
+   <contentMetadata>
+      <temporal start="2009-07-01 00:00 +0000"
+                end="2015-10-31 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <format>WMO_GRIB0</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="73"
+               startLon="0E"
+               startLat="90N"
+               endLon="357.5E"
+               endLat="90S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

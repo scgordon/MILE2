@@ -1,0 +1,2034 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.5003.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+
+    <shortName>Offshore CTD Transects</shortName>
+    <title>MCR LTER: Coral Reef: Water Column: Offshore Water Profiles: CTD Transects</title>
+
+    <creator id="MCR" scope="document">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </creator>
+    <creator id="lwashburn" scope="document">
+      <individualName>
+        <givenName>Libe</givenName>
+        <surName>Washburn</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Investigator</positionName>
+      <address scope="document">
+				<deliveryPoint>Department Of Geography</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-4060</postalCode>
+				<country>USA</country>
+			</address>
+      <phone phonetype="voice">805.893.7367</phone>
+      <electronicMailAddress>washburn@geog.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://www.geog.ucsb.edu/people/faculty/libe-washburn.php</onlineUrl>
+    </creator>
+    <associatedParty id="mfewings" scope="document">
+      <individualName>
+        <givenName>Melanie</givenName>
+        <surName>Fewings</surName>
+      </individualName>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <positionName>Associated Investigator</positionName>
+      <address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+      <electronicMailAddress>fewings@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+      <role>Investigator</role>
+    </associatedParty>
+    <associatedParty id="ndellaripa" scope="document">
+      <individualName>
+        <givenName>Nick</givenName>
+        <surName>Dellaripa</surName>
+      </individualName>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address scope="document">
+        <deliveryPoint>Physics Department</deliveryPoint>
+        <deliveryPoint>University of California, Santa Barbara</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>nick@physics.ucsb.edu</electronicMailAddress>
+      <role>contentProvider</role>
+    </associatedParty>
+    <associatedParty id="cgotschalk" scope="document">
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Gotschalk</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address scope="document">
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city><administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>gots@lifesci.ucsb.edu</electronicMailAddress>
+      <role>contentProvider</role>
+    </associatedParty>
+    <pubDate>2011-05-24</pubDate>
+    <abstract>
+      <para>This dataset contains vertical water column profiles along transects heading
+        offshore over the forereefs on the three sides of Moorea. These sides are designated north,
+        southeast, and southwest. This process study intended to look for a hypothesized buoyant
+        flow that would account for the counter-clockwise (CCW) circulation around the island. These
+        transects were designed to look for cross-shore density gradients associated with the CCW
+        flow. The SeaBird SBE19-Plus Profiler (CTD), outfitted with WetLabs FLNTURT-221 fluorometer,
+        was cast at closely-spaced stations along transects oriented approximately normal to the
+        three sides of the island. Standard CTD parameters (conductivity, temperature, and density)
+        were used to calculate salinity, depth, and other physical quantities. No bottle samples
+        were collected on these cruises.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Moorea Coral Reef</keyword>
+      <keyword keywordType="theme">MCR</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">University of California Santa Barbara</keyword>
+      <keyword keywordType="theme">California State University Northridge</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">profiles</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">French Polynesia</keyword>
+      <keyword keywordType="place">Moorea</keyword>
+
+      <keyword keywordType="place">North Shore</keyword>
+      <keyword keywordType="place">East Shore</keyword>
+      <keyword keywordType="place">West Shore</keyword>
+      <keywordThesaurus>MCR LTER Site</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Marine</keyword>
+      <keyword keywordType="theme">Temperature</keyword>
+      <keywordThesaurus>KNB</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Chlorophylls</keyword>
+      <keyword keywordType="theme">Vertical structure (water bodies)</keyword>
+      <keyword keywordType="theme">Coral reefs</keyword>
+      <keyword keywordType="theme">Water column</keyword>
+      <keyword keywordType="theme">Water temperature</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean Temperature: Water Temperature</keyword>
+      <keyword keywordType="theme">Salinity/Density: Conductivity</keyword>
+      <keyword keywordType="theme">Salinity/Density: Density</keyword>
+      <keyword keywordType="theme">Salinity/Density: Salinity</keyword>
+      <keyword keywordType="theme">Water Pressure: Pressure</keyword>
+      <keyword keywordType="theme">Ocean Optics: Fluorescence</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Chlorophyll</keyword>
+      <keywordThesaurus>GCMD Keywords, Version 6.0.0.0.0: EARTH SCIENCE: Oceans:</keywordThesaurus>
+    </keywordSet>
+
+
+
+    <intellectualRights>
+      <para>Data collected under the auspices of the MCR LTER are available to the public after
+        primary publication, or at most two years after the completion of the study unless
+        proprietary restrictions are warranted. Use of MCR LTER data is subject to acceptance of the
+        following conditions: <itemizedlist>
+          <listitem>
+            <para>1. The user agrees to provide valid name and contact information prior to
+              downloading online data. This information will be used to contact the user in case of
+              changes to the data, and may also be used by data set authors and MCR LTER project
+              administrators to document data usage.</para>
+          </listitem>
+          <listitem>
+            <para>2. The user agrees to cite the data set author and MCR LTER in all publications in
+              which the data are used, as per the instructions in the data documentation. If no
+              specific instructions are provided in the data documentation, the user is requested to
+              include the following statement: "Data sets were provided by the Moorea Coral
+              Reef Ecosystem LTER, funded by the US National Science Foundation
+              (OCE-0417412)."</para>
+          </listitem>
+          <listitem>
+            <para>3. The user agrees to provide one copy of any manuscript based on MCR LTER data to
+              the data set author prior to submitting it for publication.</para>
+          </listitem>
+          <listitem>
+            <para>4. The user agrees to send two hard copies of any published manuscript based on
+              MCR LTER data to the following address: Dr. Andrew J. Brooks Deputy Program Director,
+              MCR LTER Marine Science Institute University of California Santa Barbara, CA
+              93106-6150 The user also agrees to send one electronic copy (pdf format) to the
+              following e-mail address: brooks@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>5. Users are prohibited from selling or redistributing any data provided by MCR
+              LTER without explicit prior permission.</para>
+          </listitem>
+          <listitem>
+            <para>6. Users are encouraged to contact original investigators responsible for data.
+              Where appropriate, researchers whose projects are integrally dependent on MCR LTER
+              data are encouraged to consider collaboration and/or co-authorship with original
+              investigators.</para>
+          </listitem>
+          <listitem>
+            <para>7. Extensive efforts are made to ensure that online data are accurate and up to
+              date, but the authors and the MCR LTER will not take responsibility for any errors
+              that may exist in data provided online. Furthermore, the user assumes all
+              responsibility for errors in analysis or judgment resulting from use of the
+              data.</para>
+          </listitem>
+          <listitem>
+            <para> 8. Any violation of the terms of this agreement will result in immediate
+              forfeiture of the data and loss of access privileges to other MCR LTER data
+              sets.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <coverage scope="document">
+      <geographicCoverage id="moorea_generic_box" scope="document">
+        <geographicDescription>Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.62</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="N" scope="document">
+        <geographicDescription>Water column profile transect, North of Moorea. 
+          Altitude is referenced to Mean Sea Level (MSL).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.84282</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.83663</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.42147</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.47518</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-720.0</altitudeMinimum>
+            <altitudeMaximum>-9.0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            
+            <gRingPoint>
+              <gRingLatitude>-17.42147</gRingLatitude>
+              <gRingLongitude>-149.84282</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.43935</gRingLatitude>
+              <gRingLongitude>-149.84027</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.46538</gRingLatitude>
+              <gRingLongitude>-149.83718</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.47513</gRingLatitude>
+              <gRingLongitude>-149.83668</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.47512</gRingLatitude>
+              <gRingLongitude>-149.83885</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.42147</gRingLatitude>
+              <gRingLongitude>-149.84282</gRingLongitude>
+            </gRingPoint>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="E" scope="document">
+        <geographicDescription>Water column profile transect, East of Moorea. 
+          Altitude is referenced to Mean Sea Level (MSL).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.76912</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.74297</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.54725</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.58178</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-1540.0</altitudeMinimum>
+            <altitudeMaximum>-8.5</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRingPoint>
+              <gRingLatitude>-17.54725</gRingLatitude>
+              <gRingLongitude>-149.76912</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.55548</gRingLatitude>
+              <gRingLongitude>-149.75955</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.57115</gRingLatitude>
+              <gRingLongitude>-149.74297</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.58178</gRingLatitude>
+              <gRingLongitude>-149.74345</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.56117</gRingLatitude>
+              <gRingLongitude>-149.75897</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.54725</gRingLatitude>
+              <gRingLongitude>-149.76912</gRingLongitude>
+            </gRingPoint>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+
+      </geographicCoverage>
+      <geographicCoverage id="W" scope="document">
+        <geographicDescription>Water column profile transect, West of Moorea. 
+          Altitude is referenced to Mean Sea Level (MSL).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.92943</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.87423</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.58110</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.60368</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-650.0</altitudeMinimum>
+            <altitudeMaximum>-7.4</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRingPoint>
+              <gRingLatitude>-17.59658</gRingLatitude>
+              <gRingLongitude>-149.92943</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.60368</gRingLatitude>
+              <gRingLongitude>-149.90183</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.58135</gRingLatitude>
+              <gRingLongitude>-149.87423</gRingLongitude>
+            </gRingPoint>
+            <gRingPoint>
+              <gRingLatitude>-17.59658</gRingLatitude>
+              <gRingLongitude>-149.92943</gRingLongitude>
+            </gRingPoint>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+
+      </geographicCoverage>
+      
+      
+      <temporalCoverage scope="document">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2010-06-28</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010-08-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is not a time series.</para>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="mcr-boilerplate-contact_MCR" scope="system" system="mcrlter">
+      <positionName>Information Manager, Moorea Coral Reef LTER</positionName>
+      <address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>California</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>United States</country>
+			</address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>This is the standard CTD protocol for Moorea.</para>
+          </section>
+        </description>
+        <protocol scope="document">
+          <title>CTD Deployment and Download</title>
+          <creator scope="document">
+            <individualName>
+              <surName>Alldredge</surName>
+            </individualName>
+          </creator>
+          <distribution scope="document">
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/waterColumn/LTER_CTD_Instructions_10.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project scope="document">
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="rschmitt" scope="document">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="sholbrook" scope="document">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="pedmunds" scope="document">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="rcarpenter" scope="document">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) OCE-0417412</para>
+      </funding>
+    </project>
+
+
+    <dataTable id="MCR_LTER_CTD_Transects_North_shore" scope="document">
+      <entityName>CTD Profile Transects North shore</entityName>
+      <entityDescription>CTD profile data, processed with standard MCR protocols, for the North shore transect</entityDescription>
+      <physical scope="document">
+        <objectName>MCR_LTER_CTD_Transects_North_shore_20110413.csv</objectName>
+        <size unit="Kb">730</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.5003&amp;entityindex=1</url>
+          </online>                     
+          <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2010-06-28</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2010-08-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="time_local_N" scope="document">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Local Time</attributeLabel>
+          <attributeDefinition>Local time data collected.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1 second</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="time_utc_N" scope="document">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>UTC Time</attributeLabel>
+          <attributeDefinition>UTC time data collected.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1 second</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="transect_code_N" scope="document">
+          <attributeName>transect_code</attributeName>
+          <attributeLabel>Transect Code</attributeLabel>
+          <attributeDefinition>Code of the transect.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Water column profile transect, North of Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Water column profile transect, East of Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>Water column profile transect, West of Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Water column profile transect, Opunohu Bay, Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Water column profile transect, Cook's Bay, Moorea</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="longitude_degrees_west_N" scope="document">
+          <attributeName>longitude_degrees_west</attributeName>
+          <attributeLabel>Longitude</attributeLabel>
+          <attributeDefinition>Longitude of this measurement, recorded by the CTD, if available. If not recorded, then nominal longitude. East is positive. </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-180</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="latitude_degrees_north_N" scope="document">
+          <attributeName>latitude_degrees_north</attributeName>
+          <attributeLabel>Latitude</attributeLabel>
+          <attributeDefinition>Latitude of this measurement, recorded by the CTD, if available. If not recorded, then nominal latitude. North is positive. </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-90</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="bottom_depth_m_N" scope="document">
+          <attributeName>bottom_depth_m</attributeName>
+          <attributeLabel>Bottom Depth</attributeLabel>
+          <attributeDefinition>Estimated depth to the bottom at this station. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pressure_dbar_N" scope="document">
+          <attributeName>pressure_dbar</attributeName>
+          <attributeLabel>Pressure</attributeLabel>
+          <attributeDefinition>Average seawater pressure, decibar. </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_C_N" scope="document">
+          <attributeName>temperature_C</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>ITS-90, based on International Temperature Scale of 1990</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="conductivity_Spm_N" scope="document">
+          <attributeName>conductivity_Spm</attributeName>
+          <attributeLabel>Conductivity</attributeLabel>
+          <attributeDefinition>Conductivity in siemens per meter.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Voltage_0_N" scope="document">
+          <attributeName>Voltage_0</attributeName>
+          <attributeLabel>Voltage_0</attributeLabel>
+          <attributeDefinition>Voltage channel 0, raw data for diagnostic purposes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Voltage_1_N" scope="document">
+          <attributeName>Voltage_1</attributeName>
+          <attributeLabel>Voltage_1</attributeLabel>
+          <attributeDefinition>Voltage channel 1, raw data for diagnostic purposes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Voltage_2_N" scope="document">
+          <attributeName>Voltage_2</attributeName>
+          <attributeLabel>Voltage_2</attributeLabel>
+          <attributeDefinition>Voltage channel 2, raw data for diagnostic purposes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="descent_rate_mps_N" scope="document">
+          <attributeName>descent_rate_mps</attributeName>
+          <attributeLabel>Descent Rate</attributeLabel>
+          <attributeDefinition>Descent rate of the CTD package.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="fluorescence_mgpm3_N" scope="document">
+          <attributeName>fluorescence_mgpm3</attributeName>
+          <attributeLabel>Fluorescence-estimated Chlorophyll</attributeLabel>
+          <attributeDefinition>Estimated chl contentration from in-situ fluorometer. Despite column name this is in volts.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="turbidity_upoly_N" scope="document">
+          <attributeName>turbidity_upoly</attributeName>
+          <attributeLabel>Turbidity Polynomial</attributeLabel>
+          <attributeDefinition>User-supplied polynomial to calculate turbidity.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="depth_m_N" scope="document">
+          <attributeName>depth_m</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of instrument at this measurement.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="potential_temperature_C_N" scope="document">
+          <attributeName>potential_temperature_C</attributeName>
+          <attributeLabel>Potential Temperature</attributeLabel>
+          <attributeDefinition>Temperature after the effects of compression have been removed. Defined as the temperature of a parcel of water at the sea surface after it has been raised adiabatically from some depth in the ocean.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="salinity_PSU_N" scope="document">
+          <attributeName>salinity_PSU</attributeName>
+          <attributeLabel>Salinity</attributeLabel>
+          <attributeDefinition>Salinity calculated according to the "Practical Salinity Scale of 1978".</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="sigma-theta_kgpm3_N" scope="document">
+          <attributeName>sigma-theta_kgpm3</attributeName>
+          <attributeLabel>Density Anomaly</attributeLabel>
+          <attributeDefinition>Density anomaly calculated with in situ salinity, potential temperature and pressure=0. sigmatheta = density[kg/m3] - 1000kg/m3. (International Equation of State, Joint Panel on Oceanographic Tables and Standards, 1981).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilogramPerMeterCubed</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="sva_m3pkg_N" scope="document">
+          <attributeName>sva_m3pkg</attributeName>
+          <attributeLabel>Specific Volume Anomaly</attributeLabel>
+          <attributeDefinition>Difference between the in situ specific volume (m3/kg) of a parcel and specific volume at the same pressure with S=35 and T=0[celsius].</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilogramPerMeterCubed</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="scans_per_bin_N" scope="document">
+          <attributeName>scans_per_bin</attributeName>
+          <attributeLabel>Scans Per Bin</attributeLabel>
+          <attributeDefinition>The number of data lines averaged in this bin.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="pressure_bin_midvalue_dbar_N" scope="document">
+          <attributeName>pressure_bin_midvalue_dbar</attributeName>
+          <attributeLabel>Pressure Bin Midvalue</attributeLabel>
+          <attributeDefinition>Center of the pressure averaging interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+
+      </attributeList>
+      <constraint>
+        <primaryKey>
+          <constraintName>transect_N_pk</constraintName>
+          <key>
+            
+            <attributeReference>time_utc_N</attributeReference>
+            <attributeReference>depth_m_N</attributeReference>
+            
+          </key>
+        </primaryKey>
+      </constraint>
+      <numberOfRecords>3884</numberOfRecords>
+    </dataTable>
+    <dataTable id="MCR_LTER_CTD_Transects_East_shore" scope="document">
+      <entityName>CTD Profile Transects East shore</entityName>
+      <entityDescription>CTD profile data, processed with standard MCR protocols, for the East shore transect</entityDescription>
+      <physical scope="document">
+        <objectName>MCR_LTER_CTD_Transects_East_shore_20110413.csv</objectName>
+        <size unit="Kb">974</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.5003&amp;entityindex=2</url>
+          </online>                     
+          <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2010-07-05</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2010-08-28</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="time_local_E" scope="document">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Local Time</attributeLabel>
+          <attributeDefinition>Local time data collected.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1 second</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="time_utc_E" scope="document">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>UTC Time</attributeLabel>
+          <attributeDefinition>UTC time data collected.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1 second</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="transect_code_E" scope="document">
+          <attributeName>transect_code</attributeName>
+          <attributeLabel>Transect Code</attributeLabel>
+          <attributeDefinition>Code of the transect.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Water column profile transect, North of Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Water column profile transect, East of Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>Water column profile transect, West of Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Water column profile transect, Opunohu Bay, Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Water column profile transect, Cook's Bay, Moorea</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="longitude_degrees_west_E" scope="document">
+          <attributeName>longitude_degrees_west</attributeName>
+          <attributeLabel>Longitude</attributeLabel>
+          <attributeDefinition>Longitude of this measurement, recorded by the CTD, if available. If not recorded, then nominal longitude. East is positive. </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-180</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="latitude_degrees_north_E" scope="document">
+          <attributeName>latitude_degrees_north</attributeName>
+          <attributeLabel>Latitude</attributeLabel>
+          <attributeDefinition>Latitude of this measurement, recorded by the CTD, if available. If not recorded, then nominal latitude. North is positive. </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-90</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="bottom_depth_m_E" scope="document">
+          <attributeName>bottom_depth_m</attributeName>
+          <attributeLabel>Bottom Depth</attributeLabel>
+          <attributeDefinition>Estimated depth to the bottom at this station. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pressure_dbar_E" scope="document">
+          <attributeName>pressure_dbar</attributeName>
+          <attributeLabel>Pressure</attributeLabel>
+          <attributeDefinition>Average seawater pressure, decibar. </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_C_E" scope="document">
+          <attributeName>temperature_C</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>ITS-90, based on International Temperature Scale of 1990</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="conductivity_Spm_E" scope="document">
+          <attributeName>conductivity_Spm</attributeName>
+          <attributeLabel>Conductivity</attributeLabel>
+          <attributeDefinition>Conductivity in siemens per meter.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Voltage_0_E" scope="document">
+          <attributeName>Voltage_0</attributeName>
+          <attributeLabel>Voltage_0</attributeLabel>
+          <attributeDefinition>Voltage channel 0, raw data for diagnostic purposes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Voltage_1_E" scope="document">
+          <attributeName>Voltage_1</attributeName>
+          <attributeLabel>Voltage_1</attributeLabel>
+          <attributeDefinition>Voltage channel 1, raw data for diagnostic purposes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Voltage_2_E" scope="document">
+          <attributeName>Voltage_2</attributeName>
+          <attributeLabel>Voltage_2</attributeLabel>
+          <attributeDefinition>Voltage channel 2, raw data for diagnostic purposes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="descent_rate_mps_E" scope="document">
+          <attributeName>descent_rate_mps</attributeName>
+          <attributeLabel>Descent Rate</attributeLabel>
+          <attributeDefinition>Descent rate of the CTD package.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="fluorescence_mgpm3_E" scope="document">
+          <attributeName>fluorescence_mgpm3</attributeName>
+          <attributeLabel>Fluorescence-estimated Chlorophyll</attributeLabel>
+          <attributeDefinition>Estimated chl contentration from in-situ fluorometer. Despite column name this is in volts.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="turbidity_upoly_E" scope="document">
+          <attributeName>turbidity_upoly</attributeName>
+          <attributeLabel>Turbidity Polynomial</attributeLabel>
+          <attributeDefinition>User-supplied polynomial to calculate turbidity.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="depth_m_E" scope="document">
+          <attributeName>depth_m</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of instrument at this measurement.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="potential_temperature_C_E" scope="document">
+          <attributeName>potential_temperature_C</attributeName>
+          <attributeLabel>Potential Temperature</attributeLabel>
+          <attributeDefinition>Temperature after the effects of compression have been removed. Defined as the temperature of a parcel of water at the sea surface after it has been raised adiabatically from some depth in the ocean.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="salinity_PSU_E" scope="document">
+          <attributeName>salinity_PSU</attributeName>
+          <attributeLabel>Salinity</attributeLabel>
+          <attributeDefinition>Salinity calculated according to the "Practical Salinity Scale of 1978".</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="sigma-theta_kgpm3_E" scope="document">
+          <attributeName>sigma-theta_kgpm3</attributeName>
+          <attributeLabel>Density Anomaly</attributeLabel>
+          <attributeDefinition>Density anomaly calculated with in situ salinity, potential temperature and pressure=0. sigmatheta = density[kg/m3] - 1000kg/m3. (International Equation of State, Joint Panel on Oceanographic Tables and Standards, 1981).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilogramPerMeterCubed</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="sva_m3pkg_E" scope="document">
+          <attributeName>sva_m3pkg</attributeName>
+          <attributeLabel>Specific Volume Anomaly</attributeLabel>
+          <attributeDefinition>Difference between the in situ specific volume (m3/kg) of a parcel and specific volume at the same pressure with S=35 and T=0[celsius].</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilogramPerMeterCubed</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="scans_per_bin_E" scope="document">
+          <attributeName>scans_per_bin</attributeName>
+          <attributeLabel>Scans Per Bin</attributeLabel>
+          <attributeDefinition>The number of data lines averaged in this bin.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="pressure_bin_midvalue_dbar_E" scope="document">
+          <attributeName>pressure_bin_midvalue_dbar</attributeName>
+          <attributeLabel>Pressure Bin Midvalue</attributeLabel>
+          <attributeDefinition>Center of the pressure averaging interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+
+      </attributeList>
+      <constraint>
+        <primaryKey>
+          <constraintName>transect_E_pk</constraintName>
+          <key>
+            
+            <attributeReference>time_utc_E</attributeReference>
+            <attributeReference>depth_m_E</attributeReference>
+            
+          </key>
+        </primaryKey>
+      </constraint>
+      <numberOfRecords>5172</numberOfRecords>
+    </dataTable>
+    <dataTable id="MCR_LTER_CTD_Transects_West_shore" scope="document">
+      <entityName>CTD Profile Transects West shore</entityName>
+      <entityDescription>CTD profile data, processed with standard MCR protocols, for the West shore transect</entityDescription>
+      <physical scope="document">
+        <objectName>MCR_LTER_CTD_Transects_West_shore_20110413.csv</objectName>
+        <size unit="Kb">792</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.5003&amp;entityindex=3</url>
+          </online>                     
+          <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2010-07-03</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2010-08-27</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="time_local_W" scope="document">
+          <attributeName>time_local</attributeName>
+          <attributeLabel>Local Time</attributeLabel>
+          <attributeDefinition>Local time data collected.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1 second</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="time_utc_W" scope="document">
+          <attributeName>time_utc</attributeName>
+          <attributeLabel>UTC Time</attributeLabel>
+          <attributeDefinition>UTC time data collected.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1 second</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="transect_code_W" scope="document">
+          <attributeName>transect_code</attributeName>
+          <attributeLabel>Transect Code</attributeLabel>
+          <attributeDefinition>Code of the transect.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Water column profile transect, North of Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Water column profile transect, East of Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>Water column profile transect, West of Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Water column profile transect, Opunohu Bay, Moorea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Water column profile transect, Cook's Bay, Moorea</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="longitude_degrees_west_W" scope="document">
+          <attributeName>longitude_degrees_west</attributeName>
+          <attributeLabel>Longitude</attributeLabel>
+          <attributeDefinition>Longitude of this measurement, recorded by the CTD, if available. If not recorded, then nominal longitude. East is positive. </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-180</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="latitude_degrees_north_W" scope="document">
+          <attributeName>latitude_degrees_north</attributeName>
+          <attributeLabel>Latitude</attributeLabel>
+          <attributeDefinition>Latitude of this measurement, recorded by the CTD, if available. If not recorded, then nominal latitude. North is positive. </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-90</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="bottom_depth_m_W" scope="document">
+          <attributeName>bottom_depth_m</attributeName>
+          <attributeLabel>Bottom Depth</attributeLabel>
+          <attributeDefinition>Estimated depth to the bottom at this station. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="pressure_dbar_W" scope="document">
+          <attributeName>pressure_dbar</attributeName>
+          <attributeLabel>Pressure</attributeLabel>
+          <attributeDefinition>Average seawater pressure, decibar. </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_C_W" scope="document">
+          <attributeName>temperature_C</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>ITS-90, based on International Temperature Scale of 1990</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="conductivity_Spm_W" scope="document">
+          <attributeName>conductivity_Spm</attributeName>
+          <attributeLabel>Conductivity</attributeLabel>
+          <attributeDefinition>Conductivity in siemens per meter.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Voltage_0_W" scope="document">
+          <attributeName>Voltage_0</attributeName>
+          <attributeLabel>Voltage_0</attributeLabel>
+          <attributeDefinition>Voltage channel 0, raw data for diagnostic purposes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Voltage_1_W" scope="document">
+          <attributeName>Voltage_1</attributeName>
+          <attributeLabel>Voltage_1</attributeLabel>
+          <attributeDefinition>Voltage channel 1, raw data for diagnostic purposes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Voltage_2_W" scope="document">
+          <attributeName>Voltage_2</attributeName>
+          <attributeLabel>Voltage_2</attributeLabel>
+          <attributeDefinition>Voltage channel 2, raw data for diagnostic purposes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="descent_rate_mps_W" scope="document">
+          <attributeName>descent_rate_mps</attributeName>
+          <attributeLabel>Descent Rate</attributeLabel>
+          <attributeDefinition>Descent rate of the CTD package.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="fluorescence_mgpm3_W" scope="document">
+          <attributeName>fluorescence_mgpm3</attributeName>
+          <attributeLabel>Fluorescence-estimated Chlorophyll</attributeLabel>
+          <attributeDefinition>Estimated chl contentration from in-situ fluorometer. Despite column name this is in volts.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="turbidity_upoly_W" scope="document">
+          <attributeName>turbidity_upoly</attributeName>
+          <attributeLabel>Turbidity Polynomial</attributeLabel>
+          <attributeDefinition>User-supplied polynomial to calculate turbidity.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>99999</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="depth_m_W" scope="document">
+          <attributeName>depth_m</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of instrument at this measurement.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="potential_temperature_C_W" scope="document">
+          <attributeName>potential_temperature_C</attributeName>
+          <attributeLabel>Potential Temperature</attributeLabel>
+          <attributeDefinition>Temperature after the effects of compression have been removed. Defined as the temperature of a parcel of water at the sea surface after it has been raised adiabatically from some depth in the ocean.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="salinity_PSU_W" scope="document">
+          <attributeName>salinity_PSU</attributeName>
+          <attributeLabel>Salinity</attributeLabel>
+          <attributeDefinition>Salinity calculated according to the "Practical Salinity Scale of 1978".</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="sigma-theta_kgpm3_W" scope="document">
+          <attributeName>sigma-theta_kgpm3</attributeName>
+          <attributeLabel>Density Anomaly</attributeLabel>
+          <attributeDefinition>Density anomaly calculated with in situ salinity, potential temperature and pressure=0. sigmatheta = density[kg/m3] - 1000kg/m3. (International Equation of State, Joint Panel on Oceanographic Tables and Standards, 1981).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilogramPerMeterCubed</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="sva_m3pkg_W" scope="document">
+          <attributeName>sva_m3pkg</attributeName>
+          <attributeLabel>Specific Volume Anomaly</attributeLabel>
+          <attributeDefinition>Difference between the in situ specific volume (m3/kg) of a parcel and specific volume at the same pressure with S=35 and T=0[celsius].</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilogramPerMeterCubed</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="scans_per_bin_W" scope="document">
+          <attributeName>scans_per_bin</attributeName>
+          <attributeLabel>Scans Per Bin</attributeLabel>
+          <attributeDefinition>The number of data lines averaged in this bin.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="pressure_bin_midvalue_dbar_W" scope="document">
+          <attributeName>pressure_bin_midvalue_dbar</attributeName>
+          <attributeLabel>Pressure Bin Midvalue</attributeLabel>
+          <attributeDefinition>Center of the pressure averaging interval.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+
+      </attributeList>
+      <constraint>
+        <primaryKey>
+          <constraintName>transect_W_pk</constraintName>
+          <key>
+            
+            <attributeReference>time_utc_W</attributeReference>
+            <attributeReference>depth_m_W</attributeReference>
+            
+          </key>
+        </primaryKey>
+      </constraint>
+      <numberOfRecords>4217</numberOfRecords>
+    </dataTable>
+    
+    
+    <dataTable id="ctd_clock_corrections" scope="document">
+      <entityName>CTD Profile Clock Corrections</entityName>
+      <entityDescription>Clock corrections applied to raw data.</entityDescription>
+      <physical scope="document">
+        <objectName>ctd_clock_corrections_2010.csv</objectName>
+        <size unit="bytes">424</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.5003&amp;entityindex=4</url>
+          </online>                     
+          <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="Date_Profile_Location" scope="document">
+          <attributeName>Date_Profile_Location</attributeName>
+          <attributeLabel>Date Profile Location</attributeLabel>
+          <attributeDefinition>Time and location as recorded in the raw CTD data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text in the format YYYY_MM_DD_sitename</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Decimal_Day_Offset" scope="document">
+          <attributeName>Decimal_Day_Offset</attributeName>
+          <attributeLabel>Decimal Day Offset</attributeLabel>
+          <attributeDefinition>Clock time offset that was applied to raw data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+            
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint>
+        <primaryKey>
+          <constraintName>clock_corrections_pk</constraintName>
+          <key>
+            
+            <attributeReference>Date_Profile_Location</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <numberOfRecords>14</numberOfRecords>
+    </dataTable>
+    
+    <otherEntity>
+      <entityName>Cruise log</entityName>
+      <entityDescription>Only useful if re-processing from raw data. Scanned pages of field notebook. Included only for archive completeness. A 43 Mb zip archive of 38 JPG image files.</entityDescription>
+      <physical scope="document">
+        <objectName>MCR_LTER_CTD_Profiles_Cruises_2010_scanned_notebook.zip</objectName>
+        <size unit="Mb">42</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip of JPG files</formatName>
+          </externallyDefinedFormat>          
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.5003&amp;entityindex=5</url>
+          </online>                     
+          <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+        </distribution>
+      </physical>
+      <entityType>zip archive of JPG image files</entityType>
+    </otherEntity>
+    
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit abbreviation="kg*m-3" id="kilogramPerMeterCubed" name="kilogramPerMeterCubed" unitType="massDensity">
+          <description>kilogram per cubic meter</description>
+        </unit>
+        <unit abbreviation="dbar" constantToSI="0" id="decibar" multiplierToSI="10000" name="decibar" parentSI="pascal" unitType="pressure">
+          <description>pressure, oceanography</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

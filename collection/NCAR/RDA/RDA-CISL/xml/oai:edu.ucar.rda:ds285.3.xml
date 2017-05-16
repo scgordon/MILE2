@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="285.3"
+            type="primary">
+   <timeStamp value="2015-02-10 20:44:54 -0700"/>
+   <continuingUpdate value="yes" frequency="irregularly"/>
+   <title>Subsurface Temperature And Salinity Analyses by Ishii et al.</title>
+   <summary>
+      <p>Monthly objectively analyzed subsurface temperature and Salinity at 24 levels in the upper 1500 meters started from 1945 and prepared by M. Ishii  et al.</p>
+      <p>The analysis is based on the World Ocean Database and Atlas (<a href="http://rda.ucar.edu/datasets/ds285.0/index.html">ds285.0</a>), the Global Temperature-Salinity in the tropical Pacific from IRD (L'Institut de recherche pour le development, France, <a href="http://rda.ucar.edu/datasets/ds279.1/index.html">ds279.1</a>), and the Centennial in situ Observation Based Estimates (COBE) sea surface temperature. Argo profiling buoy data have also been used in the final several years. The XBT depth bias correction is applied in the current version.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="JP/JAMSTEC/FRSGC &gt; Frontier Research System for Global Change,Japan Marine Science and Technology Center, Japan"
+                contact="M. Ishii"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Salinity/Density &gt; Salinity</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Ishii, M., A. Shouji, S. Sugimoto, and T. Matsumoto</authorList>
+      <year>2005</year>
+      <title>Objective analyses of SST and marine meteorological variables for the 20th century using COADS and the Kobe Collection</title>
+      <periodical number="25" pages="865-879">Int. J. Climatol.</periodical>
+   </reference>
+   <reference type="journal">
+      <authorList>Ishii, M., M. Kimoto, K. Sakamoto, and S. I. Iwasaki</authorList>
+      <year>2006</year>
+      <title>Steric sea level changes estimated from historical ocean subsurface temperature and salinity analyses</title>
+      <periodical number="62(2)" pages="155-170">J. Oceanography</periodical>
+      <url>http://rda.ucar.edu/datasets/ds285.3/docs/Ishii-et-al-2006.pdf</url>
+   </reference>
+   <relatedResource url="http://atm-phys.nies.go.jp/~ism/pub/ProjD/">Ishii Ocean Analyses Project</relatedResource>
+   <relatedDataset ID="285.0"/>
+   <relatedDataset ID="279.1"/>
+   <publicationDate>2005-08-30</publicationDate>
+   <contentMetadata>
+      <temporal start="1945-01-15 00:00 +0000"
+                end="2012-12-15 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="360"
+               numY="180"
+               startLon="0.5E"
+               startLat="89.5S"
+               endLon="359.5E"
+               endLat="89.5N"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="260.2"
+            type="primary">
+   <timeStamp value="2015-02-06 11:55:43 -0700"/>
+   <doi>10.5065/D6WH2N0S</doi>
+   <continuingUpdate value="yes" frequency="irregularly"/>
+   <title>CORE.2 Global Air-Sea Flux Dataset</title>
+   <summary>
+      <p>
+              This dataset contains the complete set of global air-sea heat and water flux components computed from version 2 of CORE (Common Ocean Reference Experiment) atmospheric state fields starting from 1949.
+              </p>
+      <p>
+              The air-sea fluxes are derived from bulk formulae applied to atmospheric state fields from multiple sources together with a merged Hadley-OI SST product at monthly resolution. The primary atmospheric input data are based on NCEP reanalyses at 6-hourly resolution. In addition, satellite-based radiation, precipitation, and sea ice concentration are used, at resolutions from daily to monthly. Some of the input data have been adjusted to agree in the mean with a variety of more reliable satellite and in situ measurements that themselves are either too short in duration or too regional in coverage. Fluxes have been temporally averaged as needed for distribution as monthly means.
+              </p>
+      <p>
+              For further information, please refer to the publications listed below.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CGD &gt; Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/GFDL/NOMADS &gt; NOAA Geophysical Fluid Dynamics Laboratory Operational Model Archive and Distribution System, U.S. Department of Commerce"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="GB/MOD/MET/HADLEY &gt; Hadley Centre for Climate Prediction and Research, Met Office, Ministry of Defence, United Kingdom"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="no"/>
+   <author>Stephen G. Yeager</author>
+   <author>William G. Large</author>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Heat Budget &gt; Evaporation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Surface Water &gt; Runoff</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Heat Budget &gt; Heat Flux</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Heat Budget &gt; Longwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Heat Budget &gt; Shortwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Wind Stress</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">BUOYS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">SATELLITES</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="technical_report">
+      <authorList>Large, W. G., and S. G. Yeager</authorList>
+      <year>2004</year>
+      <title>Diurnal to decadal global forcing for ocean and sea-ice models: the data sets and flux climatologies</title>
+      <organization reportID="TN-460+STR" pages="111">NCAR</organization>
+      <doi>10.5065/D6KK98Q6</doi>
+      <url>http://rda.ucar.edu/datasets/ds260.2/docs/techreport2004.pdf</url>
+   </reference>
+   <reference type="journal">
+      <authorList>W. G. Large, and S. G. Yeager</authorList>
+      <year>2009</year>
+      <title>The global climatology of an interannually varying air-sea flux data set</title>
+      <periodical number="33" pages="341-364">Climate Dynamics</periodical>
+      <doi>10.1007/s00382-008-0441-3</doi>
+      <url>http://rda.ucar.edu/datasets/ds260.2/docs/OSGC-000-000-003-157.pdf</url>
+   </reference>
+   <reference type="book_chapter">
+      <authorList>W.G. Large</authorList>
+      <year>2006</year>
+      <title>Surface Fluxes for Practitioners of Global Ocean Data Assimilation</title>
+      <book editor="E. Chassignet and J. Verron"
+            publisher="Springer"
+            pages="229-270">Ocean Weather and Forecasting</book>
+   </reference>
+   <reference type="journal">
+      <authorList>Hurrell, J. W., J. J. Hack, D. Shea, J. M. Caron, and J. Rosinski</authorList>
+      <year>2008</year>
+      <title>A new sea surface temperature and sea ice boundary data set for the Community Atmosphere Model</title>
+      <periodical number="21" pages="5145-5153">J. Climate</periodical>
+      <doi>10.1175/2008JCLI2292.1</doi>
+      <url>http://rda.ucar.edu/datasets/ds260.2/docs/2008jcli2292.1.pdf</url>
+   </reference>
+   <relatedResource url="http://data1.gfdl.noaa.gov/nomads/forms/mom4/CORE.html">Forcing for Common Ocean-ice Reference Experiments (CORE)</relatedResource>
+   <publicationDate>2008-03-11</publicationDate>
+   <contentMetadata>
+      <temporal start="1949-01-15 00:00 +0000"
+                end="2006-12-15 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="360"
+               numY="180"
+               startLon="0.5E"
+               startLat="89.5S"
+               endLon="359.5E"
+               endLat="89.5N"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,870 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.27.15" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="27">
+    <alternateIdentifier>knb-lter-sbc.27</alternateIdentifier>
+    <shortName>LTE KR - allometrics</shortName>
+    <title>SBC LTER: Reef: Long-term experiment: Kelp removal: Understory kelp allometrics</title>
+    <creator id="sbclter">
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="dreed">
+      <individualName>
+        <givenName>Daniel</givenName>
+        <givenName>C</givenName>
+        <surName>Reed</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-8363</phone>
+      <phone phonetype="fax">805-893-8062</phone>
+      <electronicMailAddress>dan.reed@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <associatedParty id="sharrer">
+      <individualName>
+        <givenName>Shannon</givenName>
+        <surName>Harrer</surName>
+      </individualName>
+      <positionName>Lead field technician, analyst</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-7295</phone>
+      <electronicMailAddress>harrer@msi.ucsb.edu</electronicMailAddress>
+      <role>Lead field technician, analyst</role>
+    </associatedParty>
+    <pubDate>2015-01-15</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data consist of measurements used to estimate the mass of individual adult<emphasis>Pterygophora californica</emphasis>and<emphasis>Laminaria farlowii</emphasis>at SBC LTER long-term kelp removal experiment sites. The mass of individual<emphasis>P. californica</emphasis>is estimated from the number of blades having a length &gt; 30 cm, whereas the mass of<emphasis>L. farlowii</emphasis>is estimated from the length of its single blade. Measurements are recorded for up to 30 individuals of each species per 40 m x 2 m transect sampled in each sampling plot. These data are combined with allometric relationships established in the laboratory to provide non-destructive estimates of dry mass for the two species.</para>
+      <para>The kelp removal experiment was initiated in 2008 at selected reef sites along the mainland coast of the Santa Barbara Channel. The following three giant kelp manipulations are maintained in sampling plots at each site:<itemizedlist><listitem><para>Control:<emphasis>Macrocystis pyrifera</emphasis>is left intact in a 2000 m<superscript>2</superscript>plot.</para></listitem><listitem><para>Annual removal:<emphasis>Macrocystis pyrifera</emphasis>is removed from an adjacent 2000 m<superscript>2</superscript>plot once each winter and allowed to re-colonize over the course of the year.</para></listitem><listitem><para>Continuous removal:<emphasis>Macrocystis pyrifera</emphasis>is removed from a 200 m<superscript>2</superscript>area within the 2000 m<superscript>2</superscript>plot on each sampling date.</para></listitem></itemizedlist></para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">algae</keyword>
+      <keyword keywordType="theme">forests</keyword>
+      <keyword keywordType="theme">length</keyword>
+      <keyword keywordType="theme">long term ecological research</keyword>
+      <keyword keywordType="theme">macroalgae</keyword>
+      <keyword keywordType="theme">marine</keyword>
+      <keyword keywordType="theme">organism</keyword>
+      <keyword keywordType="theme">size</keyword>
+      <keyword keywordType="theme">species</keyword>
+      <keyword keywordType="theme">transects</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Kelp Forest</keyword>
+      <keyword keywordType="theme">Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Habitats</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Community Structure</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Measurement Types</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Arroyo Quemado Reef</keyword>
+      <keyword keywordType="place">Carpinteria Reef</keyword>
+      <keyword keywordType="place">Mohawk Reef</keyword>
+      <keyword keywordType="place">Naples Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Places</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance Patterns</keyword>
+      <keyword keywordType="theme">Population Studies</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1: Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Adults</keyword>
+      <keyword keywordType="theme">Genus</keyword>
+      <keyword keywordType="theme">Reefs</keyword>
+      <keyword keywordType="theme">Seaweeds</keyword>
+      <keyword keywordType="theme">Species</keyword>
+      <keywordThesaurus>NBII Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="taxonomic">Laminaria farlowii</keyword>
+      <keyword keywordType="taxonomic">Laminariales</keyword>
+      <keyword keywordType="taxonomic">Pterygophora californica</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">core</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">macroalgae</keyword>
+      <keyword keywordType="theme">marine plants</keyword>
+      <keyword keywordType="theme">ongoing</keyword>
+      <keyword keywordType="theme">Santa Barbara Coastal</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="AQUE">
+        <geographicDescription>AQUE: Arroyo Quemado Reef: Arroyo Quemado Reef depth range from 5.4m to 10.7m. There are 7 permanent transects: Transect I --- Transect VII. Reference on Land is close to US101/Arroyo Quemada Ln.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.11905</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.11905</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.46774988</northBoundingCoordinate>
+          <southBoundingCoordinate>34.46774988</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP">
+        <geographicDescription>CARP: Carpinteria: Carpinteria Reef's depth range is from 2.2 m to 8.8 m. There are 9 permanent transects: Transect 1 to Transect 9. Reference on land is Sand Point RD/ Ave del Mar.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.5416933</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.5416933</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3916319</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3916319</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MOHK">
+        <geographicDescription>MOHK: Mohawk Reef: Mohawk Reef depth ranges from 4.5m to 6.0 m. Reference on land is Mohawk Rd / Edgewater Way.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.72957</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.72957</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3940708</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3940708</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL">
+        <geographicDescription>NAPL: Naples Reef: Naples Reef Depth range from 5.9mto 13.4 m. References on land is US101/Naples Access RD/RR1.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.95154</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.95154</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4221216</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4221216</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="IVEE">
+        <geographicDescription>IVEE: Isla Vista (IV) Reef is located on the Santa Barbara Channel near the University of California Santa Barbara, CA. Depth range is from -8.2 to -8.8 meters.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.85755</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.85755</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.402783</northBoundingCoordinate>
+          <southBoundingCoordinate>34.402783</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012-11-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Phaeophyta</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Phaeophyceae</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Laminariales</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Alariaceae</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Pterogophera</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Pterogophera californica</taxonRankValue>
+                      <commonName>Palm Kelp</commonName>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Laminariaceae</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Laminaria</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Laminaria farlowii</taxonRankValue>
+                      <commonName>Oar Weed</commonName>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Allometric measurements of adult individuals of the understory kelps Laminaria
+            farlowii and Pterygophora californica were made for the purpose of obtaining estimates
+            of the biomass of these species within each transect. See protocol document for more
+            information.</para>
+        </description>
+        <protocol>
+          <title>SBC LTER Long Term Experiment Methods - Understory Kelp Allometrics</title>
+          <creator>
+            <individualName>
+              <surName>Reed</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Reef/Protocols/Long_Term_Kelp_Removal/SBC_LTER_protocol_Reed_LTE_Understory_kelp_allometrics_20130523.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable id="ent01">
+      <entityName>LTE Allometrics, all years</entityName>
+      <entityDescription>Allometric Data for Pterygophora californica and Laminaria farlowii</entityDescription>
+      <physical>
+        <objectName>Allometrics_All_Years_20131009.csv</objectName>
+        <size unit="megabyte">3.1</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Reef/Data/Long_Term_Experiment_Kelp_Removal/Allometrics_All_Years_20131009.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1241126016406">
+          <attributeName>YEAR</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016421">
+          <attributeName>MONTH</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>calendar month</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016437">
+          <attributeName>DATE</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of data collection</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM-DD-YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016453">
+          <attributeName>SITE</attributeName>
+          <attributeLabel>Site code</attributeLabel>
+          <attributeDefinition>Code for reef site. See list of codes for meaning</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>AQUE</code>
+                    <definition>Arroyo Quemado</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARP</code>
+                    <definition>Carpinteria</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MOHK</code>
+                    <definition>Mohawk</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NAPL</code>
+                    <definition>Naples</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IVEE</code>
+                    <definition>Isla Vista Reef</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <coverage>
+            <geographicCoverage>
+              <references>NAPL</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>MOHK</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>CARP</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>AQUE</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>IVEE</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="1241126016468">
+          <attributeName>TRANSECT</attributeName>
+          <attributeLabel>Transect name</attributeLabel>
+          <attributeDefinition>40m transects defined by six permanent markers (stainless steel eyebolts or rebar stakes) at 0, 8, 16, 24, 32, and 40m</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="lte_treatment">
+          <attributeName>TREATMENT</attributeName>
+          <attributeLabel>Treatment</attributeLabel>
+          <attributeDefinition>Experimental treatment, frequency of removal</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>ANNUAL REMOVAL</code>
+                    <definition>Annual removal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CONTINUOUS REMOVAL</code>
+                    <definition>Continuous removal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CONTROL</code>
+                    <definition>Control</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016484">
+          <attributeName>SP_CODE</attributeName>
+          <attributeLabel>Species code</attributeLabel>
+          <attributeDefinition>2-4 letter code generally composed of the first letter of the genus (G) name and the first three letters of the species (S) name (format=GSSS)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016500">
+          <attributeName>BLADE</attributeName>
+          <attributeLabel>Blade Number or Length</attributeLabel>
+          <attributeDefinition>Number of blades over 30cm long if adult Pterygophora californica, blade length (cm) if adult Laminaria farlowii</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016515">
+          <attributeName>OBS_CODE</attributeName>
+          <attributeLabel>Observer code</attributeLabel>
+          <attributeDefinition>Numeric code indicating the SBCLTER data collector</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016531">
+          <attributeName>NOTES</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Text annotations to data observations</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016546">
+          <attributeName>GENUS</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Taxonomic genus</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016562">
+          <attributeName>SPECIES</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Taxonomic species</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016578">
+          <attributeName>SIZE</attributeName>
+          <attributeLabel>Size parameters</attributeLabel>
+          <attributeDefinition>Adult individuals are defined as follows: Pterygophora: stipe length &gt; 20cm Laminaria: blade width &gt; 15cm Only individuals falling into these size categories are sampled in this survey</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016593">
+          <attributeName>functional_GROUP</attributeName>
+          <attributeLabel>Organism Group</attributeLabel>
+          <attributeDefinition>Functional group of organism</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016609">
+          <attributeName>SURVEY</attributeName>
+          <attributeLabel>Survey Method</attributeLabel>
+          <attributeDefinition>data collection method</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016625">
+          <attributeName>KINGDOM</attributeName>
+          <attributeLabel>Kingdom</attributeLabel>
+          <attributeDefinition>Taxonomic kingdom</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016640">
+          <attributeName>PHYLUM</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>Taxonomic phylum</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016656">
+          <attributeName>CLASS</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>Taxonomic class</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016671">
+          <attributeName>taxon_ORDER</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>Taxonomic order</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016687">
+          <attributeName>FAMILY</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>Taxonomic family</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016703">
+          <attributeName>GENUS1</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Taxonomic genus</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016718">
+          <attributeName>SPECIES1</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Taxonomic species</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016734">
+          <attributeName>COMMON_NAME</attributeName>
+          <attributeLabel>Common Name</attributeLabel>
+          <attributeDefinition>Common name</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016750">
+          <attributeName>Substrate_type</attributeName>
+          <attributeLabel>Substrate type</attributeLabel>
+          <attributeDefinition>Substrate type</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016765">
+          <attributeName>Mobility</attributeName>
+          <attributeLabel>Mobility</attributeLabel>
+          <attributeDefinition>Organism is either sessile or mobile</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1241126016781">
+          <attributeName>Growth_morph</attributeName>
+          <attributeLabel>Growth Morphology</attributeLabel>
+          <attributeDefinition>organism is either aggregate or solitary</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>9284</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+            </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

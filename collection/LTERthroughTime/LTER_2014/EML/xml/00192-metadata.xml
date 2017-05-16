@@ -1,0 +1,1022 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.581.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://code.ecoinformatics.org/code/eml/tags/RELEASE_EML_2_1_1/eml.xsd  eml://ecoinformatics.org/eml-2.1.1 http://caplter.asu.edu/php/eml2_1_1/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="581" system="gios_dataset">
+    <alternateIdentifier system="gios_dataset">581_1</alternateIdentifier>
+    <title>Historical Census Data by Blocks for early Central Phoenix, 1920-1940</title>
+    <creator>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Tuccillo</surName>
+      </individualName>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Tuccillo</surName>
+      </individualName>
+    </metadataProvider>
+    <pubDate>2014-04-25</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Block-level census coverage of early Central Phoenix for 1920, 1930, and 1940, including population, race/ethnicity, household ownership and rentership, and temporary residency.  This dataset was designed for use in combination with parcel-level land-use data derived from Sanborn Fire Insurance Maps to assess environmental justice issues in Phoenix&#8217;s early 20th Century development.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">census</keyword>
+      <keyword keywordType="theme">spatial demography</keyword>
+      <keyword keywordType="theme">early phoenix</keyword>
+      <keyword keywordType="theme">urbanization</keyword>
+      <keyword keywordType="theme">environmental justice</keyword>
+      <keyword keywordType="theme">20th century</keyword>
+      <keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">caplter</keyword>
+      <keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword>
+      <keyword keywordType="place">arizona</keyword>
+      <keyword keywordType="theme">caplter created</keyword>
+      <keyword keywordType="place">az</keyword>
+      <keyword keywordType="theme">cap</keyword>
+      <keyword keywordType="theme">arid land</keyword>
+      <keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>Copyright Board of Regents, Arizona State University. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available 'as is.'</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.</para>
+            </listitem>
+            <listitem>
+              <para>It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users submit to the Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <onlineDescription>CAPLTER Metadata URL</onlineDescription>
+        <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=581</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Present-day Downtown Phoenix North-South from Roosevelt Street to Buckeye Road and East-West from 7th Street to 7th Avenue; 1st Street east to 7th Street south of Grant Street was not included due to lack of parcel-level coverage in the Sanborn Fire Insurance Map dataset.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-113.34</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.59</eastBoundingCoordinate>
+          <northBoundingCoordinate>+34.01</northBoundingCoordinate>
+          <southBoundingCoordinate>+32.91</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1940-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1920-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <temporalCoverage>
+        <singleDateTime>
+          <calendarDate>1920-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>1930-01-01</calendarDate>
+        </singleDateTime>
+        <singleDateTime>
+          <calendarDate>1940-01-01</calendarDate>
+        </singleDateTime>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This research has been concluded.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="info_manager_contact">
+      <positionName>Information Manager</positionName>
+      <organizationName>Global Institute of Sustainability, Arizona State University</organizationName>
+      <address>
+        <deliveryPoint>POB 875402</deliveryPoint>
+        <city>TEMPE</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-5402</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(480) 965 2975</phone>
+      <phone phonetype="fax">(480) 965-8087</phone>
+      <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Arizona State University, Global Institute of Sustainability</organizationName>
+    </publisher>
+    <pubPlace>Tempe, Arizona</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Research Methods:</title>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>Transcribed United States Census records available for 1920, 1930, and 1940 for the Central Phoenix case study area for attributes including: address, head of household, total residents by household, race/ethnicity by household, household ownership/rentership (and home/rent values for 1930 and 1940), presence of temporary residents by household, and non-US birthplace(s) of any occupants of the household.</para>
+                </listitem>
+                <listitem>
+                  <para>Using ESRI ArcGIS, modified an existing Phoenix streets shapefile to build a custom address locator for early Central Phoenix; used Sanborn Fire Insurance Map street enumeration as a reference.</para>
+                </listitem>
+                <listitem>
+                  <para>Geocoded transcribed households using the custom address locator.</para>
+                </listitem>
+                <listitem>
+                  <para>Matched geocoded households (points) to parcels and manually corrected for errors.</para>
+                </listitem>
+                <listitem>
+                  <para>Assigned unmatched household entries to parcels using Sanborn Fire Insurance Maps as a reference.</para>
+                </listitem>
+                <listitem>
+                  <para>Assigned any remaining geocoded but unmatched entries to the nearest parcel based on parcel centroids.</para>
+                </listitem>
+                <listitem>
+                  <para>Generated blocks from Early Phoenix Land-Use parcel data using the minimum bounding geography of each block.</para>
+                </listitem>
+                <listitem>
+                  <para>Aggregated household-level data (points) to blocks.</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Phoenix Spatial History Project</title>
+      <personnel>
+        <individualName>
+          <givenName>Joseph</givenName>
+          <surName>Tuccillo</surName>
+        </individualName>
+        <role>author</role>
+      </personnel>
+      <abstract>
+        <para>NO_METADATA_PROVIDED</para>
+      </abstract>
+    </project>
+    <spatialVector>
+      <entityName>Phoenix_Census_1920-1940_Blocks</entityName>
+      <entityDescription>NO_METADATA_PROVIDED</entityDescription>
+      <physical>
+        <objectName>Phoenix_Census_1920-1940_Blocks.shp</objectName>
+        <size unit="byte">56452</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/581_Phoenix_Census_1920-1940_Blocks.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>No geographic/area/plot description available. Sorry.</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-112.082470</westBoundingCoordinate>
+            <eastBoundingCoordinate>-112.065236</eastBoundingCoordinate>
+            <northBoundingCoordinate>33.458624</northBoundingCoordinate>
+            <southBoundingCoordinate>33.436894</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>vector digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  581-fgdc-Phoenix_Census_1920-1940_Blocks.xml</para>
+                <para>Bytes:  12264</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_Census_1920-1940_Blocks.dbf</para>
+                <para>Bytes:  264722</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_Census_1920-1940_Blocks.prj</para>
+                <para>Bytes:  401</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_Census_1920-1940_Blocks.sbn</para>
+                <para>Bytes:  4308</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_Census_1920-1940_Blocks.sbx</para>
+                <para>Bytes:  596</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_Census_1920-1940_Blocks.shp</para>
+                <para>Bytes:  56452</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_Census_1920-1940_Blocks.shp.xml</para>
+                <para>Bytes:  69646</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_Census_1920-1940_Blocks.shx</para>
+                <para>Bytes:  3308</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute id="FID">
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shape">
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shape_Area">
+          <attributeName>Shape_Area</attributeName>
+          <attributeDefinition>Area of feature in internal units squared.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Positive real numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_20">
+          <attributeName>HH_20</attributeName>
+          <attributeDefinition>Count of households by block, 1920</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Pop_20">
+          <attributeName>Pop_20</attributeName>
+          <attributeDefinition>Count of residents by block, 1920</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="W_20">
+          <attributeName>W_20</attributeName>
+          <attributeDefinition>Count of individual residents of White, Non-Hispanic/Latino households by block in 1920</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HL_20">
+          <attributeName>HL_20</attributeName>
+          <attributeDefinition>Count of individual residents of Hispanic/Latino households by block in 1920</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="B_20">
+          <attributeName>B_20</attributeName>
+          <attributeDefinition>Count of individual residents of Black, Non-Hispanic/Latino households by block in 1920</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Ch_20">
+          <attributeName>Ch_20</attributeName>
+          <attributeDefinition>Count of individual residents of Chinese, Non-Hispanic/Latino households by block in 1920</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Jp_20">
+          <attributeName>Jp_20</attributeName>
+          <attributeDefinition>Count of individual residents of Japanese, Non-Hispanic/Latino households by block in 1920</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="NA_20">
+          <attributeName>NA_20</attributeName>
+          <attributeDefinition>Count of individual residents of Native American, Non-Hispanic/Latino households by block in  1920</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Ot_20">
+          <attributeName>Ot_20</attributeName>
+          <attributeDefinition>Count of individual residents of other, less frequently-observed race/ethnicity households by  block in 1920</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MixW_20">
+          <attributeName>MixW_20</attributeName>
+          <attributeDefinition>1920 Count of individual residents living in households with any combination of White non-Hispanic/Latino residents and residents of any non-White race/ethnicity; This may result from temporary residency, intermarriage, or shared household occupancy at a single address.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MixNW_20">
+          <attributeName>MixNW_20</attributeName>
+          <attributeDefinition>1920 Count of individual residents living in households with any combination of non-White races/ethnicities; This may result from temporary residency, intermarriage, or shared household occupancy at a single address.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Temp20">
+          <attributeName>HH_Temp20</attributeName>
+          <attributeDefinition>1920 Count of households with temporary occupancy by boarders, lodgers, or roomers</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Imm20">
+          <attributeName>HH_Imm20</attributeName>
+          <attributeDefinition>1920 Count of households with non-US born residents (temporary residents OR members of a family unit).</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Own20">
+          <attributeName>HH_Own20</attributeName>
+          <attributeDefinition>1920 Households with owner occupancy</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_30">
+          <attributeName>HH_30</attributeName>
+          <attributeDefinition>Count of households by block, 1930</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Pop_30">
+          <attributeName>Pop_30</attributeName>
+          <attributeDefinition>Count of residents by block, 1930</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HmVal_30">
+          <attributeName>HmVal_30</attributeName>
+          <attributeDefinition>Mean home value by block 1930,</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="RtVal_30">
+          <attributeName>RtVal_30</attributeName>
+          <attributeDefinition>Mean household rent value by block, 1930,</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="W_30">
+          <attributeName>W_30</attributeName>
+          <attributeDefinition>Count of individual residents of White, Non-Hispanic/Latino households by block in 1930</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HL_30">
+          <attributeName>HL_30</attributeName>
+          <attributeDefinition>Count of individual residents of Hispanic/Latino households by block in 1930</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="B_30">
+          <attributeName>B_30</attributeName>
+          <attributeDefinition>Count of individual residents of Black, Non-Hispanic/Latino households by block in 1930</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Ch_30">
+          <attributeName>Ch_30</attributeName>
+          <attributeDefinition>Count of individual residents of Chinese, Non-Hispanic/Latino households by block in 1930</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Jp_30">
+          <attributeName>Jp_30</attributeName>
+          <attributeDefinition>Count of individual residents of Japanese, Non-Hispanic/Latino households by block in  1930</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="NA_30">
+          <attributeName>NA_30</attributeName>
+          <attributeDefinition>Count of individual residents of Native American, Non-Hispanic/Latino households by block in  1930.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Ot_30">
+          <attributeName>Ot_30</attributeName>
+          <attributeDefinition>Count of individual residents of other, less frequently-observed race/ethnicity households by block in 1930.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MixW_30">
+          <attributeName>MixW_30</attributeName>
+          <attributeDefinition>1930 Count of individual residents living in households with any combination of White non-Hispanic/Latino residents and residents of any non-White race/ethnicity; This may result from temporary residency, intermarriage, or shared household occupancy at a single address.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MixNW_30">
+          <attributeName>MixNW_30</attributeName>
+          <attributeDefinition>1930 Count of individual residents living in households with any combination of non-White races/ethnicities; This may result from temporary residency, intermarriage, or shared household occupancy at a single address.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Temp30">
+          <attributeName>HH_Temp30</attributeName>
+          <attributeDefinition>1930 count of households with temporary occupancy by boarders, lodgers, or roomers</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Imm30">
+          <attributeName>HH_Imm30</attributeName>
+          <attributeDefinition>1930 Count of households with non-US born residents (temporary residents OR members of a family unit).</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Own30">
+          <attributeName>HH_Own30</attributeName>
+          <attributeDefinition>1930 Households with owner occupancy</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Rent30">
+          <attributeName>HH_Rent30</attributeName>
+          <attributeDefinition>1930 Households with renter occupancy only</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_40">
+          <attributeName>HH_40</attributeName>
+          <attributeDefinition>Count of households by block, 1940</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Pop_40">
+          <attributeName>Pop_40</attributeName>
+          <attributeDefinition>Count of residents by block, 1940</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="RtVal_40">
+          <attributeName>RtVal_40</attributeName>
+          <attributeDefinition>Mean household rent value by block 1940 (reporting households only)</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HmVal_40">
+          <attributeName>HmVal_40</attributeName>
+          <attributeDefinition>Mean home value by block 1940 (reporting households only)</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="W_40">
+          <attributeName>W_40</attributeName>
+          <attributeDefinition>1940 Count of individual residents of White, Non-Hispanic/Latino households by block</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HL_40">
+          <attributeName>HL_40</attributeName>
+          <attributeDefinition>1940 Count of individual residents of Hispanic/Latino households by block</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="B_40">
+          <attributeName>B_40</attributeName>
+          <attributeDefinition>1940 Count of individual residents of Black, Non-Hispanic/Latino households by block</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Ch_40">
+          <attributeName>Ch_40</attributeName>
+          <attributeDefinition>1940 Count of individual residents of Chinese, Non-Hispanic/Latino households by block</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Jp_40">
+          <attributeName>Jp_40</attributeName>
+          <attributeDefinition>1940 Count of individual residents of Japanese, Non-Hispanic/Latino households by block</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="NA_40">
+          <attributeName>NA_40</attributeName>
+          <attributeDefinition>1940 Count of individual residents of Native American, Non-Hispanic/Latino households by block</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Ot_40">
+          <attributeName>Ot_40</attributeName>
+          <attributeDefinition>1940 Count of individual residents of other, less frequently-observed race/ethnicity households by </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MixW_40">
+          <attributeName>MixW_40</attributeName>
+          <attributeDefinition>1940 Count of individual residents living in households with any combination of White non-Hispanic/Latino residents and residents of any non-White race/ethnicity; This may result from temporary residency, intermarriage, or shared household occupancy at a single address.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MixNW_40">
+          <attributeName>MixNW_40</attributeName>
+          <attributeDefinition>1940 Count of individual residents living in households with any combination of non-White races/ethnicities; This may result from temporary residency, intermarriage, or shared household occupancy at a single address.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Temp40">
+          <attributeName>HH_Temp40</attributeName>
+          <attributeDefinition>1940 count of households with temporary occupancy by boarders, lodgers, or roomers</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Imm40">
+          <attributeName>HH_Imm40</attributeName>
+          <attributeDefinition>1940 Count of households with non-US born residents (temporary residents OR members of a family unit).</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Own40">
+          <attributeName>HH_Own40</attributeName>
+          <attributeDefinition>1940 Households with owner occupancy</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Rent40">
+          <attributeName>HH_Rent40</attributeName>
+          <attributeDefinition>1940 Households with renter occupancy only</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HH_Rent20">
+          <attributeName>HH_Rent20</attributeName>
+          <attributeDefinition>1920 Households with renter occupancy only</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Notes">
+          <attributeName>Notes</attributeName>
+          <attributeDefinition>Special case blocks. Blocks with unique uses/temporary residents (hospitals, jails) that the user may wish to exclude from the rest of the population data. </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>401</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+        
+      </spatialReference>
+    </spatialVector>
+  </dataset>
+</eml:eml>

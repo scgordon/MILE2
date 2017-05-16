@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<metadata><Source>ftp://ngee.ornl.gov/data/outgoing/metadata/Eddy_Covariance_and_auxiliary_measurements_NGEE_Barrow_2012_2013.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <onlink>ftp://ngee.ornl.gov/data/outgoing/biogeochemistry/EC_NGEE_2012.xlsx</onlink>
+        <onlink>ftp://ngee.ornl.gov/data/outgoing/biogeochemistry/List_of_Variables.docx</onlink>
+        <onlink>ftp://ngee.ornl.gov/data/outgoing/biogeochemistry/EC_NGEE_2013.xlsx</onlink>
+        <onlink>http://dx.doi.org/10.5440/1124200</onlink>
+        <origin>Margaret Torn (mstorn@lbl.gov)</origin>
+        <origin>Naama Raz-Yaseef (nryaseef@lbl.gov)</origin>
+        <origin>Dave Billesbach (dbillesbach1@unl.edu)</origin>
+        <title>Eddy-Covariance and auxiliary measurements, NGEE-Barrow, 2012-2013</title>
+        <geoform>In situ Field Measurements</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The EC tower is operated as part of the Next Generation Ecosystem Experiment-Arctic (NGEE) at Barrow, Alaska.  The tower is collecting flux data from the beginning of the thaw season, early June, and until conditions are completely frozen, early November. The tower is equipped with a Gill R3-50 Sonic Anemometer, LI-7700 (CH4) sensor, a LI-7500A (CO2/H2O) sensor, and radiation sensors (Kipp &amp; Zonen CNR-4 (four component radiometer), two LiCor LI-190 quantum sensors (PAR upwelling and downwelling), and a down-looking Apogee SI-111 infrared radiometer (surface temperature)). The sensors are remotely controlled, and communication with the tower allows us to retrieve information in real time. doi:10.5440/1124200, http://dx.doi.org/10.5440/1124200</abstract>
+      <purpose>Quantify the integrated climate forcing from ecosystem greenhouse gas, energy, and water fluxes across a range of permafrost conditions and spatial scales and document improvement in model predictive skill of this forcing.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20120904</begdate>
+          <enddate>current</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>ongoing</progress>
+      <update>as needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-156.609157</westbc>
+        <eastbc>-156.609157</eastbc>
+        <northbc>71.280076</northbc>
+        <southbc>71.280076</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>EC Tower</placekey>
+        <placekey>BEO</placekey>
+      </place>
+      <stratum>
+        <stratkey>Atmosphere - Biosphere</stratkey>
+      </stratum>
+    </keywords>
+    <accconst>internal</accconst>
+    <useconst>No use constraints are associated with this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Naama Raz-Yaseef</cntper>
+          <cntorg>Lawrence Berkeley National Laboratory</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Cyclotron Rd.</address>
+          <city>Berkeley</city>
+          <state>California</state>
+          <postal>94720</postal>
+        </cntaddr>
+        <cntvoice>510-486-5937</cntvoice>
+        <cntemail>nryaseef@lbl.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <tool>
+      <toolcont>
+        <cntinfo>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+          </cntaddr>
+        </cntinfo>
+      </toolcont>
+    </tool>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <qattracc>
+        <attraccv>Uncertainty was calculated for each variable at each time-step, and is indicated next to each measurement.&amp;#xD;
+It is recommended to use only measurements with QC value of 0 (no issues).</attraccv>
+      </qattracc>
+    </attracc>
+    <logic>Data are considered of good quality in the context of the information presented in the abstract.  Users are advised to read the rest of the metadata record carefully for additional details.</logic>
+    <complete>Data are considered complete in the context of the information presented in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <lineage>
+      <method>
+        <methtype>field</methtype>
+        <methdesc>During this experiment, raw eddy covariance data are collected by a program called HuskerFlux, version 3.02 (or later).  This program runs on a small, single-board computer (SBC), under the Microsoft Windows XP (SP2) operating system.  The data are logged into day-long files that begin and end at midnight.  The computer clocks are set to UTC. The data are uploaded to a server in Lincoln, NE every night where they are archived, processed (daily to weekly), and sent to various data archives (NGEE, AmeriFlux, etc).If no data were collected, -9999 is entered in the data spaces and the appropriate QC flag is set.  Raw data are stored in binary files as 4-byte (single precision) real numbers, and represent the 10 Hz outputs of the Gill R3-50 sonic anemometer, the LiCor LI-7500A  open-path IRGA (CO2 and H2O), and the LiCor LI-7700 CH4 open-pathTDLS.  The high frequency data are post-processed by a system called HuskerProc which we describe here.  One of the parameters input to HuskerProc through its setup file is the averaging period length.  30 minutes will be used throughout this project.  When HuskerFlux is started (and at every subsequent midnight), a full-day data file (for the next day) is generated and filled with zeros.  As raw data (from the instruments) comes in, the zeros are over-written in the appropriate locations.  Each location (or 'line' of data) represents a clock tick of 0.1 seconds.  Because of this structure, if the program is started at a time other than midnight or is started and stopped, there may be gaps in the data.  The first task that HuskerProc performs is to examine the data file and mark the individual averaging periods (as determined by the setup file) as either complete or incomplete.  An incomplete period is defined as one in which 2% or more of the data are missing.  HuskerProc then performs a 'circular covariance' calculation and determines an optimum delay time (between the vertical wind speed and the covariance 'partner') for each covariance (or flux) requested in the set up file and shifts the data appropriately, correcting for time lags between instruments.  This can be overridden with an appropriate switch in the set up file to use a specified delay.  Next, any voltages or other quantities read from the raw data file are converted to appropriate units according to one of several algorithms selected in the set up file.  After this, HuskerProc does a quality check of the data.  A moving window (of length specified in the set up file) is passed over the data, and spikes or out-of-range values (as determined by parameters in the set up file) are replaced with the mean value from the current window.  The three orthogonal wind speeds are then rotated into a coordinate system where the vertical and cross wind mean velocities are zero.&amp;#xD;
+The heart of HuskerProc is the statistical analysis of the time series collected by HuskerFlux.  Because this usually involves the summations of large numbers of data points, several steps have been taken to assure the best precision and to minimize round-off errors.  First, all statistical calculations are performed in 'double-precision arithmetic' that is, as 8-byte real numbers.  Second, variances are computed using the 'corrected two-pass algorithm' as described in Numerical Recipes in Fortran (NRF).  Statistical descriptors (skewness and kurtosis) are also calculated as described in NRF.  Covariances are calculated in this step.  To provide an estimate of the flux uncertainty,  the variance of covariances are calculated (Billesbach 2011, Finkelstein and Sims 2001).  Another estimate (Random Shuffle) is also calculated (Billesbach 2011).&amp;#xD;
+From these covariances, fluxes are calculated using standard definitions.  HuskerProc will also read an (optional) meteorology file that, if present, is used to adjust several 'constants' such as the latent heat of vaporization, specific heat of air, air density, etc.  This information is also used to calculate several ancillary quantities such as saturation vapor pressure, vapor pressure deficit, etc. This information is culled from the slow response data file.  If this file is not present, HuskerProc uses a set of standard default values (P=96.0 kPa, T=20.0 C, RH=40%).  During this step, certain, routine corrections are applied to appropriate fluxes such as humidity corrections to sensible heat. Note that the Gill R3-50 applies the cross-wind temperature correction internally.&amp;#xD;
+A set of corrections and other quantities are also calculated.  These include the full set of Webb-Pearman-Leuning terms (Webb et al, 1980), frequency corrections (Moore, 1986) (which are only applied in the cumulative b1 and c1 files), spectroscopic corrections (A, B, C for the LI-7700 LiCor, 2011), friction velocity (u*), the Monin-Obuknov stability parameter (z/L), and the roughness length (zo).&amp;#xD;
+In the next processing step, the eddy covariance data are combined with data from the slow response system, and a set of quality control parameters are generated.  This process results in a product, which is the most highly processed product, sent to the NGEE archive.  These files produced in this step contain lines for every data period in the year.&amp;#xD;
+QA/QC values (where appropriate) for means, variances, and uncertainties are determined by the maximum and minimum allowed values for that quantity.  For quantities (such as fluxes or corrected sonic temperature) that depend on other variables, these dependencies are also checked for validity.  Fluxes are also flagged if the variances of their components are excessive.  Finally fluxes are flagged if there is insufficient turbulence or wind speed.  The 'other' category is used with fluxes that are derived from the LI-7700 and LI-7500A.  This flag is set when the status words from these instruments indicate a problem.</methdesc>
+        <methcite>
+          <citeinfo>
+            <origin>Billesbach, DP</origin>
+            <pubdate>2011</pubdate>
+            <title>Estimating Uncertainties in Individual Eddy Covariance Flux Measurements:  a Comparison of Methods and a Proposed New Method</title>
+          </citeinfo>
+        </methcite>
+      </method>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <distrib>
+         <cntinfo>
+                                <cntperp>
+                                        <cntper>Data Center Support</cntper>
+                                        <cntorg>Next-Generation Ecosystem Experiments (NGEE) Arctic Project, Oak Ridge National Laboratory</cntorg>
+                                </cntperp>
+                                <cntaddr>
+                                        <addrtype>mailing and physical</addrtype>
+                                        <address>1 Bethel Valley Road</address>
+                                        <city>Oak Ridge</city>
+                                        <state>TN</state>
+                                        <postal>37831-6290</postal>
+                                        <country>USA</country>
+                                </cntaddr>
+                                <cntvoice></cntvoice>
+                                <cntfax></cntfax>
+                                <cntemail>support@ngee.ornl.gov</cntemail>
+                        </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140925</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Naama Raz-Yaseef</cntper>
+          <cntorg>Lawrence Berkeley National Laboratory</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Cyclotron Rd.</address>
+          <city>Berkeley</city>
+          <state>California</state>
+          <postal>94720</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>510-486-5937</cntvoice>
+        <cntemail>nryaseef@lbl.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FDGC Content Standard for Digital Geospatial Metadata and
+			Biological Data Profile</metstdn>
+    <metstdv>FDGC-STD-001-1998</metstdv>
+  </metainfo>
+  <ome>
+    <datause>The EC tower measures fluxes originating from the area surrounding it. The prevailing wind direction at the BEO (55% of the time) come from the NE-SE sector. Data is presented in half-hourly averages. For each measured variable, a unique column of data is prepared, with values representing each half-hour. Measurements have gone through a QA/QC process to remove bad data. The data set is not gap-filled. Therefore missing data can be associated either with technical issues or weather conditions in which flux theory does not apply, or other problems.
+-9999 represent missing data
+It is highly recommended that only data with QC value of 0 (no issue) will be used.</datause>
+    <ome_status>approved</ome_status>
+    <taskname>BGC</taskname>
+  </ome>
+</metadata>

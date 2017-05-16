@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="728.1"
+            type="historical">
+   <timeStamp value="2015-11-24 11:16:24 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>CPC Merged Analysis of Precipitation (CMAP)</title>
+   <summary>
+      <p>Precipitation from five kinds of satellite estimates and the NCEP/NCAR reanalysis model output are combined
+              for global coverage monthly precipitation values.  The standard products merge only
+              the 5 kinds of satellite estimates (GPI, OPI, SSM/I scattering, SSM/I emission and MSU). The enhanced products merge the satellite estimates with the blended NCEP/NCAR
+              Reanalysis precipitation.  Both products are available as monthly totals, pentads and
+              long term monthly means on a global 2.5 degree latitude-longitude grid.
+              All data is in the netCDF format.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP/CPC &gt; Climate Prediction Center, National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                contact="Phil Arkin;Pingping Xie"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <contact>Thomas Cram</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>P. Xie and P. A. Arkin</authorList>
+      <year>1996</year>
+      <title>Analysis of global monthly precipitation using gauge observations, satellite estimates and numerical model predictions</title>
+      <periodical number="9" pages="840-858">J. Climate</periodical>
+      <doi>10.1175/1520-0442(1996)009&lt;0840:AOGMPU&gt;2.0.CO;2</doi>
+      <url>http://dx.doi.org/10.1175/1520-0442(1996)009&lt;0840:AOGMPU&gt;2.0.CO;2</url>
+   </reference>
+   <reference type="journal">
+      <authorList>P. Xie and P. A. Arkin</authorList>
+      <year>1997</year>
+      <title>Global precipitation: A 17-year monthly analysis based on gauge observations, satellite estimates and numerical model outputs</title>
+      <periodical number="78" pages="2539-2558">Bull. Amer. Meteor. Soc.</periodical>
+      <doi>10.1175/1520-0477(1997)078&lt;2539:GPAYMA&gt;2.0.CO;2</doi>
+      <url>http://dx.doi.org/10.1175/1520-0477(1997)078&lt;2539:GPAYMA&gt;2.0.CO;2</url>
+   </reference>
+   <relatedResource url="http://www.cpc.ncep.noaa.gov/products/global_precip/html/wpage.cmap.html">CDC official CMAP web site</relatedResource>
+   <relatedResource url="http://www.esrl.noaa.gov/psd/data/gridded/data.cmap.html">CMAP monthly, pentad, and blended NCEP/NCAR Reanalysis means at NOAA ESRL</relatedResource>
+   <publicationDate>1995-08-22</publicationDate>
+   <contentMetadata>
+      <temporal start="1979-01" end="2006-06" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="regular" number="5" unit="day"/>
+      <temporalFrequency type="climatology" unit="month"/>
+      <dataType>grid</dataType>
+      <format>netCDF</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="72"
+               startLon="1.25E"
+               startLat="88.75N"
+               endLon="358.75E"
+               endLat="88.75S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

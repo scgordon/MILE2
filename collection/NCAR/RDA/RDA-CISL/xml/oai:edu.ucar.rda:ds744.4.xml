@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="744.4"
+            type="primary">
+   <timeStamp value="2015-02-13 13:10:12 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>QSCAT/NCEP Blended Ocean Winds from Colorado Research Associates (version 5.0)</title>
+   <summary>
+      <p>
+              Ocean surface wind data are derived from spatial blending of high-resolution
+              satellite data (SeaWinds instrument on the QuikSCAT satellite - QSCAT) and
+              global weather center re-analyses (NCEP), resulting in high temporal and spatial
+              resolution datasets (6-hourly, and 0.5 by 0.5 degree) of u- and v- wind vector
+              components and windstress curl. The global coverage datasets begin in
+              July 1999 and ends in July 2009.
+              </p>
+      <p>
+              Surface wind component and wind stress curl fields are available in three forms:
+              1) a product that is the blended wind field output, 2) fields consisting of the
+              NCEP re-analyses spline interpolated to the 0.5 by 0.5 degree grid (i.e. no QSCAT data blended), and 3)
+              a product that is output from an intermediate step in the blending process that
+              consists of the superposition of QSCAT observations on NCEP before blending.
+              This product is useful to identify the satellite data swaths in each composite
+              of 12-hours of QSCAT observations.
+              </p>
+      <p>
+              CAUTION: This blended wind product was developed for general circulation scale
+              analyses - see <a href="http://rda.ucar.edu/datasets/ds744.4/docs/Blended_Winds_Caution">these cautionary notes</a>. The blending methodology is summarized in <a href="http://rda.ucar.edu/datasets/ds744.4/docs/Blended_Winds_Summary">this document</a>.
+              </p>
+      <p>
+         <font color="red">
+              NOTE: The QSCAT satellite has permanent failed so this data time series has ended.
+              </font>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="NWRA/CORA &gt; Colorado Research Associates, Northwest Research Associates, Inc."
+                contact="Jan Morzel;Ralph Milliff"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Wind Stress</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Chin, T. M., R. F. Milliff, and W. G. Large</authorList>
+      <year>1998</year>
+      <title>Basin-Scale High-Wavenumber Sea Surface Wind Fields from Multiresolution Analysis of Scatterometer Data</title>
+      <periodical number="15" pages="741-763">J. Atmos. Ocean. Technology</periodical>
+      <url>http://rda.ucar.edu/datasets/ds744.4/docs/JAOT.CHIN.1998.pdf</url>
+   </reference>
+   <reference type="journal">
+      <authorList>Milliff, R. F., J. Morzel, D. B. Chelton, and M. H. Freilich</authorList>
+      <year>2004</year>
+      <title>Wind Stress Curl and Wind Stress Divergence Biases from Rain Effects on QSCAT Surface Wind Retrievals</title>
+      <periodical number="21" pages="1216-1231">J. Atmos. Ocean. Tech.</periodical>
+      <url>http://rda.ucar.edu/datasets/ds744.4/docs/JAOT.MILLIFF.2004.pdf</url>
+   </reference>
+   <relatedResource url="http://podaac.jpl.nasa.gov/quikscat/">NASA JPL PO.DAAC</relatedResource>
+   <relatedResource url="http://www.esrl.noaa.gov/psd/data/reanalysis/">The re-analyses winds are from the NCEP/NCAR Reanalysis project</relatedResource>
+   <relatedDataset ID="744.2"/>
+   <relatedDataset ID="744.5"/>
+   <relatedDataset ID="744.6"/>
+   <relatedDataset ID="744.8"/>
+   <relatedDataset ID="744.9"/>
+   <publicationDate>2001-02-26</publicationDate>
+   <contentMetadata>
+      <temporal start="1999-07" end="2009-07-31" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Specified height above ground or water surface"
+                value="10"
+                units="m"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="720"
+               numY="353"
+               startLon="0.5E"
+               startLat="88.0S"
+               endLon="360.0E"
+               endLat="88.0N"
+               xRes="0.5"
+               yRes="0.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

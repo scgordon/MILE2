@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Reynolds, L.V.</origin>
+        <origin>Shafroth, P.B.</origin>
+        <pubdate>2016</pubdate>
+        <title>Modeled Streamflow Metrics on Small, Ungaged Stream Reaches in the Upper Colorado River Basin: Data</title>
+        <geoform>raster data</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://dx.doi.org/10.5066/F7H9938M</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Modeling streamflow is an important approach for understanding landscape-scale drivers of flow and estimating flows where there are no streamgage records. In this study conducted by the U.S. Geological Survey in cooperation with Colorado State University, the objectives were to model streamflow metrics on small, ungaged streams in the Upper Colorado River Basin and identify streams that are potentially threatened with becoming intermittent under drier climate conditions. The Upper Colorado River Basin is a region that is critical for water resources and also projected to experience large future climate shifts toward a drying climate. A random forest modeling approach was used to model the relationship between streamflow metrics and environmental variables. Flow metrics were then projected to ungaged reaches in the Upper Colorado River Basin using environmental variables for each stream, represented as raster cells, in the basin. Last, the projected random forest models of minimum flow coefficient of variation and specific mean daily flow were used to highlight streams that had greater than 61.84 percent minimum flow coefficient of variation and less than 0.096 specific mean daily flow and suggested that these streams will be most threatened to shift to intermittent flow regimes under drier climate conditions. Map projection products can help scientists, land managers, and policymakers understand current hydrology in the Upper Colorado River Basin and make informed decisions regarding water resources. With knowledge of which streams are likely to undergo significant drying in the future, managers and sci-&#xD;
+entists can plan for stream-dependent ecosystems and human water users.</abstract>
+      <purpose>This study was conducted by the U.S. Geological Survey in cooperation with Colorado State University with the objectives of producing maps of modeled streamflow metrics on small, ungaged streams in the Upper Colorado River Basin and identifying streams that are potentially threatened with becoming intermittent in the next century based on twentieth century hydrology and our understanding of modeled future climates. The datasets presented here build on analyses developed in a previous study by Reynolds and others (2015).</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2015</begdate>
+          <enddate>2016</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Not planned</update>
+    </status>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Streamflow</themekey>
+        <themekey>random forests</themekey>
+        <themekey>ungaged streams</themekey>
+        <themekey>streamflow modeling</themekey>
+      </theme>
+      <place>
+        <placekey>Upper Colorado River Basin</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sciencebase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <method>
+        <methtype>n/a</methtype>
+        <methdesc>Streamflow Metrics&#xD;
+&#xD;
+To train our models, we selected 115 streamgages with at least 8 years of data on small (1st–4th order), unaltered streams in the Upper Colorado River Basin (fig. 1; Reynolds and others, 2015). We selected nine flow metrics that are important to low-flow stream hydrology: minimum flow coefficient of variation (CV), baseflow, zero-flow days, zero-flow months, 7-day minimum, frequency of low-flow pulses, specific minimum flow, specific mean daily flow, and intermittency. All flow metrics except intermittency were calculated using the Hydrologic Index Tool (HIT) software on the historic daily streamflow data (Olden and Poff 2003; Heasley 2006). We defined intermittency based on zero-flow days and zero-flow months and placed the streams into three categories: strongly intermittent, weakly intermittent, or perennial. Stream reaches were strongly intermittent when greater than 5 percent of months during the period of record were zero-flow months and the number of zero-flow days averaged across years was greater than 20 per year; weakly intermittent when between 0 and 5 percent of months were zero-flow months and the number of zero-flow days averaged across years was between 0 and 20 years; and perennial when the percent of zero-flow months and the number of zero-flow days averaged across years were zero. If a stream, for example, had a 20-year period of record (240 months), at least 12 months upstream drainage area was calculated for each cell as appropriate. &#xD;
+&#xD;
+Model Development&#xD;
+&#xD;
+We used a random forest approach to model the relationship between flow metrics and environmental variables (Cutler and others 2007). We rectified our gage site locations with the raster datasets of environmental variables for the random forests. To improve explanatory power and model fit, we implemented a model selection process where variables that fell below a calculated model improvement ratio were dropped from the model (Murphy and others 2010). We then selected the model that minimized mean square error (MSE) and maximized percentage of variation explained for each flow metric (Murphy and others 2010; Reynolds and others 2015). We assessed model fit with percentage of variation explained (pseudo-R2 measure of the strength or statistical significance of a relation; smaller p-values indicate stronger relations) for the best model for each flow metric (Murphy and others 2010). To fit our models we used the “randomforest” function of R’s “RandomForest” package (R 3.0.0, R Development Core Team, 2013). The model for base flow was dropped from further analysis because of poor model performance and fit (less than), MSE, and a calculated P-value (a 27 percent variance explained; Reynolds and others, 2015). More details of this modeling approach are included in Reyn-&#xD;
+olds and others (2015).&#xD;
+&#xD;
+Model Projection to Ungaged Streams&#xD;
+&#xD;
+To project each flow metric to ungaged reaches in the Upper Colorado River Basin, we used the environmental variables for each stream raster cell in the basin to predict flow variables across the stream network. We used the “predict” function of R’s “raster” package (R Development Core Team, 2013) which uses the independent (environmental) variable data and the associated fitted model to predict a given flow metric at each stream raster cell. Because our random forest models were trained on streamgage data from small streams, we filtered out all stream cells in our projection maps with a drainage area greater than 4,000 square kilometers or approximately 5th order and greater streams. We repeated this process for each flow metric except base flow, which had poor model performance, and zero-flow months, which is not amenable to projection since its units are in months per record (table 1, Reynolds and others, 2015).&#xD;
+&#xD;
+Predicting Streams Threatened with Intermittency&#xD;
+&#xD;
+Last, we used the random forest models built in the “Model Development” section described above to predict which streams are currently perennial or only rarely intermittent and threatened to become intermittent under drier climate conditions. Reynolds and others (2015) used conditional inference tree models to show that stream intermittency was best predicted by the streamflow metrics minimum flow CV and specific mean daily flow with the thresholds of 230 percent minimum flow CV, 61.84 percent minimum flow CV, and 0.096 specific mean daily flow as particularly important thresholds for differentiating streams (Reynolds and others, 2015). Streams that had less than 61.84 percent minimum flow CV were perennial streams. Streams that had greater than 230 percent minimum flow CV were strongly intermittent streams. These first two groups of streams are unlikely to shift from their current hydrology of perennial or strongly intermittent despite a drier climate; however, our conditional inference tree indicated that streams between 61.84 and 230 percent minimum flow CV, and less than 0.096 specific mean daily flow were moderately dry streams, which included a mix of weakly intermittent and perennial streams (Reynolds and others, 2015). Because this set of streams includes perennial and weakly intermittent streams, we hypothesize that these streams are threatened to become intermittent under a drier climate. We used our projected raster datasets of minimum flow CV and specific mean daily flow to highlight streams that met this criteria (between 61.84 and 230 percent minimum flow CV and less than 0.096 specific mean daily flow) in the Upper Colorado River Basin and suggest that these streams will be most threatened to shift flow regimes under drier climate conditions.</methdesc>
+      </method>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eaover>All datasets that make up this collection are documented at http://dx.doi.gov/10.5066/F7H9938M</eaover>
+      <eadetcit>http://dx.doi.gov/10.5066/F7H9938M</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sciencebase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this information product, for the most part, is in the public domain, it also contains copyrighted materials as noted in the text. Permission to reproduce copyrighted items must be secured from the copyright owner whenever applicable. The data have been approved for release and publication by the U.S. Geological Survey (USGS). Although the data have been subjected to rigorous review and are substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, the data are released on the condition that neither the USGS nor the U.S. Government may be held liable for any damages resulting from authorized or unauthorized use. Although the data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20160121</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Lance Everette</cntper>
+          <cntorg>USGS Fort Collins Science Center</cntorg>
+        </cntperp>
+        <cntpos>Product Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2150 Centre Ave, Bldg C</address>
+          <city>Fort Collins</city>
+          <state>Colorado</state>
+          <postal>80526</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>970-226-9225</cntvoice>
+        <cntemail>everettel@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
+

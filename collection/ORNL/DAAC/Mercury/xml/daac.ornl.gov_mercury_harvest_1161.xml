@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[KELLNDORFER, J.]]></origin>
+        <origin><![CDATA[WALKER, W.]]></origin>
+        <origin><![CDATA[KIRSCH, K.]]></origin>
+        <origin><![CDATA[FISKE, G.]]></origin>
+        <origin><![CDATA[BISHOP, J.]]></origin>
+        <origin><![CDATA[LAPOINT, L.]]></origin>
+        <origin><![CDATA[HOPPUS, M.]]></origin>
+        <origin><![CDATA[WESTFALL, J.]]></origin>
+        <title><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data, V.2 (NBCD 2000), U.S.A., 2000]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1161]]></onlink>
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/1161.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/1161.xml]]></alt_onlink>
+        <onlink><![CDATA[http://daac.ornl.gov//NACP/guides/NBCD_2000_V2.html]]></onlink>
+        <geoform>metadata</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[The NBCD 2000 (National Biomass and Carbon Dataset for the Year 2000) data set provides a high-resolution (30 m) map of year-2000 baseline estimates of basal area-weighted canopy height, aboveground live dry biomass, and standing carbon stock for the conterminous United States. This data set distributes, for each of 66 map zones, a set of six raster files in GeoTIFF format. There is a detailed README companion file for each map zone. There is also an ArcGIS shapefile (mapping_zone_shapefile.shp) with the boundaries of all the map zones. A mosaic image of biomass at 240 m resolution for the whole conterminous U.S. is also included.
+
+
+
+Please read this important note regarding the differences of Version 2 from Version 1 of the NBCD 2000 data. 
+
+With Version 1, in some mapping zones, certain land cover types (in particular Shrubs, NLCD Type 52) were missing from and unaccounted for in modeled estimates because of a lack of reference data. 
+
+In Version 1, when landcover types were missing in the models, the model for the deciduous tree cover type was applied. While more woody vegetation was mapped, the authors think this had little effect on model performance as in most cases NLCD version 1 cover type was not a strong predictor of modeled estimates (See companion Mapping Zone Readme files). 
+
+In Version 2, after renewed modeling efforts and user feedback, these previously unaccounted for cover types are now included in modeled estimates.
+
+All 66 mapping zones were updated with the previously unmapped land cover types now mapped. The authors recommend use of the new version for all analyses and will only support the updated version.
+
+
+
+Development of the data set used an empirical modeling approach that combined USDA Forest Service Forest Inventory and Analysis (FIA) data with high-resolution InSAR data acquired from the 2000 Shuttle Radar Topography Mission (SRTM) and optical remote sensing data acquired from the Landsat ETM+ sensor. Three-season Landsat ETM+ data were systematically compiled by the Multi-Resolution Land Characteristics Consortium (MRLC) between 1999 and 2002 for the entire U.S. and were the foundation for development of both the USGS National Land Cover Dataset 2001 (NLCD 2001) and the Landscape Fire and Resource Management Planning Tools Project (LANDFIRE). Products from both the NLCD 2001 (landcover and canopy density) and LANDFIRE (existing vegetation type) projects as well as topographic information from the USGS National Elevation Dataset (NED) were used within the NBCD 2000 project as spatial predictor layers for canopy height and biomass estimation. Forest survey data provided by the USDA Forest Service FIA program were made available to the project under a national Memorandum of Understanding. The response variables (canopy height and biomass) used in model development and validation were derived from the FIA database (FIADB). Production of the NLCD 2001 and LANDFIRE projects was based on a mapping zone approach in which the conterminous U.S. was split into 66 ecoregionally distinct mapping zones. This mapping zone approach was also adopted by the NBCD 2000 project. 
+]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19990101]]></begdate>
+          <enddate><![CDATA[20021231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update> As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc><![CDATA[-126.46]]></westbc>
+        <eastbc><![CDATA[-67.96]]></eastbc>
+        <northbc><![CDATA[49.79]]></northbc>
+        <southbc><![CDATA[26.52]]></southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey><![CDATA[BIOMASS|LANDSAT ETM+|LANDSAT-7]]></themekey>
+        <themekey><![CDATA[CARBON|SRTM (SHUTTLE RADAR TOPOGRAPHY MISSION)|SPACE SHUTTLES]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey><![CDATA[BIOMASS]]></themekey>
+        <themekey><![CDATA[CARBON]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey><![CDATA[LANDSAT-7]]></themekey>
+        <themekey><![CDATA[SPACE SHUTTLES]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey><![CDATA[LANDSAT ETM+]]></themekey>
+        <themekey><![CDATA[SRTM (SHUTTLE RADAR TOPOGRAPHY MISSION)]]></themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[KELLNDORFER, J.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > xsl:value-of select="x_tags/Data_Originator/Investigator/Email" disable-output-escaping="yes" />]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Kellndorfer, J., Walker, W., Kirsch, K., Fiske, G., Bishop, J., LaPoint, L., Hoppus, M., and Westfall, J. 2013. NACP Aboveground Biomass and Carbon Baseline Data, V. 2 (NBCD 2000), U.S.A., 2000. Data set. Available on-line [http://daac.ornl.gov] from ORNL DAAC, Oak Ridge, Tennessee, U.S.A. http://dx.doi.org/10.3334/ORNLDAAC/1161]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20130529</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <Local-Control-Number>Created 2016 10  4 21 30 11 1469631011 by 160.91.11.44</Local-Control-Number>
+  <mercury>
+    <begdate></begdate>
+    <enddate></enddate>
+    <Site_Information>
+      <Site></Site>
+      <Westernmost_Longitude><![CDATA[-126.46]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[-67.96]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[49.79]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[26.52]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[INSAR]]></Keywords>
+    <Keywords><![CDATA[CANOPY HEIGHT]]></Keywords>
+    <Keywords><![CDATA[STANDING CARBON STOCK]]></Keywords>
+    <Keywords><![CDATA[ABOVE GROUND LIVE DRY BIOMASS]]></Keywords>
+    <Keywords><![CDATA[USDA FOREST SERVICE FOREST INVENTORY AND ANALYSIS (FIA)]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[BIOMASS]]></Parameter>
+      <Sensor><![CDATA[LANDSAT ETM+]]></Sensor>
+      <Source><![CDATA[LANDSAT-7]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[CARBON]]></Parameter>
+      <Sensor><![CDATA[SRTM (SHUTTLE RADAR TOPOGRAPHY MISSION)]]></Sensor>
+      <Source><![CDATA[SPACE SHUTTLES]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[NACP]]></Project>
+    <Navpath><![CDATA[LANDSAT-7|LANDSAT ETM+|BIOMASS]]></Navpath>
+    <Navpath><![CDATA[SPACE SHUTTLES|SRTM (SHUTTLE RADAR TOPOGRAPHY MISSION)|CARBON]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[KELLNDORFER, J.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[WALKER, W.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[KIRSCH, K.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[FISKE, G.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[BISHOP, J.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[LAPOINT, L.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[HOPPUS, M.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[WESTFALL, J.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1161]]></URL>
+      <Label><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data, V.2 (NBCD 2000), U.S.A., 2000]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//NACP/guides/NBCD_2000_V2.html]]></URL>
+      <Label><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data, V.2 (NBCD 2000), U.S.A., 2000]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    <OME_Software_Version>/home/web/mercury/write_mercury_xml.pl</OME_Software_Version>
+    <OME_DTD_Version>mercury21.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID>1161</File_ID>
+    <MD_Entry_id>NBCD2000_V2</MD_Entry_id>
+    <Spatial_Extent></Spatial_Extent>
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//NACP/guides/NBCD_2000_V2.html]]></URL>
+      <Label><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data, V.2 (NBCD 2000), U.S.A., 2000]]></Label>
+    </Search_Text_Link>
+    <Granule_Details>
+      <Granule>
+        <Granule_ID><![CDATA[1161_1]]></Granule_ID>
+        <Granule_Title><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data V.2: Aboveground, Live, Dry Biomass Coincide with FIA Results]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-118.7625]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.2033333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[48.2880555555556]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[22.6947222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1999-01-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12-31]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1161_2]]></Granule_ID>
+        <Granule_Title><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data V.2: Aboveground, Live, Dry Biomass from NCE Equations]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-118.7625]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.2033333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[48.2880555555556]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[22.6947222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1999-01-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12-31]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1161_3]]></Granule_ID>
+        <Granule_Title><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data V.2: Measure of Confidence]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-118.7625]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.2880555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[48.2711111111111]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[22.7963888888889]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1999-01-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12-31]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1161_4]]></Granule_ID>
+        <Granule_Title><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data V.2: Average Basal Area Weighted Height]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-118.7625]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.2033333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[48.2880555555556]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[22.6947222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1999-01-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12-31]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1161_5]]></Granule_ID>
+        <Granule_Title><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data V.2: Location of Quality and Presence of SRTM Voids]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-118.7625]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.2033333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[48.2880555555556]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[22.6947222222222]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1999-01-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12-31]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1161_6]]></Granule_ID>
+        <Granule_Title><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data V.2: Number of SRTM C-band Datatakes]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-118.7625]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.2880555555556]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[48.2711111111111]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[22.7963888888889]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1999-01-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12-31]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1161_7]]></Granule_ID>
+        <Granule_Title><![CDATA[NACP Aboveground Biomass and Carbon Baseline Data V.2: NBCD Country-wide FI Aboveground Biomass]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-118.752086]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-65.288617]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[48.278378]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[22.791314]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1999-01-01]]></Start_Date>
+        <End_Date><![CDATA[2002-12-31]]></End_Date>
+      </Granule>
+    </Granule_Details>
+    <OGC_URL>https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=1161</OGC_URL>
+    <THREDDS_URL></THREDDS_URL>
+  </mercury>
+</metadata>

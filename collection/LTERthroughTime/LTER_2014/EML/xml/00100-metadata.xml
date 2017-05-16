@@ -1,0 +1,292 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-gce.445.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+<principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier>GIS-GCES-1401d.1.0</alternateIdentifier>
+<title>Corrected LIDAR-derived digital elevation model of the Duplin River salt marshes</title>
+<creator id="GCE-LTER"><organizationName>Georgia Coastal Ecosystems LTER Project</organizationName>
+<address>
+<deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+<deliveryPoint>University of Georgia</deliveryPoint>
+<city>Athens</city>
+<administrativeArea>Georgia</administrativeArea>
+<postalCode>30602-3636</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+<onlineUrl>http://gce-lter.marsci.uga.edu/</onlineUrl>
+</creator>
+<creator>
+<individualName>
+<salutation>Dr.</salutation>
+<givenName>Christine</givenName>
+<givenName>M.</givenName>
+<surName>Hladik</surName>
+</individualName>
+<organizationName>Georgia Southern University</organizationName>
+<address>
+<deliveryPoint>Department of Geology and Geography</deliveryPoint>
+<deliveryPoint>Georgia Southern University</deliveryPoint>
+<city>Statesboro</city>
+<administrativeArea>Georgia</administrativeArea>
+<postalCode>30460</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>chladik@georgiasouthern.edu</electronicMailAddress>
+<onlineUrl>http://cosm.georgiasouthern.edu/geo/faculty/geography-faculty/christine-hladik/</onlineUrl>
+</creator>
+<metadataProvider><references>GCE-LTER</references></metadataProvider>
+<associatedParty>
+<individualName>
+<salutation>Dr.</salutation>
+<givenName>Merryl</givenName>
+<surName>Alber</surName>
+</individualName>
+<organizationName>University of Georgia</organizationName>
+<electronicMailAddress>malber@uga.edu</electronicMailAddress>
+<role>thesis advisor</role>
+</associatedParty>
+<pubDate>2013</pubDate>
+<abstract>
+<para>LIDAR (light detection and ranging) data were acquired on March 9-10, 2009 by the National Center for Airborne Laser Mapping (NCALM) for the Duplin River (35 km2). A 1 m spatial resolution gridded digital elevation models (DEM) was produced from these data.  The accuracy of the DEM was assessed using real time kinematic (RTK) GPS ground reference data and elevations were corrected following the method of Hladik and Alber (2012).</para>
+</abstract>
+<keywordSet>
+<keyword keywordType="place">Georgia</keyword>
+<keyword keywordType="place">Sapelo Island</keyword>
+<keyword keywordType="place">USA</keyword>
+<keyword keywordType="theme">DEM</keyword>
+<keyword keywordType="theme">GCE</keyword>
+<keyword keywordType="theme">Georgia Coastal Ecosystems</keyword>
+<keyword keywordType="theme">LIDAR</keyword>
+<keyword keywordType="theme">LTER</keyword>
+<keywordThesaurus>GCE-LTER Controlled Vocabulary</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword keywordType="theme">elevation</keyword>
+<keyword keywordType="theme">remote sensing</keyword>
+<keyword keywordType="theme">salt marshes</keyword>
+<keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword keywordType="theme">Primary Production</keyword>
+<keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>All publications based on this data set must cite the contributor and Georgia Coastal Ecosystems LTER project, and two copies of the manuscript must be submitted to the GCE-LTER Information Management Office.</para>
+</intellectualRights>
+<distribution>
+<online>
+<url function="information">http://gce-lter.marsci.uga.edu/public/app/dataset_details.asp?accession=GIS-GCES-1401d</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Overall bounding box describing the geographic region within the Georgia Coastal Ecosystems LTER study domain represented in data set GIS-GCES-1401d, based on the maximum geographic extents of all site polygons referenced in the data set</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-81.301987</westBoundingCoordinate>
+<eastBoundingCoordinate>-81.263124</eastBoundingCoordinate>
+<northBoundingCoordinate>31.486493</northBoundingCoordinate>
+<southBoundingCoordinate>31.410854</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2009-03-09</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2009-03-10</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><positionName>GCE-LTER Information Manager</positionName>
+<address>
+<deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+<deliveryPoint>University of Georgia</deliveryPoint>
+<city>Athens</city>
+<administrativeArea>Georgia</administrativeArea>
+<postalCode>30602-3636</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+</contact>
+<publisher><references>GCE-LTER</references></publisher>
+<methods>
+<methodStep>
+<description>
+<section>
+<title>DEM Correction</title>
+<para>A bare earth LIDAR-derived DEM was produced in SURFER Version 8 (http://www.goldensoftware.com) at 1.0 x 1.0 m resolution using a kriging algorithm with a maximum variance of 0.15 m.  Elevations were all positioned in the NAD 83 reference frame and projected into UTM coordinate zone 17N.  Elevations are NAVD 88 orthometric heights (in meters) computed using the National Geodetic Survey GEOID 03. Accuracy of the LIDAR-derived DEM was assessed using RTK ground control points (GCPs) (see Hladik and Alber 2012).  We developed species-specific correction factors for ten cover classes (Spartina alterniflora (tall, medium and short), Juncus roemerianus, Batis maritima, Salicornia virginica, Borrichia frutescens, mud and salt pan) and used these correction factors to modify the LIDAR-derived DEM (on a classification polygon-to-polygon basis).  Class-specific correction factors were derived from the RTK training data set by subtracting the surveyed RTK elevation from the DEM elevation at the corresponding x/y coordinate of each GCP and represented the mean error for each cover class.  To modify the DEM, a hyperspectral classification was combined with the DEM and formed the boundaries by which the correction factors were applied. See Hladik and Alber (2012) for full details. The modified DEM was smoothed using the focal statistics tool in ArcGIS with a 5x5 neighborhood. Image data were saved as an ENVI raster grid and ascii (xyz) formats.</para>
+</section>
+</description>
+<instrumentation>GCE GEMINI Airborne Laser Tarrain Mapper (ALTM); manufacturer: Optech (model: GEMINI ALTM); parameter: Easting (accuracy: 0.10-0.15m (RMSE), )</instrumentation>
+<instrumentation>GCE GEMINI Airborne Laser Tarrain Mapper (ALTM); manufacturer: Optech (model: GEMINI ALTM); parameter: Elevation (accuracy: 0.05-0.10m (RMSE), )</instrumentation>
+<instrumentation>GCE GEMINI Airborne Laser Tarrain Mapper (ALTM); manufacturer: Optech (model: GEMINI ALTM); parameter: Northing (accuracy: 0.10-0.15m (RMSE), )</instrumentation>
+<instrumentation>A bare earth LIDAR-derived DEM was produced in SURFER Version 8 (http://www.goldensoftware.com) at 1.0 x 1.0 m resolution using a kriging algorithm with a maximum variance of 0.15 m.  Elevations were all positioned in the NAD 83 reference frame and projected into UTM coordinate zone 17N.  Elevations are NAVD 88 orthometric heights (in meters) computed using the National Geodetic Survey GEOID 03. Accuracy of the LIDAR-derived DEM was assessed using RTK ground control points (GCPs) (see Hladik and Alber 2012).  We developed species-specific correction factors for ten cover classes (Spartina alterniflora (tall, medium and short), Juncus roemerianus, Batis maritima, Salicornia virginica, Borrichia frutescens, mud and salt pan) and used these correction factors to modify the LIDAR-derived DEM (on a classification polygon-to-polygon basis).  Class-specific correction factors were derived from the RTK training data set by subtracting the surveyed RTK elevation from the DEM elevation at the corresponding x/y coordinate of each GCP and represented the mean error for each cover class.  To modify the DEM, a hyperspectral classification was combined with the DEM and formed the boundaries by which the correction factors were applied. See Hladik and Alber (2012) for full details. The modified DEM was smoothed using the focal statistics tool in ArcGIS with a 5x5 neighborhood. Image data were saved as an ENVI raster grid and ascii (xyz) formats.</instrumentation>
+</methodStep>
+<sampling>
+<studyExtent>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2009-03-09</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2009-03-10</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<coverage>
+<geographicCoverage>
+<geographicDescription>GCE Study Site GCE-DP -- Duplin River, Georgia, USA.  Duplin River transect used for GCE quarterly hydrographic monitoring surveys.  Nominal profiling stations are defined at various locations along the Duplin River west of Sapelo Island, Georgia.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-81.301987</westBoundingCoordinate>
+<eastBoundingCoordinate>-81.263124</eastBoundingCoordinate>
+<northBoundingCoordinate>31.486493</northBoundingCoordinate>
+<southBoundingCoordinate>31.410854</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+</studyExtent>
+<samplingDescription>
+<section>
+<title>Corrected LIDAR-derived DEM</title>
+<para>not specified</para>
+<para>not specified</para>
+</section>
+</samplingDescription>
+<spatialSamplingUnits>
+<referencedEntityId>GIS-GCES-1401d.kml</referencedEntityId>
+</spatialSamplingUnits>
+</sampling>
+</methods>
+<project><title>Georgia Coastal Ecosystems LTER Project II</title>
+<personnel>
+<individualName>
+<givenName>Merryl</givenName>
+<surName>Alber</surName>
+</individualName>
+<role>principalInvestigator</role>
+</personnel>
+<personnel>
+<individualName>
+<givenName>Steven</givenName>
+<givenName>C.</givenName>
+<surName>Pennings</surName>
+</individualName>
+<role>principalInvestigator</role>
+</personnel>
+<personnel>
+<individualName>
+<givenName>Wade</givenName>
+<givenName>M.</givenName>
+<surName>Sheldon</surName>
+</individualName>
+<role>informationManager</role>
+</personnel>
+<abstract>
+<para>The Georgia Coastal Ecosystems (GCE) LTER program, located on the central Georgia coast, was established in 2000. The study domain encompasses three adjacent sounds (Altamaha, Doboy, Sapelo) and includes upland (mainland, barrier islands, marsh hammocks), intertidal (fresh, brackish and salt marsh) and submerged (river, estuary, continental shelf) habitats. Patterns and processes in this complex landscape vary spatially within and between sites, and temporally on multiple scales (tidal, diurnal, seasonal, and interannual). Overlain on this spatial and temporal variation are long-term trends caused by climate change, sea level rise, and human alterations of the landscape. These long-term trends are likely to manifest in many ways, including changes in water quality, river discharge, runoff and tidal inundation patterns throughout the estuarine landscape. The overarching goal of the GCE program is to understand the mechanisms by which variation in the quality, source and amount of both fresh and salt water create temporal and spatial variability in estuarine habitats and processes, in order to predict directional changes that will occur in response to long-term shifts in estuarine salinity patterns.</para>
+</abstract>
+<funding>
+<para>This material is based upon work supported by the National Science Foundation under grant numbers OCE-9982133 and OCE-0620959. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+</funding>
+</project>
+<otherEntity>
+<entityName>GIS-GCEM-1401d-Mod_DEM_ASCII</entityName>
+<entityDescription>Zip file containing the modified DEM ASCII files</entityDescription>
+<physical>
+<objectName>GIS-GCES-1401d_1_0-Mod_DEM_ASCII.zip</objectName>
+<size unit="KB">135,944</size>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/zip</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<offline>
+<mediumName>GIS-GCES-1401d_1_0-Mod_DEM_ASCII.zip</mediumName>
+</offline>
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+<principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<entityType>GIS_Shapefile</entityType>
+</otherEntity>
+<otherEntity>
+<entityName>GIS-GCES-1401d-Mod_DEM_raster</entityName>
+<entityDescription>Zip file containing the modified DEM raster grid</entityDescription>
+<physical>
+<objectName>GIS-GCES-1401d_1_0-Mod_DEM.zip</objectName>
+<size unit="KB">117,027</size>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/zip</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<offline>
+<mediumName>GIS-GCES-1401d_1_0-Mod_DEM.zip</mediumName>
+</offline>
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+<principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<entityType>GIS_Raster</entityType>
+</otherEntity>
+<otherEntity id="GIS-GCES-1401d.kml">
+<entityName>GIS-GCES-1401d.kml</entityName>
+<entityDescription>Google Earth Keyhole Markup Language file describing the geographic locations sampled in data set knb-lter-gce.445.2</entityDescription>
+<physical>
+<objectName>GIS-GCES-1401d.kml</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/vnd.google-earth.kml+xml</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url function="download">http://gce-lter.marsci.uga.edu/public/app/send_kml.asp?filename=GIS-GCES-1401d.kml&amp;uri=http%3A%2F%2Fgce-lter.marsci.uga.edu%2Fgce_metabase%2Fxml%2Fdataset_geography.kml%3FAccession%3DGIS-GCES-1401d</url>
+</online>
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+<principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<entityType>KML</entityType>
+</otherEntity>
+</dataset>
+</eml:eml>

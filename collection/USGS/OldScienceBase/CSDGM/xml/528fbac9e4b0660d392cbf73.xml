@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Batschelet</origin>
+            <pubdate>Unknown</pubdate>
+            <title>CENTROID- tests the null hypothesis that two samples of recoveries belong to the same bivariate distribution</title>
+            <geoform>tools software</geoform>
+            <pubinfo>
+               <pubplace>Laurel, Maryland</pubplace>
+               <publish>U.S. Geological Survey, Biological Resources Division</publish>
+            </pubinfo>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>The Program CENTROID tests the null hypothesis that two samples of recoveries belong to the same bivariate distribution. This procedure is described in Mardia, 1967 and Batschelet, 1972.  CENTROID will read either recovery records or X-Y coordinates. Recovery records, which include recovery latitude and longitude, of the two samples are read into the program.</abstract>
+         <purpose>The program will print out the average latitude and longitude of each group, the average latitude and longitude of the combined sample, the number of duplicate recovery locations, Mardias test statistic, and the probability level.</purpose>
+         <supplinf>The information for this metadata was taken from http://www.mbr-pwrc.usgs.gov/software/doc/centroid.html.  (previous geoform was 'software')</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>Unknown</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>Unknown</update>
+      </status>
+      <keywords>
+         <theme>
+            <themekt>none</themekt>
+            <themekey>test null hypothesis</themekey>
+            <themekey>recoveries</themekey>
+            <themekey>bivariate distribution</themekey>
+         </theme>
+      </keywords>
+      <taxonomy>
+         <keywtax>
+            <taxonkt>none</taxonkt>
+            <taxonkey>animal</taxonkey>
+            <taxonkey>plant</taxonkey>
+         </keywtax>
+         <taxoncl>
+            <taxoncl>
+               <taxonrn>Kingdom</taxonrn>
+               <taxonrv>Animal</taxonrv>
+            </taxoncl>
+            <taxoncl>
+               <taxonrn>Kingdom</taxonrn>
+               <taxonrv>Plant</taxonrv>
+            </taxoncl>
+         </taxoncl>
+      </taxonomy>
+      <accconst>none</accconst>
+      <useconst>none</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>James E. Hines</cntper>
+               <cntorg>U.S. Geological Survey, Biological Resources Division</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>11510 American Holly Dr. #201</address>
+               <city>Laurel</city>
+               <state>Maryland</state>
+               <postal>20708-4017</postal>
+            </cntaddr>
+            <cntvoice>301 497-5661</cntvoice>
+            <cntemail>Jim_Hines@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <crossref>
+         <citeinfo>
+            <origin>Mardia</origin>
+            <pubdate>1967</pubdate>
+            <title>J. Roy. Stat. Soc. Unknown title</title>
+            <geoform>publication</geoform>
+            <serinfo>
+               <sername>J. Roy. Stat. Soc.</sername>
+               <issue>Ser. B, 29</issue>
+            </serinfo>
+            <othercit>pp. 320-342</othercit>
+         </citeinfo>
+      </crossref>
+      <crossref>
+         <citeinfo>
+            <origin>Batschelet</origin>
+            <pubdate>1972</pubdate>
+            <title>unknown</title>
+            <geoform>publication</geoform>
+            <othercit>Pages 61-91</othercit>
+            <lworkcit>
+               <citeinfo>
+                  <origin>NASA</origin>
+                  <pubdate>1972</pubdate>
+                  <title>Animal Orientation and Navigation</title>
+                  <geoform>publication</geoform>
+                  <serinfo>
+                     <sername>NASA</sername>
+                     <issue>SP-262</issue>
+                  </serinfo>
+               </citeinfo>
+            </lworkcit>
+         </citeinfo>
+      </crossref>
+   </idinfo>
+   <dataqual>
+      <logic>not applicable</logic>
+      <complete>The test statistic is computed four different ways and printed out with a short explanation of how ties were broken in each case.</complete>
+      <lineage>
+         <procstep>
+            <procdesc>The program computes the mean latitude and longitude of recovery of each group.  For the calculations the longitude is 	transformed, since the length of a degree longitude varies with latitude. Since the number of duplicate locations has an extreme effect on the test statistic, the program displays the number of ties when recovery locations were ranked. CENTROID also displays the highest order tie (MAX TIES COMPUTED), followed by a breakdown of all other ties (1 WAY TIES, 2 WAY TIES, ...). A "1 way tie" is a distinct location. A "2 way tie" is when two and only two observations occur in the same location. A "mixed tie" occurs when observations from both groups are involved in a tie.</procdesc>
+            <procdate>Unknown</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntperp>
+               <cntper>James E. Hines</cntper>
+               <cntorg>U.S. Geological Survey, Biological Resources Division</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>11510 American Holly Dr. #201</address>
+               <city>Laurel</city>
+               <state>Maryland</state>
+               <postal>20708-4017</postal>
+            </cntaddr>
+            <cntvoice>301 497-5661</cntvoice>
+            <cntemail>Jim_Hines@usgs.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>Program RUNCENT.BAS runs program centroid for all possible combinations of data files (useful for comparing distributions from different reference areas).</resdesc>
+      <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a U.S.. Geological Survey server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ZIP</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://www.mbr-pwrc.usgs.gov/software.html</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None if available online.</fees>
+         <ordering>The FTP server is located at ftp://pwrcftpr.er.usgs.gov/research. This should have no effect on downloading files. If you have trouble, please let the distributor know. The programs are stored as "zip" archives. Most of the zip files contain both the source code (usually FORTRAN) and IBM-PC compatible executable files. If you need an unzipping program, you can download a free Windows unzipper [PowerArc] or a free MSDOS unzipper [unzip.exe].</ordering>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20020329</metd>
+      <metfrd>20030329</metfrd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Cheryl Solomon</cntper>
+               <cntorg>Science Systems and Applications, Inc.</cntorg>
+            </cntperp>
+            <cntpos>Metadata specialist</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>10210 Greenbelt Road, Suite 500</address>
+               <city>Lanham</city>
+               <state>Maryland</state>
+               <postal>20706</postal>
+            </cntaddr>
+            <cntvoice>301 867-2080</cntvoice>
+            <cntfax>301-867-2149.</cntfax>
+            <cntemail>solomon@gcmd.nasa.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001.1-1999</metstdv>
+      <metac>none</metac>
+      <metuc>none</metuc>
+   </metainfo>
+</metadata>

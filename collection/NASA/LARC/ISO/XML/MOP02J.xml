@@ -1,0 +1,1795 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:srv="http://www.isotc211.org/2005/srv"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:swe="http://schemas.opengis.net/sweCommon/2.0/"
+                 xmlns:eos="http://earthdata.nasa.gov/schema/eos"
+                 xmlns:xs="http://www.w3.org/2001/XMLSchema"><!--Other Properties, all:42, coi:40,ii:0,si:0,pli:0,pri:0,qi:0,gi:0,ci:0,dk:0,pcc:0,icc:0,scc:0-->
+   <gmd:fileIdentifier>
+      <gco:CharacterString>gov.nasa.echo:MOPITT Derived CO (Near and Thermal Infrared Radiances) V006</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gco:CharacterString>eng</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"
+                               codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="series">series</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>LaRC</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:DateTime>2013-08-22T00:00:00Z</gco:DateTime>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>CARTESIAN</gco:CharacterString>
+               </gmd:code>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+   </gmd:referenceSystemInfo>
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>MOP02J &gt; MOPITT Derived CO (Near and Thermal Infrared Radiances)</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:DateTime>2013-11-05T15:15:57.603Z</gco:DateTime>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:DateTime>2013-05-07T10:02:00.730Z</gco:DateTime>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition>
+                  <gco:CharacterString>6</gco:CharacterString>
+               </gmd:edition>
+               <gmd:identifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>MOP02J</gco:CharacterString>
+                     </gmd:code>
+                     <gmd:description>
+                        <gco:CharacterString>MOPITT Derived CO (Near and Thermal Infrared Radiances)</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+               <gmd:identifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>MOP026</gco:CharacterString>
+                     </gmd:code>
+                     <gmd:codeSpace>
+                        <gco:CharacterString>gov.nasa.gcmd</gco:CharacterString>
+                     </gmd:codeSpace>
+                     <gmd:description>
+                        <gco:CharacterString>DIFEntryId</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>John C. Gille</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName gco:nilReason="missing"/>
+                     <gmd:positionName>
+                        <gco:CharacterString>Principal Investigator</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>303-497-8062</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>303-497-1402</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>303-497-1492</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>National Center for Atmospheric Research, 1850 Table Mesa Drive</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Boulder</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Colorado</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>80303-5602</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gille@ucar.edu</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:hoursOfService>
+                              <gco:CharacterString>Unknown</gco:CharacterString>
+                           </gmd:hoursOfService>
+                           <gmd:contactInstructions>
+                              <gco:CharacterString>None</gco:CharacterString>
+                           </gmd:contactInstructions>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString/>
+               </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>MOPITT Derived CO (Near and Thermal Infrared Radiances) Version Description: Joint TIR/NIR-based CO retrievals based on corrected geolocation values, MERRA meteorological fields, and updated a priori</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose gco:nilReason="missing"/>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode"
+                                 codeListValue="In Work">In Work</gmd:MD_ProgressCode>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName>
+                  <gco:CharacterString>LaRC</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="Daily">Daily</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>HDF-EOS</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="unknown"/>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>EARTH SCIENCE&gt;ATMOSPHERE&gt;ATMOSPHERIC CHEMISTRY/CARBON AND HYDROCARBON COMPOUNDS&gt;CARBON MONOXIDE&gt;NONE&gt;NONE&gt;NONE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Science Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>NASA</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GCMD User Support Office</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>GCMD Feedback Form</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Have a Comment for the GCMD?</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName gco:nilReason="inapplicable"/>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:onlineResource xlink:title="GCMD Keyword Page">
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://gcmd.nasa.gov/Resources/valids/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>GCMD Keywords Page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>This page describes the NASA GCMD Keywords, how to reference those keywords and provides download instructions. </gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>daily</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="temporal">temporal</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName gco:nilReason="unknown"/>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>LaRC</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString> NASA/Global Change Master Directory (GCMD) Data Center Keywords </gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-02-07</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:identifier/>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>NASA</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GCMD User Support Office</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>GCMD Feedback Form</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Have a Comment for the GCMD?</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName gco:nilReason="inapplicable"/>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:onlineResource xlink:title="GCMD Keyword Page">
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://gcmd.nasa.gov/Resources/valids/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>GCMD Keywords Page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>This page describes the NASA GCMD Keywords, how to reference those keywords and provides download instructions. </gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>AM-1 &gt; First EOS Polar Orbiting Satellite, 10:30 AM Descending Equator Crossing</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Platform Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>NASA</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GCMD User Support Office</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>GCMD Feedback Form</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Have a Comment for the GCMD?</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName gco:nilReason="inapplicable"/>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:onlineResource xlink:title="GCMD Keyword Page">
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://gcmd.nasa.gov/Resources/valids/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>GCMD Keywords Page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>This page describes the NASA GCMD Keywords, how to reference those keywords and provides download instructions. </gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>MOPITT &gt; Measurements of Pollution In The Troposphere</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Instrument Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>NASA</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>GCMD User Support Office</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>GCMD Feedback Form</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Have a Comment for the GCMD?</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName gco:nilReason="inapplicable"/>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://gcmd.nasa.gov/Resources/valids/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>GCMD Keywords Page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>This page describes the NASA GCMD Keywords, how to reference those keywords and provides download instructions. </gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Restriction Comment:</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Restriction Flag:</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"
+                                     codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+         </gmd:characterSet>
+         <gmd:extent>
+            <gmd:EX_Extent id="boundingExtent">
+               <gmd:description>
+                  <gco:CharacterString>SpatialCoverageType=HORIZ&amp;VERT, SpatialGranuleSpatialRepresentation=CARTESIAN, Temporal Range Type=Continuous Range, Time Type=UTC</gco:CharacterString>
+               </gmd:description>
+               <!--Bounding Rectangle-->
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-180.0</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>180.0</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>-90.0</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>90.0</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:temporalElement><!--RangeDateTime-->
+                  <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="d10279e51">
+                           <gml:beginPosition frame="Gregorian">1999-12-18T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition frame="Gregorian" indeterminatePosition="now"/>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>CSDT1: Complex Swath Implementation: HDF-EOS Comments: N/A Indirect Reference: N/A</gco:CharacterString>
+         </gmd:supplementalInformation>
+         <gmd:processingLevel>
+            <gmd:MD_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>2</gco:CharacterString>
+               </gmd:code>
+               <gmd:description>
+                  <gco:CharacterString>Geophysical Quantities at the sensor resolution or geolocated</gco:CharacterString>
+               </gmd:description>
+            </gmd:MD_Identifier>
+         </gmd:processingLevel>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:contentInfo>
+      <gmd:MD_CoverageDescription>
+         <gmd:attributeDescription gco:nilReason="missing"/>
+         <gmd:contentType>
+            <gmd:MD_CoverageContentTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
+                                            codeListValue="physicalMeasurement">physicalMeasurement</gmd:MD_CoverageContentTypeCode>
+         </gmd:contentType>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:otherPropertyType>
+                  <gco:RecordType xlink:href="http://earthdata.nasa.gov/metadata/schema/eos/1.0/eos.xsd#xpointer(//element[@name='AdditionalAttributes'])">Echo Additional Attributes</gco:RecordType>
+               </gmd:otherPropertyType>
+               <gmd:otherProperty>
+                  <gco:Record>
+                     <eos:AdditionalAttributes>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPFGRad5DiffThr</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>First Guess minus Thermal 800mb A channel difference threshold</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPRad5FGRatioThr</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Ratio Thermal 800mb A channel to First Guess threshold</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPRad5FGRatioThr2</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Ratio Thermal 800mb A channel to First Guess Polar threshold</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPRad5FGRatioThrN</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Ratio Thermal 800mb A channel to First Guess night threshold</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPRad6FGDiffThr</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Absolute value of Solar 800mb A channel minus First Guess difference threshold</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPRad6FGRatioThr</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Ratio Solar 800mb A channel to First Guess threshold</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPCldTopPrDiff</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Surface Pressure minus Cloud Top Pressure difference threshold</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPNStarD</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>N* cloud clearing technique Day limit</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPNStarN</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>N* cloud clearing technique Night limit</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPOvrcstUniformity</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Overcast Cloud Top threshold determined by statistical uniformity of adjacent pixels</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPOvrcstOpacity</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Overcast Cloud Top threshold determined by the opacity of the clouds</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPPercentCloudCleared</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Percent of pixels which were cleared of clouds</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="INT">INT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPConvIterAvg</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>The average number of iterations required to converge on a retrieval</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPConvIterMax</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Maximum number of iterations permitted to occur before declaring the pixel as non-convergent</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="INT">INT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPUncertCOSfc</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>The average retrieved uncertainty of the surface CO mixing ratio</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMaxCO</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>The maximum observed total column CO value</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMinCO</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>The minimum observed total column CO value</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMinCOMixRatSfc</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Minimum surface mixing ratio of CO</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMaxCOMixRatSfc</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Maximum surface mixing ratio of CO</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMinCOMixRat850</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Minimum mixing ratio of CO at 850 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMaxCOMixRat850</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Maximum mixing ratio of CO at 850 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMinCOMixRat700</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Minimum mixing ratio of CO at 700 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMaxCOMixRat700</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Maximum mixing ratio of CO at 700 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMinCOMixRat500</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Minimum mixing ratio of CO at 500 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMaxCOMixRat500</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Maximum mixing ratio of CO at 500 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMinCOMixRat350</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Minimum mixing ratio of CO at 350 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMaxCOMixRat350</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Maximum mixing ratio of CO at 350 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMinCOMixRat250</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Minimum mixing ratio of CO at 250 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMaxCOMixRat250</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Maximum mixing ratio of CO at 250 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMinCOMixRat150</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Minimum mixing ratio of CO at 150 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPMaxCOMixRat150</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Maximum mixing ratio of CO at 150 mb</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="FLOAT">FLOAT</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPHotCalPre1</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Date of previous hot calibration in optical train 1</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="DATETIME_STRING">DATETIME_STRING</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPHotCalPost1</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Date of post hot calibration in optical train 1</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="DATETIME_STRING">DATETIME_STRING</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPHotCalPre2</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Date of previous hot calibration in optical train 2</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="DATETIME_STRING">DATETIME_STRING</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPHotCalPost2</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Date of post hot calibration in optical train 2</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="DATETIME_STRING">DATETIME_STRING</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPHotCalPre3</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Date of previous hot calibration in optical train 3</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="DATETIME_STRING">DATETIME_STRING</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPHotCalPost3</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Date of post hot calibration in optical train 3</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="DATETIME_STRING">DATETIME_STRING</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPHotCalPre4</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Date of previous hot calibration in optical train 4</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="DATETIME_STRING">DATETIME_STRING</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPHotCalPost4</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Date of post hot calibration in optical train 4</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="DATETIME_STRING">DATETIME_STRING</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                        <eos:AdditionalAttribute>
+                           <eos:reference>
+                              <eos:EOS_AdditionalAttributeDescription>
+                                 <eos:type>
+                                    <eos:EOS_AdditionalAttributeTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeTypeCode"
+                                                                         codeListValue="contentInformation">contentInformation</eos:EOS_AdditionalAttributeTypeCode>
+                                 </eos:type>
+                                 <eos:name>
+                                    <gco:CharacterString>MOPEventDesc</gco:CharacterString>
+                                 </eos:name>
+                                 <eos:description>
+                                    <gco:CharacterString>Significant geophysical, instrument-related or processing-related events associated with this granule</gco:CharacterString>
+                                 </eos:description>
+                                 <eos:dataType>
+                                    <eos:EOS_AdditionalAttributeDataTypeCode codeList="http://earthdata.nasa.gov/metadata/resources/Codelists.xml#EOS_AdditionalAttributeDataTypeCode"
+                                                                             codeListValue="STRING">STRING</eos:EOS_AdditionalAttributeDataTypeCode>
+                                 </eos:dataType>
+                              </eos:EOS_AdditionalAttributeDescription>
+                           </eos:reference>
+                        </eos:AdditionalAttribute>
+                     </eos:AdditionalAttributes>
+                  </gco:Record>
+               </gmd:otherProperty>
+            </gmd:MD_Band>
+         </gmd:dimension>
+      </gmd:MD_CoverageDescription>
+   </gmd:contentInfo>
+   <gmd:contentInfo>
+      <gmd:MD_ImageDescription>
+         <gmd:attributeDescription/>
+         <gmd:contentType/>
+         <gmd:processingLevelCode>
+            <gmd:MD_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>2</gco:CharacterString>
+               </gmd:code>
+               <gmd:description>
+                  <gco:CharacterString>Geophysical Quantities at the sensor resolution or geolocated</gco:CharacterString>
+               </gmd:description>
+            </gmd:MD_Identifier>
+         </gmd:processingLevelCode>
+      </gmd:MD_ImageDescription>
+   </gmd:contentInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Langley DAAC User Services</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName gco:nilReason="missing"/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>757-864-8656</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>757-864-8807</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>NASA Langley Research Center, Mail Stop 157D</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Hampton</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Virginia</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>23681-2199</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>support-asdc@earthdata.nasa.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:hoursOfService>
+                              <gco:CharacterString>9 AM to 5 PM ET</gco:CharacterString>
+                           </gmd:hoursOfService>
+                           <gmd:contactInstructions>
+                              <gco:CharacterString>None</gco:CharacterString>
+                           </gmd:contactInstructions>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees gco:nilReason="missing"/>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributorFormat>
+                  <gmd:MD_Format>
+                     <gmd:name>
+                        <gco:CharacterString>HDF-EOS</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:version gco:nilReason="unknown"/>
+                  </gmd:MD_Format>
+               </gmd:distributorFormat>
+               <gmd:distributorTransferOptions>
+                  <gmd:MD_DigitalTransferOptions/>
+               </gmd:distributorTransferOptions>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="series">series</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_AccuracyOfATimeMeasurement>
+               <gmd:measureIdentification>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>PrecisionOfSeconds</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:measureIdentification>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueUnit/>
+                     <gmd:value>
+                        <gco:Record xsi:type="gco:Real_PropertyType">
+                           <gco:Real>6</gco:Real>
+                        </gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AccuracyOfATimeMeasurement>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:processStep>
+                  <gmi:LE_ProcessStep>
+                     <gmd:description gco:nilReason="unknown"/>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>LaRC</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="processor">processor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmi:LE_ProcessStep>
+               </gmd:processStep>
+               <gmd:source>
+                  <gmi:LE_Source>
+                     <gmd:description>
+                        <gco:CharacterString>Input to MOP02J</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>MOP01</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date gco:nilReason="unknown"/>
+                           <gmd:edition>
+                              <gco:CharacterString>6</gco:CharacterString>
+                           </gmd:edition>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                  </gmi:LE_Source>
+               </gmd:source>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+         <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                             codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
+         </gmd:maintenanceAndUpdateFrequency>
+         <gmd:maintenanceNote>
+            <gco:CharacterString>Translated from ECHO using ECHOToISO.xsl Version: 1.23 (June 6, 2014)</gco:CharacterString>
+         </gmd:maintenanceNote>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
+   <gmi:acquisitionInformation>
+      <gmi:MI_AcquisitionInformation>
+         <gmi:instrument>
+            <eos:EOS_Instrument id="d10279e160">
+               <gmi:citation>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>MOPITT&gt;Measurements of Pollution In The Troposphere</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmi:citation>
+               <gmi:identifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>MOPITT</gco:CharacterString>
+                     </gmd:code>
+                     <gmd:description>
+                        <gco:CharacterString>Measurements of Pollution In The Troposphere</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:MD_Identifier>
+               </gmi:identifier>
+               <gmi:type>
+                  <gco:CharacterString>Correlation Spectrometry</gco:CharacterString>
+               </gmi:type>
+               <gmi:description gco:nilReason="missing"/>
+               <gmi:mountedOn xlink:href="#d10279e152"/>
+               <eos:sensor>
+                  <eos:EOS_Sensor id="d10279e168">
+                     <eos:citation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>2.3um Radiometer&gt;Correlation Spectrometer at 2.3 um</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date gco:nilReason="unknown"/>
+                        </gmd:CI_Citation>
+                     </eos:citation>
+                     <eos:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>2.3um Radiometer</gco:CharacterString>
+                           </gmd:code>
+                           <gmd:description>
+                              <gco:CharacterString>Correlation Spectrometer at 2.3 um</gco:CharacterString>
+                           </gmd:description>
+                        </gmd:MD_Identifier>
+                     </eos:identifier>
+                     <eos:type>
+                        <gco:CharacterString>Spectroscopy</gco:CharacterString>
+                     </eos:type>
+                     <eos:mountedOn xlink:href="#d10279e160"/>
+                  </eos:EOS_Sensor>
+               </eos:sensor>
+               <eos:sensor>
+                  <eos:EOS_Sensor id="d10279e175">
+                     <eos:citation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>2.4um Radiometer&gt;Correlation Spectrometer at 2.4 um</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date gco:nilReason="unknown"/>
+                        </gmd:CI_Citation>
+                     </eos:citation>
+                     <eos:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>2.4um Radiometer</gco:CharacterString>
+                           </gmd:code>
+                           <gmd:description>
+                              <gco:CharacterString>Correlation Spectrometer at 2.4 um</gco:CharacterString>
+                           </gmd:description>
+                        </gmd:MD_Identifier>
+                     </eos:identifier>
+                     <eos:type>
+                        <gco:CharacterString>Spectroscopy</gco:CharacterString>
+                     </eos:type>
+                     <eos:mountedOn xlink:href="#d10279e160"/>
+                  </eos:EOS_Sensor>
+               </eos:sensor>
+               <eos:sensor>
+                  <eos:EOS_Sensor id="d10279e182">
+                     <eos:citation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>4.7um Radiometer&gt;Correlation Spectrometer at 4.7 um</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date gco:nilReason="unknown"/>
+                        </gmd:CI_Citation>
+                     </eos:citation>
+                     <eos:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>4.7um Radiometer</gco:CharacterString>
+                           </gmd:code>
+                           <gmd:description>
+                              <gco:CharacterString>Correlation Spectrometer at 4.7 um</gco:CharacterString>
+                           </gmd:description>
+                        </gmd:MD_Identifier>
+                     </eos:identifier>
+                     <eos:type>
+                        <gco:CharacterString>Spectroscopy</gco:CharacterString>
+                     </eos:type>
+                     <eos:mountedOn xlink:href="#d10279e160"/>
+                  </eos:EOS_Sensor>
+               </eos:sensor>
+            </eos:EOS_Instrument>
+         </gmi:instrument>
+         <gmi:platform>
+            <eos:EOS_Platform id="d10279e152">
+               <gmi:identifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>AM-1</gco:CharacterString>
+                     </gmd:code>
+                     <gmd:description>
+                        <gco:CharacterString>First EOS Polar Orbiting Satellite, 10:30 AM Descending Equator Crossing</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:MD_Identifier>
+               </gmi:identifier>
+               <gmi:description>
+                  <gco:CharacterString>Spacecraft</gco:CharacterString>
+               </gmi:description>
+               <gmi:instrument xlink:href="#d10279e160"/>
+            </eos:EOS_Platform>
+         </gmi:platform>
+      </gmi:MI_AcquisitionInformation>
+   </gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+

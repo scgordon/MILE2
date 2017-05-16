@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="075.0"
+            type="primary">
+   <timeStamp value="2015-02-11 21:41:19 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NMC Tropical Analyses, daily 1968-1985</title>
+   <summary>
+      <p>Analyses since January 1983 were merely interpolated by NMC from the Global
+              Analyses in <a href="http://rda.ucar.edu/datasets/ds082.0/">DS082.0</a>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Meteorological Center"
+                contact="Harold Arthur Bedient"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">OPERATIONAL MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Bedient, H.A., W.G. Collins, and G. Dent</authorList>
+      <year>1967</year>
+      <title>An operational tropical analysis system</title>
+      <periodical number="95" pages="942-949">Mon. Wea. Rev.</periodical>
+   </reference>
+   <publicationDate>1980-01-11</publicationDate>
+   <contentMetadata>
+      <temporal start="1968-01" end="1990-03" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <dataType process="analysis">grid</dataType>
+      <format>DSS_Tropical_Grid</format>
+      <levels>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="mercator"
+               numX="73"
+               numY="23"
+               startLon="0E"
+               startLat="48.09S"
+               endLon="360E"
+               endLat="48.09N"
+               xRes="513.669"
+               yRes="513.669"
+               resLat="22.5N"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

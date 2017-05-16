@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="735.0"
+            type="primary">
+   <timeStamp value="2015-10-29 19:00:44 -0600"/>
+   <continuingUpdate value="yes" frequency="daily"/>
+   <title>NCEP GDAS Satellite Data</title>
+   <summary>
+      <p>This dataset contains a subset of the level 1b or higher satellite data products 
+              used in the NCEP Global Data Assimilation System.  These files can be used with the
+              Weather Research Forecast (WRF) Data Assimilation (DA) system.  However, they can
+              be useful for a variety of applications, particularly where conventional data
+              is scarce.</p>
+      <p>File sizes may vary due to operational changes.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Infrared Wavelengths &gt; Brightness Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Microwave &gt; Brightness Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Chemistry/Oxygen Compounds &gt; Ozone</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Precipitable Water</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Infrared Wavelengths &gt; Infrared Imagery</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Infrared Wavelengths &gt; Infrared Radiance</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Microwave &gt; Microwave Radiance</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Water Vapor</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <contact>Grace Peng</contact>
+   <platform vocabulary="GCMD">GOES &gt; NOAA Geostationary Operational Environmental Satellites</platform>
+   <platform vocabulary="GCMD">DMSP &gt; Defense Meteorological Satellite Program</platform>
+   <platform vocabulary="GCMD">NOAA POES &gt; NOAA Polar Orbiting Environmental Satellites</platform>
+   <platform vocabulary="GCMD">NPOESS &gt; National Polar-orbiting Operational Environmental Satellite System</platform>
+   <platform vocabulary="GCMD">METOP &gt; Meteorological Operational Satelite</platform>
+   <platform vocabulary="GCMD">METEOSAT</platform>
+   <platform vocabulary="GCMD">COSMIC/FORMOSAT-3 &gt; Constellation Observing System for Meteorology, Ionosphere and Climate</platform>
+   <platform vocabulary="GCMD">C/NOFS &gt; COMMUNICATION AND NAVIGATION OUTAGE FORECAST SYSTEM</platform>
+   <platform vocabulary="GCMD">AURA &gt; Aura</platform>
+   <supportsProject vocabulary="GCMD">WRF &gt; WRF (Weather Research and Forecasting) Modeling</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://www.nco.ncep.noaa.gov/sib/decoders/BUFRLIB/">NCEP BUFRLIB Software User Guide</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/data_processing/data_dumping.doc/table_1.htm">Listing of NCEP BUFR datatypes.</relatedResource>
+   <relatedResource url="http://nomads.ncep.noaa.gov/">NCEP model data archive (includes radiance data in the gdas.* directories)</relatedResource>
+   <relatedResource url="http://nomads.ncdc.noaa.gov/data.php#gdas">NCDC NCEP-gdas radiance BUFR data archive.</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/data_processing/bufrtab_tableb.htm">NCEP BUFR MNEMONICS</relatedResource>
+   <relatedDataset ID="351.0"/>
+   <relatedDataset ID="461.0"/>
+   <relatedDataset ID="067.4"/>
+   <publicationDate>2009-05-19</publicationDate>
+   <contentMetadata>
+      <temporal start="2004-04-17" end="2015-11-27" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="6" unit="second"/>
+      <temporalFrequency type="regular" number="3" unit="second"/>
+      <temporalFrequency type="regular" number="1" unit="second"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/bufr/">WMO_BUFR</format>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="066.0"
+            type="primary">
+   <timeStamp value="2015-07-22 11:36:39 -0600"/>
+   <continuingUpdate value="no"/>
+   <title>NCEP Daily Northern Hemisphere Tropospheric Analyses for 1973 January to 1997 March</title>
+   <summary>
+      <p>This dataset contains twice daily gridded Northern Hemisphere analyses from NCEP's operational model on 47-by-51 and 65-by-65 polar-stereographic grids centered on the North Pole. Available parameters include geopotential height, temperature, stream functions, thickness, and vertical velocity for various levels and layers through the troposphere.</p>
+      <p>NCEP prepared the 65-by-65 analyses, and were an advancement over the 47-by-51 "B3" analyses.  Later NCEP made global analyses, from which the 65-by-65 analyses were interpolated.  To continue the 47-by-51 analyses, NCAR/CISL/DSS extracted them from the 65-by-65 grid.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Meteorological Center"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Tropopause</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Depth</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Virtual Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">OPERATIONAL MODELS</platform>
+   <supportsProject vocabulary="GCMD">WRF &gt; WRF (Weather Research and Forecasting) Modeling</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Jenne, Roy L.</authorList>
+      <year>1986</year>
+      <title>NMC Analyses (unpublished)</title>
+      <organization reportID="" pages="14">NCAR</organization>
+      <url>http://rda.ucar.edu/datasets/common/nmc.octagon/NMC-Analyses-RJ1986.pdf</url>
+   </reference>
+   <relatedDataset ID="060.0"/>
+   <relatedDataset ID="082.0"/>
+   <publicationDate>1980-01-10</publicationDate>
+   <contentMetadata>
+      <temporal start="1973-01-01 00:00 +0000"
+                end="1997-04-03 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <temporalFrequency type="regular" number="8" unit="hour"/>
+      <temporalFrequency type="regular" number="10" unit="day"/>
+      <temporalFrequency type="regular" number="3" unit="day"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <temporalFrequency type="regular" number="8" unit="day"/>
+      <temporalFrequency type="regular" number="2" unit="day"/>
+      <temporalFrequency type="regular" number="4" unit="hour"/>
+      <temporalFrequency type="regular" number="3" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/datasets/common/nmc.on84/format_on84_jan88.html">NCEP_ON84</format>
+      <format href="http://dss.ucar.edu/datasets/common/nmc.octagon/format.html">DSS_Octagonal_Grid</format>
+      <format>DSS_Tropical_Grid</format>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="65"
+               numY="65"
+               startLon="125W"
+               startLat="20.83S"
+               projLon="80W"
+               xRes="381"
+               yRes="381"
+               pole="N"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="47"
+               numY="51"
+               startLon="122.61W"
+               startLat="4.86S"
+               projLon="80W"
+               xRes="381"
+               yRes="381"
+               pole="N"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="mercator"
+               numX="73"
+               numY="23"
+               startLon="360E"
+               startLat="48.09S"
+               endLon="0E"
+               endLat="48.09N"
+               xRes="513"
+               yRes="513"
+               resLat="22.5N"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

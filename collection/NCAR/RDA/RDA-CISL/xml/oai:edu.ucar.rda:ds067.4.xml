@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="067.4"
+            type="primary">
+   <timeStamp value="2015-11-19 12:14:04 -0700"/>
+   <doi>10.5065/D6G73BPX</doi>
+   <continuingUpdate value="yes" frequency="monthly"/>
+   <title>NCEP CPC Upper Stratospheric and Lower Mesospheric Analyses</title>
+   <summary>
+      <p>The Global Upper Stratospheric and Lower Mesospheric Analyses are provided on a pair of 65 by 65 polar grids, daily at 12Z. These were operationally prepared by NCEP/CPC, using Advanced Microwave Sounding Unit (AMSU) satellite data.</p>
+      <p>The analyses are available on four levels: 5, 2, 1 and 0.4 millibars. Parameters include pressure, geopotential height, and temperature.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP/CPC &gt; Climate Prediction Center, National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <contact>Doug Schuster</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="067.3"/>
+   <relatedDataset ID="067.0"/>
+   <relatedDataset ID="735.0"/>
+   <publicationDate>2008-12-10</publicationDate>
+   <contentMetadata>
+      <temporal start="2008-11-22 12:00 +0000"
+                end="2015-10-31 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="65"
+               numY="65"
+               startLon="125W"
+               startLat="20.826S"
+               projLon="80W"
+               xRes="381"
+               yRes="381"
+               pole="N"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="65"
+               numY="65"
+               startLon="145E"
+               startLat="20.826N"
+               projLon="100E"
+               xRes="381"
+               yRes="381"
+               pole="S"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="65"
+               numY="65"
+               startLon="145E"
+               startLat="20.826N"
+               projLon="80W"
+               xRes="381"
+               yRes="381"
+               pole="S"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

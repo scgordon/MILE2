@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="067.3"
+            type="primary">
+   <timeStamp value="2013-04-11 15:01:18 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">all_free</access>
+   <title>NCEP Stratospheric Analyses, daily 1997May-2008Nov</title>
+   <summary>
+      <p>The Global Stratospheric Analyses are provided on a pair of 65x65 polar
+              grids, daily at 12Z.  These were operationally prepared by NCEP, using ATOVS data, which involves several sensors, including the AMSU.</p>
+      <p>The analyses are available on 8 mandatory levels from 70 to 0.4 mb.
+              Parameters include pressure, geopotential height, and temperature.</p>
+      <p>
+         <a href="http://rda.ucar.edu/datasets/ds067.3/more.html">More information is available</a>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <supportsProject vocabulary="GCMD">WRF &gt; WRF (Weather Research and Forecasting) Modeling</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="067.0"/>
+   <relatedDataset ID="067.4"/>
+   <publicationDate>1997-07-17</publicationDate>
+   <contentMetadata>
+      <temporal start="1997-05-01 12:00 +0000"
+                end="2007-06-30 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="2" unit="day"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="65"
+               numY="65"
+               startLon="125W"
+               startLat="20.826S"
+               projLon="80W"
+               xRes="381"
+               yRes="381"
+               pole="N"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="65"
+               numY="65"
+               startLon="145E"
+               startLat="20.826N"
+               projLon="100E"
+               xRes="381"
+               yRes="381"
+               pole="S"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>
