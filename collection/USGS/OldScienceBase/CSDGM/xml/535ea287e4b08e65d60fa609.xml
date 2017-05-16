@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Sara Brandt</origin>
+            <origin>Peter Steeves</origin>
+            <pubdate>20090609</pubdate>
+            <title>Groundwater contributing areas for Cape Cod and the Plymouth-Carver Regions of Massachusetts</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+               <sername>Data Series 451 (1 of 3)</sername>
+               <issue>DS-451</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Reston, VA</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?ds451_gwcontrib_areas</onlink>
+            <lworkcit>
+               <citeinfo>
+                  <origin>U. S. Geological Survey</origin>
+                  <pubdate>20090609</pubdate>
+                  <title>Local and Cumulative Impervious Surface Cover of Massachusetts Stream Basins</title>
+                  <geoform>vector digital data</geoform>
+                  <serinfo>
+                     <sername>Data Series 451</sername>
+                     <issue>DS-451</issue>
+                  </serinfo>
+                  <onlink>http://ma.water.usgs.gov/publications/ds/default.htm</onlink>
+               </citeinfo>
+            </lworkcit>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This data layer contains groundwater contributing areas for streams, ponds and estuaries in the Cape Cod and the Plymouth-Carver region.  Contributing areas were delineated by using regional groundwater-flow models. The percent impervious cover of each contributing area was calculated by using a statewide 1-m resolution binary rater data layer of impervious surface in2005.  This is one of three data layers in this data series publication.</abstract>
+         <purpose>This data layer was created in cooperation with the Evironmental Protection Agency (EPA) to assist local communities in environmental planning and stormwater run off studies. The purpose of this data layer is to provide basin boundaries and impervious surface data at a more discretized scale than is available with current Watershed Boundary Dataset (WBD) subdivisions.</purpose>
+         <supplinf>The hydrology of the Cape Cod and Plymouth- Carver Regions of Massachusetts is dominated by groundwater flow.  Basins in these areas cannot be delineated by surface topography, but are instead defined by groundwater elevation and flow direction.  Regional groundwater models of the Plymouth Carver aquifer (Masterson and others,2009) and Cape Cod aquifer system (Walter and Whealan, 2005) were used to delineate groundwater contributing areas in cooperation with Massachusetts Department of Environmental Protection as part of the Massachusetts Estuaries Project (Walter et al 2004).   Groundwater flow was simulated by the three-dimensional finite-difference groundwater model MODFLOW-2000 (Harbaugh and others, 2000) and the particle tracking program MODPATH4 (Pollock, 2000).  Basin boundary delineations reflect long-term average hydrologic conditions with public-supply wells pumping at average withdrawal rates for 1995 to 2000.
+
+The original delineation coverage included groundwater contributing areas for 593 estuaries, ponds, streams, and wells on Cape Cod.  For this new layer, contributing-area polygons for individual sub-estuaries and small flow-through ponds were merged and dissolved into larger contributing area polygons for major streams and estuarine systems. In the Plymouth-Carver Region, contributing areas were delineated for 10 freshwater streams.  In addition to stream basins, contributing areas were delineated for direct drainage into the Cape Cod Canal, Buzzards Bay, and Cape Cod Bay.  Contributing areas for individual estuaries in the Plymouth - Carver region were not available.  Individual polygon areas were modified by using ArcGIS 9.3 editing tools to eliminate small gaps or overlapping sliver polygons resulting from the spatial discretization of the model.  Boundaries were not smoothed and thus contain jagged stair-step edges which are an artifact of the grid spacing of the groundwater model.
+
+The percent impervious cover was calculated for each hydrologic unit. Two gridded impervious surface datasets are available for Massachusetts. The National Land Cover Dataset (NLCD) is derived from Landsat satellite imagery and provides percent impervious surface on 30-m grid cells for the entire United States for the year 2001 (http://www.mrlc.gov/index.php). Another impervious surface data layer is provided by the Massachusetts Office of Geographic and Environmental Information (MassGIS), (http://www.mass.gov/mgis/laylist.htm). This data is a 1-m binary impervious surface grid based on 2005 infrared orthoimagery for the state of Massachusetts. To compare the datasets, both the MassGIS and the NLCD grids were overlayed onto hydrologic unit polygons. Percent impervious in each hydrologic unit was calculated using both impervious surface data layers. Although the data from both sources are comparable, there are notable differences between the data sets, particularly at the high and low ends of the impervious scale. The MassGIS data is preferred to the NLCD data because it is more recent and is at a finer spatial scale.  However it cannot be used for basins which extend past the border of MA. 
+Using only data from hydrologic units falling entirely within MA, a regression equation was developed relating the percent impervious surface as calculated with the 1-m MassGIS impervious data layer to the 30-m NLCD data layer. Natural log transformations were used to linearize the relationship. Results of the regression analysis are shown below. The regression equation was calculated with 1283 independent data points. The R2 for the regression is 93.9% and regression coefficients were significantly different from zero at the 0.05 significance level.
+
+Ln (Imp_1m) = 1.15 + 0.601 * Ln (Imp_30m)
+
+Where,
+Imp_1m = percent impervious for a hydrologic unit calculated with 1-m MassGIS impervious grid
+Imp_30m = percent impervious for a hydrologic unit calculated with 30-m NLCD impervious grid
+For hydrologic units with area outside of MA, percent impervious was calculated with the NLCD grid and then transformed using the above relationship.</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>unknown</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>ground condition</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>
+-70.851082</westbc>
+            <eastbc>
+-69.917953</eastbc>
+            <northbc>
+42.114096</northbc>
+            <southbc>
+41.507310</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>U.S. Geological Survey</themekt>
+            <themekey>inland Waters</themekey>
+         </theme>
+         <place>
+            <placekt>U.S. Geological Survey</placekt>
+            <placekey>Plymouth Carver region of Massachusetts</placekey>
+         </place>
+      </keywords>
+      <accconst>none</accconst>
+      <useconst>none</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;amp;subject=GIS+Dataset+ds451_gwcontrib_areas</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+   </idinfo>
+   <dataqual>
+      <logic>This dataset was developed as a polygon feature class within the ESRI personal geodatabase model.</logic>
+      <complete>The completeness of the data reflects the content of the sources, which most often are the published USGS topographic quadrangle maps. The USGS topographic quadrangle is usually supplemented by Digital Orthophoto Quadrangles (DOQs). Features found on the ground may have been eliminated or generalized on the source map because of scale and legibility constraints. In most cases DEM data were derived from these topographic maps.</complete>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Harbaugh, A.W. and others</origin>
+                  <pubdate>2000</pubdate>
+                  <title>2000, MODFLOW-2000, The U.S. Geological Survey Modular Ground-Water Model - User Guide to Modularization Concepts and the Ground-Water Flow Process</title>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Open File Report 2000-92</sername>
+                     <issue>OFR-92</issue>
+                  </serinfo>
+               </citeinfo>
+            </srccite>
+            <typesrc>computer program</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>unknown</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>MODFLOW</srccitea>
+            <srccontr>See Supplementary Information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Masterson, J.P</origin>
+                  <origin>Carlson, C.S</origin>
+                  <origin>Massey, A.J</origin>
+                  <origin>Walter, D.A</origin>
+                  <pubdate>2009</pubdate>
+                  <title>Hydrogeology and simulation of ground-water flow in Plymouth-Carver - Kingston-Duxbury aquifer system, southeastern Massachusetts</title>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Scientific Investigations Report</sername>
+                     <issue>unknown</issue>
+                  </serinfo>
+               </citeinfo>
+            </srccite>
+            <typesrc>paper</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>unknown</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>none</srccitea>
+            <srccontr>See Supplementary Information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Walter, D.A</origin>
+                  <origin>Whealan, A.T</origin>
+                  <pubdate>2009</pubdate>
+                  <title>Simulated Water Sources and Effects of Pumping on Surface and Ground Water, Sagamore and Monomoy  Flow Lenses, Cape Cod, Massachusetts</title>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Scientific Investigations Report 2004-5181</sername>
+                     <issue>SIR-5181</issue>
+                  </serinfo>
+               </citeinfo>
+            </srccite>
+            <typesrc>paper</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>unknown</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+            <srccitea>none</srccitea>
+            <srccontr>See Supplementary Information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Walter, D.A</origin>
+                  <origin>Masterson, J.P</origin>
+                  <origin>Hess, K.M</origin>
+                  <pubdate>2004</pubdate>
+                  <title>Ground-Water Recharge Areas and Traveltimes to Pumped Wells, Ponds, Streams, and Coastal Water Bodies, Cape Cod, Massachusetts</title>
+                  <serinfo>
+                     <sername>U. S. Geological Survey Scientific Investigations Map I-2857</sername>
+                     <issue>SIM I-2875</issue>
+                  </serinfo>
+               </citeinfo>
+            </srccite>
+            <typesrc>paper</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>unknown</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>none</srccitea>
+            <srccontr>See Supplementary Information</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>See Supplemental Information</procdesc>
+            <procdate>20090130</procdate>
+            <proctime>17370300</proctime>
+         </procstep>
+         <procstep>
+            <procdesc>Dataset copied.</procdesc>
+            <srcused>T:\SubHUC12\ds451_gwcontrib_areas</srcused>
+            <procdate>20090609</procdate>
+            <proctime>12074000</proctime>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>116</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <gridsys>
+               <gridsysn>State Plane Coordinate System 1983</gridsysn>
+               <spcs>
+                  <spcszone>2001</spcszone>
+                  <lambertc>
+                     <stdparll>41.716667</stdparll>
+                     <stdparll>42.683333</stdparll>
+                     <longcm>-71.500000</longcm>
+                     <latprjo>41.000000</latprjo>
+                     <feast>200000.000000</feast>
+                     <fnorth>750000.000000</fnorth>
+                  </lambertc>
+               </spcs>
+            </gridsys>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>10</absres>
+                  <ordres>10</ordres>
+               </coordrep>
+               <plandu>meters</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>Geodetic Reference System 80</ellips>
+            <semiaxis>6378137.000000</semiaxis>
+            <denflat>298.257222</denflat>
+         </geodetic>
+      </horizsys>
+      <vertdef>
+         <altsys>
+            <altdatum>unknown</altdatum>
+            <altres>0.000100</altres>
+            <altunits>unknown</altunits>
+            <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+         </altsys>
+      </vertdef>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>
+ds451_gwcontrib_areas</enttypl>
+            <enttypd>vector attribute table</enttypd>
+            <enttypds>U. S. Geological Survey</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>FID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape_Area</attrlabl>
+            <attrdef>Area of feature in internal units squared.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AREA2MI</attrlabl>
+            <attrdef>Area in square miles</attrdef>
+            <attrdefs>none</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>50</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Impervious</attrlabl>
+            <attrdef>Percent impervious surface</attrdef>
+            <attrdefs>U. S. Geological Survey</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>100</rdommax>
+                  <attrunit>Percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape_Leng</attrlabl>
+            <attrdef>Length of feature in internal units.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>UniqID</attrlabl>
+            <attrdef>Unique Identifier</attrdef>
+            <attrdefs>See Overview Description for valid values</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HUC8</attrlabl>
+            <attrdef>8-digit Hydrologic Unit Code</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>8-digit Hydrologic Unit Code</codesetn>
+                  <codesets>U. S. Gelogical Survey</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <overview>
+         <eaover>This is a detailed breakdown of the polygon attribute 'uniqueid', which has a many-one correspondence with the HUC8 field:
+HUC8 UniqueID (valid range)
+01060003 10000 - 10999
+01070004 11000 - 11999
+01070005 12000 - 12999
+01070006 13000 - 13999
+01080201 14000 - 14999
+01080202 15000 - 15999
+01080203 16000 - 16999
+01080204 17000 - 17999
+01080205 18000 - 18999
+01080206 19000 - 19999
+01080207 20000 - 20999
+01090001 21000 - 21999
+01090002 22000 - 22999
+01090003 23000 - 23999
+01090004 24000 - 24999
+01100001 25000 - 25999
+01100002 26000 - 26999
+01100005 27000 - 27999
+02020003 28000 - 28999
+02020006 29000 - 29999</eaover>
+         <eadetcit>See Supplementary Information</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U. S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>455 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://water.usgs.gov/user_feedback_form.html</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>Although this data set has been used by the U.S. Geological 
+Survey, U.S. Department of the Interior, no warranty expressed or 
+implied is made by the U.S. Geological Survey as to the accuracy 
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials. 
+Any use of trade, product, or firm names is for descriptive 
+purposes only and does not imply endorsement by the U.S. 
+Government.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ESRI shapefile</formname>
+               <transize>1.973</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/ds451_gwcontrib_areas.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>none</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20090609</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>455 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ds451_gwcontrib_areas</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

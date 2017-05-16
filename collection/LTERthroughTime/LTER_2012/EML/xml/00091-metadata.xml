@@ -1,0 +1,491 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-pie.196.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=PIE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>MON-PT-SeaLevel-Monthly-MSL.02</alternateIdentifier>
+    <title>Monthly mean sea level data (1912-2013) relative to NAVD88 for Portland, Maine, NOAA/NOS</title>
+    <creator id="pers-1">
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <individualName>
+        <givenName>Anne</givenName>
+        <surName>Giblin</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Ecosystems Center</deliveryPoint>
+        <deliveryPoint>MBL</deliveryPoint>
+        <deliveryPoint>7 MBLSt</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <metadataProvider>
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/PIE/</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Samuel</givenName>
+        <surName>Kelsey</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Hap</givenName>
+        <surName>Garritt</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <pubDate>2012</pubDate>
+    <abstract>
+      <para>Monthly sea level data for NOAA/NOS station 8418150, Portland, Maine. Tidal bench marks directions from north bound Interstate 295 in Portland, take the Waterfront Exit (Alt. U.S. 1) to Commercial Street, then continue NE along Commercial Street for 2.4 km (1.5 mi) to the Maine State Pier, the last pier- warehouse along the waterfront. The bench marks are located within 1.6 km (1 mi) radius of tide station. The tide gage is located in the south corner on the off shore end of the Maine State Pier. NOAA/NOS Center for Operational Oceanographic Products and Services (CO-OPS).</para>
+    </abstract>
+    <keywordSet>
+      <keyword>PIE LTER</keyword>
+      <keyword>disturbance</keyword>
+      <keyword>Plum Island Ecosystems</keyword>
+      <keyword>Portland</keyword>
+      <keyword>Maine</keyword>
+      <keyword>water level</keyword>
+      <keyword>sea level</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Acceptance and utilization of PIE-LTER data requires that:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions.</para>
+          </listitem>
+          <listitem>
+            <para>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications</para>
+          </listitem>
+          <listitem>
+            <para>A copy of any resultant publications should be sent to: 
+            <literalLayout>
+Principal Investigator
+Ecosystems Center
+Marine Biological Laboratory
+Woods Hole, MA 02543
+</literalLayout></para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://ecosystems.mbl.edu/PIE/data/PHY/MON-PT-SeaLevel-Monthly-MSL.html</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="GEO-1">
+        <geographicDescription>NOAA/NOS Portland, ME sealevel Station 8418150</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.246667</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.246667</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.656667</northBoundingCoordinate>
+          <southBoundingCoordinate>43.656667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1912-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-03-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Annual updates</para>
+        <para>Version 01: January 26, 2012, updated data and metadata, 1912 - 2011, relative to NAVD88 datum. Used MarcrosExportEML_HTML (working)pie_excel2007.xlsm 1/18/12 4:51 PM for QA/QC to EML 2.1.0</para>
+        <para>Version 02: 11Sep2013, data update with metadata and data updated to comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007_Sep2013.xlsm 9/10/13 12:02 PM for QA/QC to EML 2.1.0</para>
+      </description>
+    </maintenance>
+    <contact id="im" system="knb">
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/PIE/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/PIE/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout>
+NOTES AND COMMENTS: Mean Sea Level (MSL) is a tidal datum determined over a 19-year National Tidal Datum Epoch.  It pertains to local mean sea level and should not be confused with the fixed datums of North American Vertical Datum of 1988 (NAVD 88). The National Oceanic and Atmospheric Administration, National Ocean Service (NOS) is updating the nation's tidal datums to a new National Tidal Datum Epoch (NTDE) to reflect changes in mean sea level along the nation's coast. 
+
+The new NTDE will provide up-to-date tidal datum information available for applications that are essential to support NOAA's strategic programs, as well as other Federal, State and private sector coastal zone activities. As a result of the update, more accurate tidal information will be made available for widespread application to hydrographic surveys and mapping programs, navigational safety (Physical Oceanographic Real Time Systems, PORTS&#174;), wetland restoration, marine boundaries, coastal engineering, storm warnings and hazard mitigation, emergency management, and hydrodynamic modeling. 
+
+The (NTDE) is a specific 19-year period over which tide observations are taken to determine Mean Sea Level and other tidal datums such as Mean Lower Low Water and Mean High Water. This latest update will define the 19-year period as 1983-2001. A tidal datum is a vertical reference based on a specific stage of tide which serves as a baseline elevation to which sounding depths or topographic heights are referenced. The 19-year period includes an 18.6 year astronomical cycle that accounts for all significant variations in the moon and sun that cause slowly varying changes in the range of tide. The NTDE has been adopted so that tidal datum determinations throughout the United States will be based on one specific common reference period. 
+
+Relative mean sea level, which is a term used to denote the average height of the ocean relative to land, can vary by location and over time and is not the same at all locations. It is the policy of NOS to consider a revised NTDE every 20-25 years in order to take into account relative sea level changes caused by global sea level change and the effects of long term local land movement due to subsidence or glacial rebound. Previous tidal Epochs were determined for periods 1924-42, 1941-59, and 1960-78. Water level measurements taken by NOS over long periods of time are used to smooth out shorter term (daily, monthly, annual) variations which help reveal long term trends (see http://tidesandcurrents.noaa.gov/sltrends/sltrends.shtml). The NOS Center for Operational Oceanographic Products and Services (CO-OPS) has the responsibility for operating and maintaining the National Water Level Observation Network, comprised of 175 long term stations in the coastal ocean and Great Lakes. The tide stations are used as the primary reference for determination of tidal datums and bench mark elevations (permanent monuments with elevations referenced to tidal datums) for station locations listed on the CO-OPS web site. A significant number of these tidal bench mark information "sheets" will be made available on the 1983-2001 NTDE after April 21, 2003. The remaining stations, that meet NOS publication standards, will be continuously updated until the process is completed at the end of FY 2003.
+
+For further information please contact Steve Gill at 301-713-2981 Extension 139, or Stephen.Gill@noaa.gov 
+Portland Station Datum, PID OCO005
+
+Data Retrieval site: http://tidesandcurrents.noaa.gov/data_menu.shtml?stn=8418150%20Portland,%20ME&amp;amp;amp;amp;amp;type=Historic+Tide+Data
+
+Datum site: 
+Sep 11 2013 19:40 GMT    ELEVATIONS ON STATION DATUM
+                        National Ocean Service (NOAA)
+ Station:  8418150                                           T.M.:         75 W
+Name:     Portland, ME                                      Units:       Feet
+Status:   Accepted (Apr 17 2003)                            Epoch:  1983-2001
+                                                            Datum:       STND
+ 
+Datum         Value  Description
+---------       --------  ----------------------------------------
+MHHW          5.626    Mean Higher-High Water
+MHW            5.493    Mean High Water
+NAVD88       4.208   North American Vertical Datum of 1988
+DTL              4.117    Mean Diurnal Tide Level
+MSL              4.113    Mean Sea Level
+MTL              4.103    Mean Tide Level
+MLW             2.712    Mean Low Water
+MLLW           2.607    Mean Lower-Low Water
+STND             0.00    Station Datum
+</literalLayout>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Plum Island Ecosystems Long-Term Ecological Research (PIE LTER) Program</title>
+      <personnel>
+        <individualName>
+          <givenName>Anne</givenName>
+          <surName>Giblin</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7488</phone>
+        <electronicMailAddress>agiblin@mbl.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hap</givenName>
+          <surName>Garritt</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7485</phone>
+        <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+        <role>Information Manager</role>
+      </personnel>
+      <abstract>
+        <para>
+          <literalLayout>
+The Plum Island Ecosystems (PIE) LTER is an integrated research, education and outreach program whose goal is to develop a predictive understanding of the long-term response of watershed and estuarine ecosystems at the land-sea interface to changes in climate, land use and sea level. The principal study site is the Plum Island Sound estuary, its coupled Parker, Rowley and Ipswich River watersheds and the adjacent coastal ocean, the Gulf of Maine. The PIE LTER focuses on how several aspects of global change influence organic matter and inorganic nutrient biogeochemistry and estuarine foodwebs. The inputs of organic matter and nutrients from land, ocean and marshes interact with the external drivers (climate, land use, river discharge, sea level) to dictate the extent and degree of nutrient and organic matter processing and determine the spatial patterns of estuarine productivity and trophic structure.
+</literalLayout>
+        </para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under Grants OCE-9726921, OCE-0423565. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The Plum Island Ecosystems (PIE) LTER site, is located in northeastern Massachusetts, 42.72 N, 70.85 W. The PIE LTER lies at the interface of a thinly soiled, formerly glaciated New England land mass and the highly productive Gulf of Maine. Three watersheds comprise the estuarine drainage basin: Parker (155 km2), Rowley (26 km2) and Ipswich (404 km2). The Ipswich River watershed is highly urbanized with Boston "bedroom" communities encroaching in the headwater region while the Parker is less urbanized and retains a higher proportion of forest.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-71.2198</westBoundingCoordinate>
+              <eastBoundingCoordinate>-70.7568</eastBoundingCoordinate>
+              <northBoundingCoordinate>42.8276</northBoundingCoordinate>
+              <southBoundingCoordinate>42.4965</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>100</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </geographicCoverage>
+        </coverage>
+      </studyAreaDescription>
+    </project>
+    <dataTable>
+      <entityName>MON-PT-SeaLevel-Monthly-MSL.csv</entityName>
+      <entityDescription>Monthly mean sea level data (1912-2013) relative to NAVD88 for Portland, Maine, NOAA/NOS</entityDescription>
+      <physical>
+        <objectName>MON-PT-SeaLevel-Monthly-MSL.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://ecosystems.mbl.edu/PIE/data/PHY/data/MON-PT-SeaLevel-Monthly-MSL.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att0.1">
+          <attributeName>Station</attributeName>
+          <attributeLabel>Station</attributeLabel>
+          <attributeDefinition>unique seven character identifier for the station</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique seven character identifier for the station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.2">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>year of the data yyyy</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.3">
+          <attributeName>Month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>numerical month mm</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.4">
+          <attributeName>Highest</attributeName>
+          <attributeLabel>Highest</attributeLabel>
+          <attributeDefinition>Highest Tide of the month (relative to NAVD88)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.5">
+          <attributeName>MHHW</attributeName>
+          <attributeLabel>MHHW</attributeLabel>
+          <attributeDefinition>Mean Higher-High Water (relative to NAVD88)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.6">
+          <attributeName>MHW</attributeName>
+          <attributeLabel>MHW</attributeLabel>
+          <attributeDefinition>Mean High water (relative to NAVD88)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.7">
+          <attributeName>MSL</attributeName>
+          <attributeLabel>MSL</attributeLabel>
+          <attributeDefinition>Mean Sea Level (relative to NAVD88)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.8">
+          <attributeName>MTL</attributeName>
+          <attributeLabel>MTL</attributeLabel>
+          <attributeDefinition>Mean of MHW and MLW (relative to NAVD88)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.9">
+          <attributeName>MLW</attributeName>
+          <attributeLabel>MLW</attributeLabel>
+          <attributeDefinition>Mean Low Water (relative to NAVD88)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.10">
+          <attributeName>MLLW</attributeName>
+          <attributeLabel>MLLW</attributeLabel>
+          <attributeDefinition>Mean Lower-Low Water (relative to NAVD88)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.11">
+          <attributeName>Lowest</attributeName>
+          <attributeLabel>Lowest</attributeLabel>
+          <attributeDefinition>Lowest Tide of the Month (relative to NAVD88)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1214</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

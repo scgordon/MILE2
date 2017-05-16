@@ -1,0 +1,904 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.177.19" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+  </access>
+  <dataset id="177" system="VCR">
+    <alternateIdentifier system="VCR">VCR09169</alternateIdentifier>
+    <alternateIdentifier system="DOI">10.6073/pasta/00c251faa97e7171887a234994a8515d</alternateIdentifier>
+    <title>Groundwater Levels on Hog Island, VA. 2007-</title>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Porter</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+        <city>Charlottesville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22903-4123</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mark</givenName>
+        <surName>Brinson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>East Carolina University, Biology Department</deliveryPoint>
+        <city>Greenville</city>
+        <administrativeArea>NC</administrativeArea>
+        <postalCode>27858-4353</postalCode>
+      </address>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">mbrinson</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Thomas</givenName>
+        <surName>Williams</surName>
+      </individualName>
+      <phone phonetype="voice">804-241-0598</phone>
+      <electronicMailAddress>tom@airnetworking.com</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">twilliams</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Frank</givenName>
+        <surName>Day</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Old Dominion University, Department of Biological Sciences</deliveryPoint>
+        <city>Norfolk</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>23529-0266</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4198</phone>
+      <phone phonetype="facsimile">(757) 683-5283</phone>
+      <electronicMailAddress>fday@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">fday</userId>
+    </creator>
+    <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+        <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+        <city>Charlottesville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22904-4123</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+    </metadataProvider>
+    <pubDate>2016-06-09</pubDate>
+    <abstract>
+      <para>This dataset contains hourly measurements of groundwater levels on Hog Island, VA - off the Atlantic Coast of the Delmarva Peninsula. It continues measurements of groundwater levels that were initiated in by Frank Day in July 1990 (dataset VCR99066) and by Mark Brinson in October 1997 (dataset VCR05130). Refer to these datasets for previous measurements. The groundwater measurements use the same wells and locations, but differ in sensor technology and frequency of measurement.</para>
+      <para>In August 2007, a system of wirelessly-connected data loggers designed by Thomas Williams was installed with help from Arthur Schwarzschild, Chris Buck, John Hayward and John Porter. &#160;</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">groundwater</keyword>
+      <keyword keywordType="theme">water level</keyword>
+      <keyword keywordType="theme">islands</keyword>
+      <keyword keywordType="theme">wells</keyword>
+    </keywordSet>
+    <additionalInfo>
+      <section>
+        <title>Relevant URLs</title>
+        <para>
+          <orderedlist>
+            <listitem>
+              <para>
+Figure showing well locations and connecting trails) 
+URL=http://www.vcrlter.virginia.edu/graphics/Well_locations_and_trails.jpg
+</para>
+            </listitem>
+          </orderedlist>
+        </para>
+      </section>
+    </additionalInfo>
+    <intellectualRights>
+      <section>
+        <title>Data License</title>
+        <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+        <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+        <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+        <para>
+          <orderedlist>
+            <listitem>
+              <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+            </listitem>
+            <listitem>
+              <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+            </listitem>
+            <listitem>
+              <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381, DEB-0621014 and DEB-1237733 in any publications using the data and documentation.</para>
+            </listitem>
+            <listitem>
+              <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+            </listitem>
+          </orderedlist>
+        </para>
+        <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+        <para>
+          <orderedlist>
+            <listitem>
+              <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+            </listitem>
+            <listitem>
+              <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+            </listitem>
+          </orderedlist>
+        </para>
+        <para>
+          <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+        </para>
+        <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+      </section>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>HOG_NORTH - North Hog Island (chronosequence)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.675944</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.657464</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.453103</northBoundingCoordinate>
+          <southBoundingCoordinate>37.445453</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_FD_R2 - Frank Day Well Location R2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6641051</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6641051</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4453412</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4453412</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_FD_R3 - Frank Day Well Location R3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6665096</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6665096</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4464957</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4464957</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_FD_R4 - Frank Day Well Location R4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6717762</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6717762</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4480663</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4480663</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_FD_S2 - Frank Day Well Location S2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6650845</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6650845</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4454522</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4454522</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_FD_S3 - Frank Day Well Location S3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.666857</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.666857</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4466509</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4466509</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_FD_S4 - Frank Day Well Location S4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6718882</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6718882</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4483218</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4483218</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_MB_1 - Mark Brinson Well on Hog Island</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6742305</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6742305</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4516139</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4516139</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_MB_2 - Mark Brinson Well on Hog Island</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6722722</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6722722</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4513749</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4513749</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_MB_3 - Mark Brinson Well on Hog Island</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6715444</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6715444</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.45135</northBoundingCoordinate>
+          <southBoundingCoordinate>37.45135</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_MB_4 - Mark Brinson Well on Hog Island</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6689499</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6689499</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4507194</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4507194</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_MB_5 - Mark Brinson Well on Hog Island</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6678417</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6678417</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4509138</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4509138</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WELL_MB_6 - Mark Brinson Well on Hog Island</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.6667917</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.6667917</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.4507111</northBoundingCoordinate>
+          <southBoundingCoordinate>37.4507111</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2007-08-10</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-06-09</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Porter</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+        <city>Charlottesville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22903-4123</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+    </contact>
+    <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+        <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+        <city>Charlottesville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22904-4123</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+        <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+        <city>Charlottesville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22904-4123</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+    </publisher>
+    <pubPlace>Charlottesville, Virginia</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Measurements are taken by a Campbell Scientific CS-450 or equivalent pressure sensor with atmospheric equilibration and logged on a Campbell Scientific CR-206 data logger.&#160; Measurements are taken every 15 minutes and average, max and minimum values are reported each hour.</para>
+          <para>Data is downloaded several times each day by Campbell Scientific "Loggernet" software to a PC and then transferred to a Unix computer where a SAS program integrates the new data with previous data, calculates elevations relative to surface and mean sea level and produces the output file. A copy of the SAS job is listed below:</para>
+          <para>/* BASIC SAS PROGRAM FOR READING VCR-LTER WATER LEVEL RECORDER DATA</para>
+          <para> &#160;&#160; THIS VERSION READS RAW FILES FROM THE DATA LOGGER AND DOES ERROR</para>
+          <para> &#160;&#160; CHECKS FOR DATA STREAMS FROM CAMPBELL DATA LOGGERS</para>
+          <para> */</para>
+          <para> options pagesize=62 linesize=80;</para>
+          <para> %let year=09;</para>
+          <para> * if a NEW year, also see commented SET statement down below;</para>
+          <para> LIBNAME LIB '../lib';</para>
+          <para>data rawhour ;</para>
+          <para> &#160; %let _EFIERR_ = 0; /* set the ERROR detection macro variable */</para>
+          <para> &#160; infile 'NEWDATA.DAT' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;</para>
+          <para> &#160; informat TIMESTAMP $21. ;</para>
+          <para> &#160; informat RECORD best32. ;</para>
+          <para> &#160; informat ID best32. ;</para>
+          <para> &#160; informat Height_Avg best32. ;</para>
+          <para> &#160; informat Height_Min best32. ;</para>
+          <para> &#160; informat Height_TMn $21.;</para>
+          <para> &#160; informat Height_Max best32. ;</para>
+          <para> &#160; informat Height_TMx $21. ;</para>
+          <para> &#160; informat Trouble_Flag_TotCode best32. ;</para>
+          <para> &#160; informat Int_VDC_Min best32. ;</para>
+          <para> &#160; informat RSSI_Min best32. ;</para>
+          <para> &#160; format TIMESTAMP $21.&#160; ;</para>
+          <para> &#160; format RECORD best12. ;</para>
+          <para> &#160; format ID best12. ;</para>
+          <para> &#160; format Height_Avg best12. ;</para>
+          <para> &#160; format Height_Min best12. ;</para>
+          <para> &#160; format Height_TMn $21. ;</para>
+          <para> &#160; format Height_Max best12. ;</para>
+          <para> &#160; format Height_TMx $21. ;</para>
+          <para> &#160; format Trouble_Flag_TotCode best12. ;</para>
+          <para> &#160; format Int_VDC_Min best12. ;</para>
+          <para> &#160; format RSSI_Min best12. ;</para>
+          <para> &#160; format DATE_TIME datetime21. ;</para>
+          <para> &#160; input</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; TIMESTAMP $</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; RECORD</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; ID</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; Height_Avg</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; Height_Min</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; Height_TMn $</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; Height_Max</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; Height_TMx $</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; Trouble_Flag_TotCode</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; Int_VDC_Min</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; RSSI_Min</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; ;</para>
+          <para> &#160; if _ERROR_ then call symputx('_EFIERR_',1);&#160; /* set ERROR</para>
+          <para> &#160;&#160;&#160;&#160;&#160; ! detection macro variable */</para>
+          <para>/*original statement that generated statements above</para>
+          <para> proc import DATAFILE='NEWDATA.DAT' OUT=Newhour DBMS=CSV;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; DELIMITER=',';&#160; GETNAMES=YES;</para>
+          <para> */</para>
+          <para>&#160; DATE_TIME=input(TIMESTAMP,anydtdtm21.);</para>
+          <para> &#160; DATE_TIME_MIN=input(Height_TMn,anydtdtm21.);</para>
+          <para> &#160; DATE_TIME_MAX=input(Height_TMx,anydtdtm21.);</para>
+          <para>&#160; FORMAT DATE_TIME DATE_TIME_MIN DATE_TIME_MAX datetime21. ;</para>
+          <para>* Parse the trouble flag ;</para>
+          <para> &#160; Sensor_errors = INT(Trouble_Flag_TotCode/10000);</para>
+          <para> &#160; Maint_flag= INT((Trouble_Flag_TotCode-(Sensor_errors*10000))/100);</para>
+          <para> &#160; Data_retries= Trouble_Flag_TotCode-(Sensor_errors*10000)-(Maint_flag*100);</para>
+          <para>&#160; drop TIMESTAMP Height_TMn Height_TMx ;</para>
+          <para>* keep only valid dates and dates in the current year;</para>
+          <para> &#160; if (DATE_TIME eq .) then delete;</para>
+          <para> &#160; if (year(datepart(DATE_TIME)) EQ (2000 + &amp;year));</para>
+          <para>&#160;/* Assign location IDs */</para>
+          <para> &#160; if (ID eq 101 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Brinson 2 HIM ';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='High Marsh on Hog Island';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= -0.891;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -1.244;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para> &#160; end;</para>
+          <para> &#160; else if (ID eq 102 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Brinson 3 WMY';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='Myrica Site on Hog Island';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= 0.000;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -1.390;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para>&#160; end;</para>
+          <para> &#160; else if (ID eq 103 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Brinson 4 IDP';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='Pond on Hog Island';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= 0.594;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -0.666;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para> &#160; end;</para>
+          <para> &#160; else if (ID eq 104 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Brinson 5 WDU';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='West Dune on Hog Island';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= 0.400;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -2.057;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para>&#160; end;</para>
+          <para> &#160; else if (ID eq 105 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Day R2';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='Near Beach, Raised';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= 0.322;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -1.542;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para>&#160; end;</para>
+          <para> &#160; else if (ID eq 106 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Day S2';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='Near Beach, Sunken';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= 0.009;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -0.784;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para>&#160; end;</para>
+          <para> &#160; else if (ID eq 107 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Day R3';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='Mid Island, Raised';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= 0.747;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -1.238;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para> &#160; end;</para>
+          <para> &#160; else if (ID eq 108 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Day S3';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='Mid Island, Sunken';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= 0.584;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -0.520;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para> &#160; end;</para>
+          <para> &#160; else if (ID eq 109 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Day R4';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='Bayside, Raised';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= 0.510;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -1.793;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para> &#160; end;</para>
+          <para> &#160; else if (ID eq 110 ) then do;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; station_name='Day S4';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; location='Bayside, Sunken';</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetmsl= 0.495;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; offsetsurface= -0.628;</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; mult=1;</para>
+          <para> &#160; end;</para>
+          <para> &#160; elevmsl= (Height_Avg*mult) + offsetmsl;</para>
+          <para> &#160; elevsur= (Height_Avg*mult) + offsetsurface;</para>
+          <para>label elevmsl='Water Elevation above MSL - meters';</para>
+          <para> label elevsur='Water Elevation above ground surface - meters';</para>
+          <para> label DATE_TIME='Date and Time of Measurement';</para>
+          <para> label DATE_TIME_MIN='Date and Time of Minimum Level within hour';</para>
+          <para> label DATE_TIME_MAX='Date and Time of Maximum Level within hour';</para>
+          <para> label Height_Avg='Raw height of water above sensor - meters';</para>
+          <para> label Sensor_errors = 'Num. Sensor Errors per hour';</para>
+          <para> label Maint_flag= 'Maintenance flag - logger door open';</para>
+          <para> label Data_retries= 'Harmless Sensor retries';</para>
+          <para> run;</para>
+          <para> *proc contents;</para>
+          <para> *proc print;</para>
+          <para> *run;</para>
+          <para>/* delete record with wildly out of range values */</para>
+          <para> data Newhour;</para>
+          <para> &#160;&#160; set rawhour;</para>
+          <para> &#160;&#160; if (Height_avg gt -0.5);</para>
+          <para> &#160;&#160; if (Height_avg lt 5);</para>
+          <para> &#160;&#160; if (Int_VDC_Min lt 25);</para>
+          <para> &#160;&#160; if (Int_VDC_Min gt -0.5);</para>
+          <para>/* print the bad records&#160; */</para>
+          <para>data badhour;</para>
+          <para> &#160;&#160; set rawhour;</para>
+          <para> &#160;&#160; if ((Height_avg le -0.5) or (Height_avg ge 5)</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160; or (Int_VDC_Min ge 25) or (Int_VDC_Min le -0.5));</para>
+          <para>/*now merge the good records into the yearly file */</para>
+          <para>title1 'Data records with wildly out of range data';</para>
+          <para> proc print;</para>
+          <para> run;</para>
+          <para>title1 'Data records with no wildly out of range values';</para>
+          <para>proc sort data=Newhour;</para>
+          <para> &#160; by ID DATE_TIME elevmsl;</para>
+          <para>data junk; /* a non-empty data set in case lib.wlr&amp;year is empty */</para>
+          <para> &#160; input ID 4. DATE_TIME datetime19. elevmsl 8.;</para>
+          <para> &#160; cards;</para>
+          <para> 9999 01Jan1900:00:00:00 1000.00</para>
+          <para> &#160; ;</para>
+          <para>data olddata; /*combine datasets to create new non-empty dataset*/</para>
+          <para> &#160; set lib.wlr&amp;year junk; /* uncomment this line for normal operations within a year */</para>
+          <para> *&#160; SET&#160; junk;&#160; /* Uncomment this line to begin a new year */</para>
+          <para>proc sort data=olddata;</para>
+          <para> &#160; by ID DATE_TIME elevmsl;</para>
+          <para>data lib.wlr&amp;year ;</para>
+          <para> /*&#160; update olddata newhour; by ID DATE_TIME; */</para>
+          <para> &#160; set olddata newhour;</para>
+          <para> &#160; if (id eq 9999) then delete;</para>
+          <para> * delete duplicate records - assume same if ID, DATE_TIME and elevmsl match;</para>
+          <para> /*&#160; if ((lag(ID) eq ID) and (lag(DATE_TIME) EQ DATE_TIME)</para>
+          <para> &#160;&#160;&#160;&#160;&#160; and (lag(elevmsl) eq elevmsl)) then DELETE;</para>
+          <para> */</para>
+          <para>proc sort data=lib.wlr&amp;year nodupkey; by id date_time elevmsl;</para>
+          <para>data _null_; /*print out a new text file containing the data */</para>
+          <para> &#160; set lib.wlr&amp;year;</para>
+          <para> &#160; file vcrwlr2_&amp;year.csv;</para>
+          <para> &#160; date=datepart(DATE_TIME);</para>
+          <para> &#160; time=timepart(DATE_TIME);</para>
+          <para> &#160; format date YYMMDD10.;</para>
+          <para> &#160; format time TIME8.;</para>
+          <para> &#160; format _n_ 12.0;</para>
+          <para> &#160; if (_n_ eq 1) then</para>
+          <para> &#160;&#160;&#160;&#160; put&#160; 'n,stationname,location, datelev, time, elevmsl, elevsur, HeightAvg, Sensorerrors, Maintflag' ;</para>
+          <para> &#160; put _N_ ',"' Station_name '","' Location '", ' date ', ' time ', ' elevmsl ', ' elevsur</para>
+          <para> &#160;&#160;&#160;&#160;&#160; ', ' Height_Avg ',' Sensor_errors ',' Maint_flag;</para>
+          <para>proc print;</para>
+          <para> run;</para>
+          <para>x 'cat vcrwlr2.csv';</para>
+          <para> x 'cat VCRWLR2*CSV |grep -v stationname &gt;&gt;vcrwlr2.csv';</para>
+          <para>data _null_;</para>
+          <para> &#160; set lib.wlr&amp;year;</para>
+          <para> &#160; file '/home/jhp7e/public_html/wells/vcrwlr2_problems.txt';</para>
+          <para> &#160; if ((Trouble_Flag_TotCode gt 0) or (Int_VDC_Min &lt; 12.1));</para>
+          <para> &#160; if (_n_ eq 1) then</para>
+          <para> &#160;&#160;&#160;&#160; put&#160; 'station&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; date&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Volts&#160;&#160;&#160;&#160; Tcode Height_Avg Height_Min Height_Max' ;</para>
+          <para> &#160; put&#160; station_name $15. date_time Int_VDC_Min Trouble_Flag_TotCode 6. ' '</para>
+          <para> &#160;&#160;&#160;&#160;&#160;&#160; Height_Avg ' ' Height_Min ' ' Height_Max;</para>
+          <para> run;</para>
+          <para>data status;</para>
+          <para> &#160; set lib.wlr&amp;year;</para>
+          <para> * use only the last 21 days for the status data ;</para>
+          <para> &#160; date=datepart(DATE_TIME);</para>
+          <para> &#160; time=timepart(DATE_TIME);</para>
+          <para> &#160; format date YYMMDD10.;</para>
+          <para> &#160; format time TIME8.;</para>
+          <para> &#160; if (datdif(date,date(),'Act/Act') le 21);</para>
+          <para> &#160; exceldate= datdif('01Jan1900'd,date,'Act/Act')+2 +(hour(date_time)/24)+(minute(date_time)/(24*60));</para>
+          <para>data _null_;</para>
+          <para> &#160;&#160; set status;</para>
+          <para> &#160; file '/home/jhp7e/public_html/wells/vcrwlr2_status.csv';</para>
+          <para> &#160; if (_n_ eq 1) then</para>
+          <para> &#160;&#160;&#160;&#160;&#160; put&#160; '"n","station","date","time","exceldate","volts","SensorError","MaintFlag","Retries","TroubleFlag</para>
+          <para> ","HeightAvg","HeightMin","HeightMax","RSSImin","badheight"' ;</para>
+          <para> &#160; put _n_ ',"' station_name '",' date ',' time ',' exceldate 12.2 ',' Int_VDC_min ',' Sensor_errors ',' Main</para>
+          <para> t_flag ',' Data_retries ',' Trouble_Flag_TotCode ',' Height_Avg ',' Height_Min ',' Height_Max ',' RSSI_Min '</para>
+          <para> ,' badheightavg;</para>
+          <para> run;</para>
+          <para>data _null_;</para>
+          <para> &#160;&#160; set badhour;</para>
+          <para> &#160; file '/home/jhp7e/public_html/wells/vcrwlr2_recent_bad_data.csv';</para>
+          <para> &#160; date=datepart(DATE_TIME);</para>
+          <para> &#160; time=timepart(DATE_TIME);</para>
+          <para> &#160; format date YYMMDD10.;</para>
+          <para> &#160; format time TIME8.;</para>
+          <para> &#160; if (_n_ eq 1) then</para>
+          <para> &#160;&#160;&#160;&#160;&#160; put&#160; '"n","station","date","time","exceldate","volts","SensorError","MaintFlag","Retries","TroubleFlag</para>
+          <para> ","HeightAvg","HeightMin","HeightMax","RSSImin","badheight"' ;</para>
+          <para> &#160; put _n_ ',"' station_name '",' date ',' time ',' exceldate 12.2 ',' Int_VDC_min ',' Sensor_errors ',' Main</para>
+          <para> t_flag ',' Data_retries ',' Trouble_Flag_TotCode ',' Height_Avg ',' Height_Min ',' Height_Max ',' RSSI_Min '</para>
+          <para> ,' badheightavg;</para>
+          <para> run;</para>
+          <para>/* proc sort data=status; by station_name date_time;</para>
+          <para> proc means max min noprint;</para>
+          <para> &#160;&#160; var Int_VDC_min Sensor_errors Maint_flag Data_retries RSSI_min;</para>
+          <para> &#160;&#160; by station_name date;</para>
+          <para> &#160;&#160; output out=mins min(Int_VDC_min)=minVolts min(RSSI_min)=minRSSImin</para>
+          <para> &#160;&#160; max(Int_VDC_min)=maxVolts max(Sensor_errors)=Sensor_errors max(Maint_flag)=Maint_flag</para>
+          <para> &#160;&#160; max(Data_retries)= Data_retries ;</para>
+          <para>proc plot data=mins;</para>
+          <para> &#160;&#160; plot minvolts*date=station_name;</para>
+          <para>proc plot data=mins;</para>
+          <para> &#160;&#160;&#160; plot minvolts*date='*';</para>
+          <para> &#160;&#160;&#160; by station_name;</para>
+          <para> */</para>
+          <para> run;</para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <alternateIdentifier>VCR09169_1</alternateIdentifier>
+      <entityName>VCR09169_1</entityName>
+      <entityDescription>Groundwater Levels on Hog Island, VA. 2007-</entityDescription>
+      <physical>
+        <objectName>vcrwlr2.csv</objectName>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>22</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <physicalLineDelimiter>#x0A</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+              <literalCharacter>\</literalCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-vcr/177/19/411944cd5648da2060361bf00da1382b</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+            <allow>
+              <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="VCR09169.1.N">
+          <attributeName>N</attributeName>
+          <attributeLabel>Observation number</attributeLabel>
+          <attributeDefinition>N - Observation number</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>none</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="VCR09169.1.STATIONNAME">
+          <attributeName>STATIONNAME</attributeName>
+          <attributeLabel>Station identifier</attributeLabel>
+          <attributeDefinition>STATIONNAME - Station identifier</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Station identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="VCR09169.1.LOCATION">
+          <attributeName>LOCATION</attributeName>
+          <attributeLabel>Location name</attributeLabel>
+          <attributeDefinition>LOCATION - Location name</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="VCR09169.1.DATELEV">
+          <attributeName>DATELEV</attributeName>
+          <attributeLabel>Date of measurement</attributeLabel>
+          <attributeDefinition>DATELEV - Date of measurement</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Date of measurement</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="VCR09169.1.TIME">
+          <attributeName>TIME</attributeName>
+          <attributeLabel>Time (EST)</attributeLabel>
+          <attributeDefinition>TIME - Time (EST)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time (EST)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="VCR09169.1.ELEVMSL">
+          <attributeName>ELEVMSL</attributeName>
+          <attributeLabel>Elevation of water surface above mean sea level</attributeLabel>
+          <attributeDefinition>ELEVMSL - Elevation of water surface above mean sea level</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>m</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="VCR09169.1.ELEVSUR">
+          <attributeName>ELEVSUR</attributeName>
+          <attributeLabel>Elevation of water surface relative to local land surface</attributeLabel>
+          <attributeDefinition>ELEVSUR - Elevation of water surface relative to local land surface</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>m</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <methods>
+            <methodStep>
+              <description>
+                <para>Negative numbers indicate that the water level is below the surrounding land surface.</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+        <attribute id="VCR09169.1.HEIGHTAVG">
+          <attributeName>HEIGHTAVG</attributeName>
+          <attributeLabel>Raw height measurement relative to sensor in the well</attributeLabel>
+          <attributeDefinition>HEIGHTAVG - Raw height measurement relative to sensor in the well</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>m</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <methods>
+            <methodStep>
+              <description>
+                <para>Four measurements were taken each hour (one every 15 minutes).&#160; This is the average of those four measurements and is used, along with measurements of the elevations of the wells themselves to calculate elevmsl and elevsur.</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+        <attribute id="VCR09169.1.SENSORERRORS">
+          <attributeName>SENSORERRORS</attributeName>
+          <attributeLabel>Count of number of reported sensor errors</attributeLabel>
+          <attributeDefinition>SENSORERRORS - Count of number of reported sensor errors</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>none</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <methods>
+            <methodStep>
+              <description>
+                <para>Number of out-of-range values reported by the data logger during the hour. These values are not used in the computation of the hourly average. Number of valid readings in an hour is 4 minus the number of sensor errors.</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+        <attribute id="VCR09169.1.MAINTFLAG">
+          <attributeName>MAINTFLAG</attributeName>
+          <attributeLabel>Maintenance flag</attributeLabel>
+          <attributeDefinition>MAINTFLAG - Maintenance flag</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>No maintenance was performed on the logger or sensor during measurements</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Maintenance of logger was performed during one or more measurements</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <methods>
+            <methodStep>
+              <description>
+                <para>A light sensor attached to the data logger detects when the door of the enclosure is opened for maintenance. The door is typically also left open during servicing of the sensor.&#160; Maintenance may, or may not, affect operation of the system.</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit id="none" />
+        <ns2:unit id="hh:mm:ss" />
+        <ns2:unit id="m" />
+        <ns2:unit id="YYYY-MM-DD" />
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <localtags>
+        <system>VCRLTER</system>
+        <weight>-83</weight>
+        <featuredDataGroup>Groundwater Levels</featuredDataGroup>
+        <researchTheme>State change barrier islands</researchTheme>
+      </localtags>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

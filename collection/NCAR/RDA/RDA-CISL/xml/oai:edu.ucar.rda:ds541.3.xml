@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="541.3"
+            type="primary">
+   <timeStamp value="2011-06-28 15:07:22 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">all_free</access>
+   <title>Global and North Atlantic Atlas of Monthly Ocean Waves, by Gulev et al.</title>
+   <summary>
+      <p>Monthly 2-degree by 2-degree and 5-degree by 5-degree wave
+              statistics were computed for 1958-1997 (Global Waves) and
+              1964-1993 (North Atlantic Waves) respectively from COADS
+              shipboard wave observations.
+              Significant wave heights are determined for several different
+              schemes.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="RU/RAS/SIO &gt; P.P. Shirshov Institute of Oceanology, Russian Academy of Sciences, Russia"
+                contact="Sergey Gulev"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Waves &gt; Wave Period</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Waves &gt; Wave Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Waves &gt; Wave Speed/Direction</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Waves &gt; Swells</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Waves &gt; Significant Wave Height</variable>
+   <contact>Zaihua Ji</contact>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">SHIPS</platform>
+   <platform vocabulary="GCMD">MOVING SHIPS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Gulev, S.K., V. Grigorieva, A. Sterl, and D. Woolf</authorList>
+      <year>2003</year>
+      <title>Assessment of the Reliability of Wave Observations From Voluntary Observing Ships: Insights From the Validation of a Global Wind Wave Climatology Based On Voluntary Observing Ship Data</title>
+      <periodical number="108(C7)" pages="1-21">J. Geophys. Res.</periodical>
+   </reference>
+   <reference type="journal">
+      <authorList>Gulev, S.K., and L. Hasse</authorList>
+      <year>1998</year>
+      <title>North Atlantic Wind Waves and Wind Stress Fields from Voluntary Observing Ship Data</title>
+      <periodical number="28" pages="1107-1130">J. Phys. Oceanogr.</periodical>
+   </reference>
+   <reference type="journal">
+      <authorList>Gulev, S.K., and V. Grigorieva</authorList>
+      <year>2006</year>
+      <title>Variability of the winter wind waves and swell in the North Atlantic and North Pacific as revealed by the Voluntary Observing Ship Data</title>
+      <periodical number="19" pages="5667-5785">J. Climate</periodical>
+   </reference>
+   <relatedResource url="http://www.sail.msk.ru/atlas/index.htm">Global Atlas of Ocean Waves at the Sea Atmosphere Interaction And Climate Laboratory</relatedResource>
+   <publicationDate>1998-10-16</publicationDate>
+   <contentMetadata>
+      <temporal start="1958" end="1997" groupID="Entire Dataset"/>
+      <temporalFrequency type="climatology" unit="month"/>
+      <temporalFrequency type="regular" number="1" unit="month" statistics="mean"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <levels>
+         <level type="Ground or water surface" value="0" units=""/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="180"
+               numY="80"
+               startLon="1E"
+               startLat="79N"
+               endLon="359E"
+               endLat="79S"
+               xRes="2"
+               yRes="2"/>
+         <grid definition="latLon"
+               numX="21"
+               numY="16"
+               startLon="95W"
+               startLat="0N"
+               endLon="5E"
+               endLat="75N"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

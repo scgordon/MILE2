@@ -1,0 +1,663 @@
+<?xml version="1.0" ?>
+<gmi:MI_Metadata id="gov.doe.arm.oli.rwp" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>gov.doe.arm.oli.rwp</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>en</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmi:MD_CharacterSetCode codeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#MD_CharacterSetCode" codeListValue="utf8"/>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#MD_ScopeCode" codeListValue="series"/>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>series</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:dateStamp>
+    <gco:Date>20160727</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:contact xlink:title="Metadata curator">
+    <gmd:CI_ResponsibleParty uuid="cd0061e9-edc0-4e52-9f99-81f7184101d8" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+      <gmd:organisationName>
+        <gco:CharacterString>ARM Archive User Services</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+      </gmd:role>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>armarchive@ornl.gov</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_address>
+          </gmd:address>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>1-888-ARM-DATA</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.archive.arm.gov/</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>http://www.arm.gov/</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>The Archive Data Discovery User Interface, featuring filtered and faceted search logic, multi-pass data selection, filtering data based on data quality, graphical views of data quality and availability, direct access to data quality re ports, and data plots. It allows users to select and order ARM data.</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode CodeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>armarchive@ornl.gov</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_address>
+          </gmd:address>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>1-888-ARM-DATA</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.archive.arm.gov/</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>http://www.arm.gov/</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>ARM Data Center</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode CodeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#CI_OnLineFunctionCode">Custodian</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:abstract>
+        <gco:CharacterString>General Overview
+The radar wind profiler/radio acoustic sounding system (RWP/RASS), available in 915-MHz (for U.S. deployments) and 1290-MHz (for deployments outside the U.S.), measures wind profiles and backscattered signal strength between (nominally) 0.1 km and 5 km and virtual temperature profiles between 0.1 km and 2.5 km. It operates by transmitting electromagnetic energy into the atmosphere and measuring the strength and frequency of backscattered energy. Virtual temperatures are recovered by transmitting an acoustic signal vertically and measuring the electromagnetic energy scattered from the acoustic wavefront. Because the propagation speed of the acoustic wave is proportional to the square root of the virtual temperature of the air, the virtual temperature can be recovered by measuring the Doppler shift of the scattered electromagnetic wave.
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:status>
+        <gmd:MD_ProgressCode CodeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>ARM rwp: </gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode CodeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code/>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_CitedResponsibleParty>
+              <gmd:individualName/>
+              <gmd:organisationName/>
+              <gmd:positionName/>
+              <gmd:role/>
+            </gmd:CI_CitedResponsibleParty>
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod/>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Richard, Coulter</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Argonne National Laboratory</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString/>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString/>
+                  </gmd:electronicMailAddress>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>EVS Division,9700 S. Cass Avenue</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Argonne</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>IL</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>60439</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>US</gco:CharacterString>
+                  </gmd:country>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(630) 252-5833</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Timothy, Martin</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Argonne National Laboratory</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>associate</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString/>
+                  </gmd:electronicMailAddress>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>EVS Division
+9700 Cass Avenue,,Bldg. 203 / J-163</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Argonne</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>IL</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>60439-4832</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>United States</gco:CharacterString>
+                  </gmd:country>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(630) 252-8708</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Paytsar, Muradyan</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Argonne National Laboratory</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>associate</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString/>
+                  </gmd:electronicMailAddress>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>9700 S Cass Ave,</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Lemont</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>--</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>60439</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>US</gco:CharacterString>
+                  </gmd:country>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>6302521657</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>1-888-ARM-DATA</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Atmospheric moisture</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; surface meteorology &gt; Cloud fraction</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Radar reflectivity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Vertical velocity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Surface Properties &gt; surface flux &gt; Vertical velocity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Advective tendency</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; surface meteorology &gt; Horizontal wind</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Atmospheric temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Cloud fraction</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Total cloud water</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Horizontal wind</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; surface meteorology &gt; Advective tendency</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; surface meteorology &gt; Atmospheric turbulence</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Radar Doppler</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Radar reflectivity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Aerosols &gt; optical and radiative properties &gt; Backscattered radiation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Atmospheric moisture</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Atmospheric temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Vertical velocity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Total cloud water</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Backscattered radiation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Radar Doppler</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Virtual temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Atmospheric temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Advective tendency</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Vertical velocity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Surface Properties &gt; surface flux &gt; Atmospheric turbulence</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; optical and radiative properties &gt; Backscattered radiation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Atmospheric moisture</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; surface meteorology &gt; Vertical velocity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Radar Doppler</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; surface meteorology &gt; Atmospheric temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Virtual temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Horizontal wind</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; surface meteorology &gt; Atmospheric moisture</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Cloud fraction</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Aerosols &gt; microphysical &gt; Backscattered radiation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Atmospheric turbulence</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Advective tendency</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; surface meteorology &gt; Total cloud water</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Planetary boundary layer height</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Radar reflectivity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; macrophysical &gt; Virtual temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Horizontal wind</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Atmospheric State &gt; upper air state &gt; Cloud fraction</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cloud Properties &gt; microphysical &gt; Total cloud water</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>IASOA Vocabulary</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2013-08-20</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>ARM DATA CENTER</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode CodeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onLineResource/>
+                      <gmd:CI_OnlineResource>
+                        <gmd:linkage/>
+                        <gmd:name/>
+                        <gmd:description/>
+                        <gmd:function/>
+                      </gmd:CI_OnlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Free to the public</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="" codeListValue="">Free Registration Required</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="" codeListValue="">Data Citation Prefered</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>None</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="textTable">textTable</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gco:CharacterString>en</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#MD_CharacterSetCode" codeListValue="utf8"/>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode CodeList="https://geo-ide.noaa.gov/wiki/index.php?title=ISO_19115_and_19115-2_CodeList_Dictionaries#MD_TopicCategoryCode">climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description/>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox?????">
+              <gmd:westBoundLongitude>
+                <gco:Decimal/>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal/>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLongitude>
+                <gco:Decimal/>
+              </gmd:southBoundLongitude>
+              <gmd:northBoundLongitude>
+                <gco:Decimal/>
+              </gmd:northBoundLongitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmd:MD_CoverageDescription>
+      <gmd:attributeDescription>
+        <gco:RecordType xlink:href="http://www.arm.gov/publications/tech_reports/handbooks/rwp_handbook.pdf"/>
+      </gmd:attributeDescription>
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="referenceInformation">referenceInformation</gmd:MD_CoverageContentTypeCode>
+      </gmd:contentType>
+    </gmd:MD_CoverageDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>netCDF</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>3</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>ARM Archive User Services</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>1 Bethel Valley Rd</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Oak Ridge</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Tennessee</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>37831</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>United States of America</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>armarchive@ornl.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:phone/>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gco:CharacterString>http://www.arm.gov</gco:CharacterString>
+                      </gmd:linkage>
+                      <gmd:name>
+                        <gco:CharacterString>ARM Archive User Services</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Data collected through the routine operations and scientific field experiments of the ARM Climate Research Facility are stored at and distributed through the Archive. These data are available free of charge to the public and can be acc essed through any of the interfaces below. Upon selection of an interface, a new window will ask you to sign in, or, if not already registered with the Archive, to complete the free and easy registration process.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="order">order</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.archive.arm.gov/discovery/#v/results/s/s::rwp/fsite::oli</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString/>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>http://www.archive.arm.gov/</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>The Archive Data Discovery User Interface, featuring filtered and faceted search logic, multi-pass data selection, filtering data based on data quality, graphical views of data quality and availability, direct access to data quality re ports, and data plots. It allows users to select and order ARM data.</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="order">order</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode&quot; codeListValue=&quot;dataset" codeListValue="series">series</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Data Quality Reports (DQR) are available at the ARM archive.</gco:CharacterString>
+          </gmd:statement>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>The core purpose of the ARM Facility is to reduce uncertainties in climate model predictions. A dominant source of uncertainty in these models is the radiative impact of aerosols, which has spawned a major effort in ARM to measure aerosol properties.</gco:CharacterString>
+              </gmd:description>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:acquisitionInformation>
+    <gmi:instrument>instrument</gmi:instrument>
+  </gmd:acquisitionInformation>
+</gmi:MI_Metadata>

@@ -1,0 +1,1045 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.30.13" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="30">
+    <alternateIdentifier>knb-lter-sbc.30</alternateIdentifier>
+    <shortName>LTE KR - fish abundance</shortName>
+    <title>SBC LTER: Reef: Long-term experiment: Kelp removal: Fish abundance</title>
+    <creator id="sbclter">
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="dreed">
+      <individualName>
+        <givenName>Daniel</givenName>
+        <givenName>C</givenName>
+        <surName>Reed</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-8363</phone>
+      <phone phonetype="fax">805-893-8062</phone>
+      <electronicMailAddress>dan.reed@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <associatedParty id="sharrer">
+      <individualName>
+        <givenName>Shannon</givenName>
+        <surName>Harrer</surName>
+      </individualName>
+      <positionName>Lead field technician, analyst</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-7295</phone>
+      <electronicMailAddress>harrer@msi.ucsb.edu</electronicMailAddress>
+      <role>Lead field technician, analyst</role>
+    </associatedParty>
+    <pubDate>2015-01-16</pubDate>
+    <language>english</language>
+    <abstract>
+      <section>
+        <para>These data describe the abundance and size of reef-associated fish at SBC LTER long-term kelp removal experiment sites. The number and size of reef fish located 0-2 meters from the bottom within a 40 m x 2 m transect are recorded by a diver in each plot at the start of the sampling day. The number and sizes of cryptic fish associated with the bottom are recorded in the same 4 0m x 2 m transects in a separate survey. Cryptic species are recorded in selected 20 meter sub-sections of an 80 m<superscript>2</superscript>permanent transect. Cryptic species are not recorded on continuous removal transects.</para>
+      </section>
+      <para>The kelp removal experiment was initiated in 2008 at selected reef sites along the mainland coast of the Santa Barbara Channel. The following three giant kelp manipulations are maintained in sampling plots at each site:<itemizedlist><listitem><para>Control:<emphasis>Macrocystis pyrifera</emphasis>is left intact in a 2000 m<superscript>2</superscript>plot.</para></listitem><listitem><para>Annual removal:<emphasis>Macrocystis pyrifera</emphasis>is removed from an adjacent 2000 m<superscript>2</superscript>plot once each winter and allowed to re-colonize over the course of the year.</para></listitem><listitem><para>Continuous removal:<emphasis>Macrocystis pyrifera</emphasis>is removed from a 200 m<superscript>2</superscript>area within the 2000 m<superscript>2</superscript>plot on each sampling date.</para></listitem></itemizedlist></para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">fishes</keyword>
+      <keyword keywordType="theme">long term ecological research</keyword>
+      <keyword keywordType="theme">marine</keyword>
+      <keyword keywordType="theme">organism</keyword>
+      <keyword keywordType="theme">size</keyword>
+      <keyword keywordType="theme">species</keyword>
+      <keyword keywordType="theme">surveys</keyword>
+      <keyword keywordType="theme">transects</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Kelp Forest</keyword>
+      <keyword keywordType="theme">Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Habitats</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Community Structure</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Measurement Types</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Arroyo Quemado Reef</keyword>
+      <keyword keywordType="place">Carpinteria Reef</keyword>
+      <keyword keywordType="place">Mohawk Reef</keyword>
+      <keyword keywordType="place">Naples Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Places</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">fish</keyword>
+      <keywordThesaurus>Knowledge Network for Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">fish</keyword>
+      <keywordThesaurus>Global Change Master Directory (GCMD) v6.0.0.0.0</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance Patterns</keyword>
+      <keyword keywordType="theme">Population Studies</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1: Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Marine fishes</keyword>
+      <keyword keywordType="theme">Pisces</keyword>
+      <keyword keywordType="theme">Reefs</keyword>
+      <keyword keywordType="theme">Species</keyword>
+      <keywordThesaurus>NBII Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">Santa Barbara Coastal</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="AQUE">
+        <geographicDescription>AQUE: Arroyo Quemado Reef: Arroyo Quemado Reef depth range from 5.4m to 10.7m. There are 7 permanent transects: Transect I --- Transect VII. Reference on Land is close to US101/Arroyo Quemada Ln.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.11905</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.11905</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.46774988</northBoundingCoordinate>
+          <southBoundingCoordinate>34.46774988</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP">
+        <geographicDescription>CARP: Carpinteria: Carpinteria Reef's depth range is from 2.2 m to 8.8 m. There are 9 permanent transects: Transect 1 to Transect 9. Reference on land is Sand Point RD/ Ave del Mar.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.5416933</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.5416933</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3916319</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3916319</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MOHK">
+        <geographicDescription>MOHK: Mohawk Reef: Mohawk Reef depth ranges from 4.5m to 6.0 m. Reference on land is Mohawk Rd / Edgewater Way.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.72957</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.72957</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3940708</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3940708</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL">
+        <geographicDescription>NAPL: Naples Reef: Naples Reef Depth range from 5.9mto 13.4 m. References on land is US101/Naples Access RD/RR1.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.95154</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.95154</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4221216</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4221216</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="IVEE">
+        <geographicDescription>IVEE: Isla Vista (IV) Reef is located on the Santa Barbara Channel near the University of California Santa Barbara, CA. Depth range is from -8.2 to -8.8 meters.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.85755</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.85755</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.402783</northBoundingCoordinate>
+          <southBoundingCoordinate>34.402783</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-08-20</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The number, size and species identity of reef fish are recorded within a 2 m wide
+            swath centered along each transect extending 2 m off the bottom. See the protocol
+            document for more information.</para>
+        </description>
+        <protocol scope="document">
+          <title>SBC LTER Long Term Experiment Methods - Reef Fish Density</title>
+          <creator>
+            <individualName>
+              <surName>Reed</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Reef/Protocols/Long_Term_Kelp_Removal/SBC_LTER_protocol_Reed_LTE_Density_fish_20130524.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable id="ent01">
+      <entityName>LTE All fish, all years</entityName>
+      <entityDescription>fish counts from 40m transects in kelp removal experiment</entityDescription>
+      <physical>
+        <objectName>LTE_All_Fish_All_Years_20141209.csv</objectName>
+        <size unit="megabyte">1.7</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Reef/Data/Long_Term_Experiment_Kelp_Removal/LTE_All_Fish_All_Years_20141209.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1250638057574">
+          <attributeName>year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057589">
+          <attributeName>month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Calendar month</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057605">
+          <attributeName>date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Data of data collection</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM-DD-YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057621">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site code</attributeLabel>
+          <attributeDefinition>Code for reef site. See list of codes for meaning</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>AQUE</code>
+                    <definition>Arroyo Quemado</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARP</code>
+                    <definition>Carpinteria</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MOHK</code>
+                    <definition>Mohawk</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NAPL</code>
+                    <definition>Naples</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IVEE</code>
+                    <definition>Isla Vista Reef</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+          <coverage>
+            <geographicCoverage>
+              <references>AQUE</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>CARP</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>MOHK</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>NAPL</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>IVEE</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="1250638057636">
+          <attributeName>transect</attributeName>
+          <attributeLabel>Tansect name</attributeLabel>
+          <attributeDefinition>Each 40m transect is defined by six permanent markers (stainless stell eyebolts or rebar stakes) at 0, 8, 16, 24, 32, and 40m.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="lte_treatment">
+          <attributeName>TREATMENT</attributeName>
+          <attributeLabel>Treatment</attributeLabel>
+          <attributeDefinition>Experimental treatment, frequency of removal</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>ANNUAL REMOVAL</code>
+                    <definition>Annual removal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CONTINUOUS REMOVAL</code>
+                    <definition>Continuous removal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CONTROL</code>
+                    <definition>Control</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1250638057652">
+          <attributeName>QUAD</attributeName>
+          <attributeLabel>Quad name</attributeLabel>
+          <attributeDefinition>Used for benthic survey method only. Describes location along transect, either 0-20 or 20-40</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057668">
+          <attributeName>SIDE</attributeName>
+          <attributeLabel>Transect side</attributeLabel>
+          <attributeDefinition>Used for bethic survey methid only. Inshore or offshore side of transect.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057683">
+          <attributeName>sp_code</attributeName>
+          <attributeLabel>Species code</attributeLabel>
+          <attributeDefinition>4 letter code generally composed of the first letter of the genus (G) name and the first three letters of the species (S) name (format=GSSS).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057699">
+          <attributeName>size</attributeName>
+          <attributeLabel>Size</attributeLabel>
+          <attributeDefinition>Estimated size of the individual</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057714">
+          <attributeName>count</attributeName>
+          <attributeLabel>Count</attributeLabel>
+          <attributeDefinition>The number of individual integers of the same size counted</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057730">
+          <attributeName>AREA</attributeName>
+          <attributeLabel>Area Surveyed</attributeLabel>
+          <attributeDefinition>Total area surveyed</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057746">
+          <attributeName>VIS</attributeName>
+          <attributeLabel>Visibilty</attributeLabel>
+          <attributeDefinition>Approximate horizontal visibility at the beginning of the tansect</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="true">2</minimum>
+                  <maximum exclusive="true">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057761">
+          <attributeName>OBS_CODE</attributeName>
+          <attributeLabel>Observer code</attributeLabel>
+          <attributeDefinition>Numeric code indicating the SBCLTER data collector</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057777">
+          <attributeName>NOTES</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Text annotations to data observations</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057793">
+          <attributeName>SURVEY_TIMING</attributeName>
+          <attributeLabel>Survey timing</attributeLabel>
+          <attributeDefinition>Surveys are either performed sporadically throughout the year or annually.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Sporadic</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Annual</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057808">
+          <attributeName>GENUS</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Taxonomic genus</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057824">
+          <attributeName>SPECIES</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Taxonomic species</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057839">
+          <attributeName>functional_GROUP</attributeName>
+          <attributeLabel>Organism group</attributeLabel>
+          <attributeDefinition>Functional group of organism</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057855">
+          <attributeName>SURVEY</attributeName>
+          <attributeLabel>Survey method</attributeLabel>
+          <attributeDefinition>Data collection method,. Could be benthic or standard fish sampling method (organism dependent).</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057871">
+          <attributeName>KINGDOM</attributeName>
+          <attributeLabel>Kingdom</attributeLabel>
+          <attributeDefinition>Taxonomic kindom</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057886">
+          <attributeName>PHYLUM</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>Taxonomic kingdom</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057902">
+          <attributeName>CLASS</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>Taxonomic class</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057918">
+          <attributeName>taxon_ORDER</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>Taxonomic order</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057933">
+          <attributeName>FAMILY</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>Taxonomic family</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057949">
+          <attributeName>FORMER_GENUS</attributeName>
+          <attributeLabel>Former genus</attributeLabel>
+          <attributeDefinition>Genus by which the organism was previously classified</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057964">
+          <attributeName>FORMER_SPECIES</attributeName>
+          <attributeLabel>Former species</attributeLabel>
+          <attributeDefinition>Species name by which the organism was previously classified</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057980">
+          <attributeName>COMMON_NAME</attributeName>
+          <attributeLabel>Common name</attributeLabel>
+          <attributeDefinition>Non scientific name referred to by the general public</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638057996">
+          <attributeName>Substrate_type</attributeName>
+          <attributeLabel>Substrate type</attributeLabel>
+          <attributeDefinition>Substrate type associated with the organism's habitat</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638058011">
+          <attributeName>Mobility</attributeName>
+          <attributeLabel>Mobility</attributeLabel>
+          <attributeDefinition>Mobility of the organism</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1250638058027">
+          <attributeName>Growth_morph</attributeName>
+          <attributeLabel>Growth morph</attributeLabel>
+          <attributeDefinition>Growth morph of the orgnaism</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>7599</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="cm" id="centimeter" multiplierToSI="0.01" name="centimeter" parentSI="meter">
+          <ns2:description>.01 meters</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <ns2:description>a designation asserting the absence of an associated unit</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="m" id="meter" multiplierToSI="1" name="meter" unitType="length">
+          <ns2:description>SI unit of length</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

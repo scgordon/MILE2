@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Jill Hardiman</origin>
+        <origin>Glen Holmberg</origin>
+        <origin>Nancy Elder</origin>
+        <pubdate>2015</pubdate>
+        <title>Boat ramp locations within the Columbia River Basin with associated recreational use, water quality measurements, and risk assessment data for zebra and quagga mussels- shapefile</title>
+        <edition>version 1.0</edition>
+        <geoform>vector digital data (Point)</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://dx.doi.org/10.5066/F71N7Z6D</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Aquatic invasive species are often transported between water bodies on boats or boat trailers. Thus, contaminated boats and boat trailers are considered one of the primary vectors for introduction of invasive species into a new water body. This data set was compiled in response to a funding grant from the Bonneville Power Administration Technology Innovation group (Cooperative agreement #59650, Technology Innovation Project #276) to provide a GIS layer of river access points (boat ramps) within the Columbia and Snake Rivers and water bodies throughout the Columbia River Basin. This work builds on an earlier body of work by Wells et al. 2011, Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin, also funded by the Bonneville Power Administration Technology Innovation group (contract # 00003373), which provided much of the past water quality, use information, and categorical values for the risk of introduction and the risk of establishment (referred to as risk assessment data) of zebra and quagga mussels for a water body. Updated information has been added by collecting additional data on use of water bodies, as well as combined categorical ranking methodology for identifying water bodies that may be high risk for both introduction and establishment of zebra and quagga mussels. This data set contains geographic positioning system (GPS) locational data for boater access points, use data (i.e. recreational, fishing), water quality measurements (e.g. calcium concentrations, pH), risk assessment data, and other physical attributes (i.e. size, elevation) from their associated water bodies where available. Although, some of the recreational use data has been updated since the previous work no new ranking of this data has been done.  The intent of this data set is to provide an online, spatial database for states and regional managers to reference. The GPS locational data was compiled from various resources (including state, federal, tribal, local governing bodies, etc.) to identify boater access points along the mainstem Columbia and Snake Rivers and throughout the Columbia River Basin. Water body data attributes were also compiled from a variety of resources including state, federal, provincial and local governing agencies, as well as Tribes, universities, and public utilities, from which direct data calls were sent for information on monitoring activities, water quality data, and recreational use information. In addition to these agencies a variety of websites were used to download reports and individual data items for water bodies across many different states. A list of websites accessed throughout the data compilation process is included in the data source inputs section. This is the tabular data used to create the boatramps shapefile.</abstract>
+      <purpose>The threat of aquatic invasive species (AIS), in particular zebra and quagga mussels being introduced, established, and spreading throughout the Columbia River Basin is a major concern to management and potential impacts to the Federal Columbia River Power System (FCRPS). The presence and colonization of AIS could potentially reduce efficiency and require significant and costly mitigation efforts to the FCRPS. Thus, the development of programs and tools to prevent new introductions and control the spread of AIS are needed. This information was intended to contribute to an initial prioritization of the placement of boat cleaning stations and also to identify additional information that may be needed for a more comprehensive prioritization process. The data set is for planning purposes and to aid in the prevention of the spread of aquatic invasive species, in particular invasive zebra and quagga mussels (Dreissenids) throughout the Columbia River Basin.</purpose>
+      <supplinf>Data was compiled from a variety of sources for this project. Not all data items were able to be cross-checked or validated for accuracy. They are presented in good faith that proper quality assurance and quality control procedures were performed prior to data being released by the collecting agency, reporting agency, or published on an organization's website. This data set may not represent all the available data pertinent to each boat ramp, but instead represents the data that was provided by the various agencies. As a result, there are many missing values across column attributes where data was reported by only one state or agency, and is not reported by others. Furthermore some attributes were collected opportunistically based on agency resources for particular water bodies and were not explored for all. Some boat ramp locations may not have any additional attribute data discovered for this data set. Another important distinction is that most of the attribute data was collected at the scale of the water body and not at the scale of the boat ramp. An individual water body often has numerous boat ramps and thus each access point within that water body will have the same attribute data. In the case of larger water bodies such as the mainstem Columbia and Snake Rivers, attribute information is typically provided at the reservoir scale or at the closest geographic location in which risk assessment data was collected to the boat ramp. Data updates were last referenced March 2013 and have not been updated since then and there is no current plan to update this data set.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150301</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data was gathered over multiple years (2006 - 2013) and from multiple sources and is considered up to date to March, 2015. Data is not scheduled to be updated after this date.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-124.052669</westbc>
+        <eastbc>-110.522618</eastbc>
+        <northbc>52.679208</northbc>
+        <southbc>41.6669</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>invasive mussels</themekey>
+        <themekey>recreational use</themekey>
+        <themekey>invasive species prevention</themekey>
+        <themekey>access points</themekey>
+        <themekey>Boat ramps</themekey>
+        <themekey>zebra mussels</themekey>
+        <themekey>Columbia River</themekey>
+        <themekey>quagga mussels</themekey>
+        <themekey>Dreissenids</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Columbia River Basin</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Although these data and information have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information. The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, NORTHWEST REGION</cntorg>
+          <cntper>Jill M Hardiman</cntper>
+        </cntorgp>
+        <cntpos>Fisheries Biologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>5501 Cook Underwood Road</address>
+          <city>Cook</city>
+          <state>WA</state>
+          <postal>98605</postal>
+        </cntaddr>
+        <cntvoice>509-538-2299</cntvoice>
+        <cntfax>509-538-2843</cntfax>
+        <cntemail>jhardiman@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This project was funded by the Bonneville Power Administration Technology Innovation group (contract number 59650) and in collaboration with Washington State University - Vancouver campus partners: Stephen Bollens and Gretchen Rollwagen-Bollens. This work also builds on an earlier effort by Portland State University Center for Lakes and Reservoirs, corresponding author Steve Wells. Glen Holmberg and Nancy Elder of the U.S. Geological Survey, Western Fisheries Research Center compiled a large portion of the data presented here. Tim Counihan also with the U.S. Geological Survey, Western Fisheries Research Center, was the project manager for this effort.</datacred>
+    <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1 (Build 3143) Service Pack 1 (Build 10.1.1.3143)</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>Data checks were performed to ensure that boat ramp locations were merged with the correct water body and water name associated with it's gps location. GPS locational information were checked for correct format and expected ranges. Data quality checks were performed throughout the process of merging new data to existing boat ramp data to ensure proper alignment with water bodies and data integrity.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details about the data set and individual attribute data. Data is limited to boat access points within the Columbia River Basin, in particular emphasis is placed on boater access points, primarily being the presence of a boat ramp. Thus, this data set does not include all water body access points. Missing data values are common throughout this data set as a result of no data being available for a particular attribute (i.e. information is not collected by any particular agency), data was not discovered or reported, or data simply does not exist. Data was collected as time and resources allowed for this project.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Website reference</title>
+            <geoform>Other</geoform>
+            <onlink>http://www.parks.wa.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srccitea>Source Input 14</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Website reference</title>
+            <onlink>http://www.washingtonlakes.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srccitea>Source Input 12</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Beth Bear</origin>
+            <pubdate>20130125</pubdate>
+            <title>Wyoming Game and Fish Department boat access</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Wyoming</pubplace>
+              <publish>Wyoming Game and Fish Department</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130125</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Source Input 10</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Thomas Woolf</origin>
+            <pubdate>20130124</pubdate>
+            <title>Idaho Dept. of Parks and Recration boater access points</title>
+            <geoform>Vector Digital Data Set</geoform>
+            <pubinfo>
+              <pubplace>Idaho</pubplace>
+              <publish>Idaho Dept. of Parks and Recration</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130124</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>20130124</srccurr>
+        </srctime>
+        <srccitea>Source Input 8</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubdate>20130101</pubdate>
+            <title>Website reference</title>
+            <geoform>Vector Digital Data Set</geoform>
+            <onlink>http://www.lat-long.com</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>Source Input 18</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubdate>20130101</pubdate>
+            <title>Website reference</title>
+            <onlink>http://geonames.usgs.gov</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>Source Input 17</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Washington Dept. of Fish and Wildlife</origin>
+            <pubdate>20130101</pubdate>
+            <title>Fishing Reports for Washington State</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Washington</pubplace>
+              <publish>Washington Dept. of Fish and Wildlife</publish>
+            </pubinfo>
+            <onlink>http://wdfw.wa.gov/fishing/washington/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20130101</begdate>
+              <enddate>20130301</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>Source Input 15</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>LeClair, L., J. Schultz, A. Pleus, C. Klein, and B. Balcom</origin>
+            <pubdate>20120201</pubdate>
+            <title>Washington State Aquatic Invasive Species Prevention and Enforcement Program: Report to the Legislature</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Olympia, WA</pubplace>
+              <publish>Washington Department of Fish and Wildlife and Washington State Patrol</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20120201</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>201202</srccurr>
+        </srctime>
+        <srccitea>Source Input 6</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Randy Henry</origin>
+            <pubdate>20090709</pubdate>
+            <title>Oregon Triennial Survey Results 2008</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Oregon</pubplace>
+              <publish>Oregon State Marine Board</publish>
+            </pubinfo>
+            <onlink>http://www.oregon.gov/OSMB/library/docs/trisuv2008.pdf</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20090709</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Source Input 4</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Montana Fish and Wildlife and Parks</origin>
+            <pubdate>20120101</pubdate>
+            <title>Montana Statewide Angling Pressure 2011 Summary Report and Appendix A</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Montana</pubplace>
+              <publish>Montana Fish and Wildlife and Parks</publish>
+            </pubinfo>
+            <onlink>http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20120101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Source Input 2</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Bob Euliss</origin>
+            <pubdate>20130116</pubdate>
+            <title>Washington State Boat access points</title>
+            <geoform>Vector Digital Data Set</geoform>
+            <pubinfo>
+              <pubplace>Olympia, WA</pubplace>
+              <publish>Washington Recreation and Conservation Office</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130116</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Source Input 7</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Website reference</title>
+            <geoform>Other</geoform>
+            <onlink>http://wdfw.wa.gov/lands/water_access/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srccitea>Source Input 13</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Montana Fish, Wildlife and Parks</origin>
+            <pubdate>20130124</pubdate>
+            <title>Montana Fish, Wildlife and Parks, GIS data</title>
+            <geoform>Vector Digital Data Set</geoform>
+            <pubinfo>
+              <pubplace>Montana</pubplace>
+              <publish>Montana Fish, Wildlife and Parks</publish>
+            </pubinfo>
+            <onlink>http://fwp.mt.gov/doingBusiness/reference/gisData/dataDownload.html#Fisheries/Hydrography</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130124</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Source Input 9</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubdate>20130101</pubdate>
+            <title>Website reference</title>
+            <geoform>Other</geoform>
+            <onlink>https://www.google.com/maps</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>Source Input 19</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Oregon State Marine Board</origin>
+            <pubdate>20130101</pubdate>
+            <title>Oregon State Marine Board - Access points</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>website</pubplace>
+              <publish>Oregon State Marine Board</publish>
+            </pubinfo>
+            <onlink>http://www.oregon.gov/OSMB/Pages/access/access.aspx</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Source Input 5</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Idaho Dept. of Agriculture</origin>
+            <pubdate>20120201</pubdate>
+            <title>A Review of the State of Idaho Dreissenid Mussel Prevention and Contingency Plans</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Idaho</pubplace>
+              <publish>Idaho Department of Agriculture, Aquatic Ecosystem Restoration Foundation, Pacific States Marine Fisheries Commission</publish>
+            </pubinfo>
+            <onlink>http://www.aquatics.org/musselreport.pdf</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20120201</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Source Input 3</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Wells, S., T. D. Counihan, A. Puls, M. Sytsma, and B. Adair</origin>
+            <pubdate>2011</pubdate>
+            <title>Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Portland, OR</pubplace>
+              <publish>Center for Lakes and Reservoirs Publications</publish>
+            </pubinfo>
+            <onlink>http://pdxscholar.library.pdx.edu/centerforlakes_pub/10/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20100401</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Source Input 1</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Website referenced</title>
+            <geoform>Other</geoform>
+            <onlink>http://www.latlong.net/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srccitea>Source Input 11</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubdate>20130101</pubdate>
+            <title>Website reference</title>
+            <geoform>Other</geoform>
+            <onlink>https://data.oregon.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>Source Input 20</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Washington Dept. of Ecology</origin>
+            <pubdate>20130101</pubdate>
+            <title>Website reference</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <publish>Washington Dept. of Ecology</publish>
+            </pubinfo>
+            <onlink>http://www.ecy.wa.gov/programs/sea/sma/download/pdf/other_waterbodies.pdf</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20130101</begdate>
+              <enddate>20130301</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>Source Input 16</srccitea>
+        <srccontr>Source information used in support of the development of the data set.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Boater access points (gps locational data for boat ramps) were compiled through direct data calls to various agencies throughout the Columbia River Basin and through web searches and from past efforts by Wells et al. 2011. This data set consisted of a gps point, boat ramp location description, and water body name. Each boat ramp access point was assigned a standardized water body name and unique ID in order to merge associated risk assessment information with that water body from the various disparate sources. A standardization of water body names was developed by USGS personnel in order to maintain consistency of water body names as reported by different agencies. Also a unique ID had to be established due to the fact that many water bodies have the same name within and across states. Data associated with potential risk assessment for aquatic invasive species were also assigned a water body name and unique ID. The data sets were merged using SAS (SAS 9.3, © 2002-2010 SAS Institute Inc.) by the unique ID and water body name. Data checks were perfomed each time a merge process was performed to ensure water body and risk assessment data were being properly matched. We did not obtain use or water quality information at the scale of the boat ramp, thus information associated with a boat ramp is at the water body scale, other than the location description. If a boat ramp location does not have any associated risk assessment attribute information these will have a “.” indicating missing values. The merged risk assessment data includes a reference locational gps point (Lat_ra and Long_ra) for the associated risk assessment attribute information. These are not necessarily the point of actual data collection (i.e. water quality measurements), but provide a reference for the water body location for mapping purposes. Attribute data associated with each water body was acquired from many different sources (see data source list), including direct from agencies (published and nonpublished data), publications, and web searches. These typically varied by state as to what recreation and use information was collected and reported, and results in many missing data values across the individual attributes for the entire data set (i.e. states that do not collect the same information). Additional water quality data (calcium concentration measurements and pH) and risk of introduction and risk of establishment categories were obtained from the Wells et al. 2011 publication as well as some past recreational use data for the individual states. Since many different data sources were used to compile the risk assessment attribute data, at times individual attribute data may have multiple values from different sources. In these cases the values that would indicate the highest potential for risk of establishment or introduction were reported, as in a “worst case scenario”.  Data originators have documented to the best of their ability all of the disparate data sources used to compile the attribute information in the data sources list.</procdesc>
+        <procdate>20150918</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1603</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Boatramps_091815</enttypl>
+        <enttypd>GPS points for boat access locations, imported as an x, y data set using the lat and long fields for boat ramp locations</enttypd>
+        <enttypds>GPS coordinates (latitude and longitude) were compiled from a variety of sources, including state agencies and British Columbia provincial agencies</enttypds>
+      </enttyp>
+      <attr>
+        <attrlab1>FID</attrlab1>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+      </attr>
+      <attr>
+        <attrlab1>Shape</attrlab1>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Water_Name</attrlabl>
+        <attrdef>A naming convention for the larger water body containing or connected (as a source) to the water body for which the data is for.</attrdef>
+        <attrdefs>The data source includes agencies in which data was collected, as well as USGS personnel, and a variety websites sources (geonames.usgs.gov, google maps) as listed in the overall data set description.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Water_Body</attrlabl>
+        <attrdef>Standardized naming convention for the water body in which the data is associated with to be used to merge to other data using the common water body name and a unique ID incorporating the name.</attrdef>
+        <attrdefs>Water body names came from agencies collecting information and USGS personnel standardizing across the agencies.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>Name of the county in which the water body is within. An individual water body can cross more than one county, so multiple counties may be listed. Additionally, in order to adhere to a unique ID a county name may be different than the associated GPS location if a water body crosses multiple counties and/or states.</attrdef>
+        <attrdefs>County names were supplied by agencies collecting the data, or added to water body locations using a spatial merge process within ArcGIS using census data from 2010 for the county spatial layer (http://www.census.gov/geo/www/tiger).</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Countycode</attrlabl>
+        <attrdef>A four letter code derived from the first four letters from the county associated with the water body. Some county codes may differ than the county which the GPS point may fall within if the water body crosses more than one county.</attrdef>
+        <attrdefs>Naming convention of the first four letters from the county column or the standardized county code applied to that water body.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ST_Provinc</attrlabl>
+        <attrdef>A two letter abbreviation for the state or province (BC=British Columbia) in which the water body falls within. At times a waterbody will cross more than one state and will have two listed or just one for naming convention purposes.</attrdef>
+        <attrdefs>Data source was from collecting agencies or USGS personnel.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Location</attrlabl>
+        <attrdef>Description of boat ramp location where available.</attrdef>
+        <attrdefs>Various sources from state, federal, provincial and local governing agencies.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>A unique identifier code created for the water body. Unique ID was typically made up of the Water body_First four letters of the county name_state abbreviation. This was modified for water bodies that covered multiple states and counties to a simpler format, which may not include the county code and state abbreviation.</attrdef>
+        <attrdefs>USGS personnel, data originators.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>lat</attrlabl>
+        <attrdef>Latitude in decimal degrees WGS84 for the boat ramp location.</attrdef>
+        <attrdefs>Obtained from various state, federal, provincial and local agencies and website listed in the data sources.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>lon</attrlabl>
+        <attrdef>Longitude in decimal degrees WGS84 for the boat ramp location.</attrdef>
+        <attrdefs>Obtained from various state, federal, provincial and local agencies and website listed in the data sources.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CRB</attrlabl>
+        <attrdef>Indicates whether the water body was inside the Columbia River Basin (CRB) by assigning a 1 to the record. For this data set only boat ramp locations within the CRB were included.</attrdef>
+        <attrdefs>USGS personnel through a spatial merge with a Columbia River Basin shapefile.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Lat_ra</attrlabl>
+        <attrdef>The latitude in decimal degrees WGS84 for a reference GPS point for the risk assessment data associated with the water body. This GPS point reference may or may not be the location where data was collected or the nearest location where data was collected or a reference location point assigned to the data collected.</attrdef>
+        <attrdefs>Obtained from various state, federal, provincial and local agencies and website listed in the data source section.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Long_ra</attrlabl>
+        <attrdef>The longitude in decimal degrees WGS84 for a reference GPS point for the risk assessment data associated with the water body. This GPS point reference may or may not be the location where data was collected or the nearest location where data was collected or a reference location point assigned to the data collected.</attrdef>
+        <attrdefs>Obtained from various state, federal, provincial and local agencies and website listed in the data source section.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>mean_ca_mg</attrlabl>
+        <attrdef>Mean calcium reported for the water body measured in mg/L.</attrdef>
+        <attrdefs>Various sources, primarily Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52. http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>mean_pH_20</attrlabl>
+        <attrdef>Mean pH value for water body as reported in Wells et al. 2011</attrdef>
+        <attrdefs>Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>roe_2009</attrlabl>
+        <attrdef>Risk of establishment categorical value assigned by Wells et al. 2011 based on Calcium levels. High &gt; 25 mg/L, Medium &gt; 15 - 25 mg/L, Low 12-15 mg/L, and Very Low &lt; 12 mg/L</attrdef>
+        <attrdefs>Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>roe_f_2009</attrlabl>
+        <attrdef>flagged ("flag") data indicates only 1 Calcium value was used for the ranking category and not a mean value as reported by Wells et al. 2011.</attrdef>
+        <attrdefs>Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ramcharan0</attrlabl>
+        <attrdef>Value assigned using mean values for dissolved CA and pH to predict presence/absence of Dreissenids mussels - Ramcharan et al. 1992 for methodology, reported in Wells et al. 2011.</attrdef>
+        <attrdefs>Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>state_ass0</attrlabl>
+        <attrdef>Value from States assigning a risk value to the water body obtained from the Wells et al. 2011.</attrdef>
+        <attrdefs>Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>roi_1_2009</attrlabl>
+        <attrdef>Rank (categorical) of introduction from Wells et al. 2011. Categories were assigned to different state metrics as follows: Oregon metric was day use days from triennial survey where Day use days represent any portion of a 24 hr period in which participants engaged in boating activity. Idaho metric was the number of tournaments from 2007 to 2009 on the water body. Montana was the total pressure (includes resident and non-resident pressure for angling from boat, shore, both (boat and shore) and ice fishing) on a water body. For Washington based on the 2007 Report on Washington State Parks and Recreation Commission survey question #43, on which bodies of water did you boat on in the past two years (multiple responses allowed). Ranking was performed on these indivdual metrics using quartiles as follows High &gt; Q3, Medium &gt; median - Q3, Low &gt; Q1-Q3, Very Low 0-Q1.</attrdef>
+        <attrdefs>Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>roi_2_2009</attrlabl>
+        <attrdef>Rank (categorical) of introduction from Wells et al 2011. Categories were assigned to different state metrics as follows: Oregon metric was number of tournaments on a water body. Idaho was the total number of boats in tournaments on the water body. Montana was the non-resident pressure (includes non-resident pressure for angling from boat, shore, both (boat and shore) and ice fishing combined). Washington based on the 2007 Report on Washington State Parks and Recreation Commission survey question #68 On which body of water did you boat the most days in Washington in the past two years. Ranking was performed on these indivdual metrics using quartiles as follows High &gt; Q3, Medium &gt; median - Q3, Low &gt; Q1-Q3, Very Low 0-Q1.</attrdef>
+        <attrdefs>Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Roe_rank_2</attrlabl>
+        <attrdef>Numerical ranking assigned to the Roe categorical ranking, Very low = 1, Low = 3, Medium=5, High=10</attrdef>
+        <attrdefs>USGS Personnel using Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>roi_3_2009</attrlabl>
+        <attrdef>Categorical ranking of risk of introduction-it is the highest value reported from either roi_1 and roi_2 as reported.</attrdef>
+        <attrdefs>USGS Personnel using Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Roi_rank_2</attrlabl>
+        <attrdef>Numerical ranking assigned from the categorical ranking of risk of introduction from Wells et al. 2011. Numerical ranking assigned as follows:Very low = 1, Low = 3, Medium=5, High=10.</attrdef>
+        <attrdefs>USGS Personnel using Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Rank_sumAl</attrlabl>
+        <attrdef>Sum of Roi_rank and Roe_Rank numerical values, missing values may be possible for either of the Roi or Roe rank values.</attrdef>
+        <attrdefs>USGS Personnel using Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Rank_sum_2</attrlabl>
+        <attrdef>Sum of the addition of Roi_rank and Roe_rank for water bodies where both values are present, otherwise "." if only one value was reported.</attrdef>
+        <attrdefs>USGS Personnel using Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Trips2008</attrlabl>
+        <attrdef>Trips represent the number of days leaving a residence to go boating during 2008, Oregon metric.</attrdef>
+        <attrdefs>Oregon State Marine Board Triennial Survey Results 2008</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Trips2010</attrlabl>
+        <attrdef>Trips represent number of days leaving a residence to go boating during 2010, Oregon metric</attrdef>
+        <attrdefs>Oregon State Marine Board Triennial Survey Results 2010</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Mn_trips_0</attrlabl>
+        <attrdef>The average number of days leaving a residence to go boating for 2008 and 2010 metrics combined, Oregon</attrdef>
+        <attrdefs>USGS personnel and data sources obtained from Wells et al. 2011,Prioritizing Zebra and Quagga Mussel Monitoring in the Columbia River Basin. Prepared for Bonneville Power Administration and Pacific States Marine Fisheries Commission. BPA Contract Number: 00003373, TI Project Number: 52.http://pdxscholar.library.pdx.edu/centerforlakes_pub/10.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DayUsedays</attrlabl>
+        <attrdef>Represents the number of days in which any portion of a 24 hr period in which a participant engaged in boating activity in 2008, Oregon metric.</attrdef>
+        <attrdefs>Oregon State Marine Board Triennial Survey Results 2008</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DayUseda_1</attrlabl>
+        <attrdef>Represents the number of days in which any portion of a 24 hr period in which participant engaged in boating activity in 2010, Oregon metric.</attrdef>
+        <attrdefs>Oregon State Marine Board Triennial Survey Results 2010</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Mn_dayuse_</attrlabl>
+        <attrdef>The average day use days of 2008 and 2010 combined metrics, Oregon metric.</attrdef>
+        <attrdefs>USGS personnel</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Size_Acres</attrlabl>
+        <attrdef>Size data (surface value in acres) collected by USGS personnel from many internet references and state metric reports.</attrdef>
+        <attrdefs>Obtained from various state, federal, provincial and local agencies and website listed in the data source section.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>No_boats_2</attrlabl>
+        <attrdef>The number of participants divide by 2 for tournaments in 2012, this is a surrogate for the number of boats participating. Idaho metric.</attrdef>
+        <attrdefs>Idaho Department of Fish and Game</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>No_Tourns_</attrlabl>
+        <attrdef>The number of tournaments during 2012, summarized from reported tournament results. Idaho metric.</attrdef>
+        <attrdefs>Idaho Department of Fish and Game</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>No_Tourns1</attrlabl>
+        <attrdef>Number of registered angling tournaments for 2006, 2007 and 2008 for the water body. Ranged from 0 to 101. Idaho metric.</attrdef>
+        <attrdefs>Idaho Department of Fish and Wildlife</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>No_boats_3</attrlabl>
+        <attrdef>Number of boats participating in all tournaments during 2006, 2007 and 2008. Idaho metric.</attrdef>
+        <attrdefs>Idaho Department of Fish and Wildlife</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Dayuse_100</attrlabl>
+        <attrdef>100th meridian count of day use days, 1-29. 100th Meridian Initiative Boater surveys. Tallies collected from questions that asked last three places you boated, and name the next three places you plan on boating. Idaho metric.</attrdef>
+        <attrdefs>100th Meridian Initiative Boater surveys</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>No_ramps</attrlabl>
+        <attrdef>Number of boat ramps per water body determined using shapefile generated from Idaho Boating Facilities Guide 1998 and from WA state metrics.</attrdef>
+        <attrdefs>Washington Dept. of Fish and Wildlife and Idaho Boating Facilities Guide 1998 and Google earth satellite imagery.
+</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CaMax_ISDA</attrlabl>
+        <attrdef>Calcium data (mg/L) from ISDA 2011 for the water body. Idaho metric.</attrdef>
+        <attrdefs>Idaho State Department of Agriculture 2011</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ISDA2011_R</attrlabl>
+        <attrdef>Priority ranking supplied by ISDA for 2014 early detection and monitoring efforts, data from 2011 report and ranking methodology. Idaho metric.</attrdef>
+        <attrdefs>Idaho State Department of Agriculture 2011</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Elevation_</attrlabl>
+        <attrdef>Elevation of water body in feet. From many of the states (WA, MT, and other resources).</attrdef>
+        <attrdefs>Obtained from various state, federal, provincial and local agencies and website listed in the item description.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Motors</attrlabl>
+        <attrdef>1= motors allowed. 0 = no motors allowed. WA metric.</attrdef>
+        <attrdefs>Obtained from various Washington websites listed in the data sources description.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Fishing</attrlabl>
+        <attrdef>1= fishing allowed. 0 = means no fishing allowed. WA metric.</attrdef>
+        <attrdefs>Obtained from various Washington websites listed in the data sources description.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Marinas</attrlabl>
+        <attrdef>Number of marinas on water body. WA metric.</attrdef>
+        <attrdefs>Obtained from various Washington websites listed in the data sources description.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Cold</attrlabl>
+        <attrdef>1 = cold water fish species present. 0 = no cold water fish species present. WA metric.</attrdef>
+        <attrdefs>Obtained from various Washington websites listed in the data sources description.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Warm</attrlabl>
+        <attrdef>1 = warm water species present. 0 = no warm water species present. WA metric.</attrdef>
+        <attrdefs>Obtained from various Washington websites listed in the data sources description.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Reports</attrlabl>
+        <attrdef>Number of fishing reports submitted on a waterbody on http://www.washingtonlakes.com/ . For this report individual fishing reports were collected for the period of 1/1/2010 to 12/31/2013 for lakes and rivers where boats were used. A fishing report was counted if the angler reported the methods ‘Bottom Fishing From Boat’ or ‘Top Fishing From Boat’. If the angler reported the methods ‘Trolling’, ‘Other’ or failed to report any fishing method, the narrative of the report was read to see if a boat was used. For each lake and river in Washington State the number of boater fishing reports were tallied. WA metric.</attrdef>
+        <attrdefs>http://www.washingtonlakes.com accessed February 2014.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>USERS</attrlabl>
+        <attrdef>Number of individual anglers submitting fishing report on on a waterbody at http://www.washingtonlakes.com/ . For this report individual fishing reports were collected for the period of 1/1/2010 to 12/31/2013 for lakes and rivers where boats were used. A fishing report was counted if the angler reported the methods ‘Bottom Fishing From Boat’ or ‘Top Fishing From Boat’. If the angler reported the methods ‘Trolling’, ‘Other’ or failed to report any fishing method, the narrative of the report was read to see if a boat was used. In those cases where it was clear that a boat was used these reports were also entered. For each lake and river in Washington State the number of boater fishing reports were tallied as well as the individual fishermen (USER) who wrote the reports. In many cases one USER would report on the same waterbody about fishing trips that occurred on different dates. WA metric.</attrdef>
+        <attrdefs>http://www.washingtonlakes.com accessed February 2014.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MT_Stream_</attrlabl>
+        <attrdef>Alternate stream names for MT, as supplied by MFWP personnel. MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Length_Mil</attrlabl>
+        <attrdef>Length of stream or section of stream in miles. MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Drainage</attrlabl>
+        <attrdef>Major river drainage in which the water body is located. MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Region</attrlabl>
+        <attrdef>Montana Fish, Wildlife and Park region (7 regions). MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Boat</attrlabl>
+        <attrdef>Indicates angling pressure was either by boat or by both boat and shore, by a value = 1. MT metric. Entered by USGS personnel.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Total_Pres</attrlabl>
+        <attrdef>Angling pressure for an individual water by the number of residency types (both resident and nonresident). Angling can be by boat, shore, both or ice fishing. MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TotPressur</attrlabl>
+        <attrdef>Error statistic calculated by MFWP. There is a formula on page 9 of their summary report. Montana Statewide Angling Pressure 2011 Report Summary.pdf. MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Total_Trip</attrlabl>
+        <attrdef>Number of trips to a waterbody, 1 trip = 1 visit.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Resident_P</attrlabl>
+        <attrdef>Angling pressure for an individual water body by the number of Montana resident anglers</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Res_Pressu</attrlabl>
+        <attrdef>Error statistic calculated by MFWP. There is a formula on page 9 of their summary report. Montana Statewide Angling Pressure 2011 Report Summary.pdf</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Res_Trips</attrlabl>
+        <attrdef>Number of trips to a water body by MT resident anglers. 1 trip = 1 visit.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Nonresiden</attrlabl>
+        <attrdef>Angling pressure for an individual water body by the number of non-resident anglers. MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Nonres_Pre</attrlabl>
+        <attrdef>Error statistic calculated by MFWP. There is a formula on page 9 of their summary report. Montana Statewide Angling Pressure 2011 Report Summary.pdf</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NonRes_Tri</attrlabl>
+        <attrdef>Number of trips to a water body by non-resident anglers. 1 trip = 1 visit to the waterbody. MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>State_Rank</attrlabl>
+        <attrdef>State Rank from Montana Report. No explanation was found in the Montana Statewide Angling Pressure 2011 Report Summary.pdf to indicate how these were done. MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Regional_R</attrlabl>
+        <attrdef>Regional Rank from MT Report. No explanation was found in the Montana Statewide Angling Pressure 2011 Report Summary.pdf to indicate how these were done. MT metric.</attrdef>
+        <attrdefs>Montana State Fish, Wildlife and Parks 2011 Angling Pressure Report,http://fwp.mt.gov/fishing/anglingData/anglingPressureSurveys/2011.html.</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this information product, for the most part, is in the public domain, it also contains copyrighted materials as noted in the text. Permission to reproduce copyrighted items must be secured from the copyright owner whenever applicable. The data have been approved for release and publication by the U.S. Geological Survey (USGS). Although the data have been subjected to rigorous review and are substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, the data are released on the condition that neither the USGS nor the U.S. Government may be held liable for any damages resulting from authorized or unauthorized use. Although the data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Vector Digital Data Set (Point)</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://dx.doi.org/10.5066/F71N7Z6D</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the data set.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20151009</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS</cntorg>
+          <cntper>Jill Hardiman</cntper>
+        </cntorgp>
+        <cntpos>Fishery Biologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>5501a Cook Underwood Rd</address>
+          <city>Cook</city>
+          <state>WA</state>
+          <postal>98605</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>509-538-2299 x201</cntvoice>
+        <cntfax>509-538-2843</cntfax>
+        <cntemail>jhardiman@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>Although these data and information have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information. The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</metuc>
+  </metainfo>
+</metadata>

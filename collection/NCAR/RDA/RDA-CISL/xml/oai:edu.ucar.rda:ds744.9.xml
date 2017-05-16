@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="744.9"
+            type="primary">
+   <timeStamp value="2011-05-19 14:01:58 -0600"/>
+   <continuingUpdate value="yes" frequency="irregularly"/>
+   <access pricingRate="standard">all_free</access>
+   <title>Cross-Calibrated Multi-Platform Ocean Surface Wind Velocity, 1987 - ongoing</title>
+   <summary>
+      <p>The Cross-Calibrated Multi-Platform (CCMP) data product is derived through cross-calibration and assimilation of ocean surface wind data from SSM/I, TMI, AMSR-E, SeaWinds on QuikSCAT, and SeaWinds on ADEOS-II. Cross calibration is performed by Remote Sensing Systems (RSS) under the <a href="http://www.remss.com/">DISCOVER project</a>. These data sets are combined with conventional observations and a starting estimate of the wind field using a variational analysis method (VAM). The ECMWF Reanalysis (ERA-40) is used as the starting estimate (or background) for July 1987 until December 1998 and the ECMWF Operational Analysis is used from January 1999 onward.
+              </p>
+      <p>CCMP is provided by the NASA PO.DAAC and has been evaluated and utilized extensively by the science community, including some members of NASA's Ocean Vector Winds Science Team (OVWST).</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="NASA/JPL/PODAAC &gt; Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA"
+                contact="User Services, podaac@podaac.jpl.nasa.gov"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">QUIKSCAT &gt; Quick Recovery Scatterometer</platform>
+   <platform vocabulary="GCMD">ADEOS-II &gt; Advanced Earth Observing Satellite-II</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Atlas, R., R.N. Hoffman, S.C. Bloom, J.C. Jusem, and J. Ardizzone</authorList>
+      <year>1996</year>
+      <title>A multiyear global surface wind velocity data set using SSM/I wind observations</title>
+      <periodical number="77" pages="869-882">Bull. Amer. Meteor. Soc.</periodical>
+   </reference>
+   <relatedResource url="http://podaac-www.jpl.nasa.gov/datasetlist?search=ccmp">Cross-Calibrated Multi-Platform (CCMP) Ocean Surface Wind Components</relatedResource>
+   <relatedDataset ID="744.4"/>
+   <publicationDate>2010-06-08</publicationDate>
+   <contentMetadata>
+      <temporal start="1987-07-01 00:00 +0000"
+                end="2011-12-31 18:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="week"/>
+      <temporalFrequency type="regular" number="4" unit="day"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="1440"
+               numY="628"
+               startLon="0.125E"
+               startLat="78.375S"
+               endLon="359.875E"
+               endLat="78.375N"
+               xRes="0.25"
+               yRes="0.25"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

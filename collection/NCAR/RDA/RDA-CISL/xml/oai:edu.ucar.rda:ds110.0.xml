@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="110.0"
+            type="historical">
+   <timeStamp value="2009-10-08 20:23:05 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>ECMWF WMO Global Tropospheric Analyses, daily 1980-1989</title>
+   <summary>
+      <p>This dataset contains output from the ECMWF global analysis model for 1980-1989.  Output is archived twice daily, at 00 and 12Z.  The data is output on a 2.5 latitude x 2.5 degree longitude grid.  There are 5 variables output at 7 levels in the atmosphere.  This dataset also contains   monthly mean grids, which were derived in U.S.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"/>
+   <restrictions>
+      <access>
+         <p>We are allowed to distribute this data to US scientists, scientists visiting US organizations, and Canadian scientists affiliated with UCAR member organizations only. </p>
+      </access>
+      <usage>
+         <p>This data must not be used for commercial purposes.  ECMWF must be given credit in any publications in which this data is used.</p>
+      </usage>
+   </restrictions>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>2015-11-08</publicationDate>
+   <contentMetadata>
+      <temporal start="1980-01" end="1989-12" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <temporalFrequency type="regular" number="1" unit="month" statistics="mean"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <format>NCEP_ON84</format>
+      <levels>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="73"
+               startLon="177.5W"
+               startLat="90N"
+               endLon="180E"
+               endLat="90S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

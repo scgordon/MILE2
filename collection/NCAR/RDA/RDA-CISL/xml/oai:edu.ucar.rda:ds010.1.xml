@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="010.1"
+            type="primary">
+   <timeStamp value="2015-02-11 21:47:58 -0700"/>
+   <continuingUpdate value="yes" frequency="monthly"/>
+   <title>Monthly Northern Hemisphere Sea-Level Pressure Grids, continuing from 1899</title>
+   <summary>
+      <p>This dataset contains the longest continuous time series of
+              monthly gridded Northern Hemisphere sea-level pressure data in
+              the DSS archive.  The 5-degree latitude/longitude grids,
+              computed from the daily grids in
+              <a href="http://rda.ucar.edu/datasets/ds010.0/">ds010.0</a>,
+              begin in 1899 and cover the Northern Hemisphere from 15N to the
+              North Pole.  The dataset continues to be updated regularly as
+              new data become available.</p>
+      <p>Each monthly grid is a simple average of all available daily
+              grids for the month.  Prior to 1955, there is one grid per day.
+              From July 1962 on, there are two grids each day.  In the interim
+              period, the number of daily grids varies between one and
+              two.</p>
+      <p>The grids for the period 1899-1977 were inspected and many
+              corrections were made by Kevin Trenberth of the Laboratory of
+              Atmospheric Research at the University of Illinois at
+              Champaign-Urbana, and these grids are included in this dataset.
+              For more information about these corrections, see the July 1980
+              issue of <i>Monthly Weather Review</i>.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UI-UC/ATMO &gt; Department of Atmospheric Sciences, University of Illinois at Urbana-Champaign"
+                contact="Kevin Trenberth"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS &gt; National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Weather Bureau/Extended Forecast Division"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="MIT/EAPS &gt; Dept. of Earth, Atmospheric, and Planetary Sciences, Massachusetts Institute of Technology"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="GB/MOD/MET &gt; Met Office, Ministry of Defence, United Kingdom"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOD/USNAVY/NRL/MRY &gt; Naval Research Laboratory, Monterey, U.S. Navy, U. S. Department of Defense"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                formerName="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="no"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MAPS</platform>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <project vocabulary="GCMD">ESSPO &gt; 433L ESSPO</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>K.E. Trenberth, and D.A. Paolino</authorList>
+      <year>1980</year>
+      <title>The Northern Hemisphere sea level pressure data set: Trends, errors, and discontinuities</title>
+      <periodical number="108" pages="855-872">Mon. Wea. Rev.</periodical>
+   </reference>
+   <relatedDataset ID="010.0"/>
+   <publicationDate>1979-12-13</publicationDate>
+   <contentMetadata>
+      <temporal start="1899-01-01 13:00 +0000"
+                end="2015-10-31 31:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/datasets/common/ncar.slp/format.html">DSS_SLP_Grid</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="72"
+               numY="16"
+               startLon="0E"
+               startLat="15N"
+               endLon="355E"
+               endLat="90N"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

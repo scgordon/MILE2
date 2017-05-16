@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="104.0"
+            type="primary">
+   <timeStamp value="2015-02-11 16:39:10 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>U.S. Navy Southern Hemisphere Daily Sea-Level Pressure Grids for 1974 August to 1983 June</title>
+   <summary>
+      <p>This dataset contains a time-series of sea-level pressure
+              data on a 63 by 63 polar-stereographic grid over the Southern
+              Hemisphere.  These grids were subsetted from the Navy grids in
+              <a href="http://rda.ucar.edu/datasets/ds240.6/">ds240.6</a> and
+              cover the period from August 1974 to June 1983.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOD/USNAVY/FNMOC &gt; Fleet Numerical Meteorology and Oceanography Center, U.S. Navy, U. S. Department of Defense"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="240.6"/>
+   <publicationDate>2001-12-17</publicationDate>
+   <contentMetadata>
+      <temporal start="1974-08-08 06:00 +0000"
+                end="1983-06-30 18:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="8" unit="hour"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/datasets/common/navy/navyformat.html">DSS_Navy_Grid</format>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="63"
+               numY="63"
+               startLon="145E"
+               startLat="19.116N"
+               projLon="100E"
+               xRes="381"
+               yRes="381"
+               pole="S"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

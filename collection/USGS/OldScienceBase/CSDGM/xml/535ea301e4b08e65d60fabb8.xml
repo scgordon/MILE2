@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>Bathymetry data for the post-construction survey of the Emergent Sandbar Habitat project at river mile 769.8 downstream from Gavins Point Dam on the Missouri River.</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+               <pubplace>Reston, VA</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?ofr07-1056_up_post_bathy.shp</onlink>
+            <lworkcit>
+               <citeinfo>
+                  <origin>Ryan F. Thompson</origin>
+                  <origin>Michaela R. Johnson</origin>
+                  <origin>Michael J. Anderson </origin>
+                  <pubdate>2007</pubdate>
+                  <title>Data Collected to Support Monitoring of Constructed Emergent Sandbar Habitat on the Missouri River Downstream from Gavins Point Dam, South Dakota and Nebraska 2004-2006</title>
+                  <geoform>publication</geoform>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Scientific Investigations Report</sername>
+                     <issue>2007-1056</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <pubplace>Reston, VA</pubplace>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+                  <onlink>http://pubs.usgs.gov/of/2007/1056/</onlink>
+               </citeinfo>
+            </lworkcit>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This geospatial data set contains the points collected by the echosounder on transects in the upstream project reach surrounding the construction area at River Mile 769.8 below Gavins Point Dam on the Missouri River in South Dakota.  This survey provides channel cross sections for new and selected existing transects following construction of Emergent Sandbar Habitat near River Mile 769.8</abstract>
+         <purpose>The purpose of this CD is to provide project files and GIS coverages for Task 1 of the Military Interdepartmental Purchase Request to the U.S. Army Corps of Engineers.</purpose>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>2006</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>ground condition</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>Unknown</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-96.912030</westbc>
+            <eastbc>-96.822611</eastbc>
+            <northbc>42.736188</northbc>
+            <southbc>42.701452</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>inlandWaters</themekey>
+            <themekey>Hydrographic Survey</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>Missouri River below Gavins Point Dam</placekey>
+         </place>
+      </keywords>
+      <accconst>none</accconst>
+      <useconst>The Missouri River is a rapidly changing system.  These data should not be used for vessel navigation.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+               <cntper>Ryan F. Thompson</cntper>
+            </cntorgp>
+            <cntpos>Hydrologist</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>111 Kansas Ave SE</address>
+               <city>Huron</city>
+               <state>SD</state>
+               <postal>57324</postal>
+            </cntaddr>
+            <cntvoice>605 352-4241 x225</cntvoice>
+            <cntemail>rcthomps@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>The Innerspace Technologies dual-frequency 456 echosounder was calibrated twice daily with bar checks.  Vessel draft was measured with each bar check and was used to calculated water depth.  A CSI Wireless, Omnistar corrected differential GPS antenna mounted directly above the echosounder was used to collect the horizontal location of each depth measurement.  Real-time kinematic GPS was used to measure water surface elevation at each transect, which was then used to calculate elevation of the channel bottom.  Conversion to NGVD29 vertical datum was completed so that the data could be compared to existing COE benchmarks and gaging station data.  The datum conversion was accomplished using the National Geodetic Survey's VERTCON program (http://www.ngs.noaa.gov/cgi-bin/VERTCON/vert_con.prl).</attraccr>
+      </attracc>
+      <logic>Topologically correct</logic>
+      <complete>Points have been checked and attributed.</complete>
+      <lineage>
+         <procstep>
+            <procdesc>Data set was collected in UTM NAD83 Zone 14 meters.  Some preliminary editing was completed in Hypack by deleting bad data points.</procdesc>
+            <procdate>2006</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Edited data was exported from hypack and used to create an ArcGIS Shapefile</procdesc>
+            <procdate>2006</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Attribute fields were added and populated.  Additional bad data points were deleted as necessary.</procdesc>
+            <procdate>2006</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Data was projected to UTM Zone 14, with units of US feet.</procdesc>
+            <procdate>2006</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>Entity point</sdtstype>
+            <ptvctcnt>20130</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>4</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <mapprojn>Transverse Mercator</mapprojn>
+               <transmer>
+                  <sfctrmer>0.999600</sfctrmer>
+                  <longcm>-99.000000</longcm>
+                  <latprjo>0.000000</latprjo>
+                  <feast>1640416.666667</feast>
+                  <fnorth>0.000000</fnorth>
+               </transmer>
+            </mapproj>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>0.000064</absres>
+                  <ordres>0.000064</ordres>
+               </coordrep>
+               <plandu>survey feet</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>Geodetic Reference System 80</ellips>
+            <semiaxis>6378137.000000</semiaxis>
+            <denflat>298.257222</denflat>
+         </geodetic>
+      </horizsys>
+      <vertdef>
+         <altsys>
+            <altdatum>National Geodetic Vertical Datum of 1929</altdatum>
+            <altres>0.1</altres>
+            <altunits>Feet</altunits>
+            <altenc>Attribute values</altenc>
+         </altsys>
+         <depthsys>
+            <depthdn>
+Mean sea level</depthdn>
+            <depthres>0.1</depthres>
+            <depthdu>feet</depthdu>
+            <depthem>Attribute values</depthem>
+         </depthsys>
+      </vertdef>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>
+ofr07-1056_up_post_bathy</enttypl>
+            <enttypd>point attribute table</enttypd>
+            <enttypds>ARC/INFO ® GIS Software</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>FID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PTID</attrlabl>
+            <attrdef>point identifier</attrdef>
+            <attrdefs>USGS</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>ptid</edomv>
+                  <edomvd>point identifier</edomvd>
+                  <edomvds>USGS</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NORTHINGft</attrlabl>
+            <attrdef>UTM Zone 14 Northing, in US feet</attrdef>
+            <attrdefs>USGS</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Northingft</edomv>
+                  <edomvd>UTM Zone 14 Northing, in US feet</edomvd>
+                  <edomvds>USGS</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>EASTINGft</attrlabl>
+            <attrdef>UTM Zone 14 Easting, in US feet</attrdef>
+            <attrdefs>USGS</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Eastingft</edomv>
+                  <edomvd>UTM Zone 14 Easting, in US feet</edomvd>
+                  <edomvds>USGS</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ELEVFT29</attrlabl>
+            <attrdef>Elevation of the stream bottom, in NGVD29 feet</attrdef>
+            <attrdefs>USGS</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>elev29ft</edomv>
+                  <edomvd>Elevation of the stream bottom, in NGVD29 feet</edomvd>
+                  <edomvds>USGS</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>tran_num</attrlabl>
+            <attrdef>Transect number</attrdef>
+            <attrdefs>USGS</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>tran_num</edomv>
+                  <edomvd>Transect number</edomvd>
+                  <edomvds>USGS</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>northingm</attrlabl>
+            <attrdef>UTM Zone 14 Northing, in meters</attrdef>
+            <attrdefs>USGS</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Northingm</edomv>
+                  <edomvd>UTM Zone 14 Northing, in meters</edomvd>
+                  <edomvds>USGS</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>eastingm</attrlabl>
+            <attrdef>UTM Zone 14 Easting, in meters</attrdef>
+            <attrdefs>USGS</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Eastingm</edomv>
+                  <edomvd>UTM Zone 14 Easting, in meters</edomvd>
+                  <edomvds>USGS</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ofr041189it03</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>The South Dakota and Nebraska Water Science Centers, the Water Resources Discipline (WRD) of the U.S. Geological Survey, and the U.S. Army Corps of Engineers make no guarantee nor offer any warranty concerning the accuracy, condition, or application of the information contained in these geographic data.
+
+The burden for determining fitness for use of this data lies entirely with the user.  Although these data have been used successfully on computers of WRD, no warranty, expressed or implied, is made by WRD regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty.
+
+In no event shall the WRD have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including , but not limited to, any loss of profits arising out of the delivery, installation, operation, or support by WRD.
+
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ARCE</formname>
+               <transize>0.538</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/up_post_bathy.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20070306</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ofr07-1056_up_post_bathy.shp</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

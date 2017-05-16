@@ -1,0 +1,372 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.8006.3" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MCM,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>metacommunity dynamics</shortName>
+    <title>McMurdo Dry Valleys Metacommunity dynamics simulations for diatoms in Antarctic ponds</title>
+    <creator>
+      <individualName>
+        <givenName>Eric</givenName>
+        <surName>Sokol</surName>
+      </individualName>
+      <organizationName>University of Colorado</organizationName>
+      <address>
+        <deliveryPoint>Biological Sciences 2011 Derring Hall</deliveryPoint>
+        <city>Blacksburg</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>24061</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(540) 231-8930</phone>
+      <electronicMailAddress>sokole@vt.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Inigo</givenName>
+        <surName>San Gil</surName>
+      </individualName>
+      <organizationName>University Of New Mexico</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology, MSC03 2020 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(505) 277-2625</phone>
+      <phone phonetype="facsimile">(505) 277-2541</phone>
+      <electronicMailAddress>isangil@lternet.edu</electronicMailAddress>
+      <role>data manager</role>
+    </associatedParty>
+    <pubDate>2016-03-02</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>We use metacommunity simulations to understand how local and regional community assembly dynamics influence the regional biodiversity patterns that we observe in the McMurdo Dry Valleys ecosystem. A metacommunity refers to a network of communities in an ecosystem that are connected to one another by the dispersal of biota among sites. For example, ponds in the McMurdo Dry Valleys share common diatom species that are likely dispersed among neighboring ponds by wind. We have written a metacommunity model for the R programming language (MCSim,&#194;&#160;Sokol et al. 2015) to explore what biodiversity patterns look like for different metacommunity connectivity scenarios. This gives us the opportunity to model alternative hypotheses and explore how biodiversity metrics, such as beta-diversity, can be expected to respond to changing ecosystem connectivity for different sets of assumptions about the underlying dynamics that could potentially control biodiversity in the Dry Valleys.&#194;&#160;</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>community dynamics</keyword>
+      <keyword>diatoms</keyword>
+      <keyword>dispersal</keyword>
+      <keyword>modeling</keyword>
+      <keyword>population and community properties</keyword>
+      <keyword>simulation</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>MCM LTER data may be used freely with the following restrictions: The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions. The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications. A copy of any resultant publications should be sent to the McMurdo data manager and principal investigator. The end-user follow the guidelines set forth in the LTER Network Data Access Policy, Data Access Requirements, and General Data Use Agreement here: Definitions &#226;&#8364;&#339;Data Set&#226;&#8364; &#226;&#8364;&#8220; Digital data and its metadata derived from any research activity such as field observations, collections, laboratory analysis, experiments, or the post-processing of existing data and identified by a unique identifier issued by a recognized cataloging authority such as a site, university, agency, or other organization. &#226;&#8364;&#339;Data User&#226;&#8364; - individual to whom access has been granted to this Data Set, including his or her immediate collaboration sphere, defined here as the institutions, partners, students and staff with whom the Data User collaborates, and with whom access must be granted, in order to fulfill the Data User's intended use of the Data Set &#226;&#8364;&#339;Data Set Creator&#226;&#8364; - individual or institution that produced the Data Set &#226;&#8364;&#339;Data Set Owner&#226;&#8364; &#226;&#8364;&#8220; individual or institution that holds intellectual property rights to the dataset. Note that this may or may not be defined as a legal copyright. If no other party is designated in the metadata as Data Set Owner, it may be presumed that these rights are held by the Data Set Creator. &#226;&#8364;&#339;Data Set Distributor&#226;&#8364; - individual or institution providing access to the Data Sets. &#226;&#8364;&#339;Data Set Contact&#226;&#8364; - party designated in the accompanying metadata of the Data Set as the primary contact for the Data Set. Conditions of Use The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. Permission to use this dataset is granted to the Data User free of charge subject to the following terms: 1) Acceptable use. Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not-for-profit professional purposes. The Data User is permitted to produce and distribute derived works from this dataset provided that they are released under the same license terms as those accompanying this Data Set. Any other uses for the Data Set or its derived products will require explicit permission from the dataset owner. 2 ) Redistribution. The data are provided for use by the Data User. The metadata and this license must accompany all copies made and be available to all users of this Data Set. The Data User will not redistribute the original Data Set beyond this collaboration sphere. 3 ) Citation. It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator, Year of Data Publication, Title of Dataset, Publisher, Dataset identifier. For example: McKee, W. 2001. Vascular plant list on the Andrews Experimental Forest and nearby Research Natural Areas: Long-Term Ecological Research. Corvallis, OR: Forest Science Data Bank: SA002. [Database]. http://www.fsl.orst.edu/lter/data/abstract.cfm?dbcode=SA002. (21 October 2004) 4 ) Acknowledgement. The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data sets were provided by the Forest Science Data Bank, a partnership between the Department of Forest Science, Oregon State University, and the U.S. Forest Service Pacific Northwest Research Station, Corvallis, Oregon. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers BSR-90-11663 and DEB-96-32921). 5 ) Notification. The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed. The Data User will provide the data contact with two reprints of any publications resulting from use of the Data Set and will provide copies, or on-line access to, any derived digital products. Notification will include an explanation of how the Data Set was used to produce the derived work. 6 ) Collaboration. The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. By accepting this Data Set, the Data User agrees to abide by the terms of this agreement. The Data Owner shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Disclaimer While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available "as is". The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcmlter.org/content/metacommunity-dynamics-simulations-diatoms-antarctic-ponds</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The Blue Lake North Lobe is in the Cape Roys area, In Ross Island.Code: BLNLNorth lobe of ice-covered&#160; lake, &lt;5 m&#160; moat, area is about 41,529, at the time, the water temperature was about 6.3 degrees celsius.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.177</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.177</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.544</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.544</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Blue Lake South Lobe is in the Cape Roys area, In Ross Island.Code: BLSLSouth lobe of ice-covered&#160; lake, &lt;1 m&#160; moat, area is about 56,794 at the time, the water temperature was about 1.5 degrees celsius.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.182</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.182</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5459</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5459</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Clear lake is an Ice-covered lake with ~33 % ice-free, in the Cape Roys area in Ross Island. The area the lake covers is about 10,929Code: CLLArea: 10,929 Measured Temperature: 2.9</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.161</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.161</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5422</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5422</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Coast Lake is a predominantly ice free lake in the Cape Roys area in Ross Island.Code : COLLake Area: 14,813 Temperature:&#160;10.1 &#160;</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.15</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.15</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5423</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5423</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Cape Royds Pond 1 is an ice free pond in the Ross IslandCode : CR1Area:&#160;1,792 Temperature:&#160;6.3 celsius&#160;</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.164</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.164</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5528</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5528</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Cape Roys Pond 2 is an ice-free pond at ROss Ilsand.Area 26Temperature: 6.2 celsiusCode: CRP2&#160;</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.177</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.177</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.549</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.549</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Cape Roys Pond 3 is in ROss Island, and is a predominantly ice free pond.Code: CRP3Area: 323Temperature: 5.4 celsius</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.173</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.173</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5441</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5441</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Cape Royds Pond 4 is located in Ross Island, predominantly ice-free with a snowbank.Code: CRP4Area 1692Temperature: 8 celsius</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.167</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.167</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5434</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5434</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Cape Royds Pond 5 is a small ice free pond in Ross IslandArea: 5Temperature : 9.1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.158</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.158</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5528</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5528</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Cape Royds Pond 6 is a small ice-free pond at ROss Island.Code: CRP6Area: 897&#160;Temperature: 8.9 celsius</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.172</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.172</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5467</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5467</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Green Lake is an ice-free pond, near coast Area:&#160;3,020 Temperature :&#160;9.4 Celsius</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.157</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.157</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5498</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5498</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The&#160;Labyrinth Pond 4 is located in the Wright Valley.&#160;Ice-covered, heavily shaded, lense-shaped.Code: LAB4Area:&#160;25,805Temperature: 2.6 celsius&#160;</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>161.064</westBoundingCoordinate>
+          <eastBoundingCoordinate>161.064</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5605</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5605</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>A pond, 0.3 nautical miles (0.6 km) long, located 0.5 nautical miles (1 km) south of the snout of Commonwealth Glacier in Taylor Valley, Victoria Land, Antarctica. The pond is part of the Aiken Creek system and receives drainage from several glaciers including Commonwealth Glacier, Wales Glacier and the unnamed glacier next westward.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>163.313</westBoundingCoordinate>
+          <eastBoundingCoordinate>163.328</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5977</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5986</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>20</altitudeMinimum>
+            <altitudeMaximum>20</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Kaki Pond 3 is an ce-covered pond with a moat less than a meter. It is in the Taylor Bonney, looks like the Bonney Basin.Code: MP3Area:5,318Temperature:&#160;</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>162.711</westBoundingCoordinate>
+          <eastBoundingCoordinate>162.711</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.7006</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.7006</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Kaki Pond 4 is located in the uplands of the Boney Basin, in the Taylor Valley, is ice covered with a moat less than a meter.Code: MP4Area:14,012 Temperature:&#160;2.4 celsius &#160;</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>162.716</westBoundingCoordinate>
+          <eastBoundingCoordinate>162.716</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.696</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.696</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The McMurdo Hut Ridge Lower Pond is on Ross Island, small&#160;Ice-free, lense-shaped pond.Code: MCMLArea: 5Temperature: 8.6</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.645</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.645</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.8435</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.8435</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The McMurdo Hut Ridge Upper Pond is an&#160;Ice-free, lense-shaped pond on Ross IslandArea: 393 Temperature:&#160;6.3 celsius&#160;</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>166.645</westBoundingCoordinate>
+          <eastBoundingCoordinate>166.645</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.8412</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.8412</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Nussbaum Riegel Pond is in the Taylor Valley in between the Bonney and Chad Basins. &#160;An&#160;Ice-covered, oval pond.Code: NRP Area:&#160;6,133 Temperature:&#160;3.1 celsius</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>162.815</westBoundingCoordinate>
+          <eastBoundingCoordinate>162.815</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.6844</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.6844</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Parera Pond is an&#160;Ice-covered, &lt;1 m moat in the Taylor ValleyCode: PPArea:39,916 Temperature:&#160;5.7 celsius</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>162.913</westBoundingCoordinate>
+          <eastBoundingCoordinate>162.913</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.6542</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.6542</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Picture Pond is a&#160;former channel, oval pond in the Taylor Valley, near Explorer's Cove and Commonwealth GlacierCode PIPArea:&#160;8,119 Temperature:&#160;7.1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>163.424</westBoundingCoordinate>
+          <eastBoundingCoordinate>163.424</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.5883</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.5883</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Spaulding Pond is&#160;Mostly ice-free, circular and near Howard glacier in Taylor ValleyCode: SPP Area:&#160;68,329 Temperature&#160;9.9 celsius</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>163.123</westBoundingCoordinate>
+          <eastBoundingCoordinate>163.123</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.6581</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.6581</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2014-03-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-03-02</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>Modeling code is managed in github, and the data output snapshots are stored here. &#194;&#160;</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </publisher>
+    <pubPlace>McMurdo Dry Valleys LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Field Sample Analysis and Model Approach We are parameterizing metacommunity simulations by using observational data collected across various MCM core experiments to characterize local habitat characteristics and the composition of biotic communities in aquatic and terrestrial habitats. For example, we have modeled different metacommunity scenarios&#194;&#160;based on the diatom communities observed in microbial mats sampled in ponds on Ross Island and in the McMurdo Dry Valleys (observational data described in&#194;&#160;Sakaeva et al. 2016). For each pond, we have measured a suite of environmental variables (e.g., pH, conductivity, nutrient concentrations) and recorded GPS locations. Similar to the modeling approach described by Sokol et al. (2015), we use the pond GPS coordinates to create a network of ponds in 2-dimensional space for the metacommunity simulations. We use the first axis of a principal component analysis (PCA) of pond environmental variables to create a composite environmental&#194;&#160;variable, used to characterize the local habitat at each pond in a simulation scenario. Diatom counts from cores collected from microbial mats from each pond were&#194;&#160;used to set the initial metacommunity conditions for all simulation scenarios. Similarly, we are also using this approach to understand the importance of connectivity&#194;&#160;for biodiversity data collected in nematode and soil bacteria studies at the MCM LTER.&#194;&#160; &#194;&#160; Modeling code used: MCSim for the R statistical language. Latest version available on Github at https://github.com/sokole/MCSim (version used for this work is&#194;&#160;https://github.com/sokole/MCSim/releases/tag/v0.4.1.9001) Data Input Files The input files used for the Metacommunities simulations, all the empirical data used are included in a Zip file (see above). Four csv files contain information on the communities densities. These include the following taxa (coded): Ataylor, Ccymat, Claevis, Cmolest, Fpellic, Holigot, Hantzsc, Habundan, Hamphiox, Hmuelle, Helongat, Humidoph, Hhyperaus, Haustral, Hparall, Lutico, Laustro, Ldolia, Lgauss, Llaeta, Levolut Lmuticop LmLevk, LmWest, Lpermutic, Lvermeu Matomu Mpermit Mvar1, Mueller Mmerid Msupra, Mperaus, Nseibig, Nshack Ngrega Nlineo, Ncommu, Nwesto, Ppapil, Slatis, Lunknown, Cheam1Input locations are in two files, including UTM coordinates as well as Lat/Lon coordinates. The lake index serves as linkage for chemical, physical and taxa data. The pond or lakes chemistry empirical inputs include concentrations for Calcium, Iron, Chlorine, Bromine, Phosphates, Nitrites, Nitrates, Sulfates, Dissolved Organic Carbon and Amonia. Physical paramenters like the pH, the Conductivity and Temperature. Data Output Files Output files for example metacommunity simulations. Simulation results include species counts for each timestep from two different simulation scenarios. Example R code necessary to run these simulation scenarios is included R-code. &#194;&#160;Best refer to github link, but here &#194;&#160;an example for Diatoms is included in the Output ZIP file. &#194;&#160;Eric provided you with a nice tutorial on how to use the MCSim simulation, follow it at:&#194;&#160;http://rpubs.com/sokole/159425</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <otherEntity>
+      <entityName>Metacommunities Data INPUTs</entityName>
+      <entityDescription>These are example input files used for the Metacommunities simulations, all the empirical data used.Four csv files contain information on the communities densities, UTM coordinates as well as Lat/Lon coordinates&#160;</entityDescription>
+      <physical>
+        <objectName>DATA_IN.zip</objectName>
+        <size>9433</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/8006/3/3471751f7ce56a36a67c3331034674f0</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>undefined</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Metacommunities Data OUTPUTS and code example</entityName>
+      <entityDescription>Files on simulated community dynamics results as species counts. Includes code example.</entityDescription>
+      <physical>
+        <objectName>SIM_OUTPUT_MCM-diatom-examples.zip</objectName>
+        <size>721240</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/8006/3/317644b379d3ac08fc6eb60b66f3f896</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>undefined</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

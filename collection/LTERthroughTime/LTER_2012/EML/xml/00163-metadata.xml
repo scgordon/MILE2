@@ -1,0 +1,805 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-ntl.71.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset>
+		<alternateIdentifier system="NTL-DEIMS">5615</alternateIdentifier>
+		<shortName>CPHYS1</shortName>
+		<title>Cascade Project at North Temperate Lakes LTER: Physical and Chemical Limnology 1984 - 2007</title>
+		<creator>
+			<individualName>
+				<givenName>Stephen</givenName>
+				<surName>Carpenter</surName>
+			</individualName>
+			<organizationName>University of Wisconsin</organizationName>
+			<address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+			<phone phonetype="voice">(608) 262-3014</phone>
+			<phone phonetype="fax">(608) 265-2340</phone>
+			<electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+		</creator>
+		<creator>
+			<individualName>
+				<givenName>Jim</givenName>
+				<surName>Kitchell</surName>
+			</individualName>
+			<organizationName>NTL LTER</organizationName>
+			<address>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+    </address>
+			<phone phonetype="voice">(608) 262-3014</phone>
+			<phone phonetype="fax">(608) 265-3014</phone>
+			<electronicMailAddress>kitchell@wisc.edu</electronicMailAddress>
+		</creator>
+		<creator>
+			<individualName>
+				<givenName>Jon</givenName>
+				<surName>Cole</surName>
+			</individualName>
+			<organizationName>NTL LTER</organizationName>
+			<address>
+      <country>United States</country>
+    </address>
+			<electronicMailAddress>colej@caryinstitute.org</electronicMailAddress>
+		</creator>
+		<creator>
+			<individualName>
+				<givenName>Mike</givenName>
+				<surName>Pace</surName>
+			</individualName>
+			<organizationName>NTL LTER</organizationName>
+			<address>
+      <country>United States</country>
+    </address>
+			<electronicMailAddress>pacem@virginia.edu</electronicMailAddress>
+		</creator>
+		<metadataProvider>
+			<organizationName>North Temperate Lakes LTER</organizationName>
+			<address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+			<electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+		</metadataProvider>
+		<pubDate>2009</pubDate>
+		<language>english</language>
+		<abstract>
+			<para>Physical and chemical variables are measured at one central station near the deepest
+				point of each lake. In most cases these measurements are made in the morning (0800 to 0900).
+				Vertical profiles are taken at varied depth intervals. Chemical measurements are sometimes
+				made in a pooled mixed layer sample (PML); sometimes in the epilimnion, metalimnion, and
+				hypolimnion; and sometimes in vertical profiles. In the latter case, depths for sampling
+				usually correspond to the surface plus depths of 50percent, 25percent, 10percent, 5percent
+				and 1percent of surface irradiance. The 1991-1995 chemistry data obtained from the Lachat
+				auto-analyzer. Like the process data, there are up to seven samples per sampling date due to
+				Van Dorn collections across a depth interval according to percent irradiance. Voichick and
+				LeBouton (1994) describe the autoanalyzer procedures in detail. Methods for 1984-1990 were
+				described by Carpenter and Kitchell (1993) and methods for 1991-1997 were described by
+				Carpenter et al. (2001). Carpenter, S.R. and J.F. Kitchell (eds.). 1993. The Trophic Cascade
+				in Lakes. Cambridge University Press, Cambridge, England. Carpenter, S.R., J.J. Cole, J.R.
+				Hodgson, J.F. Kitchell, M.L. Pace,D. Bade, K.L. Cottingham, T.E. Essington, J.N. Houser and
+				D.E. Schindler. 2001. Trophic cascades, nutrients and lake productivity: whole-lake
+				experiments. Ecological Monographs 71: 163-186. Number of sites: 8 </para>
+		</abstract>
+		<keywordSet>
+			<keyword>primary production</keyword>
+			<keywordThesaurus>LTER Keywords</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword>DO</keyword>
+			<keyword>NTL LTER</keyword>
+			<keyword>North Temperate Lakes - LTER</keyword>
+			<keyword>UV absorbance</keyword>
+			<keyword>dissolved oxygen saturation</keyword>
+			<keyword>light extinction</keyword>
+			<keyword>light penetration</keyword>
+			<keyword>physical limnology</keyword>
+			<keywordThesaurus>NTL Keywords</keywordThesaurus>
+		</keywordSet>
+		<intellectualRights>
+			<section>
+				<title>Data Policies</title>
+				<para>Copyright Board of Regents, University of Wisconsin, Madison. This information is
+					released to the public and may be used for academic, educational, or commercial purposes
+					subject to the following restrictions: The Data User must realize that these data sets are
+					being actively used by others for ongoing research and that coordination may be necessary
+					to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal
+					Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where
+					appropriate, the Data User may be encouraged to consider collaboration and/or
+					co-authorship with original investigators.</para>
+				<para>The Data User must realize that the data may be misinterpreted if taken out of
+					context. We request that you provide the NTL lead Principal Investigator, ATTN: Data
+					Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St.,
+					Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed
+					and comments provided on the presentation of our data.</para>
+				<para>The Data User must acknowledge use of the data by an appropriate citation (see
+					Citation) of the NTL-LTER database. A generic citation for our databases is: name of data
+					set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for
+					data set, Center for Limnology, University of Wisconsin-Madison. The data set name and
+					contact person for each data set can be found in the metadata header of the online data
+					sets.</para>
+				<para>The Data User must send two reprints of any publications resulting from use of the
+					data to the address above. We would like to include such manuscripts in our LTER
+					publications list.</para>
+				<para>The Data User must not redistribute original data and documentation without permission
+					from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para>
+				<para>While substantial efforts are made to ensure the accuracy of data and documentation,
+					complete accuracy of data sets cannot be guaranteed. All data are made available "as is".
+					The North Temperate Lakes LTER shall not be liable for damages resulting from any use or
+					misinterpretation of data sets. Data users should be aware that we periodically update
+					data sets.</para>
+				<para>Our goal is to release all long term data associated with core research areas within 2
+					years of collection. These data and accompanying metadata will be available for download
+					from the NTL-LTER web site.</para>
+				<para>By using these data, the Data User agrees to abide by the terms of this agreement.
+					Thank you for your cooperation. </para>
+			</section>
+		</intellectualRights>
+		<distribution>
+			<online>
+				<url function="information">http://lter.limnology.wisc.edu/node/5615</url>
+			</online>
+		</distribution>
+		<coverage>
+			<geographicCoverage>
+				<geographicDescription>Cascade lakes: Peter, Paul, Tuesday, East Long, West Long, Central Long, Hummingbird, Crampton, UNDERC (University of Notre Dame Environmental Research Center) Vilas County, WI and Gogebic County, MI, USA
+</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-89.506</westBoundingCoordinate>
+					<eastBoundingCoordinate>-89.468</eastBoundingCoordinate>
+					<northBoundingCoordinate>46.254</northBoundingCoordinate>
+					<southBoundingCoordinate>46.206</southBoundingCoordinate>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage>
+				<rangeOfDates>
+					<beginDate>
+						<calendarDate>1984-05-27</calendarDate>
+					</beginDate>
+					<endDate>
+						<calendarDate>2007-10-02</calendarDate>
+					</endDate>
+				</rangeOfDates>
+			</temporalCoverage>
+		</coverage>
+		<maintenance>
+			<description>
+				<para>completed </para>
+			</description>
+		</maintenance>
+		<contact>
+			<positionName>NTL LTER Information Manager</positionName>
+			<organizationName>University of Wisconsin</organizationName>
+			<address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+			<electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+		</contact>
+		<contact>
+			<positionName>NTL LTER Lead PI</positionName>
+			<organizationName>Center for Limnology</organizationName>
+			<address>
+      <deliveryPoint>680 North Park Str.</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+			<electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+		</contact>
+		<publisher>
+			<organizationName>North Temperate Lakes LTER</organizationName>
+			<address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+			<electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+		</publisher>
+		<pubPlace>North Temperate Lakes</pubPlace>
+		<methods>
+			<methodStep>
+				<description>
+					<section>
+						<para>The 1991-1995 chemistry data obtained from the Lachat auto-analyzer. Like the
+							process data, there are up to seven samples per sampling date due to Van Dorn
+							collections across a depth interval according to percent irradiance. Voichick and
+							LeBouton (1994) describe the autoanalyzer procedures in detail. Methods for 1984-1990
+							were described by Carpenter and Kitchell (1993) and methods for 1991-1997 were
+							described by Carpenter et al. (2001). Carpenter, S.R. and J.F. Kitchell (eds.). 1993.
+							The Trophic Cascade in Lakes. Cambridge University Press, Cambridge, England.
+							Carpenter, S.R., J.J. Cole, J.R. Hodgson, J.F. Kitchell, M.L. Pace,D. Bade, K.L.
+							Cottingham, T.E. Essington, J.N. Houser and D.E. Schindler. 2001. Trophic cascades,
+							nutrients and lake productivity: whole-lake experiments. Ecological Monographs 71:
+							163-186. Number of sites: 8 </para>
+					</section>
+				</description>
+			</methodStep>
+		</methods>
+		<project>
+			<title>Cascade Project at North Temperate Lakes LTER</title>
+			<personnel>
+				<individualName>
+					<givenName>Stephen</givenName>
+					<surName>Carpenter</surName>
+				</individualName>
+				<organizationName>University of Wisconsin</organizationName>
+				<address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+				<phone phonetype="voice">(608) 262-3014</phone>
+				<phone phonetype="fax">(608) 265-2340</phone>
+				<electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+				<role>project personnel</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Jim</givenName>
+					<surName>Kitchell</surName>
+				</individualName>
+				<organizationName>NTL LTER</organizationName>
+				<address>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+      </address>
+				<phone phonetype="voice">(608) 262-3014</phone>
+				<phone phonetype="fax">(608) 265-3014</phone>
+				<electronicMailAddress>kitchell@wisc.edu</electronicMailAddress>
+				<role>project personnel</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Jon</givenName>
+					<surName>Cole</surName>
+				</individualName>
+				<organizationName>NTL LTER</organizationName>
+				<address>
+        <country>United States</country>
+      </address>
+				<electronicMailAddress>colej@caryinstitute.org</electronicMailAddress>
+				<role>project personnel</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Mike</givenName>
+					<surName>Pace</surName>
+				</individualName>
+				<organizationName>NTL LTER</organizationName>
+				<address>
+        <country>United States</country>
+      </address>
+				<electronicMailAddress>pacem@virginia.edu</electronicMailAddress>
+				<role>project personnel</role>
+			</personnel>
+			<abstract>
+				<para>The Cascade project is a whole-ecosystem experimental test of the theory that: 1)
+					increased variance 2) red-shift of variance 3) critical slowing down of recovery rate
+					across components of a food web are leading indicators of a common type of regime shift in
+					lake ecosystems caused by changes in the structure of the fish community. Variability will
+					be assessed at all trophic levels for three years in both a manipulated lake and a
+					non-manipulated reference lake using high-frequency data acquisition methods including
+					automated in situ instrumentation for analysis of alagal biomass and primary production,
+					zooplankton abundance and size structure, acoustical measure of fish migration, and daily
+					measures of fish growth from otoliths. Modern signal processing methods of time series,
+					spectral and wavelet analysis will evaluate changes in variance, variance sprectra and
+					return rate. </para>
+			</abstract>
+		</project>
+		<dataTable>
+			<entityName>cascade_physchem</entityName>
+			<entityDescription>Cascade Project: Physical and Chemical Limnology</entityDescription>
+			<physical>
+				<objectName>cascadephyschem</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>1</numHeaderLines>
+						<recordDelimiter>\r\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.71&amp;urlTail=ntl/data/5615_1_v2.csv</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>lakeid</attributeName>
+					<attributeLabel>lake identifier</attributeLabel>
+					<attributeDefinition>lake identifier</attributeDefinition>
+					<storageType>string</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>C</code>
+										<definition>Central Long Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>E</code>
+										<definition>East Long Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>H</code>
+										<definition>Hummingbird Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>L</code>
+										<definition>Paul Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>M</code>
+										<definition>Crampton Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>R</code>
+										<definition>Peter Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>T</code>
+										<definition>Tuesday Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>W</code>
+										<definition>West Long Lake</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>lakename</attributeName>
+					<attributeLabel>lake name</attributeLabel>
+					<attributeDefinition>lake name</attributeDefinition>
+					<storageType>string</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>lake name</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>year4</attributeName>
+					<attributeLabel>year</attributeLabel>
+					<attributeDefinition>year</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>nominalYear</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>daynum</attributeName>
+					<attributeLabel>day of year</attributeLabel>
+					<attributeDefinition>day of year</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>nominalDay</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">1</minimum>
+									<maximum exclusive="false">366</maximum>
+								</bounds>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>sampledate</attributeName>
+					<attributeLabel>sample date</attributeLabel>
+					<attributeDefinition>sample date</attributeDefinition>
+					<storageType>date</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>yyyy-MM-dd</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>depth</attributeName>
+					<attributeLabel>sample depth meter</attributeLabel>
+					<attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>wtemp</attributeName>
+					<attributeLabel>water temperature</attributeLabel>
+					<attributeDefinition>water temperature</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>celsius</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>dissolved_oxygen</attributeName>
+					<attributeLabel>dissolved oxygen</attributeLabel>
+					<attributeDefinition>dissolved oxygen</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>milligramPerLiter</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>irradiance</attributeName>
+					<attributeLabel>irradiance</attributeLabel>
+					<attributeDefinition>irradiance</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>molePerMeterSquaredPerSec</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>deck_irradiance</attributeName>
+					<attributeLabel>irradiance on the deck</attributeLabel>
+					<attributeDefinition>irradiance on the deck of the sampling boat</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<customUnit>molePerMeterSquaredPerSec</customUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+			</attributeList>
+		</dataTable>
+		<dataTable>
+			<entityName>cascade_physical</entityName>
+			<entityDescription>Cascade Project: Physical Limnology</entityDescription>
+			<physical>
+				<objectName>cascadephysical</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>1</numHeaderLines>
+						<recordDelimiter>\r\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.71&amp;urlTail=ntl/data/5615_2_v2.csv</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>lakeid</attributeName>
+					<attributeLabel>lake identifier</attributeLabel>
+					<attributeDefinition>lake identifier</attributeDefinition>
+					<storageType>string</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>C</code>
+										<definition>Central Long Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>E</code>
+										<definition>East Long Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>H</code>
+										<definition>Hummingbird Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>L</code>
+										<definition>Paul Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>M</code>
+										<definition>Crampton Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>R</code>
+										<definition>Peter Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>T</code>
+										<definition>Tuesday Lake</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>W</code>
+										<definition>West Long Lake</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>year4</attributeName>
+					<attributeLabel>year</attributeLabel>
+					<attributeDefinition>year</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>nominalYear</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>daynum</attributeName>
+					<attributeLabel>day of year</attributeLabel>
+					<attributeDefinition>day of year</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>nominalDay</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">1</minimum>
+									<maximum exclusive="false">366</maximum>
+								</bounds>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>sampledate</attributeName>
+					<attributeLabel>sample date</attributeLabel>
+					<attributeDefinition>sample date</attributeDefinition>
+					<storageType>date</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>yyyy-MM-dd</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>thermocline_depth</attributeName>
+					<attributeLabel>thermocline depth</attributeLabel>
+					<attributeDefinition>thermocline depth</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>epi_wtemp</attributeName>
+					<attributeLabel>temperature in the epilimnion</attributeLabel>
+					<attributeDefinition>temperature in the epilimnion</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>celsius</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>detph_1mg_per_l_do</attributeName>
+					<attributeLabel>depth of 1 mg/L DO</attributeLabel>
+					<attributeDefinition>depth of 1 mg/L dissolved oxgyen</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>depth_max_do</attributeName>
+					<attributeLabel>depth of maximum DO</attributeLabel>
+					<attributeDefinition>depth of maximum dissolved oxgyen</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>depth_1percent_surf_irrad</attributeName>
+					<attributeLabel>depth of 1% surface irradiance</attributeLabel>
+					<attributeDefinition>depth of 1% surface irradiance</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>thermocline_light</attributeName>
+					<attributeLabel>% light at the thermocline</attributeLabel>
+					<attributeDefinition>% light at the thermocline</attributeDefinition>
+					<storageType>string</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>% light at the thermocline</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>secchi</attributeName>
+					<attributeLabel>secchi depth</attributeLabel>
+					<attributeDefinition>secchi depth</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>rain_daily</attributeName>
+					<attributeLabel>rainfall daily total</attributeLabel>
+					<attributeDefinition>rainfall daily total</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>centimeter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>staff_gauge</attributeName>
+					<attributeLabel>staff gauge height</attributeLabel>
+					<attributeDefinition>staff gauge height</attributeDefinition>
+					<storageType>float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+			</attributeList>
+		</dataTable>
+	</dataset>
+	<additionalMetadata>
+		<metadata>
+			<ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1     http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+				<ns2:unit abbreviation="mg/l" constantToSI="0" id="milligramPerLiter" multiplierToSI="0.001" name="milligramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+					<ns2:description>milligrams / liter</ns2:description>
+				</ns2:unit>
+				<ns2:unit id="molePerMeterSquaredPerSec" />
+			</ns2:unitList>
+		</metadata>
+	</additionalMetadata>
+</eml:eml>

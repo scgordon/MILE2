@@ -1,0 +1,694 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-ntl.282.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+
+<access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+    <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+    <permission>all</permission>
+  </allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset>
+  <alternateIdentifier system="NTL-DEIMS">33029</alternateIdentifier>
+  <title>Additional Daily Meteorological Data for Madison Wisconsin (1884-2010)</title>
+  <creator>
+    <individualName>
+      <givenName>Lyle</givenName>
+      <surName>Anderson</surName>
+    </individualName>
+    <organizationName>NTL LTER</organizationName>
+    <address>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+    </address>
+    <phone phonetype="voice">(608) 263-2374</phone>
+    <electronicMailAddress>ljanders@wisc.edu</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Dale</givenName>
+      <surName>Robertson</surName>
+    </individualName>
+    <organizationName>U.S. Geological Survey</organizationName>
+    <address>
+      <deliveryPoint>8505 Research Way</deliveryPoint>
+      <city>Middleton</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53562</postalCode>
+    </address>
+    <phone phonetype="voice">(608) 821-3867</phone>
+    <electronicMailAddress>dzrobert@usgs.gov</electronicMailAddress>
+  </creator>
+  <metadataProvider>
+    <organizationName>North Temperate Lakes LTER</organizationName>
+    <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </metadataProvider>
+  <pubDate>2013</pubDate>
+  <language>english</language>
+  <abstract>
+    <para>These data are in addition to "Madison Wisconsin Daily Meteorological Data 1869-current." Additional variables added &#194;&#160;include: daily cloud cover, wind, solar radiation, vapor pressure, dew point temperature, total atmospheric pressure, and average relative humidity for Madison, Wisconsin. &#194;&#160;In addition, the adjustment factors which were applied on a given date to calculate the adjusted parameters in "Madison Wisconsin Daily Meteorological Data 1869-current" are also included in these data. Raw data, in English units, were assembled by Douglas Clark - Wisconsin State Climatologist. Data were converted to metric units and adjusted for temporal biases by Dale M. Robertson. For adjustments applied to various parameters see Robertson, 1989 Ph.D. Thesis UW-Madison. Adjusted data represent the BEST estimated daily data and may be raw data. Data collected at Washburn observatory, 8-1-1883 to 9-30-1904. Data collected at North Hall, 10-1-1904 to 12-31-1947 Data collected at Truax Field (Admin BLDG), 1-1-1948 to 12-31-1959. Data collected at Truax Field, center of field, 1-1-1960 to Present. Much of the data after 1990 were obtained in digital form from Ed Hopkins, UW-Meteorology. Data starting in 2002-2005 were obtained from Sullivan at http://www.weather.gov/climate/index.php?wfo=mkx%20 ,then go to CF6 and download monthly data to Madison_sullivan_conversion. Relative humidity data was obtained from 1986 to 1995 from CD's at the State Climatologist's Office. Since Robertson (1989) adjusted all historical data to that collected prior to 1989; no adjustments were applied to the recent data except for wind and estimated vapor pressure. Wind after January 1997, and only wind from the southwest after November 2007, was extended by Dale M. Robertson and Yi-Fang "Yvonne" Hsieh, see methods. Estimated vapor pressure after April 2002 was updated by Yvonne Hsieh, see methods.
+</para>
+  </abstract>
+  <keywordSet>
+    <keyword>abiotic</keyword>
+    <keyword>advection</keyword>
+    <keyword>air</keyword>
+    <keyword>air temperature</keyword>
+    <keyword>altitude</keyword>
+    <keyword>annual</keyword>
+    <keyword>atmosphere</keyword>
+    <keyword>atmospheric pressure</keyword>
+    <keyword>barometric pressure</keyword>
+    <keyword>climate</keyword>
+    <keyword>climate change</keyword>
+    <keyword>climatology</keyword>
+    <keyword>dew point</keyword>
+    <keyword>distance</keyword>
+    <keyword>ecology</keyword>
+    <keyword>ecosystems</keyword>
+    <keyword>elevation</keyword>
+    <keyword>environment</keyword>
+    <keyword>evaporation</keyword>
+    <keyword>fluxes</keyword>
+    <keyword>frequency</keyword>
+    <keyword>frost</keyword>
+    <keyword>gradient</keyword>
+    <keyword>heat flux</keyword>
+    <keyword>historical</keyword>
+    <keyword>humans</keyword>
+    <keyword>humidity</keyword>
+    <keyword>hydrology</keyword>
+    <keyword>inventories</keyword>
+    <keyword>latitude</keyword>
+    <keyword>limnology</keyword>
+    <keyword>locations</keyword>
+    <keyword>long term</keyword>
+    <keyword>long term ecological research</keyword>
+    <keyword>long term monitoring</keyword>
+    <keyword>longitude</keyword>
+    <keyword>maximum temperature</keyword>
+    <keyword>meteorology</keyword>
+    <keyword>meterology</keyword>
+    <keyword>minimum temperature</keyword>
+    <keyword>monitoring</keyword>
+    <keyword>precipitation</keyword>
+    <keyword>pressure</keyword>
+    <keyword>profiles</keyword>
+    <keyword>radiation</keyword>
+    <keyword>rain</keyword>
+    <keyword>rainfall</keyword>
+    <keyword>relative humidity</keyword>
+    <keyword>remote sensing</keyword>
+    <keyword>seasonality</keyword>
+    <keyword>snow</keyword>
+    <keyword>snow accumulation</keyword>
+    <keyword>spatial variability</keyword>
+    <keyword>storms</keyword>
+    <keyword>temperature</keyword>
+    <keyword>urban</keyword>
+    <keyword>vapor pressure</keyword>
+    <keyword>watersheds</keyword>
+    <keyword>weather</keyword>
+    <keyword>wind</keyword>
+    <keyword>wind direction</keyword>
+    <keyword>wind speed</keyword>
+    <keyword>winter</keyword>
+    <keywordThesaurus>LTER Keywords</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+    <keyword>NTL LTER</keyword>
+    <keyword>NTL related project</keyword>
+    <keyword>North Temperate Lakes - LTER</keyword>
+    <keyword>dewpoint</keyword>
+    <keyword>dry bulb</keyword>
+    <keyword>meteorological data</keyword>
+    <keyword>wet bulb</keyword>
+    <keywordThesaurus>NTL Keywords</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <section>
+      <title>Data Policies</title>
+      <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions: The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</para> <para>The Data User must realize that the data may be misinterpreted if taken out of context. We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</para> <para>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: name of data set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for data set, Center for Limnology, University of Wisconsin-Madison. The data set name and contact person for each data set can be found in the metadata header of the online data sets.</para> <para>The Data User must send two reprints of any publications resulting from use of the data to the address above. We would like to include such manuscripts in our LTER publications list.</para> <para>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para><para>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets. Data users should be aware that we periodically update data sets.</para> <para>Our goal is to release all long term data associated with core research areas within 2 years of collection. These data and accompanying metadata will be available for download from the NTL-LTER web site.</para> <para>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.
+</para>
+    </section>
+  </intellectualRights>
+  <distribution>
+    <online>
+      <url function="information">http://lter.limnology.wisc.edu/node/33029</url>
+    </online>
+  </distribution>
+  <coverage>
+    <geographicCoverage>
+      <geographicDescription>Madison, WI, USA
+</geographicDescription>
+      <boundingCoordinates>
+        <westBoundingCoordinate>-89.483</westBoundingCoordinate>
+        <eastBoundingCoordinate>-89.368</eastBoundingCoordinate>
+        <northBoundingCoordinate>43.148</northBoundingCoordinate>
+        <southBoundingCoordinate>43.074</southBoundingCoordinate>
+      </boundingCoordinates>
+    </geographicCoverage>
+    <temporalCoverage>
+      <rangeOfDates>
+        <beginDate>
+          <calendarDate>1884-01-01</calendarDate>
+        </beginDate>
+        <endDate>
+          <calendarDate>2010-04-30</calendarDate>
+        </endDate>
+      </rangeOfDates>
+    </temporalCoverage>
+  </coverage>
+  <contact>
+    <positionName>NTL LTER Information Manager</positionName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <publisher>
+    <organizationName>North Temperate Lakes LTER</organizationName>
+    <address>
+      <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </publisher>
+  <pubPlace>North Temperate Lakes</pubPlace>
+  <methods>
+    <methodStep>
+      <description>
+        <section>
+          <para>Raw data (in English units) were assembled by Douglas Clark - Wisconsin State Climatologist. Data were converted to metric units and adjusted for temporal biases by Dale M. Robertson. For adjustments applied to various parameters see Robertson, 1989 Ph.D. Thesis UW-Madison. Adjusted data represent the BEST estimated daily data and may be raw data. Data collected at Washburn observatory, 8-1-1883 to 9-30-1904. Data collected at North Hall, 10-1-1904 to 12-31-1947 Data collected at Truax Field (Admin BLDG), 1-1-1948 to 12-31-1959. Data collected at Truax Field (Center of Field), 1-1-1960 to Present. Much of the data after 1990 were obtained in digital form from Ed Hopkins, UW-Meteorology. Data starting in 2002-05 were obtained from Sullivan at http://www.weather.gov/climate/index.php?wfo=mkx ,then go to CF6 and download monthly data to Madison_sullivan_conversion. Since Robertson (1989) adjusted all historical data to that collected from 1884-1989; no adjustments were applied to the recent data except for (1) wind and (2) estimated vapor pressure:
+(1) Wind after January 1997, and only wind from the southwest after November 2007, was extended by Dale M. Robertson and Yvonne Hsieh.In 1996, a discontinuity in the wind record was caused by change in observational techniques and sensor locations (Mckee et al. 2000). To address the non-climatic changes in wind speed, data from MSN were carefully compared with those collected from the tower of the Atmospheric and Oceanic Science Building at the University of Wisconsin-Madison, see http://ginsea.aos.wisc.edu/labs/mendota/index.htm. Hourly data from both sites (UMSN,hourly and UAOS,hourly) during 2003&#226;&#128;&#147;2010 were used to form a 4&#195;&#151;12 (four components of wind direction &#195;&#151; 12 months) matrix (K4,12) of wind correction factors, yielding UAOS,daily= Ki,j&#195;&#151;UMSN,daily. The comparison results indicated that the MSN weather station reported a higher magnitude in winds out of the east by 5% and lower magnitude in winds out of the west and south by 30% and 10%. The adjusted wind data (=Ki,j&#195;&#151;UMSN,daily) were therefore employed and used in the model simulation. After adjustments, there was a decrease in wind velocities starting shortly before 1996. Overall the adjusted wind data had a decline in wind velocities of 16% from 1988&#226;&#128;&#147;93 to 1994&#226;&#128;&#147;2009) compared to a 7% decline at a nearby weather station with no known observational changes (St. Charles, Illinois; 150 km southeast of Lake Mendota).&#194;&#160;
+(2)&#194;&#160;Estimated vapor pressure was updated (after April 2002) by using the equation from DYRESM for estimation of vapor pressure (a function of both air temperature and dew point temperature); where a=7.5, b=237.3, and c=.7858.&#194;&#160;
+</para>
+        </section>
+      </description>
+    </methodStep>
+  </methods>
+  <dataTable>
+    <entityName>additional_madison_meteorological_data.csv</entityName>
+    <entityDescription>These data are in addition to "Madison Wisconsin Daily Meteorological Data 1869-current." Additional variables added  include: daily cloud cover, wind, solar radiation, vapor pressure, dew point temperature, and total atmospheric pressure for Madison, Wisconsin.  In addition, the adjustment factors which were applied on a given date to calculate the adjusted parameters in "Madison Wisconsin Daily Meteorological Data 1869-current" are also included in these data. Raw data, in English units, were assembled by Douglas Clark - Wisconsin State Climatologist. Data were converted to metric units and adjusted for temporal biases by Dale M. Robertson. For adjustments applied to various parameters see Robertson, 1989 Ph.D. Thesis UW-Madison. Adjusted data represent the BEST estimated daily data and may be raw data. Data collected at Washburn observatory, 8-1-1883 to 9-30-1904. Data collected at North Hall, 10-1-1904 to 12-31-1947 Data collected at Truax Field (Admin BLDG), 1-1-1948 to 12-31-1959. Data collected at Truax Field, center of field, 1-1-1960 to Present. Much of the data after 1990 were obtained in digital form from Ed Hopkins, UW-Meteorology. Data starting in 2002-2005 were obtained from Sullivan at http://www.weather.gov/climate/index.php?wfo=mkx%20 ,then go to CF6 and download monthly data to Madison_sullivan_conversion. Since Robertson (1989) adjusted all historical data to that collected prior to 1989; no adjustments were applied to the recent data except for wind and estimated vapor pressure. Wind after January 1997, and only wind from the southwest after November 2007, was extended by Dale M. Robertson and Yvonne Hsieh, see methods. Estimated vapor pressure after April 2002 was updated by Yvonne Hsieh, see methods.</entityDescription>
+    <physical>
+      <objectName>additional_madison_meteorological_data.csv</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>1</numHeaderLines>
+          <recordDelimiter>\r\n</recordDelimiter>
+          <attributeOrientation>column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+            <quoteCharacter>"</quoteCharacter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+      <distribution>
+        <online>
+          <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-ntl.282&amp;urlTail=ntl/data/33029_1_v1.csv</url>
+        </online>
+      </distribution>
+    </physical>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1884-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010-04-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <attributeList>
+      <attribute>
+        <attributeName>sample_date</attributeName>
+        <attributeLabel>sample date</attributeLabel>
+        <attributeDefinition>sample date</attributeDefinition>
+        <storageType>date</storageType>
+        <measurementScale>
+          <dateTime>
+            <formatString>YYYY-MM-DD</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>year4</attributeName>
+        <attributeLabel>year</attributeLabel>
+        <attributeDefinition>year</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>nominalYear</standardUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>month</attributeName>
+        <attributeLabel>month of the year</attributeLabel>
+        <attributeDefinition>month of the year</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>nominalMonth</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>daynum</attributeName>
+        <attributeLabel>day of year</attributeLabel>
+        <attributeDefinition>day of year</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>nominalDay</standardUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">1</minimum>
+                <maximum exclusive="false">366</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>cldc_adj</attributeName>
+        <attributeLabel>adjusted cloud cover</attributeLabel>
+        <attributeDefinition>the cloud cover observed on a given date adjusted for bias</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>percent</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sky_adj</attributeName>
+        <attributeLabel>adjusted clear sky</attributeLabel>
+        <attributeDefinition>the percent of sky that is clear (without clouds) on a given date adjusted for bias</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>percent</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>cldc_raw</attributeName>
+        <attributeLabel>raw cloud cover</attributeLabel>
+        <attributeDefinition>the raw observation of the percent of sky with clouds on a given sample date</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>percent</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sky_raw</attributeName>
+        <attributeLabel>raw clear sky</attributeLabel>
+        <attributeDefinition>the raw observation of the percent of the sky which is clear (without clouds) on a given date</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>percent</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>wind_adj</attributeName>
+        <attributeLabel>adjusted wind speed</attributeLabel>
+        <attributeDefinition>wind speed on a given date with correction factor applied</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>meterPerSecond</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>wind_raw</attributeName>
+        <attributeLabel>raw wind speed</attributeLabel>
+        <attributeDefinition>observed wind speed on a given date</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>meterPerSecond</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>rad_adj1</attributeName>
+        <attributeLabel>adjusted daily solar radiation</attributeLabel>
+        <attributeDefinition>the solar radiation observed on a given date adjusted for bias, measured in wattsPerMeterSquared</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>wattsPerMeterSquared</customUnit>
+            </unit>
+            <precision>0.1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>rad_adj2</attributeName>
+        <attributeLabel>adjusted daily solar radiation</attributeLabel>
+        <attributeDefinition>the solar radiation observed on a given date adjusted for bias, measured in kiloJoules</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>kiloJoule</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>rad_raw1</attributeName>
+        <attributeLabel>raw daily solar radiation</attributeLabel>
+        <attributeDefinition>the solar radiation observed on a given date, measured in wattsPerMeterSquared</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>wattsPerMeterSquared</customUnit>
+            </unit>
+            <precision>0.1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>rad_raw2</attributeName>
+        <attributeLabel>raw daily solar radiation</attributeLabel>
+        <attributeDefinition>the solar radiation observed on a given date, measured in kiloJoules</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>kiloJoule</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>rad_est</attributeName>
+        <attributeLabel>estimated daily solar radiation</attributeLabel>
+        <attributeDefinition>the solar radiation estimated for a given date. estimation was made due to missing data from 1975-1990, for which estimation was made using NREL data. for missing data after 1990 estimation was made using data from St. Charles, Illinois.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>kiloJoule</customUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>clear_rad_est</attributeName>
+        <attributeLabel>estimated clear sky daily solar radiation</attributeLabel>
+        <attributeDefinition>the solar radiation for a given date estimated assuming clear sky conditions. the expected solar radiation on a given date if 0 percent cloud cover is recorded.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>kiloJoule</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>vaporp_est</attributeName>
+        <attributeLabel>estimated vapor pressure</attributeLabel>
+        <attributeDefinition> the vapor pressure on a given date calculated by use of empirical equations </attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milliBars</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>vaporp_raw</attributeName>
+        <attributeLabel>raw vapor pressure</attributeLabel>
+        <attributeDefinition>the raw vapor pressure measured directly on a given date</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milliBars</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>dewpoint_est</attributeName>
+        <attributeLabel>estimated dew point temperature</attributeLabel>
+        <attributeDefinition>The dew point temperature on a given date estimated by use of mathematical equations.</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>celcius</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>dewpoint_raw</attributeName>
+        <attributeLabel>raw dew point temperature</attributeLabel>
+        <attributeDefinition>the dew point temperature on a given date measured directly</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>celcius</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>pressure</attributeName>
+        <attributeLabel>total atmospheric pressure</attributeLabel>
+        <attributeDefinition>the total atmospheric pressure on a given date measured directly at the NCDC, NOAA station location at the Madison Dane County Regional Airport (Truax)</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milliBars</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tmax_factor</attributeName>
+        <attributeLabel>maximum daily air temperature adjustment factor</attributeLabel>
+        <attributeDefinition>the adjustment factor used on a given date to compute the adjusted maximum daily air temperature, max_air_temp_adjusted</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>the adjustment factor used on a given date to compute the adjusted maximum daily air temperature, max_air_temp_adjusted</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tmin_factor</attributeName>
+        <attributeLabel>minimum daily air temperature adjustment factor</attributeLabel>
+        <attributeDefinition>the adjustment factor used on a given date to compute the adjusted minimum daily air temperature, min_air_temp_adjusted</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>the adjustment factor used on a given date to compute the adjusted minimum daily air temperature, min_air_temp_adjusted</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>tavg_factor</attributeName>
+        <attributeLabel>average daily air temperature adjustment factor</attributeLabel>
+        <attributeDefinition>the adjustment factor used on a given date to compute the adjusted average daily air temperature, ave_air_temp_adjusted</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>the adjustment factor used on a given date to compute the adjusted average daily air temperature, ave_air_temp_adjusted</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>wind_factor</attributeName>
+        <attributeLabel>wind speed adjustment factor</attributeLabel>
+        <attributeDefinition>the adjustment factor used on a given date to compute the adjusted wind speed, wind_adj</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>the adjustment factor used on a given date to compute the adjusted wind speed, wind_adj</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>rel_hum</attributeName>
+        <attributeLabel>average relative humidity</attributeLabel>
+        <attributeDefinition>the average relative humidity on a given date</attributeDefinition>
+        <storageType>float</storageType>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>percent</customUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+    </attributeList>
+  </dataTable>
+</dataset>
+<additionalMetadata>
+  <metadata>
+    <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+<ns2:unit abbreviation="" id="nominalMonth" name="nominalMonth" unitType=""><ns2:description /></ns2:unit>
+
+<ns2:unit abbreviation="%" constantToSI="0" id="percent" multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless"><ns2:description>ratio of two quantities as percent composition (1:100)</ns2:description></ns2:unit>
+<ns2:unit abbreviation="m/s" id="meterPerSecond" name="meterPerSecond" unitType="speed"><ns2:description>meters per second</ns2:description></ns2:unit>
+
+<ns2:unit abbreviation="W/m2" id="wattsPerMeterSquared" name="wattsPerMeterSquared" unitType=""><ns2:description>watts Per Meter Squared</ns2:description></ns2:unit>
+
+<ns2:unit id="kiloJoule" />
+<ns2:unit id="milliBars" />
+<ns2:unit abbreviation="" id="celcius" name="celcius" unitType=""><ns2:description /></ns2:unit>
+
+    </ns2:unitList>
+  </metadata>
+</additionalMetadata>
+</eml:eml>

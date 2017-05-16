@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="080.0"
+            type="historical">
+   <timeStamp value="2015-02-12 13:49:28 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NMC Global Tropospheric Analyses, daily from November 1972 to September 1974</title>
+   <summary>
+      <p>Flattery's analysis scheme, using second version of Hough coefficients.</p>
+      <p>
+         <a href="http://rda.ucar.edu/datasets/ds080.0/docs/more.summary.html">MORE</a>
+      </p>
+      <p>Unless you have a special interest in this dataset, DSS recommends that you
+              use one of our reanalysis datasets, such as <a href="http://rda.ucar.edu/datasets/ds090.0/">ds090.0</a>.  That's because those are
+              based on a more complete collection of observations, improved analysis methods,
+              and are provided in a common modern format (GRIB).
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Meteorological Center"
+                contact="Thomas Flattery"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/GFDL &gt; NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce"
+                contact="O'Neil"
+                citable="no"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1980-01-11</publicationDate>
+   <contentMetadata>
+      <temporal start="1972-11" end="1974-09" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="400" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="150" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="70" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="37"
+               startLon="0E"
+               startLat="90N"
+               endLon="357.5E"
+               endLat="0N"
+               xRes="2.5"
+               yRes="2.5"/>
+         <grid definition="latLon"
+               numX="144"
+               numY="37"
+               startLon="0E"
+               startLat="0S"
+               endLon="357.5E"
+               endLat="90S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

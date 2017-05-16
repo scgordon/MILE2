@@ -1,0 +1,782 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cwt.1024.13" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=CWT,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>knb-lter-cwt.1024.1.1</alternateIdentifier>
+    <title>Nitrogen transformation along an elevational and vegetative gradient from the Coweeta Hydrologic Laboratory from 1991 to 1995</title>
+    <creator id="CWT-LTER">
+      <organizationName>Coweeta Long Term Ecological Research Program</organizationName>
+      <address>
+        <deliveryPoint>Daniel B. Warnell School of Forestry and Natural Resources</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>cwtim@uga.edu</electronicMailAddress>
+      <onlineUrl>http://coweeta.uga.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Jennifer</givenName>
+        <givenName>D.</givenName>
+        <surName>Knoepp</surName>
+      </individualName>
+      <organizationName>USDA Forest Service</organizationName>
+      <address>
+        <deliveryPoint>USDA Forest Service</deliveryPoint>
+        <deliveryPoint>3160 Coweeta Lab Road</deliveryPoint>
+        <city>Otto</city>
+        <administrativeArea>NC</administrativeArea>
+        <postalCode>28763</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>jknoepp@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.srs.fs.usda.gov/coweeta/staff/knoepp/</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <references>CWT-LTER</references>
+    </metadataProvider>
+    <pubDate>2003</pubDate>
+    <abstract>
+      <para>Examination of N-transformation along elevation and vegetation gradient. These measurements are analysis of plant nitrogen availability and overall site productivity.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Coweeta Hydrologic Laboratory</keyword>
+      <keyword keywordType="theme">Coweeta LTER</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Coweeta Hydrologic Laboratory</keyword>
+      <keyword keywordType="place">North Carolina</keyword>
+      <keyword keywordType="place">USA</keyword>
+      <keyword keywordType="theme">CWT</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keywordThesaurus>GCE-LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">biomass</keyword>
+      <keyword keywordType="theme">fine roots</keyword>
+      <keyword keywordType="theme">gradient</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Primary Production</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>publicly available</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://coweeta.uga.edu/dbpublic/dataset_details.asp?accession=1024</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Overall bounding box describing the geographic region within the Coweeta LTER study domain represented in data set 1024, based on the maximum geographic extents of all site polygons referenced in the data set</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-83.464543</westBoundingCoordinate>
+          <eastBoundingCoordinate>-83.431865</eastBoundingCoordinate>
+          <northBoundingCoordinate>35.051388</northBoundingCoordinate>
+          <southBoundingCoordinate>35.029138</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1993-07-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1994-07-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Coweeta LTER Information Manager</positionName>
+      <address>
+        <deliveryPoint>Department of Anthropology</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602-1619</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>cwtim@uga.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <references>CWT-LTER</references>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Net change study</title>
+            <para>Positive and negative net changes in fine root mass between sampling periods were           
+independently totaled over the duration of the study, i.e. one year. The data is reported as
+mean +/- 1 standard error. The sampling frequency was approximately bimonthly.</para>
+          </section>
+        </description>
+        <instrumentation>Soil cores, the windows of minirhizotron boxes</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>1993-07-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>1994-07-01</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CWT Study Site WS18 -- Watershed 18, North Carolina, USA.  Grady Branch Watershed. Control watershed undisturbed since 1927. Records begin  3 July 1936. 120 degree V-notch weir.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.436027</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.431865</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.051388</northBoundingCoordinate>
+                <southBoundingCoordinate>35.045522</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CWT Study Site WS27 -- Watershed 27, North Carolina, USA.  Hard Luck Creek Watershed. Control watershed with records beginning 2 Nov. 1946. The weir is a 120 degree V notch. Partially defoliated by fall cankerworm infestations from 1972 to 1979.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.464543</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.458009</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.038446</northBoundingCoordinate>
+                <southBoundingCoordinate>35.029138</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Annual fine root appearance and disappearance rate</title>
+            <para>Positive and negative net changes in fine root mass between sampling periods were           
+independently totaled over the duration of the study, i.e. one year. The data is reported as
+mean +/- 1 standard error. The sampling frequency was approximately bimonthly.</para>
+            <para>not specified</para>
+          </section>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <referencedEntityId>1024.kml</referencedEntityId>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Coweeta LTER Program V</title>
+      <personnel>
+        <individualName>
+          <givenName>Ted</givenName>
+          <givenName>L</givenName>
+          <surName>Gragson</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>James</givenName>
+          <surName>Vose</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Brian</givenName>
+          <surName>Kloeppel</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>James</givenName>
+          <givenName>Barrie</givenName>
+          <surName>Collins</surName>
+        </individualName>
+        <role>informationManager</role>
+      </personnel>
+      <abstract>
+        <para>The Coweeta LTER Research Program has evolved since 1980 from a site-based to a site- and region-based project examining the effects of disturbance and environmental gradients on biogeochemical cycling, and the underlying watershed ecosystem processes that regulate and respond to those cycles. The current interdisciplinary research integrates ecological and socioeconomic components across 54,000 km2 of the southern Appalachian Mountains, a biogeophysical and socioeconomic region in which evolutionary and historical processes converge (Whittaker 1956, Markusen 1987, Barnes 1991, Kretzschmar et al. 1993, Bailey 1996). Our research objective in 2002-2008 is to advance scientific understanding of the spatial, temporal, and decision-making components of land use and land-use change in the southern Appalachian Mountains over the last 200 years, and forecast patterns into the future 30 years. Our guiding hypothesis is that the frequency, intensity, and extent of land use represents human decision-making in response to socioeconomic and biogeophysical conditions with consequences that cascade through ecosystems.</para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under grant number OCE-9982133. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>1024</entityName>
+      <entityDescription>Main data table for data set 1024</entityDescription>
+      <physical>
+        <objectName>1024_1_0.TXT</objectName>
+        <size unit="rows" />
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cwt/1024/13/021bbc7ee20b71134d53e20206bd6feb</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=CWT,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Data file post-processing in the CWT-LTER Information Management Office</para>
+          </description>
+          <subStep>
+            <description>
+              <para>03/05/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: 5 rows imported from ASCII data file '1024.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: 5 rows imported from ASCII data file '1024.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: 5 rows imported from ASCII data file '1024.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: 5 rows imported from ASCII data file '1024.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: 5 rows imported from ASCII data file '1024.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated 2 metadata fields in the Dataset, Status sections ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated 2 metadata fields in the Dataset, Status sections ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated 2 metadata fields in the Dataset, Status sections ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated 2 metadata fields in the Dataset, Status sections ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: updated 2 metadata fields in the Dataset, Status sections ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: units of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; descriptions of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; variable types of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: units of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; descriptions of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; variable types of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: units of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; descriptions of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; variable types of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: units of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; descriptions of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; variable types of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/05/2013: units of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; descriptions of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited; variable types of columns SITE, MEAN_APP, SE_APP, MEAN_DIS and SE_DIS edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: SITE renamed to Site_number; MEAN_APP renamed to Mean_annual_fine_root_appearance; SE_APP renamed to Standard_error_mean_annual_appearance; MEAN_DIS renamed to Mean_annual_fine_root_disappearance; SE_DIS renamed to Standard_error_mean_annual_disappearance; units of column Site_number edited; description of column Site_number edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: SITE renamed to Site_number; MEAN_APP renamed to Mean_annual_fine_root_appearance; SE_APP renamed to Standard_error_mean_annual_appearance; MEAN_DIS renamed to Mean_annual_fine_root_disappearance; SE_DIS renamed to Standard_error_mean_annual_disappearance; units of column Site_number edited; description of column Site_number edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: SITE renamed to Site_number; MEAN_APP renamed to Mean_annual_fine_root_appearance; SE_APP renamed to Standard_error_mean_annual_appearance; MEAN_DIS renamed to Mean_annual_fine_root_disappearance; SE_DIS renamed to Standard_error_mean_annual_disappearance; units of column Site_number edited; description of column Site_number edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: SITE renamed to Site_number; MEAN_APP renamed to Mean_annual_fine_root_appearance; SE_APP renamed to Standard_error_mean_annual_appearance; MEAN_DIS renamed to Mean_annual_fine_root_disappearance; SE_DIS renamed to Standard_error_mean_annual_disappearance; units of column Site_number edited; description of column Site_number edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/14/2013: SITE renamed to Site_number; MEAN_APP renamed to Mean_annual_fine_root_appearance; SE_APP renamed to Standard_error_mean_annual_appearance; MEAN_DIS renamed to Mean_annual_fine_root_disappearance; SE_DIS renamed to Standard_error_mean_annual_disappearance; units of column Site_number edited; description of column Site_number edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/14/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: Name of column Site_number changed to Site;Units of column Site changed from 'None' to 'none';Data Type of column Mean_annual_fine_root_appearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_appearance changed from 'd' to 'f'; Data Type of column Mean_annual_fine_root_disappearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_disappearance changed from 'd' to 'f';Variable Type of column Site changed from 'nominal' to 'code';Numeric Type of column Mean_annual_fine_root_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Mean_annual_fine_root_disappearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_disappearance changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: Name of column Site_number changed to Site;Units of column Site changed from 'None' to 'none';Data Type of column Mean_annual_fine_root_appearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_appearance changed from 'd' to 'f'; Data Type of column Mean_annual_fine_root_disappearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_disappearance changed from 'd' to 'f';Variable Type of column Site changed from 'nominal' to 'code';Numeric Type of column Mean_annual_fine_root_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Mean_annual_fine_root_disappearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_disappearance changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: Name of column Site_number changed to Site;Units of column Site changed from 'None' to 'none';Data Type of column Mean_annual_fine_root_appearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_appearance changed from 'd' to 'f'; Data Type of column Mean_annual_fine_root_disappearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_disappearance changed from 'd' to 'f';Variable Type of column Site changed from 'nominal' to 'code';Numeric Type of column Mean_annual_fine_root_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Mean_annual_fine_root_disappearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_disappearance changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: Name of column Site_number changed to Site;Units of column Site changed from 'None' to 'none';Data Type of column Mean_annual_fine_root_appearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_appearance changed from 'd' to 'f'; Data Type of column Mean_annual_fine_root_disappearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_disappearance changed from 'd' to 'f';Variable Type of column Site changed from 'nominal' to 'code';Numeric Type of column Mean_annual_fine_root_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Mean_annual_fine_root_disappearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_disappearance changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: Name of column Site_number changed to Site;Units of column Site changed from 'None' to 'none';Data Type of column Mean_annual_fine_root_appearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_appearance changed from 'd' to 'f'; Data Type of column Mean_annual_fine_root_disappearance changed from 'd' to 'f'; Data Type of column Standard_error_mean_annual_disappearance changed from 'd' to 'f';Variable Type of column Site changed from 'nominal' to 'code';Numeric Type of column Mean_annual_fine_root_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_appearance changed from 'discrete' to 'continuous'; Numeric Type of column Mean_annual_fine_root_disappearance changed from 'discrete' to 'continuous'; Numeric Type of column Standard_error_mean_annual_disappearance changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/27/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+        </methodStep>
+        <qualityControl>
+          <description>
+            <para>Quality control analysis was performed using the GCE Data Toolbox for MATLAB software. Column data types are validated upon importing the table into MATLAB, and qualifier flags are automatically generated for data values based on QA/QC criteria for each data column pre-defined in metadata templates (e.g. value range checks, sanity checks, pattern checks). Qualifier flags are also assigned to values that are imputed or derived, revised, or otherwise differ from values in the original data submission. A column of coded qualifier flags is generated and included in the data table if flags are assigned to any value in a data column.</para>
+          </description>
+        </qualityControl>
+      </methods>
+      <attributeList>
+        <attribute id="att.1">
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Site number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>118</code>
+                    <definition>Terrestrial Gradient Site 1 - in Coweeta Watershed 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>218</code>
+                    <definition>Terrestrial Gradient Site 2 - in Coweeta Watershed 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>318</code>
+                    <definition>Terrestrial Gradient Site 3 - in Coweeta Watershed 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>427</code>
+                    <definition>Terrestrial Gradient Site 4 - in Coweeta Watershed 27</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>527</code>
+                    <definition>Terrestrial Gradient Site 5 - in Coweeta Watershed 27</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.2">
+          <attributeName>Mean_annual_fine_root_appearance</attributeName>
+          <attributeDefinition>Mean annual fine root appearance; g/m^2/yr</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerMeterSquaredPerYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.3">
+          <attributeName>Standard_error_mean_annual_appearance</attributeName>
+          <attributeDefinition>Standard Error of mean annual appearance; g/m^2/yr</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerMeterSquaredPerYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.4">
+          <attributeName>Mean_annual_fine_root_disappearance</attributeName>
+          <attributeDefinition>Mean annual fine root disappearance; g/m^2/yr</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerMeterSquaredPerYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.5">
+          <attributeName>Standard_error_mean_annual_disappearance</attributeName>
+          <attributeDefinition>Standard Error of mean annual disappearance; g/m^2/yr</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerMeterSquaredPerYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="1024.kml">
+      <entityName>1024.kml</entityName>
+      <entityDescription>Google Earth Keyhole Markup Language file describing the geographic locations sampled in data set knb-lter-cwt.1024.13</entityDescription>
+      <physical>
+        <objectName>1024.kml</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.google-earth.kml+xml</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cwt/1024/13/242ca25d5761e9009357fbbb35e3b93a</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=CWT,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>KML</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

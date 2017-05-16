@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Alan Rea</origin>
+            <origin>Kenneth D. Skinner</origin>
+            <pubdate>2009</pubdate>
+            <title>ArcHydro global datasets for Idaho StreamStats</title>
+            <geoform>vector digital data</geoform>
+            <onlink>http://water.usgs.gov/lookup/getspatial?ds412_archydroglobal</onlink>
+            <lworkcit>
+               <citeinfo>
+                  <origin>Alan Rea</origin>
+                  <origin>Kenneth D. Skinner</origin>
+                  <pubdate>2009</pubdate>
+                  <title>Estimated perennial streams of Idaho and related geospatial datasets</title>
+                  <geoform>vector digital data</geoform>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Data Series</sername>
+                     <issue>412</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <pubplace>Reston, VA</pubplace>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+                  <onlink>http://pubs.usgs.gov/ds/412/</onlink>
+               </citeinfo>
+            </lworkcit>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This dataset consists of a personal
+geodatabase containing several vector datasets. This database contains
+the information needed to link the HUCs together so a watershed may be
+delineated that spans more than one 8-digit HUC. These datasets may be
+used with the ArcHydro Tools, developed by ESRI in partnership with the
+U.S. Geological Survey, StreamStats Development Team. The datasets,
+together with the ArcHydro Tools and the ArcHydro 8-digit HUC datasets
+for an area of interest, allow users to delineate watersheds and compute
+several watershed characteristics.</abstract>
+         <purpose>These datasets were produced to
+support the Idaho StreamStats application, as well as to develop a model
+of perennial streams in Idaho.</purpose>
+         <supplinf>The personal geodatabase contains the following feature classes: 
+
+huc_net_Junctions      Default junction feature class for geometric network. Empty of features because all needed points are in Point3D.
+HUCLongestFlowPath     Precomputed longest flow path for HUC.
+hucpoly                Polygon feature class containing one polygon for each local huc-based workspace. Serves as a spatial index to huc datasets.
+Point3D                3D points used to create junctions in the global geometric network.
+Streams3D              3D streams used in geometric network that connects hucpoly polygons.
+
+In addition, the geodatabase contains a 3D geometric network composed of
+Streams3D, Point3D, and huc_net_Junctions. The geodatabase also contains
+the HUCHasJunction relationship class, which relates the hucpoly
+features to the Point3D features via the JunctionID. HucPeakFlowRegions
+and HucLowFlowRegions are tables containing region area breakdowns for
+each hucpoly for the peak flow and low flow regions, respectively. The
+HYDROIDTABLE and LAYERKEYTABLE are used by the ArcHydro Tools to track
+and assign HydroIDs. 
+
+To use these data with the ArcHydro Tools, users also need to download
+the ds412_StatewideLayers.zip file, plus the zip files for any ArcHydro
+8-digit HUC datasets that overlap their area of interest. The ArcHydro
+8-digit HUC datasets needed may be determined by overlaying the user's
+area of interest with the "hucpoly" polygon feature class in this global
+geodatabase. The ArcHydro 8-digit HUC datasets are needed only for the
+area within which it is desired to delienate watersheds. Upstream
+ArcHydro 8-digit HUC datasets are not needed. A new folder should be
+established and all zip files should be extracted into this folder. Use
+of this procedure will ensure that the datasets are in their proper
+locations relative to one another. 
+
+A fresh ArcMap document (identified by the ".MXD" file extension) should
+be created by starting ArcMap, loading the "Layers" feature dataset
+(including all its component feature classes) from the global.mdb file,
+and saving the document with a new file name. The ArcHydro Tools use
+configuration information stored in Extensible Markup Language (XML) to
+define basin characteristics and other configuration options. XML code
+for the Idaho StreamStats configuration has been provided to ESRI and
+incorporated into versions of the ArcHydro Tools released after
+February 1, 2009. The ArcHydro Tools ApUtilities-&gt;Additional
+Utilities-&gt;Configure Function Parameters tool may be used to load the
+configuration for StreamStats, using the configuration named
+"Idaho_10m". This will load the XML configuration designed to work with
+these data. The Local Point Delineation or Global Point Delineation
+tools from the ArcHydro Tools may be used to delineate watersheds. The
+Compute Local Parameters or Compute Global Parameters menu options may
+then be used to compute watershed characteristics. For further
+explanation of the functions of the above datasets, and for
+instructions on using the tools, see the ArcHydro Tools
+documentation.</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>2009</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>
+-118.624226</westbc>
+            <eastbc>
+-110.203323</eastbc>
+            <northbc>
+49.154097</northbc>
+            <southbc>
+41.078781</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>inlandWaters</themekey>
+            <themekey>streamflow statistics</themekey>
+            <themekey>streamstats</themekey>
+            <themekey>forest</themekey>
+            <themekey>land cover</themekey>
+            <themekey>slope</themekey>
+            <themekey>elevation</themekey>
+            <themekey>aspect</themekey>
+            <themekey>precipitation</themekey>
+         </theme>
+         <place>
+            <placekt>GCMD Location Keywords</placekt>
+            <placekey>NORTH AMERICA</placekey>
+            <placekey>UNITED STATES</placekey>
+            <placekey>UNITED STATES OF AMERICA</placekey>
+            <placekey>Idaho ID</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>These data are designed to be used with the ArcHydro Tools, 1.3 Beta version 3 June, 2008 or newer, with ArcGIS 9.2 or newer.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>455 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;amp;subject=GIS+Dataset+ds412_archydroglobal</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.4.1420</native>
+   </idinfo>
+   <dataqual>
+      <logic>The data were less carefully processed and
+checked in the areas extending outside of Idaho and the eastern Snake
+River Plain. The available data were used for these areas without much
+additional checking or quality control.</logic>
+      <complete>Complete for
+all of Idaho. Extends beyond Idaho, usually encompassing full 8-digit
+HUCs that are wholly or partially in Idaho. Data are cut off at the
+border with Canada. Results for watersheds extending into Canada are not
+reliable.</complete>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Alan Rea</origin>
+                  <origin>Kenneth D. Skinner</origin>
+                  <pubdate>2009</pubdate>
+                  <title>HydroDEM</title>
+                  <geoform>raster digital data</geoform>
+                  <lworkcit>
+                     <citeinfo>
+                        <origin>Alan Rea</origin>
+                        <origin>Kenneth D. Skinner</origin>
+                        <pubdate>2009</pubdate>
+                        <title>Estimated perennial streams of Idaho and related geospatial datasets</title>
+                        <geoform>raster and vector digital data</geoform>
+                        <serinfo>
+                           <sername>U.S. Geological Survey Data Series</sername>
+                           <issue>412</issue>
+                        </serinfo>
+                        <pubinfo>
+                           <pubplace>Reston, VA</pubplace>
+                           <publish>U.S. Geological Survey</publish>
+                        </pubinfo>
+                        <onlink>http://pubs.usgs.gov/ds/412/</onlink>
+                     </citeinfo>
+                  </lworkcit>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>disc</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2008</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>HydroDEM</srccitea>
+            <srccontr>flowdirection grid and hydrologic derivatives</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>Global datasets were produced using procedures described in ArcHydro Tools documentation.</procdesc>
+            <srcused>HydroDEM</srcused>
+            <procdate>2008</procdate>
+            <srcprod>ArcHydroGlobal</srcprod>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>91</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <mapprojn>Transverse Mercator</mapprojn>
+               <transmer>
+                  <sfctrmer>0.999600</sfctrmer>
+                  <longcm>-114.000000</longcm>
+                  <latprjo>42.000000</latprjo>
+                  <feast>2500000.000000</feast>
+                  <fnorth>1200000.000000</fnorth>
+               </transmer>
+            </mapproj>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>0.000100</absres>
+                  <ordres>0.000100</ordres>
+               </coordrep>
+               <plandu>meters</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>Geodetic Reference System 80</ellips>
+            <semiaxis>6378137.000000</semiaxis>
+            <denflat>298.257222</denflat>
+         </geodetic>
+      </horizsys>
+      <vertdef>
+         <altsys>
+            <altdatum>North American Vertical Datum of 1988</altdatum>
+            <altres>0.000100</altres>
+            <altunits>meters</altunits>
+            <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+         </altsys>
+      </vertdef>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>
+hucpoly</enttypl>
+            <enttypd>Spatial index to huc datasets</enttypd>
+            <enttypds>Idaho StreamStats</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>OBJECTID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape_Length</attrlabl>
+            <attrdef>Length of feature in internal units.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape_Area</attrlabl>
+            <attrdef>Area of feature in internal units squared.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HydroID</attrlabl>
+            <attrdef>Unique identifier within the ArcHydro database</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Positive integer numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>JunctionID</attrlabl>
+            <attrdef>HydroID of the junction the area drains to</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Positive integer numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Name</attrlabl>
+            <attrdef>HUC index, name of folder containing local ArcHydro data</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>8-digit HUC numbers</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DRNAREA</attrlabl>
+            <attrdef>Area that drains to a point on a stream, in square miles</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>RELIEF</attrlabl>
+            <attrdef>Maximum - minimum elevation, in feet for HUC</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ELEVMAX</attrlabl>
+            <attrdef>Maximum basin elevation in feet</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>MINBELEV</attrlabl>
+            <attrdef>Minimum basin elevation in feet</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ELEV</attrlabl>
+            <attrdef>Mean basin elevation in feet</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FOREST</attrlabl>
+            <attrdef>Percent of area covered by forest</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Nonnegative real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PRECIP</attrlabl>
+            <attrdef>Mean annual precipitation, in inches</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Nonnegative real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>BSLDEM10M</attrlabl>
+            <attrdef>Mean basin slope computed from 10 m DEM, in percent</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Nonnegative real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SLOP30_10M</attrlabl>
+            <attrdef>Percent of area having slope greater than or equal to 30 percent, computed from 10-m DEM</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Nonnegative real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NFSL30_10M</attrlabl>
+            <attrdef>Percent of area having North-facing (aspects less than 60 and greater than 300 degrees) slopes greater than or equal to 30 percent, computed from 10-m DEM</attrdef>
+            <attrdefs>ID StreamStats</attrdefs>
+            <attrdomv>
+               <udom>Nonnegative real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>
+HUCLongestFlowPath</enttypl>
+            <enttypd>Precomputed longest flow path for HUC</enttypd>
+            <enttypds>ESRI ArcHydro Tools</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>SHAPE</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>OBJECTID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>SHAPE_Length</attrlabl>
+            <attrdef>Length of feature in internal units.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HydroID</attrlabl>
+            <attrdef>Unique identifier in the Hydro database.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Positive integers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DrainID</attrlabl>
+            <attrdef>HydroID of the hucpoly associated to the longest flow path.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Positive integers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Slp</attrlabl>
+            <attrdef>Slope along the line.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Real numbers computed from the geometry.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Slp1085</attrlabl>
+            <attrdef>Slope along the line between the 10 percent point and 85 percent point.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Real numbers computed from the geometry.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ElevUP</attrlabl>
+            <attrdef>Elevation, in feet, of upstream end of line.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Real numbers computed from the geometry.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ElevDS</attrlabl>
+            <attrdef>Elevation, in feet, of downstream end of line.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Real numbers computed from the geometry.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Elev10</attrlabl>
+            <attrdef>Elevation, in feet, of point 10 percent up from the end of line.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Real numbers computed from the geometry.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Elev85</attrlabl>
+            <attrdef>Elevation, in feet, of point 85 percent up from the end of line.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Real numbers computed from the geometry.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Enabled</attrlabl>
+            <attrdef>Indicates whether the feature is enabled (True) or disabled (False) in the geometric network.  A feature that is disabled in the network acts as a barrier when the network is traced.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>1</edomv>
+                  <edomvd>Enabled</edomvd>
+                  <edomvds>ArcHydro Tools</edomvds>
+               </edom>
+               <edom>
+                  <edomv>0</edomv>
+                  <edomvd>Disabled</edomvd>
+                  <edomvds>ArcHydro Tools</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LengthDown</attrlabl>
+            <attrdef>Length from the start of the longest flow path feature to the downstream sink.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers computed from the geometry.</udom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>
+Point3D</enttypl>
+            <enttypd>3D points used to create junctions in the global geometric network.</enttypd>
+            <enttypds>ArcHydro Tools</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>OID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Point2DID</attrlabl>
+            <attrdef>HydroID of the 2D points used to generate the network.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Enabled</attrlabl>
+            <attrdef>Indicates whether the feature is enabled (True) or disabled (False) in the geometric network.  A feature that is disabled in the network acts as a barrier when the network is traced.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>1</edomv>
+                  <edomvd>Enabled</edomvd>
+                  <edomvds>ArcHydro Tools</edomvds>
+               </edom>
+               <edom>
+                  <edomv>0</edomv>
+                  <edomvd>Disabled</edomvd>
+                  <edomvds>ArcHydro Tools</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>
+Streams3D</enttypl>
+            <enttypd>3D streams used in geometric network that connects hucpoly polygons.</enttypd>
+            <enttypds>ArcHydro Tools</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>OID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape_Length</attrlabl>
+            <attrdef>Length of feature in internal units.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Line2DID</attrlabl>
+            <attrdef>HydroID of 2D lines used to create the 3D geometric network.</attrdef>
+            <attrdefs>ArcHydro Tools</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://water.usgs.gov/user_feedback_form.html </cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>Although these data have been used by the U.S.
+Geological Survey, U.S. Department of the Interior, no warranty
+expressed or implied is made by the U.S. Geological Survey as to the
+accuracy of the data. The act of distribution shall not constitute any
+such warranty, and no responsibility is assumed by the U.S. Geological
+Survey in the use of these data, software, or related materials. 
+
+The use of firm, trade, or brand names in this report is for
+identification purposes only and does not constitute endorsement by the
+U.S. Geological Survey. The names mentioned in this document may be
+trademarks or registered trademarks of their respective trademark
+owners.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>PGDB</formname>
+               <formvern>9.2</formvern>
+               <formspec>ESRI Personal Geodatabase</formspec>
+               <transize>16 MB</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/ds412/index.html</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. This dataset is provided by USGS as a public service.</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20080606</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+               <cntper>Ask USGS</cntper>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ds412_archydroglobal</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

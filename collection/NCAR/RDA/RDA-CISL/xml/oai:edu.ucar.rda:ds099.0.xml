@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="099.0"
+            type="primary">
+   <timeStamp value="2015-11-18 13:23:30 -0700"/>
+   <continuingUpdate value="yes" frequency="irregularly"/>
+   <title>NCEP Climate Forecast System Initial Conditions Full Ingest Data</title>
+   <summary>
+      <p>NCEP Climate Forecast System initial conditions, full ingest data.  These data include conventional and satellite observations, and some select gridded analysis products.  The satellite observations contains a subset of the level 1b or higher satellite data products used in the NCEP Global Data Assimilation System. These files can be used with the Weather Research Forecast (WRF) Data Assimilation (DA) system. However, they can be useful for a variety of applications, particularly where conventional data is scarce.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Rate</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Sea Ice &gt; Ice Extent</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Depth</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Land Temperature &gt; Skin Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Land Use/Land Cover &gt; Land Cover</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Tropopause</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Microwave &gt; Brightness Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Microwave &gt; Microwave Radiance</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Precipitable Water</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Water Vapor</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Chemistry/Oxygen Compounds &gt; Ozone</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Infrared Wavelengths &gt; Infrared Imagery</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Infrared Wavelengths &gt; Infrared Radiance</variable>
+   <contact>Doug Schuster</contact>
+   <platform vocabulary="GCMD">BALLOONS</platform>
+   <platform vocabulary="GCMD">GEOSTATIONARY SATELLITES</platform>
+   <platform vocabulary="GCMD">SATELLITES</platform>
+   <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+   <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">GROUND-BASED GPS STATIONS</platform>
+   <platform vocabulary="GCMD">GPS &gt; Global Positioning System Satellites</platform>
+   <supportsProject vocabulary="GCMD">WRF &gt; WRF (Weather Research and Forecasting) Modeling</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://nomads.ncdc.noaa.gov/data.php?name=access#cfs-init">CFS Initial Conditions available from NCEI, 1979 - March 2011</relatedResource>
+   <relatedResource url="http://nomads.ncdc.noaa.gov/modeldata/cfsv2_analysis_dumps/">CFS V2 initial conditions available from NCEI, April 2011 - Dec 2014</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/data_processing/data_dumping.doc/table_1.htm">Listing of NCEP BUFR datatypes</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/data_processing/bufrtab_tableb.htm">NCEP BUFR MNEMONICS</relatedResource>
+   <relatedResource url="http://www.nco.ncep.noaa.gov/sib/decoders/BUFRLIB/">NCEP BUFRLIB Software User Guide</relatedResource>
+   <relatedDataset ID="735.0"/>
+   <relatedDataset ID="351.0"/>
+   <relatedDataset ID="461.0"/>
+   <relatedDataset ID="337.0"/>
+   <relatedDataset ID="353.4"/>
+   <relatedDataset ID="464.0"/>
+   <relatedDataset ID="093.0"/>
+   <relatedDataset ID="094.0"/>
+   <publicationDate>2015-11-18</publicationDate>
+   <contentMetadata>
+      <temporal start="1978-12-31 00:00 +0000"
+                end="2014-12-31 23:59 +0000"
+                groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <format href="http://dss.ucar.edu/docs/formats/bufr/">WMO_BUFR</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="720"
+               numY="360"
+               startLon="0.25E"
+               startLat="89.75N"
+               endLon="359.75E"
+               endLat="89.75S"
+               xRes="0.5"
+               yRes="0.5"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="1152"
+               numY="576"
+               startLon="0E"
+               startLat="89.761N"
+               endLon="359.688E"
+               endLat="89.761S"
+               xRes="0.312"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="360"
+               numY="180"
+               startLon="0.5E"
+               startLat="89.5N"
+               endLon="359.5E"
+               endLat="89.5S"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="1440"
+               numY="720"
+               startLon="0.125E"
+               startLat="89.875S"
+               endLon="359.875E"
+               endLat="89.875N"
+               xRes="0.25"
+               yRes="0.25"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

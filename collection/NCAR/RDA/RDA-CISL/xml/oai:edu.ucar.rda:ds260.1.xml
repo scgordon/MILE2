@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="260.1"
+            type="primary">
+   <timeStamp value="2015-02-13 14:15:52 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Objectively Analyzed Air-Sea Fluxes (OAFlux) For Global Oceans, By Lisan Yu et al.</title>
+   <summary>
+      <p>This dataset includes the 3rd release of the global ocean-surface heat flux products. The OAFlux products are constructed from multiple data sources, an optimal
+              blending of satellite retrievals and three atmospheric analyses. Daily fluxes are computed from the optimally estimated variables using the COARE bulk flux algorithm 3.0.</p>
+      <p>Monthly products are made from entire 49-year period, and daily products are available from 1985 onward. For further information, please visit the <a href="http://oaflux.whoi.edu/">OAFlux Project Home Page</a>.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="WHOI/PO &gt; Physical Oceanography Department, Woods Hole Oceanographic Institution"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="NASA/GSFC/ESD/GISS &gt; Goddard Institute for Space Studies, Earth Sciences Directorate, Goddard Space Flight Center, NASA"
+                contact="Dr. William B. Rossow"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Longwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Heat Budget &gt; Heat Flux</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Heat Budget &gt; Evaporation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="technical_report">
+      <authorList>Yu, L., X. Jin, and R. A. Weller</authorList>
+      <year>2008</year>
+      <title>Multidecade Global Flux Datasets from the Objectively Analyzed Air-sea Fluxes (OAFlux) Project: Latent and sensible heat fluxes, ocean evaporation, and related surface meteorological variables</title>
+      <organization reportID="OA-2008-1" pages="64">Woods Hole Oceanographic Institution</organization>
+      <url>http://rda.ucar.edu/datasets/ds260.1/docs/OAFlux_TechReport_3rd_release.pdf</url>
+   </reference>
+   <relatedResource url="http://oaflux.whoi.edu/index.html">OAFlux at Woods Hole Oceanographic Institution</relatedResource>
+   <relatedResource url="http://isccp.giss.nasa.gov/projects/flux.html">ISCCP Global Radiative Flux Products</relatedResource>
+   <publicationDate>2006-03-31</publicationDate>
+   <contentMetadata>
+      <temporal start="1958-01-01 00:00 +0000"
+                end="2014-12-31 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="360"
+               numY="180"
+               startLon="0.5E"
+               startLat="89.5S"
+               endLon="359.5E"
+               endLat="89.5N"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

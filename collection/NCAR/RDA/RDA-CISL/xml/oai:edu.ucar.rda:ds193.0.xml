@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="193.0"
+            type="primary">
+   <timeStamp value="2015-02-06 16:44:00 -0700"/>
+   <doi>10.5065/D6PR7SZF</doi>
+   <continuingUpdate value="no"/>
+   <title>Global Hourly 0.5-degree Land Surface Air Temperature Datasets</title>
+   <summary>
+      <p>Global hourly 0.5-degree Surface Air Temperature (SAT) datasets were developed based on four reanalysis products [Modern-Era Retrospective Analysis for Research and Applications (MERRA for 1979-2009), 40-year ECMWF Re-Analysis (ERA-40 for 1958-2001), ECMWF Interim Re-Analysis (ERA-Interim for 1979-2009), and NCEP/NCAR reanalysis for 1948-2009)] and the Climate Research Unit Time Series version 3.10 (CRU TS3.10) for 1948-2009. The three-step adjustments included the spatial downscaling to 0.5-degree grid cells, the temporal interpolation from 6-hourly (in ERA-40 and NCEP/NCAR reanalysis) to hourly using the MERRA hourly SAT climatology for each day (and the linear interpolation from 3-hourly in ERA-Interim to hourly), and the bias correction in both monthly-mean maximum (Tmax) and minimum (Tmin) SAT using the CRU data.</p>
+      <p>The final products have exactly the same monthly Tmax and Tmin as the CRU data, and perform well in comparison with in-situ hourly measurements over six sites and with a regional daily SAT dataset over Europe. They agree with each other much better than the original reanalyses, and the spurious SAT jumps of reanalyses over some regions are also substantially eliminated. One of the uncertainties in the final products can be quantified by the differences in the true monthly mean (using 24-hourly values) and the monthly averaged diurnal cycle from different final products.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="CN/CAS/IAP/NZC &gt; Nansen-Zhu International Research Centre, Institute of Atmospheric Physics, Chinese Academy of Sciences, China"
+                contact="Aihui Wang"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="UAZ/ATMO &gt; Department of Atmospheric Sciences, University of Arizona"
+                contact="Xubin Zeng"
+                citable="no"/>
+   <author>Aihui Wang</author>
+   <author>Xubin Zeng</author>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Wang A. and X. Zeng</authorList>
+      <year>2013</year>
+      <title>Development of global hourly 0.5-degree land surface air temperature datasets</title>
+      <periodical number="26" pages="7676-7691">J. Climate</periodical>
+      <doi>10.1175/JCLI-D-12-00682.1</doi>
+      <url>http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-12-00682.1</url>
+   </reference>
+   <reference type="journal">
+      <authorList>Zeng, X. and A. Wang</authorList>
+      <year>2012</year>
+      <title>What is mean land surface air temperature?</title>
+      <periodical number="93(15)" pages="156-156">Eos Trans. AGU</periodical>
+      <doi>10.1029/2012EO150006</doi>
+      <url>http://onlinelibrary.wiley.com/doi/10.1029/2012EO150006/abstract</url>
+   </reference>
+   <publicationDate>2014-02-19</publicationDate>
+   <contentMetadata>
+      <temporal start="1948-01-01 00:30 +0000"
+                end="2009-12-31 23:30 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="720"
+               numY="360"
+               startLon="179.75W"
+               startLat="89.75S"
+               endLon="179.75E"
+               endLat="89.75N"
+               xRes="0.5"
+               yRes="0.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,808 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.578.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://code.ecoinformatics.org/code/eml/tags/RELEASE_EML_2_1_1/eml.xsd  eml://ecoinformatics.org/eml-2.1.1 http://caplter.asu.edu/php/eml2_1_1/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="578" system="gios_dataset">
+    <alternateIdentifier system="gios_dataset">578_1</alternateIdentifier>
+    <title>Urban Land-Use in Phoenix years 1959 and 2012, Central Arizona Phoenix.</title>
+    <creator>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Tuccillo</surName>
+      </individualName>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Tuccillo</surName>
+      </individualName>
+    </metadataProvider>
+    <pubDate>2014-04-24</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Generalized land-use in Phoenix and adjoining cities by 1960 census tracts for 1959 and 2012. Includes developed land uses (Residential, Commercial, Public/Semipublic, Industrial) and undeveloped uses (Agriculture, Vacant).</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">phoenix</keyword>
+      <keyword keywordType="theme">land-use</keyword>
+      <keyword keywordType="theme">urban</keyword>
+      <keyword keywordType="theme">historical</keyword>
+      <keyword keywordType="theme">postwar</keyword>
+      <keyword keywordType="theme">agriculture</keyword>
+      <keyword keywordType="theme">agricultural loss</keyword>
+      <keyword keywordType="theme">urbanization</keyword>
+      <keyword keywordType="theme">census</keyword>
+      <keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">caplter</keyword>
+      <keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword>
+      <keyword keywordType="place">arizona</keyword>
+      <keyword keywordType="theme">caplter created</keyword>
+      <keyword keywordType="place">az</keyword>
+      <keyword keywordType="theme">cap</keyword>
+      <keyword keywordType="theme">arid land</keyword>
+      <keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>Copyright Board of Regents, Arizona State University. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available 'as is.'</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.</para>
+            </listitem>
+            <listitem>
+              <para>It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users submit to the Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <onlineDescription>CAPLTER Metadata URL</onlineDescription>
+        <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=578</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Urbanizing area of Phoenix and adjoining cities by 1960, including Tempe, Scottsdale, and Glendale.  Missing Downtown Tempe and Arizona State University (Tract 7-95) 1959.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-113.34</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.59</eastBoundingCoordinate>
+          <northBoundingCoordinate>+34.01</northBoundingCoordinate>
+          <southBoundingCoordinate>+32.91</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2012-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1959-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <temporalCoverage>
+        <singleDateTime>
+          <calendarDate>1959-01-01</calendarDate>
+        </singleDateTime>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This research has been concluded.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="info_manager_contact">
+      <positionName>Information Manager</positionName>
+      <organizationName>Global Institute of Sustainability, Arizona State University</organizationName>
+      <address>
+        <deliveryPoint>POB 875402</deliveryPoint>
+        <city>TEMPE</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-5402</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(480) 965 2975</phone>
+      <phone phonetype="fax">(480) 965-8087</phone>
+      <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Arizona State University, Global Institute of Sustainability</organizationName>
+    </publisher>
+    <pubPlace>Tempe, Arizona</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Research Methods:</title>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>The 1959 data was digitized from a bound copy of the City of Phoenix Advanced Planning Task Force&#8217;s 1959 study Land Use of the Phoenix Urban Area1 based on a map of proposed 1960 Census tracts and data tables detailing land-use by acreage by tract for the categories &#8220;Single-Family&#8221;, &#8220;Two-Family&#8221;, &#8220;Multifamily&#8221;, &#8220;Commerce&#8221;, &#8220;Industry&#8221;, &#8220;Streets and Alleys&#8221;, &#8220;Public and Semipublic&#8221;, &#8220;Agriculture&#8221;, and &#8220;Canals and Vacant&#8221; (43-46).</para>
+                </listitem>
+                <listitem>
+                  <para>Microsoft OneNote was used to convert the scanned 1959 land-use tables to text. The resulting tables were then exported to Microsoft Excel and corrected manually to match the original scan.</para>
+                </listitem>
+                <listitem>
+                  <para>The scanned tracts map was georeferenced in ESRI ArcGIS and compared to a 1960 Census Tracts shapefile available from the National Historic GIS database (NHGIS).  Boundary mismatch was corrected by consolidating some tracts (denoted by hyphens in the &#8220;TRACT_NUM&#8221; field). The data tables were aggregated accordingly and joined to tracts in ArcGIS.</para>
+                </listitem>
+                <listitem>
+                  <para>The 2012 time point was generated using 2012 Maricopa County Assessor parcel data with land-use classified based on the property use code (&#8220;PUC&#8221;) field (see &#8220;Phoenix Land-Use and Zoning by Urban Villages&#8221; dataset, also available through CAP; land-use for this dataset was classified from an earlier April 2013 version). Land-use was then reclassified to match the categories present in the 1959 Land Use of the Phoenix Urban Area, using the classification scheme outlined in Harland Bartholomew&#8217;s 1955 Land uses in American cities2 as a reference.</para>
+                </listitem>
+                <listitem>
+                  <para>Classified parcels were intersected by 1960 tract boundaries to split large parcels falling in more than one tract. The acreage of each parcel (&#8220;Area_Ac&#8221;) was calculated, and parcels were aggregated to census tract boundaries by category using a Spatial Join.</para>
+                </listitem>
+                <listitem>
+                  <para>For the 1959 data, &#8220;Single-Family&#8221; and &#8220;Two-Family&#8221; residential were consolidated into a single &#8220;SFR&#8221; class, which was already classified for the 2012 data. &#8220;Streets and Alleys&#8221; were omitted from the aggregated land total for each tract, as the 2012 data already accounts for their absence.</para>
+                </listitem>
+                <listitem>
+                  <para>Since the 2012 parcel data also omits canals, the acreage of canals in each tract for 1959 was subtracted from the &#8220;Canals and Vacant&#8221; class to generate a Vacant-only (&#8220;VAC&#8221;) class. This was performed by buffering a 1961 Canals shapefile digitized from historical Salt River Project canal system maps available at the ASU Libraries Map Collection.  For smaller lateral canals, 20-foot flat buffer estimates of the canal and right-of-way were calculated; for major canals (Arizona Canal, Grand Canal, Western Canal west to Elliot Rd), 45-foot flat buffer estimates of the canal and right-of-way were calculated. The buffer polygons representing canals were then intersected by tract boundaries, and their acreages were subtracted from the initial &#8220;Canals and Vacant&#8221; total to generate the &#8220;Vacant&#8221; class. Only one tract (7-58) resulted in negative area, which was reset to 0 acres under the assumptions that a) all vacant land originally classified for 1959 was a canal or right-of-way and b) that the 1961 canals shapefile under-accounts for the length of canals present in 1959 (the tract is largely agricultural in 1959).</para>
+                </listitem>
+                <listitem>
+                  <para>For each time point, a &#8220;Land_Total&#8221; class summing the acreages of each category by tract, excluding canals/streets/alleys, was calculated. Finally, the shares of each land-use category were calculated based on the &#8220;Land_Total&#8221; field.</para>
+                </listitem>
+                <listitem>
+                  <para>1Advance Planning Task Force, Phoenix and Maricopa County, Arizona. (1959). Land use of the Phoenix urban area: a study basic to long-range planning. Phoenix, AZ: City of Phoenix.</para>
+                </listitem>
+                <listitem>
+                  <para>2Bartholomew, Harland. (1955). Land uses in American cities. Cambridge: Harvard University Press.</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Phoenix Spatial History Project</title>
+      <personnel>
+        <individualName>
+          <givenName>Joseph</givenName>
+          <surName>Tuccillo</surName>
+        </individualName>
+        <role>author</role>
+      </personnel>
+      <abstract>
+        <para>This dataset serves to compare the Phoenix Metro&#8217;s post-war and contemporary land-use patterns by 1960 census tracts for the timepoints 1959 and 2012. Each timepoint features aggregated land-use acreage by tract for the categories Single Family Residential, Multifamily Residential, Commercial, Public/Semipublic, Light Industrial, Industrial, Vacant, and Agriculture, as well as the share of each land-use category within each tract, excluding streets, alleys, and canals. The 1959 data may be joined with US Census data for 1960 tracts (via National Historic GIS database).  As the aggregation units are based on proposed 1960 census tracts, several tracts were combined such that their boundaries matched those of the official 1960 US Census. This is detailed further in the methods description.</para>
+      </abstract>
+    </project>
+    <spatialVector>
+      <entityName>Phoenix_LU_1959-2012</entityName>
+      <entityDescription>Generalized land-use in Phoenix and adjoining cities by 1960 census tracts for 1959 and 2012. Includes developed land uses (Residential, Commercial, Public/Semipublic, Industrial) and undeveloped uses (Agriculture, Vacant). </entityDescription>
+      <physical>
+        <objectName>Phoenix_LU_1959-2012.shp</objectName>
+        <size unit="byte">120804</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>http://data.gios.asu.edu/datasets/cap/578_Phoenix_LU_1959-2012.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>No geographic/area/plot description available. Sorry.</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-112.241900</westBoundingCoordinate>
+            <eastBoundingCoordinate>-111.888244</eastBoundingCoordinate>
+            <northBoundingCoordinate>33.641814</northBoundingCoordinate>
+            <southBoundingCoordinate>33.307432</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <additionalInfo>
+        <section>
+          <title>Data presentation form</title>
+          <para>vector digital data</para>
+        </section>
+      </additionalInfo>
+      <additionalInfo>
+        <section>
+          <title>The following geospatial files are include as a part of this data package.</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Filename:  578-fgdc-Phoenix_LU_1959-2012.xml</para>
+                <para>Bytes:  11117</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_LU_1959-2012.dbf</para>
+                <para>Bytes:  61962</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_LU_1959-2012.prj</para>
+                <para>Bytes:  401</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_LU_1959-2012.sbn</para>
+                <para>Bytes:  1028</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_LU_1959-2012.sbx</para>
+                <para>Bytes:  212</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_LU_1959-2012.shp</para>
+                <para>Bytes:  120804</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_LU_1959-2012.shp.xml</para>
+                <para>Bytes:  39548</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Phoenix_LU_1959-2012.shx</para>
+                <para>Bytes:  804</para>
+              </listitem>
+              <listitem>
+                <para>Filename:  Reclass_LU_2012.xlsx</para>
+                <para>Bytes:  11492</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute id="FID">
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shape">
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TRACT_NUM">
+          <attributeName>TRACT_NUM</attributeName>
+          <attributeDefinition>Tract identification number, as listed in City of Phoenix Advanced Planning Task Force&#8217;s 1959 study Land Use of the Phoenix Urban Area (43-46). Additional hyphens/numbers indicate tracts consolidated to match the 1960 US Census boundaries.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="LAND_AC_12">
+          <attributeName>LAND_AC_12</attributeName>
+          <attributeDefinition>2012 Total land by tract in acres, excluding streets, alleys, and canals.
+&#8220;LAND_AC&#8221;=&#8220;SFR&#8221;+&#8221;MFR&#8221;+&#8221;COM&#8221;+&#8221;IND&#8221;+&#8221;P_SP&#8221;+&#8221;AG&#8221;+&#8221;VAC&#8221; (+&#8221;UNDEF&#8221; for 2012 only)
+</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SFR_12">
+          <attributeName>SFR_12</attributeName>
+          <attributeDefinition>2012 Acreage by tract of Single-Family Residential (detached dwelling) land-use; includes parcels classified as both &#8220;Single-Family&#8221; and &#8220;Two-Family&#8221; Residential.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MFR_12">
+          <attributeName>MFR_12</attributeName>
+          <attributeDefinition>Acreage by tract of Multifamily Residential (attached dwelling) land-use for 2012; Includes apartments, condominiums, townhomes, mobile homes</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="COM_12">
+          <attributeName>COM_12</attributeName>
+          <attributeDefinition>2012 Acreage by tract of Commercial land-use; Includes retail, offices, parking</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="IND_12">
+          <attributeName>IND_12</attributeName>
+          <attributeDefinition>2012 Acreage by tract of Industrial land-use; includes Light Industrial uses (i.e. automotive, scrapyards, warehousing, distribution centers, light manufacturing), railroads, and heavy </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PSP_12">
+          <attributeName>PSP_12</attributeName>
+          <attributeDefinition>2012 Acreage by tract of Public and Semipublic land-use; includes churches, schools, city parks, airports, hospitals, emergency response, utilities, government buildings</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="AG_12">
+          <attributeName>AG_12</attributeName>
+          <attributeDefinition>2012 Acreage by tract of Agricultural land-use; includes productive and fallow agricultural land</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="VAC12">
+          <attributeName>VAC12</attributeName>
+          <attributeDefinition>2012 Acreage of Vacant land</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="UNDEF_12">
+          <attributeName>UNDEF_12</attributeName>
+          <attributeDefinition>Undefined Area, 2012</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_SFR12">
+          <attributeName>Shr_SFR12</attributeName>
+          <attributeDefinition>2012 Ratio of Single-Family residential land-use (&#8220;SFR&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_MFR12">
+          <attributeName>Shr_MFR12</attributeName>
+          <attributeDefinition>2012 Ratio of Multifamily residential land-use (&#8220;MFR&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_COM12">
+          <attributeName>Shr_COM12</attributeName>
+          <attributeDefinition>2012 Ratio of Commercial land-use (&#8220;COM&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_IND12">
+          <attributeName>Shr_IND12</attributeName>
+          <attributeDefinition>2012 Ratio of Industrial land-use (&#8220;IND&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_PSP12">
+          <attributeName>Shr_PSP12</attributeName>
+          <attributeDefinition>2012 Ratio of Public/Semipublic land-use (&#8220;PSP&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_AG12">
+          <attributeName>Shr_AG12</attributeName>
+          <attributeDefinition>2012 Ratio of Agricultural land-use (&#8220;AG&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_VAC12">
+          <attributeName>Shr_VAC12</attributeName>
+          <attributeDefinition>2012 Ratio of Vacant land-use (&#8220;VAC&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_UDF12">
+          <attributeName>Shr_UDF12</attributeName>
+          <attributeDefinition>2012 Ratio of Undefined land-use (&#8220;UNDEF&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TOTAL_AC">
+          <attributeName>TOTAL_AC</attributeName>
+          <attributeDefinition>Total tract area in acres</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="LAND_AC_59">
+          <attributeName>LAND_AC_59</attributeName>
+          <attributeDefinition>1959 Total land by tract in acres, excluding streets, alleys, and canals.
+&#8220;LAND_AC&#8221;=&#8220;SFR&#8221;+&#8221;MFR&#8221;+&#8221;COM&#8221;+&#8221;IND&#8221;+&#8221;P_SP&#8221;+&#8221;AG&#8221;+&#8221;VAC&#8221; 
+</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SFR_59">
+          <attributeName>SFR_59</attributeName>
+          <attributeDefinition>1959 Acreage by tract of Single-Family Residential (detached dwelling) land-use; for 1959, includes parcels classified as both &#8220;Single-Family&#8221; and &#8220;Two-Family&#8221; Residential.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MFR_59">
+          <attributeName>MFR_59</attributeName>
+          <attributeDefinition>1959 Acreage by tract of Multifamily Residential (attached dwelling) land-use; Includes apartments, condominiums, townhomes, mobile homes</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="COM_59">
+          <attributeName>COM_59</attributeName>
+          <attributeDefinition>1959 Acreage by tract of Commercial land-use; Includes retail, offices, parking</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="IND_59">
+          <attributeName>IND_59</attributeName>
+          <attributeDefinition>1959 Acreage by tract of Industrial land-use; includes Light Industrial uses (i.e. automotive, scrapyards, warehousing, distribution centers, light manufacturing), railroads, and heavy manufacturing</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PSP_59">
+          <attributeName>PSP_59</attributeName>
+          <attributeDefinition>1959 Acreage by tract of Public and Semipublic land-use; includes churches, schools, city parks, airports, hospitals, emergency response, utilities, government buildings</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="AG_59">
+          <attributeName>AG_59</attributeName>
+          <attributeDefinition>1959 Acreage by tract of Agricultural land-use; includes productive and fallow agricultural land</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="VAC_59">
+          <attributeName>VAC_59</attributeName>
+          <attributeDefinition>1959 Acreage by tract of Vacant land; derived for 1959 by subtracting a 1961 canal area buffer estimate (20 feet for minor lateral canals, 45 feet for major canals) from the original &#8220;Canals and Vacant&#8221; land-use class; </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ST_AL_59">
+          <attributeName>ST_AL_59</attributeName>
+          <attributeDefinition>Acreage by tract of Streets and Alleys; 1959 only; not included in &#8220;LAND_TOTAL&#8221;</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_SFR59">
+          <attributeName>Shr_SFR59</attributeName>
+          <attributeDefinition>1959 Ratio of Single-Family residential land-use (&#8220;SFR&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_MFR59">
+          <attributeName>Shr_MFR59</attributeName>
+          <attributeDefinition>1959 Ratio of Multifamily residential land-use (&#8220;MFR&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_COM59">
+          <attributeName>Shr_COM59</attributeName>
+          <attributeDefinition>1959 Ratio of Commercial land-use (&#8220;COM&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_IND59">
+          <attributeName>Shr_IND59</attributeName>
+          <attributeDefinition>1959 Ratio of Industrial land-use (&#8220;IND&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_PSP59">
+          <attributeName>Shr_PSP59</attributeName>
+          <attributeDefinition>1959 Ratio of Public/Semipublic land-use (&#8220;PSP&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_AG59">
+          <attributeName>Shr_AG59</attributeName>
+          <attributeDefinition>1959 Ratio of Agricultural land-use (&#8220;AG&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shr_VAC59">
+          <attributeName>Shr_VAC59</attributeName>
+          <attributeDefinition>1959 Ratio of Vacant land-use (&#8220;VAC&#8221;) to &#8220;LAND_TOTAL&#8221; by tract</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>No further information about this attribute was provided</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>88</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+    </spatialVector>
+  </dataset>
+</eml:eml>

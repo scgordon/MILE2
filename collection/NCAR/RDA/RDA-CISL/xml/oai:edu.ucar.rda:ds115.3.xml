@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="115.3"
+            type="primary">
+   <timeStamp value="2015-02-06 21:06:37 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>ECMWF Re-analysis Global High Resolution Surface Analyses, January 1979 to December 1993</title>
+   <summary>
+      <p>This dataset contains the high resolution surface grids
+              from the ECMWF 15 year reanalysis project.  All of the grids
+              are on a gaussian (N80) grid with an approximate resolution
+              of 1.125 degrees and are archived 4x/day.</p>
+      <p>More recent reanalyses have been run by ECMWF and are available in the <a href="http://rda.ucar.edu/#!lfd?nb=y&amp;b=proj&amp;v=ECMWF+ERA40+Reanalysis+Project">ERA-40</a> and the <a href="http://rda.ucar.edu/datasets/ds627.0/">ERA-Interim</a> datasets.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"
+                citable="yes"/>
+   <restrictions>
+      <access>
+         <p>We are allowed to distribute this data to US scientists, scientists visiting US organizations, and Canadian scientists affiliated with UCAR member organizations only.  </p>
+      </access>
+      <usage>
+         <p>This data must not be used for commercial purposes.  ECMWF must be given credit in any publications in which this data is used.</p>
+      </usage>
+   </restrictions>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Moisture/Water Content</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Land Temperature &gt; Skin Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Surface Radiative Properties &gt; Albedo</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Topography &gt; Surface Roughness</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Water Vapor</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Water Equivalent</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Precipitable Water</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">ERA15DAS &gt; ERA15 Data Assimilation System</platform>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://www.ecmwf.int/en/research/climate-reanalysis">ECMWF's Climate Reanalysis web page</relatedResource>
+   <relatedDataset ID="117.0"/>
+   <relatedDataset ID="118.0"/>
+   <relatedDataset ID="627.0"/>
+   <publicationDate>1997-12-15</publicationDate>
+   <contentMetadata>
+      <temporal start="1979-01-01 00:00 +0000"
+                end="1993-12-31 18:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="-1"
+               numY="160"
+               startLon="0E"
+               startLat="89.141N"
+               endLon="358.875E"
+               endLat="89.141S"
+               xRes="1.125"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

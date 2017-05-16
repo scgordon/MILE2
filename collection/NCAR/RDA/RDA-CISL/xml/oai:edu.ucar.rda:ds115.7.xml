@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="115.7"
+            type="primary">
+   <timeStamp value="2015-02-11 14:12:02 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>ECMWF Re-analysis 2.5 degree Monthly Means</title>
+   <summary>
+      <p>This dataset contains monthly mean data from the
+              ECMWF reanalysis project.  The grid are all 2.5 degree
+              latitude-longitude grids.  There are separate monthly means for
+              each hour (00,06,12 and 18) as well as a daily mean.</p>
+      <p>More recent reanalyses have been run by ECMWF and are available in the <a href="http://rda.ucar.edu/cgi-bin/joey/era40sum.pl?ds=ds118.0">ERA-40</a> and the <a href="http://rda.ucar.edu/datasets/ds627.0/">ERA-Interim</a> datasets.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"
+                citable="yes"/>
+   <restrictions>
+      <access>
+         <p>We are allowed to distribute this data to US scientists, scientists visiting US organizations, and Canadian scientists affiliated with UCAR member organizations only.  </p>
+      </access>
+      <usage>
+         <p>This data must not be used for commercial purposes.  ECMWF must be given credit in any publications in which this data is used.</p>
+      </usage>
+   </restrictions>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Convergence/Divergence</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vorticity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Boundary Layer Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">ERA15DAS &gt; ERA15 Data Assimilation System</platform>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://rda.ucar.edu/cgi-bin/joey/era40sum.pl?ds=ds118.0">ECMWF Re-analysis Grids at DSS</relatedResource>
+   <relatedResource url="http://www.ecmwf.int/en/research/climate-reanalysis">ECMWF's Climate Reanalysis page</relatedResource>
+   <relatedDataset ID="117.0"/>
+   <relatedDataset ID="118.0"/>
+   <relatedDataset ID="627.0"/>
+   <publicationDate>1999-06-15</publicationDate>
+   <contentMetadata>
+      <temporal start="1979-01-01 00:00 +0000"
+                end="1994-04-03 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit=""/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="regular" number="1" unit="year"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="73"
+               startLon="0E"
+               startLat="90N"
+               endLon="357.5E"
+               endLat="90S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

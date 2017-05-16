@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="232.2"
+            type="primary">
+   <timeStamp value="2015-02-09 19:59:22 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Scatterometer Climatology of Ocean Winds (SCOW), by Risien et al.</title>
+   <summary>
+      <p>
+              This dataset consists of twelve variables for global seasonal cycles of the wind
+              and wind stress fields estimated from the 10-year record (September 1999 - October 2009)
+              of wind measurements by the NASA QuikSCAT scatterometer.
+              Seasonal cycles for these variables were estimated
+              using harmonic analysis where each multi-year time series of monthly means was fitted
+              to a nine-parameter regression model consisting of a constant plus four harmonics.
+              </p>
+      <p>
+              Only monthly global maps (January - December), constructed from the annual
+              and semiannual harmonics, for the twelve SCOW wind variables are archived here,
+              while the regression coefficients from which the monthly values were computed,
+              as well as example scripts, can be downloaded from
+              <a href="http://numbat.coas.oregonstate.edu/scow/example_code.html">
+              SCOW web site</a>. For researchers interested in more than just the annual
+              and semiannual harmonics, these regression coefficients include the higher-order
+              3 and 4 cycles per year harmonics. The regression coefficients allow easy
+              calculation of the seasonal cycle at each grid location at an arbitrary time interval.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="OR-STATE/COAS &gt; College of Oceanic and Atmospheric Sciences, Oregon State University"
+                contact="Craig Risien, (541)737-9682, crisien@coas.oregonstate.edu"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Wind Stress</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Vorticity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Convergence/Divergence</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">QUIKSCAT &gt; Quick Recovery Scatterometer</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Risien, C. M., and D. B. Chelton</authorList>
+      <year>2008</year>
+      <title>A Global Climatology of Surface Wind and Wind Stress Fields from Eight Years of QuikSCAT Scatterometer Data</title>
+      <periodical number="38(11)" pages="2379-2413">Journal of Physical Oceanography</periodical>
+      <doi>10.1175/2008JPO3881.1</doi>
+      <url>http://journals.ametsoc.org/doi/full/10.1175/2008JPO3881.1</url>
+   </reference>
+   <relatedResource url="http://cioss.coas.oregonstate.edu/scow/">Scatterometer Climatology of Ocean Winds (SCOW)</relatedResource>
+   <publicationDate>2008-06-20</publicationDate>
+   <contentMetadata>
+      <temporal start="1999-09-01 00:00 +0000"
+                end="2009-10-31 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="10-year"/>
+      <temporalFrequency type="regular" number="1" unit="11-year"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="1440"
+               numY="560"
+               startLon="0.125E"
+               startLat="69.875S"
+               endLon="359.875E"
+               endLat="69.875N"
+               xRes="0.25"
+               yRes="0.25"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

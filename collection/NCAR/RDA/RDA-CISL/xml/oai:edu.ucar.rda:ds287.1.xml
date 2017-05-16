@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="287.1"
+            type="historical">
+   <timeStamp value="2010-10-18 13:12:52 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>Miami Isopycnic Coordinate Ocean Model Output</title>
+   <summary>
+      <p>This archive has three distinct Miami Isopycnic Coordinate
+              Ocean Model (MICOM) outputs.  The output grids are
+              for isopycnal layers, at one-twelveth degree spatial and
+              three-day temporal resolution.
+              Water temperature, salinity, and velocity components are
+              the primary output variables.  The model domain is
+              the Atlantic Ocean from
+              65-70N to 28S latitude and in two cases includes
+              the Mediterranean Sea.  The
+              three cases are briefly outlined below and differ primarily in
+              the atmospheric forcing that is used.</p>
+      <p>
+         <ul>
+            <li>
+               <b>MICOM.ICOADS</b>
+            </li>
+            <ul>
+               <li>International Comprehensive Ocean-Atmosphere Data
+              Set (ICOADS) mean wind forcing</li>
+               <li>Domain: 28S to 65N, 98W to 17E</li>
+               <li>16 isopycnal layers</li>
+               <li>Six years of data</li>
+            </ul>
+            <li>
+               <b>MICOM.ECMWF</b>
+            </li>
+            <ul>
+               <li>ECMWF mean wind forcing</li>
+               <li>Domain 28S to 70N, 98W to 36E, includes the
+              Mediterranean Sea</li>
+               <li>20 isopycnal layers</li>
+               <li>Three years of data</li>
+            </ul>
+            <li>
+               <b>MICOM.DAILY</b>
+            </li>
+            <ul>
+               <li>ECMWF 6-hourly forcing
+              (wind, surface radiation, air temperature and humidity)</li>
+               <li>Domain 28S to 70N, 98W to 36E, includes the
+              Mediterranean Sea</li>
+               <li>20 isopycnal layers</li>
+               <li>1979-1986</li>
+            </ul>
+         </ul>
+      </p>
+      <p>Details about the model forcing, mixing
+              parameterization, bottom topography, computational
+              requirements, and browse graphics are available at the
+              <a href="http://oceanmodeling.rsmas.miami.edu">MICOM website</a>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="U-MIAMI/RSMAS/MPO &gt; Division of Meteorology and Physical Oceanography, Rosenstiel School of Marine and Atmospheric Science, University of Miami"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Salinity/Density &gt; Salinity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">MICOM &gt; Miami Isopycnic Coordinate Ocean Model</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <relatedResource url="http://oceanmodeling.rsmas.miami.edu">Numerical Ocean Modeling at RSMAS</relatedResource>
+   <publicationDate>2000-05-05</publicationDate>
+   <contentMetadata>
+      <temporal start="1979" end="1986" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="3" unit="day" statistics="mean"/>
+      <temporalFrequency type="regular" number="1" unit="year" statistics="mean"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <layer type="Ocean mixed layer" top="0" bottom="0" units=""/>
+         <layer type="Isopycnal layer"
+                top="24.70"
+                bottom="24.70"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="25.28"
+                bottom="25.28"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="25.77"
+                bottom="25.77"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="26.18"
+                bottom="26.18"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="26.52"
+                bottom="26.52"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="26.80"
+                bottom="26.80"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="27.03"
+                bottom="27.03"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="27.22"
+                bottom="27.22"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="27.38"
+                bottom="27.38"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="27.52"
+                bottom="27.52"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="27.64"
+                bottom="27.64"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="27.74"
+                bottom="27.74"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="27.82"
+                bottom="27.82"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="27.88"
+                bottom="27.88"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="27.92"
+                bottom="27.92"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="28.00"
+                bottom="28.00"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="28.06"
+                bottom="28.06"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="28.09"
+                bottom="28.09"
+                units="sigma-theta"/>
+         <layer type="Isopycnal layer"
+                top="28.12"
+                bottom="28.12"
+                units="sigma-theta"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="mercator"
+               numX="1437"
+               numY="1437"
+               startLon="98W"
+               startLat="28S"
+               endLon="17E"
+               endLat="65N"
+               xRes="9"
+               yRes="9"
+               resLat="0N"/>
+         <grid definition="mercator"
+               numX="1609"
+               numY="1678"
+               startLon="98W"
+               startLat="28S"
+               endLon="36E"
+               endLat="70N"
+               xRes="9"
+               yRes="9"
+               resLat="0N"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

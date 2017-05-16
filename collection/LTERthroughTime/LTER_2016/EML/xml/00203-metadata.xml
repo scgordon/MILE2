@@ -1,0 +1,294 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-kbs.138.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=KBS,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="/datasets/138.eml">
+    <title>Belowground Biomass on the Main Cropping System Experiment at the Kellogg Biological Station, Hickory Corners, MI  (2015 to 2015)</title>
+    <creator>
+      <positionName>Data Manager</positionName>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Christine</givenName>
+        <surName>Sprunger</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <address>
+        <country>US</country>
+      </address>
+      <phone phonetype="phone" />
+      <phone phonetype="fax" />
+      <electronicMailAddress>sprunge5@msu.edu</electronicMailAddress>
+      <role>principal contact</role>
+    </associatedParty>
+    <pubDate>2016-02-17</pubDate>
+    <abstract>
+      <section>
+        <title>Dataset Abstract</title>
+        <para>Biomass samples on the MSCE are infrequent due to the high labor costs.</para>
+        <para>original data source http://lter.kbs.msu.edu/datasets/138</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">LTER</keyword>
+      <keyword keywordType="place">KBS</keyword>
+      <keyword keywordType="place">Kellogg Biological Station</keyword>
+      <keyword keywordType="place">Hickory Corners</keyword>
+      <keyword keywordType="place">Michigan</keyword>
+      <keyword keywordType="place">Great Lakes</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Primary Production</keyword>
+      <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data in the KBS LTER core database may not be published without written permission of the lead investigator or project director. These restrictions are intended mainly to preserve the primary investigators' rights to first publication and to ensure that data users are aware of the limitations that may be associated with any specific data set. These restrictions apply to both the baseline data set and to the data sets associated with specific LTER-supported subprojects.</para>
+      <para>All publications of KBS data and images must acknowledge KBS LTER support.</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The areas around the Kellogg Biological Station in southwest Michigan</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-85.404699</westBoundingCoordinate>
+          <eastBoundingCoordinate>-85.366857</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.420265</northBoundingCoordinate>
+          <southBoundingCoordinate>42.391019</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2015-04-23</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-04-23</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Kellogg Biological Station</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>3700 East Gull Lake Drive</deliveryPoint>
+        <city>Hickory Corners</city>
+        <administrativeArea>Mi</administrativeArea>
+        <postalCode>49060</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>lter.data.manager@kbs.msu.edu</electronicMailAddress>
+      <onlineUrl>http://lter.kbs.msu.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>KBS LTER</organizationName>
+    </publisher>
+    <dataTable id="/datatables/483">
+      <entityName>Kellogg Biological Station LTER: Root biomass on T5 (KBS108-001)</entityName>
+      <entityDescription>Root biomass was sampled in 2014 on the LTER poplar trees to investigate their root distribution with depth. Three cores were taken. Core 1 was within 20 cm of the tree, Core 2 was taken half way between the trees and core 3 was taken halfway between core 1 and core 3. Each core was split into four depths and the roots were separated from the soil.</entityDescription>
+      <physical>
+        <objectName>Root biomass on T5</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>30</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+              <literalCharacter>\</literalCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-kbs/138/1/27130a4ba868d3a7160f0d10e44d0481</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>sample_date</attributeName>
+          <attributeDefinition>Date the soil was removed from the field</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Date the soil was removed from the field</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>treatment</attributeName>
+          <attributeDefinition>the LTER treatment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the LTER treatment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>replicate</attributeName>
+          <attributeDefinition>the replicate</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the replicate</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>core</attributeName>
+          <attributeDefinition>the core number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the core number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>distance_from_tree_cm</attributeName>
+          <attributeDefinition>the distance from the tree (20 cm = at most 20 cm)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the distance from the tree (20 cm = at most 20 cm)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>core_area_m2</attributeName>
+          <attributeDefinition>the core area</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the core area</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>core_length_cm</attributeName>
+          <attributeDefinition>the length of the core section</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the length of the core section</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>top_depth_cm</attributeName>
+          <attributeDefinition>depth to the top of the core section</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>depth to the top of the core section</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>bottom_depth_cm</attributeName>
+          <attributeDefinition>depth to the bottom of the core section</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>depth to the bottom of the core section</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeDefinition>the probable plant species sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the probable plant species sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>root_weight_g</attributeName>
+          <attributeDefinition>dry weight of the roots extracted from the core</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>dry weight of the roots extracted from the core</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeDefinition>comments</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

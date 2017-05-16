@@ -1,0 +1,911 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hbr.166.1" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd   http://www.xml-cml.org/schema/stmml-1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd ">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=HBR,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>hbr0166</alternateIdentifier>
+    <shortName>Valleywide Streamwater Chemistry</shortName>
+    <title>Chemistry of Streamwater at the Hubbard Brook Experimental Forest, Valleywide Measurements, 2001</title>
+    <creator>
+      <individualName>
+        <givenName>Gene E.</givenName>
+        <surName>Likens</surName>
+      </individualName>
+      <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+      <address>
+        <deliveryPoint>2801 Sharon Turnpike</deliveryPoint>
+        <city>Millbrook</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>12545</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(845) 677-5343</phone>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Don</givenName>
+        <surName>Buso</surName>
+      </individualName>
+      <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+      <address>
+        <deliveryPoint>234 Mirror Lake Road</deliveryPoint>
+        <city>North Woodstock</city>
+        <administrativeArea>NH</administrativeArea>
+        <postalCode>03262</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <metadataProvider>
+      <organizationName>Hubbard Brook Experimental Forest
+				LTER</organizationName>
+      <address>
+        <deliveryPoint>234 Mirror Lake Road</deliveryPoint>
+        <city>North Woodstock</city>
+        <administrativeArea>NH</administrativeArea>
+        <postalCode>03262</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(603) 726-8902</phone>
+      <onlineUrl>http://www.hubbardbrook.org</onlineUrl>
+    </metadataProvider>
+    <pubDate>2015</pubDate>
+    <abstract>
+      <para>
+			Streamwater chemistry has been measured at the Hubbard Brook 
+			Experimental Forest since 1963. This study expands upon relationships observed from 
+			long-term studies of stream water chemistry within the nine gaged watersheds at Hubbard Brook Experimental 
+			Forest, in order to determine whether those relationships hold true for the wider Hubbard Brook Valley. This dataset 
+			includes data from samples collected across the valley from tributary streams of Hubbard Brook. 
+			Measurements included ANC, pH, DOC, DIC, cations, anions, specific conductance and temperature. 
+			. 
+		</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">aluminum</keyword>
+      <keyword keywordType="theme">ammonium</keyword>
+      <keyword keywordType="theme">acid neutralizing capacity</keyword>
+      <keyword keywordType="theme">calcium</keyword>
+      <keyword keywordType="theme">chemistry</keyword>
+      <keyword keywordType="theme">chloride</keyword>
+      <keyword keywordType="theme">dissolved inorganic carbon</keyword>
+      <keyword keywordType="theme">dissolved organic carbon</keyword>
+      <keyword keywordType="place">HBEF Valleywide Study</keyword>
+      <keyword keywordType="place">Hubbard Brook Experimental Forest</keyword>
+      <keyword keywordType="place">HBR</keyword>
+      <keyword keywordType="place">Hubbard Brook LTER</keyword>
+      <keyword keywordType="theme">magnesium</keyword>
+      <keyword keywordType="theme">nitrate</keyword>
+      <keyword keywordType="theme">pH</keyword>
+      <keyword keywordType="theme">phosphate</keyword>
+      <keyword keywordType="theme">potassium</keyword>
+      <keyword keywordType="theme">silica</keyword>
+      <keyword keywordType="theme">sodium</keyword>
+      <keyword keywordType="theme">specific conductance</keyword>
+      <keyword keywordType="theme">stream</keyword>
+      <keyword keywordType="theme">sulfate</keyword>
+      <keyword keywordType="theme">temperature</keyword>
+      <keyword keywordType="theme">watershed</keyword>
+      <keywordThesaurus>Hubbard Brook Ecosystem Study	LTER</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">inorganic nutrients</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>Data Access Guidelines for Streamwater Chemistry</para>
+        <para>We are happy to share these data on the chemistry of Hubbard Brook ecosystems. The public dissemination of these data that we have collected is a responsibility that we take very seriously. As stewards of these long-term data, our highest priorities are:</para>
+        <para>a. to maintain the integrity of these long-term data;</para>
+        <para>b. to allow adequate time for the analysis, quality assurance, and publication of results by principal investigators;</para>
+        <para>c. to acknowledge properly and responsibly the appropriate funding sources.</para>
+        <para>Therefore, it is HBES policy to make these streamwater data available on this web page two years after the date of collection. Also, in sharing these data with users like yourself, we ask that you adhere to the following guidelines as a matter of common courtesy and ethical responsibility:</para>
+        <para>1. Please inform us in advance of your interest and plans for use of these data (likensg@caryinstitute.org).</para>
+        <para>2. The sources of funding used to collect these data must be acknowledged properly. We will provide the appropriate information when we learn what data are being used.</para>
+        <para>3. We would like to review any manuscripts that utilize extensive amounts (e.g. multiple years) of these data. If data use is extensive, or if these data have not been published previously, it may be appropriate for us to be included as authors on publication that are generated given the additional requirements from us for analysis and interpretation.</para>
+      </section>
+      <section>
+        <title>Data Use Policy</title>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>
+                        The re-use of scientific data has the potential to greatly
+                        increase communication, collaboration and synthesis within and among
+                        disciplines, and thus is fostered, supported and encouraged. Permission to
+                        use this dataset is granted to the Data User free of charge subject to the
+                        following terms:
+                    </para>
+            </listitem>
+            <listitem>
+              <para>
+                        1) Acceptable use. Use of the dataset will be restricted to academic, research,
+                        government or other not-for-profit professional purposes. 
+                    </para>
+            </listitem>
+            <listitem>
+              <para>
+                        2) Redistribution. The data and metadata are provided for use by the Data User.
+                        The Data User will not redistribute the original Data Set or metadata to
+                        others without the explicit permission of the Principal Investigator.
+                    </para>
+            </listitem>
+            <listitem>
+              <para>
+                        3) Citation. It is considered a matter of professional ethics to acknowledge the work
+                        of other scientists. Thus, the Data User will properly attribute
+                        the Data Set in any publications or in the metadata of any derived data products
+                        that were produced using the Data Set. Citation should take the
+                        following general form: Creator, Year of Data Publication, Title of Dataset,
+                        Publisher, Dataset identifier.
+                    </para>
+              <para>
+                        Citation example: Holmes, R.T. 2012. Bird Abundances at Hubbard Brook (1969-2010)
+                        and on three replicate plots (1986-2000) in the White Mountain
+                        National Forest. Durham, NH. Hubbard Brook Data Archive [Database].
+                        http://hubbardbrook.org/data/dataset.php?id=81 (23 July 2012)
+                    </para>
+            </listitem>
+            <listitem>
+              <para>
+                        4) Acknowledgment: The Data User should acknowledge any institutional support or specific
+                        funding awards referenced in the metadata accompanying this
+                        dataset in any publications where the Data Set contributed to its content. Acknowledgments
+                        should identify the supporting party, the party that received
+                        the support, and any identifying information such as grant numbers.
+                    </para>
+              <para>
+                        Acknowledgment example: Data on [topic] were provided by [name of PI] on [date].
+                        These data were gathered as part of the Hubbard Brook Ecosystem
+                        Study (HBES). The HBES is a collaborative effort at the Hubbard Brook Experimental Forest,
+                        which is operated and maintained by the USDA Forest Service,
+                        Northern Research Station, Newtown Square, PA. Significant funding for collection of these
+                        data was provided by [agency]-[grant number], [agency]-[grant
+                        number], etc.
+                    </para>
+            </listitem>
+            <listitem>
+              <para>
+                        5) Consultation and questions. Data users are strongly encouraged to consult with the Principal
+                        Investigator(s) who collected these data for further information. Also, when appropriate,
+                        Data Users should consider including the Principal Investigator as a collaborator and/or co-author 
+                        in the use of these data.
+                    </para>
+            </listitem>
+            <listitem>
+              <para>
+                        6) Notification. The Data User will notify the Principal Investigator of any publication or
+                        derivative work based on the Data Set. The Data User will
+                        also provide the Principal Investigator and/or the administrator of the Hubbard Brook
+                        Ecosystem Study with a pdf or two reprints of any publication(s)
+                        resulting from use of the Data Set.
+                    </para>
+            </listitem>
+            <listitem>
+              <para>
+                        7) Disclaimer. While substantial efforts are made to ensure the accuracy of data
+                        and documentation contained in this Data Set, complete accuracy of data and
+                        metadata cannot be guaranteed. All data and metadata are made available "as
+                        is". The Data User holds all parties involved in the production or
+                        distribution of the Data Set harmless for damages resulting from its use or
+                        interpretation.
+                    </para>
+            </listitem>
+            <listitem>
+              <para>
+                        8) Terms of Agreement. By accepting this Data Set, the Data User agrees to abide by the
+                        terms of this agreement. The Data Owner shall have the right to terminate
+                        this agreement immediately by written notice upon the Data User's breach of,
+                        or non-compliance with, any of its terms. The Data User may be held
+                        responsible for any misuse that is caused or encouraged by the Data User's
+                        failure to abide by the terms of this agreement.
+                    </para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://www.hubbardbrook.org/data/dataset.php?id=166</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The valley-wide stream samples are a series of collections spanning the entire Hubbard Brook Valley.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-71.80620</westBoundingCoordinate>
+          <eastBoundingCoordinate>-71.70220</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.9590</northBoundingCoordinate>
+          <southBoundingCoordinate>43.9140</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2001</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager, Hubbard Brook LTER</positionName>
+      <address>
+        <deliveryPoint>234 Mirror Lake Road</deliveryPoint>
+        <city>North Woodstock</city>
+        <administrativeArea>NH</administrativeArea>
+        <postalCode>03262</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(603) 726-8902</phone>
+      <electronicMailAddress>hbr-im@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.hubbardbrook.org</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Hubbard Brook Experimental Forest
+				LTER</organizationName>
+      <address>
+        <deliveryPoint>234 Mirror Lake Road</deliveryPoint>
+        <city>North Woodstock</city>
+        <administrativeArea>NH</administrativeArea>
+        <postalCode>03262</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(603) 726-8902</phone>
+      <onlineUrl>http://www.hubbardbrook.org</onlineUrl>
+    </publisher>
+    <pubPlace>Hubbard Brook LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>SAMPLING DESIGN</title>
+            <para>Each stream was sampled at 100m intervals, from the confluence with the main Hubbard Brook, to the 
+							first running water, typically at the top of each watershed. Major side channels for 2nd and 3rd-order
+							streams were also sampled at 100m intervals to first running water. Each of the major tributary 
+							watersheds was sampled in one day. Some watersheds were relatively simple, so that several similar 
+							streams could be sampled in one day. Other watersheds had a variety of branching patterns and rugged 
+							terrain that took an entire day to cover. Coverage is more complete (750 samples in the fall vs 
+							650 in the spring) in the fall survey for 2 reasons: 1) streams gradually dried up in the late 
+							spring, early summer survey as leaf-out progressed; 2) streams tended to wet-up in the fall after 
+							deciduous leaf abscission. Thus, the distance to first running water was often extended in the second 
+							survey. All the major perennial streams in the HBEF Valley were included. There were a number of 
+							stream channels that were not sampled because they were dry. These evidently were ephemeral tributaries
+							that contained water only briefly during snowmelt runoff and following heavy rain events.</para>
+          </section>
+          <section>
+            <title>SAMPLE SITE LOCATION</title>
+            <para>Samples were taken at 100m intervals determined by walking up the channels with a hip-chain in the 
+							first survey. On reaches with a sinusoidal pattern, the straight-line distance between samples sites 
+							could be much shorter than 100m. Labeled, polypropylene flags were inserted in the stream bank at 
+							each site along with a tape streamer for quick identification during the second round. 
+							Locations were determined using a hand-held GPS receiver (Garmen Vista). Elevations were taken from 
+							a USGS DEM provided in Terrain Navigator mapping software.	Sample sites could be roughly located by 
+							the branching pattern of the systematic watershed and site numbering system (see data Format next), 
+							but this could be highly inaccurate because no system was found that could number forked channels as 
+							to direction left/right, or east/west, etc.</para>
+          </section>
+          <section>
+            <title>SCOPE OF WORK</title>
+            <para>Samples were collected in the spring after snowmelt and again in the fall before winter snowfall. 
+							The initial plan was to reduce the two collection periods to a minimum of a few weeks each to provide
+							near-instantaneous &#8216;snap-shots&#8217; of biogeochemical conditions throughout the Valley. However, this 
+							proved to be impossible, given the logistics involved in sampling nearly simultaneously all the 
+							major tributaries to Hubbard Brook.  As a result, each time period extended to almost 2 months. 
+							There were no heavy rains and resultant high stream flows on days when samples were collected. 
+							Thus, we have some confidence that hydrologic conditions were not radically different between streams 
+							during each survey. Furthermore, our long-term data from the gauged watersheds indicates that the 
+							relationship between stream flow and solute concentration is relatively weak for most solutes, 
+							even across 5 orders of magnitude increases in flow. Spring snowmelt in 2001 proceeded remarkably 
+							gradually and without any rain-augmented high flows. There were no heavy rain events in the fall of
+							2001, prior to our collection, and a permanent snow pack did not develop until after we had finished.</para>
+          </section>
+          <section>
+            <title>ANALYTICAL PROTOCOL</title>
+            <para>The chemical measurements were made at HBEF in the RS Pierce Ecosystems Laboratory (N. Woodstock, NH), 
+							or at the Cary Institute of Ecosystems Studies Analytical Laboratory (Millbrook, NY), or at the US Forest 
+							Service Laboratory (Durham, NH). Analytical protocols and estimates of accuracy and precision are described
+							in detail by Buso et al. (2000). Quality control procedures used as a standard for the long-term Hubbard 
+							Brook chemical data were applied to these data as well.</para>
+          </section>
+          <section>
+            <title>DATA PROTOCOL</title>
+            <para>The main Hubbard Brook (HB) watershed was labeled #88. The tributary watersheds (WS-) were numbered by the approximate distance 
+							in meters, divided by 10, upstream from the Rte 3 bridge over HB (starting point of the survey). For example, WS-70 
+							(Mirror Lake outlet stream) enters HB at about 700m above Rte 3; WS-1305 (Lost Brook) enters HB about 13 km upstream of Rte 3. 
+							Larger branches on 4th order streams were given separate watershed labels: e.g. WS-868 (Canyon Brook) branched into 868 
+							(east fork) and 869 (west fork). 
+							The decision to choose the main stem at a fork was based on an estimate of observed flow and not the base map.</para>
+            <para>Sample sites were numbered starting at site 0 (a few meters above the entry point of the tributary to the main Hubbard 
+							Brook) and increased upstream at 100m intervals: e.g. WS-392, Site 0, 1, 2, 3, etc.  Branches on tributaries were numbered
+							according to the distance along the 100m interval: e.g., WS-392 branches at 1530m above HB, giving rise to site number 
+							15.30. Additional sample sites on these branches were numbered by 100m intervals from the point of branching: e.g., in 
+							WS-392, we collected three more samples up branch 15.30, at sites numbered 15.31, 15.32, and 15.33. While obviously 
+							flawed from the standpoint of perfect fractal nomenclature, this was an on-the-fly decision that allowed for quick 
+							identification of bottles and corresponding field notes.
+							The main Hubbard Brook (preset as WS-88) was sampled just upstream of each tributary and these sites were labeled with
+							the tributary watershed number: e.g. WS-88, Site-1074 was the main HB sample taken just above the main stem of Kineo 
+							Brook (WS-1074).</para>
+          </section>
+        </description>
+        <citation>
+          <title>Chemistry of precipitation, streamwater, and
+						lakewater from the Hubbard Brook Ecosystem Study: a
+						record of sampling protocols and analytical
+						procedures</title>
+          <creator id="buso">
+            <individualName>
+              <givenName>D.C.</givenName>
+              <surName>Buso</surName>
+            </individualName>
+          </creator>
+          <creator id="likens">
+            <individualName>
+              <givenName>G.E.</givenName>
+              <surName>Likens</surName>
+            </individualName>
+          </creator>
+          <creator id="eaton">
+            <individualName>
+              <givenName>J.S.</givenName>
+              <surName>Eaton</surName>
+            </individualName>
+          </creator>
+          <pubDate>2000</pubDate>
+          <report>
+            <reportNumber>USDA Forest Service, Northeastern Research Station Gen. Tech.
+							Rep. NE-275</reportNumber>
+            <publisher>
+              <organizationName>USDA Forest Service</organizationName>
+            </publisher>
+            <publicationPlace>Newtown Square, PA</publicationPlace>
+            <totalPages>52 pp. </totalPages>
+          </report>
+        </citation>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>valley_stream_chem</entityName>
+      <entityDescription>Stream chemistry data for Valleywide Study at Hubbard Brook LTER</entityDescription>
+      <physical>
+        <objectName>valley_stream_chem.txt</objectName>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>0x2c</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-hbr/166/1/0d3e3886e3d1235723da21df684137fa</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=HBR,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>WATERSHED</attributeName>
+          <attributeDefinition>Watershed number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Watersheds were numbered according to their distance from Mirror Lake. See Methods section for details.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SITE_NO</attributeName>
+          <attributeDefinition>Site of sample collection</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Collection sites numbered every 100 m from the tributary point of entry to Hubbard Brook. See Methods section for details.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>Year of collection</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain />
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MONTH</attributeName>
+          <attributeDefinition>Month of collection</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DAY</attributeName>
+          <attributeDefinition>Day of collection</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EST</attributeName>
+          <attributeDefinition>Time of collection, Eastern Standard Time, 24 hour clock format</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>HHMM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0001</minimum>
+                  <maximum exclusive="false">2459</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VISIT</attributeName>
+          <attributeDefinition>Season of collection</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Spring 2001</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Fall 2001</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UTM_EAST</attributeName>
+          <attributeDefinition>Easterly location in UTM based on NAD83</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UTM_NORTH</attributeName>
+          <attributeDefinition>Northerly location in UTM based on NAD83</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GPS_ERR</attributeName>
+          <attributeDefinition>Estimate of uncertainty of position of GPS receiver.</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-3</code>
+            <codeExplanation>Data missing or not taken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ELEV</attributeName>
+          <attributeDefinition>Elevation (in meters) above MSL, derived from USGS DEM</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AREA_HA</attributeName>
+          <attributeDefinition>Watershed area in hectares upstream of sample site</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.99</code>
+            <codeExplanation>Data missing or not taken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AREA_KM2</attributeName>
+          <attributeDefinition>Watershed area in square kilometers upstream of sample site</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>kilometerSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.9999</code>
+            <codeExplanation>Data missing or not taken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CA_CONC</attributeName>
+          <attributeDefinition>calcium concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MG_CONC</attributeName>
+          <attributeDefinition>magnesium concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>K_CONC</attributeName>
+          <attributeDefinition>potassium concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NA_CONC</attributeName>
+          <attributeDefinition>sodium concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Al_M_CONC</attributeName>
+          <attributeDefinition>total monomeric aluminum in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.005</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_CONC</attributeName>
+          <attributeDefinition>ammonium concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pH</attributeName>
+          <attributeDefinition>pH</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SO4_CONC</attributeName>
+          <attributeDefinition>sulfate concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NO3_CONC</attributeName>
+          <attributeDefinition>nitrate concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CL_CONC</attributeName>
+          <attributeDefinition>chloride concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PO4_CONC</attributeName>
+          <attributeDefinition>Ortho-phosphate concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DOC_CONC</attributeName>
+          <attributeDefinition>Dissolved organic carbon concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DIC_CONC</attributeName>
+          <attributeDefinition>Dissolved inorganic carbon concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SIO2_CONC</attributeName>
+          <attributeDefinition>silicate concentration in mg/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ANC</attributeName>
+          <attributeDefinition>Acid neutralizing capacity in ueq/L</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microequivalentPerLiter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SPCOND</attributeName>
+          <attributeDefinition>Specific conductance corrected to 25 degrees celcius in uS/cm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemensPerCentimeter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999.9</code>
+            <codeExplanation>Data missing or not taken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TEMP</attributeName>
+          <attributeDefinition>Temperature in degrees celcius measured in stream at time of collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celcius</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="" constantToSI="0" id="kilometerSquared" multiplierToSI="1000000" name="kilometerSquared" parentSI="meterSquared" unitType="area">
+          <ns2:description>square kilometers</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="" constantToSI="0" id="microequivalentPerLiter" multiplierToSI="0" name="microequivalentPerLiter" parentSI="molePerMeterCubed" unitType="amountOfSubstanceConcentration">
+          <ns2:description>concentration of charge (on dissolved ions). A single multiplier to SI is not possible, 
+						since conversion includes valence of ion.</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="mg/l" constantToSI="0" id="milligramPerLiter" multiplierToSI="0.001" name="milligramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <ns2:description>unit of element concentration in precipitation</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="uS/cm" constantToSI="0" id="microsiemensPerCentimeter" multiplierToSI="0.0001" name="microsiemensPerCentimeter" parentSI="siemens" unitType="conductivity">
+          <ns2:description>microsiemens per centimeter</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="" id="celcius" name="celcius" unitType="">
+          <ns2:description>unit of temperature</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

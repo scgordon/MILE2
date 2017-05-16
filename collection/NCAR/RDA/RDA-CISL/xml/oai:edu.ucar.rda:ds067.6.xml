@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="067.6"
+            type="primary">
+   <timeStamp value="2015-02-10 19:03:11 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Randel's Global Gridded Spectral Height and Temperature Fields</title>
+   <summary>
+      <p>This dataset contains once-daily global gridded geopotential
+              height and temperature at levels from 1000 millibars up to 1 millibar for the
+              period from April 1979 to May 1994.  Bill Randel of NCAR
+              interpolated bad and missing data in the grids of <a href="http://rda.ucar.edu/datasets/ds067.1/">ds067.1</a> and
+              stored the new data as zonal Fourier coefficients on an
+              approximate 4.5 degree latitude/longitude grid (consistent with
+              R15 spectral resolution).  Further information can be found in
+              NCAR Technical Note 366, which is available from the UCAR
+              publications office at (303) 497-8601.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/ACD &gt; Atmospheric Chemistry Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                contact="Bill Randel"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Randel, W.J.</authorList>
+      <year>1987</year>
+      <title>Global atmospheric circulation statistics, 1000 - 1 mb</title>
+      <organization reportID="TN-295" pages="245">National Center for Atmospheric Research</organization>
+   </reference>
+   <reference type="technical_report">
+      <authorList>Randel, W.J.</authorList>
+      <year>1992</year>
+      <title>Global atmospheric circulation statistics, 1000 - 1 mb</title>
+      <organization reportID="TN-366+STR" pages="256">National Center for Atmospheric Research</organization>
+   </reference>
+   <publicationDate>1994-10-13</publicationDate>
+   <contentMetadata>
+      <temporal start="1979-04" end="1994-05" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="400" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="150" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="70" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+         <level type="Isobaric level" value="30" units="mbar"/>
+         <level type="Isobaric level" value="10" units="mbar"/>
+         <level type="Isobaric level" value="5" units="mbar"/>
+         <level type="Isobaric level" value="2" units="mbar"/>
+         <level type="Isobaric level" value="1" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="80"
+               numY="40"
+               startLon="0E"
+               startLat="86.6S"
+               endLon="355.5E"
+               endLat="86.6N"
+               xRes="4.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

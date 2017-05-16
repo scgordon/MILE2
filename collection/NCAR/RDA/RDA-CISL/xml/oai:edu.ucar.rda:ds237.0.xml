@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="237.0"
+            type="primary">
+   <timeStamp value="2015-02-10 21:36:26 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Terrestrial Water Budget by Willmott and Rowe</title>
+   <summary>
+      <p>Willmott and Rowe have created a terrestrial water budget
+              data archive on a 1-degree grid.  They identified 13332 global
+              stations with complete records and created 30-year (1950-1979)
+              climatological means for each month of the year for air
+              temperature, precipitation, evaporation, soil moisture, and
+              snow cover.  These monthly climatological means were then
+              interpolated to the 1-degree gridpoints.  This data set contains
+              the 1-degree gridpoint data and the individual station data.</p>
+      <p>DSS has created a
+              <a href="http://rda.ucar.edu/docs/formats/grib/gribdoc/">GRIB</a>
+              version of the gridpoint data for users who prefer the GRIB
+              format.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UDEL/GEOG/CCR &gt; Center For Climate Research, Department of Geography, University of Delaware"
+                contact="Cort Willmott"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Evaporation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Depth</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Moisture/Water Content</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1990-09-11</publicationDate>
+   <contentMetadata>
+      <temporal start="1950-01-01 00:00 +0000"
+                end="1980-01-01 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="30-year"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="361"
+               numY="181"
+               startLon="180W"
+               startLat="90N"
+               endLon="180E"
+               endLat="90S"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

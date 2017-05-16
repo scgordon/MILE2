@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="609.2"
+            type="primary">
+   <timeStamp value="2015-02-11 17:03:11 -0700"/>
+   <continuingUpdate value="yes" frequency="monthly"/>
+   <title>GCIP NCEP Eta model output</title>
+   <summary>
+      <p>The operational NCEP Eta 212 grid (40 km) model output is archived in this
+              dataset from April 30, 1995 to December 31, 2012. This is one of the model output archives for GCIP project.
+              In addition to the Model Output Reduced Data Set (MORDS) and Model
+              Output Location Time Series (MOLTS) analyses required by GCIP project, all upper
+              air levels and their analyses, initialization, and forecasts are saved
+              as well. As NCEP replaced NAM Eta model on June 13, 2006, EMC/NCEP has continued making Eta runs which are archived here until the end of 2012.</p>
+      <p>Starting from January 1, 2013, NCEP's operational NAM (40 km, grid 212) 6-hourly analysis and 3-hourly forecasts up to 60 hours are archived. NCEP uses a version of WRF model for NAM production.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vorticity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Heat Flux</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Precipitable Water</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Water Equivalent</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Infrared Wavelengths &gt; Thermal Infrared</variable>
+   <contact>Chi-Fan Shih</contact>
+   <platform vocabulary="GCMD">NCEP-NAM &gt; NCEP North American Model</platform>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">NCEP-ETA &gt; NCEP Eta Model</platform>
+   <project vocabulary="GCMD">GCIP &gt; GEWEX Continental-Scale International Project</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://rda.ucar.edu/datasets/ds609.1/">FSL MAPS GCIP Model Output Archive</relatedResource>
+   <relatedResource url="http://rda.ucar.edu/datasets/ds609.3/">Canadian Meteorological Center GEM GCIP Model output Archive</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/gcp/awip212.html">NCEP GCIP Eta Content of Fields, Inventories</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/gcp/molts.html">NCEP GCIP MOLTS Data</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/gcp/sfcflds.html">NCEP GCIP Eta Surface Fields</relatedResource>
+   <relatedResource url="http://www.meto.umd.edu/~berbery/gcip/">Hugo Berbery's GCIP Site at Univ. Maryland</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/gcp/etarefs.html">NCEP Eta Model Journal References Site</relatedResource>
+   <relatedDataset ID="608.0"/>
+   <publicationDate>1998-06-02</publicationDate>
+   <contentMetadata>
+      <temporal start="1995-04-30 12:00 +0000"
+                end="2015-12-02 06:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <temporalFrequency type="regular" number="3" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <format>WMO_GRIB2</format>
+      <geospatialCoverage>
+         <grid definition="lambertConformal"
+               numX="185"
+               numY="129"
+               startLon="133.459W"
+               startLat="12.19N"
+               projLon="95W"
+               resLat="25N"
+               xRes="40.635"
+               yRes="40.635"
+               pole="N"
+               stdParallel1="25N"
+               stdParallel2="25N"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="lambertConformal"
+               numX="185"
+               numY="129"
+               startLon="226.541E"
+               startLat="12.19N"
+               projLon="265E"
+               resLat="25N"
+               xRes="40.635"
+               yRes="40.635"
+               pole="N"
+               stdParallel1="25N"
+               stdParallel2="25N"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

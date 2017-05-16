@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="744.8"
+            type="historical">
+   <timeStamp value="2015-02-11 19:49:26 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>QSCAT and ADEOS-II / NCEP Blended Ocean Winds (version 1.0)</title>
+   <summary>
+      <p>
+              Ocean surface wind data are derived from spatial blending of
+              high-resolution satellite data from tandem SeaWinds missions
+              (QSCAT and ADEOS-II)  and  global
+              weather center  analyses (NCEP), resulting in  high temporal
+              and spatial resolution  datasets (6-hourly, and 0.5 by 0.5 degree).
+              </p>
+      <p>
+              This two-scatterometer blending product is only available for the duration
+              of the ADEOS-II mission (April 10 to October 24 2003).  The blending scheme is a
+              variation of the single-scatterometer blending (QSCAT only, <a href="http://rda.ucar.edu/datasets/ds744.4/">ds744.4</a>): the main
+              difference is a 7.5 hour time-window used for blending versus the sliding 12-hour
+              window in the QSCAT only blending.
+              </p>
+      <p>
+              Available  data  products are:  the  blended product, which consists of QSCAT and ADEOS-II blended with NCEP analyses;
+              and the low-wavenumber analysis field, which is the
+              NCEP analyses splined to the 0.5 by 0.5 degree grid.
+              These fields are available as wind components or as windstress curl.  Details of the method
+              are summarized in
+              <a href="http://rda.ucar.edu/datasets/ds744.8/docs/Blended_Winds_Summary_doc">
+              this document</a>.
+              </p>
+      <p>
+              Data file formats and read routines are the same as for QSCAT/NCEP blending (ds744.4).
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="NWRA/CORA &gt; Colorado Research Associates, Northwest Research Associates, Inc."
+                contact="Jan Morzel;Ralph Milliff"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Wind Stress</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <relatedDataset ID="744.4"/>
+   <relatedDataset ID="744.2"/>
+   <relatedDataset ID="744.5"/>
+   <relatedDataset ID="744.6"/>
+   <publicationDate>2004-03-30</publicationDate>
+   <contentMetadata>
+      <temporal start="2003-04" end="2003-10" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Specified height above ground or water surface"
+                value="10"
+                units="m"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

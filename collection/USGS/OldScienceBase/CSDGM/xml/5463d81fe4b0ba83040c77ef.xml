@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>USGS, Snake River Field Station</origin>
+            <pubdate>20031106</pubdate>
+            <title Sync="TRUE">cell_towers_sgca</title>
+            <geoform Sync="TRUE">vector digital data</geoform>
+            <onlink>http://srfs.wr.usgs.gov/Fresc_ScienceData/communication_towers_sgca.zip</onlink>
+            <onlink>https://www.sciencebase.gov/catalog/item/54247bbfe4b037b608f9ed99</onlink>
+            <othercit>Hard copy of the distirbution of communication towers can be found in Figure 7.21, Chapter 7, p. 90, in Connelly, J. W., S. T. Knick, M. A. Schroeder, and S. J. Stiver.  2004.  Conservation assessment of Greater Sage-grouse and sagebrush habitats.  Western Association of Fish and Wildlife Agencies.  Unpublished Report.  Cheyenne, Wyoming.</othercit>
+            <onlink>http://sagemap.wr.usgs.gov/</onlink>
+            <ftname Sync="TRUE">cell_towers_sgca</ftname>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>Cellular phone microwave towers registered with the U.S. Federal Communications Commission. Not all antennas are required to be registered with the FCC, therefore, this data set does not necessarily depict ALL cellular phone communication towers actually present on the landscape.  The source data are updated weekly by the FCC as new permits are issued.  However, this particular data set is designed for a specific analysis, and is planned to remain static as of the publication date (11/06/2003).</abstract>
+         <purpose>This spatial data set was initially developed for use on the Rangewide Conservation Assessment for Sage Grouse, but the data set has general use applications.</purpose>
+         <supplinf>There are known (and obvious) spatial errors.  Some towers are mislocated in the source data.</supplinf>
+         <langdata Sync="TRUE">en</langdata>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>20031106</caldate>
+               <time>1300</time>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc Sync="TRUE">-179.999667</westbc>
+            <eastbc Sync="TRUE">179.762313</eastbc>
+            <northbc Sync="TRUE">90.000000</northbc>
+            <southbc Sync="TRUE">-19.254661</southbc>
+         </bounding>
+         <lboundng>
+            <leftbc Sync="TRUE">-6166917.027555</leftbc>
+            <rightbc Sync="TRUE">7078860.191987</rightbc>
+            <bottombc Sync="TRUE">-3167969.074666</bottombc>
+            <topbc Sync="TRUE">6124098.531945</topbc>
+         </lboundng>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>Antenna</themekey>
+            <themekey>Communication</themekey>
+            <themekey>Tower</themekey>
+            <themekey>Federal Communication Commission</themekey>
+            <themekey>Point Location</themekey>
+            <themekey>Cellular</themekey>
+            <themekey>Wireless</themekey>
+            <themekey>Telephone</themekey>
+         </theme>
+         <theme>
+            <themekt>Geospatial One Stop</themekt>
+            <themekey>Utilities and Communication</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>United States</placekey>
+            <placekey>North America</placekey>
+         </place>
+      </keywords>
+      <accconst>none</accconst>
+      <useconst>None, but user assumes all responsibilities for proper use of this data set.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Sean P. Finn</cntper>
+               <cntorg>USGS, Snake River Field Station</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist (GIS)</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>970 Lusk St.</address>
+               <city>Boise</city>
+               <state>ID</state>
+               <postal>83706</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>(208) 426-2697</cntvoice>
+            <cntfax>(208) 426-5210</cntfax>
+            <cntemail>sfinn@usgs.gov</cntemail>
+            <hours>8 - 5</hours>
+         </cntinfo>
+      </ptcontac>
+      <datacred>Federal Communication Commission, International Bureau and Office of Engineering and Technology</datacred>
+      <secinfo>
+         <secsys>none</secsys>
+         <secclass>Unclassified</secclass>
+         <sechandl>none</sechandl>
+      </secinfo>
+      <native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+      <natvform Sync="TRUE">Shapefile</natvform>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>The location of several features have incorrect coordinates.  The true accuracy of the remaining features is unknown and untested.</attraccr>
+      </attracc>
+      <logic>Dependent upon the source data.</logic>
+      <complete>Because not all communication antennas are required to be registered with the FCC, this data set does not necessarily depict ALL communication features on the landscape.  Furthermore, the FCC updates this source database on a weekly basis but this shapefile was created for a short-term analysis and contains only data available on 11/6/2003.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>unknown, see source data</horizpar>
+         </horizpa>
+      </posacc>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Federal Communication Commission</origin>
+                  <pubdate>20031106</pubdate>
+                  <title>Cellular Telephone Towers</title>
+                  <geoform>tabular digital data</geoform>
+                  <onlink>ftp://ftp.fcc.gov/pub/Bureaus/Wireless/Databases/uls/complete/l_cell.zip</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>20031106</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>cell_towers</srccitea>
+            <srccontr>location and attributes of the communication antenna towers</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>We imported the 'LO.dat' table into MS Access, then extracted pertinent data into a new table using the 'make-table' query function.  We then converted the 'degree', 'minute' and 'second' fields for both latitude and longitude into 2 fields (one for latitude, one for longitude) containing decimal degrees using the formula: degrees+(minutes/60)+(seacond/3600).  We exported this output table into delimited text (*.txt) format.</procdesc>
+            <srcused>ftp://ftp.fcc.gov/pub/Bureaus/Wireless/Databases/uls/complete/l_cell.zip</srcused>
+            <procdate>20031106</procdate>
+            <proctime>1300</proctime>
+            <srcprod>cell_towers.txt</srcprod>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean P. Finn</cntper>
+                     <cntorg>USGS, Snake River Field Station</cntorg>
+                  </cntperp>
+                  <cntpos>Wildlife Biologist (GIS)</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>970 Lusk. St.</address>
+                     <city>Boise</city>
+                     <state>ID</state>
+                     <postal>83706</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>(208) 426-2697</cntvoice>
+                  <cntfax>(208) 426-5210</cntfax>
+                  <cntemail>sfinn@usgs.gov</cntemail>
+                  <hours>8 - 5</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Added text file 'cell_towers.txt' as a table into ArcMap 8.3 using Tools --&gt; addXY... and then converted the tabular data to a shapefile using the 'Data --&gt; Export data...' function.</procdesc>
+            <srcused>cell_towers.dbf</srcused>
+            <procdate>20031106</procdate>
+            <srcprod>cell_towers.shp</srcprod>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean P Finn</cntper>
+                     <cntorg>USGS Snake River Field Station</cntorg>
+                  </cntperp>
+                  <cntpos>Wildlife Biologist (GIS)</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>970 Lusk St.</address>
+                     <city>Boise</city>
+                     <state>ID</state>
+                     <postal>83706</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>(208) 426-2697</cntvoice>
+                  <cntfax>(208) 426-5210</cntfax>
+                  <cntemail>sfinn@usgs.gov</cntemail>
+                  <hours>8 - 5</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct Sync="TRUE">Vector</direct>
+      <ptvctinf>
+         <sdtsterm Name="cell_towers_sgca">
+            <sdtstype Sync="TRUE">Entity point</sdtstype>
+            <ptvctcnt Sync="TRUE">22020</ptvctcnt>
+         </sdtsterm>
+         <esriterm Name="cell_towers_sgca">
+            <efeatyp Sync="TRUE">Simple</efeatyp>
+            <efeageom Sync="TRUE">Point</efeageom>
+            <esritopo Sync="TRUE">FALSE</esritopo>
+            <efeacnt Sync="TRUE">22020</efeacnt>
+            <spindex Sync="TRUE">TRUE</spindex>
+            <linrefer Sync="TRUE">FALSE</linrefer>
+         </esriterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <planci>
+               <plance Sync="TRUE">coordinate pair</plance>
+               <coordrep>
+                  <absres Sync="TRUE">0.032768</absres>
+                  <ordres Sync="TRUE">0.032768</ordres>
+               </coordrep>
+               <plandu Sync="TRUE">meters</plandu>
+            </planci>
+            <mapproj>
+               <mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn>
+               <albers>
+                  <stdparll Sync="TRUE">38.000000</stdparll>
+                  <stdparll Sync="TRUE">41.000000</stdparll>
+                  <longcm Sync="TRUE">-114.000000</longcm>
+                  <latprjo Sync="TRUE">34.000000</latprjo>
+                  <feast Sync="TRUE">0.000000</feast>
+                  <fnorth Sync="TRUE">0.000000</fnorth>
+               </albers>
+            </mapproj>
+         </planar>
+         <geodetic>
+            <horizdn Sync="TRUE">D_Clarke_1866</horizdn>
+            <ellips Sync="TRUE">Clarke 1866</ellips>
+            <semiaxis Sync="TRUE">6378206.400000</semiaxis>
+            <denflat Sync="TRUE">294.978698</denflat>
+         </geodetic>
+         <cordsysn>
+            <geogcsn Sync="TRUE">GCS_Clarke_1866</geogcsn>
+            <projcsn Sync="TRUE">Clarke_1866_Albers</projcsn>
+         </cordsysn>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed Name="cell_towers_sgca">
+         <enttyp>
+            <enttypl Sync="TRUE">cell_towers_sgca</enttypl>
+            <enttypd>Attributes of cell_towers.shp</enttypd>
+            <enttypds>ESRI</enttypds>
+            <enttypt Sync="TRUE">Feature Class</enttypt>
+            <enttypc Sync="TRUE">22020</enttypc>
+         </enttyp>
+         <attr>
+            <attrlabl Sync="TRUE">FID</attrlabl>
+            <attrdef Sync="TRUE">Internal feature number.</attrdef>
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+            <attrdomv>
+               <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">FID</attalias>
+            <attrtype Sync="TRUE">OID</attrtype>
+            <attwidth Sync="TRUE">4</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Shape</attrlabl>
+            <attrdef Sync="TRUE">Feature geometry.</attrdef>
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+            <attrdomv>
+               <udom Sync="TRUE">Coordinates defining the features.</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">Shape</attalias>
+            <attrtype Sync="TRUE">Geometry</attrtype>
+            <attwidth Sync="TRUE">0</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">F2_ID1_</attrlabl>
+            <attrdef>FCC assigned number</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <udom>Unique identification number</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">F2_ID1_</attalias>
+            <attrtype Sync="TRUE">Number</attrtype>
+            <attwidth Sync="TRUE">19</attwidth>
+            <atnumdec Sync="TRUE">5</atnumdec>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">F5_ID2_</attrlabl>
+            <attrdef>FCC assigned number</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <udom>Unique alphanumeric code</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">F5_ID2_</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">F9_VAL1_</attrlabl>
+            <attrdef>FCC assigned value</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <udom>Unique alphanumeric code</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">F9_VAL1_</attalias>
+            <attrtype Sync="TRUE">Number</attrtype>
+            <attwidth Sync="TRUE">19</attwidth>
+            <atnumdec Sync="TRUE">5</atnumdec>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">LATITUDE</attrlabl>
+            <attrdef>Y-coordinate of tower location in decimal degrees</attrdef>
+            <attrdefs>FCC (converted from DMS to decimal degrees by contact person)</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>13.23917</rdommin>
+                  <rdommax>71.31792</rdommax>
+               </rdom>
+            </attrdomv>
+            <attrvai>
+               <attrva>unknown</attrva>
+               <attrvae>some known to be incorrect not included in range of domain values</attrvae>
+            </attrvai>
+            <attalias Sync="TRUE">LATITUDE</attalias>
+            <attrtype Sync="TRUE">Number</attrtype>
+            <attwidth Sync="TRUE">19</attwidth>
+            <atnumdec Sync="TRUE">5</atnumdec>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">LAT_HEMI</attrlabl>
+            <attrdef>Hemisphere of y-coordinate</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>N</edomv>
+                  <edomvd>Northern</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+            </attrdomv>
+            <attrvai/>
+            <attalias Sync="TRUE">LAT_HEMI</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">LONGITUDE</attrlabl>
+            <attrdef>X-coordinate of tower location in decimal degrees</attrdef>
+            <attrdefs>FCC (converted from DMS to decimal degrees by contact person)</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-171.73086</rdommin>
+                  <rdommax>-64.68769</rdommax>
+               </rdom>
+            </attrdomv>
+            <attrvai>
+               <attrva>unknown</attrva>
+               <attrvae>some known to be incorrect not included in range of domain values</attrvae>
+            </attrvai>
+            <attalias Sync="TRUE">LONGITUDE</attalias>
+            <attrtype Sync="TRUE">Number</attrtype>
+            <attwidth Sync="TRUE">19</attwidth>
+            <atnumdec Sync="TRUE">5</atnumdec>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">LON_HEMI</attrlabl>
+            <attrdef>Hemisphere of X-coordinate</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>W</edomv>
+                  <edomvd>Western</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+            </attrdomv>
+            <attrvai/>
+            <attalias Sync="TRUE">LON_HEMI</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">DATE_</attrlabl>
+            <attrdef>Date</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <udom>Date</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">DATE_</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">LOCATION</attrlabl>
+            <attrdef>Physical location of tower</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <udom>Text description of tower location</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">LOCATION</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">CITY</attrlabl>
+            <attrdef>City nearest to tower location</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <udom>City nearest to tower location</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">CITY</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">COUNTY</attrlabl>
+            <attrdef>County where tower located</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <udom>County in which tower is located</udom>
+            </attrdomv>
+            <attalias Sync="TRUE">COUNTY</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">STATE</attrlabl>
+            <attrdef>State where tower located</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Two-letter state/territory code</codesetn>
+                  <codesets>USPS</codesets>
+               </codesetd>
+            </attrdomv>
+            <attalias Sync="TRUE">STATE</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">STR_TYPE</attrlabl>
+            <attrdef>Type of Structure</attrdef>
+            <attrdefs>FCC</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>B</edomv>
+                  <edomvd>Building</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>BANT</edomv>
+                  <edomvd>Building with antenna</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>BMAST</edomv>
+                  <edomvd>Building with mast</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>BPIPE</edomv>
+                  <edomvd>Building with pipe</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>BPOLE</edomv>
+                  <edomvd>Building with pole</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>BRIDG</edomv>
+                  <edomvd>Bridge</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>BTWR</edomv>
+                  <edomvd>Building with tower</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>MAST</edomv>
+                  <edomvd>Mast</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>NNTANN</edomv>
+                  <edomvd>Antenna Tower Array: 1st N = # of towers; 2nd N = position of this tower (AM broadcast station)</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>NTOWER</edomv>
+                  <edomvd>Multiple Structures: N is the # of structures</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>PIPE</edomv>
+                  <edomvd>Any type of pipe</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>POLE</edomv>
+                  <edomvd>Any type of pole</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>RIG</edomv>
+                  <edomvd>Oil or other type of rig</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>SIGN</edomv>
+                  <edomvd>Any type of sign or billboard</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>SILO</edomv>
+                  <edomvd>Any type of silo</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>STACK</edomv>
+                  <edomvd>Smoke stack</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>TANK</edomv>
+                  <edomvd>Any type of tank (water, gas, etc)</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>TOWER</edomv>
+                  <edomvd>Free standing or guyed structure used for communication purposes</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>TREE</edomv>
+                  <edomvd>When used as a support for an antenna</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+               <edom>
+                  <edomv>UPOLE</edomv>
+                  <edomvd>Utility pole/tower used to provide service (electric, telephone, etc)</edomvd>
+                  <edomvds>FCC</edomvds>
+               </edom>
+            </attrdomv>
+            <attrvai/>
+            <attalias Sync="TRUE">STR_TYPE</attalias>
+            <attrtype Sync="TRUE">String</attrtype>
+            <attwidth Sync="TRUE">254</attwidth>
+         </attr>
+      </detailed>
+      <overview>
+         <eaover>As of 7/6/2004, we are unable to locate precise definitions of all attributes; therefore, all attributes are not well documented in this metadata</eaover>
+         <eadetcit>ftp://ftp.fcc.gov/pub/Bureaus/Wireless/Databases/uls/complete/l_cell.zip</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>USGS Snake River Field Station, GIS Laboratory</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>970 Lusk St.</address>
+               <city>Boise</city>
+               <state>ID</state>
+               <postal>83706</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>(208) 426-5204</cntvoice>
+            <cntfax>(208) 426-5210</cntfax>
+            <cntemail>tzarriel@usgs.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>We make every effort to provide and maintain accurate, complete, usable, and timely information on our web sites. However, some USGS data and information accessed through these pages may, of necessity, be preliminary in nature and presented prior to final review and approval by the Director of the USGS. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>zipped shapefile</formname>
+               <filedec>no compression applied</filedec>
+               <transize>14.960</transize>
+               <dssize Sync="TRUE">50.611</dssize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>SAGEMAP</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Go to SAGEMAP or PRAIRIEMAP</accinstr>
+                  <oncomp>http://sagemap.wr.usgs.gov/regional/USGS/cell_towers.shp</oncomp>
+               </onlinopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>PRAIRIEMAP</networkr>
+                     </networka>
+                  </computer>
+                  <oncomp>http://prairiemap.wr.usgs.gov/regional/USGS/cell_towers.shp</oncomp>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>none</fees>
+         <ordering>go to SAGEMAP (http://sagemap.wr.usgs.gov) or PRAIRIEMAP (http://prairiemap.wr.usgs.gov) and search in '/Regional/USGS...' for data.</ordering>
+      </stdorder>
+   </distinfo>
+   <distinfo>
+- <distrib>
+- <cntinfo>
+- <cntorgp>
+               <cntorg>USGS Forest and Rangeland Ecosystem Science Center</cntorg>
+            </cntorgp>
+            <cntpos>Communications and Information Program</cntpos> 
+- <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>777 NW 9th Street, Suite 400</address>
+               <city>Corvallis</city>
+               <state>Oregon</state>
+               <postal>97300</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>541-750-1030</cntvoice>
+            <cntemail>fresc_outreach@usgs.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server, and not indirectly through other sources which may have changed the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+   </distinfo>
+- <metainfo>
+      <metd>20111003</metd> 
+- <metc>
+- <cntinfo>
+- <cntorgp>
+               <cntorg>USGS Forest and Rangeland Ecosystem Science Center</cntorg>
+            </cntorgp>
+            <cntpos>Communications and Information Program</cntpos> 
+- <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>777 NW 9th Street, Suite 400</address>
+               <city>Corvallis</city>
+               <state>Oregon</state>
+               <postal>97330</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>541-750-1030</cntvoice>
+            <cntemail>fresc_outreach@usgs.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001.1-1999</metstdv>
+   </metainfo>
+   <metainfo>
+      <metd Sync="TRUE">20041013</metd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Sean P Finn</cntper>
+               <cntorg>USGS Snake River Field Station</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Boilogist (GIS)</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>970 Lusk St.</address>
+               <city>Boise</city>
+               <state>ID</state>
+               <postal>83706</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>(208) 426-2697</cntvoice>
+            <cntfax>(208) 426-5210</cntfax>
+            <cntemail>sfinn@usgs.gov</cntemail>
+            <hours>8 - 5</hours>
+         </cntinfo>
+      </metc>
+      <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+      <mettc Sync="TRUE">local time</mettc>
+      <metac>none</metac>
+      <metuc>none</metuc>
+      <metsi>
+         <metscs>none</metscs>
+         <metsc>Unclassified</metsc>
+         <metshd>none</metshd>
+      </metsi>
+      <metextns>
+         <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+         <metprof>ESRI Metadata Profile</metprof>
+      </metextns>
+      <metextns>
+         <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+         <metprof>ESRI Metadata Profile</metprof>
+      </metextns>
+      <langmeta Sync="TRUE">en</langmeta>
+      <metextns>
+         <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+         <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+      </metextns>
+   </metainfo>
+   <Esri>
+      <MetaID>{A187FF5F-BD98-4335-A34B-D6BF665C4EEE}</MetaID>
+      <CreaDate>20041008</CreaDate>
+      <CreaTime>14531600</CreaTime>
+      <SyncOnce>FALSE</SyncOnce>
+      <SyncDate>20041013</SyncDate>
+      <SyncTime>15383600</SyncTime>
+      <ModDate>20041013</ModDate>
+      <ModTime>15383600</ModTime>
+   </Esri>
+   <dataIdInfo>
+      <envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</envirDesc>
+      <dataLang>
+         <languageCode Sync="TRUE" value="en"/>
+      </dataLang>
+      <idCitation>
+         <resTitle Sync="TRUE">cell_towers_sgca</resTitle>
+         <presForm>
+            <PresFormCd Sync="TRUE" value="005"/>
+         </presForm>
+      </idCitation>
+      <spatRpType>
+         <SpatRepTypCd Sync="TRUE" value="001"/>
+      </spatRpType>
+      <dataExt>
+         <geoEle>
+            <GeoBndBox esriExtentType="native">
+               <westBL Sync="TRUE">-6166917.027555</westBL>
+               <eastBL Sync="TRUE">7078860.191987</eastBL>
+               <northBL Sync="TRUE">6124098.531945</northBL>
+               <southBL Sync="TRUE">-3167969.074666</southBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </GeoBndBox>
+         </geoEle>
+      </dataExt>
+      <geoBox esriExtentType="decdegrees">
+         <westBL Sync="TRUE">-179.999667</westBL>
+         <eastBL Sync="TRUE">179.762313</eastBL>
+         <northBL Sync="TRUE">90</northBL>
+         <southBL Sync="TRUE">-19.254661</southBL>
+         <exTypeCode Sync="TRUE">1</exTypeCode>
+      </geoBox>
+   </dataIdInfo>
+   <mdLang>
+      <languageCode Sync="TRUE" value="en"/>
+   </mdLang>
+   <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+   <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+   <mdChar>
+      <CharSetCd Sync="TRUE" value="004"/>
+   </mdChar>
+   <mdHrLv>
+      <ScopeCd Sync="TRUE" value="005"/>
+   </mdHrLv>
+   <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+   <distInfo>
+      <distributor>
+         <distorTran>
+            <onLineSrc>
+               <orDesc Sync="TRUE">002</orDesc>
+               <linkage Sync="TRUE">file://\\Sparrow\Sparrow_s\HABITAT_ASSESS\FINAL_LAYERS\Figure_7.21\cell_towers_sgca.shp</linkage>
+               <protocol Sync="TRUE">Local Area Network</protocol>
+            </onLineSrc>
+            <transSize Sync="TRUE">50.611</transSize>
+         </distorTran>
+         <distorFormat>
+            <formatName Sync="TRUE">Shapefile</formatName>
+         </distorFormat>
+      </distributor>
+   </distInfo>
+   <refSysInfo>
+      <RefSystem>
+         <refSysID>
+            <identCode Sync="TRUE">Clarke_1866_Albers</identCode>
+         </refSysID>
+      </RefSystem>
+   </refSysInfo>
+   <spatRepInfo>
+      <VectSpatRep>
+         <topLvl>
+            <TopoLevCd Sync="TRUE" value="001"/>
+         </topLvl>
+         <geometObjs Name="cell_towers_sgca">
+            <geoObjTyp>
+               <GeoObjTypCd Sync="TRUE" value="004"/>
+            </geoObjTyp>
+            <geoObjCnt Sync="TRUE">22020</geoObjCnt>
+         </geometObjs>
+      </VectSpatRep>
+   </spatRepInfo>
+   <mdDateSt Sync="TRUE">20041013</mdDateSt>
+</metadata>

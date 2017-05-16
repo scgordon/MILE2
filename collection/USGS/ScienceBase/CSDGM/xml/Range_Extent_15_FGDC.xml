@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>M. Tim Tinker, USGS</origin>
+    <pubdate>2015</pubdate>
+    <title>Range_Extent_15</title>
+    <edition>2015</edition>
+    <geoform>Vector Digital Data Set (Polyline)</geoform>
+    <serinfo>
+     <sername>Annual California sea otter census</sername>
+     <issue>2015</issue>
+    </serinfo>
+    <onlink>http://dx.doi.org/10.5066/F7F47M5C</onlink>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>The GIS layer "Range_extent_15" is a simple polyline representing the geographic distribution of the southern sea otter (Enhydra lutris nereis) in mainland California, based on data collected during the spring 2015 range-wide census. The USGS range-wide sea otter census has been undertaken twice a year since 1982, once in May and once in October, using consistent methodology involving both ground-based and aerial-based counts. The spring census is considered more accurate than the fall count, and provides the primary basis for gauging population trends by State and Federal management agencies. Sea otter distribution in California (the mainland range) is considered to comprise a band of potential habitat stretching along the coast of California, and bounded to the north and south by range limits defined as "the points farthest from the range center at which 5 or more otters are counted within a 10km contiguous stretch of coastline (as measured along the 10m bathymetric contour) during the two most recent spring censuses, or at which these same criteria were met in the previous year".</abstract>
+   <purpose>The range-wide census is conducted to monitor trends in abundance of the southern sea otter, and thus provide State and Federal resource agencies with the information they need for effective management. Because the censuses represent uncorrected total counts (rather than sample-based surveys), they cannot be considered as accurate estimates of true population abundance. Instead, these data represent a valuable time-series of index counts, and provide the means of assessing spatial and temporal trends in relative abundance and distribution. The range extent GIS layer is useful for evaluating the range expansion of the sea otter population over time, and for identifying areas where significant sea otter impacts on near-shore marine communities are likely to occur.</purpose>
+   <supplinf>1. Census Methods During each census, the entire mainland range of the sea otter in coastal California is counted by one of two methods: aerial surveys or shore-based counts. The latter method is used in all areas that are accessible by ground-based observers, except in a few regions where otters often move far off shore (such as shallow, sandy embayments) and are therefore difficult to count reliably from the shore. For the majority of the sea otter's range, however, ground surveys are practical, and are considered the more reliable means of censusing. It has been estimated that shore-based observers generally detect about 90-95% of the otters located in a given area (Estes and Jameson 1988). The ground survey area is divided into sections and each section is assigned to a team of observers. Each team consists of two individuals, a primary and secondary observer. The primary observer in every case is an individual with considerable experience counting and observing sea otters. Generally, the secondary observer has less experience than the primary, but in some cases the teams consisted of equally skilled individuals. Occasionally, small areas are counted by a single individual, but this occurs infrequently, and in every instance the individual is highly skilled with many years of experience and intimately familiar with the area to be surveyed. Each team is equipped with a high resolution 50-80X telescope and each member has binoculars (10X). Shore-based procedures are as follows: the team starts at one end of their assigned section and selects an observation point that provides good viewing of a "viewable area of habitat", which generally consists of 100-300m of coastline and all waters out to approximately 1.5 km from shore. In most cases observers use the same counting locations year after year, for consistency. The observers scan the area with unaided eye and binoculars for otters or objects that are suspected to be sea otters. Large groups and suspicious objects are scanned by the primary observer with the aid of the telescope while the secondary observer continuously scans the area with binoculars for foraging or resting otters missed during the initial scan. After having taken sufficient time (15-30 minutes) to make a thorough count of all otters within this first area of habitat, the observers move down the coast to another location that provides good viewing of the next area of habitat, contiguous with the first area. This process is continued until the entire section is counted. All sea otter observations are marked as points directly onto field maps (scale 1:6000) that show all major features of the area (including offshore rocks and kelp beds) for reference. These features allow data to be precisely placed on the maps, and reduce the chances of recounting or undercounting when the team moves to the next observation point. In addition to the otter locations, associated data recorded directly onto the maps include the following: number of independent otters, number and relative age of pups (pups are classed as either small or large depending primarily on the presence or absence of the natal pelage, but sometimes on relative size or behavior), behavior (resting, foraging, or "other"), group size, and micro-habitat type (open water, kelp, or hauled out). Time and general counting conditions are also recorded. Viewing conditions are rated from excellent to poor (coded 4 to 0). Teams are instructed to not begin surveying if conditions are "poor", or to abort the survey if conditions deteriorate to "poor". Because each team is headed by an experienced observer, it is left to that individual to determine if conditions are suitable for counting. For those portions of the range where ground counting is impossible or impractical, aerial surveys are conducted using a Partenavia PN68 "Observer" fixed-wing plane. The plane carries three observers and a pilot, and flies at an air speed of approximately 167 kilometers per hour (90 knots) at an altitude of approximately 60 meters (200 feet). Pilot and data recorder/observer occupy front seats; principal observers occupy middle seats viewing out through bubble-type viewing windows. The flight path is a predetermined track line constructed using GIS software and loaded into a GPS for the pilot to follow. Transects are oriented parallel to the coastline, with the nearshore transect line centered approximately 300 meters from shore. At survey section boundaries, the plane turns offshore, reverses direction and flies parallel to the first transect, continuing to follow pre-established tracklines on the pilot's GPS. The distance moved offshore is dependent of habitat type: transects over kelp habitat are spaced 600 meters apart (300 meter viewing area to each side of the plane), while transects over open water are spaced 800 meters apart (400 meter viewing area to each side of the plane). The survey transects are established to cover all waters within 60m of depth (30 fathoms). In some areas, such as Pismo Beach, this includes over 10 transects spaced at 800 meters. The survey track line and waypoints for otter sightings are recorded on a separate handheld GPS unit. Additional information on each sea otter sighting is recorded onto data sheets which are later transferred to a spreadsheet. The data fields include group size (with adults and pups tallied separately), observer, and viewing conditions (ranked on a 1-10 scale). 2. Data Processing Census data recorded on paper survey maps are digitized directly into a GIS system using a standard digitizing tablet. All paper survey maps have 4 geo-reference calibration points marked on them to ensure spatial accuracy. A custom GIS data capture interface program was designed for this purpose (using ESRI ArcView 3.2 software and Avenue programming language) by Brian Fulfrost, Department of Environmental Studies, UC Santa Cruz. After completing the digitizing of all survey maps from the ground-based count, all spatial data collected during the aerial survey (including waypoints and associated attribute data in spreadsheet form) are imported into the program. Rigorous error checking is then conducted to ensure that the totals for each paper survey map and each aerial survey section are consistent with the data in the GIS database. 3. Data Analysis and Summarization Calculation of the sea otter's range along the mainland coast is facilitated by measuring the coast in linear units called "ATOS" points. The ATOS (As-The-Otter-Swims) points are arbitrary locations established approximately every 500 meters along a smoothed 5 fathom bathymetric contour (line) offshore of the State of California. Each ATOS point is identified by an integer value, and these integer values increase consecutively from north to south: ATOS 0 is located at the middle of the Golden Gate Bridge, and ATOS 2024 is located at the California/Mexico border. The ATOS line that these points fall along corresponds (in principal) to the track that would be followed by a sea otter travelling parallel to the coast to the north or south, and thus is useful for measuing distances travelled by sea otters or other coastal wildlife. The current locations of living sea otters, or the stranding locations of beach-cast otter carcasses, can be easily referred to by the nearest ATOS point number (e.g. ATOS 321 indicates the mouth of Elkhorn Slough, at Moss Landing, CA). All sea otter sighting locations are assigned the number of the nearest ATOS point, by conducting a spatial join with the Shape file "ATOS_teae_83". The numbers of otters associated with each ATOS point are then summed. The northern and southern range limits are then identified as the ATOS points farthest from the range center (ATOS 481) at which 5 or more otters are counted within 20 contiguous ATOS units (or a 10km contiguous stretch of coastline as measured along the 10m bathymetric contour) during the two most recent spring censuses, or at which these same criteria were met in the previous year. All ATOS points that fall between these range limits are selected, and converted into a single polyline that represents the current sea otter distribution. References Estes, J. A., and R. J. Jameson. 1988. A double-survey estimate for sighting probability of sea otters in California. Journal of Wildlife Management 52(1):70-76.</supplinf>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <rngdates>
+     <begdate>2014/06/30</begdate>
+     <enddate>2015/06/30</enddate>
+    </rngdates>
+   </timeinfo>
+   <current>ground condition</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>Annually</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-122.373376708</westbc>
+    <eastbc>-120.278704733</eastbc>
+    <northbc>37.196206673</northbc>
+    <southbc>34.418157193</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>None</themekt>
+    <themekey>aerial counts</themekey>
+    <themekey>sea otter census</themekey>
+    <themekey>distribution</themekey>
+    <themekey>shore counts</themekey>
+    <themekey>range</themekey>
+    <themekey>sea otters</themekey>
+   </theme>
+   <theme>
+    <themekt>ISO 19115 Topic Categories</themekt>
+    <themekey>biota</themekey>
+    <themekey>environment</themekey>
+    <themekey>oceans</themekey>
+   </theme>
+   <place>
+    <placekt>None</placekt>
+    <placekey>California</placekey>
+    <placekey>Coast</placekey>
+    <placekey>Central California Coast</placekey>
+    <placekey>Southern California Coast</placekey>
+   </place>
+  </keywords>
+  <accconst>None</accconst>
+  <useconst>The authors of these data suggest that users direct any questions pertaining to appropriate use or assistance with understanding limitations and interpretation of the data to the individuals/organization listed in the Point of Contact section.</useconst>
+  <ptcontac>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>U.S. Geological Survey, PACIFIC REGION</cntorg>
+     <cntper>M. Tim Tinker</cntper>
+    </cntorgp>
+    <cntpos>Supv. Research Wildlife Biologist</cntpos>
+    <cntaddr>
+     <addrtype>mailing address</addrtype>
+     <address>100 Shaffer Road</address>
+     <city>Santa Cruz</city>
+     <state>CA</state>
+     <postal>95060</postal>
+    </cntaddr>
+    <cntvoice>831-459-2357</cntvoice>
+    <cntfax>831-459-2249</cntfax>
+    <cntemail>ttinker@usgs.gov</cntemail>
+   </cntinfo>
+  </ptcontac>
+  <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2 (Build 3552) Service Pack N/A (Build N/A)</native>
+ </idinfo>
+ <dataqual>
+  <attracc>
+   <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+  </attracc>
+  <logic>No formal logical accuracy tests were conducted.</logic>
+  <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+   </horizpa>
+   <vertacc>
+    <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <procstep>
+    <procdesc>Development of the data set by the agency / individuals identified in the 'Originator' element in the Identification Info section of the record.</procdesc>
+    <procdate>Unknown</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+  <direct>Vector</direct>
+  <ptvctinf>
+   <sdtsterm>
+    <sdtstype>String</sdtstype>
+    <ptvctcnt>1</ptvctcnt>
+   </sdtsterm>
+  </ptvctinf>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+   <planar>
+    <mapproj>
+     <mapprojn>NAD 1983 California Teale Albers (ESRI Full Name: NAD_1983_California_Teale_Albers)</mapprojn>
+     <albers>
+      <stdparll>34.0</stdparll>
+      <stdparll>40.5</stdparll>
+      <longcm>-120.0</longcm>
+      <latprjo>0.0</latprjo>
+      <feast>0.0</feast>
+      <fnorth>-4000000.0</fnorth>
+     </albers>
+    </mapproj>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>0.6096</absres>
+      <ordres>0.6096</ordres>
+     </coordrep>
+     <plandu>Meter</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>D_North_American_1983</horizdn>
+    <ellips>GRS_1980</ellips>
+    <semiaxis>6378137.0</semiaxis>
+    <denflat>298.257222101</denflat>
+   </geodetic>
+  </horizsys>
+ </spref>
+ <eainfo>
+  <detailed>
+   <enttyp>
+    <enttypl>Attribute Table</enttypl>
+    <enttypd>Table containing attribute information associated with the data set.</enttypd>
+    <enttypds>Producer defined</enttypds>
+   </enttyp>
+   <attr>
+    <attrlabl>Id</attrlabl>
+    <attrdef>Integer identifier assign to each feature by the GIS software</attrdef>
+    <attrdefs>Sequential</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>0</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+  </detailed>
+  <overview>
+   <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+   <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+  </overview>
+ </eainfo>
+ <distinfo>
+  <distrib>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>Denver Federal Center</address>
+     <address>Building 810</address>
+     <address>Mail Stop 302</address>
+     <city>Denver</city>
+     <state>Co</state>
+     <postal>80225</postal>
+    </cntaddr>
+    <cntvoice>1-888-275-8747</cntvoice>
+    <cntemail>sciencebase@usgs.gov</cntemail>
+   </cntinfo>
+  </distrib>
+  <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+  <custom>This dataset is available on the USGS ScienceBase web site; http://dx.doi.org/10.5066/F7F47M5C</custom>
+ </distinfo>
+ <metainfo>
+  <metd>20150914</metd>
+  <metc>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>USGS</cntorg>
+     <cntper>William Perry</cntper>
+    </cntorgp>
+    <cntpos>IT/GIS Specialist</cntpos>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>800 Business Park Drive</address>
+     <address>Suite D</address>
+     <city>Dixon</city>
+     <state>Ca</state>
+     <postal>95620</postal>
+    </cntaddr>
+    <cntvoice>530-669-5067</cntvoice>
+    <cntfax>707-678-5039</cntfax>
+    <cntemail>wmperry@usgs.gov</cntemail>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <mettc>local time</mettc>
+ </metainfo>
+</metadata>

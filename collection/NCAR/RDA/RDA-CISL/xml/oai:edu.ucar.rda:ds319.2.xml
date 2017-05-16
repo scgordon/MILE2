@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="319.2"
+            type="primary">
+   <timeStamp value="2015-02-06 13:22:33 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Climate Model Products from the United Kingdom's Hadley Centre for Climate Prediction and Research (HCCPR)</title>
+   <summary>
+      <p>This dataset contains climate model output products from the
+              United Kingdom's Hadley Centre for Climate Prediction and
+              Research (HCCPR).  The model output consists of monthly grids from five
+              runs of HCCPR's HadCM2 model that were made in 1995.  These runs were a
+              <i>control</i> (constant atmospheric forcing) run, two
+              <i>greenhouse gas</i> runs which assumed a constant compounded
+              percentage per year (either 0.5% or 1%) increase in
+              CO<sub>2</sub>, and two <i>aerosol</i> runs which combined the
+              CO<sub>2</sub> and sulfate aerosol concentrations.  The model
+              has a spatial resolution of 3.75-degree by 2.5-degree
+              (96 by 73).</p>
+      <p>DSS has computed decadal mean grids for each decade-month
+              from the monthly mean grids.  The decade means are computed for
+              years 0 through 9 of each decade.  We also computed smoothed
+              decadal means by computing 30-year running means of the decadal
+              mean grids.  Because of the large variability in the decadal
+              means of variables such as precipitation, we recommend using the
+              30-year (smoothed decadal) means and applying them to the year
+              at the middle of the 30-year period (i.e. - the 30-year mean for
+              2070-2099 should be applied at year 2085).</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="GB/MOD/MET/HADLEY &gt; Hadley Centre for Climate Prediction and Research, Met Office, Ministry of Defence, United Kingdom"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Maximum/Minimum Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">CLIMATE MODELS</platform>
+   <supportsProject vocabulary="GCMD">IPCC &gt; Intergovernmental Panel on Climate Change</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://www.ipcc-data.org/">IPCC Data Distribution Center</relatedResource>
+   <relatedDataset ID="319.1"/>
+   <relatedDataset ID="319.3"/>
+   <publicationDate>1998-07-08</publicationDate>
+   <contentMetadata>
+      <temporal start="1860-01" end="2099-12" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>WMO_GRIB1</format>
+      <levels>
+         <level type="Mean sea level" value="0"/>
+         <level type="Ground or water surface" value="0"/>
+         <level type="Specified height above ground or water surface"
+                value="2"
+                units="m"/>
+         <level type="Specified height above ground or water surface"
+                value="10"
+                units="m"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

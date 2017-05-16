@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="607.0"
+            type="primary">
+   <timeStamp value="2015-02-12 07:48:29 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NCEP 51-year Hydrological Reanalysis</title>
+   <summary>
+      <p>
+              A 51-year hydrological reanalysis between 1948 and 1998 over the continental
+              US was recently completed at Climate Prediction Center of NCEP, NOAA.
+              The project used Noah land surface model (LSM) with forcing data regridded
+              from NCEP/NCAR Reanalysis data and the new CPC daily and hourly precipitation
+              data. The best available orography, soil and vegetation types, etc. are used
+              as the boundary conditions of this study.  The output fields include all
+              components of energy, water mass balance, snow cover and depth, and 4 layers
+              of soil temperature, moisture (both liquid and frozen) below the ground.
+              Three types of data files are archived in this dataset. They include the
+              restart files, the forcing fields to run the Noah Land Surface Model, and
+              the output files from the 1948-1998 runs.</p>
+      <p>
+              The daily restarting files and the hourly forcing fields are stored on
+              NCAR's High Performance Storage System (HPSS) only.</p>
+      <p>
+              You can find the Noah LSM used in this study
+              <a href="ftp://ftp.emc.ncep.noaa.gov/mmb/gcp/ldas/noahlsm/ver_2.5.2">here</a>.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Evaporation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Melt</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Water Equivalent</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Depth</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Moisture/Water Content</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Incoming Solar Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Outgoing Longwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Heat Flux</variable>
+   <contact>Chi-Fan Shih</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">NOAHLSM &gt; The Community NOAH Land-Surface Model</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Fan,Y., H.van den Dool, D. Lohmann, and K. Mitchell</authorList>
+      <year>2006</year>
+      <title>1948-1998 US hydrological reanalysis of the Noah Land Data Assimilation System. J. Climate, Vol. 19, 1214-1237</title>
+      <periodical number="19" pages="1214-1237">J. Climate</periodical>
+   </reference>
+   <relatedDataset ID="090.0"/>
+   <relatedDataset ID="608.0"/>
+   <publicationDate>2006-04-13</publicationDate>
+   <contentMetadata>
+      <temporal start="1948-01-01 13:00 +0000"
+                end="1998-12-30 23:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="1" unit="hour"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <temporalFrequency type="regular" number="30" unit="minute"/>
+      <temporalFrequency type="regular" number="3" unit="hour"/>
+      <temporalFrequency type="regular" number="2" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="464"
+               numY="224"
+               startLon="124.938W"
+               startLat="25.063N"
+               endLon="67.062W"
+               endLat="52.938N"
+               xRes="0.125"
+               yRes="0.125"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

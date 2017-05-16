@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="277.5"
+            type="primary">
+   <timeStamp value="2015-02-05 19:46:11 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Extended Reconstructed Sea Level Pressure (ERSLP)</title>
+   <summary>
+      <p>The extended reconstructed sea level pressure (ERSLP) analysis was
+              constructed using the most recently available Comprehensive
+              Ocean-Atmosphere Data Set (COADS) SLP data and improved
+              statistical methods that allow stable reconstruction using sparse
+              data. This monthly analysis begins January 1854, however the
+              analyzed signal is heavily damped before 1910 because of sparse data.</p>
+      <p>All the data are from the
+              <a href="http://www.esrl.noaa.gov/psd/gcos_wgsp/Gridded/data.noaa.erslp.html">
+              original NOAA ERSLP website</a>.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                contact="Tom Smith;Dick Reynolds"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Smith, T.M. and R.W. Reynolds</authorList>
+      <year>2004</year>
+      <title>Reconstruction of Monthly Mean Oceanic Sea Level Pressure Based on COADS and Station Data (1854-1997)</title>
+      <periodical number="21" pages="1272-1282">J. Atmos. Ocean. Tech.</periodical>
+   </reference>
+   <relatedResource url="http://www.esrl.noaa.gov/psd/gcos_wgsp/Gridded/data.noaa.erslp.html">NOAA ERSLP website</relatedResource>
+   <relatedDataset ID="540.0"/>
+   <publicationDate>2004-08-18</publicationDate>
+   <contentMetadata>
+      <temporal start="1854" end="1997" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="180"
+               numY="89"
+               startLon="0E"
+               startLat="88S"
+               endLon="358E"
+               endLat="88N"
+               xRes="2"
+               yRes="2"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

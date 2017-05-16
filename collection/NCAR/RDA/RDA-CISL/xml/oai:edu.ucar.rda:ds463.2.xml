@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="463.2"
+            type="historical">
+   <timeStamp value="2015-02-10 21:12:29 -0700"/>
+   <continuingUpdate value="yes" frequency="yearly"/>
+   <title>U.S.A.F. DATSAV3 Surface Observations, 1901-continuing</title>
+   <summary>
+      <p>This ASCII data set (DATSAV3) is produced at the National Climatic Data Center (NCDC) from
+              a USAF binary set (DATSAV2), a collection of worldwide surface weather observations from sources such as the
+              the Global Telecommunications System (GTS) and Automated Weather Network (AWN).  The Air Force Weather Agency (AFWA)
+              decoded most of the collected observations for the Air Force Combat Climatology Center (AFCCC) where final
+              decoding, validation, and quality control created DATSAV2.</p>
+      <p>Mandatory data includes pressure, temperature, visibility, sky condition,
+              and wind observation, but there may also be additional data,
+              data remarks, or data element quality sections.</p>
+      <p>NCDC provides quarterly updates to DSS, usually with a two-month delay.
+              The earliest data is for 1901.  The earliest years have the least volume of data, a few hundred megabytes;
+              the volume in the 1950s-early 1960s increased by a factor of 10-20; 1965-1972 shows a decrease because of a loss of data;
+              beginning in 1973 with about 5 gigabytes of data, volume has gradually increased to about 20 gigabytes per year.
+              There are now about 10,000 active stations.</p>
+      <p>Similar data sets prepared by the National Centers for Environmental Prediction (NCEP)
+              are <a href="http://rda.ucar.edu/datasets/ds464.0/">ds464.0</a> (beginning February 1975), and <a href="http://rda.ucar.edu/datasets/ds461.0/">ds461.0</a> (beginning April 2000).
+              </p>
+      <p style="color: red">This dataset has been superseded by <a href="/datasets/ds463.3/">ds463.3</a>.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOD/USAF/AFCCC &gt; Air Force Combat Climatology Center, U.S. Air Force, U.S. Department of Defense"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DOD/USAF/AFWA &gt; Air Force Weather Agency, U.S. Air Force, U.S. Department of Defense"
+                citable="no"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Types</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Snow</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Air Quality &gt; Visibility</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Base</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Waves &gt; Wave Period</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Waves &gt; Wave Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Station Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Waves &gt; Wave Speed/Direction</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Hail</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Maximum/Minimum Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Pressure Tendency</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+   <project vocabulary="GCMD">AWDN &gt; Automated Weather Data Network</project>
+   <project vocabulary="GCMD">GTS &gt; Global Telecommunications System</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="463.0"/>
+   <relatedDataset ID="463.1"/>
+   <relatedDataset ID="463.3"/>
+   <relatedDataset ID="467.0"/>
+   <publicationDate>2003-06-16</publicationDate>
+   <contentMetadata>
+      <temporal start="1901-01" end="2008-05" groupID="Entire Dataset"/>
+      <dataType>platform_observation</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

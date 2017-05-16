@@ -1,0 +1,1012 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.8.27" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="8">
+    <alternateIdentifier>knb-lter-mcr.8</alternateIdentifier>
+    <shortName>Annual Benthic Survey</shortName>
+    <title>MCR LTER: Coral Reef: Long-term Population and Community Dynamics: Benthic Algae and Other Community Components, ongoing since 2005</title>
+    <creator id="MCR">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+	  <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </creator>
+    <creator id="rcarpenter">
+      <individualName>
+        <givenName>Robert</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology</deliveryPoint>
+        <deliveryPoint>California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">818.677.3256</phone>
+      <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+    </creator>
+    <associatedParty id="vmoriarty">
+      <individualName>
+        <givenName>Vincent</givenName>
+        <surName>Moriarty</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology</deliveryPoint>
+        <deliveryPoint>California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">818.677.4335</phone>
+      <electronicMailAddress>vmoriarty@csun.edu</electronicMailAddress>
+      <role>Field Technician</role>
+    </associatedParty>
+    <pubDate>2014-03-10</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Coral reefs are comprised of scleractinian corals and many other benthic organims. The sampling described here quantifies the relative abundances of corals (aggregate abundance) and the other major benthic components including algal turfs, macroalgae, crustose corallines, and other sessile invertebrates. Abundance is estimated yearly at each of 6 sites (2 per shore) around the island. At each site, and in each of 4 habitats (fringing reef, backreef, forereef 10-m depth, forereef 17-m depth), 5 permanent 10-m long transects have been established and abundance estimates are made at fixed positions along each transect (n=10, 0.25 m2 quadrats per transect) allowing a repeated measures statistical analysis for the detection of temporal trends.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Benthic Algae</keyword>
+      <keyword keywordType="theme">Coral Reef Algae</keyword>
+      <keyword keywordType="theme">Long-term Time Series</keyword>
+      <keyword keywordType="theme">Macroalgae</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">MCR</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">California State University Northridge</keyword>
+      <keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+      <keyword keywordType="theme">University of California Santa Barbara</keyword>
+      <keywordThesaurus>Institute, Organization, or Funding Agency</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">French Polynesia</keyword>
+      <keyword keywordType="place">Moorea</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="taxonomic">Algal Turfs</keyword>
+      <keyword keywordType="taxonomic">Crustose Coralline Algae</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Community</keyword>
+      <keyword keywordType="theme">Marine</keyword>
+      <keywordThesaurus>KNB</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Abundance (organisms)</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Coral Reef</keyword>
+      <keyword keywordType="theme">Phytobenthos</keyword>
+      <keyword keywordType="theme">Species Richness</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Populations</keyword>
+      <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Time Series Program</keyword>
+      <keywordThesaurus>MCR Core Activity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Reef Resistance and Resilience</keyword>
+      <keywordThesaurus>MCR Research Theme</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Population and Community Dynamics</keyword>
+      <keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data collected under the auspices of the MCR LTER are available to the public
+				after primary publication, or at most two years after the completion of the study
+				unless proprietary restrictions are warranted. Use of MCR LTER data is subject to
+				acceptance of the following conditions: <itemizedlist><listitem><para>1. The user agrees to provide valid name and contact information prior
+							to downloading online data. This information will be used to contact the
+							user in case of changes to the data, and may also be used by data set
+							authors and MCR LTER project administrators to document data
+							usage.</para></listitem><listitem><para>2. The user agrees to cite the data set author and MCR LTER in all
+							publications in which the data are used, as per the instructions in the
+							data documentation. If no specific instructions are provided in the data
+							documentation, the user is requested to include the following statement:
+							"Data sets were provided by the Moorea Coral Reef Ecosystem LTER,
+							funded by the US National Science Foundation (OCE-0417412)."</para></listitem><listitem><para>3. The user agrees to provide one copy of any manuscript based on MCR
+							LTER data to the data set author prior to submitting it for
+							publication.</para></listitem><listitem><para>4. The user agrees to send two hard copies of any published manuscript
+							based on MCR LTER data to the following address: Dr. Andrew J. Brooks
+							Deputy Program Director, MCR LTER Marine Science Institute University of
+							California Santa Barbara, CA 93106-6150 The user also agrees to send one
+							electronic copy (pdf format) to the following e-mail address:
+							brooks@msi.ucsb.edu</para></listitem><listitem><para>5. Users are prohibited from selling or redistributing any data
+							provided by MCR LTER without explicit prior permission.</para></listitem><listitem><para>6. Users are encouraged to contact original investigators responsible
+							for data. Where appropriate, researchers whose projects are integrally
+							dependent on MCR LTER data are encouraged to consider collaboration
+							and/or co-authorship with original investigators.</para></listitem><listitem><para>7. Extensive efforts are made to ensure that online data are accurate
+							and up to date, but the authors and the MCR LTER will not take
+							responsibility for any errors that may exist in data provided online.
+							Furthermore, the user assumes all responsibility for errors in analysis
+							or judgment resulting from use of the data.</para></listitem><listitem><para> 8. Any violation of the terms of this agreement will result in
+							immediate forfeiture of the data and loss of access privileges to other
+							MCR LTER data sets.</para></listitem></itemizedlist>
+			</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcr.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="moorea_generic_box">
+        <geographicDescription>Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.62</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_1_poly_for_public">
+        <geographicDescription>LTER 1 polygon including LTER 0 on north shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8455917</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.829821</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.47185366</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.48641792</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.845591714532,-17.47414056509442 -149.8444519643552,-17.48505989649701 -149.8383270457441,-17.48426840091165 -149.8338147432263,-17.48641791890627 -149.829821007306,-17.48494822551147 -149.8320709284201,-17.4740284807948 -149.832080184047,-17.47322775964911 -149.8320960734944,-17.47185366062079 -149.8453810009447,-17.47265313575251 -149.845591714532,-17.47414056509442</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_2_poly_for_public">
+        <geographicDescription>LTER 2 polygon on north shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8116849</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.7961685</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.46576169</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.48131958</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.8116848616027,-17.46714573056912 -149.8098855542298,-17.48075290854079 -149.8077576500829,-17.48063908230724 -149.8051572586888,-17.48109313281079 -149.8032635045001,-17.47984289373148 -149.802788348976,-17.47893280566117 -149.800666445604,-17.48131957607722 -149.7967627437853,-17.48063739528508 -149.7961685287123,-17.48006903867057 -149.7977614186906,-17.4665681148313 -149.7978767224803,-17.4657616891053 -149.8115671676133,-17.46645490408906 -149.8116848616027,-17.46714573056912</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_3_poly_for_public">
+        <geographicDescription>LTER 3 polygon on southeast shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.7708619</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.7519968</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.50382025</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.52087158</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.7651175463783,-17.50382025297242 -149.7678423598084,-17.50875380773254 -149.7667902177228,-17.51063544149844 -149.7669457242864,-17.51352653327354 -149.7680022773823,-17.51554750188549 -149.7696581238419,-17.51655737992495 -149.7708619294637,-17.51771051529938 -149.7570438798842,-17.52087157901452 -149.7519967916629,-17.50642816971748 -149.7651175463783,-17.50382025297242</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_4_poly_for_public">
+        <geographicDescription>LTER 4 polygon on southeast shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.7772857</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.7566866</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.53305021</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.55064263</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.7622436536396,-17.55064263311045 -149.7566865755679,-17.54030521526718 -149.7725152866376,-17.53305020659341 -149.7738607602216,-17.53618639472932 -149.7729632073118,-17.53903159324447 -149.7772857215906,-17.54541678116018 -149.7622436536396,-17.55064263311045</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_5_poly_for_public">
+        <geographicDescription>LTER 5 polygon on southwest shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8869755</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8561009</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.56818162</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.59182383</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.8869754806263,-17.5791218519215 -149.8721550223573,-17.59182383151219 -149.8561009265408,-17.58082674989516 -149.857889567124,-17.57926925045853 -149.8629652034573,-17.57586562315693 -149.8697101743941,-17.56818162129872 -149.8869754806263,-17.5791218519215</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_6_poly_for_public">
+        <geographicDescription>LTER 6 polygon on southwest shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.934537</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.9115336</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.50735955</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.52839766</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.9345370155986,-17.51082689018308 -149.926650263849,-17.52839766454106 -149.911533605555,-17.52424708128931 -149.9123038125004,-17.521372978089 -149.9121789695375,-17.51762943552821 -149.9138547197788,-17.51474296559537 -149.9153872941645,-17.5112724943681 -149.9163231743256,-17.50735954783784 -149.9345370155986,-17.51082689018308</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005-05-20</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-01-24</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Actinotrichia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Amansia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Amphiroa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Asparagopsis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Boodlea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Caulerpa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Chaetomorpha</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Chlorodesmis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Chnoospora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Cladophoropsis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Codium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Dichotomaria</taxonRankValue>
+        </taxonomicClassification>    
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Dictyosphaeria</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Dictyota</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Dictyota</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Galaxaura</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Gilidiella</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Gibsmithia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Halimeda</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Heteractis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Hypnea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Jania</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Liagora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Lithophyllum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Lobophora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Martensia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Microdictyon</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Millepora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Neogoniolithon</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Neomeris</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Padina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Peyssonnelia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Phormidium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Phyllodictyon</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Ralfsia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Rhipidosiphon</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Sarcophyton</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Sargassum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Symploca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Tridacna</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Turbinaria</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Valonia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>Macroalgae</commonName>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>Algal Turf</commonName>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>Crustose Coraline Algae</commonName>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Cnidaria</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Anthozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Scleractinia</taxonRankValue>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      
+    </coverage>
+    <maintenance>
+			<description>
+				<para>This is an ongoing annual dataset. Data are added once per year.</para>
+				<para>In Version 8.20 location column split into site, habitat, transect, quadrat 
+					for user convenience, while retaining whole location column as part of primary key. 
+					Only a format change; data unchanged.
+				</para>
+				<para>In Version 8.21 location column expanded to variable 1 to 2 digits to include quadrat 10; coverage data unchanged.
+				</para>
+				<para>In Version 8.22 data were added for 2007 LTER 2 Outer 10 m.</para>
+				<para>In Version 8.23 13 quadrats with No data now have Percent_Cover of na instead of 0. Quality assurance description added to methods metadata.</para>
+				<para>In version 8.24 typos were corrected in this maintenance section.</para>
+				<para>In version 8.26 taxonomy was updated or corrected, algaebase cited, QC steps described, and data appended.</para>
+			  <para>In version 8.27 taxonomy was updated or corrected. Sarcophyton sp. was merged into Soft Coral category. Four genera added with addition of 2014 survey data.</para>
+			</description>
+		</maintenance>
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sampling locations</title>
+            <para>Sampling occurs yearly at each of six sites around the island of
+							Moorea. At each site, four habitats are sampled (fringing reef,
+							backreef, forereef 10 m depth, forereef 17 m depth). Within each habitat there are
+							ten 10 m long permanent transects along which benthic cover is estimated at
+							fixed quadrat locations (initially located randomly but repeated at the same location each subsequent year).</para>
+          </section>
+          <section>
+            <title>Taxa</title>
+            <para>The abundance of taxa are estimated to the following levels: <itemizedlist>
+								<listitem>
+									<para>Corals: Order;</para>
+								</listitem>
+								<listitem>
+									<para>Macroalgae: Genus, sometimes Species;</para>
+								</listitem>
+								<listitem>
+									<para>Algal Turfs: Functional Group of many Species;</para>
+								</listitem>
+								<listitem>
+									<para>Crustose Corallines: Order;</para>
+								</listitem>
+								<listitem>
+									<para>Other Sessile Invertebrates: Phylum/Class.</para>
+								</listitem>
+							</itemizedlist>
+						</para>
+          </section>
+          <section>
+            <title>Sampling</title>
+            <para>The relative abundances of benthic components are estimated using 0.25
+							m2 quadrats divided into 25 squares each 5x5 cm. Each square is scored
+							according to which benthic component makes up &gt;50% of the square. The
+							raw data recorded are the number of squares occupied by each component
+							in each quadrat. Data are collected for 10 quadrats per transect and 5
+							transects per habitat. Data are converted to relative percent cover by
+							multiplying the number of squares occupied times 4 (each square
+							represents 4% of the area of the quadrat [25 cm2/625cm2]). </para>
+          </section>
+          <section>
+            <title>Quality Assurance</title>
+            <para>
+							Means and totals are calculated for each transect
+							and habitat. Those are compared between the raw Excel data entry forms and the database output. 
+							Aggregate queries check that all quadrats percent cover total 100%. 
+							Summary counts check for completeness to ensure all data sheets have been entered into the database. 
+							Where a quadrat was not measured, a row with taxonomy of 'No data' and count of -1 is entered. 
+							A subset of the final data output is verified with the original data sheets.
+						</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Survey Protocol Document</title>
+            <para> The survey methods for the quantification of major benthic components
+							to include macroalgae, algal turfs. </para>
+          </section>
+        </description>
+        <protocol>
+          <title>MCR LTER Algal Timeseries protocol</title>
+          <creator>
+            <individualName>
+              <surName>Moriarty</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://mcr.lternet.edu/external/protocol/algae/MCR_LTER_Algal_Timeseries_protocol.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Reference for taxonomy</title>
+            <para>Payri, C., N'Yeurt A.R. &amp; Oremp&#195;&#188;ller, J. - 2001 - Algae of french
+							Polynesia -Algues de Polyn&#195;&#169;sie Fran&#195;&#167;aise. Edition Au Vent des &#195;&#174;les -
+							tahiti, 320pp. </para>
+            <para>Guiry, M.D. &amp; Guiry, G.M. 2013. AlgaeBase. World-wide electronic publication, National University of Ireland, Galway. http://www.algaebase.org; searched on 11 February 2013.</para>
+          </section>
+        </description>
+      </methodStep>
+      <qualityControl>
+        <description>
+          <section>
+            <title>Scripted Quality Control Summary Checks</title>
+            <para>Site name, habitat, and diver entries are compared to allowed values, flagging mistakes in data entry.</para>
+            <para>Survey dates are compared to dive logs to verify accuracy.</para>
+            <para>Check that species appear in their expected habitats.</para>
+            <para>Compare species appearance year to year.</para>
+            <para>Check for duplicate entries.</para>
+            <para>Check for completeness of all species in data entered per quadrat.</para>
+            <para>Check for completeness of all quadrats in data entered per transect.</para>
+            <para>Check for completeness of all transects in data entered per habitat.</para>
+            <para>Check for completeness of all habitats in data entered per site.</para>
+            <para>Check for any blank values in Count column.</para>
+            <para>Check all percentage data equals 100% per quadrat.</para>
+            <para>Random spot check versus raw data: Generate a random sample of 5% of data and manually check against raw data.</para>
+          </section>
+        </description>
+        <software>
+          <title>R Script for Census Data Quality Control</title>
+          <creator>
+            <individualName>
+              <surName>Moriarty</surName>
+            </individualName>
+          </creator>
+          <implementation>
+            <distribution>
+              <offline>
+                <mediumName>R Script</mediumName>
+              </offline>
+            </distribution>
+          </implementation>
+          <version>2012</version>
+        </software>
+      </qualityControl>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) OCE-0417412 and OCE-1026851</para>
+      </funding>
+    </project>
+    <dataTable id="long table">
+      <entityName>Percent cover</entityName>
+      <entityDescription>Raw data for percent cover of substrate type or benthic taxa inlcuding macroalgae: time and location of observation, observed cover and percent area.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Annual_Survey_Benthic_Cover_20140310.csv</objectName>
+        <size unit="Mb">11</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.8&amp;entityindex=1</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="year">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Nominal year of observation. First year is 2005-2006 combined.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Except for first survey, year is YYYY format.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="date">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of observation.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1 Day</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="location">
+          <attributeName>Location</attributeName>
+          <attributeLabel>Location</attributeLabel>
+          <attributeDefinition>Name of the unique loaction combines the site, habitat, transect and quadrat.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="location_site">
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of the site.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>LTER 1</code>
+                    <definition>LTER 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER 2</code>
+                    <definition>LTER 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER 3</code>
+                    <definition>LTER 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER 4</code>
+                    <definition>LTER 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER 5</code>
+                    <definition>LTER 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER 6</code>
+                    <definition>LTER 6</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="location_habitat">
+          <attributeName>Habitat</attributeName>
+          <attributeLabel>Habitat</attributeLabel>
+          <attributeDefinition>Name of the habitat.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Fringing</code>
+                    <definition>Fringing Reef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Backreef</code>
+                    <definition>Backreef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Outer 10</code>
+                    <definition>Forereef at 10 m depth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Outer 17</code>
+                    <definition>Forereef at 17 m depth</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="location_transect">
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Transect number.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Transect 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Transect 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Transect 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Transect 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Transect 5</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="location_quad">
+          <attributeName>Quadrat</attributeName>
+          <attributeLabel>Quadrat</attributeLabel>
+          <attributeDefinition>Quadrat number identifies the 0.25 square meter quadrat.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Quadrat 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Quadrat 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Quadrat 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Quadrat 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Quadrat 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Quadrat 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Quadrat 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Quadrat 8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Quadrat 9</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>Quadrat 10</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="taxonomy">
+          <attributeName>Taxonomy_Substrate_Functional_Group</attributeName>
+          <attributeLabel>Taxonomy / Substrate / Functional Group</attributeLabel>
+          <attributeDefinition>Taxonomy of the observed algae, or name of the observed substrate or functional group.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="percent cover">
+          <attributeName>Percent_Cover</attributeName>
+          <attributeLabel>Percent Cover</attributeLabel>
+          <attributeDefinition>Percent of area covered in a quadrat.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>4</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-1</code>
+            <codeExplanation>No data were collected for this quadrat</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+			<constraint>
+				<primaryKey>
+					<constraintName>algae_pk</constraintName>
+					<key>
+						
+						<attributeReference>year</attributeReference>
+						<attributeReference>location</attributeReference>
+						<attributeReference>taxonomy</attributeReference>
+					</key>
+				</primaryKey>
+			</constraint>
+      <numberOfRecords>109515</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <ns2:description>a designation asserting the absence of an associated unit</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

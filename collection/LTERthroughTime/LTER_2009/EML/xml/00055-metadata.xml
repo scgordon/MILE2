@@ -1,0 +1,287 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.157.8" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF157">
+      <alternateIdentifier>HF157</alternateIdentifier>
+      <title>Leaf Litter Moisture Content at Harvard Forest HEM and LPH Towers 2006</title>
+      <creator>
+         <individualName>
+            <givenName>Julian</givenName>
+            <surName>Hadley</surName>
+         </individualName>
+      </creator>
+      <pubDate>2009</pubDate>
+      <abstract>
+         <section>
+            <para>Leaf litter was collected at the time of soil respiration measurements and its moisture content was measured in order to determine the contribution of leaf litter decomposition to measurements of total soil respiration including the litter layer.  Leaf litter moisture has been shown to strongly affect CO2 release from organic soil layers (Borken et al. 2003).</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>leaf litter</keyword>
+         <keyword>plant physiology</keyword>
+         <keyword>water content</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>inorganic nutrients</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf157</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.185</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.180</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.542</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.539</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>355</altitudeMinimum>
+                  <altitudeMaximum>380</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2006-05-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2006-08-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact>
+         <individualName>
+            <givenName>Liza</givenName>
+            <surName>Nicoll</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>nicoll@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Ten leaves from the uppermost layer of leaf litter were collected at each location where soil respiration was measured.  The leaves were immediately placed into a tightly closed plastic bag, and at the end of the day they were weighed.  They were then dried at 70 degrees C for two days and reweighed.  Leaf moisture content was then calculated as a percentage of the dry weight for each sample.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf157-01">
+         <entityName>hf157-01-litter-moisture.csv</entityName>
+         <entityDescription>litter moisture</entityDescription>
+         <physical id="1260800480467">
+            <objectName>hf157-01-litter-moisture.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p15/hf157/hf157-01-litter-moisture.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1260800481060">
+               <attributeName>Site</attributeName>
+               <attributeDefinition>site</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>HEM</code>
+                              <definition>Hemlock</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>LPH</code>
+                              <definition>Little Prospect Hill</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1260800481075">
+               <attributeName>Date</attributeName>
+               <attributeDefinition>date</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1260800481091">
+               <attributeName>Distance</attributeName>
+               <attributeDefinition>distance from tower base</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1260800481107">
+               <attributeName>Transect</attributeName>
+               <attributeDefinition>compass bearing (degrees from north) of transect on which plot occurs</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1260800481122">
+               <attributeName>FreshMass</attributeName>
+               <attributeDefinition>fresh weight of sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1260800481138">
+               <attributeName>DryMass</attributeName>
+               <attributeDefinition>dry weight of sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>gram</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1260800481153">
+               <attributeName>%Moisture</attributeName>
+               <attributeDefinition>leaf moisture content calculated as a percentage of the dry weight for each sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>331</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>atmosphere</researchTopic>
+            <researchTopic>soil</researchTopic>
+            <studyType>short-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Soil Respiration at Harvard Forest HEM and LPH Towers 1996-2007">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf148</url>
+            <url name="Net Carbon Exchange of an Old-Growth Hemlock Forest at Harvard Forest HEM Tower since 2000">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf103</url>
+            <url name="Net Carbon Exchange of a Young Upper-Slope Deciduous Forest at Harvard Forest LPH Tower since 2002">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf072</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>

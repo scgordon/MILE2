@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="285.2"
+            type="primary">
+   <timeStamp value="2013-02-26 20:44:47 -0700"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">all_free</access>
+   <title>Polar Science Center Hydrographic Climatology (PHC)</title>
+   <summary>
+      <p>
+              The climatology provides temperature and salinity data at 1X1
+              degree intervals for all the earth's oceans, down to a depth
+              of 5500m, at incremental depths identical to those provided
+              in the National Oceanographic Data Center's (NODC) World Ocean
+              Atlas (WOA). This global climatology is the combination of
+              NODC's 1998 world climatology (WOA), the EWG Arctic Ocean Atlas
+              (AOA), and select Canadian data provided by the Bedford
+              Institute of Oceanography (BIO). While the NODC data includes
+              the Arctic ocean, the AOA data provides a better description of
+              this region. Neither of these data fields provides a good
+              representation of the Canadian Archipelago region and nearby
+              bays in the winter months. The data from the Bedford Institute
+              of Oceanography allowed us to bridge this data hole. These
+              three data sets were merged using an optimal interpolation
+              routine such that our PHC retains the high quality world
+              description provided by the WOA while improving the Arctic with
+              the AOA fields and Canadian data.
+              </p>
+      <p>
+              In summary, PHC = WOA (Levitus) '98 everywhere except in our
+              arctic domain, where we have blended in the AOA field
+              (from EWG), and the BIO data to produce a more realistic arctic
+              region.
+              </p>
+      <p>
+              These Version 3.0 data were received from the Polar
+              Science Center, Applied Physics Lab., University of Washington,
+              during April 2005.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UWA/APL/PSC &gt; Polar Science Center, Applied Physics Laboratory, University of Washington"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Salinity/Density &gt; Salinity</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Steele, M., R. Morley, and W. Ermold</authorList>
+      <year>2001</year>
+      <title>PHC: A global ocean hydrography with a high quality Arctic Ocean</title>
+      <periodical number="14" pages="2079-2087">J. Climate</periodical>
+   </reference>
+   <relatedResource url="http://psc.apl.washington.edu/Climatology.html">PSC/APL University of Washington</relatedResource>
+   <relatedDataset ID="285.0"/>
+   <publicationDate>2001-12-28</publicationDate>
+   <contentMetadata>
+      <temporal start="9998" end="9998" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="360"
+               numY="180"
+               startLon="0.5E"
+               startLat="89.5S"
+               endLon="359.5E"
+               endLat="89.5N"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

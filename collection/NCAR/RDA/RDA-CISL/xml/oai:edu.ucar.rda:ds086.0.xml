@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="086.0"
+            type="primary">
+   <timeStamp value="2009-03-04 20:10:07 -0700"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>CAC Monthly Global Analyses for October 1978 to September 1994</title>
+   <summary>
+      <p>This dataset contains monthly means of several meteorological
+              variables, their squares, and their cross-products for nine
+              levels in the atmosphere.  These mean grids were prepared by
+              the Climate Analysis Center (CAC) from NMC daily analyses.  The
+              grid is a 2.5 degree grid (145x37) for each hemisphere, so that
+              data are available globally.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Meteorological Center"
+                contact="John Janowiak"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vorticity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1987-12-09</publicationDate>
+   <contentMetadata>
+      <temporal start="1978-10" end="1994-09" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month" statistics="mean"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0E"
+               startLat="0N"
+               endLon="360E"
+               endLat="90N"
+               xRes="2.5"
+               yRes="2.5"/>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0E"
+               startLat="90S"
+               endLon="360E"
+               endLat="0S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

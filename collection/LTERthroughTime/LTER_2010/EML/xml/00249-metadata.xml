@@ -1,0 +1,2181 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.162.10" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF162">
+      <alternateIdentifier>HF162</alternateIdentifier>
+      <title>Plantation Biodiversity Plots at Harvard Forest since 2007</title>
+      <creator>
+         <individualName>
+            <givenName>Audrey</givenName>
+            <surName>Barker Plotkin</surName>
+         </individualName>
+      </creator>
+      <pubDate>2010</pubDate>
+      <abstract>
+         <section>
+            <para>Plantations have been part of forestry at Harvard Forest since its beginning.  Plantations were established from 1911-1944, usually on open or cut-over land.  The objectives for plantation forests at Harvard Forest were to: increase amount of productive forest land; examine the suitability of various species and cultivars to New England conditions; and test planting and tending methods.  At first, mainly small plantings (less than 1 to 4 acres) were established primarily on "blank" lands.  Some larger plantations (20+ acres) were established on cut-over land around 1930.</para>
+            <para>The bulk of the plantings were red pine, white pine and spruce (white and Norway), but several other conifers were also planted.  The maximum amount of land in plantations came to about 270 acres (less than 10% of Harvard Forest&#8217;s land base).  Tending of the plantations, especially weeding in the decade following establishment, but also in-filling, pruning and thinning, was conducted and carefully documented.  However, tending of plantations ceased about 1950.</para>
+            <para>Since then, the fate of the plantations has been mixed.  Some plantations were out-competed by native forest with only scattered planted trees remaining.  A few acres of plantations were harvested in the 1950s.  About 40 acres of plantations were harvested in the 1990s.  As of 2007, approximately 135 acres remained.  These stands range in age from 60-90 years old.  Some stands have substantial areas blown down.  We developed a management plan to harvest about 80 acres of mature plantation forests beginning in 2008 in order to terminate these long term experiments, to regenerate a diversity of native tree species and restore native forests to these sites, and to initiate a new suite of long term experiments. For the next 10-15 years, the harvested areas will provide early successional habitat for a variety of wildlife species.</para>
+            <para>A suite of permanent vegetation plots was established throughout the plantations to assess vegetation structure in plantations and predict future dynamics in harvested and early seral habitats. An initial objective of the baseline survey was to characterize current tree regeneration and understory flora that will in large part determine the future composition of these forests as the overstory is harvested or senesces.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>browsing</keyword>
+         <keyword>coarse woody debris</keyword>
+         <keyword>seedlings</keyword>
+         <keyword>silviculture</keyword>
+         <keyword>trees</keyword>
+         <keyword>understory vegetation</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf162</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Prospect Hill Tract (Harvard Forest), Tom Swamp Tract (Harvard Forest)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.23</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.16</eastBoundingCoordinate>
+               <northBoundingCoordinate>+42.45</northBoundingCoordinate>
+               <southBoundingCoordinate>+42.55</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>205</altitudeMinimum>
+                  <altitudeMaximum>420</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2007-06-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2012-12-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+         <taxonomicCoverage>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Picea</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>abies</taxonRankValue>
+                  <commonName>norway spruce</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Picea</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>glauca</taxonRankValue>
+                  <commonName>white spruce</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Pinus</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>resinosa</taxonRankValue>
+                  <commonName>red pine</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+         </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>data updated 2013-08-12</para>
+         </description>
+      </maintenance>
+      <contact>
+         <individualName>
+            <givenName>Audrey</givenName>
+            <surName>Barker Plotkin</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>aabarker@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Study Design: A set of 22, 20m by 20m permanent plots were established.  Plots were placed in red pine and spruce dominated plantations, and in both harvest and control (no harvest) sites.  The number of plots per plantation is proportional to plantation area. Sites less than 10 acres contain one plot. There are two plots in a 13.5-acre unharvested red pine plantation; two plots in a harvested 13.5 acre spruce plantation; five plots in a somewhat heterogenous 38-acre harvested pine plantation. Altogether, there are 4 cut pine sites covering ~53 acres, 5 control pine sites covering ~26 acres, 2 cut spruce sites covering 16 acres, and 2 control spruce sites covering ~7 acres. Plots were established and measured in 2007, prior to harvest. Follow-up measurements were recorded within one year of harvest for the harvested plots only. In 2012, all 22 plots were re-measured.</para>
+                  <para>Trees: Live stems at least 2.5cm dbh were tallied in the 20x20m plot by species. Live saplings more than1.3m tall but less than 2.5cm dbh were tallied by species in a 5.64 radius plot (100m2) centered on each plot.</para>
+                  <para>Seedlings: Presence/absence of tree seedlings (less than 1.3m tall) by species was recorded in 10, 1.13m radius (4m2) plots in each plot, and frequency calculated. This measure of stocking is often considered more useful than total densities of tree seedlings, as this metric gives some indication of how well-distributed tree regeneration is on the site.</para>
+                  <para>Understory vegetation: A list of shrubs, herbs, ferns, lycopods and graminoids (very roughly) occurring on each 20x20m plot was compiled, and abundance was estimated for each species using the following cover classes: 1 is less than 1% cover, 2 is 1-3% cover, 3 is 3-5% cover, 4 is 6-15% cover, 5 is 16-25% cover, 6 is 26-50% cover, 7 is 51-75% cover, 8 is more than 75% cover.</para>
+                  <para>Coarse Woody Debris (CWD): Two transects running diagonally across each plot were established. The diameter, species (or species group) and decay class of each downed piece of wood that intersects the line-transect was measured using a 50cm caliper.  Minimum average diameter = 7.5cm. When possible, two diameter measurements are taken, to account for the fact that most stems are not uniformly round. From there we can calculate volume per unit area by using the formula V= 9.869* (d /8L), where L is length and d is diameter squared (ReHarmon, M.E. and J. Sexton. 1996. Guidelines for measurements of woody detritus in forest ecosystems. Not a formal publication).</para>
+                  <para>Snags (standing dead trees) within the entire 20m x 20m plot were measured if at least 10cm dbh</para>
+                  <para>Stump volume was estimated in the harvested plots in 2010 and 2012, by recording the species, diameter, height and decay class of each stump found within the plot. Minimum stump diameter was 10 cm.</para>
+                  <para>Browsing: In 2008, browsing presence/absence by stem was surveyed in the 22 plots. Twenty-five 4m2 subplots were established in each plot, so 25% of each plot was assessed. Woody tree and shrub stems (excluding Rubus) between 0.3-3.0m tall and less than 5cm diameter were included. While moose browsing can be distinguished from deer browsing when tall (greather than 2m) or large (perhaps more than 0.5cm diameter) twigs are browsed, and these were noted, there were too few of these large saplings sampled to clearly distinguish between moose and deer browse. A complementary exclosure experiment by Faison et al. has been established in four harvested plantations to tease apart eh effects of deer vs. moose browsing, and to better quantify their long-term influences on forest structure and composition.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf162-01">
+         <entityName>hf162-01-plots.csv</entityName>
+         <entityDescription>plots</entityDescription>
+         <physical id="1288625149198">
+            <objectName>hf162-01-plots.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p16/hf162/hf162-01-plots.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1288627333728">
+               <attributeName>Plot</attributeName>
+               <attributeDefinition>plot number (1-22)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number (1-22)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288627333744">
+               <attributeName>Name</attributeName>
+               <attributeDefinition>plantation ID based on Harvard Forest archival records. The first two letters refer to the tract (PH=Prospect Hill; TS=Tom Swamp) and the numbers refer to the year planted (e.g. 44 was planted in 1944). Strings of two-digit numbers + one letter indicate that a plot was placed in a mix of multiple, small, contiguous plantings.</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plantation ID</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288627333760">
+               <attributeName>DomSp</attributeName>
+               <attributeDefinition>dominant planted species</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Spruce</code>
+                              <definition>spruce dominant</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Pine</code>
+                              <definition>pine dominant</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288627333775">
+               <attributeName>Treat</attributeName>
+               <attributeDefinition>treatment</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Harvest</code>
+                              <definition>harvested</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Control</code>
+                              <definition>control</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288627333791">
+               <attributeName>HarvDate</attributeName>
+               <attributeDefinition>harvest date</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>harvest date</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288627333807">
+               <attributeName>Acres</attributeName>
+               <attributeDefinition>plantation acreage</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>acre</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288627333822">
+               <attributeName>Harvestacres</attributeName>
+               <attributeDefinition>acres harvested per management unit, which can be a portion of a plantation or more than one contiguous plantation</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>acre</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288627333838">
+               <attributeName>Comp</attributeName>
+               <attributeDefinition>Harvard Forest compartment</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Harvard Forest compartment</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288627333853">
+               <attributeName>TreeHt07m</attributeName>
+               <attributeDefinition>average tree height in the plot</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288627355853">
+               <attributeName>TreeHt12m</attributeName>
+               <attributeDefinition>height of the tallest tree in the plot</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288627333869">
+               <attributeName>YearPlanted</attributeName>
+               <attributeDefinition>year plantation was established by transplanting</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288627333885">
+               <attributeName>Plantedspacing</attributeName>
+               <attributeDefinition>original average spacing of the plantation</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.0001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288627333900">
+               <attributeName>Thinned</attributeName>
+               <attributeDefinition>whether the plantation received any thinning silvicultural treatment</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>No Info</code>
+                              <definition>records on thinning not found</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Yes</code>
+                              <definition>thinned</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>No</code>
+                              <definition>not thinned</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288627333916">
+               <attributeName>lat</attributeName>
+               <attributeDefinition>latitude</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <precision>0.000000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288627333932">
+               <attributeName>long</attributeName>
+               <attributeDefinition>longitude</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <precision>0.000000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288627333947">
+               <attributeName>MAspmY</attributeName>
+               <attributeDefinition>Y location in Massachusetts State Plane Meters, Mainland, NAD1983</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.0001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288627333963">
+               <attributeName>MAspmX</attributeName>
+               <attributeDefinition>location in Massachusetts State Plane Meters, Mainland, NAD1983</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.0001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1283627333838">
+               <attributeName>Notes</attributeName>
+               <attributeDefinition>notes</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>notes</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>22</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf162-02">
+         <entityName>hf162-02-trees.csv</entityName>
+         <entityDescription>trees</entityDescription>
+         <physical id="1288627460025">
+            <objectName>hf162-02-trees.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p16/hf162/hf162-02-trees.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1288628111337">
+               <attributeName>plot</attributeName>
+               <attributeDefinition>plot number (1-22)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number (1-22)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288628111353">
+               <attributeName>year</attributeName>
+               <attributeDefinition>year. 2007 is pre-harvest; 2008 and 2010 are post-harvest; 2012 includes all 22 plots</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288628111368">
+               <attributeName>species</attributeName>
+               <attributeDefinition>4-letter species code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>ACPE</code>
+                              <definition>Acer pennsylvanicum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ACRU</code>
+                              <definition>Acer rubrum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ACSA</code>
+                              <definition>Acer saccharum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BEAL</code>
+                              <definition>Betula alleghaniensis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BELE</code>
+                              <definition>Betula lenta</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>CADE</code>
+                              <definition>Castanea dentate</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>FAGR</code>
+                              <definition>Fagus grandifolia</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>FRAM</code>
+                              <definition>Fraxinu Americana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>LASP</code>
+                              <definition>Larix species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>NYSY</code>
+                              <definition>Nyssa sylvatica</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>OVSI</code>
+                              <definition>Ostrya virginiana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIAB</code>
+                              <definition>Picea abies</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIGL</code>
+                              <definition>Picea glauca</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIRE</code>
+                              <definition>Pinus resinosa</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIST</code>
+                              <definition>Pinus strobus</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>QUAL</code>
+                              <definition>Quercus alba</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>QURU</code>
+                              <definition>Quercus rubra</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>QUVE</code>
+                              <definition>Quercus velutina</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>TSCA</code>
+                              <definition>Tsuga canadensis</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288628111384">
+               <attributeName>dbh</attributeName>
+               <attributeDefinition>diameter measured at 1.3m; trees &gt;=2.5cm dbh are included)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>centimeter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288567333838">
+               <attributeName>notes</attributeName>
+               <attributeDefinition>notes</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>notes</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>2579</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf162-03">
+         <entityName>hf162-03-saplings.csv</entityName>
+         <entityDescription>saplings</entityDescription>
+         <physical id="1288628167321">
+            <objectName>hf162-03-saplings.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p16/hf162/hf162-03-saplings.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1288628287759">
+               <attributeName>Plot</attributeName>
+               <attributeDefinition>plot number (1-22)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number (1-22)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288628287774">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year. 2007 is pre-harvest; 2008, 2010 and 2012 are post-harvest</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288657111368">
+               <attributeName>species</attributeName>
+               <attributeDefinition>4-letter species code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>ACPE</code>
+                              <definition>Acer pennsylvanicum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ACRU</code>
+                              <definition>Acer rubrum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ACSA</code>
+                              <definition>Acer saccharum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BEAL</code>
+                              <definition>Betula alleghaniensis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BELE</code>
+                              <definition>Betula lenta</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BEPA</code>
+                              <definition>Betula papyrifera</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>FAGR</code>
+                              <definition>Fagus grandifolia</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>FRAM</code>
+                              <definition>Fraxinu Americana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>NYSY</code>
+                              <definition>Nyssa sylvatica</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIAB</code>
+                              <definition>Picea abies</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIRE</code>
+                              <definition>Pinus resinosa</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIST</code>
+                              <definition>Pinus strobus</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>POGR</code>
+                              <definition>Populus grandidentata</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>POTR</code>
+                              <definition>Populus tremuloides</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PRPE</code>
+                              <definition>Prunus pensylvanica</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PRSE</code>
+                              <definition>Prunus serotina</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>QUAL</code>
+                              <definition>Quercus alba</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>QURU</code>
+                              <definition>Quercus rubra</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>QUVE</code>
+                              <definition>Quercus velutina</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>TSCA</code>
+                              <definition>Tsuga canadensis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Total</code>
+                              <definition>sum of all saplings in plot</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288628287806">
+               <attributeName>Number</attributeName>
+               <attributeDefinition>number of saplings in plot</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288722883914">
+               <attributeName>Notes</attributeName>
+               <attributeDefinition>notes</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>notes</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1197</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf162-04">
+         <entityName>hf162-04-seedlings.csv</entityName>
+         <entityDescription>tree seedlings</entityDescription>
+         <physical id="1288628759663">
+            <objectName>hf162-04-seedlings.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p16/hf162/hf162-04-seedlings.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1288629108539">
+               <attributeName>Plot</attributeName>
+               <attributeDefinition>plot number (1-22)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number (1-22)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288629108555">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year. 2007 is pre-harvest; 2008, 2010 and 2012 are post-harvest.</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288657621368">
+               <attributeName>species</attributeName>
+               <attributeDefinition>4-letter species code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>ACPE</code>
+                              <definition>Acer pennsylvanicum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ACRU</code>
+                              <definition>Acer rubrum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ACSA</code>
+                              <definition>Acer saccharum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BEAL</code>
+                              <definition>Betula alleghaniensis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BELE</code>
+                              <definition>Betula lenta</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BEAL.LE</code>
+                              <definition>Betula alleghaniensis and/or Betula lenta </definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BEPA</code>
+                              <definition>Betula papyrifera</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>CADE</code>
+                              <definition>Castanea dentata</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>FAGR</code>
+                              <definition>Fagus grandifolia</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>FRAM</code>
+                              <definition>Fraxinu Americana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>NYSY</code>
+                              <definition>Nyssa sylvatica</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIAB</code>
+                              <definition>Picea abies</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIGL</code>
+                              <definition>Picea glabra</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIRE</code>
+                              <definition>Pinus resinosa</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PIST</code>
+                              <definition>Pinus strobus</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>POGR</code>
+                              <definition>Populus grandidentata</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>POSP</code>
+                              <definition>Populus (grandidentata or tremuloides)</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PRPE</code>
+                              <definition>Prunus pensylvanica</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PRSE</code>
+                              <definition>Prunus serotina</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>QUAL</code>
+                              <definition>Quercus alba</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>QURU</code>
+                              <definition>Quercus rubra</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>QUVE</code>
+                              <definition>Quercus velutina</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>SOAM</code>
+                              <definition>Sorbus americana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>TSCA</code>
+                              <definition>Tsuga canadensis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Overall</code>
+                              <definition>any tree seedlings</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288629108586">
+               <attributeName>Percent</attributeName>
+               <attributeDefinition>% of the 10 plots that contained seedling species</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1508</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf162-05">
+         <entityName>hf162-05-under.csv</entityName>
+         <entityDescription>understory vegetation</entityDescription>
+         <physical id="1288630940928">
+            <objectName>hf162-05-under.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p16/hf162/hf162-05-under.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1288720367004">
+               <attributeName>Plot</attributeName>
+               <attributeDefinition>plot number (1-22)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number (1-22)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288720367019">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year, 2007 is pre-harvest, 2008 is post-harvest</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288720367035">
+               <attributeName>Species</attributeName>
+               <attributeDefinition>6-letter species code</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>AMESPE</code>
+                              <definition>Amelanchier sp.</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>CORALT</code>
+                              <definition>Cornus alternifolia</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>CORCOR</code>
+                              <definition>Corylus cornuta</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>CRASPE</code>
+                              <definition>Crataegus sp.</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>GAUPRO</code>
+                              <definition>Gaultheria procumbens</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>HAMVIR</code>
+                              <definition>Hamamelis virginiana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ILEMUC</code>
+                              <definition>Ilex mucronata</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ILEVER</code>
+                              <definition>Ilex verticillata</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>LONSPE</code>
+                              <definition>Lonicera species (non-native)</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>MITREP</code>
+                              <definition>Mitchella repens</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PARQUI</code>
+                              <definition>Parthenocissus quinquefolia</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PRUVIR</code>
+                              <definition>Prunus virginiana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>RHURAD</code>
+                              <definition>Rhus radicans</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>RHUTYP</code>
+                              <definition>Rhus typhina</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>RUBALL</code>
+                              <definition>Rubus allegheniensis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>RUBIDA</code>
+                              <definition>Rubus idaeus</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>RUBHIS</code>
+                              <definition>Rubus hispidus</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>RUBSPE</code>
+                              <definition>Unknown Rubus sp.</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>SAMPUB</code>
+                              <definition>Sambucus pubens</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>SMIHER</code>
+                              <definition>Smilax herbacea</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>SORAME</code>
+                              <definition>Sorbus americana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>SPITOM</code>
+                              <definition>Spirea tomentosa</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VACANG</code>
+                              <definition>Vaccinium angustifolium</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VACCOR</code>
+                              <definition>Vaccinium corymbosum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VACPAL</code>
+                              <definition>Vaccinium pal</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VACSPE</code>
+                              <definition>Vaccinium species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VIBACE</code>
+                              <definition>Viburnum acerifolium</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VIBALN</code>
+                              <definition>Viburnum alnifolium</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VIBCAS</code>
+                              <definition>Viburnum cassinoides</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VIBDEN</code>
+                              <definition>Viburnum dentatum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VITSPE</code>
+                              <definition>Vitis sp.</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ARANUD</code>
+                              <definition>Aralia nudicaulis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ARAHIS</code>
+                              <definition>Aralia hispidis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>APOSPE</code>
+                              <definition>Apocynum species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ASTSPE</code>
+                              <definition>Aster species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ASTACU</code>
+                              <definition>Aster acuminatus</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>ASTDIV</code>
+                              <definition>Aster divaricatus</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>AQUSPE</code>
+                              <definition>Aquilegia species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>CLIBOR</code>
+                              <definition>Clintonia borealis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>COMPER</code>
+                              <definition>Comptonia peregrine</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>COPGRO</code>
+                              <definition>Coptis groenlandica</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>CORCAN</code>
+                              <definition>Cornus canadensis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>CYPSPE</code>
+                              <definition>Cypredium species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>EREHIE</code>
+                              <definition>Erechtites hieracifolia</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>GALTRI</code>
+                              <definition>Galium triflorum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>GOOSPE</code>
+                              <definition>Goodyera species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>LYSQUA</code>
+                              <definition>Lysimachia quadrifolia</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>MAICAN</code>
+                              <definition>Maianthemum canadense</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>MEDVIR</code>
+                              <definition>Medeola virginiana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>MONHYP</code>
+                              <definition>Monotropa hypopithys</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>MONUNI</code>
+                              <definition>Monotropa uniflora</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>OXASPE</code>
+                              <definition>Oxalis species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>POLSPE</code>
+                              <definition>Polygonatum species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>POTSPE</code>
+                              <definition>Potentilla species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>RUMACE</code>
+                              <definition>Rumex acetosella</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>SMIRAC</code>
+                              <definition>Smilacina racemosa</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Solanum</code>
+                              <definition>Solanum species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Solidago</code>
+                              <definition>Solidago species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>TAROFF</code>
+                              <definition>Taraxacum officinale</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>TRIBOR</code>
+                              <definition>Trientalis borealis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>UVUSES</code>
+                              <definition>Uvularia sessilifolia</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VIOSAG</code>
+                              <definition>Viola sagittata</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VIOSPE</code>
+                              <definition>Viola species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>DENPUN</code>
+                              <definition>Dennstaedtia punctilobula</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>DRYSPE</code>
+                              <definition>Dryopteris species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>OSMCLA</code>
+                              <definition>Osmunda claytoniana</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>OSMCIN</code>
+                              <definition>Osmunda cinnamomea</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>PTEAQU</code>
+                              <definition>Pteridium aquilinum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>THENOV</code>
+                              <definition>Thelypteris nova-boracensis</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>LYCANN</code>
+                              <definition>Lycopodium annotinum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>LYCLUC</code>
+                              <definition>Lycopodium lucidulum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>LYCOBS</code>
+                              <definition>Lycopodium obscurum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>CARSPE</code>
+                              <definition>Carex species</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>BRAERE</code>
+                              <definition>Brachyelytrum erectum</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>GRASPE</code>
+                              <definition>Grass species</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288720367051">
+               <attributeName>Cover</attributeName>
+               <attributeDefinition>cover</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288720302051">
+               <attributeName>Richness</attributeName>
+               <attributeDefinition>total species richness per sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288725867051">
+               <attributeName>AddlUnk</attributeName>
+               <attributeDefinition>additional number of species to add to total understory richness &#8211; these are as yet unidentified and not listed elsewhere in the spreadsheet.</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>5824</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf162-06">
+         <entityName>hf162-06-cwd.csv</entityName>
+         <entityDescription>coarse woody debris</entityDescription>
+         <physical id="1288720432441">
+            <objectName>hf162-06-cwd.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p16/hf162/hf162-06-cwd.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1288722095743">
+               <attributeName>plot</attributeName>
+               <attributeDefinition>plot number (1-22)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number (1-22)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722095758">
+               <attributeName>year</attributeName>
+               <attributeDefinition>year sampled</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722095774">
+               <attributeName>transect</attributeName>
+               <attributeDefinition>location of transect within plot, running diagonally from:</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>SW.NE</code>
+                              <definition>southwest to northeast plot corner</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>SE.NW</code>
+                              <definition>southeast to northwest plot corner</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>NW.SE</code>
+                              <definition>northwest to southeast plot corner</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>NE.SW</code>
+                              <definition>northeast to southwest plot corner</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>NA</code>
+                              <definition>not clearly recorded</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722095790">
+               <attributeName>tlength</attributeName>
+               <attributeDefinition>length of transect in meters; always 28.28m</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288722095805">
+               <attributeName>diam1</attributeName>
+               <attributeDefinition>diameter of wood at point it crosses the transect line</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>centimeter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288722095821">
+               <attributeName>diam2</attributeName>
+               <attributeDefinition>second diameter of piece, measured perpendicular to diam1; it was not always possible to obtain two measurements</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>centimeter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288722095836">
+               <attributeName>diamavgcm</attributeName>
+               <attributeDefinition>area of an ellipse, ie the square root of diam1*diam2</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareCentimeters</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288722095852">
+               <attributeName>decaycl</attributeName>
+               <attributeDefinition>decay class as defined below</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>soild wood, recently fallen, bark and twigs present</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>soild wood, significantly weathering, branches present</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>wood not solid, bark may be sloughing but nail still must be pounded into wood</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>4</code>
+                              <definition>wood sloughing and/or friable, nail may be forcibly pushed into wood</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>5</code>
+                              <definition>wood friable, barely holding shape, nail may be easily pushed into wood</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722095868">
+               <attributeName>species</attributeName>
+               <attributeDefinition>species</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>species</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722095883">
+               <attributeName>volumem3ha</attributeName>
+               <attributeDefinition>the volume in m3/ha for each piece, and is calculated using equation 8 in Harmon and Sexton (1996) 
+      V = 9.869 * 10000*(d2/8L), where
+V is volume (m3/m2)
+d is diamavgcm divided by 100 (to give diameter in meters)
+L is transect length (m)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterCubedPerHectare</customUnit>
+                     </unit>
+                     <precision>0.000000001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288722095899">
+               <attributeName>notes</attributeName>
+               <attributeDefinition>notes</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>notes</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1115</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf162-07">
+         <entityName>hf162-07-snags.csv</entityName>
+         <entityDescription>snags</entityDescription>
+         <physical id="1288722302554">
+            <objectName>hf162-07-snags.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p16/hf162/hf162-07-snags.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1288722419256">
+               <attributeName>plot</attributeName>
+               <attributeDefinition>plot number (1-22)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number (1-22)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722419272">
+               <attributeName>year</attributeName>
+               <attributeDefinition>year sampled</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722419287">
+               <attributeName>dbh</attributeName>
+               <attributeDefinition>diameter at 1.3m</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>centimeter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288722419303">
+               <attributeName>species</attributeName>
+               <attributeDefinition>species, see hf162-02-trees.csv</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>species</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722888194">
+               <attributeName>notes</attributeName>
+               <attributeDefinition>notes</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>notes</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>302</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf162-08">
+         <entityName>hf162-08-browsing.csv</entityName>
+         <entityDescription>browsing</entityDescription>
+         <physical id="1288722494459">
+            <objectName>hf162-08-browsing.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p16/hf162/hf162-08-browsing.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1288722883753">
+               <attributeName>Year</attributeName>
+               <attributeDefinition>year sampled</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722883769">
+               <attributeName>Plot</attributeName>
+               <attributeDefinition>plot number (1-22)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number (1-22)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722883785">
+               <attributeName>Subplot</attributeName>
+               <attributeDefinition>subplot (A-Y)</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>subplot (A-Y)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722883800">
+               <attributeName>Species</attributeName>
+               <attributeDefinition>species, see hf162-02-trees.csv and hf162-03-seedlings.csv and hf162-04-under.csv</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>species</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722883816">
+               <attributeName>Heightcl</attributeName>
+               <attributeDefinition>height class</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>0.3-1.99m</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>1.0-1.99m</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>&gt;2m</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722883831">
+               <attributeName>dbh</attributeName>
+               <attributeDefinition>diameter at breast height, if stem tall enough</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>centimeter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288722883847">
+               <attributeName>browsing</attributeName>
+               <attributeDefinition>browsing</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>N</code>
+                              <definition>browsing not observed</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Y</code>
+                              <definition>browsing present</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722883863">
+               <attributeName>browsing2m</attributeName>
+               <attributeDefinition>browsing at or above 2m</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>N</code>
+                              <definition>browsing at/above 2m height not observed</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Y</code>
+                              <definition>browsing at/above 2m height observed</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722883878">
+               <attributeName>browsingd05</attributeName>
+               <attributeDefinition>browsing of stem &gt;=0.5cm dbh</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>N</code>
+                              <definition>not a browsed stem &gt;=0.5cm dbh</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Y</code>
+                              <definition>browsed stem &gt;=0.5cm dbh</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722883894">
+               <attributeName>Notes</attributeName>
+               <attributeDefinition>notes, includes notes on subplots that contained no vegetation</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>notes</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>3214</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf162-09">
+         <entityName>hf162-09-stumps.csv</entityName>
+         <entityDescription>coarse woody debris</entityDescription>
+         <physical id="1288722494460">
+            <objectName>hf162-09-stumps.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p16/hf162/hf162-09-stumps.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1288792095743">
+               <attributeName>plot</attributeName>
+               <attributeDefinition>plot number (1-22); but stumps tallied in harvested plots only</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>plot number (1-22)</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288701095758">
+               <attributeName>year</attributeName>
+               <attributeDefinition>year sampled; post-harvest only</attributeDefinition>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288729219303">
+               <attributeName>species</attributeName>
+               <attributeDefinition>species, see hf162-02-trees.csv</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>species</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722098405">
+               <attributeName>diam1</attributeName>
+               <attributeDefinition>stump diameter</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>centimeter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1285722095821">
+               <attributeName>diam2</attributeName>
+               <attributeDefinition>second diameter in cm. measured perpendicular to the first, if possible. Not measured in 2010</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>centimeter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288722095996">
+               <attributeName>avgdiam</attributeName>
+               <attributeDefinition>area of an ellipse, ie the square root of diam1*diam2</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareCentimeters</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1287722095996">
+               <attributeName>height</attributeName>
+               <attributeDefinition>stump height</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1288332095852">
+               <attributeName>decaycl</attributeName>
+               <attributeDefinition>decay class as defined below</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>soild wood, recently fallen, bark and twigs present</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>soild wood, significantly weathering, branches present</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>wood not solid, bark may be sloughing but nail still must be pounded into wood</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>4</code>
+                              <definition>wood sloughing and/or friable, nail may be forcibly pushed into wood</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>5</code>
+                              <definition>wood friable, barely holding shape, nail may be easily pushed into wood</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722044868">
+               <attributeName>notes</attributeName>
+               <attributeDefinition>notes</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>notes</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1288722095553">
+               <attributeName>volumem3ha</attributeName>
+               <attributeDefinition>the volume in m3/ha for each stump; 3.1415*height*((avgdiam/200)^2))/0.04</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterCubedPerHectare</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>744</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>ongoing</status>
+            <researchTopic>biodiversity</researchTopic>
+            <researchTopic>conservation</researchTopic>
+            <studyType>long-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Historical GIS Data for Harvard Forest Properties from 1908 to Present">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf110</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <ns2:unitList convention="CML">
+            <ns2:unit constantToSI="0.0" id="meterCubedPerHectare" multiplierToSI="0.0001" name="meterCubedPerHectare" parentSI="meterCubedPerMeterSquared" unitType="volumetricArea" />
+         </ns2:unitList>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,1271 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.19.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+   <allow>
+    <principal>uid=MCM,o=lter,dc=ecoinformatics,dc=org</principal>
+    <permission>all</permission>
+   </allow>
+   <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+   </allow>
+  </access>
+<dataset>
+<shortName>preLTER streamchem</shortName>
+<title>STREAM CONDUCTIVITY, pH, DISSOLVED ORGANIC CARBON 1990-1992 (Pre-LTER)</title>
+<creator>
+   <individualName>
+    <givenName>Diane</givenName>
+    <surName>McKnight</surName>
+   </individualName>
+   <address>
+   <deliveryPoint> INSTAAR</deliveryPoint>
+   <deliveryPoint>   1560 30th Street</deliveryPoint>
+   <deliveryPoint>   Campus Box 450 </deliveryPoint>
+   <city>Boulder</city>
+   <administrativeArea>CO</administrativeArea>
+   <postalCode>  80309-0450
+   </postalCode>
+   <country>USA</country>
+  </address>
+   <phone phonetype="voice">(303)492-4687</phone>
+   <electronicMailAddress>Diane.Mcknight@colorado.edu</electronicMailAddress>
+  </creator>
+<metadataProvider>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+  </metadataProvider>
+<abstract>
+   <section>
+    <para>Prior to the Long Term Ecological Research (LTER) project in the McMurdo Dry
+      Valleys of Antarctica, research was being conducted on some of the Taylor Valley streams
+      through an ongoing study by the U.S. Geological Survey, in cooperation with the National
+      Science Foundation. This dataset contains chemistry values collected from twelve of the
+      Fryxell basin streams during the 1990-91 and 1991-92 austral summers. </para>
+   </section>
+  </abstract>
+<keywordSet>
+   <keyword keywordType="theme"> stream</keyword>
+   <keyword keywordType="theme"> chemistry</keyword>
+<keyword keywordType="place">McMurdo Dry Valleys</keyword>
+<keyword keywordType="theme">MCM</keyword>
+  </keywordSet>
+<additionalInfo>
+   <section>
+    <title>Notes</title>
+    <para>
+     <literalLayout> Data contained in these files has been subjected to quality control standards
+      imposed by the investigator. The user of this data should be aware that, while efforts have
+      been taken to ensure that these data are of the highest quality, there is no guarantee of
+      perfection for the data contained herein and the possibility of errors exists. If you
+      encounter questionable data, please contact the MCM LTER data manager corrected or qualified.
+      Thus, these data may be modified and future data will be appended.</literalLayout>
+    </para>
+   </section>
+   <section>
+    <title>NOTES ON VARIABLE DESCRIPTIONS</title>
+    <para>
+      <literalLayout>Not all variabless are listed in the file.  The full list of columns names is  below:
+       dataset codeCode representing stream conductivity, pH, dissolved organic carbon 1990-1992 dataset
+       strmgageidCode representing stream gauge
+       date/timeDate/time of sample (McMurdo time)
+       conductivityconductivity (microsiemens/cm)
+       pHpH in standard units
+       DOC (mg/l)dissolved organic carbon (mg/liter)
+       Al (filtered &amp; acidified)aluminum concentration in filtered &amp; acidified sample
+       B (filtered &amp; acidified)boron concentration in filtered &amp; acidified sample
+       Ba (filtered &amp; acidified)barium concentration in filtered &amp; acidified sample
+       Ca (filtered &amp; acidified)calcium concentration in filtered &amp; acidified sample
+       Cd (filtered &amp; acidified)cadmium concentration in filtered &amp; acidified sample
+       Co (filtered &amp; acidified)cobalt concentration in filtered &amp; acidified sample
+       Cr (filtered &amp; acidified)chromium concentration in filtered &amp; acidified sample
+       Cu (filtered &amp; acidified)copper concentration in filtered &amp; acidified sample
+       Fe (filtered &amp; acidified)iron concentration in filtered &amp; acidified sample
+       Li (filtered &amp; acidified)lithium concentration in filtered &amp; acidified sample
+       Mg (filtered &amp; acidified)magnesium concentration in filtered &amp; acidified sample
+       Mn (filtered &amp; acidified)manganese concentration in filtered &amp; acidified sample
+       Mo (filtered &amp; acidified)molybdenum concentration in filtered &amp; acidified sample
+       Na (filtered &amp; acidified)sodium concentration in filtered &amp; acidified sample
+       Ni (filtered &amp; acidified)nickel concentration in filtered &amp; acidified sample
+       Pb (filtered &amp; acidified)lead concentration in filtered &amp; acidified sample
+       Si (filtered &amp; acidified)silicon concentration in filtered &amp; acidified sample
+       Sr (filtered &amp; acidified)strontium concentration in filtered &amp; acidified sample
+       V (filtered &amp; acidified)vanadium concentration in filtered &amp; acidified sample
+       Zn (filtered &amp; acidified)zinc concentration in filtered &amp; acidified sample
+       Cl (filtered &amp; unacidified)chlorine concentration in filtered &amp; unacidified sample
+       NO3 (filtered &amp; unacidified)nitrate concentration in filtered &amp; unacidified sample
+       SO4 (filtered &amp; unacidified)sulfate concentration in filtered &amp; unacidified sample
+       Al (raw &amp; acidified)aluminum concentration in unfiltered, acidified sample
+       B (raw &amp; acidified)boron concentration in unfiltered, acidified sample
+       Ba (raw &amp; acidified)barium concentration in unfiltered, acidified sample
+       Ca (raw &amp; acidified)calcium concentration in unfiltered, acidified sample
+       Cd (raw &amp; acidified)cadmium concentration in unfiltered, acidified sample
+       Co (raw &amp; acidified)cobalt concentration in unfiltered, acidified sample
+       Cr (raw &amp; acidified)chromium concentration in unfiltered, acidified sample
+       Cu (raw &amp; acidified)copper concentration in unfiltered, acidified sample
+       Fe (raw &amp; acidified)iron concentration in unfiltered, acidified sample
+       Li (raw &amp; acidified)lithium concentration in unfiltered, acidified sample
+       Mg (raw &amp; acidified)magnesium concentration in unfiltered, acidified sample
+       Mn (raw &amp; acidified)manganese concentration in unfiltered, acidified sample
+       Mo (raw &amp; acidified)molybdenum concentration in unfiltered, acidified sample
+       Na (raw &amp; acidified)sodium concentration in unfiltered, acidified sample
+       Ni (raw &amp; acidified)nickel concentration in unfiltered, acidified sample
+       Pb (raw &amp; acidified)lead concentration in unfiltered, acidified sample
+       Si (raw &amp; acidified)silicon concentration in unfiltered, acidified sample
+       Sr (raw &amp; acidified)strontium concentration in unfiltered, acidified sample
+       V (raw &amp; acidified)vanadium concentration in unfiltered, acidified sample
+       Zn (raw &amp; acidified)zinc concentration in unfiltered, acidified sample
+      </literalLayout>  
+    </para>
+   </section>
+  </additionalInfo>
+<intellectualRights>
+   <section>
+    <title>MCM LTER data may be used freely with the following restrictions:</title>
+    <para>
+     <itemizedlist>
+      <listitem>
+       <para>
+        <literalLayout>The Principal Investigator be sent a notice stating reasons for acquiring any
+         data and a description of the publication intentions. </literalLayout>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <literalLayout>The Principal Investigator of the data set be sent a copy of the report or
+         manuscript prior to submission and be adequately cited in any resultant
+        publications.</literalLayout>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <literalLayout>A copy of any resultant publications should be sent to the McMurdo data
+         manager and principal investigator.</literalLayout>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <literalLayout>The end-user follow the guidelines set forth in the LTER Network Data Access
+         Policy, Data Access Requirements, and General Data Use Agreement found at
+         http://www.mcmlter.org/data_guidelines.htm</literalLayout>
+       </para>
+      </listitem>
+     </itemizedlist>
+    </para>
+   </section>
+  </intellectualRights>
+<distribution>
+   <online>
+    <url>http://www.mcmlter.org/queries/streams/streamchem_all.jsp?begDate=01/01/0001&amp;endDate=01/01/3000&amp;hydroStation=STREAM_CHEM</url>
+   </online>
+  </distribution>
+<coverage>
+   <geographicCoverage>
+    <geographicDescription> Study areas are located in the McMurdo Dry Valleys of southern Victoria
+     Land, Antarctica (on the western coast of the Ross Sea at 77oS). Although the majority of the
+     streams in the study are found in Taylor Valley, data has also been collected from streams in
+     the nearby Miers, Alph, Wright, Pearse, Garwood, and Victoria Valleys. An extensive network of
+     gauging stations was set up throughout these valleys to monitor the stream hydrology. While
+     collecting hydrology data, stream water samples to be used for nutrient analysis are also
+     gathered. Sample locations for stream nutrient data thus coincides with those for hydrology
+     samples. Locations also remain consistent from season to season. Specific latitudes and
+     longitudes for each stream gauge can be found in the site.</geographicDescription>
+    
+    <boundingCoordinates>
+     <westBoundingCoordinate>162</westBoundingCoordinate>
+     <eastBoundingCoordinate>163.6</eastBoundingCoordinate>
+     <northBoundingCoordinate>-77.2</northBoundingCoordinate>
+     <southBoundingCoordinate>-77.8</southBoundingCoordinate>
+     
+     <boundingAltitudes>
+      <altitudeMinimum>0</altitudeMinimum>
+      <altitudeMaximum>1000</altitudeMaximum>
+      <altitudeUnits>meter</altitudeUnits>
+     </boundingAltitudes>
+    </boundingCoordinates>
+   </geographicCoverage>
+   <temporalCoverage>
+    <rangeOfDates>
+     <beginDate>
+      <calendarDate>1990</calendarDate>
+     </beginDate>
+     <endDate>
+      <calendarDate>1992</calendarDate>
+     </endDate>
+    </rangeOfDates>
+   </temporalCoverage>
+  </coverage>
+<maintenance>
+   <description>
+    <section>
+     <para>
+      <literalLayout> The 1990-91 stream chemistry table was created by Harry House at the Wisconsin
+       U.S. Geological Survey office . It was first stored in an INGRES database, but was converted
+       to ORACLE format in early 1996. It was transferred to INSTAAR in late 1997. Between 1997 and
+       2000, it was stored in Microsoft Access. Ascii, comma delimited and MS-DOS text files were
+       exported from Access to generate the 'stchem1.dat' and 'stchem1.txt' data files used on the
+       web page. In March, 2000, Denise Steigerwald added some variables to this file in order to
+       make the dataset more useful in Oracle and GIS. These variables included dataset code, and
+       strmgageid. </literalLayout>
+     </para>
+    </section>
+   </description>
+  </maintenance>
+<contact>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+  </contact>
+<publisher>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+  </publisher>
+<dataTable>
+   <entityName>preLTER_Streamchem_Units</entityName>
+   <physical>
+    <objectName>preLTER_Streamchem_Units</objectName>
+    <dataFormat>
+     <textFormat>
+      <numHeaderLines>28</numHeaderLines>
+      <numFooterLines>1</numFooterLines>
+<recordDelimiter>\n</recordDelimiter>
+      <attributeOrientation>column</attributeOrientation>
+      <simpleDelimited>
+       <fieldDelimiter>,</fieldDelimiter>
+       <quoteCharacter>"</quoteCharacter>
+      </simpleDelimited>
+     </textFormat>
+    </dataFormat>
+<distribution>
+<online>
+<url function="download">http://www.mcmlter.org/queries/streams/streamchem_all.jsp?begDate=01/01/0001&amp;endDate=01/01/3000&amp;hydroStation=STREAM_CHEM</url>
+</online>
+</distribution>
+   </physical>
+   <attributeList>
+    <attribute>
+     <attributeName>DATASET_CODE</attributeName>
+     <attributeLabel>Dataset code</attributeLabel>
+     <attributeDefinition>Code representing stream chemistry / dissolved organic carbon dataset</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Code representing stream chemistry / dissolved organic carbon
+          dataset</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>strmgageid</attributeName>
+     <attributeDefinition>Code representing stream gauge station</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Code representing stream gauge station</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>DATE_TIME</attributeName>
+     <attributeDefinition>Date/time of sample (McMurdo time)</attributeDefinition>
+     <storageType typeSystem="Date" />
+     <measurementScale>
+      <dateTime>
+<formatString>MM/DD/YYYY</formatString>
+</dateTime>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Conductivity</attributeName>
+     <attributeDefinition>Specific conductivity</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>microsiemens/cm</customUnit>
+       </unit>
+       <precision>0.1</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>pH</attributeName>
+     <attributeDefinition>hydrogen ion concentration found at lake depth</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>pH</customUnit>
+       </unit>
+       <precision>0.01</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+         <maximum exclusive="false">10</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>DOC (mg/L)</attributeName>
+     <attributeDefinition>dissolved organic carbon concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <precision>0.01</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="false">0</minimum>
+         <maximum exclusive="false">15</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Al filtered/acidified</attributeName>
+     <attributeLabel>Al filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Aluminum filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>B filtered/acidified</attributeName>
+     <attributeLabel>B filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Borom filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Ba filtered/acidified</attributeName>
+     <attributeLabel>Ba filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Barium filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Ca filtered/acidified</attributeName>
+     <attributeLabel>Ca filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Calcium filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Cd filtered/acidified</attributeName>
+     <attributeLabel>Cd filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Cadmium filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Co filtered/acidified</attributeName>
+     <attributeLabel>Co filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Cobalt filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Cr filtered/acidified</attributeName>
+     <attributeLabel>Cr filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Cromium filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Cu filtered/acidified</attributeName>
+     <attributeLabel>Cu filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Copper filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Fe filtered/acidified</attributeName>
+     <attributeLabel>Fe filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Iron filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Li filtered/acidified</attributeName>
+     <attributeLabel>Li filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Litium filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Mg filtered/acidified</attributeName>
+     <attributeLabel>Mg filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Magnesium filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Mn filtered/acidified</attributeName>
+     <attributeLabel>Mn filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Manganese filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Mo filtered and acidified (mg/l)</attributeName>
+     <attributeLabel>Mo filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Molybdenum filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Na filtered/acidified</attributeName>
+     <attributeLabel>Na filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Sodium filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Ni filtered/acidified</attributeName>
+     <attributeLabel>Ni filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Nickel filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Pb filtered/acidified</attributeName>
+     <attributeLabel>Pb filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Lead filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Si filtered/acidified</attributeName>
+     <attributeLabel>Si filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Silicon filtered and acidified concentration </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Sr filtered/acidified</attributeName>
+     <attributeLabel>Sr filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Strontium filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>V filtered/acidified</attributeName>
+     <attributeLabel>V filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Vanadium filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Zn filtered/acidified</attributeName>
+     <attributeLabel>Zn filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Zinc filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+
+    <attribute>
+     <attributeName>CL filtered/acidified</attributeName>
+     <attributeLabel>CL filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Chlorum filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>NO3 filtered/acidified</attributeName>
+     <attributeLabel>NO3 filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Nitrate filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>SO4 filtered/acidified</attributeName>
+     <attributeLabel>SO4 filtered and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Sulfate filtered and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Al RAW/acidified</attributeName>
+     <attributeLabel>Al RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Aluminum RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>B RAW/acidified</attributeName>
+     <attributeLabel>B RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Borom RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Ba RAW/acidified</attributeName>
+     <attributeLabel>Ba RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Barium RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Ca RAW/acidified</attributeName>
+     <attributeLabel>Ca RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Calcium RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Cd RAW/acidified</attributeName>
+     <attributeLabel>Cd RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Cadmium RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Co RAW/acidified</attributeName>
+     <attributeLabel>Co RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Cobalt RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Cr RAW/acidified</attributeName>
+     <attributeLabel>Cr RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Cromium RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Cu RAW/acidified</attributeName>
+     <attributeLabel>Cu RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Copper RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Fe RAW/acidified</attributeName>
+     <attributeLabel>Fe RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Iron RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Li RAW/acidified</attributeName>
+     <attributeLabel>Li RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Litium RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Mg RAW/acidified</attributeName>
+     <attributeLabel>Mg RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Magnesium RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Mn RAW/acidified</attributeName>
+     <attributeLabel>Mn RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Manganese RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Mo RAW and acidified (mg/l)</attributeName>
+     <attributeLabel>Mo RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Molybdenum RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Na RAW/acidified</attributeName>
+     <attributeLabel>Na RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Sodium RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Ni RAW/acidified</attributeName>
+     <attributeLabel>Ni RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Nickel RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Pb RAW/acidified</attributeName>
+     <attributeLabel>Pb RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Lead RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Si RAW/acidified</attributeName>
+     <attributeLabel>Si RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Silicon RAW and acidified concentration </attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Sr RAW/acidified</attributeName>
+     <attributeLabel>Sr RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Strontium RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>V RAW/acidified</attributeName>
+     <attributeLabel>V RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Vanadium RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Zn RAW/acidified</attributeName>
+     <attributeLabel>Zn RAW and acidified (mg/l)</attributeLabel>
+     <attributeDefinition>Zinc RAW and acidified concentration</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+
+   </attributeList>
+   </dataTable>
+</dataset>
+<additionalMetadata>
+<metadata>
+<unitList>
+   <unit id="microsiemens/cm" />
+   <unit id="pH" />
+  </unitList>
+</metadata>
+</additionalMetadata>
+</eml:eml>

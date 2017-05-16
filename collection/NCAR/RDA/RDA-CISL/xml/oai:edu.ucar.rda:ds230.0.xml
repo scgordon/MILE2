@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="230.0"
+            type="historical">
+   <timeStamp value="2015-02-11 10:54:10 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>FSU/COAPS Pacific and Indian Ocean Monthly Pseudo-Wind Stress</title>
+   <summary>
+      <p>Ship and buoy observed winds are used at FSU/COAPS to produce
+              objectively analyzed grids of pseudo-wind stress for the
+              tropical Pacific and Indian Ocean.</p>
+      <p>
+         <font color="red">Note: this version of ds230.0 data has
+              been superseded.</font>
+      </p>
+      <p>The Center for Ocean-Atmospheric Prediction Studies at
+              the Florida State University has a
+              <a href="http://coaps.fsu.edu/RVSMDC/FSUFluxes/">
+              {new in-situ based air-sea flux product}</a>.
+              The product, known as the FSU3, is an objectively derived
+              monthly surface flux product based only on individual ship,
+              buoy, and drifter observations. Fields of sensible and
+              latent heat flux, wind stress, pseudo-wind stress,
+              and the parameters needed to derive these fluxes (wind speed,
+              air and  sea temperature, specific humidity) are available.
+              </p>
+      <p>Currently, the FSU3 is available for the Atlantic Ocean
+              (north of  34S) from 1978-2004 and for the Indian Ocean
+              (north of 30S) from 1978-1997. An extension of the Indian Ocean
+              through 2004 will be release shortly and the 1978-2004 Pacific
+              product will be available by the end of 2006. All products are
+              based on the ICOADS versions 2.1 (1978-1997) and version 2.2
+              (1998-2004).</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="FSU/COAPS &gt; Center for Ocean-Atmospheric Prediction Studies, Florida State University"
+                contact="O'Brien;Legler;Smith;Bourassa"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Wind Stress</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Legler, D.M., I.M. Navon, and J.J. O'Brien</authorList>
+      <year>1989</year>
+      <title>Objective Analysis of Pseudostress Over the Indian Ocean Using a Direct-Minimization Approach</title>
+      <periodical number="117" pages="709-720">Mon. Wea. Rev.</periodical>
+   </reference>
+   <reference type="preprint">
+      <authorList>Bourassa, M.A., S.R. Smith, and J.J. O'Brien</authorList>
+      <year>2001</year>
+      <title>A new FSU winds and flux climatology</title>
+      <conference host="Amer. Meteor. Soc." location="San Diego, CA" pages="9-12">11th Conf. on Interactions of the Sea and Atmosphere</conference>
+   </reference>
+   <relatedResource url="http://coaps.fsu.edu/">COAPS at FSU</relatedResource>
+   <relatedResource url="http://coaps.fsu.edu/RVSMDC/html/winds.shtml">Pacific Ocean products at FSU/COAPS</relatedResource>
+   <publicationDate>1986-06-24</publicationDate>
+   <contentMetadata>
+      <temporal start="1961" end="2000" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <format>netCDF</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="84"
+               numY="30"
+               startLon="124E"
+               startLat="29S"
+               endLon="70W"
+               endLat="29N"
+               xRes="2"
+               yRes="2"/>
+         <grid definition="latLon"
+               numX="94"
+               numY="58"
+               startLon="28.5E"
+               startLat="31.5S"
+               endLon="121.5E"
+               endLat="25.5N"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

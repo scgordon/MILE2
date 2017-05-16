@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="060.0"
+            type="primary">
+   <timeStamp value="2015-02-11 21:46:06 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NMC B3 Operational Model 47 by 51 Northern Hemisphere Tropospheric Analyses, daily 1959-1972</title>
+   <summary>
+      <p>This dataset contains daily gridded Northern Hemisphere
+              analyses from NMC's operational model on a 47 by 51
+              polar-stereographic grid centered on the North Pole.  Available
+              parameters include geopotential height, temperature, stream
+              functions, thickness, and vertical velocity for various levels
+              and layers through the troposphere.  In general, the grids
+              cover the period from January 1959 to December 1972, but periods
+              for individual parameters will vary.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Meteorological Center"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">OPERATIONAL MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Jenne, Roy L.</authorList>
+      <year>1986</year>
+      <title>NMC Analyses (unpublished)</title>
+      <organization reportID="" pages="14">NCAR</organization>
+      <url>http://rda.ucar.edu/datasets/common/nmc.octagon/NMC-Analyses-RJ1986.pdf</url>
+   </reference>
+   <relatedDataset ID="066.0"/>
+   <publicationDate>1979-12-05</publicationDate>
+   <contentMetadata>
+      <temporal start="1959-01-01 00:00 +0000"
+                end="1972-12-31 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <temporalFrequency type="regular" number="4" unit="day"/>
+      <temporalFrequency type="regular" number="3" unit="day"/>
+      <temporalFrequency type="regular" number="2" unit="day"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/datasets/common/nmc.octagon/format.html">DSS_Octagonal_Grid</format>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="47"
+               numY="51"
+               startLon="122.61W"
+               startLat="4.86S"
+               projLon="80W"
+               xRes="381"
+               yRes="381"
+               pole="N"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

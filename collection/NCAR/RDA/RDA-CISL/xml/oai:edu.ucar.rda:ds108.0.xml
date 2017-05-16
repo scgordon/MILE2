@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="108.0"
+            type="historical">
+   <timeStamp value="2015-02-11 14:48:27 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Australian Southern Hemisphere Tropospheric Analyses, daily from April 1972 to December 1992</title>
+   <summary>
+      <p>From the Australian National Meteorological Research Centre, twice daily
+              Southern Hemisphere grids on a polar stereographic projection.  DSS
+              derived the monthly mean grids.  Later and ongoing data may be
+              available directly from the <a href="http://www.bom.gov.au">Australian Bureau of Meteorology</a>.
+              </p>
+      <p>Unless you have a special interest in this dataset, DSS recommends that you
+              use one of our reanalysis datasets, such as <a href="http://rda.ucar.edu/datasets/ds090.0/">ds090.0</a>, because those are
+              based on a more complete collection of observations, improved analysis methods,
+              and are provided in a common modern format (GRIB).
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="AU/BOM/BMRC &gt; Bureau of Meteorology Research Centre, Bureau of Meteorology, Australia"
+                formerName="Australian National Meteorological Research Centre"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1980-01-03</publicationDate>
+   <contentMetadata>
+      <temporal start="1972-04-24" end="1992-12" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="47"
+               numY="47"
+               startLon="135E"
+               startLat="18.6N"
+               projLon="90E"
+               xRes="508"
+               yRes="508"
+               pole="S"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>
