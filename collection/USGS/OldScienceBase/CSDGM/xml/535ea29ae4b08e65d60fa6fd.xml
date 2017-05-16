@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Sean M. Quigley</origin>
+            <pubdate>2003</pubdate>
+            <title>Ohio-drainage digital elevation model for use with Water Resources Investigations Report 03-4164</title>
+            <geoform>raster digital data</geoform>
+            <serinfo>
+               <sername>Water-Resources Investigations Report</sername>
+               <issue>USGS WRIR 03-4164</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Columbus, Ohio</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?elevgrd</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This coverage was derived from U.S. Geological Survey National
+Elevation Dataset (NED) Digital Elevation Models (DEMs) for all of Ohio and portions of Indiana,
+Michigan, Kentucky, West Virginia, Pennsylvania, and New York. The dataset is a raster grid
+coverage representing a 30 meter grid cell size, or 1-arc second, and is in units of decimeters.
+The various NED source datasets used to create this dataset came primarily from state agencies who
+provide such data free of any fees or charges. More information about NED data can be found at
+http://gisdata.usgs.net/NED/default.asp.
+			</abstract>
+         <purpose>This coverage was created to derive elevation and hydrography related characteristics
+of selected drainage basins within Ohio and portions of surrounding states for use in regression
+equations present by Koltun (2003). These characteristics include mean basin elevation, elevation at
+basin centroid, and main-channel slope. Other hydrography related uses of DEMs include the analysis
+of aspect, hill shade, flow accumulation, and flow direction. DEMs of 30 meter resolution are intended
+to be used at scales of 1:24,000 and smaller.
+
+Koltun, G.F., 2003, Techniques for Estimating Flood-Peak Discharges of
+Rural, Unregulated Streams in Ohio: U.S. Geological Survey Water-Resources
+Investigations Report 03-4164
+			</purpose>
+         <supplinf>The U.S. Geological Survey, EROS Data Center developed the NED as a seamless
+mosaic of best-available elevation data for the conterminous United States.
+			</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>19990201</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>ground condition</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>As needed</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-85.45679588</westbc>
+            <eastbc>-79.44465158</eastbc>
+            <northbc>42.30412158</northbc>
+            <southbc>37.73128706</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>NONE</themekt>
+            <themekey>Elevation</themekey>
+            <themekey>Topography</themekey>
+            <themekey>Slope</themekey>
+            <themekey>Percent Rise</themekey>
+            <themekey>Z-value</themekey>
+            <themekey>National Elevation Dataset</themekey>
+            <themekey>Digital Elevation Model</themekey>
+            <themekey>Topography</themekey>
+            <themekey>inlandWaters</themekey>
+         </theme>
+         <place>
+            <placekt>NONE</placekt>
+            <placekey>Ohio</placekey>
+            <placekey>Indiana</placekey>
+            <placekey>Kentucky</placekey>
+            <placekey>West Virginia</placekey>
+            <placekey>Pennsylvania</placekey>
+            <placekey>New York</placekey>
+            <placekey>Michigan</placekey>
+         </place>
+      </keywords>
+      <accconst>NONE</accconst>
+      <useconst>This coverage is intended for use with regression equations given in
+Koltun (2003). Suitability for other uses has not been determined.
+		</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Sean M. Quigley</cntper>
+               <cntorg>United States Geological Survey, WRD</cntorg>
+            </cntperp>
+            <cntpos>Computer Information Specialist</cntpos>
+            <cntaddr>
+               <addrtype>physical address</addrtype>
+               <address>6480 Doubletree Avenue</address>
+               <city>Columbus</city>
+               <state>OH</state>
+               <postal>43229</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747</cntvoice>
+            <cntfax>(614) 430-7700</cntfax>
+            <cntemail>squigley@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <native>Windows NT Version 5.0 (Build 2195) Service Pack 3; ESRI ArcInfo 8.1.0.415</native>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>A plan for assessing the overall accuracy of the National Elevation Dataset (NED) based on independent
+high-accuracy geodetic control is currently under development. Until an independent overall assessment
+of the accuracy of NED is completed, it is best to refer to published information on the accuracy of the       source digital elevation models (DEM's) from which NED was assembled. The primary source data were the
+USGS 7.5-minute (30-meter or 10-meter resolution) DEM's. Gaps in the 7.5-minute DEM coverage were filled
+with data from USGS 30-minute (2-arc-second resolution) or 1-degree (3-arc-second resolution) DEM's.
+			</attraccr>
+      </attracc>
+      <logic>Not Required for Raster Data</logic>
+      <complete>Elevation (Z) values were originally in meters and later converted to decimeters to eliminate float definition, but retain detail.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>Efforts to determine this are currently under way (see attribute accuracy report).</horizpar>
+         </horizpa>
+         <vertacc>
+            <vertaccr>Efforts to determine this are currently under way (see attribute accuracy report).</vertaccr>
+         </vertacc>
+      </posacc>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Geological Survey (USGS), EROS Data Center</origin>
+                  <pubdate>19990201</pubdate>
+                  <title>National Elevation Dataset</title>
+                  <edition>1</edition>
+                  <geoform>map</geoform>
+                  <onlink>http://erg.usgs.gov/isb/pubs/factsheets/fs14899.html</onlink>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>CD-ROM</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>19990201</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+            <srccitea>USGS-EDC</srccitea>
+            <srccontr>USGS, EROS DATA CENTER</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>Converted Z-Values of NED DEM grids of eastern and western Ohio from meters to decimeters in ARC/GRID 8.0.2. Resulting grids were then mosaic'd to create a single elevation grid for Ohio in decimeters.</procdesc>
+            <procdate>20020201</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>NED DEM grid for Michigan was projected from
+projection oblique_mercator
+(GRS 80 spheroid)
+units meters
+datum nad83
+parameters
+2 (Projection Type)
+.9996 (Scale factor)
+-86 00 00 (Longitude of projection center -- in decimal degrees = -86.0000 )
+45 18 33 (Latitude of projection center -- in decimal degrees = 45.3092 )
+337.255555555556 (Azmuth at projection center)
+2546731.496 (False easting)
+-4354009.816 (False northing)
+
+TO
+
+Projection: UTM
+Units: Meters
+Zone: 17
+Datum: NAD 83
+Parameters:
+
+Source grid was already in decimeters
+				</procdesc>
+            <procdate>20020201</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>NED DEMs for 26 counties of Pennsylvania were downloaded from http://www.pasda.psu.edu/access/ned.shtml. All 26 DEMs were converted to ARC/INFO grids using the DEMGRID command in ARC/GRID 8.0.2. Resulting grids were mosaic'd into a single grid and projected from:
+Projection: Albers Conical Equal Area
+Standard Parallel:40
+Standard Parallel:42
+Longitude of Central Meridian:-78
+Latitude of Projection Origin:39
+False Easting:0
+False Northing:0
+
+TO
+
+Projection: UTM
+Units: Meters
+Zone: 17
+Datum: NAD 83
+Parameters
+Resulting grid Z-Values were then converted from meters to decimeters.
+				</procdesc>
+            <procdate>20020213</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>NED DEM grid of Indiana was projected from:
+Projection: Albers
+Units: Meters
+Datum: NAD83
+1st Standard Parallel: 29 30  0.000
+2nd Standard Parallel: 45 30  0.000
+
+TO
+
+Projection: UTM
+Units: Meters
+Zone: 17
+Datum: NAD83
+Parameters:
+
+Grid was already in Decimeters
+				</procdesc>
+            <procdate>20020219</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Resulting decimeter grids for Indiana, Ohio, Michigan, Pennsylvania were mosaic'd into a single grid.
+Resulting grid was clipped against a polygon coverage in ARC/GRID 8.0.2 representing the study area.
+				</procdesc>
+            <procdate>20020219</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>West Virginia NED DEM was downloaded from http://129.71.240.42/data/ned.html. Projection was already in UTM, Meters, Zone 17, Datum NAD 83. Grid Z-Values were converted from meters to decimeters.</procdesc>
+            <procdate>20020624</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Kentucky NED DEMs were downloaded from http://kymartian.state.ky.us/dems/. These DEMs had to be downloaded by 7.5 minute quadrangle. There were 85 quad based DEMs required for the study area. These DEMs were mosaic'd in ARC/GRID 8.0.2 into a single grid. This resulting grid was then projected from:
+
+Projection: STATEPLANE
+Units: FEET
+Zone: 3926
+Datum: NAD83
+Parameters:
+
+TO
+
+Projection: UTM
+Units: Meters
+Zone: 17
+Datum: NAD83
+Parameters:
+
+Z-Values for resulting grid were then converted to decimeters.
+				</procdesc>
+            <procdate>20020910</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>A small section of southeastern New York NED DEM was obtained from http://gisdata.usgs.net/NED/default.asp.
+DEM was converted to a grid using the DEMGRID command in ARC/GRID 8.0.2. Resulting grid was then projected from:
+Projection: GEOGRAPHIC
+Units: DD
+Datum: NAD83
+Parameters:
+
+TO
+
+Projection: UTM
+Units: Meters
+Zone: 17
+Datum: NAD83
+Parameters:
+
+Z-Values were then converted to decimeters.
+				</procdesc>
+            <procdate>20021029</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Study area was extended to capture addition of West Virginia, Kentucky, and New York DEMs. All DEMs were mosaic'd into a single grid in ARC/GRID 8.02, and clipped against an updated polygon coverage representing the study area.</procdesc>
+            <procdate>20020910</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Raster</direct>
+      <rastinfo>
+         <rasttype>Grid Cell</rasttype>
+         <rowcount>16372</rowcount>
+         <colcount>16225</colcount>
+         <vrtcount>1</vrtcount>
+      </rastinfo>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <mapprojn>Transverse Mercator</mapprojn>
+               <transmer>
+                  <sfctrmer>0.999600</sfctrmer>
+                  <longcm>-81.000000</longcm>
+                  <latprjo>0.0</latprjo>
+                  <feast>500000.000000</feast>
+                  <fnorth>0.000000</fnorth>
+               </transmer>
+            </mapproj>
+            <planci>
+               <plance>row and column</plance>
+               <coordrep>
+                  <absres>30.570949</absres>
+                  <ordres>30.570949</ordres>
+               </coordrep>
+               <plandu>meters</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>Geodetic Reference System 80</ellips>
+            <semiaxis>6378206.4</semiaxis>
+            <denflat>294.98</denflat>
+         </geodetic>
+      </horizsys>
+      <vertdef>
+         <altsys>
+            <altdatum>North American Vertical Datum of 1988</altdatum>
+            <altres>1 decimeter</altres>
+            <altunits>decimeters</altunits>
+            <altenc>Attribute values</altenc>
+         </altsys>
+      </vertdef>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>elevgrd.vat</enttypl>
+            <enttypd>Value Attribute Table</enttypd>
+            <enttypds>ESRI ARC/INFO 8.0.2</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Order_ID</attrlabl>
+            <attrdef>ARC/INFO Item</attrdef>
+            <attrdefs>NONE</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>4549</rdommax>
+               </rdom>
+            </attrdomv>
+            <begdatea>19990201</begdatea>
+         </attr>
+         <attr>
+            <attrlabl>Value</attrlabl>
+            <attrdef>Grid cell elevation values in decimeters</attrdef>
+            <attrdefs>NONE</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1301</rdommin>
+                  <rdommax>11100</rdommax>
+                  <attrunit>decimeters</attrunit>
+                  <attrmres>1 decimeter</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Count</attrlabl>
+            <attrdef>The number of cells for each elevation value</attrdef>
+            <attrdefs>NONE</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>5166757</rdommax>
+                  <attrunit>unitless</attrunit>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <overview>
+         <eaover>Elevation in decimeters above sea level</eaover>
+         <eadetcit>NONE</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS - Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+elevgrd</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Export</formname>
+               <formcont>Full coverage</formcont>
+               <filedec>zipped</filedec>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/elevgrd.e00.gz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>Other</formname>
+               <formcont>ascii grid format</formcont>
+               <filedec>zipped</filedec>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/elevgrd.ascii.tar.gz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. This dataset is provided by USGS as a public service.</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20041108</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://water.usgs.gov/user_feedback_form.html </cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

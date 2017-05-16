@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="316.1"
+            type="primary">
+   <timeStamp value="2015-11-17 12:00:05 -0700"/>
+   <doi>10.5065/D6DJ5CN4</doi>
+   <continuingUpdate value="no"/>
+   <title>NCAR CESM Global Bias-Corrected CMIP5 Output to Support WRF/MPAS Research</title>
+   <summary>
+      <p>This dataset includes global bias-corrected climate model output data from version 1 of NCAR's Community Earth System Model (CESM1) that participated in phase 5 of the Coupled Model Intercomparison Experiment (CMIP5), which supported the Intergovernmental Panel on Climate Change Fifth Assessment Report (IPCC AR5). The dataset contains all the variables needed for the initial and boundary conditions for simulations with the Weather Research and Forecasting model (WRF) or the Model for Prediction Across Scales (MPAS), provided in the Intermediate File Format specific to WRF and MPAS. The data are interpolated to 26 pressure levels and are provided in files at six hourly intervals. The variables have been bias-corrected using the European Centre for Medium-Range Weather Forecasts (ECMWF) Interim Reanalysis (ERA-Interim) fields for 1981-2005, following the method in <a href="http://dx.doi.org/10.1007/s00382-013-2011-6">Bruyere et al. (2014)</a>. Files are available for a 20th Century simulation (1951-2005) and three concomitant Representative Concentration Pathway (RCP) future scenarios (RCP4.5, RCP6.0 and RCP8.5) spanning 2006-2100.</p>
+      <p>
+         <font color="red">
+            <b>NOTE: All RCP2.6 data has been removed due to corrupted data caused by a model bug. </b>
+         </font>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/MMM &gt; Mesoscale and Microscale Meteorology, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                contact="Cindy Bruyère, bruyerec@ucar.edu"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/RAL/CSAP &gt; Climate Science and Application Program, Research Applications Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                contact="Andrew Monaghan, monaghan@ucar.edu"
+                citable="yes"/>
+   <author>A. J. Monaghan</author>
+   <author>D. F. Steinhoff</author>
+   <author>C. L. Bruyere</author>
+   <author>D. Yates</author>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Land Temperature &gt; Skin Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Sea Ice &gt; Sea Ice Concentration</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Water Equivalent</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Moisture/Water Content</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Boundary Layer Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <contact>Thomas Cram</contact>
+   <platform vocabulary="GCMD">CESM &gt; NCAR Community Earth System Model</platform>
+   <project vocabulary="GCMD">CMIP &gt; Coupled Model Intercomparison Project</project>
+   <project vocabulary="GCMD">CESM &gt; NCAR Community Earth System Modeling</project>
+   <supportsProject vocabulary="GCMD">WRF &gt; WRF (Weather Research and Forecasting) Modeling</supportsProject>
+   <supportsProject vocabulary="GCMD">IPCC &gt; Intergovernmental Panel on Climate Change</supportsProject>
+   <supportsProject vocabulary="GCMD">MPAS &gt; Model for Prediction Across Scales</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Bruyère C. L., J. M. Done, G. J. Holland, and S. Fredrick</authorList>
+      <year>2014</year>
+      <title>Bias Corrections of Global Models for Regional Climate Simulations of High-Impact Weather</title>
+      <periodical number="43" pages="1847-1856">Clim. Dyn.</periodical>
+      <doi>10.1007/s00382-013-2011-6</doi>
+      <url>http://dx.doi.org/10.1007/s00382-013-2011-6</url>
+   </reference>
+   <reference type="technical_report">
+      <authorList>Bruyère, C. L., A. J. Monaghan, D. F. Steinhoff, and D. Yates</authorList>
+      <year>2015</year>
+      <title>Bias-Corrected CMIP5 CESM Data in WRF/MPAS Intermediate File Format</title>
+      <organization reportID="TN-515+STR" pages="27">NCAR</organization>
+      <doi>10.5065/D6445JJ7</doi>
+      <url>http://nldr.library.ucar.edu/repository/collections/TECH-NOTE-000-000-000-885</url>
+   </reference>
+   <relatedResource url="http://www.cesm.ucar.edu/experiments/cesm1.0/">Listing of CESM 1.0 Experiments</relatedResource>
+   <relatedDataset ID="316.0"/>
+   <publicationDate>2014-12-05</publicationDate>
+   <contentMetadata>
+      <temporal start="1951-01-01 00:00 +0000"
+                end="2100-12-31 18:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <dataType process="analysis">grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="975" units="mbar"/>
+         <level type="Isobaric level" value="950" units="mbar"/>
+         <level type="Isobaric level" value="925" units="mbar"/>
+         <level type="Isobaric level" value="900" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="800" units="mbar"/>
+         <level type="Isobaric level" value="750" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="650" units="mbar"/>
+         <level type="Isobaric level" value="600" units="mbar"/>
+         <level type="Isobaric level" value="550" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="450" units="mbar"/>
+         <level type="Isobaric level" value="400" units="mbar"/>
+         <level type="Isobaric level" value="350" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="150" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="70" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+         <level type="Isobaric level" value="30" units="mbar"/>
+         <level type="Isobaric level" value="20" units="mbar"/>
+         <level type="Isobaric level" value="10" units="mbar"/>
+         <level type="Specified height above ground or water surface"
+                value="10"
+                units="m"/>
+         <level type="Specified height above ground or water surface"
+                value="2"
+                units="m"/>
+         <level type="Ground or water surface" value="0"/>
+         <level type="Mean sea level" value="0"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

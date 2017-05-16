@@ -1,0 +1,1002 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.43.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="43">
+    <alternateIdentifier>knb-lter-sbc.43</alternateIdentifier>
+    <shortName>Reef monitoring transects - depth</shortName>
+    <title>SBC LTER: Reef: Kelp Forest Community Dynamics: Transect depth data</title>
+    <creator id="dreed">
+      <individualName>
+        <givenName>Daniel</givenName>
+        <givenName>C</givenName>
+        <surName>Reed</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-8363</phone>
+      <phone phonetype="fax">805-893-8062</phone>
+      <electronicMailAddress>dan.reed@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2013-05-27</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data provide summaries of depth information (mean, standard deviation and coefficient of variation) for all of the transects surveyed as part of the SBC LTER Kelp Forest Monitoring program. All data are expressed in meters, reference to mean lower low water (MLLW). Each value is the result of 160 observations, four at each meter (n=160). The sampling locations in this dataset are 40 meter transects at nine reef sites along the mainland coast of the Santa Barbara Channel and at two sites on the north side of Santa Cruz Island. Data were recorded in 2010.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">kelp forest</keyword>
+      <keyword keywordType="theme">Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Habitats</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Arroyo Burro Reef</keyword>
+      <keyword keywordType="place">Arroyo Hondo Reef</keyword>
+      <keyword keywordType="place">Arroyo Quemado Reef</keyword>
+      <keyword keywordType="place">Bullito Reef</keyword>
+      <keyword keywordType="place">Carpenteria Reef</keyword>
+      <keyword keywordType="place">Goleta Bay Reef</keyword>
+      <keyword keywordType="place">Isla Vista Reef</keyword>
+      <keyword keywordType="place">Mohawk Reef</keyword>
+      <keyword keywordType="place">Naples Reef</keyword>
+      <keyword keywordType="place">Santa Cruz Island Diablo Reef</keyword>
+      <keyword keywordType="place">Santa Cruz Island Twin Harbor West Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Places</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">long term ecological research</keyword>
+      <keyword keywordType="theme">transects</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Reefs</keyword>
+      <keyword keywordType="theme">Substrates</keyword>
+      <keywordThesaurus>NBII Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="ABUR1">
+        <geographicDescription>ABUR1: Arroyo Burro Transect 1: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 305 (degree). Transect begins directly offshore of the Arroyo Burro creek mouth. Bedrock and sand substrate has little relief (0-0.5 m). Depth approximately 24-27&#226;&#128;&#153;. This transect often becomes inundated with sand.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.744383</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.744383</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.400117</northBoundingCoordinate>
+          <southBoundingCoordinate>34.400117</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.62</altitudeMinimum>
+            <altitudeMaximum>-7.62</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ABUR2">
+        <geographicDescription>ABUR2: Arroyo Burro Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 320 (degree). Transect consists of low bedrock ridges (0-0.5m) with areas of sand. The first half of the transect is in deeper sand and the second half runs along a ridge covered in shallow sand. Depth is approximately 22'.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.7448</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.7448</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.400433</northBoundingCoordinate>
+          <southBoundingCoordinate>34.400433</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-6.71</altitudeMinimum>
+            <altitudeMaximum>-6.71</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AHND1">
+        <geographicDescription>AHND1: Arroyo Hondo Transect 1: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 105 (degree). From 2003-present this transect has been ~0.5m deep sand, with no exposed reef, but Diopatra beds with epiphytic algae are present . Depth slopes from approximately 16&#226;&#128;&#153; at the 0 m bolt to 24&#226;&#128;&#153; at the 40 m bolt.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.144383</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.144383</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.471867</northBoundingCoordinate>
+          <southBoundingCoordinate>34.471867</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-6.1</altitudeMinimum>
+            <altitudeMaximum>-6.1</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AHND2">
+        <geographicDescription>AHND2: Arroyo Hondo Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 85 (degree). This transect is in a boulder field with some relief (0-0.75m) and patchy sand with Diopatra beds. Depth is approximately 25'.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.14085</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.14085</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.471767</northBoundingCoordinate>
+          <southBoundingCoordinate>34.471767</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.62</altitudeMinimum>
+            <altitudeMaximum>-7.62</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AQUE1">
+        <geographicDescription>AQUE1: Arroyo Quemado Transect 1: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Transect begins west of the river mouth, on the backside of one of the larger ridges (1m). Bedrock substrate with some moderate relief (0-1.5 m). Depth is approximately 24'.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.121417</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.121417</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.468783</northBoundingCoordinate>
+          <southBoundingCoordinate>34.468783</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.32</altitudeMinimum>
+            <altitudeMaximum>-7.32</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AQUE2">
+        <geographicDescription>AQUE2: Arroyo Quemado Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Transect transverses slightly southeast across the prominent east/west ridges. Bedrock substrate with some moderate relief (0-1.5 m). Depth is approximately 24'.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.120783</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.120783</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.468733</northBoundingCoordinate>
+          <southBoundingCoordinate>34.468733</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.32</altitudeMinimum>
+            <altitudeMaximum>-7.32</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AQUE3">
+        <geographicDescription>AQUE3: Arroyo Quemado Transect 3: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 113 (degree). Transect begins at the western edge of the hard substrate, nearly directly offshore of the river mouth (~200 m). Silt covered bedrock and small boulder substrate with little relief (0-0.5 m), some moderate sized areas of deep sand present along with Pterygophora and Diopatra beds. Depth is approximately 30'.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.119283</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.119283</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.467933</northBoundingCoordinate>
+          <southBoundingCoordinate>34.467933</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-9.14</altitudeMinimum>
+            <altitudeMaximum>-9.14</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AQUE4">
+        <geographicDescription>AQUE4: Arroyo Quemado Transect 4: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Transect begins east of the river mouth. Bedrock with several large boulder outcrops creating some significant relief (0-2.5 m) along transect. Some moderate sized areas of sand (1-5 m). Depth is approximately 23 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.117183</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.117183</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.467467</northBoundingCoordinate>
+          <southBoundingCoordinate>34.467467</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.01</altitudeMinimum>
+            <altitudeMaximum>-7.01</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AQUE5">
+        <geographicDescription>AQUE5: Arroyo Quemado Transect 5: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 95 (degree). Bedrock substrate, some moderate relief (0-1.5 m), one small overhanging ridge with sand channels and Diopatra beds. Depth is approximately 33 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.11735</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.11735</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.46685</northBoundingCoordinate>
+          <southBoundingCoordinate>34.46685</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-10.06</altitudeMinimum>
+            <altitudeMaximum>-10.06</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AQUE6">
+        <geographicDescription>AQUE6: Arroyo Quemado Transect 6: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Transect begins slightly west of the river mouth. Sand (1-3cm deep) and bedrock substrate with low relief (0-0.5m). Depth is approximately 33 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.12085</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.12085</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.46755</northBoundingCoordinate>
+          <southBoundingCoordinate>34.46755</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-10.06</altitudeMinimum>
+            <altitudeMaximum>-10.06</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BULL1">
+        <geographicDescription>BULL1: Bulito Transect 1: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 80 (degree). Transect is closest to the river mouth, bedrock and shale substrate with some slight relief (0-1 m) and thick understory algal cover.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.333433</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.333433</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.458883</northBoundingCoordinate>
+          <southBoundingCoordinate>34.458883</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-5.49</altitudeMinimum>
+            <altitudeMaximum>-5.49</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BULL3">
+        <geographicDescription>BULL3: Bulito Transect 3: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 85 (degree). Bedrock and shale substrate with some sandy areas and slight relief (0-1 m). Thick Pterygophora beds typically present. Depth is approximately 20 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.333483</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.333483</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.458483</northBoundingCoordinate>
+          <southBoundingCoordinate>34.458483</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-6.1</altitudeMinimum>
+            <altitudeMaximum>-6.1</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="BULL6">
+        <geographicDescription>BULL6: Bulito Transect 6: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 80 (degree). Bedrock and shale substrate with some sandy areas and slight relief (0-1m). Depth is approximately 24 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.33355</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.33355</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.45815</northBoundingCoordinate>
+          <southBoundingCoordinate>34.45815</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.32</altitudeMinimum>
+            <altitudeMaximum>-7.32</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP1">
+        <geographicDescription>CARP1: Carpinteria Transect 1: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 70 (degree). Transect runs parallel along the significant NE-running reef ridge and has significant relief (up to 3 m) on the northern side. Bedrock substrate with some slight relief (0-1 m). Depth is approximately 8-12 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.5438</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.5438</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.392417</northBoundingCoordinate>
+          <southBoundingCoordinate>34.392417</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-3.05</altitudeMinimum>
+            <altitudeMaximum>-3.05</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP2">
+        <geographicDescription>CARP2: Carpinteria Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 60 (degree). Generally a mudstone substrate with little relief (0-0.5 m). Depth is approximately 10-13 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.540367</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.540367</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.392767</northBoundingCoordinate>
+          <southBoundingCoordinate>34.392767</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-3.51</altitudeMinimum>
+            <altitudeMaximum>-3.51</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP3">
+        <geographicDescription>CARP3: Carpinteria Transect 3: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 85 (degree). Bedrock substrate with some moderate relief (0-1.5 m), boulders, and some small areas (1-3 m) of silt and sand. Depth is approximately 24 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.544</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.544</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.391517</northBoundingCoordinate>
+          <southBoundingCoordinate>34.391517</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.32</altitudeMinimum>
+            <altitudeMaximum>-7.32</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP4">
+        <geographicDescription>CARP4: Carpinteria Transect 4: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Bedrock substrate with some moderate relief (0-1.5 m) and some small areas (1-3 m) of silty sand. 0 bolt begins at the crevice between two ridges. Depth is approximately 22 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.54165</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.54165</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.391717</northBoundingCoordinate>
+          <southBoundingCoordinate>34.391717</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-6.71</altitudeMinimum>
+            <altitudeMaximum>-6.71</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP5">
+        <geographicDescription>CARP5: Carpinteria Transect 5: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 80 (degree). Mudstone ridges (1-2m) with areas of shell debris, cobble, and small boulders. Depth is approximately 20 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.539317</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.539317</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.391817</northBoundingCoordinate>
+          <southBoundingCoordinate>34.391817</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-6.1</altitudeMinimum>
+            <altitudeMaximum>-6.1</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP6">
+        <geographicDescription>CARP6: Carpinteria Transect 6: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 80 (degree). Bedrock substrate with some moderate relief (0-1.5 m) and some small areas (1-3 m) of silty sand. Depth is approximately 27 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.544133</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.544133</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.391117</northBoundingCoordinate>
+          <southBoundingCoordinate>34.391117</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-8.23</altitudeMinimum>
+            <altitudeMaximum>-8.23</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP7">
+        <geographicDescription>CARP7: Carpinteria Transect 7: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 80 (degree). Bedrock substrate with some moderate relief (0-1.5 m) and some small areas (1-3 m) of silty sand and cobble channels. Depth is approximately 27 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.541833</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.541833</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.391233</northBoundingCoordinate>
+          <southBoundingCoordinate>34.391233</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-8.23</altitudeMinimum>
+            <altitudeMaximum>-8.23</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP8">
+        <geographicDescription>CARP8: Carpinteria Transect 8: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 80 (degree). Mudstone substrate with some moderate relief (0-1.5 m) and some small areas of shell debris, cobble, and small boulders. Depth is approximately 27 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.539533</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.539533</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3914</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3914</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-8.23</altitudeMinimum>
+            <altitudeMaximum>-8.23</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GOLB1">
+        <geographicDescription>GOLB1: Goleta Bay Transect 1: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Transect begins at western edge of existing kelp bed. Mudstone and sand substrate with several large isolated boulders creating some moderate relief (0-1.5 m). Depth is approximately 18 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.8224</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.8224</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.413783</northBoundingCoordinate>
+          <southBoundingCoordinate>34.413783</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-5.49</altitudeMinimum>
+            <altitudeMaximum>-5.49</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GOLB2">
+        <geographicDescription>GOLB2: Goleta Bay Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Transect has mudstone and sand substrate with several large isolated boulders creating some moderate relief (0-1.5 m). Depth is approximately 18 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.8218</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.8218</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.41365</northBoundingCoordinate>
+          <southBoundingCoordinate>34.41365</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-5.49</altitudeMinimum>
+            <altitudeMaximum>-5.49</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="IVEE1">
+        <geographicDescription>IVEE1: Isla Vista Reef Transect 1: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Transect begins at western edge of existing eastern kelp bed near Depressions beach; a mudstone and small boulder substrate with some sand channels and slight relief (0-1 m). Depth is approximately 30 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.857867</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.857867</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.402833</northBoundingCoordinate>
+          <southBoundingCoordinate>34.402833</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-9.14</altitudeMinimum>
+            <altitudeMaximum>-9.14</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="IVEE2">
+        <geographicDescription>IVEE2: IV Reef Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 85 (degree). Transect has a mudstone and sand substrate with several large isolated boulders creating some moderate relief (0-1.5 m). Depth is approximately 30 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.857233</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.857233</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.402733</northBoundingCoordinate>
+          <southBoundingCoordinate>34.402733</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-9.14</altitudeMinimum>
+            <altitudeMaximum>-9.14</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MOHK1">
+        <geographicDescription>MOHK1: Mohawk Transect 1: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Transect has a bedrock substrate with some moderate relief (0-1.5 m) and some small (1-2 m) areas of silty sand / shell hash. Transect follows a reef ledge that is ~1-2m off the sand below. Depth is approximately 24 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.73</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.394333</northBoundingCoordinate>
+          <southBoundingCoordinate>34.394333</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.32</altitudeMinimum>
+            <altitudeMaximum>-7.32</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MOHK2">
+        <geographicDescription>MOHK2: Mohawk Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 80 (degree). Bedrock substrate with some moderate relief (0-1.5 m) and some small (1-2 m) areas of silty sand. Transect follows a small reef ledge that is ~1m off the sand below. Depth is approximately 24 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.729367</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.729367</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.39415</northBoundingCoordinate>
+          <southBoundingCoordinate>34.39415</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.32</altitudeMinimum>
+            <altitudeMaximum>-7.32</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL1">
+        <geographicDescription>NAPL1: Naples Transect 1: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 60 (degree). Transect begins at extreme western edge of Naples main reef. Bedrock substrate with some significant relief (0-2 m). Depth is approximately 25 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.952933</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.952933</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.422333</northBoundingCoordinate>
+          <southBoundingCoordinate>34.422333</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.62</altitudeMinimum>
+            <altitudeMaximum>-7.62</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL2">
+        <geographicDescription>NAPL2: Naples Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 80 (degree). Bedrock substrate with some significant relief (0-2 m). Depth is approximately 25 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.952317</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.952317</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.422467</northBoundingCoordinate>
+          <southBoundingCoordinate>34.422467</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.62</altitudeMinimum>
+            <altitudeMaximum>-7.62</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL3">
+        <geographicDescription>NAPL3: Naples Transect 3: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 80 (degree). Bedrock substrate with some significant relief (0-2 m). Depth approximately 25'.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.9517</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.9517</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.422367</northBoundingCoordinate>
+          <southBoundingCoordinate>34.422367</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-7.62</altitudeMinimum>
+            <altitudeMaximum>-7.62</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL4">
+        <geographicDescription>NAPL4: Naples Transect 4: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). &#226;&#128;&#156;Deep Cobble.&#226;&#128;&#157; Located approximately 7 m south of the ridges that define the main reef. Depth is approximately 35 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.9519</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.9519</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4223</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4223</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-10.67</altitudeMinimum>
+            <altitudeMaximum>-10.67</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL5">
+        <geographicDescription>NAPL5: Naples Transect 5: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 100 (degree). Transect begins at the apex of the &#226;&#128;&#156;horseshoe&#226;&#128;&#157; on the first flat bench east of deep cobble. Bedrock substrate with some moderate relief (0-1.5 m). Depth is approximately 35 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.951283</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.951283</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.421883</northBoundingCoordinate>
+          <southBoundingCoordinate>34.421883</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-10.67</altitudeMinimum>
+            <altitudeMaximum>-10.67</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL6">
+        <geographicDescription>NAPL6: Naples Transect 6: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 105 (degree). Bedrock substrate with some significant relief (0-2 m). Depth increases from approximately 33 to 45 feet along transect.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.950633</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.950633</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.42195</northBoundingCoordinate>
+          <southBoundingCoordinate>34.42195</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-11.89</altitudeMinimum>
+            <altitudeMaximum>-11.89</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL7">
+        <geographicDescription>NAPL7: Naples Transect 7: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 90 (degree). Transect begins at the western end of &#226;&#128;&#156;Three fingers&#226;&#128;&#157; where the reef begins to slope from east to west into deeper water. Bedrock substrate with some significant relief (0-2 m). Depth decreases from approximately 36 to 28 feet along transect.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.951833</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.951833</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4219</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4219</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-9.75</altitudeMinimum>
+            <altitudeMaximum>-9.75</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL8">
+        <geographicDescription>NAPL8: Naples Transect 8: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 100 (degree). Located on a prominent ridge (3 m relief). Bedrock substrate with some significant relief (0-2 m). Depth increases from approximately 33 to 45 feet along the transect.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.950317</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.950317</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.421833</northBoundingCoordinate>
+          <southBoundingCoordinate>34.421833</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-11.89</altitudeMinimum>
+            <altitudeMaximum>-11.89</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SCDI2">
+        <geographicDescription>SCDI2: Santa Cruz Island Diablo Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 305 (degree). Transect runs along rocky reef with patches of sand/shell debris and several large boulders. Depth is approximately 30 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.757633</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.757633</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.058633</northBoundingCoordinate>
+          <southBoundingCoordinate>34.058633</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-9.14</altitudeMinimum>
+            <altitudeMaximum>-9.14</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SCDI3">
+        <geographicDescription>SCDI3: Santa Cruz Island Diablo Transect 3: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 335 (degree). Transect runs along rocky reef with patches of sand/shell debris and several large boulders and ledges. Depth varies from approximately 43 to 50 feet.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.757633</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.757633</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.058667</northBoundingCoordinate>
+          <southBoundingCoordinate>34.058667</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-14.3</altitudeMinimum>
+            <altitudeMaximum>-14.3</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SCTW2">
+        <geographicDescription>SCTW2: Santa Cruz Island Twin Harbors West Transect 2: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 330 (degree). Transect 2 lies along rocky reef with large boulders and patches of sand/shell debris. Depth is approximately 20'.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.715133</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.715133</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.0444</northBoundingCoordinate>
+          <southBoundingCoordinate>34.0444</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-6.1</altitudeMinimum>
+            <altitudeMaximum>-6.1</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="SCTW3">
+        <geographicDescription>SCTW3: Santa Cruz Island Twin Harbors West Transect 3: a line starting at the lat-lon coordinates with a length of 40 (meter), and width of 2 (meter) along a heading of 290 (degree). Transect 3 lies along rocky reef with large boulders and patches of sand/shell debris. Depth is approximately 30 feet. At the end of the transect there is a pinnacle about 3-4m tall.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.715133</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.715133</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.044467</northBoundingCoordinate>
+          <southBoundingCoordinate>34.044467</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>-12</altitudeMinimum>
+            <altitudeMaximum>-12</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <singleDateTime>
+          <calendarDate>2010-07-20</calendarDate>
+        </singleDateTime>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Depth Surveys</title>
+            <para>A diver reels out a 40 meter tape along the marked transect location. Using a dive
+              computer, the diver records depth readings at points 0.25 and 0.75 meters offshore and
+              0.25 and 0.75 meters inshore for every meter along the transect. There are a total of
+              160 measurements for each 40 meter transect.</para>
+          </section>
+        </description>
+        <protocol>
+          <title>Kelp Forest Community Structure Methods - Bottom Topography</title>
+          <creator>
+            <individualName>
+              <surName>Reed</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Reef/Protocols/Kelp_Forest_Community_Dynamics/SBC_LTER_protocol_Reed_Kelp_forest_community_Bottom_topography_20130524</url>
+            </online>
+          </distribution>
+        </protocol>
+        <instrumentation>Suunto Gecko/Viper Dive Computer (set in meters)</instrumentation>
+        <instrumentation>Meter tape</instrumentation>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable id="1285186505446">
+      <entityName>Benthic community survey sites, transect depths</entityName>
+      <entityDescription>Benthic Monitoring Transect Depths</entityDescription>
+      <physical>
+        <objectName>Benthic_Transect_Depths.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Reef/Data/Kelp_Forest_Community_Dynamics/Benthic_Transect_Depths.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="site">
+          <attributeName>SITE</attributeName>
+          <attributeLabel>Site Name</attributeLabel>
+          <attributeDefinition>4 letter code for the name of the reef site</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>ABUR</code>
+                    <definition>Arroyo Burro</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AHND</code>
+                    <definition>Arroyo Hondo</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AQUE</code>
+                    <definition>Arooyo Quemado</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BULL</code>
+                    <definition>Bulito</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARP</code>
+                    <definition>Carpinteria</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GOLB</code>
+                    <definition>Goleta Bay</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IVEE</code>
+                    <definition>Isla Vista</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MOHK</code>
+                    <definition>Mohawk</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NAPL</code>
+                    <definition>Naples</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SCDI</code>
+                    <definition>Santa Cruz Island - Diablo</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SCTW</code>
+                    <definition>Santa Cruz Island - Twin West</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="transect">
+          <attributeName>TRANSECT</attributeName>
+          <attributeLabel>Transect Name</attributeLabel>
+          <attributeDefinition>40m transects defined by six permanent markers (stainless steel eyebolts or rebar stakes) at 0, 8, 16, 24, 32, and 40m.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Transect 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Transect 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Transect 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Transect 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Transect 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Transect 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Transect 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Transect 8</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="depth_mllw_m">
+          <attributeName>DEPTH_MLLW_M</attributeName>
+          <attributeLabel>MLLW Depth</attributeLabel>
+          <attributeDefinition>Mean lower low water depth in meters for the 80 meters squared transect area.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="sd_depth">
+          <attributeName>SD_DEPTH</attributeName>
+          <attributeLabel>Standard Deviation</attributeLabel>
+          <attributeDefinition>The standard deviation of the depth for the entire transect.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="cv_depth">
+          <attributeName>CV_DEPTH</attributeName>
+          <attributeLabel>Coefficient of variation</attributeLabel>
+          <attributeDefinition>The coefficient of variation of the depth for the entire transect.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>39</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="m" id="meter" multiplierToSI="1" name="meter" unitType="length">
+          <ns2:description>SI unit of length</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="number" name="number" unitType="dimensionless">
+          <ns2:description>a number</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

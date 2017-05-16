@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="111.4"
+            type="primary">
+   <timeStamp value="2015-02-11 14:41:16 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>ECMWF TOGA Global Hybrid Tropospheric Analyses, daily from July 1990 to June 1991</title>
+   <summary>
+      <p>ECMWF operational model output.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"
+                contact="Kathy Rider"
+                citable="yes"/>
+   <restrictions>
+      <access>
+         <p>We are allowed to distribute this data to US scientists, scientists visiting US organizations, and Canadian scientists affiliated with UCAR member organizations only.</p>
+      </access>
+      <usage>
+         <p>This data must not be used for commercial purposes.  ECMWF must be given credit in any publications in which this data is used.</p>
+      </usage>
+   </restrictions>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Convergence/Divergence</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vorticity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">ECMWFIFS &gt; ECMWF Integrated Forecast System</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1992-12-09</publicationDate>
+   <contentMetadata>
+      <temporal start="1990-07-01 00:00 +0000"
+                end="1991-06-30 18:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format>WMO_GRIB0</format>
+      <geospatialCoverage>
+         <grid definition="sphericalHarmonics" numX="106" numY="106"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="320"
+               numY="160"
+               startLon="0E"
+               startLat="89.141N"
+               endLon="358.875E"
+               endLat="89.141S"
+               xRes="1.125"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

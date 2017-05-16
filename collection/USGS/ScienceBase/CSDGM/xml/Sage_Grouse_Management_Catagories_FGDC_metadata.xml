@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>U.S. Geological Survey, Western Ecological Research Center, Dixon Field Station</origin>
+    <pubdate>20140226</pubdate>
+    <title>Management Categories for Greater Sage-grouse in Nevada and California (August 2014)</title>
+    <geoform>Vector Digital Data Set (Polygon)</geoform>
+    <onlink>http://dx.doi.org/10.5066/F75D8PW8</onlink>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>Sage-Grouse habitat areas divided into proposed management categories within Nevada and California project study boundaries.MANAGEMENT CATEGORY DETERMINATION
+The process for category determination was directed by the Nevada Sagebrush Ecosystem Technical team. Sage-grouse habitat was determined from a statewide resource selection function model and first categorized into 4 classes: high, moderate, low, and non-habitat. The standard deviations (SD) from a normal distribution of  RSF values created from a set of validation points (10% of the entire telemetry dataset) were used to categorize habitat ‘quality’ classes. High quality habitat comprised pixels with RSF values &amp;lt; 0.5 SD, Moderate &amp;gt; 0.5 and &amp;lt; 1.0 SD, Low &amp;lt; 1.0 and &amp;gt; 1.5, Non-Habitat &amp;gt; 1.5 SD. Proposed Habitat Management Categories were then defined and calculated as follows.1) Core habitat: Defined as the intersection between all suitable habitat (high, moderate, and low) and the 85% Space Use Index (SUI). 2) Priority habitat: Defined as all high quality falling outside the 85% SUI and all non-habitat falling within the 85% SUI. 3) General habitat: Defined as moderate and low quality habitat falling outside the 85% SUI. 4) Non habitat. Defined as non-habitat falling outside the 85% SUI. SPACE USE INDEX CALCULATIONLek coordinates and associated trend count data were obtained from the 2013 Nevada Sage-grouse Lek Database compiled by the Nevada Department of Wildlife (NDOW, S. Espinosa, 9/10/2013). We queried the database for leks with a ‘LEKSTATUS’ field classified as ‘Active’ or ‘Pending’. Active leks comprised leks with breeding males observed within the last 5 years. Pending leks comprised leks without consistent breeding activity during the prior 3 – 5 surveys or had not been surveyed during the past 5 years; these leks typically trended towards ‘inactive’. A sage-grouse management area (SGMA) was calculated by buffering Population Management Units developed by NDOW by 10km. This included leks from the Buffalo-Skedaddle PMU that straddles the northeastern California – Nevada border, but excluded leks for the Bi-State Distinct Population Segment. The 5-year average (2009 – 2013) for the number of males grouse (or unknown gender if males were not identified) attending each lek was calculated. The final dataset comprised 907 leks. Utilization distributions describing the probability of lek occurrence were calculated using fixed kernel density estimators (Silverman 1986) with bandwidths estimated from likelihood based cross-validation (CVh) (Horne and Garton 2006). UDs were weighted by the 5-year average (2009 – 2013) for the number of males grouse (or unknown gender if males were not identified) attending leks. UDs and bandwidths were calculated using Geospatial Modelling Environment (Beyer 2012) and the ‘ks’ package (Duong 2012) in Program R. Grid cell size was 30m. The resulting raster was clipped by the SGMA polygon, and values were re-scaled between zero and one by dividing by the maximum pixel value.The non-linear effect of distance to lek on the probability of grouse spatial use was estimated using the inverse of the utilization distribution curves described by Coates et al. (2013), where essentially the highest probability of grouse spatial use occurs near leks and then declines precipitously as a non-linear function. Euclidean distance was first calculated in ArcGIS, reclassified into 30-m distance bins (ranging from 0 – 30,000m), and bins reclassified according to the non-linear curve in Coates et al. (2013). The resulting raster was clipped by the SGMA polygon, and re-scaled between zero and one by dividing by the maximum pixel value.A Spatial Use Index (SUI) was calculated taking the average of the lek utilization distribution and non-linear distance to lek rasters in ArcGIS, and re-scaled between zero and 1 by dividing by the maximum pixel value.The volume of the SUI at cumulative 5% increments (isopleths) was extracted in Geospatial Modelling Environment (Beyer 2012) with the command ‘isopleth’. Interior polygons (i.e., donuts’ &amp;gt; 1.2 km2) representing no probability of use within a larger polygon of use were erased from each isopleth. The relationship between percent land area within each isopleth and isopleth volume (VanderWal and Rodgers 2012) indicated statistically concentrated use at the 70% isopleth. The 85% isopleth, which provided greater spatial connectivity and consistency with previously used agency standards (e.g., Doherty et al. 2010), was ultimately recommended by the Sagebrush Ecosystem Technical Team. The 85% SUI isopleth was clipped by the SGMA clipped by the Nevada state boundary, which only included habitat within the state of Nevada.Coates, P.S., Casazza, M.L., Brussee, B.E., Ricca, M.A., Gustafson, K.B., Overton, C.T., Sanchez-Chopitea, E., Kroger, T., Mauch, K., Niell, L., Howe, K., Gardner, S., Espinosa, S., and Delehanty, D.J. 2014, Spatially explicit modeling of greater sage-grouse (Centrocercus urophasianus) habitat in Nevada and northeastern California—A decision-support tool for management: U.S. Geological Survey Open-File Report 2014-1163, 83 p., http://dx.doi.org/10.3133/ofr20141163. ISSN 2331-1258 (online)REFERENCES Beyer HL. 2012. Geospatial Modelling Environment (Version 0.7.2.0). http://www.spatialecology.com/gmeCoates PS, Casazza ML, Blomberg EJ, Gardner SC, Espinosa SP, Yee JL, Wiechman L, Halstead BJ. 2013. “Evaluating greater sage-grouse seasonal space use relative to leks: Implications for surface use designations in sagebrush ecosystems.” The Journal of Wildlife Management 77: 1598-1609.Doherty KE, Tack JD, Evans JS, Naugle DE. 2010. Mapping breeding densities of greater sage-grouse: A tool for range-wide conservation planning. Bureau of Land Management. Report Number: L10PG00911. Accessed at: http://www.conservationgateway.org/ConservationByGeography/NorthAmerica/Pages/sagegrouse.aspx# Duong T. 2012. ks: Kernel smoothing. R package version 1.8.10. http://CRAN.R-project.org/package=ksHorne JS, Garton EO. 2006. “Likelihood cross-validation versus least squares cross-validation for choosing the smoothing parameter in kernel home-range analysis.” Journal of Wildlife Management 70: 641-648.Silverman BW. 1986. Density estimation for statistics and data analysis. Chapman &amp;amp; Hall, London, United Kingdom.Vander Wal E, Rodgers AR. 2012. “An individual-based quantitative approach for delineating core areas of animal space use.” Ecological Modelling 224: 48-53.NOTE: This file does not include habitat areas for the Bi-State management area.</abstract>
+   <purpose>These data provide the Nevada Sagebrush Ecosystem Council,  and other wildlife managers, with an additional resource to aid in planning and management of greater sage-grouse populations.</purpose>
+   <supplinf>Coates, P.S., Casazza, M.L., Brussee, B.E., Ricca, M.A., Gustafson, K.B., Overton, C.T., Sanchez-Chopitea, E., Kroger, T., Mauch, K., Niell, L., Howe, K., Gardner, S., Espinosa, S., and Delehanty, D.J. 2014, Spatially explicit modeling of greater sage-grouse (Centrocercus urophasianus) habitat in Nevada and northeastern California—A decision-support tool for management: U.S. Geological Survey Open-File Report 2014-1163, 83 p., http://dx.doi.org/10.3133/ofr20141163. ISSN 2331-1258 (online)</supplinf>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <rngdates>
+     <begdate>19990522</begdate>
+     <enddate>20131031</enddate>
+    </rngdates>
+   </timeinfo>
+   <current>These data are derived from NDOW telemetry data (1999-2013) and the Nevada Natural Heritage Program SynthMap (2008).</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>None planned</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-121.549936143</westbc>
+    <eastbc>-114.038120374</eastbc>
+    <northbc>41.997345824</northbc>
+    <southbc>37.559186349</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>None</themekt>
+    <themekey>Biota, Boundaries, Environment</themekey>
+    <themekey>Greater sage-grouse</themekey>
+   </theme>
+   <theme>
+    <themekt>ISO 19115 Topic Categories</themekt>
+    <themekey>biota</themekey>
+    <themekey>boundaries</themekey>
+    <themekey>environment</themekey>
+   </theme>
+   <place>
+    <placekt>None</placekt>
+    <placekey>USA, Great Basin, Nevada</placekey>
+   </place>
+   <temporal>
+    <tempkt>None</tempkt>
+    <tempkey>2014</tempkey>
+   </temporal>
+  </keywords>
+  <accconst>None</accconst>
+  <useconst>The authors of these data require that users direct any questions pertaining to appropriate use or assistance with understanding limitations and interpretation of the data to the individuals/organization listed in the Point of Contact section.</useconst>
+  <ptcontac>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>U.S. Geological Survey, Western Ecological Research Center</cntorg>
+     <cntper>Peter Coates</cntper>
+    </cntorgp>
+    <cntpos>Research Wildlife Biologist</cntpos>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>800 Business Park Drive, Suite D</address>
+     <city>Dixon</city>
+     <state>CA</state>
+     <postal>95620</postal>
+     <country>US</country>
+    </cntaddr>
+    <cntvoice>(530) 669-5073</cntvoice>
+    <cntfax>(707) 678-5039</cntfax>
+    <cntemail>pcoates@usgs.gov</cntemail>
+   </cntinfo>
+  </ptcontac>
+  <datacred>U.S. Geological Survey, Western Ecological Research Center, Dixon Field Station, Dixon. CA.  
+Nevada Sagebrush Ecosystem Program, Carson City, NV.</datacred>
+  <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2 (Build 3552) Service Pack N/A (Build N/A)</native>
+ </idinfo>
+ <dataqual>
+  <attracc>
+   <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+  </attracc>
+  <logic>No formal logical accuracy tests were conducted.</logic>
+  <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+   </horizpa>
+   <vertacc>
+    <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <procstep>
+    <procdesc>Development of the data set by the agency / individuals identified in the 'Originator' element in the Identification Info section of the record.</procdesc>
+    <procdate>Unknown</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+  <direct>Vector</direct>
+  <ptvctinf>
+   <sdtsterm>
+    <sdtstype>G-polygon</sdtstype>
+    <ptvctcnt>4</ptvctcnt>
+   </sdtsterm>
+  </ptvctinf>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+   <planar>
+    <mapproj>
+     <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere (ESRI Full Name: WGS_1984_Web_Mercator_Auxiliary_Sphere)</mapprojn>
+     <mercator>
+      <stdparll>0.0</stdparll>
+      <longcm>0.0</longcm>
+      <feast>0.0</feast>
+      <fnorth>0.0</fnorth>
+     </mercator>
+    </mapproj>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>0.6096</absres>
+      <ordres>0.6096</ordres>
+     </coordrep>
+     <plandu>Meter</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>D_WGS_1984</horizdn>
+    <ellips>WGS_1984</ellips>
+    <semiaxis>6378137.0</semiaxis>
+    <denflat>298.257223563</denflat>
+   </geodetic>
+  </horizsys>
+ </spref>
+ <eainfo>
+  <detailed>
+   <enttyp>
+    <enttypl>Attribute Table</enttypl>
+    <enttypd>Table containing attribute information associated with the data set.</enttypd>
+    <enttypds>Producer defined</enttypds>
+   </enttyp>
+   <attr>
+    <attrlabl>OBJECTID</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>1</rdommin>
+      <rdommax>4</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Management</attrlabl>
+    <attrdef>Core, Priority, General, and Non-Habitat categories for sage-grouse areas.</attrdef>
+    <attrdefs>U.S. Geological Survey</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Core</edomv>
+      <edomvd>Defined as the intersection between all suitable habitat (high, moderate, and low) and the 85% Space Use Index (SUI).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>General</edomv>
+      <edomvd>Defined as moderate and low quality habitat falling outside the 85% SUI.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Non-Habitat</edomv>
+      <edomvd>Defined as non-habitat falling outside the 85% SUI.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Priority</edomv>
+      <edomvd>Defined as all high quality falling outside the 85% SUI and all non-habitat falling within the 85% SUI. This was a 2-part process. High quality falling outside the 85% SUI was erased by the 85% SUI, and non-habitat was clipped by the SUI.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Shape_Leng</attrlabl>
+    <attrdef>Polygon perimeter lengths in meters.</attrdef>
+    <attrdefs>U.S. Geological Survey</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>12184521.9665</rdommin>
+      <rdommax>46696468.7583</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Acres</attrlabl>
+    <attrdef>Area in Acres.</attrdef>
+    <attrdefs>U.S. Geological Survey</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>9116567.0997</rdommin>
+      <rdommax>22421734.3317</rdommax>
+      <attrunit>Acres</attrunit>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Kilometers</attrlabl>
+    <attrdef>Area in square kilometers.</attrdef>
+    <attrdefs>U.S. Geological Survey</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>36893.4381177</rdommin>
+      <rdommax>90737.5395815</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Shape_Length</attrlabl>
+    <attrdef>Length of feature in internal units.</attrdef>
+    <attrdefs>Esri</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>16006288.8256395</rdommin>
+      <rdommax>61249528.7273521</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Shape_Area</attrlabl>
+    <attrdef>Area of feature in internal units squared.</attrdef>
+    <attrdefs>Esri</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>63532216915.3129</rdommin>
+      <rdommax>153853333827.774</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+  </detailed>
+  <overview>
+   <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+   <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+  </overview>
+ </eainfo>
+ <distinfo>
+  <distrib>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>Denver Federal Center</address>
+     <address>Building 810</address>
+     <address>Mail Stop 302</address>
+     <city>Denver</city>
+     <state>CO</state>
+     <postal>80225</postal>
+     <country>US</country>
+    </cntaddr>
+    <cntvoice>1-888-275-8747</cntvoice>
+    <cntemail>sciencebase@usgs.gov</cntemail>
+   </cntinfo>
+  </distrib>
+  <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government</distliab>
+  <custom>The dataset will be available online at the USGS ScienceBase web site. http://dx.doi.org/10.5066/F75D8PW8</custom>
+ </distinfo>
+ <metainfo>
+  <metd>20151119</metd>
+  <metc>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>U.S. Geological Survey, Western Ecological Research Center, Dixon Field Station</cntorg>
+     <cntper>K. Benjamin Gustafson</cntper>
+    </cntorgp>
+    <cntpos>Geographer</cntpos>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>800 Business Park Drive, Suite D</address>
+     <city>Dixon</city>
+     <state>CA</state>
+     <postal>95620</postal>
+     <country>US</country>
+    </cntaddr>
+    <cntvoice>530-669-5069</cntvoice>
+    <cntfax>707-678-5039</cntfax>
+    <cntemail>bgustafson@usgs.gov</cntemail>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <mettc>local time</mettc>
+ </metainfo>
+</metadata>

@@ -1,0 +1,917 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.77.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="77">
+    <alternateIdentifier>knb-lter-sbc.77</alternateIdentifier>
+    <shortName>lobster abundance and fishing effort</shortName>
+    <title>SBC LTER: Reef: Abundance, size and fishing effort for California Spiny Lobster (Panulirus interruptus), ongoing since 2012</title>
+    <creator id="sbclter">
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="dreed">
+      <individualName>
+        <givenName>Daniel</givenName>
+        <givenName>C</givenName>
+        <surName>Reed</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-8363</phone>
+      <phone phonetype="fax">805-893-8062</phone>
+      <electronicMailAddress>dan.reed@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2014-01-01</pubDate>
+    <language>english</language>
+    <abstract>
+      <section>
+        <para>Data on abundance, size and fishing pressure of California spiny lobster (Panulirus
+            interruptus) are collected along the mainland coast of the Santa Barbara Channel. 
+            Spiny lobsters are an important predator in giant kelp forests off
+            southern California. Two SBC LTER study reefs are located in or near the California Fish and
+            Game Network of Marine Protected Areas (MPA), Naples and Isla Vista, both established as
+            MPAs on 2012-01-01. MPAs provide a unique opportunity to investigate the effects of fishing
+            on kelp forest community dynamics. Sampling began in 2012 and is ongoing. </para>
+        <para>This dataset contains two tables. 1) Abundance and size data collected annually by
+            divers in late summer before the start of the fishing season at five SBC LTER long term
+            kelp forest study sites: two within MPAs (Naples and Isla Vista) and three outside
+            (Arroyo Quemado, Mohawk and Carpinteria). 2) Fishing pressure, as determined by counting
+            the number of commercial trap floats. Data are collected every two to four weeks during
+            the lobster fishing season (October to March) at nine sites along the mainland, eight of
+            which are also SBC LTER long-term kelp forest study reefs. </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">abundance</keyword>
+      <keyword keywordType="theme">benthic</keyword>
+      <keyword keywordType="theme">long term</keyword>
+      <keyword keywordType="theme">long term ecological research</keyword>
+      <keyword keywordType="theme">marine</keyword>
+      <keyword keywordType="theme">populations</keyword>
+      <keyword keywordType="theme">size</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Kelp Forest</keyword>
+      <keyword keywordType="theme">Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Habitats</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Community Structure</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Measurement Types</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Arroyo Burro Reef</keyword>
+      <keyword keywordType="place">Arroyo Hondo Reef</keyword>
+      <keyword keywordType="place">Arroyo Quemado Reef</keyword>
+      <keyword keywordType="place">Carpinteria Reef</keyword>
+      <keyword keywordType="place">Goleta Bay</keyword>
+      <keyword keywordType="place">Isla Vista Reef</keyword>
+      <keyword keywordType="place">Mohawk Reef</keyword>
+      <keyword keywordType="place">Naples Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Places</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Marine invertebrates</keyword>
+      <keywordThesaurus>Global Change Master Directory (GCMD) v6.0.0.0.0</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Benthos</keyword>
+      <keyword keywordType="theme">Reefs</keyword>
+      <keyword keywordType="theme">Zoobenthos</keyword>
+      <keywordThesaurus>NBII Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="taxonomic">California Spiny Lobster</keyword>
+      <keyword keywordType="taxonomic">crustaceans</keyword>
+      <keyword keywordType="taxonomic">Panulirus interruptus</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Fishing pressure</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">LTER Core Research Areas</keyword>
+      <keyword keywordType="theme">Populations</keyword>
+      <keyword keywordType="theme">Santa Barbara Coastal</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="AQUE">
+        <geographicDescription>AQUE: Arroyo Quemado Reef: Arroyo Quemado Reef depth range from 5.4m to 10.7m. There are 7 permanent transects: Transect I --- Transect VII. Reference on Land is close to US101/Arroyo Quemada Ln.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.11905</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.11905</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.46774988</northBoundingCoordinate>
+          <southBoundingCoordinate>34.46774988</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL">
+        <geographicDescription>NAPL: Naples Reef: Naples Reef Depth range from 5.9mto 13.4 m. References on land is US101/Naples Access RD/RR1.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.95154</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.95154</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4221216</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4221216</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="IVEE">
+        <geographicDescription>IVEE: Isla Vista (IV) Reef is located on the Santa Barbara Channel near the University of California Santa Barbara, CA. Depth range is from -8.2 to -8.8 meters.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.85755</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.85755</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.402783</northBoundingCoordinate>
+          <southBoundingCoordinate>34.402783</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MOHK">
+        <geographicDescription>MOHK: Mohawk Reef: Mohawk Reef depth ranges from 4.5m to 6.0 m. Reference on land is Mohawk Rd / Edgewater Way.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.72957</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.72957</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3940708</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3940708</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP">
+        <geographicDescription>CARP: Carpinteria: Carpinteria Reef's depth range is from 2.2 m to 8.8 m. There are 9 permanent transects: Transect 1 to Transect 9. Reference on land is Sand Point RD/ Ave del Mar.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.5416933</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.5416933</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3916319</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3916319</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AHND_1km_box">
+        <geographicDescription>Arroyo Hondo Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.14917</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.1375</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.473</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4624</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AHND_to_AQUE_1km_box">
+        <geographicDescription>Arroyo Hondo-to-Arroyo Quemado lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.1375</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.1325</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.473</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4621</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="AQUE_1km_box">
+        <geographicDescription>Arroyo Quemado Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.1325</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.11417</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4721</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4579</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="NAPL_1km_box">
+        <geographicDescription>Naples Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.96667</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.94833</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4407</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4233</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="IVEE_1km_box">
+        <geographicDescription>Isla Vista Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.89333</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.85083</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4189</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3958</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GOLB_1km_box">
+        <geographicDescription>Goleta Bay Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.82833</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.81083</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4156</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4051</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="ABUR_1km_box">
+        <geographicDescription>Arroyo Burro Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.74917</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.7375</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4038</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3895</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MOHK_1km_box">
+        <geographicDescription>Mohawk Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.7375</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.7275</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3995</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3858</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="CARP_1km_box">
+        <geographicDescription>Carpinteria Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.54833</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.53</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.405</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3851</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2012-08-20</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-09-12</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Panulirus</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>genusSpecies</taxonRankName>
+            <taxonRankValue>Panulirus interruptus</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>commonName</taxonRankName>
+              <taxonRankValue>California Spiny Lobster</taxonRankValue>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The number and sizes of spiny lobster are recorded by divers in four 60 x 5 m 
+                (300 m2 total) lobster transects that are associated with each 
+                permanent SBC LTER kelp forest community survey transect. 
+                See the protocol document for more information.</para>
+        </description>
+        <protocol scope="document">
+          <title>SBC LTER  Methods - Lobster Abundance and Size</title>
+          <creator>
+            <individualName>
+              <surName>Reed</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Reef/Protocols/lobsters/Reed_2014-09-29_lobster_abundance.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Observers count surface floats which mark baited wire traps used by the commercial fishery  
+                in depths less than 15 m, in defined areas of coastline. 
+                See the protocol document for more information.</para>
+        </description>
+        <protocol scope="document">
+          <title>SBC LTER Methods - Lobster Fishing Pressure</title>
+          <creator>
+            <individualName>
+              <surName>Reed</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Reef/Protocols/lobsters/Reed_2014-09-29_lobster_trap_counts.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable id="lobster_abundance_size">
+      <entityName>Time-series of lobster abundance and size</entityName>
+      <entityDescription>Time-series of abundance and size of California spiny lobster (Panulirus interruptus) at SBC LTER reefs</entityDescription>
+      <physical>
+        <objectName>lobster_abundance_all_years_20141001.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Reef/Data/lobsters/lobster_abundance_all_years_20141001.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ds77.ent1.att1">
+          <attributeName>YEAR</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att2">
+          <attributeName>MONTH</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Calendar month</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att3">
+          <attributeName>DATE</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of survey, (d)d-mon-yy</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att4">
+          <attributeName>SITE</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Code for site sampled</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>AQUE</code>
+                    <definition>Arroyo Quemado</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARP</code>
+                    <definition>Carpinteria</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IVEE</code>
+                    <definition>Isla Vista</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MOHK</code>
+                    <definition>Mohawk</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NAPL</code>
+                    <definition>Naples</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att5">
+          <attributeName>SBC_LTER_TRANSECT</attributeName>
+          <attributeLabel>SBC LTER Transect name</attributeLabel>
+          <attributeDefinition>40m transects defined by six permanent markers (stainless steel eyebolts or rebar stakes) at 0, 8, 16, 24, 32, and 40m</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att6">
+          <attributeName>LOBSTER_TRANSECT</attributeName>
+          <attributeLabel>Lobster Transect name</attributeLabel>
+          <attributeDefinition>Code for the lobster transect. 4 lobster transects (60m x 2m) are associated with an SBC LTER permanent transect. Transects A-D are arranged south to north (A is southern-most and D is the northern-most)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att7">
+          <attributeName>SIZE</attributeName>
+          <attributeLabel>Size</attributeLabel>
+          <attributeDefinition>Visual estimate of lobster carapace length in mm</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att8">
+          <attributeName>COUNT</attributeName>
+          <attributeLabel>Count</attributeLabel>
+          <attributeDefinition>Total number of lobsters of this size in the lobster transect</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att9">
+          <attributeName>OBS_CODE</attributeName>
+          <attributeLabel>Observer code</attributeLabel>
+          <attributeDefinition>Numeric code indicating the SBCLTER data collector</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att10">
+          <attributeName>AREA</attributeName>
+          <attributeLabel>Sample Area</attributeLabel>
+          <attributeDefinition>Lobster transect sampling area in meters squared</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterSquared</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent1.att11">
+          <attributeName>NOTES</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Text annotation to observations including lobster sex, reproductive status and extent to which carapace was hidden from view</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>812</numberOfRecords>
+    </dataTable>
+    <dataTable id="lobster_trap_counts">
+      <entityName>Time-series of lobster trap buoy counts</entityName>
+      <entityDescription>Time-series of counted trap marker buoys in spatially-discrete subsections inshore of the 15-m isobath</entityDescription>
+      <physical>
+        <objectName>lobster_trap_counts_all_years_20141001.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://sbc.lternet.edu/external/Reef/Data/lobsters/lobster_trap_counts_all_years_20141001.csv</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ds77.ent2.att1">
+          <attributeName>YEAR</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent2.att2">
+          <attributeName>MONTH</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Calendar month</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent2.att3">
+          <attributeName>DATE</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of survey. MM/DD/YYYY</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent2.att4">
+          <attributeName>FISHING_SEASON</attributeName>
+          <attributeLabel>Fishing Season</attributeLabel>
+          <attributeDefinition>Year-range for the period when spiny lobster are legally fished in California, 6-months (October to March) </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent2.att5">
+          <attributeName>SITE</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Code for site sampled</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>ABUR</code>
+                    <definition>Arroyo Burro Reef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AHND</code>
+                    <definition>Arroyo Hondo Reef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AHND to AQUE</code>
+                    <definition>Area between Arroyo Hondo and Arroyo Quemado</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AQUE</code>
+                    <definition>Arroyo Quemado Reef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARP</code>
+                    <definition>Carpinteria Reef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GOLB</code>
+                    <definition>Goleta Bay Reef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IVEE</code>
+                    <definition>Isla Vista Reef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MOHK</code>
+                    <definition>Mohawk Reef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NAPL</code>
+                    <definition>Naples Reef</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent2.att6">
+          <attributeName>SWATH_START</attributeName>
+          <attributeLabel>Swath start</attributeLabel>
+          <attributeDefinition>Longitude (ddd mm.fff) of the starting edge of survey swath (usually west)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent2.att7">
+          <attributeName>SWATH_END</attributeName>
+          <attributeLabel>Swath end</attributeLabel>
+          <attributeDefinition>Longitude (ddd mm.fff) of the ending edge of survey swath (usually east)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent2.att8">
+          <attributeName>TRAPS</attributeName>
+          <attributeLabel>Number of traps</attributeLabel>
+          <attributeDefinition>Number of lobster trap surface floats present in the 76 meter swath extending from shore to the 15 m isobath (approx. 1km)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent2.att9">
+          <attributeName>OBSERVER</attributeName>
+          <attributeLabel>Observer code</attributeLabel>
+          <attributeDefinition>Numeric code indicating the SBCLTER data collector</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ds77.ent2.att10">
+          <attributeName>NOTES</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Field observations associated with data collection</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2434</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="m2" constantToSI="0" id="meterSquared" multiplierToSI="1" name="meterSquared" parentSI="meter" unitType="area">
+          <ns2:description>area, meter squared from the LTER unit dictionary</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="mm" id="millimeter" multiplierToSI="0.001" name="millimeter" parentSI="meter">
+          <ns2:description>.001 meters</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="number" name="number" unitType="dimensionless">
+          <ns2:description>a number</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

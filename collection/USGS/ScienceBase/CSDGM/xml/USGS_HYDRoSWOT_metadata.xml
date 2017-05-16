@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Michael G Canova</origin>
+        <origin>John W Fulton</origin>
+        <origin>David M Bjerklie</origin>
+        <pubdate>201606</pubdate>
+        <title>USGS HYDRoacoustic dataset in support of the Surface Water Oceanographic Topography satellite mission (HYDRoSWOT)</title>
+        <geoform>Microsoft Excel, ver. 14.07166.5000, Tab-delimited text</geoform>
+        <pubinfo>
+          <pubplace>Austin, TX</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://dx.doi.org/10.5066/F7D798H6</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>HYDRoSWOT – HYDRoacoustic dataset in support of Surface Water Oceanographic Topography – is a data set that aggregates channel and flow data collected from the USGS streamgaging network and includes 200,000+ records of USGS acoustic Doppler current profiler (ADCP) discharge measurements. The data set includes a variety of fields including: mean depth, mean velocity, discharge, stage, water-surface width, maximum depth, maximum velocity, and streamgage metadata for more than 5,000 stations in the United States. The hydraulic and channel geometry data is stored in the USGS hydroacoustic Doppler current profiler tables reported in the SiteVisit field measurement database and polled from 45 individual National Water Information System (NWIS) hosts. The database tables were de-normalized into a single flat file intended for further study in various analytical software, such as a spreadsheet or data frame. Each station can possess multiple measurements, as indicated by the measurement number recorded in the q_meas_no field. An individual measurement may have multiple sub-measurements when flow occurs in multiple channels. The multiple channels are recorded in the q_meas_chan_nu field. This dataset only contains ADCP measurement data. In the event of a multiple channel measurement, where other methods were used to measure flow, only ADCP measurements will be represented.</abstract>
+      <purpose>HYDRoSWOT was developed by the USGS Science Definition Team (SDT) to explore fundamental relationships between channel data and hydraulic variables in river channels that will contribute to the understanding of NASA's Surface Water Ocean Topography (SWOT) Mission. Two platforms, AirSWOT and SWOT, will be deployed with a Ka-band interferometric radar. HYDRoSWOT can provide ground-based measurements that could be used calibrate/validate the instrument and assist in discharge algorithm development.</purpose>
+      <supplinf>Persistent Identifier&#xD;
+http://dx.doi.org/10.5066/F7D798H6</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>19401007</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20141125</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>observed</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-163.6773733</westbc>
+        <eastbc>-65.693434</eastbc>
+        <northbc>70.4953764</northbc>
+        <southbc>17.96746676</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS HYDRoSWOT; USGS National Water Information System</themekt>
+        <themekey>hydroacoustics</themekey>
+        <themekey>channel geometry and hydraulic database</themekey>
+      </theme>
+      <place>
+        <placekt>Not specified</placekt>
+        <placekey>United States</placekey>
+      </place>
+      <stratum>
+        <stratkt>Not specified</stratkt>
+        <stratkey>Not specified</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>Not specified</tempkt>
+        <tempkey>Not specified</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>John Fulton</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Box 25046 MS 415</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>USA</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>303-236-6890</cntvoice>
+        <cntemail>jwfulton@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>National Aeronautics and Space Administration</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>The equations q1 thru q10 are various tests and filters requested by researchers. The results of the equations and logic tests may be of use to help narrow the dataset down to meet the various requirements of analytical tests.&#xD;
+&#xD;
+Field, Formula, Units&#xD;
+q1_Percent_va, Round((([meas_q_va]/[q_va]) x 100),2), percent &#xD;
+q1_Outside5Percent, [q1_Percent_va] greater than 105 Or [q1_Percent_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q2_xsecond_area_X_mean_vel_va, Round(([xsecond_area_va] x [mean_vel_va]),2), cubic feet per second&#xD;
+q2_Percent_q_va, Round((([q2_xsecond_area_X_mean_vel_va]/[q_va]) x 100),2),  percent &#xD;
+q2_q_va_OutsideBounds, [q2_Percent_q_va] greater than 105 Or [q2_Percent_q_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q2_Percent_meas_q_va, Round((([q2_xsecond_area_X_mean_vel_va]/[meas_q_va]) x 100),2), percent &#xD;
+q2_meas_q_va_OutsideBounds, [q2_Percent_meas_q_va] greater than 105 Or [q2_Percent_meas_q_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q3_CalcQ, Round(([mean_depth_va] x [stream_wdth_va] x [mean_vel_va]),2), cubic feet per second&#xD;
+q3_PercentCalcQ_q_va, Round((([q3_CalcQ]/[q_va]) x 100),2), percent &#xD;
+q3_q_va_OutsideBounds, [q3_PercentCalcQ_q_va] greater than 105 Or [q3_PercentCalcQ_q_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q3_PercentCalcQ_meas_q_va, Round((([q3_CalcQ]/[meas_q_va]) x 100),2), percent &#xD;
+q3_meas_q_va_OutsideBounds, [q3_PercentCalcQ_meas_q_va] greater than 105 Or [q3_PercentCalcQ_meas_q_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q4_xsecond_area_D_stream_width, Round(([xsecond_area_va]/[stream_wdth_va]),2), feet&#xD;
+q4_Percent_xsecond_area_D_stream_width, Round((([q4_xsecond_area_D_stream_width]/[mean_depth_va]) x 100),2),  percent &#xD;
+q4_OutsideBounds, [q4_Percent_xsecond_area_D_stream_width] greater than 105 Or [q4_Percent_xsecond_area_D_stream_width] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q5_Mean_GT_Max, [max_depth_va]-[mean_depth_va] less than 0, -1 indicates mean depth greater than max depth&#xD;
+q6_mean_vel_GT_max_vel, [max_vel_va]-[mean_vel_va] less than 0, -1 indicates mean velocity greater than max velocity&#xD;
+q6_JRatio, Round(([mean_vel_va]/[max_vel_va]),3), dimensionless&#xD;
+q6_JRatioGTo58, [q6_JRatio] greater than 0.582, -1 indicates q6_JRatio greater than 0.582&#xD;
+q6_JRatioLTo82, [q6_JRatio] less than 0.836, -1 indicates q6_JRatio less than 0.836&#xD;
+q7_max_vel_D_mean_vel, Round(([max_vel_va]/[mean_vel_va]),2), dimensionless&#xD;
+q7_max_vel_D_mean_vel_LT2, Round(([max_vel_va]/[mean_vel_va]),2) less than 2, -1 indicates that the ratio of max to mean velocity is less than 2&#xD;
+q8_stream_width_D_mean_depth, Round(([stream_wdth_va]/[mean_depth_va]),2), dimensionless&#xD;
+q8_GT2, Round(([stream_wdth_va]/[mean_depth_va]),2) greater than 2, -1 indicates that the ratio of stream width to mean depth is greater than 2&#xD;
+q8_LT200, Round(([stream_wdth_va]/[mean_depth_va]),2) less than 200, -1 indicates that the ratio of stream width to mean depth is less than 200&#xD;
+q9_stream_width_GT100, ([stream_wdth_va]-100) greater than 0, -1 indicates stream width is greater than 100&#xD;
+q10_mean_vel_GTo5, [mean_vel_va] greater than 0.5, -1 indicates mean velocity is greater than 0.5</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <method>
+        <methtype>n/a</methtype>
+      </method>
+      <procstep>
+        <procdesc>The hydraulic and channel geometry data was polled from 45 individual National Water Information System (NWIS) hosts. The database tables were de-normalized into a single flat file intended for further study in various analytical software, such as a spreadsheet or data frame. Each station can possess multiple measurements, as indicated by the measurement number recorded in the q_meas_no field. An individual measurement may have multiple sub-measurements when flow occurs in multiple channels. The multiple channels are recorded in the q_meas_chan_nu field. This dataset only contains ADCP measurement data. In the event of a multiple channel measurement, where other methods were used to measure flow, only ADCP measurements will be represented.</procdesc>
+        <procdate>20141125</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Not specified</indspref>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.0011</latres>
+        <longres>0.0011</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Field, Description, Units or Notes&#xD;
+host, NWIS host, dimensionless&#xD;
+agency_cd, Agency code, code&#xD;
+site_no, Site number, dimensionless&#xD;
+station_nm, Station name, dimensionless&#xD;
+dec_lat_va, Decimal latitude, degrees&#xD;
+dec_long_va, Decimal longitude, degrees&#xD;
+coord_datum_cd, Latitude and longitude (horizontal) coordinate datum, degrees&#xD;
+drain_area_va, Drainage area, square mile&#xD;
+contrib_drain_area_va, Contributing drainage area, square mile&#xD;
+alt_va, Gage or land surface datum, feet&#xD;
+alt_datum_cd, Geodetic or local vertical datum of the altitude datum altitude component, code&#xD;
+site_tp_cd, Site type code, code&#xD;
+ad_site_cd, Indicates whether the site is slope-affected, index velocity, a structure like a dam, code&#xD;
+site_visit_start_dt, Starting date and time of the site visit, time&#xD;
+site_visit_start_dt_sg, Starting date and time significant figures of the site visit, code&#xD;
+data_aging_cd, Code identifying the data aging status of the measurement, code&#xD;
+q_meas_no, Discharge measurement activity number, dimensionless&#xD;
+q_meas_dt, Official date and time of the discharge measurement; usually the mean of the start and end date and time (if specified), time&#xD;
+q_meas_td, Discharge measurement official date and time datum, date and time&#xD;
+q_va, Discharge value, cubic feet per second&#xD;
+stage_va, Value of the stream stage that corresponds to the discharge flowing past the gage, feet&#xD;
+stage_diff_va, Change in stage during measurement, feet&#xD;
+stage_diff_du, Duration of the change in stage measurement, second&#xD;
+mean_idx_vel_va, Mean index velocity measured during the discharge measurement, feet per second&#xD;
+std_second_area_va, Stream cross-section area at the standard cross-section, square feet&#xD;
+std_second_vel_va, Stream velocity at the standard cross-section, feet per second&#xD;
+q_adj_va, Discharge adjustment from the measured channels to the final discharge value, cubic feet per second&#xD;
+base_flw_cd, Standard discharge measurement base flow code, Describes whether the stream flow is base flow or not, code&#xD;
+q_meas_qual_cd, Code identifying a stream discharge measurement quality qualifier, code&#xD;
+q_meas_used_fg, Was this discharge measurement used in records processing, Y equals Yes; N equals No&#xD;
+q_meas_chan_nu, Discharge measurement channel number, dimensionless&#xD;
+stream_wdth_va, Output rounding code of the stream width value, feet&#xD;
+xsecond_area_va, Area of the measurement section, square feet&#xD;
+mean_vel_va, Average stream velocity during the measurement, feet per second&#xD;
+max_vel_va, Maximum velocity recorded, from all transects of the measurement, feet per second&#xD;
+q_coef_var_va, Standard deviation of the total discharges for all transects in the measurement divided by the mean discharge for all measurements; this parameter provides a standardized estimate of the variation of discharges in the measurement, dimensionless&#xD;
+flw_meas_fc, Percent of the total discharge actually measured by the profiler; it is computed by taking the mean middle discharge divided by the mean total discharge,  percent &#xD;
+mean_depth_va, Mean depth is the weighted mean water depth for the measurement; the mean depth is weighted based on the distance between individual profiles (and depth measurements), feet</eaover>
+      <eadetcit>Description and units used in each of the SWOT_ADCP_Dataset fields. Most of the measurement data are available via NWISWeb at the following link. &#xD;
+http://waterdata.usgs.gov/nwis/measurements&#xD;
+Site information data are available on NWISWeb at the following link.&#xD;
+http://waterdata.usgs.gov/nwis/inventory</eadetcit>
+    </overview>
+    <overview>
+      <eaover>Field, Description, Units or Notes (continued)&#xD;
+max_depth_va, Maximum measured depth, in feet for all transects of the measurement, feet&#xD;
+adcp_freq_cd, Code indicating the frequency of the ADCP, code&#xD;
+q_meas_type_cd, Code identifying a stream discharge measurement type (wading, bridge, ice, boat), code&#xD;
+q_meth_cd, Code identifying the stream discharge measurement method in detail, code&#xD;
+vel_meth_cd, Code identifying the method of determining stream velocity (Current Meter, ADV), code&#xD;
+meas_q_va, Measured discharge value, cubic feet per second&#xD;
+chan_stability_cd, Code identifying the stability of the channel (firm, soft), code&#xD;
+chan_mat_cd, Code identifying the material of the channel (sand, gravel, silt), code&#xD;
+vel_dstrb_cd, Code that describes velocity flow distribution within the cross-section over time; that is, whether the velocity distribution of flow within the cross-section is mostly steady or pulsating, code&#xD;
+vert_vel_dstrb_cd, Code describes the vertical velocity distribution within the cross-section; that is, whether the vertical distribution of velocity within the cross-section is mostly uniform, standard profile, or non-standard profile, code&#xD;
+q1_Percent_va, Round((([meas_q_va]/[q_va]) x 100),2), percent &#xD;
+q1_Outside5Percent, [q1_Percent_va] greater than 105 Or [q1_Percent_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q2_xsecond_area_X_mean_vel_va, Round(([xsecond_area_va] x [mean_vel_va]),2), cubic feet per second&#xD;
+q2_Percent_q_va, Round((([q2_xsecond_area_X_mean_vel_va]/[q_va]) x 100),2),  percent &#xD;
+q2_q_va_OutsideBounds, [q2_Percent_q_va] greater than 105 Or [q2_Percent_q_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q2_Percent_meas_q_va, Round((([q2_xsecond_area_X_mean_vel_va]/[meas_q_va]) x 100),2), percent &#xD;
+q2_meas_q_va_OutsideBounds, [q2_Percent_meas_q_va] greater than 105 Or [q2_Percent_meas_q_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q3_CalcQ, Round(([mean_depth_va] x [stream_wdth_va] x [mean_vel_va]),2), cubic feet per second&#xD;
+q3_PercentCalcQ_q_va, Round((([q3_CalcQ]/[q_va]) x 100),2), percent &#xD;
+q3_q_va_OutsideBounds, [q3_PercentCalcQ_q_va] greater than 105 Or [q3_PercentCalcQ_q_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q3_PercentCalcQ_meas_q_va, Round((([q3_CalcQ]/[meas_q_va]) x 100),2), percent &#xD;
+q3_meas_q_va_OutsideBounds, [q3_PercentCalcQ_meas_q_va] greater than 105 Or [q3_PercentCalcQ_meas_q_va] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q4_xsecond_area_D_stream_width, Round(([xsecond_area_va]/[stream_wdth_va]),2), feet&#xD;
+q4_Percent_xsecond_area_D_stream_width, Round((([q4_xsecond_area_D_stream_width]/[mean_depth_va]) x 100),2),  percent &#xD;
+q4_OutsideBounds, [q4_Percent_xsecond_area_D_stream_width] greater than 105 Or [q4_Percent_xsecond_area_D_stream_width] less than 95, -1 indicates a + or - 5 percent exceedance&#xD;
+q5_Mean_GT_Max, [max_depth_va]-[mean_depth_va] less than 0, -1 indicates mean depth greater than max depth&#xD;
+q6_mean_vel_GT_max_vel, [max_vel_va]-[mean_vel_va] less than 0, -1 indicates mean velocity greater than max velocity&#xD;
+q6_JRatio, Round(([mean_vel_va]/[max_vel_va]),3), dimensionless&#xD;
+q6_JRatioGTo58, [q6_JRatio] greater than 0.582, -1 indicates q6_JRatio greater than 0.582&#xD;
+q6_JRatioLTo82, [q6_JRatio] less than 0.836, -1 indicates q6_JRatio less than 0.836&#xD;
+q7_max_vel_D_mean_vel, Round(([max_vel_va]/[mean_vel_va]),2), dimensionless&#xD;
+q7_max_vel_D_mean_vel_LT2, Round(([max_vel_va]/[mean_vel_va]),2) less than 2, -1 indicates that the ratio of max to mean velocity is less than 2&#xD;
+q8_stream_width_D_mean_depth, Round(([stream_wdth_va]/[mean_depth_va]),2), dimensionless&#xD;
+q8_GT2, Round(([stream_wdth_va]/[mean_depth_va]),2) greater than 2, -1 indicates that the ratio of stream width to mean depth is greater than 2&#xD;
+q8_LT200, Round(([stream_wdth_va]/[mean_depth_va]),2) less than 200, -1 indicates that the ratio of stream width to mean depth is less than 200&#xD;
+q9_stream_width_GT100, ([stream_wdth_va]-100) greater than 0, -1 indicates stream width is greater than 100&#xD;
+q10_mean_vel_GTo5, [mean_vel_va] greater than 0.5, -1 indicates mean velocity is greater than 0.5</eaover>
+      <eadetcit>See Dataset Summary (continued from previous Data Reference)</eadetcit>
+    </overview>
+    <overview>
+      <eaover>Field,Code,Description&#xD;
+host,NWIS##,National Water Information System and two letter state abbreviation&#xD;
+agency,USGS,United States Geological Survey&#xD;
+agency,CA001,California Department of Water Resources&#xD;
+agency,CAX01,"Inland Waters Directorate, Water Resources Bureau, Canada"&#xD;
+coord_datum_cd,NAD82,North American Datum of 1983&#xD;
+alt_datum_cd,COE1912,U.S. Corps of Engineers datum adjustment 1912&#xD;
+alt_datum_cd,IGLD,International Great Lakes Datum&#xD;
+alt_datum_cd,LMSL,Local Mean Sea Level&#xD;
+alt_datum_cd,NAVD88,North American Vertical Datum of 1988&#xD;
+alt_datum_cd,NGVD29,National Geodetic Vertical Datum of 1929&#xD;
+site_tp_cd,AT,Atmosphere&#xD;
+site_tp_cd,ES,Estuary&#xD;
+site_tp_cd,FA-DV,Diversion&#xD;
+site_tp_cd,FA-OF,Outfall&#xD;
+site_tp_cd,FA-QC,QC lab&#xD;
+site_tp_cd,LK,Lake&#xD;
+site_tp_cd,OC-CO,Coastal&#xD;
+site_tp_cd,SB-GWD,GW drain&#xD;
+site_tp_cd,SP,Spring&#xD;
+site_tp_cd,ST,Stream&#xD;
+site_tp_cd,ST-CA,Canal&#xD;
+site_tp_cd,ST-DCH,Ditch&#xD;
+site_tp_cd,ST-TS,Tidal SW&#xD;
+ad_site_cd,OTHR,Other&#xD;
+ad_site_cd,SLPQ,Slope Discharge&#xD;
+ad_site_cd,VELQ,Velocity Discharge&#xD;
+site_visit_start_dt_sg,D,Days&#xD;
+site_visit_start_dt_sg,h,Hours&#xD;
+site_visit_start_dt_sg,m,Minutes&#xD;
+site_visit_start_dt_sg,s,Seconds&#xD;
+data_aging_cd,A,Approved&#xD;
+data_aging_cd,W,Working&#xD;
+q_meas_td,AKST  ,Alaska Standard Time&#xD;
+q_meas_td,AST   ,Atlantic Standard Time (Canada)&#xD;
+q_meas_td,CAST  ,Central Australia Standard Time&#xD;
+q_meas_td,CET   ,Central European Time&#xD;
+q_meas_td,CST   ,Central Standard Time&#xD;
+q_meas_td,DST   ,Dansk Summer Time&#xD;
+q_meas_td,EST   ,Eastern Standard Time&#xD;
+q_meas_td,HST   ,Hawaii Standard Time&#xD;
+q_meas_td,MST   ,Mountain Standard Time&#xD;
+q_meas_td,PST   ,Pacific Standard Time&#xD;
+q_meas_td,UTC   ,Universal Coordinated Time&#xD;
+base_flw_cd,BASE,Base Flow&#xD;
+base_flw_cd,NBAS,Non-Base Flow&#xD;
+base_flw_cd,UNKN,Unknown&#xD;
+base_flw_cd,UNSP,Unspecified&#xD;
+q_meas_qual_cd,EXCL,Excellent (2%)&#xD;
+q_meas_qual_cd,FAIR,Fair (5%)&#xD;
+q_meas_qual_cd,GOOD,Good (8%)&#xD;
+q_meas_qual_cd,POOR,Poor (Greater than 8%)&#xD;
+q_meas_qual_cd,UNSP,Unspecified&#xD;
+q_meas_used_fg,Y,Yes&#xD;
+q_meas_used_fg,N,No&#xD;
+adcp_freq_cd,UNSP,Unspecified&#xD;
+adcp_freq_cd,MULT,Multiple&#xD;
+q_meas_type_cd,UNSP,Unspecified&#xD;
+q_meas_type_cd,BRDS,Bridge Downstream Side&#xD;
+q_meas_type_cd,BRUS,Bridge Upstream Side&#xD;
+q_meas_type_cd,CWAY,Cableway&#xD;
+q_meas_type_cd,MBOT,Manned Moving Boat&#xD;
+q_meas_type_cd,RC,Remote Control Boat&#xD;
+q_meas_type_cd,WADE,Wading&#xD;
+q_meas_type_cd,OTHR,Other&#xD;
+q_meas_type_cd,BOAT,Boat&#xD;
+q_meas_type_cd,ICE,Ice&#xD;
+q_meth_cd,QADCP,Discharge Measured Acoustic Doppler Current Profiler Moving Boat&#xD;
+q_meth_cd,QSCMM,Discharge Measured Midsection&#xD;
+q_meth_cd,Q-EST,Discharge Estimated&#xD;
+vel_meth_cd,VADCP,Stream Velocity Acoustic Doppler Current Profiler&#xD;
+vel_meth_cd,VADV,Stream Velocity Acoustic Doppler Velocimeter&#xD;
+vel_meth_cd,VPAA,Stream Velocity Price AA Meter&#xD;
+vel_meth_cd,V-EST,Stream Velocity Estimated&#xD;
+chan_stability_cd,FIRM,Firm&#xD;
+chan_stability_cd,SOFT,Soft&#xD;
+chan_stability_cd,UNSP,Unspecified&#xD;
+chan_mat_cd,UNSP,Unspecified&#xD;
+chan_mat_cd,SAND,Sand&#xD;
+chan_mat_cd,BLDR,Cobbles - Boulder&#xD;
+chan_mat_cd,SILT,Silt&#xD;
+chan_mat_cd,GRVL,Gravel&#xD;
+chan_mat_cd,CBLS,Cobbles&#xD;
+chan_mat_cd,LDGE,Bedrock - Ledge - Artificial&#xD;
+vel_dstrb_cd,UNSP,Unspecified&#xD;
+vel_dstrb_cd,STDY,Steady&#xD;
+vel_dstrb_cd,PULS,Pulsating&#xD;
+vert_vel_dstrb_cd,UNSP,Unspecified&#xD;
+vert_vel_dstrb_cd,STND,Standard&#xD;
+vert_vel_dstrb_cd,UNFM,Uniform&#xD;
+vert_vel_dstrb_cd,UNKN,Unknown&#xD;
+vert_vel_dstrb_cd,NSTD,Non-standard</eaover>
+      <eadetcit>Description of codes used in the SWOT_ADCP_Dataset. Definition of terms and codes used can be found at the following link. Information provided is not limited to the SWOT_ADCP_Dataset.&#xD;
+http://help.waterdata.usgs.gov/codes-and-parameters</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>U.S. Geological Survey - ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>This dataset, identified as SWOT_ADCP_Dataset, has been approved for release by the U.S. Geological Survey (USGS). Although this dataset has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, the dataset is released on condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from its authorized or unauthorized use. The SWOT_ADCP_Dataset is intended to be used at the discretion of the end user in various analytical procedures desired by the end user, with the user fully aware of  the limitations of the data. Data are presented in their raw form as retrieved from the SiteVisit field measurement database and are provided as-is. The user should take into account that some data may not be rounded resulting in excess precision being expressed, and typos and other erroneous data may be present.</distliab>
+    <techpreq>User should be familiar with with the functions of Microsoft Excel, ver. 14.07166.5000 or in the use of tab delimited text files.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20160614</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>John W Fulton</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Surface Water Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Box 25046, MS 415</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80126</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>303-236-6890</cntvoice>
+        <cntemail>jwfulton@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
+

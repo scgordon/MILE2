@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      version="3.5"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <recordInfo>
+      <recordIdentifier source="CoBA">OSGC-000-000-020-401</recordIdentifier>
+      <recordCreationDate encoding="w3cdtf">2014-04-25</recordCreationDate>
+      <recordChangeDate encoding="w3cdtf">2015-10-09</recordChangeDate>
+      <recordContentSource>NCAR Library and Archives</recordContentSource>
+      <recordOrigin>Human prepared. Transformed from a record in the OpenSky metadata
+                framework.</recordOrigin>
+      <recordOrigin>This record was transformed using the following
+                files: osm-main-to-mods.xsl, osm-common-to-mods.xsl, and
+                osm-article-to-mods.xsl.</recordOrigin>
+      <languageOfCataloging>
+         <languageTerm type="text">English</languageTerm>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+   </recordInfo>
+   <titleInfo>
+      <title>Using random forests to diagnose aviation turbulence</title>
+   </titleInfo>
+   <name type="personal"
+         valueURI="4150"
+         authorityURI="https://people.ucar.edu"
+         authority="UCAR People Database"
+         usage="primary">
+      <namePart type="given">John</namePart>
+      <namePart type="given">K.</namePart>
+      <namePart type="family">Williams</namePart>
+      <displayForm>John K. Williams</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+      <affiliation>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Research Applications Laboratory (RAL):Aviation Applications Program (AAP)</affiliation>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="marcgt">article</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2014-04-01</dateIssued>
+      <publisher>Springer</publisher>
+   </originInfo>
+   <language>
+      <languageTerm type="code" authority="rfc5646">en</languageTerm>
+   </language>
+   <physicalDescription>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract lang="eng">Atmospheric turbulence poses a significant hazard to aviation, with severe encounters costing airlines millions of dollars per year in compensation, aircraft damage, and delays due to required post-event inspections and repairs. Moreover, attempts to avoid turbulent airspace cause flight delays and en route deviations that increase air traffic controller workload, disrupt schedules of air crews and passengers and use extra fuel. For these reasons, the Federal Aviation Administration and the National Aeronautics and Space Administration have funded the development of automated turbulence detection, diagnosis and forecasting products. This paper describes a methodology for fusing data from diverse sources and producing a real-time diagnosis of turbulence associated with thunderstorms, a significant cause of weather delays and turbulence encounters that is not well-addressed by current turbulence forecasts. The data fusion algorithm is trained using a retrospective dataset that includes objective turbulence reports from commercial aircraft and collocated predictor data. It is evaluated on an independent test set using several performance metrics including receiver operating characteristic curves, which are used for FAA turbulence product evaluations prior to their deployment. A prototype implementation fuses data from Doppler radar, geostationary satellites, a lightning detection network and a numerical weather prediction model to produce deterministic and probabilistic turbulence assessments suitable for use by air traffic managers, dispatchers and pilots. The algorithm is scheduled to be operationally implemented at the National Weather Service’s Aviation Weather Center in 2014.</abstract>
+   <relatedItem type="host">
+      <titleInfo>
+         <title>Machine Learning</title>
+      </titleInfo>
+      <part>
+         <detail type="volume">
+            <number>95</number>
+         </detail>
+         <detail type="issue">
+            <number>1</number>
+         </detail>
+         <extent unit="page">
+            <start>51</start>
+            <end>70</end>
+            <list>51-70</list>
+         </extent>
+      </part>
+   </relatedItem>
+   <extension>
+      <osm:classification xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">Refereed</osm:classification>
+   </extension>
+   <extension>
+      <osm:collaboration xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">UCAR only</osm:collaboration>
+   </extension>
+   <extension>
+      <osm:collectionKey xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">articles</osm:collectionKey>
+   </extension>
+   <relatedItem type="isReferencedBy">
+      <identifier type="uri">http://dx.doi.org/10.1007/s10994-013-5346-7</identifier>
+   </relatedItem>
+   <identifier type="uri" displayLabel="Legacy citable URL">http://nldr.library.ucar.edu/repository/collections/OSGC-000-000-020-401</identifier>
+   <identifier type="doi">10.1007/s10994-013-5346-7</identifier>
+   <accessCondition type="use and reproduction">Copyright 2014 The Author</accessCondition>
+</mods>

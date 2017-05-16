@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="684.1"
+            type="historical">
+   <timeStamp value="2015-11-19 17:23:35 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Lucas and Waliser Satellite ECT Corrected Daily, Pentad and Monthly Global OLR Datasets</title>
+   <summary>
+      <p>This dataset contains daily, pentad and monthly OLR data in
+              which the bias from varying satellite equatorial crossing times
+              (ECTs) has been estimated and then removed.  This was done by starting with the twice
+              daily 2.5 degree NCEP/NOAA OLR archive for 1974 through 1999.
+              The ECT biases caused by afternoon
+              satellite orbital drift AND the abrupt transition from
+              a morning satellite to an afternoon satellite were estimated separately and then
+              these estimates were removed.  
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="SUNY-SB/MSRC/ITPA &gt; Institute for Terrestrial and Planetary Atmospheres, Marine Sciences Research Center, State University of New York, Stony Brook"
+                contact="Duane Waliser"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Longwave Radiation</variable>
+   <contact>Grace Peng</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Lucas, L.E., D.E. Waliser, P. Xie, J.E. Janowiak, and B. Liebmann</authorList>
+      <year>2001</year>
+      <title>Estimating the Satellite Equatorial Crossing Time Biases in the Daily, Global Outgoing Longwave Radiation Dataset</title>
+      <periodical number="14(12)" pages="2583-2605">J. Clim.</periodical>
+   </reference>
+   <publicationDate>2001-04-25</publicationDate>
+   <contentMetadata>
+      <temporal start="1974-06" end="1999-12" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="5" unit="day"/>
+      <temporalFrequency type="regular" number="1" unit="month" statistics="mean"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="73"
+               startLon="0E"
+               startLat="90N"
+               endLon="357.5E"
+               endLat="90S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

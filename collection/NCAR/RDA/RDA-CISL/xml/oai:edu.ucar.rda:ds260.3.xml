@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="260.3"
+            type="primary">
+   <timeStamp value="2015-10-30 15:26:24 -0600"/>
+   <continuingUpdate value="yes" frequency="irregularly"/>
+   <title>NOCS Surface Flux Dataset v2.0</title>
+   <summary>
+      <p>
+              The National Oceanography Centre Southampton (NOCS) Version 2.0 Surface Flux Dataset is a monthly mean gridded dataset of marine surface measurements and derived fluxes constructed using optimal interpolation. Input for the period 1973 to 2006 are ICOADS Release 2.4 ship data, the update from 2007 to 2014 uses ICOADS Release 2.5 and data after 2007 are preliminary. The dataset is presented as a time series of monthly mean values on a 1 degree area grid. The quality of the gridded data is quantified by estimates of random, bias and total uncertainty. The monthly means were derived from daily estimates of each variable and the standard deviation of these daily values is also available. Click <a href="http://rda.ucar.edu/datasets/ds260.3/docs/nocs2_variable_defs.doc">
+              HERE</a> for detailed variable information. Users are advised to take account of the uncertainty estimates provided, and to note that in very poorly sampled regions, such as the Southern Ocean, the uncertainty estimates themselves may be unreliable.
+              </p>
+      <p>
+              Surface meteorological fields have been adjusted to account for varying measurement heights and for known biases (Berry and Kent 2009, Berry and Kent 2011). Surface fluxes have been calculated from daily fields of the surface meteorological parameters using bulk parameterizations (Reed 1977; Clark et al. 1974; Smith 1980; 1988).
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="GB/NOCS &gt; National Oceanography Centre, Southampton, United Kingdom"
+                formerName="Southampton Oceanography Centre, University of Southampton"
+                contact="Berry, David I., +44(0)23-8059-7740, David.Berry@noc.soton.ac.uk;Kent, E. C., eck@noc.soton.ac.uk"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Heat Budget &gt; Heat Flux</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">SHIPS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Berry, D. I. and E. C. Kent</authorList>
+      <year>2009</year>
+      <title>A New Air-Sea Interaction Gridded Dataset from ICOADS with Uncertainty Estimates</title>
+      <periodical number="90(5)" pages="645-656">Bulletin of the American Meteorological Society</periodical>
+      <doi>10.1175/2008BAMS2639.1</doi>
+      <url>http://rda.ucar.edu/datasets/ds260.3/docs/i1520-0477-90-5-645.pdf</url>
+   </reference>
+   <reference type="journal">
+      <authorList>Berry, D. I. and Kent, E. C.</authorList>
+      <year>2011</year>
+      <title>Air-Sea Fluxes from ICOADS: The Construction of a New Gridded Dataset with Uncertainty Estimates</title>
+      <periodical number="31(7)" pages="987-1001">International Journal of Climatology</periodical>
+      <doi>10.1002/joc.2059</doi>
+      <url>http://onlinelibrary.wiley.com/doi/10.1002/joc.2059/abstract</url>
+   </reference>
+   <relatedResource url="http://www.noc.soton.ac.uk/noc_flux/">NOCS Flux Dataset Home Page</relatedResource>
+   <relatedDataset ID="540.0"/>
+   <publicationDate>2008-08-11</publicationDate>
+   <contentMetadata>
+      <temporal start="1973-01-16 12:00 +0000"
+                end="2014-12-16 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="360"
+               numY="180"
+               startLon="179.5W"
+               startLat="89.5S"
+               endLon="179.5E"
+               endLat="89.5N"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

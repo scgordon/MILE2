@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="721.1"
+            type="primary">
+   <timeStamp value="2015-02-05 16:00:07 -0700"/>
+   <continuingUpdate value="yes" frequency="yearly"/>
+   <title>NCAR Global, 2-hourly Ground-Based GPS Precipitable Water</title>
+   <summary>
+      <p>NCAR global, 2-hourly GPS precipitable water data are derived from ground-based GPS measurements of zenith
+              path delay (ZPD) using three different resources, including the International GNSS (Global Navigation Satellite Systems) Service (IGS) tropospheric products (since year 1995), U.S. SuomiNet (UCAR/COSMIC) products (since year 2002) and Japanese GEONET (GPS Earth Observation Network) data (~1100 stations, 1997-2005).</p>
+      <p>The data are divided into two groups: one is from GEONET network, and the data are available from 1997 to 2005; the other one combines IGS and SuomiNet network, and the data are available since year 1995 and planned to be updated yearly.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/EOL &gt; Earth Observing Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                contact="Junhong (June) Zhang, (303)-497-8837, junhong@ucar.edu;Liangying (Liz) Zhang, (303)-497-2025, lzhang@ucar.edu"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Precipitable Water</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">GPS &gt; Global Positioning System Satellites</platform>
+   <platform vocabulary="GCMD">GROUND-BASED GPS STATIONS</platform>
+   <project vocabulary="GCMD">IGS &gt; International GPS Geodynamics Service</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Wang, J., and L. Zhang</authorList>
+      <year>2009</year>
+      <title>Climate applications of a global, 2-hourly atmospheric precipitable water dataset from IGS ground-based GPS measurements</title>
+      <periodical number="83" pages="209-217">J. of Geodesy</periodical>
+      <doi>10.1007/s00190-008-0238-5</doi>
+   </reference>
+   <reference type="journal">
+      <authorList>Wang, J., L. Zhang, A. Dai, T. Van Hove, and J. Van Baelen</authorList>
+      <year>2007</year>
+      <title>A near-global, 8-year, 2-hourly atmospheric precipitable water dataset from ground-based GPS measurements</title>
+      <periodical number="112" pages="AGU:D11107">J. Geophys. Res.</periodical>
+      <doi>10.1029/2006JD007529</doi>
+   </reference>
+   <relatedResource url="https://www.eol.ucar.edu/field_projects/gps-pw">GPS PW</relatedResource>
+   <publicationDate>2011-11-01</publicationDate>
+   <contentMetadata>
+      <temporal start="1997" end="2005" groupID="GEONET"/>
+      <temporal start="1995" end="2012" groupID="IGS_SuomiNet"/>
+      <temporalFrequency type="regular" number="2" unit="hour"/>
+      <dataType>location</dataType>
+      <dataType>platform_observation</dataType>
+      <format>proprietary_ASCII</format>
+      <detailedVariables>
+         <detailedVariable>Ps: surface pressure (hPa)</detailedVariable>
+         <detailedVariable>zpd: zenith path delay /zenith tropospheric delay (mm)</detailedVariable>
+         <detailedVariable>zdd: zenith hydrostatic delay (mm)</detailedVariable>
+         <detailedVariable>zwd: zenith wet delay (mm)</detailedVariable>
+         <detailedVariable>Tm:  atmospheric weighted-mean temperature (K)</detailedVariable>
+         <detailedVariable>PW:  precipitable water (mm)</detailedVariable>
+      </detailedVariables>
+   </contentMetadata>
+</dsOverview>

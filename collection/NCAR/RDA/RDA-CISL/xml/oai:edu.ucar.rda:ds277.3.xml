@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="277.3"
+            type="primary">
+   <timeStamp value="2015-02-10 20:52:07 -0700"/>
+   <continuingUpdate value="yes" frequency="monthly"/>
+   <title>Hadley Centre Global Sea Ice and Sea Surface Temperature (HadISST)</title>
+   <summary>
+      <p>This dataset includes HadISST1 and HadSST2 from U.K. Hadley Centre.
+              HadISST1 is a unique combination of monthly globally-complete fields
+              of SST and sea ice concentration on a 1 degree latitude-longitude grid
+              from 1870 to date, and HadSST2 is a monthly global field of SST on a 5-degree
+              latitude-longitude grid from 1850 to date, neither interpolated
+              nor variance adjusted.</p>
+      <p>The data may also be obtained from the server at the <a href="http://www.hadobs.org/">
+              Hadley Centre</a> in the UK.</p>
+      <p>Go to <a href="http://cdp.ucar.edu/MergedHadleyOI">Merged Hadley - OI v2 SST and Sea Ice Concentration dataset</a> for a new surface boundary dataset for uncoupled simulations with the Community Atmosphere Model (CAM).</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="GB/MOD/MET/HADLEY &gt; Hadley Centre for Climate Prediction and Research, Met Office, Ministry of Defence, United Kingdom"
+                contact="Nick Rayner;Phillip Brohan"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Sea Ice &gt; Sea Ice Concentration</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Rayner, N. A., D. E. Parker, E. B. Horton, C. K. Folland, L. V. Alexander, D. P. Rowell, E. C. Kent, and A. Kaplan</authorList>
+      <year>2003</year>
+      <title>Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century</title>
+      <periodical number="108(14)" pages="2-1">J. Geophys. Res. (Atmospheres)</periodical>
+      <doi>10.1029/2002JD002670</doi>
+      <url>http://rda.ucar.edu/datasets/ds277.3/docs/HadISST1_paper.pdf</url>
+   </reference>
+   <reference type="journal">
+      <authorList>Rayner, N. A., P. Brohan, D. E. Parker, C. K. Folland, J. J. Kennedy, M. Vanicek, T. Ansell and S. F. B. Tett</authorList>
+      <year>2006</year>
+      <title>Improved analyses of changes and uncertainties in sea surface temperature measured in situ since the mid-nineteenth century: the HadSST2 data set</title>
+      <periodical number="19(3)" pages="446-469">J. of Climate</periodical>
+      <url>http://rda.ucar.edu/datasets/ds277.3/docs/HadSST2_paper.pdf</url>
+   </reference>
+   <relatedResource url="http://www.hadobs.org/">HADISST and other datasets from the Hadley Centre</relatedResource>
+   <relatedResource url="http://cdp.ucar.edu/MergedHadleyOI">Merged Hadley Centre (HADISST) and OI.v2 SST and Sea Ice from NCAR CDP</relatedResource>
+   <relatedDataset ID="540.0"/>
+   <relatedDataset ID="540.1"/>
+   <relatedDataset ID="277.0"/>
+   <publicationDate>2000-09-27</publicationDate>
+   <contentMetadata>
+      <temporal start="1870-01-16 12:00 +0000"
+                end="2015-08-16 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="360"
+               numY="180"
+               startLon="179.5W"
+               startLat="89.5N"
+               endLon="179.5E"
+               endLat="89.5S"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

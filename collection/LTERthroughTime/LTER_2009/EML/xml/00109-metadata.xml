@@ -1,0 +1,728 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.172.16" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="172" system="VCR">
+   <alternateIdentifier>VCR09164</alternateIdentifier>
+   <title>Bathymetry of Magothy Bay, VA 2007-2009</title>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>George</givenName>
+         <surName>Oertel</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University, Department of Oceanography</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23508</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4935</phone>
+      <phone phonetype="facsimile">(757) 683-5303</phone>
+      <electronicMailAddress>goertel@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">goertel</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2009-05-01</pubDate>
+   <abstract>
+  <para>This dataset contains the bathymetry for Magothy Bay, Virginia, a small coastal bay located between Smith Island and the mainland of the Delmarva Peninsula near the mouth of the Chesapeake Bay.</para>
+  <para>Methodology for collection is similar to that described in Gomez(2008) thesis (see network links).</para>
+  <para>Pixels are 10x10 meters and depths below Mean High Water are given in meters.</para>
+  <para>Coordinates are UTM WGS84, Zone 18N.</para>
+  <para>For adjustments to Mean sea level and other datums see the NOAA Benchmark Data Sheets (here is an excerpt for a near by benchmark):</para>
+  <para>Station ID: 8638863&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; PUBLICATION DATE:&#160; 10/30/2003</para>
+  <para> Name:&#160;&#160;&#160;&#160;&#160;&#160; CHESAPEAKE BAY BRIDGE TUNNEL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;</para>
+  <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; VIRGINIA</para>
+  <para> NOAA Chart: 12254&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Latitude:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 36&amp;#176; 58.0' N</para>
+  <para> USGS Quad:&#160; CAPE HENRY&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Longitude:&#160;&#160;&#160;&#160;&#160;&#160;&#160; 76&amp;#176;&#160; 6.8' W</para>
+  <para> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; T I D A L&#160;&#160; D A T U M S</para>
+  <para> Tidal datums at CHESAPEAKE BAY BRIDGE TUNNEL based on:</para>
+  <para>&#160;&#160;&#160;&#160; LENGTH OF SERIES:&#160;&#160;&#160;&#160;&#160; 19 YEARS</para>
+  <para> &#160;&#160;&#160;&#160; TIME PERIOD:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; January 1983 - December 2001</para>
+  <para> &#160;&#160;&#160;&#160; TIDAL EPOCH:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 1983-2001</para>
+  <para> &#160;&#160;&#160;&#160; CONTROL TIDE STATION:&#160; &#160;</para>
+  <para> Elevations of tidal datums referred to Mean Lower Low Water (MLLW), in METERS:</para>
+  <para>&#160;&#160;&#160;&#160; HIGHEST OBSERVED WATER LEVEL (02/05/1998)&#160;&#160;&#160; =&#160; 2.006</para>
+  <para> &#160;&#160;&#160;&#160; MEAN HIGHER HIGH WATER (MHHW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.884</para>
+  <para> &#160;&#160;&#160;&#160; MEAN HIGH WATER (MHW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.814</para>
+  <para> &#160;&#160;&#160;&#160; MEAN SEA LEVEL (MSL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.431</para>
+  <para> &#160;&#160;&#160;&#160; MEAN TIDE LEVEL (MTL)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.426</para>
+  <para> &#160;&#160;&#160;&#160; MEAN LOW WATER (MLW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.037</para>
+  <para> &#160;&#160;&#160;&#160; MEAN LOWER LOW WATER (MLLW)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; =&#160; 0.000</para>
+  <para> &#160;&#160;&#160;&#160; LOWEST&#160; OBSERVED WATER LEVEL (01/11/1978)&#160;&#160;&#160; = -0.895</para>
+  <para>In June 2013, positive (+) depth values were replaced with negative (-) elevation values for consistency with other VCR datasets.&#160; No datum adjustments of the tidal datum were performed.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Inorganic Nutrients</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">bathymetry</keyword>
+      <keyword keywordType="theme">water depth</keyword>
+   </keywordSet>
+   <additionalInfo>
+<section>
+<title>Relevant URLs</title>
+<para><orderedlist>
+<listitem><para>
+PDF figure showing the data) 
+URL=http://www.vcrlter.virginia.edu/DataImages/MagothyBayDEM_bw_2009.pdf
+</para></listitem>
+<listitem><para>Loreto Herraiz Gomez Thesis, 2008 describing data collection) 
+URL=http://amazon.evsc.virginia.edu/thesis/loretoherraizthesis.pdf
+</para></listitem>
+</orderedlist>
+</para>
+</section>
+
+   </additionalInfo>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>MAGOTHYBAY - Magothy Bay, between Smith Island and the Delmarva Peninsula</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.91964721679688</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.91964721679688</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.14634971813868</northBoundingCoordinate>
+            <southBoundingCoordinate>37.14634971813868</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>2007-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2009-05-01</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>George</givenName>
+         <surName>Oertel</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Old Dominion University, Department of Oceanography</deliveryPoint>
+         <city>Norfolk</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23508</postalCode>
+      </address>
+      <phone phonetype="voice">(757) 683-4935</phone>
+      <phone phonetype="facsimile">(757) 683-5303</phone>
+      <electronicMailAddress>goertel@odu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">goertel</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para>Data was obtained using a GPS for horizontal reference and a digital depth sounder.</para>
+         </description>
+      </methodStep>
+   </methods>
+   <otherEntity>
+      <entityName>VCR09164</entityName>
+      <entityDescription>
+The digital elevation model data is available in three formats: Erdas Imagine Image format (.img)(default download), GeoTIFF (.tif) and ESRI GRID. The latter two formats include multiple files and so are stored in .zip files.
+
+
+      </entityDescription>
+      <physical>
+         <objectName>mhwdem_0501091.img</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>Esoteric</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.172.16&amp;urlHeadID=2&amp;urlTail=1/VCR09164/VCR09164/mhwdem_0501091.img</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>mhwdem_05010911_tiff.zip</entityName>
+      <entityDescription>
+Zip file contains data in TIFF format along with supporting files.
+      </entityDescription>
+      <physical>
+         <objectName>mhwdem_05010911_tiff.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.172.16&amp;urlHeadID=2&amp;urlTail=2/VCR09164/mhwdem_05010911_tiff.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+   <otherEntity>
+      <entityName>MHWDEM_050109_GRID.zip</entityName>
+      <entityDescription>
+ArcGIS "grid" files 
+      </entityDescription>
+      <physical>
+         <objectName>MHWDEM_050109_GRID.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.172.16&amp;urlHeadID=2&amp;urlTail=3/VCR09164/MHWDEM_050109_GRID.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>authenticated</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+      <spatialRaster id="mhwdem_0501091.img">
+         <alternateIdentifier>VCR09164-4</alternateIdentifier>
+         <entityName>mhwdem_0501091</entityName>
+         <entityDescription>    This dataset contains the bathymetry for Magothy Bay, Virginia, a small coastal bay located between Smith Island and the mainland of the Delmarva Peninsula near the mouth of the Chesapeake Bay.      Methodology for collection is similar to that described in Gomez(2008) thesis (see network links).      Pixels are 10x10 meters and depths below Mean High Water are given in meters.      Coordinates are UTM WGS84, Zone 18N.&#160;      For adjustments to Mean sea level and other datums see the NOAA Benchmark Data Sheets (here is an excerpt for a nearby benchmark):      Station ID: 8638863 PUBLICATION DATE: 10/30/2003       Name: CHESAPEAKE BAY BRIDGE TUNNEL VIRGINIA       NOAA Chart: 12254 Latitude: 36&#176; 58.0' N USGS Quad: CAPE HENRY Longitude: 76&#176; 6.8' W       T I D A L D A T U M S       Tidal datums at CHESAPEAKE BAY BRIDGE TUNNEL based on: LENGTH OF SERIES: 19 YEARS TIME PERIOD: January 1983 - December 2001 TIDAL EPOCH: 1983-2001 CONTROL TIDE STATION: Elevations of tidal datums referred to Mean Lower Low Water (MLLW), in METE\ RS: HIGHEST OBSERVED WATER LEVEL (02/05/1998) = 2.006 MEAN HIGHER HIGH WATER (MHHW) = 0.884 MEAN HIGH WATER (MHW) = 0.814 MEAN SEA LEVEL (MSL) = 0.431 MEAN TIDE LEVEL (MTL) = 0.426 MEAN LOW WATER (MLW) = 0.037 MEAN LOWER LOW WATER (MLLW) = 0.000 LOWEST OBSERVED WATER LEVEL (01/11/1978) = -0.895       In June 2013, positive (+) depth values were replaced with negative (-) elevation values for consistency with other VCR datasets. No datum adjustments of the tidal datum were performed.         </entityDescription>
+         <physical>
+            <objectName>mhwdem_0501091_img.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with Erdas IMAGINE Image file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.172.16&amp;urlHeadID=2&amp;urlTail=4/VCR09164/mhwdem_0501091_img.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>authenticated</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Magothy Bay, VA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.951754</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.883492</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.207350</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.112103</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Layer_1</attributeName>
+               <attributeDefinition>Bathymetry of Magothy Bay, VA 2007-2009</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-25.533747</minimum>
+                           <maximum exclusive="false">-0.280000</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>415545.565576</xCoordinate>
+               <yCoordinate>4107731.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>415545.565576</xCoordinate>
+               <yCoordinate>4118241.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>421505.565576</xCoordinate>
+               <yCoordinate>4118241.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>421505.565576</xCoordinate>
+               <yCoordinate>4107731.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>10.000000</cellSizeXDirection>
+         <cellSizeYDirection>10.000000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1051</rows>
+         <columns>596</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="mhwdem_05010911.tif">
+         <alternateIdentifier>VCR09164-5</alternateIdentifier>
+         <entityName>mhwdem_05010911</entityName>
+         <entityDescription>    This dataset contains the bathymetry for Magothy Bay, Virginia, a small coastal bay located between Smith Island and the mainland of the Delmarva Peninsula near the mouth of the Chesapeake Bay.      Methodology for collection is similar to that described in Gomez(2008) thesis (see network links).      Pixels are 10x10 meters and depths below Mean High Water are given in meters.      Coordinates are UTM WGS84, Zone 18N.&#160;      For adjustments to Mean sea level and other datums see the NOAA Benchmark Data Sheets (here is an excerpt for a nearby benchmark):      Station ID: 8638863 PUBLICATION DATE: 10/30/2003       Name: CHESAPEAKE BAY BRIDGE TUNNEL VIRGINIA       NOAA Chart: 12254 Latitude: 36&#176; 58.0' N USGS Quad: CAPE HENRY Longitude: 76&#176; 6.8' W       T I D A L D A T U M S       Tidal datums at CHESAPEAKE BAY BRIDGE TUNNEL based on: LENGTH OF SERIES: 19 YEARS TIME PERIOD: January 1983 - December 2001 TIDAL EPOCH: 1983-2001 CONTROL TIDE STATION: Elevations of tidal datums referred to Mean Lower Low Water (MLLW), in METE\ RS: HIGHEST OBSERVED WATER LEVEL (02/05/1998) = 2.006 MEAN HIGHER HIGH WATER (MHHW) = 0.884 MEAN HIGH WATER (MHW) = 0.814 MEAN SEA LEVEL (MSL) = 0.431 MEAN TIDE LEVEL (MTL) = 0.426 MEAN LOW WATER (MLW) = 0.037 MEAN LOWER LOW WATER (MLLW) = 0.000 LOWEST OBSERVED WATER LEVEL (01/11/1978) = -0.895       In June 2013, positive (+) depth values were replaced with negative (-) elevation values for consistency with other VCR datasets. No datum adjustments of the tidal datum were performed.         </entityDescription>
+         <physical>
+            <objectName>mhwdem_05010911_tiff.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with TIFF or GeoTIFF raster file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.172.16&amp;urlHeadID=2&amp;urlTail=5/VCR09164/mhwdem_05010911_tiff.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>authenticated</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Magothy Bay, VA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.951754</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.883492</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.207350</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.112103</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>Bathymetry of Magothy Bay, VA 2007-2009</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-25.533747</minimum>
+                           <maximum exclusive="false">-0.280000</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028231e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>415545.565576</xCoordinate>
+               <yCoordinate>4107731.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>415545.565576</xCoordinate>
+               <yCoordinate>4118241.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>421505.565576</xCoordinate>
+               <yCoordinate>4118241.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>421505.565576</xCoordinate>
+               <yCoordinate>4107731.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>10.000000</cellSizeXDirection>
+         <cellSizeYDirection>10.000000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1051</rows>
+         <columns>596</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialRaster id="mhwdem_050109">
+         <alternateIdentifier>VCR09164-6</alternateIdentifier>
+         <entityName>mhwdem_050109</entityName>
+         <entityDescription>    This dataset contains the bathymetry for Magothy Bay, Virginia, a small coastal bay located between Smith Island and the mainland of the Delmarva Peninsula near the mouth of the Chesapeake Bay.      Methodology for collection is similar to that described in Gomez(2008) thesis (see network links).      Pixels are 10x10 meters and depths below Mean High Water are given in meters.      Coordinates are UTM WGS84, Zone 18N.&#160;      For adjustments to Mean sea level and other datums see the NOAA Benchmark Data Sheets (here is an excerpt for a nearby benchmark):      Station ID: 8638863 PUBLICATION DATE: 10/30/2003       Name: CHESAPEAKE BAY BRIDGE TUNNEL VIRGINIA       NOAA Chart: 12254 Latitude: 36&#176; 58.0' N USGS Quad: CAPE HENRY Longitude: 76&#176; 6.8' W       T I D A L D A T U M S       Tidal datums at CHESAPEAKE BAY BRIDGE TUNNEL based on: LENGTH OF SERIES: 19 YEARS TIME PERIOD: January 1983 - December 2001 TIDAL EPOCH: 1983-2001 CONTROL TIDE STATION: Elevations of tidal datums referred to Mean Lower Low Water (MLLW), in METE\ RS: HIGHEST OBSERVED WATER LEVEL (02/05/1998) = 2.006 MEAN HIGHER HIGH WATER (MHHW) = 0.884 MEAN HIGH WATER (MHW) = 0.814 MEAN SEA LEVEL (MSL) = 0.431 MEAN TIDE LEVEL (MTL) = 0.426 MEAN LOW WATER (MLW) = 0.037 MEAN LOWER LOW WATER (MLLW) = 0.000 LOWEST OBSERVED WATER LEVEL (01/11/1978) = -0.895       In June 2013, positive (+) depth values were replaced with negative (-) elevation values for consistency          </entityDescription>
+         <physical>
+            <objectName>MHWDEM_050109_GRID.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with gridded (raster) ARC/INFO GRID dataset </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.172.16&amp;urlHeadID=2&amp;urlTail=6/VCR09164/MHWDEM_050109_GRID.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>authenticated</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Magothy Bay, VA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-75.951754</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.883492</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.207350</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.112103</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Band_1</attributeName>
+               <attributeDefinition>Bathymetry of Magothy Bay, VA 2007-2009</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-25.533747</minimum>
+                           <maximum exclusive="false">-0.280000</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028235e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>415545.565576</xCoordinate>
+               <yCoordinate>4107731.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>415545.565576</xCoordinate>
+               <yCoordinate>4118241.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>421505.565576</xCoordinate>
+               <yCoordinate>4118241.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>421505.565576</xCoordinate>
+               <yCoordinate>4107731.190000</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>10.000000</cellSizeXDirection>
+         <cellSizeYDirection>10.000000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>1051</rows>
+         <columns>596</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-78</weight>
+         <featuredDataGroup>Lagoons</featuredDataGroup>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</eml:eml>

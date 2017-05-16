@@ -1,0 +1,2054 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.2008.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+<principal>uid=MCM,o=lter,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataset>
+<shortName>avglstk</shortName>
+<title>Average Glacier Stake Heights and Snow Depths</title>
+<creator>
+        <individualName>
+            <givenName>Andrew</givenName>
+            <givenName>G.</givenName>
+            <surName>Fountain</surName>
+        </individualName>
+        <address>
+            <deliveryPoint>  Department of Geology</deliveryPoint>
+            <deliveryPoint> 17 Cramer Hall</deliveryPoint>
+            <deliveryPoint> 1721 SW Broadway</deliveryPoint>
+            <deliveryPoint>   Portland State University </deliveryPoint>
+            <city>Portland</city>
+            <administrativeArea>OR</administrativeArea>
+            <postalCode> 97207-0751
+            </postalCode>
+            <country>USA</country>
+        </address>
+        <phone phonetype="voice">(503)725-3022</phone>
+        <electronicMailAddress>fountaina@pdx.edu</electronicMailAddress>
+    </creator>
+<metadataProvider>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+</metadataProvider>
+<associatedParty>
+        <individualName>
+            <givenName>Hassan</givenName>
+            <surName>Basagic</surName>
+        </individualName>
+        <address>
+            <deliveryPoint> Department of Geology</deliveryPoint>
+            <deliveryPoint>   Portland State University </deliveryPoint>
+            <city>Portland</city>
+            <administrativeArea>OR</administrativeArea>
+            <postalCode> 97207-0751
+            </postalCode>
+            <country>USA</country>
+        </address>
+        <electronicMailAddress>basagic@pdx.edu</electronicMailAddress>
+        <role>Associated Researcher</role>
+</associatedParty>
+<abstract>
+<section>
+<para> As part of the Long Term Ecological Research (LTER) project in the McMurdo
+        Dry Valleys of Antarctica, a systematic sampling program has been undertaken to monitor 
+        mass balance and meltwater flow from the Taylor Valley glaciers. This data includes stake 
+        height and snow depth measurements to the surface of six glaciers in Taylor Valley, 
+        McMurdo Dry Valleys, Antarctica. Monitoring the changes in these measurements over time 
+        provides a record of mass balance, and aids in determining the role of glaciers in the polar 
+        hydrologic cycle.
+</para>
+</section>
+</abstract>
+<keywordSet>
+<keyword keywordType="theme"> glacier</keyword>
+<keyword keywordType="theme"> snow depth</keyword>
+<keyword keywordType="theme"> Antarctica</keyword>
+<keyword keywordType="theme"> McMurdo Dry Valleys</keyword>
+<keyword keywordType="theme"> dry valleys</keyword>
+<keyword keywordType="theme"> mass balance</keyword>
+<keyword keywordType="theme"> stake height</keyword>
+<keyword keywordType="place">McMurdo Dry Valleys</keyword>
+<keyword keywordType="theme">MCM</keyword>
+</keywordSet>
+<additionalInfo>
+    <section>
+        <title>A Note about measurement timing</title>
+        <para>
+            <literalLayout> The goal of each summer season is to take measurements in early spring (Oct/Nov) and
+                late summer (late January). This provides a measure of seasonal winter/summer changes of glacier mass.
+                In some circumstances we have the opportunity or need to measure the glaciers in mid-season (Dec). 
+                View the dates the measurements were made at the following URL: http://www.mcmlter.org/data/glaciers/timing/stkdates.pdf
+            </literalLayout>
+        </para>
+    </section>
+         <section>
+            <title>A Note about the SURFACE variable</title>
+            <para>
+                <literalLayout> The surface is either snow or ice. Sometimes a thin layer of snow (~a few crystals thick) is referred to as
+                    trace or dusting.
+                </literalLayout>
+            </para>
+         </section>
+    <section>
+        <title>A Note about Stake names</title>
+        <para>
+            <literalLayout> A stake with an H or V indicates a stake along the ice cliff that forms the boundary of the 
+                glacier terminus. An H is a horizontal stake placed into the vertical wall of the glacier terminus, and V 
+                is a stake placed into the ice apron at the base of the ice cliff. The vertical stakes were installed to 
+                support the horizontal stakes and provide a nearby measure of ablation for a surface with a much 
+                different slope.
+            </literalLayout>
+        </para>
+    </section>
+        <section>
+            <title>Additional Notes</title>
+            <para>
+                <literalLayout> Data contained in these files has been subjected to quality control standards
+                    imposed by the investigator. The user of this data should be aware that, while efforts have
+                    been taken to ensure that these data are of the highest quality, there is no guarantee of
+                    perfection for the data contained herein and the possibility of errors exists. If you
+                    encounter questionable data, please contact the MCM LTER data manager so that the 
+                    data can be corrected or qualified. Thus, these data may be modified
+                    and future data will be appended.</literalLayout>
+            </para>
+        </section>
+</additionalInfo>
+<intellectualRights>
+<section>
+<title>MCM LTER data may be used freely with the following restrictions:</title>
+<para>
+<itemizedlist>
+<listitem>
+<para>
+<literalLayout>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions. </literalLayout>
+</para>
+</listitem>
+<listitem>
+<para>
+<literalLayout>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications.</literalLayout>
+</para>
+</listitem>
+<listitem>
+<para>
+<literalLayout>A copy of any resultant publications should be sent to the McMurdo data manager and principal investigator.</literalLayout>
+</para>
+</listitem>
+<listitem>
+<para>
+<literalLayout>The end-user follow the guidelines set forth in the LTER Network Data Access Policy, Data Access Requirements, and General Data Use Agreement found at http://www.mcmlter.org/data_guidelines.htm</literalLayout>
+</para>
+</listitem>
+</itemizedlist>
+</para>
+</section>
+</intellectualRights>
+<distribution>
+        <online>
+            <connectionDefinition>
+                <schemeName>http://www.mcmlter.org/queries/glacier_results.jsp</schemeName>
+                <description>
+                    <para>
+                        <literalLayout> You can build your own query for to retrieve Average Glacier Stake Heights and Snow Depths for all glaciers using the URL
+                            http://www.mcmlter.org/queries/glacier_results.jsp and the described parameters below, or you can just
+                            visit the URL http://www.mcmlter.org/queries/glacier_queries.jsp and simply use the online form to build your
+                            own glacier query for all the availabe glaciers and parameters (ie. average stake height, stake height,  snow depth,
+                            snow and ice mass changes, snow density, mass balance summary). Using the form is the easiest method. </literalLayout>
+                    </para>
+                    <para>
+                        <literalLayout> Here is an example to query for Average Glacier Stake Heights and Snow Depths from December 1998 to
+                            January 2000 on Taylor Glacier:
+                            http://www.mcmlter.org/queries/glacier_results.jsp?begDate=12/01/1998&amp;endDate=01/01/2000&amp;metStation=TAY&amp;dataType=AVGLSTK
+                        </literalLayout>
+                    </para>
+                    <para>
+                        <literalLayout>variable (dataType) abbreviations for glacier data:</literalLayout>
+                    </para>
+                    <para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>
+                                    <literalLayout>AVGLSTK (Average Stake Height)</literalLayout>
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    <literalLayout>GLSNDPT (Snow Depths)</literalLayout>
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    <literalLayout>GLSTKHT (Stake Heights)</literalLayout>
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    <literalLayout>MSCHNG (Snow and Ice Mass Changes)</literalLayout>
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    <literalLayout>SNWDNS (Snow Densities)</literalLayout>
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    <literalLayout>WEQ (Mass Balance Summary)</literalLayout>
+                                </para>
+                            </listitem>
+                        </itemizedlist>
+                    </para>
+                </description>
+                <parameterDefinition>
+                    <name>begDate</name>
+                    <definition>Desired begin date for the data, use format MM/DD/YYYY</definition>
+                </parameterDefinition>
+                <parameterDefinition>
+                    <name>endDate</name>
+                    <definition>Desired End Date for the data query</definition>
+                </parameterDefinition>
+                <parameterDefinition>
+                    <name>metStation</name>
+                    <definition>This is the shorthand code for the name of the glacier, as follows: Canada=CAN, Commonwealth=COM, Howard=HOW, Hughes=HUGH, 
+                        Suess=SUES, Taylor=TAY</definition>
+                </parameterDefinition>
+                <parameterDefinition>
+                    <name>dataType</name>
+                    <definition>variable abbreviation for the parameter of interest, such as snow and ice mass changes, or mass balance summaries. 
+                        For a list of the used abbreviations, see the abbreviation section above</definition>
+                </parameterDefinition>
+            </connectionDefinition>
+        </online>
+</distribution>
+<coverage>
+<geographicCoverage>
+    <geographicDescription> Data was collected from the Canada, Commonwealth, Howard, Hughes, Suess and 
+        Taylor glaciers, located in the Taylor Valley of Antarctica. Specific latitudes, longitudes, and elevations of the 
+        stakes from which information was gathered can be found in the  glacier stake locations file.
+</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>162</westBoundingCoordinate>
+<eastBoundingCoordinate>163.6</eastBoundingCoordinate>
+<northBoundingCoordinate>-77.2</northBoundingCoordinate>
+<southBoundingCoordinate>-77.8</southBoundingCoordinate>
+<boundingAltitudes>
+<altitudeMinimum>0</altitudeMinimum>
+<altitudeMaximum>2000</altitudeMaximum>
+<altitudeUnits>meter</altitudeUnits>
+</boundingAltitudes>
+</boundingCoordinates>
+</geographicCoverage>
+    <temporalCoverage>
+        <rangeOfDates>
+            <beginDate>
+                <calendarDate>1993</calendarDate>
+            </beginDate>
+            <endDate>
+                <calendarDate>2013</calendarDate>
+            </endDate>
+        </rangeOfDates>
+    </temporalCoverage>
+</coverage>
+<maintenance>
+        <description>
+            <section>
+                <para>
+                    <literalLayout>
+                        Data for the original stake height and snow depth measurements, as well as the averages and standard deviations was 
+                        submitted by Andrew G. Fountain to the data manager in August, 1997. The column showing "file name" identifies the 
+                        original file containing that record. These are ascii text files and can be found on the PC in the McMurdo LTER data manager's
+                        office at INSTAAR.
+                        
+                        Once submitted to INSTAAR, the data manager used Microsoft Excel and Access software to produce files that were in more 
+                        of a relational mode. Information was assigned to different files according to type of data it dealt with. Separate files were generated for:
+                        
+                        * stake height replications,
+                        * snow depth replications, and
+                        * averages/standard deviations calculated from stake height and snow depth replications.
+                        
+                        In March, 2000, Thomas Nylen submitted data from the 1997-98, 1998-99 and 1999-2000 seasons. Instead of lumping all of the stake 
+                        height and snow depth values for each glacier under one file, they were separated into files for each glacier. Metadata fields were also 
+                        updated at this time.
+                        
+                        In April, 2000, Denise Steigerwald added fields for dataset code and glstkid. Dataset code would allow the data to be linked to the 
+                        metadata in a relational database. Glstkid is a code that ties stake records to points on a GIS base map being developed by Michael 
+                        Prentice at the University of New Hampshire.
+                        
+                        In addition, Denise divided the 'stake' field to 'stake' and 'stk replcmnt' values. The 'stake' value is an ID for a stake in a given location 
+                        over time, while the 'stk replcmnt' value shows whether the stake is the original (A), the first replacement stake installed (B), the second 
+                        stake installed (C), and so forth. (Melting on the glacier over time makes installation of replacement stakes necessary.) Since the 
+                        replacement value is only relevant for the stake heights and snow depths datasets, division of the 'stake' value into separate fields 
+                        made it more straightforward for grouping data across different datasets (eg. stake heights and snow densities).
+                    </literalLayout>
+                </para>
+            </section>
+        </description>
+</maintenance>
+<contact>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+</contact>
+<publisher>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+</publisher>
+<methods>
+<methodStep>
+<description>
+<para>
+    <literalLayout>Stakes were drilled into the snow and ice. Measurements are taken from the top of the 
+        stake to a round board that sits on the surface. The board, about 25 cm in diameter, is needed to 
+        average the surface height over a larger area because local roughness, especially on ice surfaces, 
+        can overwhelm the change in height since the last measurement. Roughness typically results from 
+        an "ablation well" around the stake, caused by enhanced solar absorption and subsequent longwave
+        radiation from the stake. Measurements against the stake became meaningless. Methodology 
+        evolved to taking 4 replicated measurements at each stake. Height to the surface was then calculated
+        from the sum of the distance from the top of the stake to the board, the board thickness, and subtracting 
+        the depression of the board into the snow.
+        
+        If snow covered the ice surface, the snow depth was also measured. Procedures evolved to acquiring 
+        4 - 8 replications around each stake. Typically, the final value of snow depth was the average of all
+        measurements. In some cases, values were discarded because measurements were taken in hidden 
+        holes in the ice surface. Snow depth is important to record because the ice surface could have ablated 
+        prior to a snowfall. Therefore, to assess the mass balance at that stake, both ice surface change and 
+        snow depth is required. 
+</literalLayout>
+</para>
+</description>
+</methodStep>
+</methods>
+<dataTable> 
+    <entityName>COM_AVGLSTK_Units_and_Column_Descriptions</entityName>
+<physical>
+    <objectName>COM_AVGLSTK_Units_and_Column_Descriptions</objectName>
+<dataFormat>
+<textFormat>
+<numHeaderLines>27</numHeaderLines>
+<numFooterLines>1</numFooterLines>
+<recordDelimiter>\n</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+<quoteCharacter>"</quoteCharacter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+    <distribution>
+       <online>
+            <url function="download">http://mcmlter.org/queries/glacier_results.jsp?begDate=10/01/1900&amp;endDate=04/01/2500&amp;metStation=COM&amp;dataType=AVGLSTK</url>
+        </online>
+</distribution>
+</physical>
+<attributeList>
+<attribute>
+<attributeName>DATASET CODE</attributeName>
+    <attributeDefinition>Code representing average stake heights, snow depths dataset</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Code representing average stake heights, snow depths dataset - COMAVGLSTK</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute>
+<attributeName>GLACIER</attributeName>
+<attributeDefinition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE. Commonwealth</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute>
+<attributeName>STAKE</attributeName>
+<attributeDefinition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+    <attribute>
+        <attributeName>STAKE_REPLCMNT</attributeName>
+        <attributeDefinition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+<attribute>
+<attributeName>DATE_TIME</attributeName>
+<attributeDefinition>DATE OF DATA MEASUREMENT</attributeDefinition>
+<storageType typeSystem="DATE" />
+<measurementScale>
+<dateTime>
+<formatString>MM/DD/YYYY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute>
+<attributeName>SURFACE</attributeName>
+    <attributeDefinition>Surface material to which measurement is made</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Surface material to which measurement is made</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+    <code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>SNOW_DEPTH_AVG</attributeName>
+    <attributeDefinition>Average depth of snow covering ice (calculated from 1-8 replications)</attributeDefinition>
+<storageType typeSystem="NUMBER" />
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>centimeter</standardUnit>
+</unit>
+    <precision>0.1</precision>
+<numericDomain>
+<numberType>real</numberType>
+    <bounds>
+        <minimum exclusive="false">0</minimum>
+        <maximum exclusive="false">200</maximum>
+    </bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+    <attribute>
+        <attributeName>SNOW_DEPTH_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured snow depths (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>  
+    <attribute>
+        <attributeName>SNOW_DEPTH_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding snow depth measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding snow depth measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_AVG</attributeName>
+        <attributeDefinition>Average distance from top of stake to the glacier surface (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">400</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured stake heights (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>ST_HT_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding stake height measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding stake height measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>GLSTKID</attributeName>
+        <attributeDefinition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+    </attribute>
+    <attribute>
+        <attributeName>FILE NAME</attributeName>
+        <attributeDefinition>RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>RAW DATA FILE CONTAINING INFORMATION</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+</attributeList>
+</dataTable>
+
+<dataTable> 
+    <entityName>HOW_AVGLSTK_Units_and_Column_Descriptions</entityName>
+<physical>
+    <objectName>HOW_AVGLSTK_Units_and_Column_Descriptions</objectName>
+<dataFormat>
+<textFormat>
+<numHeaderLines>27</numHeaderLines>
+<numFooterLines>1</numFooterLines>
+<recordDelimiter>\n</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+<quoteCharacter>"</quoteCharacter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+    <distribution>
+<online>
+<url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/1193&amp;endDate=04/01/2994&amp;metStation=HOW&amp;dataType=AVGLSTK</url>
+   </online>
+</distribution>
+</physical>
+<attributeList>
+<attribute>
+<attributeName>DATASET CODE</attributeName>
+    <attributeDefinition>Code representing average stake heights, snow depths dataset  </attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Code representing average stake heights, snow depths dataset -HOWAVGLSTK </definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>GLACIER</attributeName>
+<attributeDefinition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE - Howard</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE- Howard </definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>STAKE</attributeName>
+<attributeDefinition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+    <attribute>
+        <attributeName>STAKE_REPLCMNT</attributeName>
+        <attributeDefinition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+<attribute>
+<attributeName>DATE_TIME</attributeName>
+<attributeDefinition>DATE OF DATA MEASUREMENT</attributeDefinition>
+<storageType typeSystem="DATE" />
+<measurementScale>
+<dateTime>
+<formatString>MM/DD/YYYY</formatString>
+</dateTime>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>SURFACE</attributeName>
+    <attributeDefinition>Surface material to which measurement is made</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Surface material to which measurement is made</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+    <code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>SNOW_DEPTH_AVG</attributeName>
+    <attributeDefinition>Average depth of snow covering ice (calculated from 1-8 replications)</attributeDefinition>
+<storageType typeSystem="NUMBER" />
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>centimeter</standardUnit>
+</unit>
+    <precision>0.1</precision>
+<numericDomain>
+<numberType>real</numberType>
+    <bounds>
+        <minimum exclusive="false">0</minimum>
+        <maximum exclusive="false">200</maximum>
+    </bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+    <attribute>
+        <attributeName>SNOW_DEPTH_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured snow depths (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>  
+    <attribute>
+        <attributeName>SNOW_DEPTH_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding snow depth measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding snow depth measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_AVG</attributeName>
+        <attributeDefinition>Average distance from top of stake to the glacier surface (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">400</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured stake heights (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>ST_HT_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding stake height measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding stake height measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>GLSTKID</attributeName>
+        <attributeDefinition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+    </attribute>
+    <attribute>
+        <attributeName>FILE NAME</attributeName>
+        <attributeDefinition>RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>RAW DATA FILE CONTAINING INFORMATION</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+</attributeList>
+</dataTable>
+
+<dataTable> 
+    <entityName>SUES_AVGLSTK_Units_and_Column_Descriptions</entityName>
+<physical>
+    <objectName>SUES_AVGLSTK_Units_and_Column_Descriptions</objectName>
+<dataFormat>
+<textFormat>
+<numHeaderLines>27</numHeaderLines>
+<numFooterLines>1</numFooterLines>
+<recordDelimiter>\n</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+<quoteCharacter>"</quoteCharacter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+    <distribution>
+<online>
+	<url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/1294&amp;endDate=04/01/2995&amp;metStation=SUES&amp;dataType=AVGLSTK</url>
+     </online>
+</distribution>
+</physical>
+<attributeList>
+<attribute>
+<attributeName>DATASET CODE</attributeName>
+    <attributeDefinition>Code representing average stake heights, snow depths dataset</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Code representing average stake heights, snow depths dataset - SUESAVGLSTK</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>GLACIER</attributeName>
+<attributeDefinition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE - Suess</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>STAKE</attributeName>
+<attributeDefinition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+    <attribute>
+        <attributeName>STAKE_REPLCMNT</attributeName>
+        <attributeDefinition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+<attribute>
+<attributeName>DATE_TIME</attributeName>
+<attributeDefinition>DATE OF DATA MEASUREMENT</attributeDefinition>
+<storageType typeSystem="DATE" />
+<measurementScale>
+<dateTime>
+<formatString>MM/DD/YYYY</formatString>
+</dateTime>
+</measurementScale>
+<missingValueCode>
+<code>REQUIRED ENTRY</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>SURFACE</attributeName>
+    <attributeDefinition>Surface material to which measurement is made</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Surface material to which measurement is made</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+    <code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>SNOW_DEPTH_AVG</attributeName>
+    <attributeDefinition>Average depth of snow covering ice (calculated from 1-8 replications)</attributeDefinition>
+<storageType typeSystem="NUMBER" />
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>centimeter</standardUnit>
+</unit>
+    <precision>0.1</precision>
+<numericDomain>
+<numberType>real</numberType>
+    <bounds>
+        <minimum exclusive="false">0</minimum>
+        <maximum exclusive="false">200</maximum>
+    </bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+    <attribute>
+        <attributeName>SNOW_DEPTH_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured snow depths (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>  
+    <attribute>
+        <attributeName>SNOW_DEPTH_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding snow depth measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding snow depth measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_AVG</attributeName>
+        <attributeDefinition>Average distance from top of stake to the glacier surface (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">400</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured stake heights (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>ST_HT_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding stake height measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding stake height measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>GLSTKID</attributeName>
+        <attributeDefinition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        
+    </attribute>
+    <attribute>
+        <attributeName>FILE NAME</attributeName>
+        <attributeDefinition>RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>RAW DATA FILE CONTAINING INFORMATION</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+</attributeList>
+</dataTable>
+
+<dataTable> 
+    <entityName>CAN_AVGLSTKUnits_and_Column_Descriptions</entityName>
+<physical>
+    <objectName>CAN_AVGLSTKUnits_and_Column_Descriptions</objectName>
+<dataFormat>
+<textFormat>
+<numHeaderLines>27</numHeaderLines>
+<numFooterLines>1</numFooterLines>
+<recordDelimiter>\n</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+<quoteCharacter>"</quoteCharacter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+    <distribution>
+<online>
+  <url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/1493&amp;endDate=04/01/2994&amp;metStation=CAN&amp;dataType=AVGLSTK</url>
+        </online>
+</distribution>
+</physical>
+<attributeList>
+<attribute>
+<attributeName>DATASET CODE</attributeName>
+    <attributeDefinition>Code representing average stake heights, snow depths dataset</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Code representing average stake heights, snow depths dataset CANAVGLSTK</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>GLACIER</attributeName>
+<attributeDefinition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE - Canada</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>STAKE</attributeName>
+<attributeDefinition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+    <attribute>
+        <attributeName>STAKE_REPLCMNT</attributeName>
+        <attributeDefinition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+<attribute>
+<attributeName>DATE_TIME</attributeName>
+<attributeDefinition>DATE OF DATA MEASUREMENT</attributeDefinition>
+<storageType typeSystem="DATE" />
+<measurementScale>
+<dateTime>
+<formatString>MM/DD/YYYY</formatString>
+</dateTime>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>SURFACE</attributeName>
+    <attributeDefinition>Surface material to which measurement is made</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Surface material to which measurement is made</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+    <code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>SNOW_DEPTH_AVG</attributeName>
+    <attributeDefinition>Average depth of snow covering ice (calculated from 1-8 replications)</attributeDefinition>
+<storageType typeSystem="NUMBER" />
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>centimeter</standardUnit>
+</unit>
+    <precision>0.1</precision>
+<numericDomain>
+<numberType>real</numberType>
+    <bounds>
+        <minimum exclusive="false">0</minimum>
+        <maximum exclusive="false">200</maximum>
+    </bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+    <attribute>
+        <attributeName>SNOW_DEPTH_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured snow depths (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>  
+    <attribute>
+        <attributeName>SNOW_DEPTH_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding snow depth measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding snow depth measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_AVG</attributeName>
+        <attributeDefinition>Average distance from top of stake to the glacier surface (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">400</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured stake heights (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>ST_HT_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding stake height measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding stake height measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>GLSTKID</attributeName>
+        <attributeDefinition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+
+    </attribute>
+    <attribute>
+        <attributeName>FILE NAME</attributeName>
+        <attributeDefinition>RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>RAW DATA FILE CONTAINING INFORMATION</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+</attributeList>
+</dataTable>
+
+<dataTable> 
+    <entityName>Hugh_AVGLSTKUnits_and_Column_Descriptions</entityName>
+<physical>
+    <objectName>HUGH_AVGLSTKUnits_and_Column_Descriptions</objectName>
+<dataFormat>
+<textFormat>
+<numHeaderLines>27</numHeaderLines>
+<numFooterLines>1</numFooterLines>
+<recordDelimiter>\n</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+<quoteCharacter>"</quoteCharacter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+    <distribution>
+<online>
+  <url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/999&amp;endDate=04/01/3000&amp;metStation=HUGH&amp;dataType=AVGLSTK</url>
+        </online>
+</distribution>
+</physical>
+<attributeList>
+<attribute>
+<attributeName>DATASET CODE</attributeName>
+    <attributeDefinition>Code representing average stake heights, snow depths dataset</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Code representing average stake heights, snow depths dataset HUGHAVGLSTK</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>GLACIER</attributeName>
+<attributeDefinition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE Hughes</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>STAKE</attributeName>
+<attributeDefinition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+    <attribute>
+        <attributeName>STAKE_REPLCMNT</attributeName>
+        <attributeDefinition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+<attribute>
+<attributeName>DATE_TIME</attributeName>
+<attributeDefinition>DATE OF DATA MEASUREMENT</attributeDefinition>
+<storageType typeSystem="DATE" />
+<measurementScale>
+<dateTime>
+<formatString>MM/DD/YYYY</formatString>
+</dateTime>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>SURFACE</attributeName>
+    <attributeDefinition>Surface material to which measurement is made</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Surface material to which measurement is made</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+    <code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>SNOW_DEPTH_AVG</attributeName>
+    <attributeDefinition>Average depth of snow covering ice (calculated from 1-8 replications)</attributeDefinition>
+<storageType typeSystem="NUMBER" />
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>centimeter</standardUnit>
+</unit>
+    <precision>0.1</precision>
+<numericDomain>
+<numberType>real</numberType>
+    <bounds>
+        <minimum exclusive="false">0</minimum>
+        <maximum exclusive="false">200</maximum>
+    </bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+    <attribute>
+        <attributeName>SNOW_DEPTH_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured snow depths (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>  
+    <attribute>
+        <attributeName>SNOW_DEPTH_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding snow depth measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding snow depth measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_AVG</attributeName>
+        <attributeDefinition>Average distance from top of stake to the glacier surface (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">400</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured stake heights (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>ST_HT_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding stake height measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding stake height measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>GLSTKID</attributeName>
+        <attributeDefinition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+
+    </attribute>
+    <attribute>
+        <attributeName>FILE NAME</attributeName>
+        <attributeDefinition>RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>RAW DATA FILE CONTAINING INFORMATION</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+</attributeList>
+</dataTable>
+
+
+<dataTable> 
+    <entityName>TAY_AVGLSTKUnits_and_Column_Descriptions</entityName>
+<physical>
+    <objectName>TAY_AVGLSTKUnits_and_Column_Descriptions</objectName>
+<dataFormat>
+<textFormat>
+<numHeaderLines>27</numHeaderLines>
+<numFooterLines>1</numFooterLines>
+<recordDelimiter>\n</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+<quoteCharacter>"</quoteCharacter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+    <distribution>
+<online>
+  <url function="download">http://www.mcmlter.org/queries/glacier_results.jsp?begDate=10/01/1899&amp;endDate=04/01/2600&amp;metStation=TAY&amp;dataType=AVGLSTK</url>
+        </online>
+</distribution>
+</physical>
+<attributeList>
+<attribute>
+<attributeName>DATASET CODE</attributeName>
+    <attributeDefinition>Code representing average stake heights, snow depths dataset</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Code representing average stake heights, snow depths dataset TAYAVGLSTK</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>GLACIER</attributeName>
+<attributeDefinition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>NAME OF GLACIER WHERE MEASUREMENT WAS MADE Taylor</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>STAKE</attributeName>
+<attributeDefinition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>UNIQUE NUMBER FOR EACH STAKE ON GLACIER</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+
+</attribute>
+    <attribute>
+        <attributeName>STAKE_REPLCMNT</attributeName>
+        <attributeDefinition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Letter corresponding to original and replacement stakes (A = original, B = first replacement, C = second replacement etc.)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+<attribute>
+<attributeName>DATE_TIME</attributeName>
+<attributeDefinition>DATE OF DATA MEASUREMENT</attributeDefinition>
+<storageType typeSystem="DATE" />
+<measurementScale>
+<dateTime>
+<formatString>MM/DD/YYYY</formatString>
+</dateTime>
+</measurementScale>
+
+</attribute>
+<attribute>
+<attributeName>SURFACE</attributeName>
+    <attributeDefinition>Surface material to which measurement is made</attributeDefinition>
+<storageType typeSystem="TEXT" />
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+    <definition>Surface material to which measurement is made</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+    <code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>SNOW_DEPTH_AVG</attributeName>
+    <attributeDefinition>Average depth of snow covering ice (calculated from 1-8 replications)</attributeDefinition>
+<storageType typeSystem="NUMBER" />
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>centimeter</standardUnit>
+</unit>
+    <precision>0.1</precision>
+<numericDomain>
+<numberType>real</numberType>
+    <bounds>
+        <minimum exclusive="false">0</minimum>
+        <maximum exclusive="false">200</maximum>
+    </bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NULL</code>
+<codeExplanation>None given</codeExplanation>
+</missingValueCode>
+</attribute>
+    <attribute>
+        <attributeName>SNOW_DEPTH_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured snow depths (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>  
+    <attribute>
+        <attributeName>SNOW_DEPTH_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding snow depth measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding snow depth measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_AVG</attributeName>
+        <attributeDefinition>Average distance from top of stake to the glacier surface (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">400</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>STK_HT_STD_DEV</attributeName>
+        <attributeDefinition>Standard deviation for measured stake heights (calculated from 1-8 replications)</attributeDefinition>
+        <storageType typeSystem="NUMBER" />
+        <measurementScale>
+            <ratio>
+                <unit>
+                    <standardUnit>centimeter</standardUnit>
+                </unit>
+                <precision>0.1</precision>
+                <numericDomain>
+                    <numberType>real</numberType>
+                    <bounds>
+                        <minimum exclusive="false">0</minimum>
+                        <maximum exclusive="false">10</maximum>
+                    </bounds>
+                </numericDomain>
+            </ratio>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>ST_HT_COMMENTS</attributeName>
+        <attributeDefinition>Comments regarding stake height measurements</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>Comments regarding stake height measurements</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+    <attribute>
+        <attributeName>GLSTKID</attributeName>
+        <attributeDefinition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>CODE FROM GLACIER / STAKE/ DATE OF COORDINATE MEASUREMENT (TO BE USED FOR GIS MAPPING)</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+
+    </attribute>
+    <attribute>
+        <attributeName>FILE NAME</attributeName>
+        <attributeDefinition>RAW DATA FILE CONTAINING INFORMATION</attributeDefinition>
+        <storageType typeSystem="TEXT" />
+        <measurementScale>
+            <nominal>
+                <nonNumericDomain>
+                    <textDomain>
+                        <definition>RAW DATA FILE CONTAINING INFORMATION</definition>
+                    </textDomain>
+                </nonNumericDomain>
+            </nominal>
+        </measurementScale>
+        <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>None given</codeExplanation>
+        </missingValueCode>
+    </attribute>
+</attributeList>
+</dataTable>
+</dataset>
+</eml:eml>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      version="3.5"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <recordInfo>
+      <recordIdentifier source="CoBA">OSGC-000-000-020-112</recordIdentifier>
+      <recordCreationDate encoding="w3cdtf">2013-12-05</recordCreationDate>
+      <recordChangeDate encoding="w3cdtf">2015-10-09</recordChangeDate>
+      <recordContentSource>NCAR Library and Archives</recordContentSource>
+      <recordOrigin>Human prepared. Transformed from a record in the OpenSky metadata
+                framework.</recordOrigin>
+      <recordOrigin>This record was transformed using the following
+                files: osm-main-to-mods.xsl, osm-common-to-mods.xsl, and
+                osm-article-to-mods.xsl.</recordOrigin>
+      <languageOfCataloging>
+         <languageTerm type="text">English</languageTerm>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+   </recordInfo>
+   <titleInfo>
+      <title>Dependence of APE simulations on vertical resolution with the Community Atmospheric Model, Version 3</title>
+   </titleInfo>
+   <name type="personal"
+         valueURI="14587"
+         authorityURI="https://people.ucar.edu"
+         authority="UCAR People Database"
+         usage="primary">
+      <namePart type="given">David</namePart>
+      <namePart type="given">L.</namePart>
+      <namePart type="family">Williamson</namePart>
+      <displayForm>David L. Williamson</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+      <affiliation>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL):Climate and Global Dynamics Division (CGD):Atmospheric Modeling and Prediction (AMP)</affiliation>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="marcgt">article</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2013-07-01</dateIssued>
+      <publisher>Meteorological Society of Japan</publisher>
+   </originInfo>
+   <language>
+      <languageTerm type="code" authority="rfc5646">en</languageTerm>
+   </language>
+   <abstract lang="eng">The convergence of the zonal averaged equatorial precipitation with increasing vertical resolution in simulations with Community Atmosphere Model (CAM3) Eulerian spectral transform and finite volume dynamical cores is considered. The cores are both coupled to the standard CAM3 parameterization package. With the standard CAM3 26 level grid, the two versions converge to different states when the horizontal resolution alone is refined; the spectral transform to a single precipitation maximum and the finite volume to a double. With increasing vertical resolution both converge to a double structure. However, in the subsidence regions the high vertical resolution simulations have a very different climate balance and parameterized forcing than the lower resolution simulations and thus they do not represent the expected climate associated with the lower resolution dynamical cores. The cause of the different parameterized forcing is studied by considering the evolution of the 60-level model starting from a state created by the 26-level model. The cause is shown to be the discrete approximations in the shallow convection. When the 60-level model is presented with an initial state interpolated from a 26-level model state, the columns are stable by the discrete test in the shallow convection, even though they are unstable when the discrete calculation is based on the coarser 26-level grid. The Planetary Boundary Layer parameterization pumps water vapor into the lower troposphere, low clouds increase to unrealistic levels and force strong longwave radiative cooling. This destabilizes the column until the discrete test is satisfied on the 60-level grid and the shallow convection becomes active again. However the simulated state is by then very different and unlike the earth’s atmosphere. Similar unrealistic behavior has been seen in earth-like simulations.</abstract>
+   <relatedItem type="host">
+      <titleInfo>
+         <title>Journal of the Meteorological Society of Japan</title>
+      </titleInfo>
+      <part>
+         <detail type="volume">
+            <number>91A</number>
+         </detail>
+         <detail type="issue">
+            <number>1</number>
+         </detail>
+         <extent unit="page">
+            <start>231</start>
+            <end>242</end>
+            <list>231-242</list>
+         </extent>
+      </part>
+   </relatedItem>
+   <extension>
+      <osm:classification xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">Refereed</osm:classification>
+   </extension>
+   <extension>
+      <osm:collaboration xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">UCAR only</osm:collaboration>
+   </extension>
+   <extension>
+      <osm:collectionKey xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">articles</osm:collectionKey>
+   </extension>
+   <relatedItem type="isReferencedBy">
+      <identifier type="uri">http://dx.doi.org/10.2151/jmsj.2013-A08</identifier>
+   </relatedItem>
+   <identifier type="uri" displayLabel="Legacy citable URL">http://nldr.library.ucar.edu/repository/collections/OSGC-000-000-020-112</identifier>
+   <identifier type="doi">10.2151/jmsj.2013-A08</identifier>
+   <accessCondition type="use and reproduction">Copyright 2013 by Meteorological Society of Japan</accessCondition>
+</mods>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="744.6"
+            type="primary">
+   <timeStamp value="2015-02-05 09:39:31 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NSCAT/NCEP Blended Ocean Winds (Version 1.0)</title>
+   <summary>
+      <p>
+              Ocean surface wind vector components and wind stress curl
+              data products are derived from spatial
+              blending of high-resolution satellite data
+              (NASA Scatterometer - NSCAT) and
+              global weather center reanalyses (NCEP), resulting in
+              high temporal and spatial resolution datasets (6-hourly,
+              and 0.5 degree).  This global dataset spans 12 months,
+              August 1996 through July 1997.
+              </p>
+      <p>
+              The NSCAT scatterometer data is oriented along polar-orbit
+              satellite swaths. The double-sided instrument yielded
+              two swaths. Each of them about 600 kilometers wide with a 350 km nadir
+              gap and at 50 km resolution. The NCEP data consists of
+              global, 6-hourly reanalysis fields on T62 Gaussian grid with
+              approximate resolution of 1.8 degrees.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="NWRA/CORA &gt; Colorado Research Associates, Northwest Research Associates, Inc."
+                contact="Jan Morzel;Ralph Milliff"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Wind Stress</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Convergence/Divergence</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Milliff, R.F., W.G. Large, J. Morzel, G. Danabasoglu, and T.M. Chin</authorList>
+      <year>1999</year>
+      <title>Ocean general circulation model sensitivity to forcing from scatterometer winds</title>
+      <periodical number="C5" pages="11337-11358">J. Geophys. Res.</periodical>
+   </reference>
+   <reference type="journal">
+      <authorList>Chin, T.M., R.F. Milliff, and W.G. Large</authorList>
+      <year>1998</year>
+      <title>Basin-scale high-wavenumber sea surface wind fields from multiresolution analysis of scatterometer data</title>
+      <periodical number="15" pages="741-763">J. Atmos. Ocean. Tech.</periodical>
+   </reference>
+   <relatedResource url="http://podaac.jpl.nasa.gov/quikscat/">NASA JPL PO.DAAC</relatedResource>
+   <relatedDataset ID="744.4"/>
+   <relatedDataset ID="744.1"/>
+   <publicationDate>2002-05-09</publicationDate>
+   <contentMetadata>
+      <temporal start="1996" end="1997" groupID="Entire Dataset"/>
+      <dataType>satellite</dataType>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Specified height above ground or water surface"
+                value="10"
+                units="m"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,594 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcr.1.21" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset scope="document">
+		<title>MCR LTER: Coral Reef: Community Dynamics: Abundance and Species Richness of Fishes Associated with the Coral Porites rus</title>
+		<creator id="MCR" scope="document">
+			<organizationName>Moorea Coral Reef LTER</organizationName>
+			<address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+			<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+		</creator>
+		<creator id="andy_id" scope="document">
+			<individualName>
+				<givenName>Andrew</givenName>
+				<surName>Brooks</surName>
+			</individualName>
+			<organizationName>Moorea Coral Reef LTER</organizationName>
+			<positionName>Associated Investigator</positionName>
+			<address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">805.893.7670</phone>
+			<phone phonetype="fax">805.893.3777</phone>
+			<electronicMailAddress>brooks@msi.ucsb.edu</electronicMailAddress>
+			<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+		</creator>
+		<associatedParty id="jlape_id" scope="document">
+			<individualName>
+				<givenName>Jennifer</givenName>
+				<surName>Lape</surName>
+			</individualName>
+			<organizationName>Moorea Coral Reef LTER</organizationName>
+			<positionName>Field Technician</positionName>
+			<address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>CA</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>USA</country>
+			</address>
+			<role>Field Technician</role>
+		</associatedParty>
+		<pubDate>2012-04-15</pubDate>
+		<abstract>
+			<para>These data describe the species richness and abundance as part of MCR
+				LTER's reef fish monitoring program to track long-term patterns in species
+				abundance and diversity. This study began in 2000 in the lagoons off of the
+				north shore of the island of Moorea, French Polynesia and the dataset is updated
+				annually. The abundance and life history stage (adults, juveniles or recruits) of
+				all taxa of fishes associated with selected colonies (5-16 colonies per site) of the
+				mound forming coral Porites rus are recorded at seven reef sites located along the
+				north shore of Moorea. These sites are characterized by differences in water depth,
+				distance to the fore reef and the number and types of neighboring corals. Counts are
+				performed by a pair of divers using SCUBA and include semi-cryptic species.</para>
+		</abstract>
+		<keywordSet>
+			<keyword keywordType="theme">MCR</keyword>
+			<keyword keywordType="theme">LTER</keyword>
+			<keyword keywordType="theme">Moorea Coral Reef</keyword>
+		</keywordSet>
+		<keywordSet>
+			<keyword>University of California Santa Barbara</keyword>
+			<keyword>California State University Northridge</keyword>
+			<keyword>NSF</keyword>
+			<keyword>Gordon and Betty Moore Foundation</keyword>
+			<keyword>Richard B. Gump South Pacific Research Station</keyword>
+		</keywordSet>
+		<keywordSet>	
+			<keyword keywordType="place">French Polynesia</keyword>
+			<keyword keywordType="place">Moorea</keyword>
+			<keyword keywordType="place">Cooks 1</keyword>
+			<keyword keywordType="place">Cooks 0</keyword>
+			<keyword keywordType="place">Gump</keyword>
+			<keyword keywordType="place">MRB Edge</keyword>
+			<keyword keywordType="place">MRB Lagoon</keyword>
+			<keyword keywordType="place">Bali Hai</keyword>
+			<keyword keywordType="place">Pink Roof</keyword>
+			<keywordThesaurus>MCR LTER Site</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>			
+			<keyword keywordType="theme">Fishes</keyword>
+			<keyword keywordType="theme">Tropical Fishes</keyword>
+			<keyword keywordType="theme">Abundance (organisms)</keyword>
+			<keyword keywordType="theme">Species Richness</keyword>			
+			<keyword keywordType="theme">Biodiversity</keyword>
+			<keyword keywordType="theme">Coral Reef</keyword>
+			<keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>			
+			<keyword keywordType="theme">Community</keyword>
+			<keyword keywordType="theme">Marine</keyword>
+			<keywordThesaurus>KNB</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Populations</keyword>
+			<keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Time Series Program</keyword>
+			<keywordThesaurus>MCR Core Activity</keywordThesaurus>
+		</keywordSet>
+		<keywordSet>
+			<keyword keywordType="theme">Population and Community Dynamics</keyword>
+			<keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+		</keywordSet>
+		
+		<intellectualRights>
+			<para>Data collected under the auspices of the MCR LTER are available to the public
+				after primary publication, or at most two years after the completion of the study
+				unless proprietary restrictions are warranted. Use of MCR LTER data is subject to
+				acceptance of the following conditions: <itemizedlist>
+					<listitem><para>1. The user agrees to provide valid name and contact information
+						prior to downloading online data. This information will be used to
+						contact the user in case of changes to the data, and may also be used by
+						data set authors and MCR LTER project administrators to document data
+						usage.</para>
+					</listitem>
+					<listitem><para>2. The user agrees to cite the data set author and MCR LTER in
+						all publications in which the data are used, as per the instructions in
+						the data documentation. If no specific instructions are provided in the
+						data documentation, the user is requested to include the following
+						statement: "Data sets were provided by the Moorea Coral Reef
+						Ecosystem LTER, funded by the US National Science Foundation
+						(OCE-0417412)."</para>
+					</listitem>
+					<listitem><para>3. The user agrees to provide one copy of any manuscript based
+						on MCR LTER data to the data set author prior to submitting it for
+						publication.</para>
+					</listitem>
+					<listitem><para>4. The user agrees to send two hard copies of any published
+						manuscript based on MCR LTER data to the following address: Dr. Andrew
+						J. Brooks Deputy Program Director, MCR LTER Marine Science Institute
+						University of California Santa Barbara, CA 93106-6150 The user also
+						agrees to send one electronic copy (pdf format) to the following e-mail
+						address: brooks@msi.ucsb.edu</para>
+					</listitem>
+					<listitem><para>5. Users are prohibited from selling or redistributing any data
+						provided by MCR LTER without explicit prior permission.</para>
+					</listitem>
+					<listitem><para>6. Users are encouraged to contact original investigators
+						responsible for data. Where appropriate, researchers whose projects are
+						integrally dependent on MCR LTER data are encouraged to consider
+						collaboration and/or co-authorship with original investigators.</para>
+					</listitem>
+					<listitem><para>7. Extensive efforts are made to ensure that online data are
+						accurate and up to date, but the authors and the MCR LTER will not take
+						responsibility for any errors that may exist in data provided online.
+						Furthermore, the user assumes all responsibility for errors in analysis
+						or judgment resulting from use of the data.</para>
+					</listitem>
+					<listitem><para> 8. Any violation of the terms of this agreement will result in
+						immediate forfeiture of the data and loss of access privileges to other
+						MCR LTER data sets.</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</intellectualRights>
+		<coverage scope="document">
+			<geographicCoverage scope="document">
+				<geographicDescription>P Rus Sites, North Shore, Moorea, French Polynesia</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-149.845</westBoundingCoordinate>
+					<eastBoundingCoordinate>-149.780</eastBoundingCoordinate>
+					<northBoundingCoordinate>-17.470</northBoundingCoordinate>
+					<southBoundingCoordinate>-17.491</southBoundingCoordinate>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage scope="document">
+				<rangeOfDates>
+					<beginDate>
+						<calendarDate>2000</calendarDate>
+					</beginDate>
+					<endDate>
+						<calendarDate>2011</calendarDate>
+					</endDate>
+				</rangeOfDates>
+			</temporalCoverage>
+			<taxonomicCoverage scope="document">
+				<taxonomicClassification>
+					<taxonRankName>Kingdom</taxonRankName>
+					<taxonRankValue>Animalia</taxonRankValue>
+					<taxonomicClassification>						
+						<taxonRankName>Phylum</taxonRankName>
+						<taxonRankValue>Chordata</taxonRankValue>
+					</taxonomicClassification>
+					
+					<taxonomicClassification>
+							<taxonRankName>Phylum</taxonRankName>
+							<taxonRankValue>Cnidaria</taxonRankValue>
+							<taxonomicClassification>
+								<taxonRankName>CLASS</taxonRankName>
+								<taxonRankValue>Anthozoa</taxonRankValue>
+								<taxonomicClassification>
+									<taxonRankName>ORDER</taxonRankName>
+									<taxonRankValue>Scleractinia</taxonRankValue>
+									<taxonomicClassification>
+										<taxonRankName>FAMILY</taxonRankName>
+										<taxonRankValue>Poritidae</taxonRankValue>
+										<taxonomicClassification>
+											<taxonRankName>Genus</taxonRankName>
+											<taxonRankValue>Porites</taxonRankValue>
+											<taxonomicClassification>
+												<taxonRankName>Species</taxonRankName>
+												<taxonRankValue>Porites rus</taxonRankValue>
+											</taxonomicClassification>
+										</taxonomicClassification>
+									</taxonomicClassification>
+								</taxonomicClassification>
+							</taxonomicClassification>
+						</taxonomicClassification>						
+					</taxonomicClassification>
+				
+			</taxonomicCoverage>
+		</coverage>
+		<maintenance>
+			<description>
+				<para>This is an ongoing dataset.  Data are released as soon as formatted and quality checked.</para>
+			</description>
+			
+				<changeHistory>
+					<changeScope>title</changeScope>
+					<oldValue>MCR LTER: Coral Reef: Community Dynamics: Fish Abundance and Species Richness</oldValue>
+					<changeDate>2011-10-19</changeDate>
+				</changeHistory>
+				
+		</maintenance>
+		<contact id="mcr-boilerplate-contact_MCR" scope="system" system="mcrlter">
+			<positionName>Information Manager, Moorea Coral Reef LTER</positionName>
+			<address scope="document">
+				<deliveryPoint>Marine Science Institute</deliveryPoint>
+				<deliveryPoint>University of California</deliveryPoint>
+				<city>Santa Barbara</city>
+				<administrativeArea>California</administrativeArea>
+				<postalCode>93106-6150</postalCode>
+				<country>United States</country>
+			</address>
+			<phone phonetype="voice">805 893 2071</phone>
+			<electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+			<onlineUrl>http://mcr.lternet.edu</onlineUrl>
+		</contact>
+		<publisher>
+			<references>MCR</references>
+		</publisher>
+		<methods>
+			<methodStep>
+				<description>
+					<section>
+						<title>Diver Observation</title>
+						<para>A pair of divers on SCUBA observe all fishes in association with a
+							single colony of the mound forming coral, Porites rus. Divers use
+							handheld flashlights to search the internal cavities of the colony for
+							semi-cryptic species. All individuals are assigned to one of the
+							following life history stages: adult, sub adult, juvenile or recruit.
+							The total time spent observing each colony varies with colony size such
+							that the time spent searching per cubic meter of coral volume is
+							approximately constant across all colony sizes. Species richness values
+							represent the total number of unique species at a site. Values for
+							abundance represent the average number of total individuals seen per
+							coral head surveyed at a site. Standard errors for abundance estimates
+							are calculated using individual coral heads as replicates.</para>
+					</section>
+				</description>
+			</methodStep>
+		</methods>
+		<project scope="document">
+			<title>The Moorea Coral Reef (MCR) LTER</title>
+			<personnel id="1148664179579" scope="document">
+				<individualName>
+					<givenName>Russell</givenName>
+					<surName>Schmitt</surName>
+				</individualName>
+				<organizationName>Moorea Coral Reef LTER</organizationName>
+				<positionName>Lead Principal Investigator</positionName>
+				<address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+				<phone phonetype="fax">805.893.3777</phone>
+				<electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+				<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+				<role>Principal Investigator</role>
+			</personnel>
+			<personnel id="1148664224969" scope="document">
+				<individualName>
+					<givenName>Sally</givenName>
+					<surName>Holbrook</surName>
+				</individualName>
+				<organizationName>Moorea Coral Reef LTER</organizationName>
+				<positionName>Principal Investigator</positionName>
+				<address scope="document">
+					<deliveryPoint>Marine Science Institute</deliveryPoint>
+					<deliveryPoint>University of California</deliveryPoint>
+					<city>Santa Barbara</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>93106-6150</postalCode>
+					<country>USA</country>
+				</address>
+				<phone phonetype="fax">805.893.3777</phone>
+				<electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+				<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+				<role>Principal Investigator</role>
+			</personnel>
+			<personnel id="1148664455766" scope="document">
+				<individualName>
+					<givenName>Peter</givenName>
+					<surName>Edmunds</surName>
+				</individualName>
+				<organizationName>Moorea Coral Reef LTER</organizationName>
+				<positionName>Principal Investigator</positionName>
+				<address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+				<phone phonetype="voice">818.677.2502</phone>
+				<electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+				<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+				<role>Principal Investigator</role>
+			</personnel>
+			<personnel id="1148664533782" scope="document">
+				<individualName>
+					<givenName>Robert</givenName>
+					<surName>Carpenter</surName>
+				</individualName>
+				<organizationName>Moorea Coral Reef LTER</organizationName>
+				<positionName>Principal Investigator</positionName>
+				<address scope="document">
+					<deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+					<deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+					<city>Northridge</city>
+					<administrativeArea>CA</administrativeArea>
+					<postalCode>91330</postalCode>
+					<country>USA</country>
+				</address>
+				<phone phonetype="voice">818-677-3256</phone>
+				<phone phonetype="fax">818-677-2034</phone>
+				<electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+				<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+				<role>Principal Investigator</role>
+			</personnel>
+			<funding>
+				<para>NSF (LTER) OCE-0417412</para>
+			</funding>
+		</project>
+
+		<dataTable id="Species Richness" scope="document">
+			<entityName>Site Species Richness</entityName>
+			<entityDescription>Total species richness data for fishes observed at seven MCR LTER sites on the north shore of Moorea, French Polynesia</entityDescription>
+			<physical scope="document">
+				<objectName>MCR_LTER_Porites_rus_Long_Term_Trends_Richness.csv</objectName>
+			  <size unit="bytes">331</size>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>1</numHeaderLines>
+						<recordDelimiter>\r\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution scope="document">
+					<online>
+						<url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1&amp;entityindex=1</url>
+					 </online>                                                                                  <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+				</distribution>
+			</physical>
+			<coverage>
+				<temporalCoverage scope="document">
+					<rangeOfDates>
+						<beginDate>
+							<calendarDate>2000</calendarDate>
+						</beginDate>
+						<endDate>
+							<calendarDate>2011</calendarDate>
+						</endDate>
+					</rangeOfDates>
+				</temporalCoverage>
+			</coverage>
+			<attributeList>
+				<attribute id="year_rich_id" scope="document">
+					<attributeName>Year</attributeName>
+					<attributeLabel>Year</attributeLabel>
+					<attributeDefinition>Year data collected</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>YYYY</formatString>
+							<dateTimePrecision>1 year</dateTimePrecision>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute id="Site_rich_id" scope="document">
+					<attributeName>Site</attributeName>
+					<attributeLabel>Site</attributeLabel>
+					<attributeDefinition>Name of the location.</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>text</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="no_corals_id" scope="document">
+					<attributeName>Num_corals</attributeName>
+					<attributeLabel>Number of corals</attributeLabel>
+					<attributeDefinition>The count of the number of corals surveyed</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>number</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>whole</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute id="richness_id" scope="document">
+					<attributeName>Richness</attributeName>
+					<attributeLabel>Richness</attributeLabel>
+					<attributeDefinition>Species Richness is the total number of unique species observed.</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>number</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>integer</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>	
+			</attributeList>
+			<numberOfRecords>12</numberOfRecords>
+		</dataTable>
+		<dataTable id="Average Abundance" scope="document">
+			<entityName>Site Species Abundance</entityName>
+			<entityDescription>Mean abundance data per cubic meter of Porites rus surveyed for fishes observed within the Viapa'hu Lagoon on the north shore of Moorea, F.P.  
+				Means calculated using individual coral bommies as replicates.</entityDescription>			
+			<physical scope="document">
+				<objectName>MCR_LTER_Porites_rus_Long_Term_Trends_Abundance.csv</objectName>
+			  <size unit="Kb">233</size>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>1</numHeaderLines>
+						<recordDelimiter>\r\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution scope="document">
+					<online>
+						<url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1&amp;entityindex=2</url>
+					 </online>                                                                                  <access authSystem="knb" order="allowFirst" scope="document">
+						<allow>
+							<principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>authenticated</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+				</distribution>
+			</physical>
+			<coverage>
+				<temporalCoverage scope="document">
+					<rangeOfDates>
+						<beginDate>
+							<calendarDate>2000</calendarDate>
+						</beginDate>
+						<endDate>
+							<calendarDate>2008</calendarDate>
+						</endDate>
+					</rangeOfDates>
+				</temporalCoverage>
+			</coverage>
+			<attributeList>
+				<attribute id="year_abund_id" scope="document">
+					<attributeName>Year</attributeName>
+					<attributeLabel>Year</attributeLabel>
+					<attributeDefinition>Year data collected</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>YYYY</formatString>
+							<dateTimePrecision>1 year</dateTimePrecision>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute id="Site_abund_id" scope="document">
+					<attributeName>Site</attributeName>
+					<attributeLabel>Site</attributeLabel>
+					<attributeDefinition>Name of the location.</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>text</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="no_corals_abund_id" scope="document">
+					<attributeName>Num_corals</attributeName>
+					<attributeLabel>Number of corals</attributeLabel>
+					<attributeDefinition>The count of the number of corals surveyed</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>number</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>whole</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute id="abundance_id" scope="document">
+					<attributeName>Abundance</attributeName>
+					<attributeLabel>Abundance</attributeLabel>
+					<attributeDefinition>Species Abundance is the mean number of individuals observed per cubic meter of Porites rus 
+						surveyed in the Viapa'hu Lagoon on Moorea's north shore.</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>numberPerMeterCubed</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>				
+			</attributeList>
+			<numberOfRecords>9</numberOfRecords>
+		</dataTable>
+	</dataset>
+</eml:eml>

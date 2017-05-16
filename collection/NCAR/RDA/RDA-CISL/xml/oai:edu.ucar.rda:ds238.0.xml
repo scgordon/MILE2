@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="238.0"
+            type="historical">
+   <timeStamp value="2015-11-02 13:37:46 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Global Land Monthly Precipitation Analyses</title>
+   <summary>
+      <p>This is a dataset of world monthly precipitation data from
+              stations, and the associated monthly gridded analyses, 1851-1989.
+              This dataset also contains a gridded monthly long term climatology and gridded 
+              monthly anomalies.  In all cases, the grid is a 4 degree latitude by 5 degree longitude grid, from 
+              62 degrees South to 86 degree North latitude and 0 degree to 355 degree East longitude.
+              .</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/OAR/CDC &gt; Climate Diagnostics Center, OAR, NOAA, U.S. Department of Commerce"
+                contact="Henry Diaz"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                formerName="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Eischeid, J.K., H.F. Diaz, R.S. Bradley, and P.D. Jones</authorList>
+      <year>1991</year>
+      <title>A comprehensive precipitation data set for global land areas</title>
+      <organization reportID="TR051" pages="82">U.S. Department of Energy</organization>
+   </reference>
+   <publicationDate>1992-01-21</publicationDate>
+   <contentMetadata>
+      <temporal start="1851" end="1989" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="climatology" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format>proprietary_ASCII</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="72"
+               numY="38"
+               startLon="0E"
+               startLat="62S"
+               endLon="5W"
+               endLat="86N"
+               xRes="5"
+               yRes="4"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

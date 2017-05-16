@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="337.0"
+            type="primary">
+   <timeStamp value="2015-11-19 12:13:05 -0700"/>
+   <continuingUpdate value="yes" frequency="daily"/>
+   <title>NCEP ADP Global Upper Air and Surface Weather Observations (PREPBUFR format), May 1997 - Continuing</title>
+   <summary>
+      <p>
+              NCEP ADP Global Upper Air and Surface Weather Observations (PREPBUFR format) are composed of a global set of surface and upper air reports operationally collected by the National Centers for Environmental Prediction (NCEP). These include land surface, marine surface, radiosonde, pibal and aircraft reports from the Global Telecommunications System (GTS), profiler and US radar derived winds, SSM/I oceanic winds and TCW retrievals, and satellite wind data from the National Environmental Satellite Data and Information Service (NESDIS). The reports can include pressure, geopotential height, temperature, dew point temperature, wind direction and speed. Report time intervals range from hourly to 12 hourly.
+              </p>
+      <p>
+              These data are the output from the PREPBUFR processing performed at NCEP, which is the final step in preparing the majority of conventional observational data for assimilation into the various NCEP analyses including the North American Model (NAM) and NAM Data Assimilation System (NDAS) unified grid-point statistical interpolation (GSI) analysis (the "NAM" and "NDAS" networks), the Global Forecast System (GFS) and Global Data Assimilation System (GDAS) unified grid-point statistical interpolation (GSI) analysis  (the "GFS" and "GDAS" networks), the Rapid Refresh (RAP) unified grid-point statistical interpolation (GSI) analysis (the "RAP" network), the Real Time Mesoscale Analysis (RTMA) unified grid-point statistical interpolation (GSI) analysis (the "RTMA" network), and the Climate Data Assimilation System (CDAS) spectral statistical interpolation (SSI) analysis (the "CDAS" network). 
+              </p>
+      <p>
+              This step involves the execution of series of programs designed to assemble observations dumped from a number of on-line decoder databases, encode information about the observational error for each data type as well the background (first guess) interpolated to each data location, perform both rudimentary multi-platform quality control and more complex platform-specific quality control, and store the output in a monolithic BUFR file, known as PREPBUFR. The background guess information is used by certain quality control programs while the observation error is used by the analysis to weigh the observations. The structure of the BUFR file is such that each PREPBUFR processing step which changes a datum (either the observation itself, or its quality marker) records the change as an "event" with a program code and a reason code. Each time an event is stored, the previous events for the datum are "pushed down" in the stack. In this way, the PREPBUFR file contains a complete history of changes to the data throughout all of the PREPBUFR processing. The most recent changes are always at the top of the stack and are thus read first by any subsequent data decoder routine. It is expected that the data at the top of the stack are of the highest quality.
+              </p>
+      <p>
+              The data provided here are also available in NetCDF and ASCII formats, which can be accessed by following the "Get a subset" link on the <a href="http://rda.ucar.edu/datasets/ds337.0/#!access">ds337.0 data access page</a>.  The NetCDF datafiles are converted from PREPBUFR format using the pb2nc utility in the Model Evaluation Tools (MET) software package.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Station Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <contact>Thomas Cram</contact>
+   <platform vocabulary="GCMD">ASOS &gt; Automated Surface Observing System</platform>
+   <platform vocabulary="GCMD">AWOS &gt; Automated Weather Observing System</platform>
+   <platform vocabulary="GCMD">RADIOSONDES</platform>
+   <platform vocabulary="GCMD">AIRCRAFT</platform>
+   <platform vocabulary="GCMD">SATELLITES</platform>
+   <platform vocabulary="GCMD">SHIPS</platform>
+   <platform vocabulary="GCMD">BUOYS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">DROPWINDSONDES</platform>
+   <platform vocabulary="GCMD">PIBAL &gt; Pilot Balloons</platform>
+   <supportsProject vocabulary="GCMD">WRF &gt; WRF (Weather Research and Forecasting) Modeling</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://www.nco.ncep.noaa.gov/sib/decoders/BUFRLIB/">NCEP BUFR software library</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/data_processing/prepbufr.doc/document.htm">PREPBUFR Processing at NCEP</relatedResource>
+   <relatedResource url="http://nomads.ncep.noaa.gov/">NCEP model data (includes prepbufr files in the gdas.* directories)</relatedResource>
+   <relatedResource url="http://nomads.ncdc.noaa.gov/data.php#gdas">NCDC gdas prepbufr obs archive.</relatedResource>
+   <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/data_processing/bufrtab_tableb.htm">NCEP BUFRLIB MNEMONICS</relatedResource>
+   <relatedResource url="http://www.dtcenter.org/met/users/">Model Evaluation Tools (MET) verification package</relatedResource>
+   <relatedResource url="http://tigge.ucar.edu">TIGGE model data portal</relatedResource>
+   <relatedResource url="http://www.nco.ncep.noaa.gov/sib/decoders/BUFRLIB/toc/prepbufr/">NCEP example program and tutorial on decoding native PrepBufr data files</relatedResource>
+   <relatedDataset ID="351.0"/>
+   <relatedDataset ID="461.0"/>
+   <relatedDataset ID="464.0"/>
+   <relatedDataset ID="336.0"/>
+   <relatedDataset ID="353.4"/>
+   <relatedDataset ID="083.2"/>
+   <publicationDate>2008-04-30</publicationDate>
+   <contentMetadata>
+      <temporal start="1997-04-30" end="2015-11-29" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="2" unit="hour"/>
+      <temporalFrequency type="regular" number="1" unit="hour"/>
+      <temporalFrequency type="regular" number="1" unit="minute"/>
+      <temporalFrequency type="regular" number="1" unit="second"/>
+      <temporalFrequency type="regular" number="2" unit="day"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/bufr/">WMO_BUFR</format>
+   </contentMetadata>
+</dsOverview>

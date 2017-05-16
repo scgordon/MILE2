@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="353.0"
+            type="historical">
+   <timeStamp value="2015-11-19 14:09:16 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NMC B3 ADP Global Upper Air Observations, daily March 1962 to December 1972</title>
+   <summary>
+      <p>
+              DSS presents a global synoptic set of 12 hourly upper air data reports.  These
+              were operationally collected by NMC.  They include radiosondes, pibals and
+              aircraft reports received via the Global Telecommunications System (GTS).
+              NMC used Automated Data Processing (ADP) to decode and reformat the GTS reports.
+              This data was the primary input (known as "B 3s") for NMC's modeling and forecasting.
+              It was also a major input for the NCEP/NCAR and ECMWF Reanalysis Projects.
+              The NCAR document
+              <a href="http://www.cgd.ucar.edu/cas/tn404/text/tn404_6.html#HEADING18">
+              TN404 An Introduction to Atmospheric and Oceanographic Datasets,
+              (chapter 3) </a> discusses the collection of this data in greater detail.
+              </p>
+      <p>
+              The ADPUPA data includes land and ship launched radiosondes and pibals.
+              Data may be available at up to 20 mandatory levels from 1000mb to 10mb,
+              plus a few significant levels.
+              The AIRCFT data includes flight level reports from commercial, military
+              and reconnaissance sources.
+              The data may include pressure, deviation value (deviation from standard atmosphere
+              geopotential height), temperature, dew point, wind direction and speed.
+              </p>
+      <p>
+              This dataset is in an NCAR blocked version of the NMC Office Note 20 (ON20) format,
+              which involves using the DSS RPTOUT software.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Meteorological Center"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Station Height</variable>
+   <contact>Grace Peng</contact>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">SHIPS</platform>
+   <platform vocabulary="GCMD">FIXED SHIPS</platform>
+   <platform vocabulary="GCMD">MOVING SHIPS</platform>
+   <platform vocabulary="GCMD">AIRCRAFT</platform>
+   <project vocabulary="GCMD">GTS &gt; Global Telecommunications System</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="353.4"/>
+   <publicationDate>1980-02-06</publicationDate>
+   <contentMetadata>
+      <temporal start="1962-03" end="1972-12" groupID="Entire Dataset"/>
+      <dataType>platform_observation</dataType>
+      <format>NCEP_B3</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="400" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="150" units="mbar"/>
+         <level type="Tropopause level" value="0"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="70" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+         <level type="Isobaric level" value="30" units="mbar"/>
+         <level type="Isobaric level" value="20" units="mbar"/>
+         <level type="Isobaric level" value="10" units="mbar"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

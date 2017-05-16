@@ -1,0 +1,487 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="msb-paleon.3.0" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1/eml.xsd http://nis.lternet.edu/schemas/eml/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="system" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=PALEON,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>paleon.3</alternateIdentifier>
+    <title>Ohio Public Land Survey (PLS) Witness Tree GIS Shapefile</title>
+    <creator>
+      <individualName>
+        <salutation>Ms.</salutation>
+        <givenName>Jillian</givenName>
+        <surName>Deines</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Jason</givenName>
+        <surName>McLachlan</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Ms.</salutation>
+        <givenName>Angharad</givenName>
+        <surName>Hamlin</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Mr.</salutation>
+        <givenName>Daniel</givenName>
+        <surName>Williams</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Jody</givenName>
+        <surName>Peters</surName>
+      </individualName>
+    </creator>
+    <metadataProvider>
+      <organizationName>McLachlan Lab</organizationName>
+      <address>
+        <deliveryPoint>Notre Dame Biology Department</deliveryPoint>
+        <deliveryPoint>Bio Dept address</deliveryPoint>
+        <city>Notre Dame</city>
+        <administrativeArea>IN</administrativeArea>
+        <postalCode>46615</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>jmclachl@nd.edu</electronicMailAddress>
+      <onlineUrl>http://www3.nd.edu/~paleolab/paleonproject/</onlineUrl>
+    </metadataProvider>
+    <pubDate>2015</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>
+                The United States Public Land Survey (PLS) divided land into one square
+                mile units, termed sections. Surveyors used trees to locate section corners
+                and other locations of interest (witness trees). As a result, a systematic 
+                ecological dataset was produced with regular sampling over a large region 
+                of the United States, beginning in Ohio in 1786 and continuing westward.  
+                We digitized and georeferenced archival hand drawn maps of these witness 
+                trees for 27 counties in Ohio. This dataset consists of a GIS point 
+                shapefile with 11,925 points located at section corners, recording 26,028 
+                trees (up to four trees could be recorded at each corner). We retain species
+                names given on each archival map key, resulting in 70 unique species common 
+                names. PLS records were obtained from hand-drawn archival maps of original 
+                witness trees produced by researchers at The Ohio State University in the 
+                1960&#8217;s. Scans of these maps are archived as &#8220;The Edgar Nelson Transeau Ohio
+                Vegetation Survey&#8221; at The Ohio State University:  http://hdl.handle.net/1811/64106.  
+                The 27 counties are: Adams, Allen, Auglaize, Belmont, Brown, Darke, 
+                Defiance, Gallia, Guernsey, Hancock, Lawrence, Lucas, Mercer, Miami, 
+                Monroe, Montgomery, Morgan, Noble, Ottawa, Paulding, Pike, Putnam, Scioto,
+                Seneca, Shelby, Williams, Wyandot. Coordinate Reference System: 
+                North American Datum 1983 (NAD83). This material is based upon work supported by the National Science Foundation under grants #DEB-1241874, 1241868, 1241870, 1241851, 1241891, 1241846, 1241856, 1241930. 
+            </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">Ohio</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">community composition</keyword>
+      <keyword keywordType="theme">forest dynamics</keyword>
+      <keyword keywordType="theme">geographic information systems</keyword>
+      <keyword keywordType="theme">surveys</keyword>
+      <keyword keywordType="theme">trees</keyword>
+      <keyword keywordType="theme">tree maps</keyword>
+      <keyword keywordType="theme">historical and retrospective studies</keyword>
+      <keyword keywordType="theme">regional studies</keyword>
+      <keyword keywordType="theme">public land survey</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>License for Data</title>
+        <para> We are using the CC-BY 4.0 (Creative Commons Attribution 4.0 International) License. Details of this license can be found: http://creativecommons.org/licenses/by/4.0/legalcode</para>
+      </section>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription> 
+                    27 counties in OH, USA. Counties include: 
+                    Adams, Allen, Auglaize, Belmont, Brown, Darke, Defiance, Gallia,
+                    Guernsey, Hancock, Lawrence, Lucas, Mercer, Miami, Monroe, 
+                    Montgomery, Morgan, Noble, Ottawa, Paulding, Pike, Putnam, 
+                    Scioto, Seneca, Shelby, Williams, Wyandot
+                </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-85.1</westBoundingCoordinate>
+          <eastBoundingCoordinate>-80.2</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.1</northBoundingCoordinate>
+          <southBoundingCoordinate>38.3 </southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1786</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1865</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>
+                 Scientific names were not provided in the PLS records.  Therefore, the following are the common tree names provided and the larger species that they were grouped into.              
+                </generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <commonName>
+                        ash
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            ash, black ash, blue ash, hoop ash, swamp ash, white ash
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        basswood
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            basswood, linden, lynn
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        beech
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            beech
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        cherry
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            cherry
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        elm
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            elm and red elm
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        hackberry
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            hackberry
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        hickory
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            bitternut and hickory
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        honey locust
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            honey locust
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        maple
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            box elder, box elder maple, maple, silver maple, soft maple, sugar, sugar maple, white maple
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        oak
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            black jack, black oak, bur oak, chestnut oak, jack oak, oak, pin oak, post oak, red oak, spanish oak, shingle oak, swamp oak, white oak, yellow oak    
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        pine
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            pine and pitch pine
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        sycamore
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            sycamore
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        tulip poplar
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            poplar
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        walnut
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            black walnut, walnut, white walnut
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>
+                        other
+                    </commonName>
+          <taxonomicClassification>
+            <commonName>
+                            aspen, birch, black gum, black locust, buckeye, cedar, chestnut, coffeetree, cottonwood, dogwood, gum, hemlock, hornbeam, ironwood, locust, mulberry, pepperidge, persimmon,  red bud, sassafras, serviceberry, sourwood, trembling aspen, willow
+                        </commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Lead PI</positionName>
+      <organizationName>University of Notre Dame</organizationName>
+      <address>
+        <deliveryPoint>University of Notre Dame</deliveryPoint>
+        <deliveryPoint>100 Galvin</deliveryPoint>
+        <city>Notre Dame</city>
+        <administrativeArea>IN</administrativeArea>
+        <postalCode>46615</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">5746311850</phone>
+      <electronicMailAddress>jmclachl@nd.edu</electronicMailAddress>
+      <onlineUrl>http://www3.nd.edu/~paleolab/paleonproject/</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+                         The U.S. Public Land Survey (PLS) was initiated in 1785 by
+                         the General Land Office to divide western lands for future
+                         sale and settlement  (Stewart 1935). In Ohio, surveying 
+                         began in southeastern Washington County in 1786, and the 
+                         northwest region was largely completed between 1819-1821
+                         (Smith 1977). PLS data therefore captures a snapshot of 
+                         time just prior to European settlement. In PLS methodology,
+                         surveyors divided land into 6 x 6 mile townships which 
+                         were each subdivided into 36 square mile sections.
+                         Surveyors used trees to locate section corners and other 
+                         locations of interest (termed witness trees), recording 
+                         the tree&#8217;s species, diameter, and distance from the point
+                         of interest. As a result, a systematic ecological dataset
+                         was produced with regular sampling over a large region of
+                         the United States, beginning in Ohio in 1786 (Sears 1925) 
+                         and continuing westward. Although methodological 
+                         inconsistencies and biases for certain species and tree 
+                         sizes exist (Bourdo 1956), the PLS dataset is a
+                         statistically representative sampling of pre-settlement 
+                         forests and the most robust dataset from this time period 
+                         (Schulte and Mladenoff 2001), particularly for relative 
+                         forest composition data at scales larger than 104 ha 
+                         (Manies and Mladenoff 2000). This study utilized hand-drawn
+                         archival maps of original PLS records produced by 
+                         researchers at The Ohio State University in the 1960&#8217;s.
+                         Researchers utilized the original survey records to 
+                         transcribe tree species and locations onto county base 
+                         maps. Working with The Ohio State University Libraries, 
+                         we scanned twenty-seven county maps marked with witness 
+                         tree data and used a geographic information system to 
+                         georeference scanned images (ArcGIS 9.3). These 
+                         georeferenced maps are available online at 
+                         http://hdl.handle.net/1811/64106. We then overlaid the
+                         map images with a vector PLS section basemap (BLM 2009), 
+                         created a point shapefile with point locations snapped to
+                         the corner intersections of section boundaries, and 
+                         recorded all species present at each of these section 
+                         corner points. We omitted witness trees not located at 
+                         corner intersections (i.e, quarter-section trees or trees 
+                         used to mark survey meander points) due to increased
+                         selection bias by surveyors for these types 
+                         (Liu et al. 2011). This final dataset includes 25,054 
+                         individual trees from PLS data and 70 unique common names 
+                         used to identify a tree species or genus.  The number of 
+                         trees recorded per county ranged from 262 to 1472, with 
+                         75% of counties having more than 798 trees and an overall
+                         mean of 930 trees per county.
+                     </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>
+                 Paleo-ecological Observatory Network (PalEON)
+             </title>
+      <personnel>
+        <individualName>
+          <givenName>Jason</givenName>
+          <surName>McLachlan</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>100 Galvin Life Sciences</deliveryPoint>
+          <city>Notre Dame</city>
+          <administrativeArea>IN</administrativeArea>
+          <postalCode>46615</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(574) 631 1850</phone>
+        <electronicMailAddress>jmclachl@nd.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Jody</givenName>
+          <surName>Peters</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>100 Galvin Life Sciences</deliveryPoint>
+          <city>Notre Dame</city>
+          <administrativeArea>IN</administrativeArea>
+          <postalCode>46615</postalCode>
+          <country>USA</country>
+        </address>
+        <electronicMailAddress>peters.63@nd.edu</electronicMailAddress>
+        <role>Co - Information Manager</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Ann</givenName>
+          <surName>Raiho</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>100 Galvin Life Sciences</deliveryPoint>
+          <city>Notre Dame</city>
+          <administrativeArea>IN</administrativeArea>
+          <postalCode>46615</postalCode>
+          <country>USA</country>
+        </address>
+        <electronicMailAddress>araiho@nd.edu</electronicMailAddress>
+        <role>Co - Information Manager</role>
+      </personnel>
+      <abstract>
+        <para>
+                     PalEON (the PaleoEcological Observatory Network) is an interdisciplinary team of paleoecologists, ecological statisticians, and ecosystem modelers. Our goal is to reconstruct forest composition, fire regime, and climate in forests across the northeastern US and Alaska over the past 2000 years and then use this to drive and validate terrestrial ecosystem models. We will develop a coherent spatiotemporal inference framework to quantify trends and extreme events in paleoecological and paleoclimatic time series. Variables such as forest composition, fire regime, and moisture balance will be inferred from corresponding paleoecological proxies, with rigorous estimates of uncertainty.
+                 </para>
+        <para>
+                     These datasets will be applied to improve terrestrial ecosystem models in two contexts. First, we are developing specific data products, such as high- resolution settlement-era forest composition maps from witness tree and General Land Office data, that can be used to drive ecosystem models. PalEON will develop formal data assimilation tools that will allow the models we use to forecast on centennial scales to be informed by decadal- to centennial-scale data. Second, are developing data products for the purpose of model validation (e.g. fire-frequency reconstructions from sedimentary charcoal data). These long-term validation datasets will help us assess the ability of these models to capture past dynamics correctly, and will help us understand why their future projections are so divergent.
+                 </para>
+      </abstract>
+      <funding>
+        <para>
+                     This material is based upon work supported by the National Science Foundation under Grants #DEB-1241874, 1241868, 1241870, 1241851, 1241891, 1241846, 1241856, 1241930. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+                 </para>
+      </funding>
+    </project>
+    <otherEntity id="ohiopls">
+      <entityName>OH_PLS_Witness_Trees.zip</entityName>
+      <entityDescription>GIS data</entityDescription>
+      <physical>
+        <objectName>OH_PLS_Witness_Trees.zip</objectName>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>shapefile GIS</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/msb-paleon/3/0/0ddf3fdf69df5036355d932d786e5f5e</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>shapefile GIS</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <description>
+        <para>
+                University of Notre Dame Settlement Vegetation map of Ohio site -            
+            https://sites.google.com/site/ndsetveg/project-overview/ohio
+                </para>
+      </description>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <description>
+                University of Notre Dame Settlement Vegetation site -
+                https://sites.google.com/site/ndsetveg/home
+            </description>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <description>
+                The Ohio State Archives for original maps -       
+                http://hdl.handle.net/1811/64106
+            </description>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

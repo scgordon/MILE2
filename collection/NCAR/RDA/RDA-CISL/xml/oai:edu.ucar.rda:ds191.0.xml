@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="191.0"
+            type="primary">
+   <timeStamp value="2013-02-21 22:14:51 -0700"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>Newell's NMC Northern Hemisphere Stratospheric Analyses, weekly 1972Jan-1973Jun</title>
+   <summary>
+      <p>This dataset contains analyses of geopotential height and
+              temperature at the 100mb, 10mb, 5mb, and 2mb stratospheric
+              levels over the Northern Hemisphere.  The data are on a
+              latitude/longitude grid with a 10-degree resolution.  The
+              analyses were produced by the National Meterological Center
+              (NMC) from available radiosonde and rocketsonde data, and they
+              are available at weekly intervals from January 1972 through
+              June 1973.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="MIT/EAPS &gt; Dept. of Earth, Atmospheric, and Planetary Sciences, Massachusetts Institute of Technology"
+                contact="Reginald E. Newell"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Tahnk, W.R., and R.E. Newell</authorList>
+      <year>1975</year>
+      <title>Climatology and energy budget of the northern hemisphere middle stratosphere during 1972</title>
+      <periodical number="15(3)" pages="205-292">Geofisica Internacional</periodical>
+   </reference>
+   <publicationDate>1981-07-10</publicationDate>
+   <contentMetadata>
+      <temporal start="1972-01" end="1973-06" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="10" units="mbar"/>
+         <level type="Isobaric level" value="5" units="mbar"/>
+         <level type="Isobaric level" value="2" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="36"
+               numY="10"
+               startLon="0E"
+               startLat="90N"
+               endLon="350E"
+               endLat="0N"
+               xRes="10"
+               yRes="10"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="463.4"
+            type="primary">
+   <timeStamp value="2015-02-09 20:09:47 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>U.K. Met Office Hadley Centre Global Sub-Daily Station Observations (HadISD)</title>
+   <summary>
+      <p>The Hadley Centre at the U.K. Met Office has created a global sub-daily dataset of several station-observed climatological variables which is derived from and is a subset of the NCDC's Integrated Surface Database.  Stations were selected for inclusion into the dataset based on length of the data reporting period and the frequency with which observations were reported.  The data were then passed through a suite of automated quality-control tests to remove bad data.</p>
+      <p>The current version presented here is HadISD.1.0.0.2011f, with data through the year 2011.  A preliminary version which includes 2012 data (HadISD.1.0.0.2012p), is available from the HadISD web site.  Once that version is made final, we will archive it here in the RDA.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="GB/MOD/MET/HADLEY &gt; Hadley Centre for Climate Prediction and Research, Met Office, Ministry of Defence, United Kingdom"
+                contact="Robert Dunn, robert.dunn@metoffice.gov.uk"
+                citable="yes"/>
+   <author>R. J. Dunn</author>
+   <author>K. M. Willett</author>
+   <author>P. W. Thorne</author>
+   <author>E. V. Woolley</author>
+   <author>I. Durre</author>
+   <author>A. Dai</author>
+   <author>D. E. Parker</author>
+   <author>R. S. Vose</author>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+   <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">BUOYS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Dunn, R. J. H., Willett, K. M., Thorne, P. W., Woolley, E. V., Durre, I., Dai, A., Parker, D. E., and Vose, R. S.</authorList>
+      <year>2012</year>
+      <title>HadISD: a quality controlled global synoptic report database for selected variables at long-term stations from 1973-2010</title>
+      <periodical number="8" pages="1763-1833">Clim. Past Discuss.</periodical>
+      <doi>10.5194/cpd-8-1763-2012</doi>
+      <url>http://www.clim-past-discuss.net/8/1763/2012/cpd-8-1763-2012.html</url>
+   </reference>
+   <relatedResource url="http://www.metoffice.gov.uk/hadobs/hadisd/">HadISD dataset at the U.K. Met Office Hadley Centre</relatedResource>
+   <relatedResource url="http://www.ncdc.noaa.gov/isd">NCDC's Integrated Surface Database</relatedResource>
+   <relatedDataset ID="463.3"/>
+   <publicationDate>2013-02-05</publicationDate>
+   <contentMetadata>
+      <temporal start="1973-01-01" end="2013-12-31" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="2" unit="hour"/>
+      <temporalFrequency type="regular" number="1" unit="hour"/>
+      <temporalFrequency type="regular" number="3" unit="day"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+   </contentMetadata>
+</dsOverview>

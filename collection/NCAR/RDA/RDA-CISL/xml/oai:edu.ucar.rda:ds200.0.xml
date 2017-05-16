@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="200.0"
+            type="primary">
+   <timeStamp value="2013-04-11 15:44:36 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>Southern Hemisphere Climatology, climatology and monthly, by Jenne</title>
+   <summary>
+      <p>A selected climatology of the Southern Hemisphere using the
+              Navy Marine Atlas Series and monthly mean rawinsonde data
+              from "climat temp" reports as published in NCC's "Monthly Climatic
+              Data for the World".</p>
+      <p>The data is <font color="red">free</font> and has been combined with the Northern Hemisphere data in <a href="http://rda.ucar.edu/datasets/ds205.0/">ds205.0</a>.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                formerName="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                formerName="National Climatic Center"
+                contact="Harry Crutcher"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CGD &gt; Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                contact="Harry van Loon"/>
+   <contributor vocabulary="GCMD"
+                name="ZA/SAWB &gt; South African Weather Bureau, South Africa"
+                contact="J. J. Taljaard"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Topography &gt; Terrain Elevation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Bathymetry/Seafloor Topography &gt; Seafloor Topography</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Tropopause</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Jenne, R.L., H.L. Crutcher, H. van Loon, and J.J. Taljaard</authorList>
+      <year>1974</year>
+      <title>A Selected Climatology of the Southern Hemisphere: Computer Methods and Data Availability</title>
+      <organization reportID="TN/STR-92" pages="91">National Center for Atmospheric Research, Boulder, Colorado</organization>
+   </reference>
+   <publicationDate>1980-01-15</publicationDate>
+   <contentMetadata>
+      <temporal start="1950" end="1966" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Mean sea level" value="0" units=""/>
+         <level type="Ground or water surface" value="0" units=""/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Tropopause level" value="0" units=""/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="72"
+               numY="19"
+               startLon="0E"
+               startLat="0S"
+               endLon="355E"
+               endLat="90S"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

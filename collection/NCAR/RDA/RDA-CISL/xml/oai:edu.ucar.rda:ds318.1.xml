@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="318.1"
+            type="primary">
+   <timeStamp value="2015-02-10 20:39:14 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>GFDL Climate Model Outputs for Carbon Dioxide Studies</title>
+   <summary>
+      <p>This dataset contains model outputs from climate models at the Geophysical Fluid Dynamics Laboratory (GFDL).  The various model runs were made in 1989 (with one rerun in 1991).  The model was an atmosphere-ocean coupled model, run first at R15 (48 by 40) global resolution and then later at R30 (96 by 80) global resolution.  Control runs (1xCO2), 2xCO2, and 1% increase per year transient runs were made and values for numerous variables were output.  DSS has decadal means for up to 100 model years, as well as daily values and monthly and seasonal means for shorter periods.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/GFDL &gt; NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce"
+                contact="Ron Stouffer, rjs@gfdl.gov"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Evaporation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Snow</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Depth</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Surface Radiative Properties &gt; Albedo</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Surface Water &gt; Runoff</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Heat Flux</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Heat Budget &gt; Heat Flux</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Wind Stress</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Longwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Outgoing Longwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Incoming Solar Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">CLIMATE MODELS</platform>
+   <supportsProject vocabulary="GCMD">IPCC &gt; Intergovernmental Panel on Climate Change</supportsProject>
+   <supportsProject vocabulary="GCMD">USCSP &gt; U.S. Country Studies Program</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Stouffer, R. J., S. Manabe and K. Bryan</authorList>
+      <year>1989</year>
+      <title>Interhemispheric asymmetry in climate response to a gradual increase of atmospheric carbon dioxide</title>
+      <periodical number="342" pages="660-662">Nature</periodical>
+      <url>http://rda.ucar.edu/datasets/ds318.1/docs/stouffer_etal_1989.pdf</url>
+   </reference>
+   <publicationDate>1993-12-09</publicationDate>
+   <contentMetadata>
+      <temporal start="9998" end="9998" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="1" unit="month" statistics="mean"/>
+      <temporalFrequency type="climatology" unit="month"/>
+      <temporalFrequency type="climatology" unit="winter"/>
+      <temporalFrequency type="climatology" unit="spring"/>
+      <temporalFrequency type="climatology" unit="summer"/>
+      <temporalFrequency type="climatology" unit="autumn"/>
+      <temporalFrequency type="climatology" unit="year"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Sigma level" value="0.025" units="sigma"/>
+         <level type="Sigma level" value="0.095" units="sigma"/>
+         <level type="Sigma level" value="0.205" units="sigma"/>
+         <level type="Sigma level" value="0.35" units="sigma"/>
+         <level type="Sigma level" value="0.515" units="sigma"/>
+         <level type="Sigma level" value="0.68" units="sigma"/>
+         <level type="Sigma level" value="0.83" units="sigma"/>
+         <level type="Sigma level" value="0.94" units="sigma"/>
+         <level type="Sigma level" value="0.99" units="sigma"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="96"
+               numY="80"
+               startLon="0E"
+               startLat="88.2883S"
+               endLon="356.25E"
+               endLat="88.2883N"
+               xRes="3.75"/>
+         <grid definition="gaussLatLon"
+               numX="48"
+               numY="40"
+               startLon="0E"
+               startLat="86.598S"
+               endLon="352.5E"
+               endLat="86.598N"
+               xRes="7.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

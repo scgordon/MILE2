@@ -1,0 +1,621 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-nwt.34.8" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1    http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=NWT,o=lter,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+<dataset scope="document">
+	<title>Snow depth data for saddle snowfence, 1992 - ongoing.</title>
+	<creator>
+		<individualName>
+			<salutation>Dr.</salutation>
+			<givenName>Donald (Skip)</givenName>
+			<surName>Walker</surName>
+		</individualName>
+		<address>
+	<deliveryPoint>Institute of Arctic Biology</deliveryPoint>
+	<deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+	<deliveryPoint>311 Irving</deliveryPoint>
+	<deliveryPoint>PO Box 757000</deliveryPoint>
+	<city>Fairbanks</city>
+	<administrativeArea>Alaska</administrativeArea>
+ <postalCode>99775-6780</postalCode>
+	<country>UNITED STATES</country>
+</address>
+		<phone phonetype="business">(907)474-2460</phone>
+	</creator>
+	<metadataProvider>
+		<organizationName>Niwot Ridge LTER</organizationName>
+		<positionName>Information Manager</positionName>
+		<address>
+		<deliveryPoint>INSTAAR, University of Colorado</deliveryPoint>
+		<deliveryPoint>1560 30th Street</deliveryPoint>
+		<deliveryPoint>UCB 450</deliveryPoint>
+		<city>Boulder</city>
+		<administrativeArea>CO</administrativeArea>
+		<postalCode>80309-0450</postalCode>
+		<country>USA</country>
+	</address>
+		<phone phonetype="voice">303-492-2594</phone> 
+		<electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+		<onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+	</metadataProvider>
+	<associatedParty id="12010" scope="system" system="FLS"> 
+		<individualName>
+			<givenName>Hope</givenName>
+			<surName>Humphries</surName> 
+		</individualName> 
+		<address>
+		<deliveryPoint>INSTAAR, University of Colorado</deliveryPoint> 
+		<deliveryPoint>1560 30th Street</deliveryPoint> 
+		<deliveryPoint>UCB 450</deliveryPoint> 
+		<city>Boulder</city> 
+		<administrativeArea>CO</administrativeArea> 
+		<postalCode>80309-0450</postalCode>
+	</address> 
+		<phone phonetype="voice">(303) 492-2594</phone> 
+		<electronicMailAddress>hope.humphries@colorado.edu</electronicMailAddress>
+		<role>Data Contact</role> 
+	</associatedParty>
+	<associatedParty id="12020" scope="system" system="FLS"> 
+		<organizationName>Niwot Ridge LTER</organizationName>
+		<positionName>Information Manager</positionName>
+		<address>
+		<deliveryPoint>INSTAAR, University of Colorado</deliveryPoint>
+		<deliveryPoint>1560 30th Street</deliveryPoint>
+		<deliveryPoint>UCB 450</deliveryPoint>
+		<city>Boulder</city>
+		<administrativeArea>CO</administrativeArea>
+		<postalCode>80309-0450</postalCode>
+		<country>USA</country>
+	</address>
+		<phone phonetype="voice">303-492-2594</phone> 
+		<electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+		<onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+		<role>Data Contact</role> 
+	</associatedParty>
+<pubDate>1993</pubDate>
+<abstract>
+<para>
+	A snowfence was built in 1993 on the Niwot Ridge Saddle grid 
+	to determine the effects of changes in snowpack on a number of variables. The 
+	study area was 60m x 125m. Snow depths were measured at each of 147 points 
+	within the snowfence experiment area and at 6 control locations outside of but 
+	near the snowfence experiment area. Of the 147 points, 84 were located on the 
+	leeward (east) side of the snowfence, 56 were located on the windward (west)
+	side of the snowfence, and 7 were located along the snowfence itself. These 
+	measurements were made weekly to biweekly. Sampling locations were each 
+	given a unique point indentification number in order that these data could 
+	be incorporated into the Saddle GIS. The snowfence was oriented in a 
+	north/south direction and was 60 m long. Each of the point identification 
+	numbers had a coordinate within the experiment area. The first number of 
+	the coordinate was the distance in m from the snowfence in an east/west 
+	direction, negative numbers being west of the snowfence and positive 
+	numbers being east of the fence. The second number in the coordinate 
+	was the distance in m from the southern terminus of the snowfence in 
+	a northerly direction. Point identification numbers and coordinates for 
+	the windward drift were: 200 (-40,0), 201 (-40,10), 202 (-40,20), 
+	203 (-40,30), 204 (-40,40), 205 (-40,50), 206 (-40,60), 207 (-35,0), 
+	208 (-35,10), 209 (-35,20), 210 (-35,30), 211 (-35,40), 212 (-35,50), 
+	213 (-35,60), 214 (-30,0), 215 (-30,10), 216 (-30,20), 217 (-30,30), 
+	218 (-30,40), 219 (-30,50), 220 (-30,60), 221 (-25,0), 222 (-25,10), 
+	223 (-25,20), 224 (-25,30), 225 (-25,40), 226 (-25,50), 227 (-25,60), 
+	228 (-20,0), 229 (-20,10), 230 (-20,20), 231 (-20,30), 232 (-20,40), 
+	233 (-20,50), 234 (-20,60), 235 (-15,0), 236 (-15,10), 237 (-15,20), 
+	238 (-15,30), 239 (-15,40), 240 (-15,50), 241 (-15,60), 242 (-10,0), 
+	243 (-10,10), 244 (-10,20), 245 (-10,30), 246 (-10,40), 247 (-10,50), 
+	248 (-10,60), 249 (-5,0), 250 (-5,10), 251 (-5,20), 252 (-5,30), 
+	253 (-5,40), 254 (-5,50), 255 (-5,60). Point identification numbers 
+	and coordinates for the leeward drift were: 256 (5,0), 257 (5,10), 
+	258 (5,20), 259 (5,30), 260 (5,40), 261 (5,50), 262 (5,60), 263 (10,0), 
+	264 (10,10), 265 (10,20), 266 (10,30), 267 (10,40), 268 (10,50), 
+	269 (10,60), 270 (15,0), 271 (15,10), 272 (15,20), 273 (15,30), 
+	274 (15,40), 275 (15,50), 276 (15,60), 278 (20,0), 279 (20,10),
+	280 (20,20), 281 (20,30), 282 (20,40), 283 (20,50), 284 (20,60), 
+	285 (25,0), 286 (25,10), 287 (25,20), 288 (25,30), 289 (25,40), 
+	290 (25,50), 291 (25,60), 292 (30,0), 293 (30,10), 294 (30,20), 
+	295 (30,30), 296 (30,40), 297 (30,50), 298 (30,60), 299 (35,60), 
+	300 (35,10), 301 (35,20), 302 (35,30), 303 (35,40), 304 (35,50), 
+	305 (35,0), 306 (40,0), 307 (40,10), 308 (40,20), 309 (40,30), 
+	310 (40,40), 311 (40,50), 312 (40,60), 313 (45,0), 314 (45,10), 
+	315 (45,20), 316 (45,30), 317 (45,40), 318 (45,50), 319 (45,60), 
+	320 (50,0), 321 (50,10), 322 (50,20), 323 (50,30), 324 (50,40), 
+	325 (50,50), 326 (50,60), 327 (55,0), 328 (55,10), 329 (55,20), 
+	330 (55,30), 331 (55,40), 332 (55,50), 333 (55,60), 334 (60,0), 
+	335 (60,10), 336 (60,20), 337 (60,30), 338 (60,40), 339 (60,50), 
+	340 (60,60). Point identification numbers and coordinates for
+	the points directly along the fence were: 341 (0,0), 342 (0,10), 
+	343 (0,20), 344 (0,30), 345 (0,40), 346 (0,50), 346 (0,60). Point 
+	identification numbers and locations for the control points were: 
+	113 (approximately 10 m south of the -30,0 coordinate) in the 
+	Acomastylidetum rossii vegetation association, 114 (approximately 
+	11 m south of the -25,0 coordinate) in the Acomastylidetum rossii 
+	vegetation association, 115 (approximately 8 m south of the 55,0
+	coordinate) in the Kobresietum myosuroidis vegetation association, 
+	116 (approximately 5 m north of the 50,60 coordinate) in the Kobresietum 
+	myosuroidis vegetation association, 117 (approximately 3 m north of the 
+	-23,60 coordinate) in the Rhodiolo integrifoliae vegetation association, 
+	118 (approximately 5 m north of the -21,60 coordinate) in the Rhodiolo 
+	integrifoliae vegetation association. Control points are indicated by a
+	'C' in column 2.</para>
+	<para>NOTE: This LTER data portal display does not contain important maintenance/log information. 
+		Please be sure to view the EML file (a text file that contains XML tags) which is included in 
+		the zip archive (click on "Download zip archive") for legacy maintenance/log information 
+		pertaining to each dataset. The EML file name will have the following format:
+		knb-lter-nwt.[3 digit dataset number].[version number].xml. Most web browsers can 
+		parse the EML so it's easier to read. Scroll down to the "maintenance" tag.</para>
+</abstract>
+<keywordSet>
+	<keyword>snow depth</keyword>
+	<keyword>snow pack</keyword>
+	<keyword>snow accumulation</keyword>
+	<keyword>windward drift</keyword>
+	<keyword>leeward drift</keyword>
+	<keyword>control plot</keyword>
+	<keyword>altered snow regime</keyword>
+	<keyword>snowfence</keyword>
+	<keyword>saddle grid</keyword>
+	<keyword>climatology</keyword>
+	<keyword>meteorology</keyword>
+	<keyword>hydrology</keyword>
+	<keyword>snow effects</keyword>
+	<keyword>disturbance</keyword>
+	<keyword>Niwot Ridge LTER</keyword>
+	<keyword>NWT</keyword>
+</keywordSet>
+	<intellectualRights>
+		<section>
+			<title>Niwot LTER Data Policy</title>
+			<para> The following acknowledgment should accompany any publication or 
+				citation of these data: <itemizedlist>
+					<listitem>
+						<para> Logistical support and/or data were provided by the 
+							NSF-supported Niwot Ridge (NWT) Long-Term Ecological Research (LTER) 
+							project and the University of Colorado (CU) Mountain Research Station (MRS). </para>
+					</listitem>
+					<listitem>
+						<para> The user of NWT LTER data agrees to provide proper 
+							acknowledgment with each usage of the data. Citation of 
+							the name(s) of the investigator(s) responsible for the 
+							data set, in addition to the generic statement above, 
+							constitutes proper acknowledgment. Author(s) (including NWT investigators) 
+							of published material that makes use of previously unpublished 
+							NWT data agree to provide the NWT data manager with a PDF of 
+							that material as soon as it becomes available. The user of NWT 
+							data agrees not to resell or redistribute shared data.</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</section>
+		<section>
+			<title>Disclaimer</title>
+			<para> The NSF-supported NWT LTER project shall not be held liable for 
+				improper or incorrect use of the data described and/or contained 
+				herein, nor assumes liability for misuse, manipulation or distribution 
+				of the data. These data  
+				are not legal documents and are not intended to be used as such. 
+				The information contained in these data is dynamic and may change 
+				over time. The user of these data should be aware that, 
+				while efforts have been taken to ensure that these data are of the 
+				highest quality, there is no guarantee of perfection for the data 
+				contained herein and the possibility of errors exists. It is the 
+				responsibility of the data user to use the data appropriately and 
+				in a manner consistent with the limitations of data in 
+				general and these data in particular. Users assume responsibility 
+				to determine the usability of the dataset. NWT LTER gives no warranty, expressed or implied, as to 
+				the accuracy, reliability, or completeness of these data. It is 
+				strongly recommended that these data be directly acquired from 
+				the NWT LTER server and not indirectly through other sources 
+				that may have changed the data in some way. Although these data 
+				have been processed successfully on computer systems at CU, no 
+				warranty expressed or implied is made regarding the utility of 
+				the data on other systems for general or scientific purposes, 
+				nor shall the act of distribution constitute any such warranty. 
+				This disclaimer applies both to individual use of the data and 
+				aggregate use with other data.  </para>
+		</section>
+	</intellectualRights>
+<distribution scope="document">
+	<online>
+		<url function="download">http://niwot.colorado.edu/data_csvs/snfcsnow.dw.data.csv</url>
+	</online>
+</distribution>
+<coverage scope="document">
+<temporalCoverage scope="document">
+<rangeOfDates>
+<beginDate>
+<calendarDate>1992-10-30</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2012-11-27</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage scope="document">
+	<geographicDescription>The southern terminus of the 60-m fence is to be 25 m west of
+		Saddle grid stake #28 and 25 m east of Saddle grid stake #27; the snowfence
+		study area thus included or touched Saddle grid stakes #27, 28, 29, 37, 38, 
+		and 39. Original data are stored in Research Laboratory #3.
+	</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-105.643  </westBoundingCoordinate>
+<eastBoundingCoordinate>-105.3753 </eastBoundingCoordinate>
+<northBoundingCoordinate>40.0615   </northBoundingCoordinate>
+<southBoundingCoordinate>39.9932   </southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<maintenance>
+<description>
+<para>
+	The documentation for this file was created by Susan Kindig in May of 1993,
+	with additional information being supplied by Rick Ingersoll and Brad
+	Lewis. Data for 30 October 1992 to 7 May 1993 were added to the data
+	section at this time and the file was placed under sccs control.
+	[RCI 2 June 1993] Data for 29 May 1993 were appended on 2 June 1993.
+	[RCI 2 June 1993] All data beginning 30 October 1992 were double-
+	entered using EasyEntry programs (see "The Management of NWT LTER Data
+	on the PC") and then processed on a Sun SPARC 2 (see "The Management of
+	NWT LTER Data on culter").[RCI 14 June 1993] Data for 22 June 1993 
+	were appended to the data section on 29 June 1993.[RCI 29 June 1993]
+	Data for 2 and 19 July 1993 were appended to the data section on 
+	23 July 1993.[RCI 23 July 1993] Data for 30 July 1993 were appended to the
+	data section on 27 August 1993.[RCI 27 August 1993] Data for 2 
+	November 1993 were appended to the data section on 4 November 1993.
+	[RCI 4 November 1993] Data for 20 November 1993 were appended to the 
+	data section on 23 November 1993.[RCI 23 November 1993] Data for 11
+	December 1993 were appended to the data section on 14 December 1993.
+	[RCI 14 December 1993] Data for 30 December 1993 were appended to the
+	data section on 7 January 1994.[RCI 7 January 1994] Data for 15 January
+	1994 were appended to the data section on 28 January 1994.[RCI 28
+	January 1994] Data for 3 and 4 February 1994 were appended to the
+	data section on 8 February 1994.[RCI 8 February 1994] Data for 26
+	February and 17 March 1994 were appended to the data section on
+	5 April 1994.[RCI 5 April 1994] Data for 18 April 1994 were appended
+	to the data section on 29 April 1994.[RCI 29 April 1994] The snow
+	depth for point identification number 263 on 2 November 1993 was changed
+	from 290 cm to 115 cm (because the original measurement had been in cm
+	but had been thought to be in inches) on 16 May 1994.[RCI 16 May 1994]
+	Data for 9 April 1994 were inserted into the data section on 18 May
+	1994.[RCI 18 May 1994] Data for 2 June 1994 were appended to the 
+	data section on 7 June 1994.[RCI 7 June 1994] The locations of the
+	point identification codes 117 and 118 were transposed as originally
+	provided. This error was pointed out by Brad Lewis on 24 August 1994
+	and the location codes in the comments section were corrected on that
+	date.[RCI 24 August 1994] Data for 25 August 1994 were appended to
+	the data section on 26 August 1994.[RCI 26 August 1994] Data for
+	14 May 1994 were inserted into the data section on 1 September 1994.
+	[RCI 1 September 1994] Data for 27 October 1994 were appended to the
+	data section on 7 November 1994.[RCI 7 November 1994] Data for 4
+	November 1994 were appended to the data section on 10 November 1994.
+	[RCI 10 November 1994] Data for 11 and 17 1994 November were appended 
+	to the data section on 29 November 1994.[RCI 29 November 1994] 
+	Data for 30 November and 7 December 1994 were appended to the data
+	section on 14 December 1994.[RCI 14 December 1994] Data for 15 December
+	1994 were appended to the data section on 19 December 1994.[RCI 19
+	December 1994] Data for 21 December 1994 were appended to the data
+	section on 4 January 1995.[RCI 4 January 1995] Data for 30 December 
+	1994 were appended to the data section on 17 January 1995.[RCI 17
+	January 1995] Data for 5 and 13 January 1995 were appended to the
+	data section on 20 January 1995.[RCI 20 January 1995] Data for 19 
+	January 1995 were appended to the data section on 23 January 1995.
+	[RCI 23 January 1995] Data for 26 January and 3 February 1995 were
+	appended to the data section on 8 February 1995.[RCI 8 February
+	1995] Data for 16 February 1995 were appended to the data section on
+	27 February 1995.[RCI 27 February 1995] Data for 23 February 1995
+	were appended to the data section on 1 March 1995.[RCI 1 March 1995]
+	Data for 2 and 9 March 1995 were appended to the data section on 13 
+	March 1995.[13 March 1995] Data for 23 March 1995 were appended to
+	the data section on 4 April 1995.[RCI 4 April 1995] Data for 30 March
+	1995 were appended to the data section on 6 April 1995.[RCI 6 April 
+	1995] Data for 17 April 1995 were appended to the data section on 25 
+	April 1995.[RCI 25 April 1995] Data for 28 April 1995 were appended 
+	to the data section on 5 May 1995.[RCI 28 April 1995] Data for 12
+	May 1995 were appended to the data section on 17 May 1995.[RCI 17 May
+	1995] Data for 19 May 1995 were appended to the data section on 23
+	May 1995.[RCI 23 May 1995] Data for 2 June 1995 were appended to the
+	data section on 6 June 1995.[RCI 6 June 1995] Data for 5 June 1995
+	were appended to the data section on 7 June 1995.[RCI 7 June 1995]
+	Data for 12 June 1995 were appended to the data section on 15 June
+	1995.[RCI 15 June 1995] Data for 15 and 23 June 1995 were appended
+	to the data section on 3 July 1995.[RCI 3 July 1995] Data for 30
+	June 1995 were appended to the data section on 7 July 1995.[RCI 7
+	July 1995] Data for 7, 11, and 17 July 1995 were appended to the
+	data section on 19 July 1995.[RCI 19 July 1995] Data for 26 July
+	1995 were appended to the data section on 9 August 1995.[MAH 9
+	August 1995] A comment from the 26 July 1995 hard copy data form
+	was added to the comments section on 10 August 1995.[MAH 10 August
+	1995] Data for 24 July and 22 August 1995 were appended to the
+	data section on 1 September 1995.[MAH 1 September 1995] Data for
+	14 September 1995 and 01 October 1995 were appended to the data 
+	section on 20 October 1995.[MAH 20 October 1995] Data for 29 December
+	1995, and for 10 and 17 January 1996 were appended to the data
+	section, and the missing value indicator listed in the header section
+	for column 3 was changed to 999 on 23 January 1996.[MAH 23 January
+	1996] Data for 21 January 1996 were appended to the data section
+	on 8 February 1996.[MAH 8 February 1996] Data for 21 February 1996
+	were appended to the data section on 5 March 1996.[MAH 5 March 1996]
+	Data for 28 February 1996 were appended to the data section on 13
+	March 1996.[MAH 13 March 1996] Data for 13 March 1996 were appended
+	to the data section on 20 March 1996.[MAH 20 March 1996] The references
+	to Walker et al. (1994) and Brooks et al. (1995) were added to the 
+	citations section on 2 May 1996.[MAH 2 May 1996] Comments regarding
+	routine measurements along the snowfence were added to the abstract
+	and comment sections, and data for 27 March 1996 and 3 April 1996
+	were appended to the data section on 9 May 1996. Also, it was discovered
+	by data management personnel that all records for coordinates -15,40 
+	were incorrectly listed with the point identification number of 238
+	instead of 239. A script to correct the error was run on the data, and the 
+	corrected data were used to replace the erroneous data on 9 May 1996.[MAH
+	9 May 1996] Data for 7 and 22 May 1996 were appended to the data section
+	on 29 May 1996.[MAH 29 May 1996] Data for 7 and 14 June 1996 were appended
+	to the data section on 2 July 1996.[MAH 2 July 1996] Data for 3 and 10
+	July were appended to the data section on 22 July 1996.[MAH 22 July 1996]
+	Data for 26 June 1996 were inserted to the data section, and data for
+	16, 24, and 30 July 1996 were appended to the data section on 18 October
+	1996.[MAH 18 October 1996] Data for 3 and 18 October 1996 were appended 
+	to the data section on 12 November 1996.[MAH 12 November 1996] Data for
+	28 October 1996 were appended to the data section on 20 November 1996.[MAH
+	20 November 1996] Data for 21 November 1996 were appended to the data section
+	on 16 December 1996.[MAH 16 December 1996] Data for 28 January 1996, 14
+	February 1996, 11 and 30 December 1996, 16 and 23 January 1997, and 5
+	February 1997 were inserted and/or appended to the data section on 13 
+	February 1997.[MAH 13 February 1997] Data for 13 February 1997 were appended
+	to the data section on 24 February 1997.[MAH 24 February 1997] Data for 7 
+	March 1997 were appended to the data section on 26 March 1997.[MAH 26 March 
+	1997] Data for 29 April 1997 were appended to the data section on 7 May
+	1997.[MAH 7 May 1997] Data for 12 May 1997 were appended to the data section
+	on 9 June 1997.[MAH 9 June 1997] Data for 21 May 1997 were appended to the
+	data section on 26 June 1997.[MAH 26 June 1997] Data for 26 June 1997 were
+	appended to the data section on 12 September 1997.[MAH 12 September 1997]
+	Data for 29 October 1997 were appended to the data section on 26 November
+	1997.[MAH 26 November1997] Data for 29 October 1997, 10 and 25 November 1997, 
+	4 December 1997, and 2 January 1998 were appended to the data section on 14 
+	January 1998.[MAH 14 January 1998] Data for 21 March, 5 April, 29 May, 9 and
+	19 June, 7 July, and 19 December 1997, and 9 January 1998 were inserted into
+	the data section on 17 February 1998.[MAH 17 February 1998] Data for 17 March
+	1998 were appended to the data section on 7 April 1998.[MAH 7 April 1998] Data
+	for 9 April 1998 were appended to the data section on 12 June 1998.[MAH 12
+	June 1998] Data for 18 and 27 May 1998 were appended to the data section on
+	17 June 1998.[MAH 17 June 1998] Data for 26 June 1998 were appended to the data
+	section on 6 October 1998.[MAH 6 October 1998] Data for 14 July 1998, 17 November
+	1998, 01 and 15 December 1998, 19 January 1999, and 01 February 1999 were
+	appended to the data section on 26 February 1999.[MAH 26 February 1999] Data
+	for 15 and 24 February 1999 were appended to the data section on 25 March
+	1999.[MAH 25 March 1999]. Data for 19 April, 29 April, 01 June, 24 June, 30
+	June, and 02 December 1999, as well as 20 January, 15 February, 24 February,
+	18 April, 10 May, 30 May, and 09 June 2000 were appended to the data section
+	on 19 July 2000.[MAH 19 July 2000] Data for 29 March 1999 as well as the
+	control points for 1 December 1999 were inserted into the data section on 21
+	September 2000.[MAH 21 September 2000] Data for 27 December 1999 as well as
+	the control points were inserted into the data section on 5 February 
+	2001.[TMA 5 February 2001] Control point data for 17 November 1998 and 15 
+	December 1998 were inserted into the data section on 28 February 2001.[TMA
+	28 February 2001]  Data for the period 13 December 2000 to 25 June 2001
+	were appended to the data section along with the control point data on 
+	30 July 2001.[TMA 30 July 2001] Point data and Control Point data for 10 
+	December 2001 were appended to the data section on 12 February 2002.[TMA
+	12 February 2002] Point data and Control Point data for the period 17 January
+	2002 to 19 February 2002 were appended to the data section on 25 March 2002.
+	[TMA 25 March 2001] Data for 21 March through 17 June 2002 were appended
+	to the data section.[TMA 25 September 2002] Data for 11 November 2002 through
+	13 February 2003 were appended to the data section.[TMA 25 March 2003] Data
+	for 13 March 2003 were appended to the data section.[TMA 21 April 2003]
+	Data for 3 April through 22 December 2003 were appended to the data section.
+	[TMA 6 February 2004] Data for 10 February 2004 through 01 June 2004 were
+	appended to the data section.[TMA 19 January 2005] Data for 14 June 2004 through
+	19 April 2005 were appended to the data section.[TMA 20 May 2005] Data for 26
+	May 2005 through 06 March 2006 were appended to the data section.[TMA 22 May
+	2007]. Data for 26 January 2005 were inserted and 31 March 2006 through 12 April
+	2007 were appended to the data section.[TMA 22 May 2007] Data for 20 April through
+	25 October 2007 were appended to the data section.[TMA 05 June 2008] 
+	Data for January through December 2008 were appended to the data section.
+	[HCH 09 March 2009] Data for 20 January 2009 through 25 May 2010 were appended
+	to the data section. All data were edited to reformat the date to yyyy/mm/dd
+	and a column was added to indicate control points as a 'C'.[HCH 09 April 2012]
+	Title, keywords, comments, cols, and data format edited.[HCH 06 July 2013]
+</para>
+	<para>begin 30 October 1992, ongoing, weekly to biweekly.</para>
+</description>
+</maintenance>
+	<contact>
+		<organizationName>Niwot Ridge LTER</organizationName>
+		<positionName>Information Manager</positionName>
+		<address>
+<deliveryPoint>Institute of Arctic and Alpine Research (INSTAAR)</deliveryPoint>
+<deliveryPoint>University of Colorado</deliveryPoint>
+<deliveryPoint>1560 30th Street</deliveryPoint>
+<deliveryPoint>UCB 450</deliveryPoint>
+<city>Boulder</city>
+<administrativeArea>CO</administrativeArea>
+<postalCode>80309-0450</postalCode>
+<country>USA</country>
+</address>
+		<phone phonetype="voice">303-492-2594</phone> 
+		<electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+		<onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+	</contact>
+	<publisher>
+		<organizationName>Niwot Ridge LTER</organizationName>
+		<positionName>Information Manager</positionName>
+		<address>
+<deliveryPoint>Institute of Arctic and Alpine Research (INSTAAR)</deliveryPoint>
+<deliveryPoint>University of Colorado</deliveryPoint>
+<deliveryPoint>1560 30th Street</deliveryPoint>
+<deliveryPoint>UCB 450</deliveryPoint>
+<city>Boulder</city>
+<administrativeArea>CO</administrativeArea>
+<postalCode>80309-0450</postalCode>
+<country>USA</country>
+</address>
+		<phone phonetype="voice">303-492-2594</phone> 
+		<electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+		<onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+	</publisher>
+	<methods>
+		<methodStep>
+			<description>
+				<para>Citations:</para>
+				<para>Walker, D.A., B.E. Lewis, W.B. Krantz, E.T. Price, and 
+					R.D. Tabler. 1994. Hierarchic studies of snow-ecosystem interactions: 
+					A 100-year snow-alteration experiment. Pp. 407-414 In: Ferrik, M. (ed.). 
+					Proceedings of the Fiftieth Annual Eastern and Western Snow Conference, 
+					Quebec City, Quebec, Canada, 8-10 June 1993. 441 pp.</para>
+				<para>Brooks, P.D., M. W. Williams, D. A. Walker, and S. K. Schmidt. 1995. 
+					The Niwot Ridge snow fence experiment: Biogeochemical responses to changes 
+					in the seasonal snowpack. Pp. 293-302 In Tonnessen, K. A., M. W. Williams, 
+					and M. Tranter (eds.). Biogeochemistry of Seasonally Snow Covered Basins. 
+					International Association of Hydrological Sciences, Wallingford, UK, IAHS-AIHS 
+					Publication no. 228. 465 pp.</para>
+				<section>
+					<para>Snow depth measurements at the control points were not
+						initiated until 9 January 1993.</para><para>
+						Prior to the spring of 1995, two distinct lenticular drifts formed,
+						a large leeward and a smaller windward drift. As a result of the
+						unusually heavy snows during the spring of 1995, these two drifts
+						actually merged to form a single large drift that engulfed the 
+						snowfence itself. Consequently snow depths were recorded at the
+						fence during the spring of 1995, and these measurements were originally
+						listed in the comments section of this file. In the spring of
+						1996 it was determined that measurements should be routinely taken
+						along the snowfence. The entry and processing programs were changed
+						accordingly and the 1995 snow depths were inserted into the data section. 
+						The hard copy data form for 26 July 1995 contained the following
+						comment written by Lee Turner "Put down 26 July 95 as the last day
+						with any snow in the snowfence area".</para><para>
+						The hard copy data form for 31 January 1996 contained the following
+						comment written by Lee Turner "snow fell with no wind, 30" of fresh
+						powder".</para><para>
+						Notes on the hard copy data form for 28 January 1996 indicated that
+						an ice lens was present at coordinates 10,40 (ID #267) and 20,40 
+						(ID #282).</para><para>
+						A note on the hard copy data form for 14 February 1996 indicated 
+						that the measurements at coordinates 20,60 (ID #284), 20,50 (ID #283), 
+						and 20,40 (ID #282) may not be correct. After consultation with L. Turner 
+						it was determined that there may have been an ice lens at those coordinates.
+						A note on the hard copy data form for 7 July 1997 indicated that the 
+						fence drift had melted out 100% on 7 July 1997.</para>
+				</section>
+			</description>
+		</methodStep>
+	</methods>
+<dataTable scope="document">
+<entityName>snfcsnow.dw.data.csv</entityName>
+	<entityDescription>Snow depth data for saddle snowfence, 1992 - ongoing. </entityDescription>
+<physical scope="document">
+<objectName>snfcsnow.dw.data.csv</objectName>
+<dataFormat>
+<textFormat>
+	<numHeaderLines>1</numHeaderLines>
+	<numFooterLines>0</numFooterLines>
+	<recordDelimiter>\r</recordDelimiter>
+	<attributeOrientation>column</attributeOrientation>
+	<simpleDelimited>
+		<fieldDelimiter>,</fieldDelimiter>
+		<quoteCharacter>"</quoteCharacter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+	<distribution> 
+		<online>
+			<url function="download">http://niwot.colorado.edu/data_csvs/snfcsnow.dw.data.csv</url> 
+		</online>
+	</distribution>
+</physical>
+<attributeList>
+	<attribute>
+		<attributeName>point identification number</attributeName>
+		<attributeLabel>point identification number</attributeLabel>
+		<attributeDefinition>point identification number</attributeDefinition>
+		<storageType>integer</storageType>
+		<measurementScale>
+			<ratio>
+				<unit>
+					<standardUnit>dimensionless</standardUnit>
+				</unit>
+				<numericDomain>
+					<numberType>integer</numberType>
+					<bounds>
+						<minimum exclusive="false">113</minimum>
+						<maximum exclusive="false">347</maximum>
+					</bounds>
+				</numericDomain>
+			</ratio>
+		</measurementScale>
+		<missingValueCode>
+			<code>NaN</code>
+			<codeExplanation>missing</codeExplanation>
+		</missingValueCode>
+	</attribute>
+	<attribute>
+		<attributeName>control point</attributeName>
+		<attributeLabel>control point</attributeLabel>
+		<attributeDefinition>control point</attributeDefinition>
+		<storageType>string</storageType>
+		<measurementScale>
+			<nominal>
+				<nonNumericDomain>
+					<textDomain>
+						<definition>control point</definition>
+					</textDomain>
+				</nonNumericDomain>
+			</nominal>
+		</measurementScale>
+		<missingValueCode>
+			<code>NaN</code>
+			<codeExplanation>missing</codeExplanation>
+		</missingValueCode>
+	</attribute>
+	<attribute>
+		<attributeName>date</attributeName>
+		<attributeLabel>date</attributeLabel>
+		<attributeDefinition>date</attributeDefinition>
+		<storageType>date</storageType>
+		<measurementScale>
+			<dateTime>
+				<formatString>YYYY-MM-DD</formatString>
+				<dateTimePrecision>1</dateTimePrecision>
+				<dateTimeDomain>
+					<bounds>
+						<minimum exclusive="false">1992-10-30</minimum>
+					</bounds>
+				</dateTimeDomain>
+			</dateTime>
+		</measurementScale>
+		<missingValueCode>
+			<code>NaN</code>
+			<codeExplanation>missing</codeExplanation>
+		</missingValueCode>
+	</attribute>
+	<attribute>
+		<attributeName>snow depth</attributeName>
+		<attributeLabel>snow depth</attributeLabel>
+		<attributeDefinition>snow depth</attributeDefinition>
+		<storageType>integer</storageType>
+		<measurementScale>
+			<ratio>
+				<unit>
+					<standardUnit>centimeter</standardUnit>
+				</unit>
+				<numericDomain>
+					<numberType>integer</numberType>
+					<bounds>
+						<minimum exclusive="false">000</minimum>
+					</bounds>
+				</numericDomain>
+			</ratio>
+		</measurementScale>
+		<missingValueCode>
+			<code>NaN</code>
+			<codeExplanation>missing</codeExplanation>
+		</missingValueCode>
+	</attribute>
+</attributeList>
+</dataTable>
+</dataset>
+</eml:eml>

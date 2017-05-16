@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Robert P. Kucks</origin>
+            <pubdate>1999</pubdate>
+            <title>Isostatic residual gravity anomaly data grid for the conterminous US</title>
+            <onlink>http://mrdata.usgs.gov/services/gravity?request=getcapabilities&amp;service=WMS&amp;version=1.1.1&amp;</onlink>
+            <lworkcit>
+               <citeinfo>
+                  <origin>Phillips, Jeffrey D.</origin>
+                  <origin>Duval, Joseph S.</origin>
+                  <origin>Ambroziak, Russell A.</origin>
+                  <title>National geophysical data grids; gamma-ray, gravity, magnetic
+and topographic data for the conterminous United States</title>
+                  <pubdate>1993</pubdate>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Digital Data Series</sername>
+                     <issue>DDS-9</issue>
+                  </serinfo>
+                  <onlink>http://pubs.er.usgs.gov/publication/ds9</onlink>
+               </citeinfo>
+            </lworkcit>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>The grid of isostatic residual gravity anomaly data was produced
+from the grid of Bouguer gravity anomaly data (see Bouguer gravity
+metadata) by using an Airy-Heiskanen compensation model with three
+parameters. The depth to the compensating root at sea level was
+chosen to be 30 km. The density contrast across the root was chosen
+to be 0.35 grams per cubic centimeter, and the the density of the
+topography was chosen to be 2.67 grams per cubic centimeter.</abstract>
+         <supplinf>Digital Data Series DDS-9 (CD-ROM) contains gridded geophysical
+data (isostatic gravity anomaly data only defined here) images
+generated from the data, software for displaying and analyzing
+the images, software for processing potential-field geophysical
+data, and documentation files that describe the data and
+software.</supplinf>
+         <purpose>Isostatic residual gravity anomaly maps are produced by subtracting
+long-wavelength anomalies produced by masses deep within the crust
+or mantle from the Bouguer anomaly map. The long-wavelength anomalies
+are assumed to result from isostatic compensation of topographic loads.
+Isostatic residual gravity anomaly maps therefore reveal more clearly
+than Bouguer gravity anomaly maps the density distributions within
+the upper crust that are of interest in many geologic and tectonic
+studies.</purpose>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>1998</begdate>
+               <enddate>1999</enddate>
+            </rngdates>
+         </timeinfo>
+         <current>reprocessing for SDD website</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-125</westbc>
+            <eastbc>-65</eastbc>
+            <northbc>49</northbc>
+            <southbc>25</southbc>
+         </bounding>
+      </spdom>
+      <accconst>None</accconst>
+      <useconst>None</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Robert P. Kucks</cntper>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>Box 25046, MS 964
+Denver Federal Center</address>
+               <city>Denver</city>
+               <state>CO</state>
+               <postal>80225-0046</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>(303) 236-1405</cntvoice>
+            <cntemail>rkucks@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <datacred>The compilation of onshore data consisted of nearly one million
+Bouguer gravity anomaly values computed by using a reduction
+density of 2.67 grams per cubic centimeter. The offshore
+data consisted of approximately 800,000 free-air gravity
+anomaly values. The isostatic calculation was produced from these
+data
+USGS employees: Simpson and Jachens</datacred>
+      <native>At the USGS, these data are stored in several binary gridded data
+formats on UNIX and PC systems.  Data have been distributed in
+GEOSOFT GXF (an ASCII interchange format), Arc/Info export (e00),
+and ER Mapper binary format.</native>
+      <keywords>
+         <theme>
+            <themekt>none</themekt>
+            <themekey>gravity, Bouguer, isostatic</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Categories</themekt>
+            <themekey>geoscientificInformation</themekey>
+         </theme>
+         <theme>
+            <themekt>NGDA Portfolio Themes</themekt>
+            <themekey>Geology</themekey>
+         </theme>
+         <place>
+            <placekt>none</placekt>
+            <placekey>United States</placekey>
+         </place>
+      </keywords>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>Initially the accuracy of the gravity anomaly value for each station
+is critical.  Choices of the parameters used to calculate isostatic
+gravity are dependent on the geologic and tectonic setting and are
+subject to the discretion of the person carrying out the calculations.
+Gravity measurements made on the surface of the Earth must be
+corrected in various way before they can be made into an anomaly
+map. The free-air correction reduces the measurement to sea
+level by assuming there is no intervening mass as a uniform slab
+of constant density, and the complete Bouguer correction includes
+the effects of constant density topography within 166.7 km of the
+measurement location. A gravity reference field is subtracted
+from the corrected measurements to produce the free-air, simple
+Bouguer, or complete Bouguer anomaly. The data set constitutes
+many years of individual collection of gravity stations and
+therefore is difficult to access the precise accuracy.</attraccr>
+         <qattracc>
+            <attraccv>overall station accuracy of less than 2 milligals</attraccv>
+         </qattracc>
+      </attracc>
+      <posacc>
+         <horizpa>
+            <horizpar>Earlier collection of stations was by surveying methods. Positions
+were also acquired from locations on topographic maps. Recently
+the station latitudes, longitudes and elevations were acquired
+by Geopositioning Satellite (GPS) systems.</horizpar>
+            <qhorizpa>
+               <horizpav>100</horizpav>
+               <horizpae>surveying methods - 1.0 meter
+topographic maps  - 3.0 meter
+GPS systems       - 100.0 meter/1.0 meter differential</horizpae>
+            </qhorizpa>
+         </horizpa>
+         <vertacc>
+            <vertaccr>see Horizontal_Positional_Accuracy_Report</vertaccr>
+            <qvertpa>
+               <vertaccv>100</vertaccv>
+               <vertacce>surveying methods - 1.0 meter
+topographic maps  - 1.0-20.0 meter
+GPS systems       - 100 meter/1.0 meter differential</vertacce>
+            </qvertpa>
+         </vertacc>
+      </posacc>
+      <lineage>
+         <procstep>
+            <procdesc>Isostatic residual gravity anomaly grid was extracted from DDS-9
+and reprojected using USGS in-house developed software. In-house
+software was also used to convert from USGS grid format to Arc-Info
+grid format.</procdesc>
+            <srcused>The "state-of-the-art" for gravity data collection changed
+significantly throughout the data collection period for this data
+set.  Journals such as GEOPHYSICS have periodic articles describing
+the current state of standard procedures.</srcused>
+            <procdate>1999</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Robert P. Kucks</cntper>
+                     <cntorg>U.S. Geological Survey</cntorg>
+                  </cntperp>
+                  <cntaddr>
+                     <address>Box 25046, MS 964
+Denver Federal Center</address>
+                     <city>Denver</city>
+                     <state>CO</state>
+                     <postal>80225-0046</postal>
+                     <country>USA</country>
+                     <addrtype>mailing address</addrtype>
+                  </cntaddr>
+                  <cntemail>rkucks@usgs.gov</cntemail>
+                  <cntvoice>(303)236-1405</cntvoice>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+      <logic>The accuracy of the data set that generated the grid is totally
+dependant on the individual who collected each gravity station.
+In the case of a national set they would number in the hundreds.
+Variations would include latitude, longitude, elevation,
+raw gravity reading and base station control.</logic>
+      <complete>There will always be upgrades and additions to the data set that
+generated the grid due to regional interests.</complete>
+   </dataqual>
+   <spdoinfo>
+      <direct>Raster</direct>
+      <rastinfo>
+         <rasttype>Grid cell</rasttype>
+         <rowcount>768</rowcount>
+         <colcount>1300</colcount>
+      </rastinfo>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <albers>
+                  <stdparll>29.5</stdparll>
+                  <stdparll>45.5</stdparll>
+                  <longcm>-96.0</longcm>
+                  <latprjo>37.5</latprjo>
+                  <feast>0.</feast>
+                  <fnorth>0.</fnorth>
+               </albers>
+               <mapprojn>Albers Conical Equal Area</mapprojn>
+            </mapproj>
+            <planci>
+               <plance>row and column</plance>
+               <coordrep>
+                  <absres>4.0</absres>
+                  <ordres>4.0</ordres>
+               </coordrep>
+               <plandu>kilometer</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>Noth American Datum of 1927</horizdn>
+            <ellips>CLARKE1866</ellips>
+            <semiaxis>6378.20640</semiaxis>
+            <denflat>0.99661</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>grid cell</enttypl>
+            <enttypd>Area of Earth's surface for which gravity anomaly is summarized</enttypd>
+         </enttyp>
+         <attr>
+            <attrlabl>cell value</attrlabl>
+            <attrdef>Value, in milligals, of the gravity anomaly of Earth's gravitational field.</attrdef>
+            <attrdefs>Paterson, N.R., and Reeves, C.V., 1985, Applications of gravity
+and magnetic surveys: The state-of-the-art in 1985: Geophysics,
+v. 50, p. 2558-2594.</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-225</rdommin>
+                  <rdommax>105</rdommax>
+                  <attrunit>milligal</attrunit>
+                  <attrmres>0.1</attrmres>
+               </rdom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>-0.3402823E+39</edomv>
+                  <edomvd>areas for which no data are available in the grid</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntperp>
+               <cntper>Robert P. Kucks</cntper>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>Box 25046, MS 964
+Denver Federal Center</address>
+               <city>Denver</city>
+               <state>CO</state>
+               <postal>80225</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>(303)236-1405</cntvoice>
+            <cntemail>rkucks@usgs.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>USGS Digital Data Series DDS-9</resdesc>
+      <distliab>The USGS has made every effort to verify the veracity of this
+information, but is not liable for any inaccuracies.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ArcInfo export</formname>
+               <formvern>7.x</formvern>
+               <formspec>Arc-Info grid format</formspec>
+               <formcont>Gridded gravity anomaly data</formcont>
+               <filedec>gunzip</filedec>
+               <transize>3.5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>ftp://ftpext.usgs.gov/pub/cr/co/denver/musette/pub/GEOPHYSICAL_DATA/cdrom_DDS-9/GRIDS/ARC_INFO/isograv_sdd.e00.gz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>GeoTiff</formname>
+               <formvern>6</formvern>
+               <formcont>Gridded gravity anomaly data</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://mrdata.usgs.gov/geophysics/gravity/USgrv_iso_SDD_geog.tif</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>OGC WMS</formname>
+               <formvern>1.1.1</formvern>
+               <formcont>Isostatic gravity anomaly</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://mrdata.usgs.gov/services/gravity?request=getcapabilities&amp;service=WMS&amp;version=1.1.1&amp;</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>none</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20141201</metd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Peter N Schweitzer</cntper>
+               <cntorg>USGS Eastern Mineral and Environmental Resources Science Center</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>12201 Sunrise Valley Drive</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192-0002</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>703-648-6533</cntvoice>
+            <cntfax>703-648-6252</cntfax>
+            <cntemail>pschweitzer@usgs.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

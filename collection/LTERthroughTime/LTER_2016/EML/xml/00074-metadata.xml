@@ -1,0 +1,1055 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-pie.404.2" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=PIE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>EST-PR-PlanktonChemTax.02</alternateIdentifier>
+    <title>Phytoplankton identification using HPLC and Chem Taxonomy along transects in the Plum Island Sound estuary</title>
+    <creator id="pers-1">
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <individualName>
+        <givenName>Anne</givenName>
+        <surName>Giblin</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Ecosystems Center</deliveryPoint>
+        <deliveryPoint>MBL</deliveryPoint>
+        <deliveryPoint>7 MBLSt</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="pers-2">
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <individualName>
+        <givenName>Charles</givenName>
+        <surName>Hopkinson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <deliveryPoint>229 Marine Sciences</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>GA</administrativeArea>
+        <postalCode>30602</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <metadataProvider>
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Hap</givenName>
+        <surName>Garritt</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jane</givenName>
+        <surName>Tucker</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Emily</givenName>
+        <surName>Gaines</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>William</givenName>
+        <surName>Lee</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Christina</givenName>
+        <surName>Maki</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Aaron</givenName>
+        <surName>Strong</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Rebecca</givenName>
+        <surName>Prosser</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Colin</givenName>
+        <surName>Millar</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Catherine</givenName>
+        <surName>Caruso</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Samuel</givenName>
+        <surName>Kelsey</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Samantha</givenName>
+        <surName>Bond</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Tyler</givenName>
+        <surName>Messerschmidt</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <pubDate>2007</pubDate>
+    <abstract>
+      <para>Water column samples are collected along an estuarine salinity gradient as part of our monitoring surveys of the Parker River estuary each spring and late summer (typically high vs low freshwater input). Samples are filtered, and stored frozen for later pigment analyses by HPLC. Pigment data are then analyzed by CHEMTAX, calibrated to a matrix of pigment ratios based on taxonomy and enumeration of selected subsamples by microspcopy. Data are presented in terms of chlorophyll a concentrations partitionaed among the major phytoplankton groups as determined by CHEMTAX. For 2003-2006, sampling stations along the Plum Island Sound-Parker River were at fixed geographic locations at specific "Bends" in the river. In 2008, we began sampling the water column in salinity space rather than at specific geographic locations along the river. This sampling approach was adopted in order to follow particular water masses in this macrotidal estuary. In practical terms, it means that sampling locations, or stations, are not static. Therefore, we have mapped the 11 sampling locations (latitude and longitude are logged at each station) from each transect along the mainstem of the estuary, so each station may be placed along the river (to the nearest 0.5km) as well as in salinity space. We have also used the km marker to assign the sampling locations from each survey to one of four bounding boxes : the Sound (Plum Island Sound; EST-PR-SoundBND) which encompasses approximatly the first 9.5 km or the transect, with Okm at the mouth of the sound; the Lower Parker River (EST-PR-LowerParkerBND) , ~9.5 - 14.5 km; the Middle Parker River (EST-PRMiddleParkerBND), ~14.5 - 18.75 km, and the Upper Parker River (EST-PR-UpperParker BND)., ~18.75 to 24.25 km (the Parker R. Dam).</para>
+    </abstract>
+    <keywordSet>
+      <keyword>LTER</keyword>
+      <keyword>PIE</keyword>
+      <keyword>Plum Island Ecosystems</keyword>
+      <keyword>Massachusetts</keyword>
+      <keyword>Parker River</keyword>
+      <keyword>population dynamics</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>phytoplankton</keyword>
+      <keyword>estuary</keyword>
+      <keyword>CHEMTAX</keyword>
+      <keyword>pigments</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Acceptance and utilization of PIE-LTER data requires that:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions.</para>
+          </listitem>
+          <listitem>
+            <para>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications</para>
+          </listitem>
+          <listitem>
+            <para>A copy of any resultant publications should be sent to: 
+            <literalLayout>
+Principal Investigator
+Ecosystems Center
+Marine Biological Laboratory
+Woods Hole, MA 02543
+</literalLayout>
+            </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://ecosystems.mbl.edu/PIE/data/EST/EST-PR-PlanktonChemTax.html</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="GEO-1">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River pond below Central St Dam in Byfield, MA, 24 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.927963</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.927963</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.750855</northBoundingCoordinate>
+          <southBoundingCoordinate>42.750855</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-2">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River, 22.7 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.916917</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.916917</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.751743</northBoundingCoordinate>
+          <southBoundingCoordinate>42.751743</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-3">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River, 22 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.914959</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.914959</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.748294</northBoundingCoordinate>
+          <southBoundingCoordinate>42.748294</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-4">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River, 21 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.910209</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.910209</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.752197</northBoundingCoordinate>
+          <southBoundingCoordinate>42.752197</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-5">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River, 19.5 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.90898</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.90898</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.756974</northBoundingCoordinate>
+          <southBoundingCoordinate>42.756974</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-6">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River, 17.3 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.896245</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.896245</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.75938</northBoundingCoordinate>
+          <southBoundingCoordinate>42.75938</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-7">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River, 15.9 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.88417</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.88417</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.762473</northBoundingCoordinate>
+          <southBoundingCoordinate>42.762473</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-8">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River, 14.3 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.875821</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.875821</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.754721</northBoundingCoordinate>
+          <southBoundingCoordinate>42.754721</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-9">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River, 12.4 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.858212</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.858212</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.762582</northBoundingCoordinate>
+          <southBoundingCoordinate>42.762582</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-10">
+        <geographicDescription>Plum Island estuarine water column transect station, Parker River, 10.7 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.836756</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.836756</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.761772</northBoundingCoordinate>
+          <southBoundingCoordinate>42.761772</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-11">
+        <geographicDescription>Plum Island estuarine water column transect station, Plum Island Sound near Nelson Island, 8.3 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.820087</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.820087</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.747161</northBoundingCoordinate>
+          <southBoundingCoordinate>42.747161</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-12">
+        <geographicDescription>Plum Island estuarine water column transect station, Plum Island Sound, near Ipswich Bay Yacht Club pier, 3.1 km from Plum Island Sound mouth reference</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.794837</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.794837</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.70978</northBoundingCoordinate>
+          <southBoundingCoordinate>42.70978</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-13">
+        <geographicDescription>Plum Island estuarine water column transect station, Plum Island Sound 0 km, Plum Island Sound mouth reference station</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.751674</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.751674</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.69437</northBoundingCoordinate>
+          <southBoundingCoordinate>42.69437</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-14">
+        <geographicDescription>Plum Island Sound; the most downstream section (bounding box)of the Parker River Estuary transect, as defined in the context of the PIE nutrient and phytoplankton long-term monitoring program, encompassing the first 9.5 km along the transect.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.823195</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.75</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.755688</northBoundingCoordinate>
+          <southBoundingCoordinate>42.690641</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-15">
+        <geographicDescription>The Lower Parker River; the nutrient and phytoplankton transect section (bounding box), from where the Parker R. empties into Plum Island Sound (at river km 9.5) to just downstream of the entrance to the Mill River, 14.5 km.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.875749</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.823195</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.763809</northBoundingCoordinate>
+          <southBoundingCoordinate>42.753232</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-16">
+        <geographicDescription>The Middle Parker River; the nutrient and phytoplankton transect section (bounding box), from just downstream of the entrance to the Mill River, 14.5 km, to just west (upstream) of the Middle Road Bridge, river km 18.75.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.90153</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.875749</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.763953</northBoundingCoordinate>
+          <southBoundingCoordinate>42.754172</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-17">
+        <geographicDescription>The Upper Parker River; the nutrient and phytoplankton transect section (bounding box), from just west (upstream) of the Middle Road Bridge, river km 18.75 to the Parker River Dam, river km 24.25.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.929061</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.90153</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.759027</northBoundingCoordinate>
+          <southBoundingCoordinate>42.748102</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2003-04-16</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-09-03</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>CHEMTAX</generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Bacillariophyceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Dinophyceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Chlorophyceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Chrysophyceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Haptophyceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Cryptophyceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Prasinophyceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Euglenaphyceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Cyanobacteria</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>On going collections</para>
+        <para>Version 01: 17Sep2013, metadata and data created to comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007_Sep2013.xlsm 9/10/13 12:02 PM for QA/QC to EML 2.1.0</para>
+        <para>Version 02: March 8, 2016, data and metadata updates to comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007_Mar2016.xlsm 3/07/16 3:34 PM for QA/QC to EML 2.1.0</para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact id="im" system="knb">
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout>
+EXPERIMENTAL DESIGN AND METHODS: 
+
+Samples are collected and processed by PIE researchers.  For 2003-2006, sampling stations along the Plum Island Sound-Parker River were at fixed geographic locations at specific "Bends" in the river, reflected in the site name.  In 2008, we began sampling the water column in salinity space rather than at specific geographic locations along the river.   This sampling approach was adopted in order to follow particular water masses in this macrotidal estuary.  In practical terms, it means that sampling locations, or stations, are not static.  Therefore, we have mapped the 11 sampling locations (latitude and longitude are logged at each station) from each transect along the mainstem of the estuary, so each station may be placed along the river (to the nearest 0.5km) as well as in salinity space.   We have also used the km marker to assign the sampling locations from each survey to one of four bounding boxes : the Sound (Plum Island Sound; EST-PR-SoundBND)  which encompasses approximatly the first 9.5 km or the transect, with Okm at the mouth of the sound; the Lower Parker River (EST-PR-LowerParkerBND) , ~9.5 - 14.5 km; the Middle Parker River (EST-PRMiddleParkerBND),  ~14.5 - 18.75 km, and the Upper Parker River (EST-PR-UpperParker BND)., ~18.75 to 24.25 km (the Parker R. Dam).
+
+HPLC and Chem Tax analyses are performed by the HPLC Photopigment Analysis Facility at the University of South Carolina, under the direction of Dr. James Pinckney.
+
+The procedure is similar to the standard method for filtering water samples for Chl a analysis
+by fluorometry or spectrophotometry.  For HPLC analysis, the approach is to collect as much
+material as possible to provide high resolution of all the algal groups present and facilitate
+the confirmation of pigment identities by comparisons with absorption spectra for authentic
+standards.  The basic filtration steps are as follows:
+
+1.  Collect water (2 gallons for IBYC, Nelson, Station 24, Station 22 and 1 gallon for Stations 20, 18, 16, 12, 8, 4, 0) in a clean container.  Keep the water cool and in the dark during transport and short-term storage (an insulated cooler with a little ice works well).  The time from collection to filtration should be less than 3 hours.
+
+There will be a whole water sample filtered as described below, need 2 replicates or 2 filters per station.
+
+There will also be a &lt; 20 um sample which is whole water prescreened through 20 um nitex where the filtrate will then be filtered as described below, need 2 replicates or 2 filters per station.
+
+2.  Using square-ended forceps (to prevent poking a hole in the filter), place a single Whatman GF/F filter (2.5cm) onto a Gelman filter funnel.  Make sure the funnel forms a tight seal with the base.
+3.  The filter funnel should be attached to a vacuum system.  We use a home-made PVC manifold that holds several funnels, and each funnel has a valve to open/close the vacuum.  The manifold is attached to heavy-walled tygon tubing and a large vacuum flask (5 gallon glass water bottle).  A second hose runs from the carboy to the vacuum pump.   Use a moderate vacuum for the filtrations (ca. 100 to 200 mm Hg, or &lt;7 in. Hg vac).
+4. Open the vacuum and pour in a pre-measured amount (using a clean graduated cylinder) of sample water. This is the tricky part.  You may have to use trial and error to determine how much water you can filter before the filter clogs.  Samples closer to the mouth of Plum Island Sound will require larger volumes (500-1000ml) than samples up the Parker River (150-700ml) depending upon season and discharge.  Filter water samples in duplicate, then pool the two filters for HPLC analyses. Be sure to record the total volume of water filtered for each duplicate sample.
+5.  Using square-tipped forceps, gently fold the filter in half, with the side containing the sample on the inside of the fold.  Remove the filter, keeping it folded, and place the filter between two sheets of tissue paper (we use paper towels).  Gently press the filter with your thumb to remove excess water from the filter.   (Excess water in the filter reduces the extraction efficiency of the acetone solvent).
+6. Label the outside of a small piece of aluminum foil (a square piece with dimensions of 5 x 5 cm) with the sample identification number.  Use a black sharpie pen and make sure the ink dries (sharpie ink will destroy the pigment analysis&#8230;.and the filters are magnets for sharpie ink!)
+7.  Place the duplicate filters together (keeping them folded in half) onto the foil and fold the foil so that the label appears on the outside.  Make sure the filter is completely covered by the foil wrapper.  Bend the edges of the foil to make sure the filter is sealed within the foil.  Place the foil in a freezer (the colder the better).  Transport to MBL in small ChemTax cooler box with ice pack.  Keep the sample completely frozen and in the dark until you are ready to conduct the HPLC analysis.   Samples can be stored for as long as 1 year at  -80 C.
+8.  Fill out ChemTax Transect data sheet with information about samples.
+9.  For shipping t othe USC lab, the samples should be sent Express Overnight in a styrofoam cooler filled with dry ice.  Fill any empty space with newspaper.  Please let the lab know when you are shipping so that thety can be on the lookout for the shipment.  Plan shipments to avoid weekend delays.
+
+NOTES and COMMENTS
+The initial pigment ratios used by ChemTax were based on published values for estuarine populations (Roy et al. 2011; Schl&#252;ter et al., 2000) selected to fit results of microscopy of a subset of duplicate samples (David Borkman, URI) from the Parker River estuary.  Microscopy was important in both defining the groups and for qualitative evaluation of ChemTax. At PIE, the chlorophyll a apportioned to the combined category "Diatoms &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Chrysophytes" is largely diatom chlorophyll. We are continuing the comparisons between CHEMTAX and microscopy, which may lead to further refinements to the calibration.
+
+
+Taxa identified by microscopy (2008-2009):
+
+Bacillariophyceae:  
+Diatoms, centric:  Chaetoceros debilis , Chaetoceros spp. &lt;10 um dia, Chaetoceros spp. 10-30  um dia, Chaetoceros spp. 10-30  um dia , Coscinodiscus spp. (30 - 60 um diameter) , Dactyliosolen    
+                      fragilissima , Odontella spp. , Skeletonema spp. , Stephanodiscus spp. , Thalassiosira rotula , Thalassiosira spp. &lt;10 um dia,  Thalassiosira spp. 10-30 um dia, unidentified Centric diatom &lt;10 um dia 
+Diatoms, pennate: Amphora spp. ,Cocconeis scutellum , Cylindrotheca closterium , Gyrosigma spp.,  Licmophora abreviata,  naviculoid diatom &lt;10um,  Pennate diatom &lt;10 um L,  Pennate diatom 10-30  um L,
+                    Pennate diatom 30-60  um L , Pleurosigma aestuarii , Pleurosigma spp. , Pseudo-nitzschia pseudodelicatissima , Pseudo-nitzschia spp.,  Surirella spp.,  Synedra spp.,  Thalassionema nitzschioides 
+
+Dinophyceae: Ceratium lineatum , Gymnodinium spp. &lt;20 um long , Gymnodinium spp. 20 - 40  um long,  Heterocapsa rotundata , Heterocapsa triquetra,  Prorocentrum minimum, Gyrodinium spp (20-40 um L), 
+                    Protoperidinium spp. (30-60 um diameter) , Protoperidinium spp. (30-60 um diameter),  Scrippsiella trochoidea 
+
+Prasinophyceae:  Pyramimonas spp. (Prasino A; could be clone PRD18DOI, AY948021; Prasino B may be reassigned to Chlorophytes, pending further refinement of the pigment matrix)
+Chrysophyceae: Dinobryon spp., Calycomonas wulfii (both ChrysoA; ChrysoB types have not been identified at PIE, but an example would be Pelagococcus subviridi)
+Euglenophyceae:  Eutreptia / Eutreptiella spp. 
+Cryptophyceaes: Cryptomonads &lt;20 um L 
+microflagellates:  unidentified phytoflagellates&lt;10 um diameter (likely includes Prasinophytes identified by CHEMTAX)
+Dictychophyceae (silicoflagellate): Dictyocha speculum  (has pigment composition similar to HaptophyteB)
+Raphidophyceae:  not yet identified at PIE; but could include Heterosigma, Fibrocapsa
+Cyanobacteria: unidentified Nostoc-like species.
+Prymnesiophyceae:  Phaeocysitis (Hapto-B) (Phylum Haptophyta)
+</literalLayout>
+          </para>
+        </description>
+        <protocol>
+          <title>Pigment Analysis and Phytoplankton Classification</title>
+          <creator>
+            <references>pers-1</references>
+          </creator>
+          <distribution>
+            <online>
+              <url>http://www.biol.sc.edu/~jpinckney/Protocols.html</url>
+            </online>
+          </distribution>
+          <proceduralStep>
+            <description>
+              <para>Pigment analysis was performed as described by the online protocol. References for pigment ratios: Roy, S., Llewellyn, C. A., &amp;amp;amp; Egeland, E. S. (Eds.). (2011). Phytoplankton pigments: characterization, chemotaxonomy and applications in oceanography. Cambridge University Press. Schl&#252;ter, L., M&#248;hlenberg, F., Havskum, H., &amp;amp; Larsen, S. (2000). The use of phytoplankton pigments for identifying and quantifying phytoplankton groups in coastal areas: testing the influence of light and nutrients on pigment/chlorophyll a ratios. Marine Ecology progress series, 192, 49-63.</para>
+            </description>
+          </proceduralStep>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Plum Island Ecosystems Long-Term Ecological Research (PIE LTER) Program</title>
+      <personnel>
+        <individualName>
+          <givenName>Anne</givenName>
+          <surName>Giblin</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7488</phone>
+        <electronicMailAddress>agiblin@mbl.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hap</givenName>
+          <surName>Garritt</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7485</phone>
+        <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+        <role>Information Manager</role>
+      </personnel>
+      <abstract>
+        <para>
+          <literalLayout>
+The Plum Island Ecosystems (PIE) LTER is an integrated research, education and outreach program whose goal is to develop a predictive understanding of the long-term response of watershed and estuarine ecosystems at the land-sea interface to changes in climate, land use and sea level. The principal study site is the Plum Island Sound estuary, its coupled Parker, Rowley and Ipswich River watersheds and the adjacent coastal ocean, the Gulf of Maine. The PIE LTER focuses on how several aspects of global change influence organic matter and inorganic nutrient biogeochemistry and estuarine foodwebs. The inputs of organic matter and nutrients from land, ocean and marshes interact with the external drivers (climate, land use, river discharge, sea level) to dictate the extent and degree of nutrient and organic matter processing and determine the spatial patterns of estuarine productivity and trophic structure.
+</literalLayout>
+        </para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under Grants OCE-9726921, OCE-0423565, OCE-1058747, OCE-1238212. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The Plum Island Ecosystems (PIE) LTER site, is located in northeastern Massachusetts, 42.72 N, 70.85 W. The PIE LTER lies at the interface of a thinly soiled, formerly glaciated New England land mass and the highly productive Gulf of Maine. Three watersheds comprise the estuarine drainage basin: Parker (155 km2), Rowley (26 km2) and Ipswich (404 km2). The Ipswich River watershed is highly urbanized with Boston "bedroom" communities encroaching in the headwater region while the Parker is less urbanized and retains a higher proportion of forest.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-71.2198</westBoundingCoordinate>
+              <eastBoundingCoordinate>-70.7568</eastBoundingCoordinate>
+              <northBoundingCoordinate>42.8276</northBoundingCoordinate>
+              <southBoundingCoordinate>42.4965</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>100</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </geographicCoverage>
+        </coverage>
+      </studyAreaDescription>
+    </project>
+    <dataTable>
+      <entityName>EST-PR-PlanktonChemTax.csv</entityName>
+      <entityDescription>Phytoplankton identification using HPLC and Chem Taxonomy along transects in the Plum Island Sound estuary</entityDescription>
+      <physical>
+        <objectName>EST-PR-PlanktonChemTax.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-pie/404/2/6bfd2f7941bb6382370637460499ef28</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att0.1">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>date of sampling (dd-mon-yyyy)</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>dd-mon-yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.2">
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>name of site sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>name of site sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.3">
+          <attributeName>Latitude</attributeName>
+          <attributeLabel>Latitude</attributeLabel>
+          <attributeDefinition>latitude of the sampling site (decimal degrees)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.4">
+          <attributeName>Longitude</attributeName>
+          <attributeLabel>Longitude</attributeLabel>
+          <attributeDefinition>longitude of the sampling site (decimal degrees)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.5">
+          <attributeName>Distance</attributeName>
+          <attributeLabel>Distance</attributeLabel>
+          <attributeDefinition>distance upstream from the mouth of the estuary</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>kilometer</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.6">
+          <attributeName>SampleName</attributeName>
+          <attributeLabel>SampleName</attributeLabel>
+          <attributeDefinition>water sample identification name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>water sample identification name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.7">
+          <attributeName>SubsampleName</attributeName>
+          <attributeLabel>SubsampleName</attributeLabel>
+          <attributeDefinition>ChemTax associated subsample of water sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ChemTax associated subsample of water sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.8">
+          <attributeName>BottleName</attributeName>
+          <attributeLabel>BottleName</attributeLabel>
+          <attributeDefinition>Sampling bottle name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling bottle name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.9">
+          <attributeName>SampleType</attributeName>
+          <attributeLabel>SampleType</attributeLabel>
+          <attributeDefinition>either whole water or &lt; 20 um size fraction</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either whole water or &lt; 20 um size fraction</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.10">
+          <attributeName>Volume</attributeName>
+          <attributeLabel>Volume</attributeLabel>
+          <attributeDefinition>total volume of water filtered for analysis</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.11">
+          <attributeName>Temp</attributeName>
+          <attributeLabel>Temp</attributeLabel>
+          <attributeDefinition>temperature (oC)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.12">
+          <attributeName>Salinity</attributeName>
+          <attributeLabel>Salinity</attributeLabel>
+          <attributeDefinition>salinity (ppt)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.13">
+          <attributeName>TotalChlA</attributeName>
+          <attributeLabel>TotalChlA</attributeLabel>
+          <attributeDefinition>Total chlorophyll a</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.14">
+          <attributeName>DiatomsandChrysophytes</attributeName>
+          <attributeLabel>DiatomsandChrysophytes</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration associated with diatoms and chrysophytes; for PIE, largely diatoms</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.15">
+          <attributeName>Cryptophytes</attributeName>
+          <attributeLabel>Cryptophytes</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration associated with cryptophytes</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.16">
+          <attributeName>Chlorophytes</attributeName>
+          <attributeLabel>Chlorophytes</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration associated with chlorophytes</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.17">
+          <attributeName>Dinoflagellates</attributeName>
+          <attributeLabel>Dinoflagellates</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration associated with dinoflagellates</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.18">
+          <attributeName>Euglenophytes</attributeName>
+          <attributeLabel>Euglenophytes</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration associated with euglenophytes</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.19">
+          <attributeName>Prasinophytes</attributeName>
+          <attributeLabel>Prasinophytes</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration associated with prasinophytes</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.20">
+          <attributeName>Haptophytes</attributeName>
+          <attributeLabel>Haptophytes</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration associated with haptophytes</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.21">
+          <attributeName>Prymnesiophytes</attributeName>
+          <attributeLabel>Prymnesiophytes</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration associated with prymnesiophytes</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.22">
+          <attributeName>Cyanobacteria</attributeName>
+          <attributeLabel>Cyanobacteria</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration associated with cyanobacteria</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.23">
+          <attributeName>Comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>Comments or notes about specific samples or values</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments or notes about specific samples or values</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = sample or value missing or lost</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>459</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="partPerThousand" multiplierToSI="1" name="partPerThousand" parentSI="" unitType="dimensionless">
+          <description>ratio of two quantities as parts per thousand (1:1000)</description>
+        </unit>
+        <unit id="microgramPerLiter" multiplierToSI="" name="microgramPerLiter" parentSI="" unitType=" volumetricMassDensityRate">
+          <description>micrograms per liter</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

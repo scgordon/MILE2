@@ -1,0 +1,865 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-arc.1602.9" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=ARC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>2003-2009gscurveparameters</shortName>
+    <title>Best fit parameters describing net CO2 flux light response curves measured during the ITEX CO2 flux survey 2003-2009.</title>
+    <creator>
+      <individualName>
+        <givenName>Gaius</givenName>
+        <surName>Shaver</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>7 M B L St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>US</country>
+      </address>
+      <onlineUrl>http://www.mbl.edu/ecosystems/staff/shaver/</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Mark</givenName>
+        <surName>van Wijk</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Lorna</givenName>
+        <surName>Street</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Brooke</givenName>
+        <surName>Kaye</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Laundre</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Biological Laboratory,Ecosystems Center</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>jlaundre@mbl.edu</electronicMailAddress>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Mathew</givenName>
+        <surName>Williams</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>University of Edinburgh,School of GeoSciences,Crew Building, Kings Buildings</deliveryPoint>
+        <city>Edinburgh</city>
+        <administrativeArea>NA</administrativeArea>
+        <country>GB</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Catherine</givenName>
+        <surName>Thompson</surName>
+      </individualName>
+      <address>
+        <administrativeArea>AK</administrativeArea>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Carrie</givenName>
+        <surName>McCalley</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Beth</givenName>
+        <surName>Bernhardt</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Bob</givenName>
+        <surName>Douma</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Celine</givenName>
+        <surName>Ronfort</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Kerry</givenName>
+        <surName>Dinsmore</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Robert</givenName>
+        <surName>Bell</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Peter</givenName>
+        <surName>van Buuren</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Craig</givenName>
+        <surName>Menzies</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jen</givenName>
+        <surName>Peters</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Scott</givenName>
+        <surName>Graham</surName>
+      </individualName>
+      <address>
+        <country>US</country>
+      </address>
+      <role>associated researcher</role>
+    </associatedParty>
+    <pubDate>2015-12-14</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>Ecosystem CO2 flux light response curves were measured on 1m x 1m plots ( some 0.3m x 0.3m plots in 2006 and some 0.7m x0.7m plots in 2009) across the arctic. This file contains the best fit parameters that describe these light response curves, together with corresponding NDVI data for each curve. Survey plots were located in the Toolik Lake LTER fertilization experiment in Alaska; at Imnavait Creek, Alaska; at Paddus, Latnjajaure and the Stepps site near Abisko in northern Sweden; at various sites in Adventdalen, Svalbard; in the Zackenberg valley, Northeast Greenland; at BEO near Barrow, Alaska and at the Anaktuvuk River Burn in Alaska. Measurements were made during the growing seasons 2003 to 2009.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>primary production</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>primary production</keyword>
+      <keyword>carbon fluxes</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. Permission to use this dataset is granted to the Data User free of charge subject to the following terms: 1) Acceptable use. Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not-for-profit professional purposes. The Data User is permitted to produce and distribute derived works from this dataset provided that they are released under the same license terms as those accompanying this Data Set. Any other uses for the Data Set or its derived products will require explicit permission from the dataset owner. 2 ) Redistribution. The data are provided for use by the Data User. The metadata and this license must accompany all copies made and be available to all users of this Data Set. The Data User will not redistribute the original Data Set beyond this collaboration sphere. 3 ) Citation. It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator, Year of Data Publication, Title of Dataset, Publisher, Dataset identifier. For example: Shaver, G. 1989. Above ground biomass in acidic tussock tundra experimental site, 1989, Arctic LTER, Toolik, Alaska. Arctic LTER, Marine Biological Lab, Woods Hole, Ma 02543. 1989gsttbm http://ecosystems.mbl.edu/arc/terrest/biomass/index.shtml 4 ) Acknowledgement. The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data sets were provided by the Arctic LTER. This material is based upon work supported by the National Science Foundation under Grants #DEB-981022, 9211775, 8702328; #OPP-9911278, 9911681, 9732281, 9615411, 9615563, 9615942, 9615949, 9400722, 9415411, 9318529; #BSR 9019055, 8806635, 8507493. 5 ) Notification. The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed. The Data User will provide the data contact with two reprints of any publications resulting from use of the Data Set and will provide copies, or on-line access to, any derived digital products. Notification will include an explanation of how the Data Set was used to produce the derived work. 6 ) Collaboration. The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. By accepting this Data Set, the Data User agrees to abide by the terms of this agreement. The Data Owner shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Disclaimer While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available "as is". The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://arc-lter.ecosystems.mbl.edu/2003-2009gscurveparameters</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Imnavait Creek (68 degrees 37N, 149 degrees 18W) Alaska, U.S.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.31</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.31</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6167</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6167</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>"Stepps" site (68 degrees 18N, 18 degrees 51E) near Abisko, Sweden.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>18.85</westBoundingCoordinate>
+          <eastBoundingCoordinate>18.85</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.3</northBoundingCoordinate>
+          <southBoundingCoordinate>68.3</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Paddus (68 degrees 19N, 18 degrees 51E) near Abisko, Sweden.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>18.85</westBoundingCoordinate>
+          <eastBoundingCoordinate>18.85</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.3167</northBoundingCoordinate>
+          <southBoundingCoordinate>68.3167</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Latnjajaure (68 degrees 21N, 18 degrees 30E) near Abisko, Sweden.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>18.5</westBoundingCoordinate>
+          <eastBoundingCoordinate>18.5</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.35</northBoundingCoordinate>
+          <southBoundingCoordinate>68.35</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Adventdalen (78 degrees 13N, 15 degrees 38E) Svalbard, Norway.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>15.6333</westBoundingCoordinate>
+          <eastBoundingCoordinate>15.6333</eastBoundingCoordinate>
+          <northBoundingCoordinate>78.2167</northBoundingCoordinate>
+          <southBoundingCoordinate>78.2167</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Zackenberg research area zone 1a (74&#194;&#186;28&#226;&#8364;&#8482; N, 20&#194;&#186;34&#226;&#8364;&#8482; W), Northeast Greenland.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-19.4333</westBoundingCoordinate>
+          <eastBoundingCoordinate>-19.4333</eastBoundingCoordinate>
+          <northBoundingCoordinate>74.4667</northBoundingCoordinate>
+          <southBoundingCoordinate>74.4667</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Barrow ( 71&#194;&#176; 18' N, 156&#194;&#176; 36' W) Alaska, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-156.6</westBoundingCoordinate>
+          <eastBoundingCoordinate>-156.6</eastBoundingCoordinate>
+          <northBoundingCoordinate>71.31</northBoundingCoordinate>
+          <southBoundingCoordinate>71.31</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Experimental Plots: Heath Tundra - Block 1, Northeast corner near Toolik Field Station, North Slope, Alaska.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.587</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.587</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6417</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6417</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>724</altitudeMinimum>
+            <altitudeMaximum>724</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Experimental Plots: Moist Acidic Tussock Tundra (MAT) Northeast corner block 1 near Toolik Field Station, North Slope, Alaska.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.61</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.61</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6244</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6244</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>750</altitudeMinimum>
+            <altitudeMaximum>750</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Experimental Plots: Moist NonAcidic NonTussock Tundra (MNNT) Northeast corner Block 1 near Toolik Field Station, North Slope, Alaska.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.642</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.642</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6345</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6345</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>748</altitudeMinimum>
+            <altitudeMaximum>748</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Experimental Plots: Moist NonAcidic Tussock Tundra (MNT) Northeast corner block 1 near Toolik Field Station, North Slope, Alaska.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.637</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.637</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.634</northBoundingCoordinate>
+          <southBoundingCoordinate>68.634</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>750</altitudeMinimum>
+            <altitudeMaximum>750</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Experimental Plots: Wet Sedge Tundra - Block 1 Northeast corner near Toolik Field Station, North Slope, Alaska.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.603</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.603</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6254</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6254</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>717</altitudeMinimum>
+            <altitudeMaximum>717</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Anaktuvuk River Fire - Moderate burn</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.212</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.212</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.9522</northBoundingCoordinate>
+          <southBoundingCoordinate>68.9522</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Anaktuvuk River Fire - Severe burn flux tower (Station 2304 ) North Slope, Alaska</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.281</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.281</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.9967</northBoundingCoordinate>
+          <southBoundingCoordinate>68.9967</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>0</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Anaktuvuk River Fire - Severe burn flux tower (Station 2304 ) North Slope, Alaska</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.273</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.273</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.9344</northBoundingCoordinate>
+          <southBoundingCoordinate>68.9344</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2003-07-05</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2009-08-17</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>Version 1: Checked file and created eml and html files. Feb 2006 Jiml Version 2: Added Zackenberg 2006 curve parameters. Inserted new column for &#226;&#8364;&#339;plot size&#226;&#8364; because 2006 data include measurements made on 0.3m x 0.3m plots. Changed time format for all data to e.g. 1124 not 11:24. Changed date in file name from 2005 to 2006. Oct 2006 LStreet Version 3: Added LTERNET Data Access server proxy for Excel and comma delimited data files. Version 4: Updated LTERNET Data Access server proxy link for Excel and comma delimited data files. Changed from knb to das in url. Version 5: Added Toolik and Barrow 2009 data. Changed file name from 2006 to 2009. Added Comments column. Version 6: Updated metadata form to newer version (without site sheet). Missing values changed to #N/A. CH 25Jan2013 Updated to newer metadata with site sheet. CH March 2013. Version 7 Changed Time to text since it has text code in it. Jim L 16May13 Version 8: Corrected Distrubution URL. It had xlsfiles in the path. Jim L 19Jun14 Version 9: Changed Distrubution URL since the LTER network DAS system is being discontinued. JimL 9Apr2015</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Arctic_LTER</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>7 M B L St.</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02536</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(508) 548-3705</phone>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Arctic LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>RESEARCH LOCATIONS: Imnavait Creek, Alaska 2003: Measurements were made on 8 flux plots in different vegetation types along the topographic sequence of the west facing slope of Imnavait Creek catchment. A light response curve was measured on each plot several times during early July and several times during late July/early August. Imnavait Creek, Alaska 2004: Measurements were made on 15 plots along the topographic sequence of the west facing slope of Imnavait Creek catchment, in the same area as 2003. A light response curve was measured on each plot once in late June/early July and once in August. Toolik Lake, Alaska 2004. Measurements were made on a total of 20 flux plots in treatment (N +P) and control blocks of the LTER fertilization experiment at Toolik Lake, including the moist acidic tussock, non-acidic tussock, non acidic non-tussock, inlet wet sedge and heath sites. Light curves were measured on each plot once in late June/early July and once in August. Abisko, Sweden 2004. Measurements were made on 11 plots at the &amp;quot;Stepps&amp;quot; site, each measured once in July and once in August. Measurements were made on 13 plots at Paddus and 12 plots at Latnjajaure, once in July and August. Abisko, Sweden 2005. 15 plots were located at the &amp;quot;Stepps&amp;quot; site, measurements were made on 3 occasions through June/ early July and once in mid August. During the 3rd phase of measurements in June we conducted a diurnal series on five of the plots, measuring a light curve once every 4 hrs for 28 hrs. Svalbard 2005. Measurements were made on 41 plots at various sites in Adventdalen, one light curve was measured on each plot during July. Zackenberg 2006. Data were collected on 35 1 x 1m plots and 25 0.3 x 0.3m plots across a range of vegetation types. 13 of the 0.3 x 0.3m plots were located within 1m x 1m plots (identified by plot name with suffix &amp;quot;b1, b2 or b3&amp;quot;), the remainder were independent of the 1 x 1m plots (B14-25). A light curve was measured on each plot once, all measurements were made from 8 July through 1 Aug 2006. Toolik 2009: Data were collected on nine 1m x 1m flux plots, three in each vegetation type. Vegetation types included moist acidic tundra (MAT), dry heath (HTH) and wet sedge (WSG). Each plot was measured at approximately 2 weeks intervals from mid-June to mid-August 2009. Anaktuvuk River Burn 2009: Data was collected on five 0.7m x 0.7m flux plots along a burn severity gradient in mid-June 2009. Barrow 2009: Data was collected on thirteen 0.7m 0.7m flux plots along a moisture gradient during late-July to early-August 2009. EXPERIMENTAL DESIGN AND METHODS: We measured net CO2 flux using a Licor 6400 photosynthesis system (Li-Cor Inc., Lincoln, Nebraska, USA) connected to a plexiglass chamber. For most sites, the chamber measured 1m x 1m x 0.25m, but a 0.3 x 0.3 x 0.15m was used in 2006 and a 0.7 x 0.7 x 0.25m was used in 2009 due to limited accessibility at these sites. In Alaska in late season 2004 and at Zackenberg from 25th July 2006 onwards, we used a LiCor 6200 photosynthesis system. Flux data from the LiCor 6200 were corrected for the effects of water vapor build-up according to Hooper et al 2002. At each plot we took measurements to create a light response curve: 2-3 measurements were made at ambient light conditions, followed by 2 flux measurements at each of 3 successive shading levels, with finally 3 measurements under complete darkness. We shaded the chamber by layering 3 fine mesh net cloths and used a tarpaulin to block all light from the chamber. Flux measurements under complete darkness represent ecosystem respiration. At each light level a flux measurement lasted 45 - 60 secs in total, CO2 concentrations in the chamber being recorded by the Licor every 2-3 secs. Incident radiation, average temperature and NDVI were also measured on each plot for each light curve. A saturating (Michaelis-Menton type) function is fitted to the measured data. Best fit parameters describing each light curve are calculated by minimizing the sum of squared errors between measured and modeled NEP values. In 2003, all flux data from a plot on one day are grouped into one light curve. We measured NDVI on each flux plot using either a portable 2 channel field sensor (Skye Instruments) or Unispec spectral analyzer (PP Systems) or both: Toolik 2003: Skye sensor Toolik 2004: Unispec and Skye sensor Abisko 2004: Unispec and Skye sensor (Unispec only at Stepps site phase 2) Abisko and Svalbard: Unispec and Skye sensor (Unispec only during June at Abisko) Zackenberg: Unispec Toolik 2009: Unispec Barrow 2009: Unispec The unispec spectral analyzer measures reflected light intensity in 256 portions of the visible spectrum from ~300nm to ~1100nm. A foreoptic cable transmits light reflected from the target to the instrument, a measurement scan lasts for ~10ms. 9 scans were measured in a regular grid for each of the flux plots. The end of the fiber optic was kept approximately 1m vertically above the ground surface resulting in a view of the vegetation of approx. 20cm diameter. For the 0.3m x 0.3m plots, 3 scans were taken from directly above the plot with a field of view of approximately 30cm diameter. The average of these three scans was then taken. Incident radiation was measured using a reference standard in order that reflectance from the vegetation could be calculated as a percentage of incoming solar radiation. The program Multispec5.1.5.exe was used to compile Unispec reflectance spectra from the raw target spectra. The skye NDVI sensor measures total radiation reflected from the vegetation (without measuring incident radiation) in the wavebands 570nm-680nm and 725nm - 1100nm. NDVI is then calculated as below. Calculations: The light response curve is modeled as a rectangular hyperbola: NEP = Re - [(Pmax*PAR)/(K + PAR)] where Re = ecosystem respiration [&#206;&#188;mol C m-2 ground s-1] Pmax = theoretical light saturated photosynthesis [&#206;&#188;mol C m-2 ground s-1] K = half saturation constant [&#206;&#188;mol PAR m-2 ground s-1] The initial slope of the light response curve (light use efficiency or E0) and the light compensation point (LCP) are calculated from these parameters as: E0 = (Pmax/K) LCP = (RE*K)/(Pmax-RE) where Re = ecosystem respiration [&#206;&#188;mol C m-2 ground s-1] Pmax = theoretical light saturated photosynthesis [&#206;&#188;mol C m-2 ground s-1] K = half saturation constant [&#206;&#188;mol PAR m-2 ground s-1] E0 = ecosystem light use efficiency [&#206;&#188;mol C &#206;&#188;mol-1 PAR] LCP = ecosystem light compensation point [&#206;&#188;mol PAR m-2 ground s-1] NDVI = (RII-RI)/ (RI + RII) where RI = average reflectance from 570nm to 680nm RII = average reflectance from 725nm to 1000nm COMMENTS: all times are given as local times. Sorting variables and curve ID numbers match the flux data from which the curve is calculated, in the ITEX CO2 flux data file 2003-2009gsflux.dat FOR MORE INFORMATION CONTACT: Gus Shaver, The Ecosystems Center, Woods Hole, MA, 02543, USA REFERENCE CITATIONS: Hooper D.U., Cardon Z. G., Chapin III F. S. Durant, M. (2002) Corrected calculations for soil and ecosystem measurements of CO2 flux using the LI-COR 6200 portable photosynthesis system. Oecologia 132:1&#226;&#8364;&#8220;11 Street, L.E., Shaver, G.R., Williams, M., van Wijk, M.T. (2007) What is the relationship between changes in canopy leaf area and changes in photosynthetic CO2 flux in arctic ecosystems? Journal of Ecology, 95, 139-150. Williams, M., Street, L.E., van Wijk, M.T., and Shaver, G.R. (2006) Identifying Differences in Carbon Exchange among Arctic Ecosystem Types. Ecosystems, 9, 288-304. FORMAT OF DATA FILE: ASCII See Methods</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>2003-2009gscurveparameters_csv</entityName>
+      <entityDescription>Best fit parameters describing net CO2 flux light response curves measured during the ITEX CO2 flux survey 2003-2009.</entityDescription>
+      <physical>
+        <objectName>2003-2009gscurveparameters.csv</objectName>
+        <size>59030</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-arc/1602/9/6b4c02c2a2a6517cfe934643ea16a447</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>YEAR</attributeName>
+          <attributeLabel>YEAR</attributeLabel>
+          <attributeDefinition>Year measurement taken</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE</attributeName>
+          <attributeLabel>DATE</attributeLabel>
+          <attributeDefinition>Date measurement taken</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>dd-mon-yy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SITE</attributeName>
+          <attributeLabel>SITE</attributeLabel>
+          <attributeDefinition>Abisko, Imnavait, Toolik, Svalbard, Zackenberg, AR Burn or Barrow</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Abisko, Imnavait, Toolik, Svalbard, Zackenberg, AR Burn or Barrow</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GROUP</attributeName>
+          <attributeLabel>GROUP</attributeLabel>
+          <attributeDefinition>Location of flux plots at each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location of flux plots at each site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PLOT</attributeName>
+          <attributeLabel>PLOT</attributeLabel>
+          <attributeDefinition>Individual plot identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Individual plot identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TREAT</attributeName>
+          <attributeLabel>TREAT</attributeLabel>
+          <attributeDefinition>Control or fertilised with N and P fertiliser</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Control or fertilised with N and P fertiliser</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PHASE</attributeName>
+          <attributeLabel>PHASE</attributeLabel>
+          <attributeDefinition>Measurement series (round of measurement within each year)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Measurement series (round of measurement within each year)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PLOT SIZE</attributeName>
+          <attributeLabel>PLOT SIZE</attributeLabel>
+          <attributeDefinition>Plot size of 1m x 1m or 0.3m x 0.3m or 0.7 x 0.7m</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot size of 1m x 1m or 0.3m x 0.3m or 0.7 x 0.7m</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CURVE ID</attributeName>
+          <attributeLabel>CURVE ID</attributeLabel>
+          <attributeDefinition>Light curve identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Light curve identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TIME</attributeName>
+          <attributeLabel>TIME</attributeLabel>
+          <attributeDefinition>time the light curve was taken (avg indicates a combination of more than one curve in a day)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>time the light curve was taken (avg indicates a combination of more than one curve in a day)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NDVI</attributeName>
+          <attributeLabel>NDVI</attributeLabel>
+          <attributeDefinition>NDVI of flux plot</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Pmax</attributeName>
+          <attributeLabel>Pmax</attributeLabel>
+          <attributeDefinition>light saturated photosynthesis parameter</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>K</attributeName>
+          <attributeLabel>K</attributeLabel>
+          <attributeDefinition>half saturation constant</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Re</attributeName>
+          <attributeLabel>Re</attributeLabel>
+          <attributeDefinition>ecosystem respiration</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Eo</attributeName>
+          <attributeLabel>Eo</attributeLabel>
+          <attributeDefinition>ecosystem initial light use efficiency</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMicromole</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LCP</attributeName>
+          <attributeLabel>LCP</attributeLabel>
+          <attributeDefinition>ecosystem light compensation point</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AIRTEMP</attributeName>
+          <attributeLabel>AIRTEMP</attributeLabel>
+          <attributeDefinition>average air temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>MAX PAR</attributeName>
+          <attributeLabel>MAX PAR</attributeLabel>
+          <attributeDefinition>The maximum average PAR value under which a flux measurement is recorded for that curve.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>explaination of why the curve lacks parameter values</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>explaination of why the curve lacks parameter values</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>2003-2009gscurveparameters_excel</entityName>
+      <entityDescription>Excel file with metadata and data sheets. Best fit parameters describing net CO2 flux light response curves measured during the ITEX CO2 flux survey 2003-2009.</entityDescription>
+      <physical>
+        <objectName>2003-2009gscurveparameters.xls</objectName>
+        <size>530432</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.ms-excel</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-arc/1602/9/fa2f489053ae9125bf61a6bb17e62d32</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>document</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <ns2:unit abbreviation="" id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <ns2:description>a designation asserting the absence of an associated unit</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="umol/m2/second" constantToSI="0" id="micromolePerMeterSquaredPerSecond" multiplierToSI="0.0864" name="micromolePerMeterSquaredPerSecond" parentSI="molePerMeterSquaredPerDay" unitType="arealMassDensityRate">
+          <ns2:description>micromole per meter squared per second</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="micromolePerMicromole">
+          <ns2:description />
+        </ns2:unit>
+        <ns2:unit abbreviation="C" constantToSI="273.18" id="celsius" multiplierToSI="1" name="celsius" parentSI="kelvin" unitType="temperature">
+          <ns2:description>A common unit of temperature</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

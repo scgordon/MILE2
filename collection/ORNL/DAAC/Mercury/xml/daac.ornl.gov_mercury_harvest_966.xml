@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[RAMANKUTTY, N.]]></origin>
+        <origin><![CDATA[FOLEY, J.A.]]></origin>
+        <title><![CDATA[ISLSCP II Historical Croplands Cover, 1700-1992 ]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=966]]></onlink>
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/966.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/966.xml]]></alt_onlink>
+        <onlink><![CDATA[http://daac.ornl.gov//ISLSCP_II/guides/historic_cropland_xdeg.html]]></onlink>
+        <geoform>metadata</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[The Historical Croplands Cover data set was developed to understand the consequences of historical changes in land use and land cover for ecosystem goods and services. In particular, this data set can be used to study how global changes in cultivated area has influenced climate, biogeochemical cycles, biodiversity, etc. This data set can be used directly within spatially-explicit climate and biogeochemical models.
+
+This is a gridded data set describing the fraction of each grid cell in the globe that is occupied by cultivated land from 1700 to 1992. Data layers are provided for every 50 years from 1700 to 1850, every 10 years from 1850 to 1980, and every year from 1986 to 1992.
+
+There are two sources of global land cover/land use data. The most recent estimates are derived from satellite measurements, and are available in a spatially-explicit fashion for roughly the last 30 years. The other estimate is based on ground-based sources such as census statistics, land surveys, estimates by historical geographers, etc. These land inventory data are only available at the scale of political units, but have the advantage of being historical. Ramankutty and Foley (1998) derived a spatially-explicit data set of croplands in 1992 by synthesizing remotely-sensed land cover data with contemporary land inventory data. Furthermore, Ramankutty and Foley (1999) extended this data set into the past (back to 1700) using historical land inventory data.
+
+The data set should only be used for continental-to-global scale analysis and modeling. The data set captures the broad patterns of cropland change over history, but not necessarily the fine details at local to regional scales - please check the data quality before using it at fine spatial scales. The quality of historical data for the Russian Federation is poor. The quality of data prior to 1850 is poor -- only continental-scale historical data were used for that period. 
+
+]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[17000101]]></begdate>
+          <enddate><![CDATA[19921231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update> As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc><![CDATA[-180]]></westbc>
+        <eastbc><![CDATA[180]]></eastbc>
+        <northbc><![CDATA[90]]></northbc>
+        <southbc><![CDATA[-90]]></southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey><![CDATA[REFLECTANCE|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[LAND COVER|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        <themekey><![CDATA[VEGETATION INDEX|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[VEGETATION COVER|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        <themekey><![CDATA[PLANT CHARACTERISTICS|STEEL MEASURING TAPE|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[LEAF CHARACTERISTICS|LEAF AREA METER|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[CANOPY CHARACTERISTICS|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[ALBEDO|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey><![CDATA[REFLECTANCE]]></themekey>
+        <themekey><![CDATA[LAND COVER]]></themekey>
+        <themekey><![CDATA[VEGETATION INDEX]]></themekey>
+        <themekey><![CDATA[VEGETATION COVER]]></themekey>
+        <themekey><![CDATA[PLANT CHARACTERISTICS]]></themekey>
+        <themekey><![CDATA[LEAF CHARACTERISTICS]]></themekey>
+        <themekey><![CDATA[CANOPY CHARACTERISTICS]]></themekey>
+        <themekey><![CDATA[ALBEDO]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        <themekey><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        <themekey><![CDATA[FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        <themekey><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></themekey>
+        <themekey><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></themekey>
+        <themekey><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></themekey>
+        <themekey><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></themekey>
+        <themekey><![CDATA[STEEL MEASURING TAPE]]></themekey>
+        <themekey><![CDATA[LEAF AREA METER]]></themekey>
+        <themekey><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></themekey>
+        <themekey><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey><![CDATA[GLOBAL]]></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[RAMANKUTTY, N.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > xsl:value-of select="x_tags/Data_Originator/Investigator/Email" disable-output-escaping="yes" />]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Ramankutty,N. and J.A. Foley. 2010. ISLSCP II Historical Croplands Cover, 1700-1992. In Hall, Forest G., G. Collatz, B. Meeson, S. Los, E. Brown de Colstoun, and D. Landis (eds.). ISLSCP Initiative II Collection. Data set. Available on-line [http://daac.ornl.gov/] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A.  doi:10.3334/ORNLDAAC/966]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20100225</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <Local-Control-Number>Created 2016 10  4 21 30 10 1469631010 by 160.91.11.44</Local-Control-Number>
+  <mercury>
+    <begdate></begdate>
+    <enddate></enddate>
+    <Site_Information>
+      <Site><![CDATA[GLOBAL]]></Site>
+      <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[GCM]]></Keywords>
+    <Keywords><![CDATA[NDVI]]></Keywords>
+    <Keywords><![CDATA[FPAR]]></Keywords>
+    <Keywords><![CDATA[UNFAO]]></Keywords>
+    <Keywords><![CDATA[MARSH]]></Keywords>
+    <Keywords><![CDATA[FAPAR]]></Keywords>
+    <Keywords><![CDATA[GEWEX]]></Keywords>
+    <Keywords><![CDATA[SWAMP]]></Keywords>
+    <Keywords><![CDATA[ISCCP]]></Keywords>
+    <Keywords><![CDATA[ISLSCP]]></Keywords>
+    <Keywords><![CDATA[GRID DATA]]></Keywords>
+    <Keywords><![CDATA[SALTWATER]]></Keywords>
+    <Keywords><![CDATA[GREENNESS]]></Keywords>
+    <Keywords><![CDATA[BIOSPHERE]]></Keywords>
+    <Keywords><![CDATA[SALT FLATS]]></Keywords>
+    <Keywords><![CDATA[FASIR NDVI]]></Keywords>
+    <Keywords><![CDATA[VEGETATION]]></Keywords>
+    <Keywords><![CDATA[LAND COVER]]></Keywords>
+    <Keywords><![CDATA[SNOW COVER]]></Keywords>
+    <Keywords><![CDATA[SALT MARSH]]></Keywords>
+    <Keywords><![CDATA[SAND DUNES]]></Keywords>
+    <Keywords><![CDATA[SURFACE PAR]]></Keywords>
+    <Keywords><![CDATA[HOURLY DATA]]></Keywords>
+    <Keywords><![CDATA[MONTHLY DATA]]></Keywords>
+    <Keywords><![CDATA[MODEL OUTPUT]]></Keywords>
+    <Keywords><![CDATA[LEAF AREA INDEX]]></Keywords>
+    <Keywords><![CDATA[VEGETATION CLASSIFICATION MAP]]></Keywords>
+    <Keywords><![CDATA[GLOBAL ENERGY AND WATER CYCLE EXPERIMENT]]></Keywords>
+    <Keywords><![CDATA[INTERNATIONAL SATELLITE LAND-SURFACE CLIMATOLOGY PROJECT]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[REFLECTANCE]]></Parameter>
+      <Sensor><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></Source>
+      <Term><![CDATA[SURFACE RADIATIVE PROPERTIES]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND COVER]]></Parameter>
+      <Sensor><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></Sensor>
+      <Source><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION INDEX]]></Parameter>
+      <Sensor><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION COVER]]></Parameter>
+      <Sensor><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)]]></Sensor>
+      <Source><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[PLANT CHARACTERISTICS]]></Parameter>
+      <Sensor><![CDATA[STEEL MEASURING TAPE]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[LEAF CHARACTERISTICS]]></Parameter>
+      <Sensor><![CDATA[LEAF AREA METER]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[CANOPY CHARACTERISTICS]]></Parameter>
+      <Sensor><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[ALBEDO]]></Parameter>
+      <Sensor><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></Source>
+      <Term><![CDATA[ATMOSPHERIC RADIATION]]></Term>
+      <Topic><![CDATA[ATMOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[ISLSCP II]]></Project>
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|REFLECTANCE]]></Navpath>
+    <Navpath><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|LAND COVER]]></Navpath>
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|VEGETATION INDEX]]></Navpath>
+    <Navpath><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|VEGETATION COVER]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|STEEL MEASURING TAPE|PLANT CHARACTERISTICS]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|LEAF AREA METER|LEAF CHARACTERISTICS]]></Navpath>
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|CANOPY CHARACTERISTICS]]></Navpath>
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|ALBEDO]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[RAMANKUTTY, N.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[FOLEY, J.A.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=966]]></URL>
+      <Label><![CDATA[ISLSCP II Historical Croplands Cover, 1700-1992 ]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//ISLSCP_II/guides/historic_cropland_xdeg.html]]></URL>
+      <Label><![CDATA[ISLSCP II Historical Croplands Cover, 1700-1992 ]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    <OME_Software_Version>/home/web/mercury/write_mercury_xml.pl</OME_Software_Version>
+    <OME_DTD_Version>mercury21.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID>966</File_ID>
+    <MD_Entry_id>ISLSCP_II_HCROPLAND</MD_Entry_id>
+    <Spatial_Extent></Spatial_Extent>
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//ISLSCP_II/guides/historic_cropland_xdeg.html]]></URL>
+      <Label><![CDATA[ISLSCP II Historical Croplands Cover, 1700-1992 ]]></Label>
+    </Search_Text_Link>
+    <Granule_Details>
+      <Granule>
+        <Granule_ID><![CDATA[966_1]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1700)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1700-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1701-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_10]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1910)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1910-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1911-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_11]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1920)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1920-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1921-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_12]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1930)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1930-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1931-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_13]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1940)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1940-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1941-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_14]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1950)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1950-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1951-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_15]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1960)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1960-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1961-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_16]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1970)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1970-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1971-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_17]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1980)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1980-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1981-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_18]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1986)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1986-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1987-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_19]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1987)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1987-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1988-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_2]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1750)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1750-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1751-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_20]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1988)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1988-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1989-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_21]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1989)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1989-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1990-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_22]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1990)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1990-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1991-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_23]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1991)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1991-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1992-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_24]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1992)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1992-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1993-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_25]]></Granule_ID>
+        <Granule_Title><![CDATA[Differences between ISLSCP II Land/Water Mask and Original Land/Water Mask, Half Degree]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date></Start_Date>
+        <End_Date></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_26]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II Land/Water Mask, Half Degree]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date></Start_Date>
+        <End_Date></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_3]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1800)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1800-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1801-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_4]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1850)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1850-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1851-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_5]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1860)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1860-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1861-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_6]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1870)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1870-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1871-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_7]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1880)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1880-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1881-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_8]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1890)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1890-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1891-01-01T00:00]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[966_9]]></Granule_ID>
+        <Granule_Title><![CDATA[ISLSCP II HISTORICAL CROPLANDS COVER, HALF DEGREE (1900)]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1900-01-01T00:00]]></Start_Date>
+        <End_Date><![CDATA[1901-01-01T00:00]]></End_Date>
+      </Granule>
+    </Granule_Details>
+    <OGC_URL>https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=966</OGC_URL>
+    <THREDDS_URL>http://thredds.daac.ornl.gov/thredds/catalog/ornldaac/966/catalog.html</THREDDS_URL>
+  </mercury>
+</metadata>

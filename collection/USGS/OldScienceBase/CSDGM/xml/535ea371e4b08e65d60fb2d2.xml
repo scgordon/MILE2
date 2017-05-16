@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20130501</pubdate>
+            <title>Point source nutrient discharges to surface water in the United States Pacific Northwest for 2002</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+               <pubplace>Reston, VA</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?sir2013-5103_PNW_SPARROW_PointSources_NHD</onlink>
+            <lworkcit>
+               <citeinfo>
+                  <origin>Wise, D.R., and Johnson, H.M.</origin>
+                  <pubdate>20130501</pubdate>
+                  <title>Application of the SPARROW model to assess surface-water nutrient conditions and sources in the United States Pacific Northwest</title>
+                  <geoform>report</geoform>
+                  <pubinfo>
+                     <pubplace>Reston, VA</pubplace>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+                  <onlink>http://pubs.usgs.gov/sir/2013/5103</onlink>
+               </citeinfo>
+            </lworkcit>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This spatial data set was created by the U.S. Geological Survey (USGS) to represent the amount of total nitrogen and total phosphorus discharged to surface waters in the Pacific Northwest region of the United States (Hydro Region 17; Major River Basin 7 (MRB7)) during 2002 from individual permitted wastewater facilities.</abstract>
+         <purpose>This data set was intended to represent spatially explicit landscape nutrient loadings in the application of the SPARROW (SPAtially Referenced Regressions On Watershed attributes) model to assess total nitrogen and total phosphorus conditions in surface water in Major River Basin 7 (MRB7) using the National Hydrography Dataset as a hydrologic framework.</purpose>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>20020101</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>ground condition</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-127.036006</westbc>
+            <eastbc>-110.534506</eastbc>
+            <northbc>50.583654</northbc>
+            <southbc>40.420470</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>SPARROW</themekey>
+            <themekey>NAWQA</themekey>
+            <themekey>inlandWaters</themekey>
+            <themekey>nitrogen</themekey>
+            <themekey>phosphorus</themekey>
+            <themekey>point sources</themekey>
+            <themekey>waste water discharges</themekey>
+         </theme>
+         <place>
+            <placekt>none</placekt>
+            <placekey>Major River Basins</placekey>
+            <placekey>Pacific Northwest</placekey>
+            <placekey>PNW</placekey>
+            <placekey>Washington</placekey>
+            <placekey>Oregon</placekey>
+            <placekey>Idaho</placekey>
+            <placekey>Montana</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>The U.S. Geological Survey should be acknowledged as the data source in products derived from these data.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Daniel Wise</cntper>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Hydrologist</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>2130 SW 5th Avenue</address>
+               <city>Portland</city>
+               <state>OR</state>
+               <postal>97201</postal>
+               <country>US</country>
+            </cntaddr>
+            <cntvoice>503 251 3213</cntvoice>
+            <cntemail>dawise@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <browse>
+         <browsen>http://water.usgs.gov/GIS/browse/sir2013-5103_PNW_SPARROW_PointSources_NHD.jpg</browsen>
+         <browsed>Illustration of data set</browsed>
+         <browset>JPEG</browset>
+      </browse>
+      <datacred>Daniel Wise, Hydrologist, Oregon Water Science Center, 2130 SW 5th Ave., Portland, OR 97201</datacred>
+      <secinfo>
+         <secsys>None</secsys>
+         <secclass>Unclassified</secclass>
+         <sechandl>None</sechandl>
+      </secinfo>
+      <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.1.1.3143</native>
+   </idinfo>
+   <dataqual>
+      <logic>Date are logically consistent in ArcGIS. Confirmed location of each new point source with estimated load and edited shapefile so that the outflow for each facility was in the correct NHDPlus v2 catchment. Reviewed load estimates. Looked for missing loads. No problems were found. Checked for duplicate entries and removed where necessary. Confirmed that each point source was associated with a catchment.</logic>
+      <complete>Data are complete for U.S. Geological Survey Hydrologic Unit 17 (Pacific Northwest). Additional partial coverage for Idaho.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>unknown</horizpar>
+         </horizpa>
+         <vertacc>
+            <vertaccr>not applicable</vertaccr>
+         </vertacc>
+      </posacc>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Environmental Protection Agency</origin>
+                  <pubdate>2012</pubdate>
+                  <title>National Pollutant Discharge Elimination System (NPDES)</title>
+                  <geoform>tabular digital data</geoform>
+                  <onlink>http://cfpub.epa.gov/npdes/about.cfm</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2012</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>date accessed</srccurr>
+            </srctime>
+            <srccitea>NPDES</srccitea>
+            <srccontr>additional point sources.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Bonneville Power Administration, Northwest Power and Conservation Council's Fish and Wildlife Program, Pacific States Marine Fisheries Commission and partners</origin>
+                  <pubdate>199804</pubdate>
+                  <title>StreamNet, Fish Data for the Northwest</title>
+                  <geoform>tabular digital data</geoform>
+                  <onlink>http://www.streamnet.org/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2012</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>date accessed</srccurr>
+            </srctime>
+            <srccitea>STREAMNET</srccitea>
+            <srccontr>additional point sources.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Environmental Protection Agency</origin>
+                  <pubdate>1996</pubdate>
+                  <title>Reach File Version 1</title>
+                  <geoform>vector digital data</geoform>
+                  <onlink>http://www.epa.gov/waters/doc/rf1_meta.html#Citation%20Information</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2012</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>date accessed</srccurr>
+            </srctime>
+            <srccitea>RF1</srccitea>
+            <srccontr>point sources.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Environmental Protection Agency</origin>
+                  <pubdate>1974</pubdate>
+                  <title>Permit Compliance System Data Access</title>
+                  <geoform>tabular digital data</geoform>
+                  <onlink>http://www.epa.gov/oecaerth/data/systems/water/pcsaccess.html</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2012</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>date accessed</srccurr>
+            </srctime>
+            <srccitea>EPAPCS</srccitea>
+            <srccontr>additional point sources.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>additional hatchery info</origin>
+                  <pubdate>2012</pubdate>
+                  <title>additional hatchery info</title>
+                  <geoform>tabular digital data</geoform>
+                  <pubinfo>
+                     <pubplace>unknown</pubplace>
+                     <publish>unpublished</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2012</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>date accessed</srccurr>
+            </srctime>
+            <srccitea>HATCHERY</srccitea>
+            <srccontr>additional point sources.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Geological Survey, Maupin, M.A., and Ivahnenko, Tamara</origin>
+                  <pubdate>2011</pubdate>
+                  <title>Nutrient loadings to streams of the continental United States from municipal and industrial effluent: Journal of the American Water Resources Association, v. 47, no. 5, p. 950–964.</title>
+                  <geoform>tabular digital data</geoform>
+                  <onlink>http://www.ncbi.nlm.nih.gov/pubmed/22457577</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2002</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+            <srccitea>JAWRA</srccitea>
+            <srccontr>Provided locations of point source facilities used in RF1 SPARROW models developed for MRB7.</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>Removed facilities with no expected nutrient discharges, facilities that were duplicates, facilities with no location information, and those not in MRB7.</procdesc>
+            <srcused>RF1</srcused>
+            <procdate>2012</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Confirmed location of each RF1 point source and edited shapefile so that the outflow for each facility was in the correct NHD catchment.</procdesc>
+            <srcused>RF1</srcused>
+            <procdate>2012</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Estimated annual nutrient loads. For waste water treatment plants and industrial sources created a spreadsheet with the DMR data (discharge, nutrient concentrations), removed facilities without discharge and identified facilities that discharge to land rather than water. For aquaculture facilities, performed mass balance on feed usage (FU) and net fish production (NP). L(n,p) = FU(%n,p in food) - NP x (%n,p in fish).</procdesc>
+            <procdate>2012</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>RF1 point sources identified NPDES facilities for this layer.</procdesc>
+            <srcused>RF1</srcused>
+            <procdate>2012</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Some facilities used in the RF1 models were missing 2002 load estimates. These loads were estimated by using the 1992 and 1997 loads where available. When possible, replaced estimated 2002 nutrient loads for aquaculture facilities with loads estimated based on production data or permit limits.</procdesc>
+            <srcused>RF1</srcused>
+            <procdate>2012</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Added point sources not included in the RF1 models. Obtained location information from PCS data base (NPDES) or other sources (e.g., StreamNet for hatcheries).</procdesc>
+            <srcused>NPDES</srcused>
+            <srcused>HATCHERY</srcused>
+            <srcused>STREAMNET</srcused>
+            <srcused>EPAPCS</srcused>
+            <procdate>2012</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Retrieved data required to estimate annual nutrient loads. (- Discharge monitoring reports (DMR’s) for WWTP’s and industrial sources and production reports for hatcheries.).</procdesc>
+            <srcused>EPAPCS</srcused>
+            <srcused>NPDES</srcused>
+            <srcused>STREAMNET</srcused>
+            <srcused>HATCHERY</srcused>
+            <procdate>2012</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>Entity point</sdtstype>
+            <ptvctcnt>785</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <mapprojn>NAD 1983 Albers</mapprojn>
+               <albers>
+                  <stdparll>29.5</stdparll>
+                  <stdparll>45.5</stdparll>
+                  <longcm>-96.0</longcm>
+                  <latprjo>23.0</latprjo>
+                  <feast>0.0</feast>
+                  <fnorth>0.0</fnorth>
+               </albers>
+            </mapproj>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>0.001</absres>
+                  <ordres>0.001</ordres>
+               </coordrep>
+               <plandu>meter</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>D North American 1983</horizdn>
+            <ellips>GRS 1980</ellips>
+            <semiaxis>6378137.0</semiaxis>
+            <denflat>298.257222101</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>sir2013-5103_PNW_SPARROW_PointSources_NHD</enttypl>
+            <enttypd>Locations of potential sources of nutrient discharge to surface waters in the Pacific Northwest.</enttypd>
+            <enttypds>U.S. Geological Survey</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>FID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>sic_code</attrlabl>
+            <attrdef>Standard Industrial Classification Code.</attrdef>
+            <attrdefs>U.S. Census Bureau</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>Standard Industrial Classification Code</codesetn>
+                  <codesets>U.S. Census Bureau</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NPDES</attrlabl>
+            <attrdef>National Pollution Discharge Elimination System facility number.</attrdef>
+            <attrdefs>U.S. Environmental Protection Agency (USEPA)</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are assigned by the USEPA.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Name</attrlabl>
+            <attrdef>Name of facility.</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <udom>Unique name of facility.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>final_n_02</attrlabl>
+            <attrdef>Surface-water discharge of total nitrogen from facility during 2002 (kg).</attrdef>
+            <attrdefs>U.S Geological Survey</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>2,473,946.26</rdommax>
+                  <attrunit>kilograms per year</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>final_p_02</attrlabl>
+            <attrdef>Surface-water discharge of total phosphorus from facility during 2002 (kg).</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>328,306.41</rdommax>
+                  <attrunit>kilograms per year</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Latitude</attrlabl>
+            <attrdef>Latitude of facility location, in decimal degrees, NAD83.</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <udom>Latitude of facility location, in decimal degrees, NAD83.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Longitude</attrlabl>
+            <attrdef>Longitude of facility location, in decimal degrees, NAD83.</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <udom>Longitude of facility location, in decimal degrees, NAD83.</udom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+               <country>US</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+sir2013-5103_PNW_SPARROW_PointSources_NHD</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials. The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey. The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ESRI shapefile</formname>
+               <formvern>ArcGIS 10</formvern>
+               <formcont>PKZIP compression</formcont>
+               <filedec>Winzip</filedec>
+               <transize>467MB</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/sir2013-5103_PNW_SPARROW.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. This dataset is provided by USGS as a public service.</fees>
+      </stdorder>
+      <availabl>
+         <timeinfo>
+            <sngdate>
+               <caldate>20130501</caldate>
+            </sngdate>
+         </timeinfo>
+      </availabl>
+   </distinfo>
+   <metainfo>
+      <metd>20130306</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+               <country>US</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://water.usgs.gov/user_feedback_form.html</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+   </metainfo>
+</metadata>

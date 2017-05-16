@@ -1,0 +1,197 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.190.5" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF190">
+      <alternateIdentifier>HF190</alternateIdentifier>
+      <title>Modeling Range Expansion of Hemlock Woolly Adelgid in Eastern North America 1951-2009</title>
+      <creator>
+         <individualName>
+            <givenName>Matt</givenName>
+            <surName>Fitzpatrick</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Aaron</givenName>
+            <surName>Ellison</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Evan</givenName>
+            <surName>Preisser</surName>
+         </individualName>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>Joseph</givenName>
+            <surName>Elkinton</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Adam</givenName>
+            <surName>Porter</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <pubDate>2011</pubDate>
+      <abstract>
+         <section>
+            <para>Range expansion by native and exotic species will continue to be a major component of global change. Anticipating the potential effects of changes in species distributions requires models capable of forecasting population spread across realistic, heterogeneous landscapes and subject to spatiotemporal variability in habitat suitability. Several decades of theory and model development, as well as increased computing power and availability of fine-resolution GIS data, now make such models possible. This R code allows simulation of the spread of the hemlock woolly adelgid (HWA, Adelges tsugae) under climatic conditions experienced from December of 1951 until March of 2009. The code describes a spatially explicit stochastic model that combines dynamic dispersal and population processes with fine-resolution maps characterizing spatiotemporal heterogeneity in winter temperature and hemlock abundance to model range expansion of HWA. The model is parameterized using multi-year datasets describing population and dispersal dynamics of HWA and is applied to eastern North America. </para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>hemlock</keyword>
+         <keyword>hemlock woolly adelgid</keyword>
+         <keyword>invasive species</keyword>
+         <keyword>modeling</keyword>
+         <keyword>region</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>disturbance</keyword>
+         <keyword>populations</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf190</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Eastern North America</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-93.7</westBoundingCoordinate>
+               <eastBoundingCoordinate>-59.7</eastBoundingCoordinate>
+               <northBoundingCoordinate>+48.3</northBoundingCoordinate>
+               <southBoundingCoordinate>+33.6</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>0</altitudeMinimum>
+                  <altitudeMaximum>2037</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1951</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2009</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+         <taxonomicCoverage>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Adelges</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>tsugae</taxonRankValue>
+                  <commonName>hemlock woolly adelgid</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+         </taxonomicCoverage>
+      </coverage>
+      <contact>
+         <individualName>
+            <givenName>Matt</givenName>
+            <surName>Fitzpatrick</surName>
+         </individualName>
+         <organizationName>University of Maryland</organizationName>
+         <address>
+            <deliveryPoint>Appalachian Lab</deliveryPoint>
+            <deliveryPoint>301 Braddock Road</deliveryPoint>
+            <city>Frostburg</city>
+            <administrativeArea>MD</administrativeArea>
+            <postalCode>21532</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(301) 689-7131</phone>
+         <electronicMailAddress>mfitzpatrick@umces.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>For a detailed description of the model, see: Fitzpatrick MC, Preisser EL, Porter A, Elkinton J, Ellison AE (in press) Modeling range dynamics in heterogeneous landscapes: Invasion of the hemlock woolly adelgid in eastern North America. Ecological Applications</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <otherEntity id="hf190-01">
+         <entityName>hf190-01-HWA-spread.R</entityName>
+         <entityDescription>R code used to model the spread of hemlock woolly adelgid</entityDescription>
+         <physical>
+            <objectName>hf190-01-HWA-spread.R</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>R code</formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p19/hf190/hf190-01-HWA-spread.R</url>
+               </online>
+            </distribution>
+         </physical>
+         <entityType>R code</entityType>
+      </otherEntity>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>informatics</researchTopic>
+            <researchTopic>invasive</researchTopic>
+            <researchTopic>regional</researchTopic>
+            <studyType>modeling</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Regional Distribution and Abundance of Eastern Hemlock in Eastern North America 2010">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf191</url>
+            <url name="Annual Maps of Mean Winter Temperature for Eastern North America 1951-2009">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf192</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>

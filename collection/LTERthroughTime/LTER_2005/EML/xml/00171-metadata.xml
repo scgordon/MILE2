@@ -1,0 +1,952 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.75.23" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="75" system="VCR">
+   <alternateIdentifier>VCR99057</alternateIdentifier>
+   <title>Water Quality  of Virginia Coastal Bays- Nutrients</title>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Karen</givenName>
+         <surName>McGlathery</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+      </address>
+      <phone phonetype="voice">434-924-0558</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>kjm4k@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">kmcglathery</userId>
+   </creator>
+   <creator>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Robert</givenName>
+         <surName>Christian</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>East Carolina University, Department of Biology</deliveryPoint>
+         <city>Greenville</city>
+         <administrativeArea>NC</administrativeArea>
+         <postalCode>27858-4353</postalCode>
+      </address>
+      <phone phonetype="voice">(252) 328-1835</phone>
+      <phone phonetype="facsimile">(252) 328-4178</phone>
+      <electronicMailAddress>christianr@ecu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">rchristian</userId>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2008-02-19</pubDate>
+   <abstract>
+  <para> This dataset contains information on nutrient concentrations a the Virginia Coast Reserve Long-Term Ecological Research Project. </para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Inorganic Nutrients</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">nitrogen</keyword>
+      <keyword keywordType="theme">phosphorus</keyword>
+      <keyword keywordType="theme">nitrite</keyword>
+      <keyword keywordType="theme">Ammonium</keyword>
+      <keyword keywordType="theme">water quality</keyword>
+      <keyword keywordType="theme">phosphate</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>CMC - Cobb Mill Creek, Oyster VA</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>CSH - Cattleshed Creek head</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.68500757</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.685100</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.44147331</northBoundingCoordinate>
+            <southBoundingCoordinate>37.442550</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>CSM - Cattleshed Creek mouth</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.688870</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.68927765</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.44292143</northBoundingCoordinate>
+            <southBoundingCoordinate>37.443382</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>GC - Greens Creek</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.807060</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.807060</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.484510</northBoundingCoordinate>
+            <southBoundingCoordinate>37.484510</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>HOGBAY - Hog Island Bay</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.700000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.810000</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.500000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.360000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>LC - Little Cobb Island</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>MI - Machipongo Inlet</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.735920</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.735920</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.367640</northBoundingCoordinate>
+            <southBoundingCoordinate>37.367640</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>NC - No Name Creek</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.687560</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.687560</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.436930</northBoundingCoordinate>
+            <southBoundingCoordinate>37.436930</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>NM - New Marsh</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>OH - Oyster Harbor</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.924270</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.924270</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.289190</northBoundingCoordinate>
+            <southBoundingCoordinate>37.289190</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>OS - Oyster Harbor</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.923545553</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.923545553</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.2889694</northBoundingCoordinate>
+            <southBoundingCoordinate>37.2889694</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>PCB - Phillips Creek resampled coming back in to shore</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.83420277</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.835010</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.44484653</northBoundingCoordinate>
+            <southBoundingCoordinate>37.445520</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>PCH - Phillips Creek Head</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.807060</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.83473921</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.4482707</northBoundingCoordinate>
+            <southBoundingCoordinate>37.447640</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>PCM - Phillips Creek, mouth</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.83420277</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.834712</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.44484653</northBoundingCoordinate>
+            <southBoundingCoordinate>37.443925</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>QI - Quinby Inlet - core</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.66833496</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.692680</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.46709235</northBoundingCoordinate>
+            <southBoundingCoordinate>37.452271</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>RB - Red Banks</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.805370</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.80665112</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.46406076</northBoundingCoordinate>
+            <southBoundingCoordinate>37.461490</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>RCC - Ramshorn Channel Creek</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>SH - South Hog</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.718110</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.718110</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.381990</northBoundingCoordinate>
+            <southBoundingCoordinate>37.381990</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>SSI - Sand Shoal Inlet</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-76</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.3</eastBoundingCoordinate>
+            <northBoundingCoordinate>38</northBoundingCoordinate>
+            <southBoundingCoordinate>37</southBoundingCoordinate>
+            <boundingAltitudes>
+               <altitudeMinimum>-2</altitudeMinimum>
+               <altitudeMaximum>10</altitudeMaximum>
+               <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>1992-07-01</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2008-02-19</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Karen</givenName>
+         <surName>McGlathery</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+      </address>
+      <phone phonetype="voice">434-924-0558</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>kjm4k@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">kmcglathery</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Linda</givenName>
+         <surName>Blum</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>University of Virginia, Department of Environmental Science, Clark Hall</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+      </address>
+      <phone phonetype="voice">(434) 924-0560</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>lkb2e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">lblum</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <salutation>Dr.</salutation>
+         <givenName>Robert</givenName>
+         <surName>Christian</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>East Carolina University, Department of Biology</deliveryPoint>
+         <city>Greenville</city>
+         <administrativeArea>NC</administrativeArea>
+         <postalCode>27858-4353</postalCode>
+      </address>
+      <phone phonetype="voice">(252) 328-1835</phone>
+      <phone phonetype="facsimile">(252) 328-4178</phone>
+      <electronicMailAddress>christianr@ecu.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">rchristian</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para><emphasis>This section contains specific methods for this dataset.</emphasis></para>
+  <para> Units are micromolar N and P, respectively. To convert to milligrams per liter the formula is: N: (micromolar_N/1000)* 14 = mg/l P: (micromolar_N/1000)* 30.9 = mg/l </para>
+  <para>During some periods of the sampling duplicate chemical analyses were completed at the LTER Lab and at the Department of Biology at East Carolina University. For these samples, there will be duplicate observations for a given station in the database.</para>
+         </description>
+      </methodStep>
+   </methods>
+   <project id="VCR97015">
+      <title>Water quality monitoring of tidal creeks and lagoon</title>
+      <personnel>
+         <individualName>
+            <salutation>Dr.</salutation>
+            <givenName>Robert</givenName>
+            <surName>Christian</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>East Carolina University, Department of Biology</deliveryPoint>
+            <city>Greenville</city>
+            <administrativeArea>NC</administrativeArea>
+            <postalCode>27858-4353</postalCode>
+         </address>
+         <phone phonetype="voice">(252) 328-1835</phone>
+         <phone phonetype="facsimile">(252) 328-4178</phone>
+         <electronicMailAddress>christianr@ecu.edu</electronicMailAddress>
+         <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">rchristian</userId>
+         <role>originator</role>
+      </personnel>
+   </project>
+   <dataTable>
+      <entityName>VCR99057</entityName>
+      <entityDescription>Water Quality  of Virginia Coastal Bays- Nutrients</entityDescription>
+      <physical>
+         <objectName>wqdata.csv</objectName>
+         <characterEncoding>ASCII</characterEncoding>
+         <dataFormat>
+            <textFormat>
+               <numHeaderLines>23</numHeaderLines>
+               <numFooterLines>0</numFooterLines>
+               <recordDelimiter>#x0A</recordDelimiter>
+               <physicalLineDelimiter>#x0A</physicalLineDelimiter>
+               <attributeOrientation>column</attributeOrientation>
+               <simpleDelimited>
+                  <fieldDelimiter>,</fieldDelimiter>
+                  <quoteCharacter>"</quoteCharacter>
+                  <literalCharacter>\</literalCharacter>
+               </simpleDelimited>
+            </textFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.75.23&amp;urlHeadID=2&amp;urlTail=1/VCR99057/VCR99057/wqdata.csv</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <attributeList>
+         <attribute id="VCR99057.ROWNAMES">
+            <attributeName>ROWNAMES</attributeName>
+            <attributeLabel>Data row identifier</attributeLabel>
+            <attributeDefinition>ROWNAMES - Data row identifier</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Data row identifier</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.YEAR">
+            <attributeName>YEAR</attributeName>
+            <attributeLabel>Year of data collection</attributeLabel>
+            <attributeDefinition>YEAR - Year of data collection</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>year</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1992</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.MONTH">
+            <attributeName>MONTH</attributeName>
+            <attributeLabel>Month of data collection</attributeLabel>
+            <attributeDefinition>MONTH - Month of data collection</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>month</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1</minimum>
+                        <maximum exclusive="false">12</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.DAY">
+            <attributeName>DAY</attributeName>
+            <attributeLabel>Day of data collection</attributeLabel>
+            <attributeDefinition>DAY - Day of data collection</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>day</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1</minimum>
+                        <maximum exclusive="false">31</maximum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.STATION">
+            <attributeName>STATION</attributeName>
+            <attributeLabel>Station identifier</attributeLabel>
+            <attributeDefinition>STATION - Station identifier</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>CM</code>
+                           <definition>Cobb Mill Creek (where it crosses under Crumb Hill Road)</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>CSH</code>
+                           <definition>Cattleshed Headwaters</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>CSM</code>
+                           <definition>Cattle Shed Mouth</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>GC</code>
+                           <definition>Green Creek</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>LC</code>
+                           <definition>Little Cobb</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>MI</code>
+                           <definition>Machipongo Inlet</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>NC</code>
+                           <definition>Noname Creek</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>NM</code>
+                           <definition>New Marsh</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>OH</code>
+                           <definition>Oyster Harbor</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>PCB</code>
+                           <definition>Phillips Creek Back</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>PCH</code>
+                           <definition>Phillips Creek Headwaters</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>PCM</code>
+                           <definition>Phillips Creek Mouth</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>QI</code>
+                           <definition>Quinby Inlet</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>RB</code>
+                           <definition>Redbank Creek</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>RCC</code>
+                           <definition>Ramshorn Channel Creek</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>SH</code>
+                           <definition>South Hog</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>SSI</code>
+                           <definition>Sand Shoal Inlet</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.CUP">
+            <attributeName>CUP</attributeName>
+            <attributeLabel>Identifier of cup used in analysis</attributeLabel>
+            <attributeDefinition>CUP - Identifier of cup used in analysis</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>none</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>integer</numberType>
+                     <bounds>
+                        <minimum exclusive="false">1</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.NH4">
+            <attributeName>NH4</attributeName>
+            <attributeLabel>NH4 - Ammonium</attributeLabel>
+            <attributeDefinition>NH4 - NH4 - Ammonium</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>micromolar</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.PO4">
+            <attributeName>PO4</attributeName>
+            <attributeLabel>PO4 - Phosphate</attributeLabel>
+            <attributeDefinition>PO4 - PO4 - Phosphate</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>micromolar</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.NOX">
+            <attributeName>NOX</attributeName>
+            <attributeLabel>NOx - Nitrate plus Nitrite</attributeLabel>
+            <attributeDefinition>NOX - NOx - Nitrate plus Nitrite</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>micromolar</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+            <methods>
+               <methodStep>
+                  <description>
+  <para> Micromolar N for both Nitrate and Nitrite, combined. </para>
+                  </description>
+               </methodStep>
+            </methods>
+         </attribute>
+         <attribute id="VCR99057.NO2">
+            <attributeName>NO2</attributeName>
+            <attributeLabel>NO2 - Nitrite</attributeLabel>
+            <attributeDefinition>NO2 - NO2 - Nitrite</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+            <measurementScale>
+               <interval>
+                  <unit>
+                     <customUnit>micromolar</customUnit>
+                  </unit>
+                  <numericDomain>
+                     <numberType>real</numberType>
+                     <bounds>
+                        <minimum exclusive="false">0</minimum>
+                     </bounds>
+                  </numericDomain>
+               </interval>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.NH3QUAL">
+            <attributeName>NH3QUAL</attributeName>
+            <attributeLabel>NO3 quality code</attributeLabel>
+            <attributeDefinition>NH3QUAL - NO3 quality code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <enumeratedDomain enforced="yes">
+                        <codeDefinition>
+                           <code>C</code>
+                           <definition>Curve  from autoanalyzer had to be re-read manually</definition>
+                        </codeDefinition>
+                        <codeDefinition>
+                           <code>Q</code>
+                           <definition>Data is considered questionable, but is included for completeness</definition>
+                        </codeDefinition>
+                     </enumeratedDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.PO4QUAL">
+            <attributeName>PO4QUAL</attributeName>
+            <attributeLabel>PO4 quality code</attributeLabel>
+            <attributeDefinition>PO4QUAL - PO4 quality code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>PO4 quality code</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.NOXQUAL">
+            <attributeName>NOXQUAL</attributeName>
+            <attributeLabel>NOx quality code</attributeLabel>
+            <attributeDefinition>NOXQUAL - NOx quality code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>NOx quality code</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.NO2QUAL">
+            <attributeName>NO2QUAL</attributeName>
+            <attributeLabel>NO2 quality code</attributeLabel>
+            <attributeDefinition>NO2QUAL - NO2 quality code</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>NO2 quality code</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.COMMENTS">
+            <attributeName>COMMENTS</attributeName>
+            <attributeLabel>Comments on data</attributeLabel>
+            <attributeDefinition>COMMENTS - Comments on data</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Comments on data</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.PROCESSOR">
+            <attributeName>PROCESSOR</attributeName>
+            <attributeLabel>Identity of chemist processing the sample</attributeLabel>
+            <attributeDefinition>PROCESSOR - Identity of chemist processing the sample</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Identity of chemist processing the sample</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.WQTRANSECT">
+            <attributeName>WQTRANSECT</attributeName>
+            <attributeLabel>Identity of transect on which station is located</attributeLabel>
+            <attributeDefinition>WQTRANSECT - Identity of transect on which station is located</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Identity of transect on which station is located</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+         <attribute id="VCR99057.DATETEXT">
+            <attributeName>DATETEXT</attributeName>
+            <attributeLabel>Date of collection as text</attributeLabel>
+            <attributeDefinition>DATETEXT - Date of collection as text</attributeDefinition>
+            <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+            <measurementScale>
+               <nominal>
+                  <nonNumericDomain>
+                     <textDomain>
+                        <definition>Date of collection as text</definition>
+                     </textDomain>
+                  </nonNumericDomain>
+               </nominal>
+            </measurementScale>
+         </attribute>
+      </attributeList>
+   </dataTable>
+   <otherEntity>
+      <entityName>VCR99057_extras.zip</entityName>
+      <entityDescription>
+Earlier versions of the data
+      </entityDescription>
+      <physical>
+         <objectName>VCR99057_extras.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>zip</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.75.23&amp;urlHeadID=2&amp;urlTail=2/VCR99057/VCR99057_extras.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="none" />
+      <ns2:unit id="day" />
+      <ns2:unit id="micromolar" />
+      <ns2:unit id="month" />
+      <ns2:unit id="year" />
+      <ns2:unit id="YYYY-MM-DD" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-42</weight>
+         <projectId>VCR97015</projectId>
+         <featuredDataGroup>Lagoons</featuredDataGroup>
+         <featuredDataGroup>Water Quality</featuredDataGroup>
+         <researchTheme>State change coastal bays</researchTheme>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</eml:eml>

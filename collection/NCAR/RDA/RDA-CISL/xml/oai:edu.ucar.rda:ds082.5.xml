@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="082.5"
+            type="primary">
+   <timeStamp value="2015-02-11 21:35:51 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NMC Global Tropospheric Analyses, CDROM subset, daily January to June 1991</title>
+   <summary>
+      <p>NCEP Global Analyses on 145 by 37 2.5 degree grids, one for each
+              hemisphere.  Has surface, tropospheric, tropopause, and lower
+              stratospheric analyses; at mandatory levels up to 50 millibars.
+              <a href="http://rda.ucar.edu/datasets/ds082.0/#!docs">More...</a>
+              This is a subset of the data in <a href="http://rda.ucar.edu/datasets/ds082.0/">DS082.0.</a>and is identical
+              except that it is in GRIB format on CDROM in.  Every CDROM contains six months of data.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                formerName="National Meteorological Center"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Precipitable Water</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Tropopause</variable>
+   <contact>Chi-Fan Shih</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">NCEP-FNL &gt; NCEP Final Global Data Assimilation System</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Trenberth, K.E., and J.G. Olson</authorList>
+      <year>1988</year>
+      <title>Evaluation of NMC Global Analyses: 1979-1987</title>
+      <organization reportID="TN-299+STR" pages="82">National Center for Atmospheric Research</organization>
+   </reference>
+   <publicationDate>1992-08-07</publicationDate>
+   <contentMetadata>
+      <temporal start="1991-01" end="1991-06" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>WMO_GRIB1</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="400" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Tropopause level" value="0"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="150" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="70" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0E"
+               startLat="90N"
+               endLon="360E"
+               endLat="0N"
+               xRes="2.5"
+               yRes="2.5"/>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0E"
+               startLat="0S"
+               endLon="360E"
+               endLat="90S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

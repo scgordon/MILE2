@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="111.0"
+            type="primary">
+   <timeStamp value="2015-02-11 14:39:53 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>ECMWF TOGA Global Advanced Operational Spectral Analysis, daily 1985-2010</title>
+   <summary>
+      <p>The RDA maintains a collection of outputs from ECMWF's daily operational global numerical
+              model. Dataset ds111.0 contains geopotential, temperature, wind, and moisture fields on constant pressure levels, starting in
+              1985.  The horizontal resolution of the DSS archive is T106 spectral resolution in spherical harmonics, however,
+              in later years, the model is actually run at a much higher resolution (T511 as of 2001).  All fields are
+              output four times per day at 00Z, 06Z, 12Z and 18Z.  This dataset is updated twice a year.
+              </p>
+      <p>The surface data can be found in <a href="http://rda.ucar.edu/datasets/ds111.1/">ds111.1</a> and the
+              supplemental fields including radiation, stress and flux terms are in <a href="http://rda.ucar.edu/datasets/ds111.3/">ds111.3</a>.
+              The model precipitation is archived in <a href="http://rda.ucar.edu/datasets/ds111.6/">ds111.6</a>.
+              The ECMWF operational model output on the 2.5 degree latitude-longitude grid can be found in <a href="http://rda.ucar.edu/datasets/ds111.2/">ds111.2</a>.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"
+                contact="Keith Fielding"
+                citable="yes"/>
+   <restrictions>
+      <access>
+         <p>We are allowed to distribute this data to US scientists, scientists visiting US organizations, and Canadian scientists affiliated with UCAR member organizations only.</p>
+      </access>
+      <usage>
+         <p>This data must not be used for commercial purposes.  ECMWF must be given credit in any publications in which this data is used.</p>
+      </usage>
+   </restrictions>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Convergence/Divergence</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vorticity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">ECMWFIFS &gt; ECMWF Integrated Forecast System</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://www.ecmwf.int">ECMWF Web Site</relatedResource>
+   <relatedDataset ID="111.1"/>
+   <relatedDataset ID="111.2"/>
+   <relatedDataset ID="111.3"/>
+   <relatedDataset ID="111.6"/>
+   <relatedDataset ID="117.0"/>
+   <relatedDataset ID="627.0"/>
+   <relatedDataset ID="113.0"/>
+   <publicationDate>1990-07-18</publicationDate>
+   <contentMetadata>
+      <temporal start="2001-04-01 00:00 +0000"
+                end="2010-12-31 18:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <format>WMO_GRIB0</format>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="320"
+               numY="160"
+               startLon="0E"
+               startLat="89.142N"
+               endLon="358.875E"
+               endLat="89.142S"
+               xRes="1.125"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="sphericalHarmonics" numX="106" numY="106"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="sphericalHarmonics" numX="63" numY="63"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

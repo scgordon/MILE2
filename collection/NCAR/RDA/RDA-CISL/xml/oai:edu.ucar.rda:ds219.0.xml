@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="219.0"
+            type="primary">
+   <timeStamp value="2015-02-10 18:54:47 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Masutani's ECMWF Global Tropospheric Climate Analyses, March 1979 to February 1989</title>
+   <summary>
+      <p>This dataset contains yearly, six-year, and ten-year seasonal
+              means of geopotential height, temperature, wind, specific
+              humidity, and vertical motion for atmospheric levels from 1000 millibars
+              up to 30 millibars.  These means are based on the ECMWF daily
+              operational analyses and are on a global 5-degree
+              latitude/longitude grid.</p>
+      <p>The ten-year period is March 1979 to February 1989.  The
+              six-year climatology is included because the tropical fields
+              were improved significantly when diabatic initialization was
+              introduced into the analysis scheme in September 1982.</p>
+      <p>
+         <a href="http://rda.ucar.edu/datasets/ds219.0/docs/more.summary.html">
+              More information is available.</a>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="U-READING/MET &gt; Department of Meteorology, University of Reading"
+                contact="Michiko Masutani"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Hoskins B.J., H.H. Hsu, I.N. James, M. Masutani, P.D. Sardesmukh, and G.H. White</authorList>
+      <year>1989</year>
+      <title>Diagnostics of the Global Atmospheric Circulation based on ECMWF analyses 1979-1989</title>
+      <organization reportID="UGAMP Tech. Rep. 7" pages="217">Department of Meteorology, University of Reading</organization>
+   </reference>
+   <publicationDate>1990-07-06</publicationDate>
+   <contentMetadata>
+      <temporal start="1979-03" end="1989-02" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="season" statistics="mean"/>
+      <temporalFrequency type="climatology" unit="winter"/>
+      <temporalFrequency type="climatology" unit="spring"/>
+      <temporalFrequency type="climatology" unit="summer"/>
+      <temporalFrequency type="climatology" unit="autumn"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="400" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="150" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+         <level type="Isobaric level" value="30" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="72"
+               numY="37"
+               startLon="0E"
+               startLat="90N"
+               endLon="355E"
+               endLat="90S"
+               xRes="5"
+               yRes="5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

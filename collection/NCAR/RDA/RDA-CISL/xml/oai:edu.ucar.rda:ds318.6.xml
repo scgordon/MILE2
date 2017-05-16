@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="318.6"
+            type="primary">
+   <timeStamp value="2015-08-13 12:04:13 -0600"/>
+   <continuingUpdate value="no"/>
+   <title>German Climate Model Outputs for Carbon Dioxide Studies</title>
+   <summary>
+      <p>This dataset contains outputs from two runs of a coupled atmosphere-ocean model at DKRZ in Hamburg.  The runs were made in 1990 and they include a control run and an IPCC Scenario A run.  We received 100 years of monthly 10-year climatologies of 2m temperature, precipitation, net surface solar radiation, and reflected surface solar radiation in GRIB0 format.</p>
+      <p>We also received outputs from 100-year transient runs (control, IPCC Scenario A, and IPCC Scenario D).  These included monthly means of 59 parameters at the surface and 15 isobaric levels.  We were notified in May 1993 that there was a problem with the vertical interpolation in those runs, so the data are no longer in our public distribution, but they remain in our archive.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"
+                citable="no"/>
+   <contributor vocabulary="GCMD"
+                name="DE/MER/DKRZ &gt; Deutsches Klimarechenzentrum GmbH, Ministry of Education and Research, Germany"
+                citable="no"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Solar Irradiance</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Solar Radiation</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">CLIMATE MODELS</platform>
+   <supportsProject vocabulary="GCMD">IPCC &gt; Intergovernmental Panel on Climate Change</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Cubash, U., K. Hasselmann, H. Hock, E. Maier-Reimer, U. Mikolajewicz, B. Santer and R. Sausen</authorList>
+      <year>1992</year>
+      <title>Time Dependent Greenhouse Warming Computations with a Coupled Ocean-Atmosphere Model</title>
+      <periodical number="8" pages="55-69">Climate Dynamics</periodical>
+   </reference>
+   <publicationDate>1993-05-13</publicationDate>
+   <contentMetadata>
+      <temporal start="9998" end="9998" groupID="Entire Dataset"/>
+      <temporalFrequency type="climatology" unit="month"/>
+      <dataType>grid</dataType>
+      <format>WMO_GRIB0</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="64"
+               numY="32"
+               startLon="0E"
+               startLat="85.76S"
+               endLon="354.375E"
+               endLat="85.76N"
+               xRes="5.625"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

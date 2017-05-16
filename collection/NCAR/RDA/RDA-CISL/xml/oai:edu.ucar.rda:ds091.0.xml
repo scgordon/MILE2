@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="091.0"
+            type="primary">
+   <timeStamp value="2015-02-11 21:51:54 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>NCEP/DOE Reanalysis 2 (R2)</title>
+   <summary>
+      <p>This dataset contains products from the NCEP/DOE
+              Reanalysis 2 (R2) Project. The resolution of the
+              R2 model is the same as NCEP/NCAR Reanalysis (R1) project,
+              T62 Gaussian grids with 28 vertical sigma levels. The output fields
+              are saved 4 times a day as in R1. The main objective of the R2
+              project is to correct known errors in the R1 project and update
+              the parameterizations of the physical processes.
+              Improvements are seen in surface flux fields, hydrological budget,
+              short wave radiation flux, etc. There are also drawbacks found
+              in the outgoing longwave radiation over tropical warm pool and
+              upper-level tropical moisture. R2 plans to reanalyze the data
+              starting from 1979 and going forward only.</p>
+      <p>The main R2 products archived at NCAR consitute of 6 subgroups:
+              pressure level analysis, sigma level analysis, flux term analysis, diagnostic analysis
+              and 6-hour forecasts of flux term and
+              diagnostic terms. All data files are in GRIB format
+              and archived by month.</p>
+      <p>This dataset is updated once a month. Limited amount of recent data
+              are also available at NCEP (http://ftp.cpc.ncep.noaa.gov/wd51we/reanalysis-2/).
+              Earth System Research Laboratory's Physical Sciences Division of NOAA has the same data in
+              netCDF format at <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html">http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html</a>.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Boundary Layer Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <contact>Chi-Fan Shih</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">NCEP/DOE-R2M &gt; NCEP/DOE Reanalysis 2 Model</platform>
+   <platform vocabulary="GCMD">REANALYSIS MODELS</platform>
+   <project vocabulary="GCMD">NNRP &gt; NCEP/NCAR Reanalysis Project</project>
+   <project vocabulary="GCMD">NCEPR2 &gt; NCEP/DOE Reanalysis II</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="https://climatedataguide.ucar.edu/climate-data/ncep-reanalysis-r2">Description of the NCEP/DOE Reanalysis II at the NCAR Climate Data Guide</relatedResource>
+   <relatedResource url="http://www.cpc.ncep.noaa.gov/products/wesley/reanalysis2/index.html">NCEP's Reanalysis-II site including data issues, news, etc.</relatedResource>
+   <publicationDate>2000-07-27</publicationDate>
+   <contentMetadata>
+      <temporal start="1979-01-01 06:00 +0000"
+                end="2015-11-01 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="8" unit="hour"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <temporalFrequency type="regular" number="3" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="192"
+               numY="94"
+               startLon="0E"
+               startLat="88.542N"
+               endLon="358.125E"
+               endLat="88.542S"
+               xRes="1.875"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="73"
+               startLon="0E"
+               startLat="90N"
+               endLon="357.5E"
+               endLat="90S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

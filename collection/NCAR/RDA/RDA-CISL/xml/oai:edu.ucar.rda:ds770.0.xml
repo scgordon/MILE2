@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="770.0"
+            type="primary">
+   <timeStamp value="2015-02-09 20:49:56 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Staub and Rosenweig's GISS Soil and Surface Slope, 1-Degree</title>
+   <summary>
+      <p>Global data for soil type, texture, surface slope and other properties,
+              at a 1 degree resolution.  Based on FAO soil maps (1974) and on
+              Matthews vegetation dataset (<a href="http://rda.ucar.edu/datasets/ds765.0/">DS765.0.</a>).
+              Has more details about soil than the Wilson dataset (<a href="http://rda.ucar.edu/datasets/ds767.0/">DS767.0</a>)
+              (from Zobler, 1986 files).  See NASA Technical Memorandum 100685, Staub and Rosenzweig.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="NASA/GSFC/ESD/GISS &gt; Goddard Institute for Space Studies, Earth Sciences Directorate, Goddard Space Flight Center, NASA"
+                contact="Brad Staub;Cynthia Rosenzweig"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Classification</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Texture</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">imageryBaseMapsEarthCover</topic>
+   <reference type="technical_report">
+      <authorList>Staub, B. and C. Rosenzweig</authorList>
+      <year>1987</year>
+      <title>Global Digital Data Sets of Soil Type, Soil Texture, Surface Slope, and Other Properties: Documentation of Archived Data Type</title>
+      <organization reportID="NASA Technical Memorandum #100685" pages="20">NASA Goddard Space Flight Center, Institute for Space Studies</organization>
+   </reference>
+   <relatedDataset ID="765.0"/>
+   <relatedDataset ID="767.0"/>
+   <publicationDate>1988-01-27</publicationDate>
+   <contentMetadata>
+      <temporal start="9998" end="9998" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="360"
+               numY="180"
+               startLon="0.5E"
+               startLat="89.5S"
+               endLon="359.5E"
+               endLat="89.5N"
+               xRes="1"
+               yRes="1"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

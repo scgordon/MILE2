@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Christina Aiello</origin>
+        <origin>Todd Esque</origin>
+        <pubdate>2016</pubdate>
+        <title>qPCR Results S3</title>
+        <geoform>Tabular Digital Data</geoform>
+        <onlink>http://dx.doi.org/10.5066/F78W3BC8</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These datasets (S2-S3) document the transmission of a bacterial pathogen (Mycoplasma agassizii) between desert tortoises (Gopherus agassizii) experimentally introduced in captivity and were used to create and compare models predicting transmission probability given data on the hosts and their interactions. Dataset S2 includes variables describing the individual tortoises interacting, e.g. id, sex; variables describing the length of their interaction, e.g., number of days cohabitating, hours of direct contact; and variables estimating the infection level (based on data in S3) of infected tortoises involved in the interaction with the focal host.  Interaction time and the amount of bacteria present in an infected host were used to calculate “dose” variables that represent the intensity of exposure to the pathogen. These data were used to estimate model parameters for multiple generalized linear models (glm) with predictor variables related to exposure time to an infected host and host characteristics. The response variable or event of interest was the infection status of the exposed tortoise after a period of interaction. Infection status was defined in two ways (described in section 15) and determined using qPCR of tissue samples collected at intervals – the results of which are presented in the S3 dataset. The analyses allowed us to identify interactions that have high transmission likelihood, and so we explored the contact patterns of a wild tortoise population (25 individuals with overlapping or contiguous homeranges) to estimate how frequently high-risk contacts occur (Dataset S4). This dataset includes all interactions (tortoise ids of interacting pair, date &amp; time interaction began, and interaction duration) documented between tortoises fitted with proximity logging devices. Each device detects other devices when tortoises are approximately 10 cm apart and ends an interaction when tortoises have remained further than 10 cm for 1 minute.</abstract>
+      <purpose>Used to determine the infection status and level of tortoises used in the transmission study.</purpose>
+      <supplinf>Data were developed with field visits and remote instrumentation (proximity loggers for contact data).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20130408</begdate>
+          <enddate>20140718</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>See Supplemental Info</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-115.259</westbc>
+        <eastbc>-115.248</eastbc>
+        <northbc>35.982</northbc>
+        <southbc>35.973</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>desert tortoises</themekey>
+        <themekey>Mycoplasma agassizii transmission</themekey>
+        <themekey>disease models</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Clark County, NV</placekey>
+        <placekey>Desert Tortoise Conservation Center (DTCC)</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>The authors of these data require that users direct any questions pertaining to appropriate use or assistance with understanding limitations and interpretation of the data to the individuals/organization listed in the Point of Contact section.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, PACIFIC REGION</cntorg>
+          <cntper>Christina M Aiello</cntper>
+        </cntorgp>
+        <cntpos>Student Trainee (Biology)</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>160 Stephanie Boulevard</address>
+          <city>Henderson</city>
+          <state>NV</state>
+          <postal>89074</postal>
+        </cntaddr>
+        <cntvoice>702-564-4500</cntvoice>
+        <cntfax>702-564-4600</cntfax>
+        <cntemail>caiello@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Data collected under supervision of Peter J. Hudson (PSU), Kenneth E. Nussear (UNR), and Todd C. Esque (USGS) with help from Penn State University research assistants and USGS volunteers using funding from the National Science Foundation and Bureau of Land Management. S3 Dataset qPCR results provided by San Diego Zoo Amphibian Disease Lab, Escondido, CA and ELISA results provided by Dr. Mary Brown Lab, University of Florida, Gainesville, FL.</datacred>
+    <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2 (Build 3552) Service Pack N/A (Build N/A)</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Data entered or transferred between datasheets to electronic format or between two electronic forms are proofed twice to the original data to ensure accuracy. Health assessment procedures used aseptic and standardized techniques that only rigorously-trained biologists or technicians performed to ensure consistency when documenting infection in tortoises. Proximity logger data was verified using either observations or video of tortoise interactions. Data from loggers determined to poorly document the intended interactions were not included in the dataset.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>Interaction data determined to be inaccurate (described above) or incomplete for intervals between health assessments were not included in this dataset or are listed as NA.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>N/A</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>A mean estimate of M. agassizii abundance was calculated using the three estimates provided by the lab for each sample. The natural log of these mean values were used in analyses.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>tortoise</attrlabl>
+        <attrdef>unique id of the exposed tortoise</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6070</rdommin>
+            <rdommax>22464</rdommax>
+            <attrunit>unique id</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>type</attrlabl>
+        <attrdef>role of the tortoise in the study</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>control</edomv>
+            <edomvd>Unknown</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>exposed</edomv>
+            <edomvd>assumed to be uninfected based on sample results before exposure and then exposed to an infector</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>infector</edomv>
+            <edomvd>naturally infected from the start of study and used to transmit infection to uninfected tortoises</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>naive_gr</attrlabl>
+        <attrdef>two groups of uninfected tortoises were used in exposure trials and members of a group were exposed at similar times of year. This field identified to which group “Tortoise” belongs</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>date</attrlabl>
+        <attrdef>date samples were collected</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4/8/2013</rdommin>
+            <rdommax>7/18/2014</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>time</attrlabl>
+        <attrdef>start time of health assessment</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Hour: minute</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>oral_result</attrlabl>
+        <attrdef>Positive if M. agassizii was detected in oral swab, Negative if M. agassizii was not detected, Equivocal if results were indeterminable.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Equivocal</edomv>
+            <edomvd>results indeterminable</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Not Applicable</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Negative</edomv>
+            <edomvd>animal tested negative</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Positive</edomv>
+            <edomvd>animal tested positive</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>oral_1</attrlabl>
+        <attrdef>Based on qPCR of an oral swab, each value is an estimate of the number of M. agassizii detected in the sample</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Estimated number of M. agassizii detected in the sample.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>oral_2</attrlabl>
+        <attrdef>Based on qPCR of an oral swab, each value is an estimate of the number of M. agassizii detected in the sample</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Estimated number of M. agassizii detected in the sample.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>oral_3</attrlabl>
+        <attrdef>Based on qPCR of an oral swab, each value is an estimate of the number of M. agassizii detected in the sample</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Estimated number of M. agassizii detected in the sample.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>oral_mean</attrlabl>
+        <attrdef>mean of oral_1, oral_2, and oral_3</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lavage_result</attrlabl>
+        <attrdef>Positive if M. agassizii was detected in nasal lavage, Negative if M. agassizii was not detected, Equivocal if results were indeterminable.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Equivocal</edomv>
+            <edomvd>indeterminable</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Not Applicable</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Negative</edomv>
+            <edomvd>M. agassizii was not detected</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Positive</edomv>
+            <edomvd>M. agassizii was detected</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lavage_1</attrlabl>
+        <attrdef>Based on qPCR of nasal lavage, each value is an estimate of the number of M. agassizii detected in the sample</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>number of M. agassizii detected in the sample</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lavage_2</attrlabl>
+        <attrdef>Based on qPCR of nasal lavage, each value is an estimate of the number of M. agassizii detected in the sample</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>number of M. agassizii detected in the sample</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lavage_3</attrlabl>
+        <attrdef>Based on qPCR of nasal lavage, each value is an estimate of the number of M. agassizii detected in the sample</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>number of M. agassizii detected in the sample</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lavage_mean</attrlabl>
+        <attrdef>mean of lavage_1, lavage_2, and lavage_3</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>elisa_result</attrlabl>
+        <attrdef>Negative if antibody titer for M. agassizii was &lt;32, Suspect if antibody titer was ≥ 32 &amp; &lt; 64, Positive if antibody titer was ≥ 64.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Unknown</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Negative</edomv>
+            <edomvd>Negative if antibody titer for M. agassizii was &lt;32</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Positive</edomv>
+            <edomvd>Positive if antibody titer was ≥ 64.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Sample lost</edomv>
+            <edomvd>sample was lost</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Suspect</edomv>
+            <edomvd>Suspect if antibody titer was ≥ 32 &amp; &lt; 64</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+      <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Denver Federal Center</address>
+          <address>Building 810</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <custom>http://dx.doi.org/10.5066/F78W3BC8</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20160216</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christina M Aiello</cntper>
+          <cntorg>U.S. Geological Survey, PACIFIC REGION</cntorg>
+        </cntperp>
+        <cntpos>Student Trainee (Biology)</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>160 Stephanie Boulevard</address>
+          <city>Henderson</city>
+          <state>NV</state>
+          <postal>89074</postal>
+        </cntaddr>
+        <cntvoice>702-564-4500</cntvoice>
+        <cntfax>702-564-4600</cntfax>
+        <cntemail>caiello@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

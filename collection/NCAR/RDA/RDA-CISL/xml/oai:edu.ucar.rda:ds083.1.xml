@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="083.1"
+            type="primary">
+   <timeStamp value="2013-04-11 15:06:37 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="direct_copy">none_free</access>
+   <title>NCEP FNL Operational Model Global Tropospheric Analyses, near surface subset, Apr 1997 - June 2001</title>
+   <summary>
+      <p>These NCEP FNL (Final) Operational Global Analysis data are on pairs of 2.5x2.5 degree hemispheric grids every twelve hours. This product was from the Global Forecast System (GFS) that was run operationally in near-real time at NCEP. DSS prepared this surface subset from ds082.0.</p>
+      <p>The analyses are available on the surface, at 1000mb and a boundary layer.  Parameters include surface pressure, sea level pressure, geopotential height, temperature, sea surface temperature, soil temperature, water content of soil, ice cover, water equivalent of snow depth, relative
+              humidity, specific humidity, u- and v-wind components, minimum temperature, maximum temperature and land-sea mask.</p>
+      <p>
+         <a href="http://rda.ucar.edu/datasets/ds083.1/more.html">More information is available</a>
+      </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Land Temperature &gt; Skin Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Sea Ice &gt; Ice Extent</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Water Equivalent</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Land Surface &gt; Soils &gt; Soil Moisture/Water Content</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Precipitable Water</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Boundary Layer Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">NCEP-FNL &gt; NCEP Final Global Data Assimilation System</platform>
+   <supportsProject vocabulary="GCMD">WRF &gt; WRF (Weather Research and Forecasting) Modeling</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="083.0"/>
+   <relatedDataset ID="082.1"/>
+   <publicationDate>1997-11-25</publicationDate>
+   <contentMetadata>
+      <temporal start="1997-05-01 00:00 +0000"
+                end="2001-06-30 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <temporalFrequency type="regular" number="12" unit="hour"/>
+      <temporalFrequency type="regular" number="3" unit="day"/>
+      <temporalFrequency type="regular" number="6" unit="hour"/>
+      <temporalFrequency type="regular" number="3" unit="hour"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0E"
+               startLat="0N"
+               endLon="360E"
+               endLat="90N"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="145"
+               numY="37"
+               startLon="0E"
+               startLat="90S"
+               endLon="360E"
+               endLat="0N"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

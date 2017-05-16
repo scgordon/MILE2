@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="208.0"
+            type="historical">
+   <timeStamp value="2015-02-10 19:02:01 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Sadler's Tropical Wind Climatology, 1960-1973</title>
+   <summary>
+      <p>Long term monthly mean winds which Sadler derived from his
+              collection of aircraft data (which we have in <a href="http://rda.ucar.edu/datasets/ds365.0/">DS365.0.</a>)
+              and average rawinsonde data.  The aircraft data were obtained
+              from two sources: operational GTS reports collected in Honolulu
+              and the FHWF; and aircraft logs from many routes which often
+              were not reported over the GTS.  The aircraft winds were
+              summarized for each month in 5-degree latitude-longitude squares.
+              The average monthly rawinsonde data were then combined with
+              these in manual analyses of streamlines and isotachs.  The 2.5-
+              degree grids of wind speed and direction were manually read from
+              these.
+              </p>
+      <p>Unless you have a special interest in this dataset, DSS recommends that you
+              use one of our reanalysis datasets, such as <a href="http://rda.ucar.edu/datasets/ds090.2/">ds090.2</a>.  That's because those are
+              based on a more complete collection of observations, improved analysis methods,
+              and are provided in a common modern format (GRIB).
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UHI/SOEST/METEO &gt; Meteorology Department, School of Ocean and Earth Science and Technology, University of Hawaii"
+                contact="James Sadler"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">AIRCRAFT</platform>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+   <platform vocabulary="GCMD">RAWINSONDES</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Sadler, J.C.</authorList>
+      <year>1975</year>
+      <title>The upper tropospheric circulation over the global tropics</title>
+      <organization reportID="UHMET 75-05" pages="35">Department of Meteorology, University of Hawaii</organization>
+   </reference>
+   <publicationDate>1980-03-27</publicationDate>
+   <contentMetadata>
+      <temporal start="1960-01" end="1973-12" groupID="Entire Dataset"/>
+      <temporalFrequency type="climatology" unit="month"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="31"
+               startLon="0.0E"
+               startLat="45.0N"
+               endLon="357.5E"
+               endLat="30.0S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

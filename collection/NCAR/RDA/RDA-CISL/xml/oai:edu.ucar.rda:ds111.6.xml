@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="111.6"
+            type="primary">
+   <timeStamp value="2015-02-11 14:36:28 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>ECMWF TOGA Global Extension Fields, 1991-2010</title>
+   <summary>
+      <p>This dataset contains various output grids from the
+              ECMWF operational model.  All of the grids are on
+              a gaussian (N80) grid with a resolution of approximately 1.125 degrees
+              daily accumulations from forecast hours 12 - 36 of 12Z run.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"
+                citable="yes"/>
+   <restrictions>
+      <access>
+         <p>We are allowed to distribute this data to US scientists, scientists visiting US organizations, and Canadian scientists affiliated with UCAR member organizations only.</p>
+      </access>
+      <usage>
+         <p>This data must not be used for commercial purposes.  ECMWF must be given credit in any publications in which this data is used.</p>
+      </usage>
+   </restrictions>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Gravity Wave</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Evaporation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Wind Stress</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Wind Stress</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Spectral/Engineering &gt; Infrared Wavelengths &gt; Thermal Infrared</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Heat Flux</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Snow</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">ECMWFIFS &gt; ECMWF Integrated Forecast System</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://www.ecmwf.int">ECMWF Web Site</relatedResource>
+   <relatedDataset ID="111.0"/>
+   <relatedDataset ID="111.1"/>
+   <relatedDataset ID="111.2"/>
+   <relatedDataset ID="111.3"/>
+   <relatedDataset ID="117.0"/>
+   <relatedDataset ID="627.0"/>
+   <relatedDataset ID="113.0"/>
+   <publicationDate>1999-07-14</publicationDate>
+   <contentMetadata>
+      <temporal start="1991-01-03 00:00 +0000"
+                end="2011-01-02 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="320"
+               numY="160"
+               startLon="0E"
+               startLat="89.142N"
+               endLon="358.875E"
+               endLat="89.142S"
+               xRes="1.125"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="320"
+               numY="160"
+               startLon="0E"
+               startLat="89.141N"
+               endLon="358.875E"
+               endLat="89.141S"
+               xRes="1.125"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

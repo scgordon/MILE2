@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="217.1"
+            type="primary">
+   <timeStamp value="2006-10-16 15:21:23 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>GFDL Global Monthly Atmospheric Circulation Analyses for May 1958 through December 1989</title>
+   <summary>
+      <p>Twenty-two monthly statistical quantities make up this
+              dataset of grids which describes the atmospheric general
+              circulation at eleven vertical levels across the troposphere and
+              stratosphere over a 32-year period.  These gridded analyses,
+              created from upper air soundings across the globe, span the
+              period from May 1958 to December 1989.  The statistical
+              parameters included, which are useful for comparing climate
+              model simulations to actual observations, include monthly means
+              and variances of horizontal and vertical wind, temperature,
+              geopotential height, moisture, and horizontal wind divergence.
+              There are also covariance terms describing the relationship
+              between wind, temperature, moisture, and geopotential
+              height.</p>
+      <p>In general, the analyses near the surface of the earth (900mb
+              and below) tend to be less reliable than those of the higher
+              levels because the individual rawinsonde reports are often
+              incomplete due to missing 1000mb reports.</p>
+      <p>The data were provided to DSS by Bram Oort of the Geophysical
+              Fluid Dynamics Laboratory (GFDL).  The original grids are in an
+              IEEE floating-point format, and DSS has created a netCDF version
+              of the full dataset.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/GFDL &gt; NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce"
+                contact="Abraham H. Oort"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Convergence/Divergence</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1994-12-12</publicationDate>
+   <contentMetadata>
+      <temporal start="1958-08-29 00:00 +0000"
+                end="1990-03-31 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="73"
+               numY="73"
+               startLon="180W"
+               startLat="90S"
+               endLon="180E"
+               endLat="90N"
+               xRes="5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

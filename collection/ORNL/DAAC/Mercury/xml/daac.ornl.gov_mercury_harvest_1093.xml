@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[DOBSON, M.C.]]></origin>
+        <origin><![CDATA[PIERCE, L.E.]]></origin>
+        <title><![CDATA[LBA-ECO LC-03 SAR Images, Land Cover, and Biomass, Four Areas across Brazilian Amazon]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1093]]></onlink>
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/1093.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/1093.xml]]></alt_onlink>
+        <onlink><![CDATA[http://daac.ornl.gov//LBA/guides/LC03_SAR_LC_Biomass.html]]></onlink>
+        <geoform>metadata</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[This data set provides three related land cover products for four study areas across the Brazilian Amazon: Manaus, Amazonas; Tapajos National Forest, Para Western (Santarem); Rio Branco, Acre; and Rondonia, Rondonia. Products include (1) orthorectified JERS-1 and RadarSat images, (2) land cover classifications derived from the SAR data, and (3) biomass estimates in tons per hectare based on the land cover classification. There are 12 image files (.tif) with this data set.
+
+Orthorectified JERS-1 and RadarSat images are provided as GeoTIFF images - one file for each study area.
+
+For the Manaus and Tapajos sites: The images are orthorectified at 12.5-meter resolution and then re-sampled at 25-meter resolution.
+
+For the Rondonia and Rio Branco sites: The images from 1978 are orthorectified at 25-meter resolution and then re-sampled at 90-meter resolution. 
+
+Each GeoTIFF file contains 3 image channels: - 2 L-band JERS-1 data in Fall and Spring seasons and - 1 C-band RadarSat data.
+
+Land cover classifications are based on two JERS-1 images and one RadarSat image and provided as GeoTIFFs - one file for each study area. Four major land cover classes are distinguished: (1) Flat surface; (2) Regrowth area; (3) Short vegetation; and (4) Tall vegetation.
+
+ The biomass estimates in tons per hectare are based on the land cover classification results and are reported in one GeoTIFF file for each study area.
+
+DATA QUALITY STATEMENT: The Data Center has determined that there are questions about the quality of the data reported in this data set. The data set has missing or incomplete data, metadata, or other documentation that diminishes the usability of the products.
+
+KNOWN PROBLEMS: 
+
+The data providers note that due to limited resources, these data have been neither validated nor quality-assured for general use. For that reason, extreme caution is advised when considering the use of these data.
+
+Any use of the derived data is not recommended because the results have not been validated. 
+
+However, the DEM and vectors (related data set), and orthorectified SAR data can be used if the user understands how these were produced and accepts the limitations. 
+
+]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19740101]]></begdate>
+          <enddate><![CDATA[19980618]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update> As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc><![CDATA[-68.5008]]></westbc>
+        <eastbc><![CDATA[-54.4989]]></eastbc>
+        <northbc><![CDATA[-2.0017]]></northbc>
+        <southbc><![CDATA[-10.5014]]></southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey><![CDATA[BIOMASS|SAR (SYNTHETIC APERTURE RADAR)|RADARSAT-1]]></themekey>
+        <themekey><![CDATA[LAND USE CLASSES|DIGITIZER|RADARSAT-1]]></themekey>
+        <themekey><![CDATA[LAND COVER|SAR (SYNTHETIC APERTURE RADAR)|JERS-1 (JAPANESE EARTH RESOURCES SATELLITE-1)]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey><![CDATA[BIOMASS]]></themekey>
+        <themekey><![CDATA[LAND USE CLASSES]]></themekey>
+        <themekey><![CDATA[LAND COVER]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey><![CDATA[RADARSAT-1]]></themekey>
+        <themekey><![CDATA[RADARSAT-1]]></themekey>
+        <themekey><![CDATA[JERS-1 (JAPANESE EARTH RESOURCES SATELLITE-1)]]></themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey><![CDATA[SAR (SYNTHETIC APERTURE RADAR)]]></themekey>
+        <themekey><![CDATA[DIGITIZER]]></themekey>
+        <themekey><![CDATA[SAR (SYNTHETIC APERTURE RADAR)]]></themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[DOBSON, M.C.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > xsl:value-of select="x_tags/Data_Originator/Investigator/Email" disable-output-escaping="yes" />]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET > ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Dobson, M.C. and L.E. Pierce. 2012. LBA-ECO LC-03 SAR Images, Land Cover, and Biomass, Four Areas across Brazilian Amazon. Data set. Available on-line [http://daac.ornl.gov] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A.
+
+ http://dx.doi.org/10.3334/ORNLDAAC/1093]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20120608</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <Local-Control-Number>Created 2016 10  4 21 30 11 1469631011 by 160.91.11.44</Local-Control-Number>
+  <mercury>
+    <begdate></begdate>
+    <enddate></enddate>
+    <Site_Information>
+      <Site></Site>
+      <Westernmost_Longitude><![CDATA[-68.5008]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[-54.4989]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[-2.0017]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-10.5014]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[AMAZON]]></Keywords>
+    <Keywords><![CDATA[IMAGES]]></Keywords>
+    <Keywords><![CDATA[BIOMASS]]></Keywords>
+    <Keywords><![CDATA[LAND COVER CLASSIFICATION]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[BIOMASS]]></Parameter>
+      <Sensor><![CDATA[SAR (SYNTHETIC APERTURE RADAR)]]></Sensor>
+      <Source><![CDATA[RADARSAT-1]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND USE CLASSES]]></Parameter>
+      <Sensor><![CDATA[DIGITIZER]]></Sensor>
+      <Source><![CDATA[RADARSAT-1]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND COVER]]></Parameter>
+      <Sensor><![CDATA[SAR (SYNTHETIC APERTURE RADAR)]]></Sensor>
+      <Source><![CDATA[JERS-1 (JAPANESE EARTH RESOURCES SATELLITE-1)]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[LBA]]></Project>
+    <Navpath><![CDATA[RADARSAT-1|SAR (SYNTHETIC APERTURE RADAR)|BIOMASS]]></Navpath>
+    <Navpath><![CDATA[RADARSAT-1|DIGITIZER|LAND USE CLASSES]]></Navpath>
+    <Navpath><![CDATA[JERS-1 (JAPANESE EARTH RESOURCES SATELLITE-1)|SAR (SYNTHETIC APERTURE RADAR)|LAND COVER]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[DOBSON, M.C.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[PIERCE, L.E.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1093]]></URL>
+      <Label><![CDATA[LBA-ECO LC-03 SAR Images, Land Cover, and Biomass, Four Areas across Brazilian Amazon]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//LBA/guides/LC03_SAR_LC_Biomass.html]]></URL>
+      <Label><![CDATA[LBA-ECO LC-03 SAR Images, Land Cover, and Biomass, Four Areas across Brazilian Amazon]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    <OME_Software_Version>/home/web/mercury/write_mercury_xml.pl</OME_Software_Version>
+    <OME_DTD_Version>mercury21.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID>1093</File_ID>
+    <MD_Entry_id>LC03_SAR_LC_BIOMASS</MD_Entry_id>
+    <Spatial_Extent></Spatial_Extent>
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//LBA/guides/LC03_SAR_LC_Biomass.html]]></URL>
+      <Label><![CDATA[LBA-ECO LC-03 SAR Images, Land Cover, and Biomass, Four Areas across Brazilian Amazon]]></Label>
+    </Search_Text_Link>
+    <Granule_Details>
+      <Granule>
+        <Granule_ID><![CDATA[1093_1]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Manaus Biomass across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-60.5083333333333]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-59.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_10]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Rio BrancoOrthorectified RadarSat C-band Image across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-68.1355555555556]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-66.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.22027777777778]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-10.915]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_11]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 RondoniaBiomass across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-63.5591666666667]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-62.2033333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.4575]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-11.0677777777778]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_12]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 RondoniaLand Cover across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-63.5591666666667]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-62.2033333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.4575]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-11.0677777777778]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_13]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 RondoniaOrthorectified JERS-1 L-band Images in Fall across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-63.5591666666667]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-62.2033333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.4575]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-11.0677777777778]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_14]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 RondoniaOrthorectified JERS-1 L-band Image in Spring across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-63.5591666666667]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-62.2033333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.4575]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-11.0677777777778]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_15]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 RondoniaOrthorectified RadarSat C-band Image across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-63.5591666666667]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-62.2033333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.4575]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-11.0677777777778]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_16]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Tapajos National ForestBiomass across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.4913888888889]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.5083333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.49138888888889]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_17]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Tapajos National ForestLand Cover across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.4913888888889]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.5083333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.49138888888889]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_18]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Tapajos National ForestOrthorectified JERS-1 L-band Images in Fall across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.4913888888889]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.5083333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.49138888888889]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_19]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Tapajos National ForestOrthorectified JERS-1 L-band Image in Spring across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.4913888888889]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.5083333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.49138888888889]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_2]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Manaus Land Cover across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-60.5083333333333]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-59.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_20]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Tapajos National ForestOrthorectified RadarSat C-band Image across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-55.4913888888889]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-54.5083333333333]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2.49138888888889]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_3]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Manaus Orthorectified JERS-1 L-band Images in Fall across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-60.5083333333333]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-59.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_4]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Manaus Orthorectified JERS-1 L-band Image in Spring across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-60.5083333333333]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-59.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_5]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Manaus Orthorectified RadarSat C-band Image across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-60.5083333333333]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-59.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-2]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-3.50833333333333]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_6]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Rio BrancoBiomass across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-68.1355555555556]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-66.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.22027777777778]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-10.915]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_7]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Rio BrancoLand Cover across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-68.1355555555556]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-66.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.22027777777778]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-10.915]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_8]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Rio BrancoOrthorectified JERS-1 L-band Images in Fall across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-68.1355555555556]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-66.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.22027777777778]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-10.915]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+      <Granule>
+        <Granule_ID><![CDATA[1093_9]]></Granule_ID>
+        <Granule_Title><![CDATA[LBA-ECO LC-03 Rio BrancoOrthorectified JERS-1 L-band Image in Spring across Brazilian Amazon]]></Granule_Title>
+        <Westernmost_Longitude><![CDATA[-68.1355555555556]]></Westernmost_Longitude>
+        <Easternmost_Longitude><![CDATA[-66.4913888888889]]></Easternmost_Longitude>
+        <Northernmost_Latitude><![CDATA[-9.22027777777778]]></Northernmost_Latitude>
+        <Southernmost_Latitude><![CDATA[-10.915]]></Southernmost_Latitude>
+        <Start_Date><![CDATA[1974-01-01]]></Start_Date>
+        <End_Date><![CDATA[1998-06-18]]></End_Date>
+      </Granule>
+    </Granule_Details>
+    <OGC_URL>https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=1093</OGC_URL>
+    <THREDDS_URL></THREDDS_URL>
+  </mercury>
+</metadata>

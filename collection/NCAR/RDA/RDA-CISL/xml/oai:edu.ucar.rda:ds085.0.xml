@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="085.0"
+            type="primary">
+   <timeStamp value="2014-01-15 21:01:34 -0700"/>
+   <continuingUpdate value="yes" frequency="quarterly"/>
+   <title>Monthly Northern Hemisphere 47x51 Tropospheric Analyses, continuing from January 1946</title>
+   <summary>
+      <p>The DSS assembled this long time-series collection of monthly gridded Northern Hemispheric data from the output of various operational models.  Monthly mean grids are available separately for 00Z and 12Z (or 03Z and 15Z in the earlier years).  Parameters include temperature, geopotential height, and u- and v- wind components at various tropospheric levels, and sea-level pressure and surface temperature.  The data are presented on a 47-by-51 north polar stereographic grid with a 381 kilometer resolution (at 60N).</p>
+      <p>We continue to update this dataset mainly for users who have used it in the past and wish to continue receiving the same format.  Particularly from April 1997 on, the grids in this dataset are derived from NCEP operational outputs that have a better resolution that what is offered here, so please consider those other more-recent datasets especially if your needs are for data from the late 1990s onward.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                formerName="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="DOD/USNAVY/FNMOC &gt; Fleet Numerical Meteorology and Oceanography Center, U.S. Navy, U. S. Department of Defense"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Virtual Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">OPERATIONAL MODELS</platform>
+   <project vocabulary="GCMD">ESSPO &gt; 433L ESSPO</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedDataset ID="195.0"/>
+   <relatedDataset ID="085.1"/>
+   <relatedDataset ID="085.0"/>
+   <relatedDataset ID="083.0"/>
+   <publicationDate>1980-01-11</publicationDate>
+   <contentMetadata>
+      <temporal start="1946-01-01 12:00 +0000"
+                end="2009-12-31 12:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/datasets/common/nmc.octagon/format.html">DSS_Octagonal_Grid</format>
+      <geospatialCoverage>
+         <grid definition="polarStereographic"
+               numX="47"
+               numY="51"
+               startLon="122.61W"
+               startLat="4.86S"
+               projLon="80W"
+               xRes="381"
+               yRes="381"
+               pole="N"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

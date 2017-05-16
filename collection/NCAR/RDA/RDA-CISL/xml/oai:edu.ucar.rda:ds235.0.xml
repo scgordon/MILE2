@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="235.0"
+            type="primary">
+   <timeStamp value="2015-02-10 21:36:53 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Northern Hemisphere Surface Pressure and Precipitation Grids from the U.S.S.R.</title>
+   <summary>
+      <p>This data set contains Northern Hemisphere surface pressure
+              and precipitation data prepared by the U.S.S.R.  The surface
+              pressure grids include average monthly pressures for
+              1873-1981 and climatological normals by month for 1873-1973 and
+              1931-1960.  Precipitation grids include percentages of normal
+              for all Januarys and all Julys for 1891-1979.</p>
+      <p>DSS has created a
+              <a href="http://rda.ucar.edu/docs/formats/grib/gribdoc/">GRIB</a>
+              version of this set for users who prefer the GRIB format.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="RU/SRIHI/WDC &gt; World Data Center, All-Union Scientific Research Institute for Hydrometeorological Information, Russia"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MAPS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1983-04-27</publicationDate>
+   <contentMetadata>
+      <temporal start="1873-01-01 00:00 +0000"
+                end="1982-01-01 00:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="101-year"/>
+      <temporalFrequency type="regular" number="1" unit="30-year"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="36"
+               numY="16"
+               startLon="0E"
+               startLat="90N"
+               endLon="350E"
+               endLat="15N"
+               xRes="10"
+               yRes="5"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="36"
+               numY="19"
+               startLon="0E"
+               startLat="90N"
+               endLon="350E"
+               endLat="0N"
+               xRes="10"
+               yRes="5"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="145"
+               numY="35"
+               startLon="0E"
+               startLat="85N"
+               endLon="360E"
+               endLat="0N"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

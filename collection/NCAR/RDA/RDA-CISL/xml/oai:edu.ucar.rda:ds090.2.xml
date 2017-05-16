@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="090.2"
+            type="primary">
+   <timeStamp value="2015-02-12 07:42:14 -0700"/>
+   <continuingUpdate value="yes" frequency="monthly"/>
+   <title>NCEP/NCAR Reanalysis Monthly Mean Subsets (from DS090.0), 1948-continuing</title>
+   <summary>
+      <p>The monthly means of NCEP/NCAR Reanalysis (R1) products,
+              archived in <a href="http://rda.ucar.edu/datasets/ds090.0/">ds090.0</a> dataset,
+              are extracted and reorganized into subgroups in this dataset. The groupings try to combine like and/or commonly used parameter-level data together. There are also subgroups for each of the four diurnal monthly means (means of 00Z, 06Z, 12Z, and 18Z separately).
+              </p>
+      <p>The data files are in WMO GRIB format. Both the monthly means
+              and their variances are in the same file but in different GRIB
+              records. Examples of separating monthly means from variances
+              are shown in <a href="http://rda.ucar.edu/datasets/ds090.2/docs/how2use_grads.txt">this guide</a>.
+              </p>
+      <p>All subgroups will be available on line under <a href="http://rda.ucar.edu/datasets/ds090.2/#access">data</a>.
+              The ones that are not on line yet will be moved over upon
+              request.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NWS/NCEP &gt; National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Boundary Layer Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <contact>Chi-Fan Shih</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <platform vocabulary="GCMD">NCEP/NCAR-RM &gt; NCEP/NCAR Reanalysis Model</platform>
+   <project vocabulary="GCMD">NNRP &gt; NCEP/NCAR Reanalysis Project</project>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Kalnay, E., M. Kanamitsu, R. Kistler, W. Collins, D. Deaven, L. Gandin, M. Iredell, S. Saha, G. White, J. Woollen, Y. Zhu, M. Chelliah, W. Ebisuzaki, W. Higgins, J. Janowiak, K.C. Mo, C. Ropelewski, J. Wang, A. Leetmaa, R. Reynolds, R. Jenne, and D. Joseph</authorList>
+      <year>1996</year>
+      <title>The NCEP / NCAR 40-year reanalysis project</title>
+      <periodical number="77" pages="437-471">Bull. Amer. Meteor. Soc.</periodical>
+   </reference>
+   <publicationDate>1996-02-07</publicationDate>
+   <contentMetadata>
+      <temporal start="1948-01-01 00:00 +0000"
+                end="2015-01-01 06:00 +0000"
+                groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="144"
+               numY="73"
+               startLon="0E"
+               startLat="90N"
+               endLon="357.5E"
+               endLat="90S"
+               xRes="2.5"
+               yRes="2.5"/>
+      </geospatialCoverage>
+      <geospatialCoverage>
+         <grid definition="gaussLatLon"
+               numX="192"
+               numY="94"
+               startLon="0E"
+               startLat="88.542N"
+               endLon="358.125E"
+               endLat="88.542S"
+               xRes="1.875"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

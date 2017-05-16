@@ -1,0 +1,731 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.224.3" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="224" system="VCR">
+   <alternateIdentifier>VCR14220</alternateIdentifier>
+   <title>Detailed USDA SSURGO soil map data for Accomack and Northampton Counties, VA, 2008-2010.</title>
+   <creator>
+      <individualName>
+         <surName>Soil Survey Staff</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Natural Resources Conservation Service, United States Department of Agriculture</deliveryPoint>
+         <country>USA</country>
+      </address>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2014-01-07</pubDate>
+   <abstract>
+  <para> This dataset contains detailed USDA SSURGO soil information and mapped soil extents for the soils of Accomack and Northampton Counties on Virginia's Eastern Shore, including those areas of focused study by the Virginia Coast Reserve LTER project. This USDA soil data is collected and combined here to make it more accessible to VCRLTER researchers and students, in a more GIS-friendly format, and to supersede previous digitized versions of more generalized soil maps created by the VCRLTER and included as part of the 1995 VCRLTER-Northampton County GIS data archive (dataset VCR14219). </para>
+  <para>Data was downloaded in Jan. 2014 and tabular data for both counties was imported into a MS Access database using the provided standard SSURGO US 2003 template. Spatial data for the two counties was merged together into a single ArcGIS shapefile and selected fields from the MAPUNIT and MUAGGATT tables were joined to the final shapefile's attribute table.</para>
+  <para>Each polygon represents all or part of a SSURGO "mapunit", which may contain multiple component soils; usually very similar soils that grade together or else so heterogeneously mixed together at fine spatial scales to make mapping the component soils individually impractical. Also, each soil typically has multiple vertical soil horizons, each with its own distinct composition (mineral, textural, etc.) and other characteristics. Detailed information about component soils (including typical soil moisture, dry albedo, erodibility indices, taxonomic nomenclature, flooding and ponding characteristics, engineering, crop, forest, and habitat suitability indices and yield tables, and geomorphic descriptions) and component horizons (including horizon depths, grain size distributions, sand/silt/clay fractions, mineral and organic content, and pore space characteristics) is included in the MS Access database but NOT in the combined ArcGIS shapefile. Users interested in exploring or displaying component or horizon information may use the report and query forms within the MS Access database, or they may join selected database tables to the shapefile using the appropriate mukey, cokey, and chkey indices in a one-to-many join within a chosen GIS software.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">soil</keyword>
+      <keyword keywordType="theme">geographic information systems</keyword>
+      <keyword keywordType="theme">GIS</keyword>
+   </keywordSet>
+   <additionalInfo>
+<section> 
+ <title>Related Documents</title>
+  <para> Full metadata for all individual SSURGO data tables is available at: http://soildatamart.nrcs.usda.gov/SSURGOMetadata.aspx </para>
+  <para>Original data available from USDA at: http://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm</para>
+  <para>Note: of possible user interest are modified ESRI versions of the SSURGO data that, in addition to map unit attribute data, include some component data (either just characteristics of the dominant component or an area-weighted average value), but which is split up by HUC8 subbasins, rather than by county, is available from ESRI in an ArcGIS-only map package format using the ArcGIS SSURGO Data Downloader (beta) application at: http://www.arcgis.com/home/item.html?id=a23eb436f6ec4ad6982000dbaddea5ea</para>
+</section>
+
+   </additionalInfo>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>ACOMACCOU - northern county on Eastern Shore,VA</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.350000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.983333</eastBoundingCoordinate>
+            <northBoundingCoordinate>38.016667</northBoundingCoordinate>
+            <southBoundingCoordinate>37.500000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>NHAMPCOUNT - Southern county of Eastern Shore,VA</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.791667</westBoundingCoordinate>
+            <eastBoundingCoordinate>-76.083333</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.500000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.088889</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <singleDateTime>
+            <calendarDate>2014-01-07</calendarDate>
+         </singleDateTime>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>David</givenName>
+         <surName>Richardson</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, Clark Hall, University of Virginia</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">(434) 924-3193</phone>
+      <phone phonetype="facsimile">(434) 982-2137</phone>
+      <electronicMailAddress>dlr2n@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">drichardson</userId>
+   </contact>
+   <contact>
+      <individualName>
+         <surName>District Conservationist</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>NRCS  SERVICE CENTER OFFICE, ACCOMAC SERVICE CENTER, 22545 CENTER PKWY</deliveryPoint>
+         <city>ACCOMAC</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>23301-1330</postalCode>
+         <country>USA</country>
+      </address>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <methods>
+      <methodStep>
+         <description>
+  <para> Data was downloaded in Jan. 2014 and tabular data for both counties was imported into a MS Access database using the provided standard SSURGO US 2003 template. Spatial data for the two counties was merged together into a single ArcGIS shapefile and selected fields from the MAPUNIT and MUAGGATT tables were joined to the final shapefile's attribute table. </para>
+         </description>
+      </methodStep>
+   </methods>
+   <otherEntity>
+      <entityName>VCR14220</entityName>
+      <entityDescription>
+ZIP file containing full MS Access database (standard SSURGO US 2003 template) of detailed USDA SSURGO soil map data combined for Accomack and Northampton Counties, VA. 
+
+---
+
+Combined tabular data for the soils of both counties are contained with a MS Access database created by importing the downloaded ASCII data into the provided standard SSURGO US 2003 template.  
+
+Spatial data for the soils of both counties (plus selected mapunit attribute data) are stored as a single ArcGIS shapefile.  
+
+The tabular data and spatial data have been archived in separate zip files for distribution.  
+
+
+      </entityDescription>
+      <physical>
+         <objectName>VAESsoils_tabular.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>Esoteric</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.224.3&amp;urlHeadID=2&amp;urlTail=1/VCR14220/VCR14220/VAESsoils_tabular.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+      <spatialVector id="acnh_ssurgo_soils">
+         <alternateIdentifier>VCR14220-2</alternateIdentifier>
+         <entityName>acnh_ssurgo_soils</entityName>
+         <entityDescription>      ZIP file containing ArcGIS shapefile of detailed USDA SSURGO soil map data combined for Accomack and Northampton Counties, VA.  Contains some but not all of the mapunit-level attribute data from the full tabular MS access database.     </entityDescription>
+         <physical>
+            <objectName>VAESsoils_spatial.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.224.3&amp;urlHeadID=2&amp;urlTail=2/VCR14220/VAESsoils_spatial.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Accomack and Northampton Counties, VA</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.047137</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.241914</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.027355</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.084191</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>OBJECTID</attributeName>
+               <attributeLabel>OBJECTID</attributeLabel>
+               <attributeDefinition>internal ID number</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AREASYMBOL</attributeName>
+               <attributeLabel>AREASYMBOL</attributeLabel>
+               <attributeDefinition>area symbol for geographic area = US county ID</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>VA001</code>
+                              <definition>Accomack County</definition>
+                              <source>USDA SSURGO</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>VA131</code>
+                              <definition>Northampton County</definition>
+                              <source>USDA SSURGO</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>SPATIALVER</attributeName>
+               <attributeLabel>SPATIALVER</attributeLabel>
+               <attributeDefinition>serial version number of the spatial data </attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>MUSYM</attributeName>
+               <attributeLabel>MUSYM</attributeLabel>
+               <attributeDefinition>soil mapunit symbol - each soil has a unique abbreviation</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>soil mapunit symbol - each soil has a unique abbreviation</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>MUKEY</attributeName>
+               <attributeLabel>MUKEY</attributeLabel>
+               <attributeDefinition>soil mapunit key (ID code #) </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>soil mapunit key (ID code #) </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape_Area</attributeName>
+               <attributeLabel>Shape_Area</attributeLabel>
+               <attributeDefinition>area in hectares (based on WGS84 UTM 18N projection).</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>hectare</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>muname</attributeName>
+               <attributeLabel>muname</attributeLabel>
+               <attributeDefinition>name of the mapunit </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>name of the mapunit </definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>mukind</attributeName>
+               <attributeLabel>mukind</attributeLabel>
+               <attributeDefinition>code identifying the kind of mapunit - Consociation, Complex, or Undifferentiated Group</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>code identifying the kind of mapunit - Consociation, Complex, or Undifferentiated Group</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>wtdepannmi</attributeName>
+               <attributeLabel>wtdepannmi</attributeLabel>
+               <attributeDefinition>Water Table Depth - Annual - Minimum  - The shallowest depth to a wet soil layer (water table) at any time during the year expressed as centimeters from the soil surface, for components whose composition in the map unit is equal to or exceeds 15%</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">SmallInteger</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>cm</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>wtdepaprju</attributeName>
+               <attributeLabel>wtdepaprju</attributeLabel>
+               <attributeDefinition>Water Table Depth - April - June  - Minimum  - The shallowest depth to a wet soil layer (water table) during the months of April through June expressed as centimeters from the soil surface, for components whose composition in the map unit is equal to or exceeds 15%</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">SmallInteger</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>cm</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>flodfreqdc</attributeName>
+               <attributeLabel>flodfreqdc</attributeLabel>
+               <attributeDefinition>Flooding Frequency - Dominant Condition - The annual probability of a flood event expressed as a class. This column displays the dominant flood frequency class for the map unit, based on composition percentage of map unit components whose composition in the map unit is equal to or exceeds 15%</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Flooding Frequency - Dominant Condition - The annual probability of a flood event expressed as a class. This column displays the dominant flood frequency class for the map unit, based on composition percentage of map unit components whose composition in the map unit is equal to or exceeds 15%</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>flodfreqma</attributeName>
+               <attributeLabel>flodfreqma</attributeLabel>
+               <attributeDefinition>Flooding Frequency - Maximum -  The annual probability of a flood event expressed as a class. This column displays the highest probability class assigned to an individual component of the map unit whose composition in the map unit is equal to or exceeds 15%</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Flooding Frequency - Maximum -  The annual probability of a flood event expressed as a class. This column displays the highest probability class assigned to an individual component of the map unit whose composition in the map unit is equal to or exceeds 15%</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>pondfreqpr</attributeName>
+               <attributeLabel>pondfreqpr</attributeLabel>
+               <attributeDefinition>Ponding Frequency  - Presence  - The percentage of the map unit that is subject to water being ponded on the soil surface</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Ponding Frequency  - Presence  - The percentage of the map unit that is subject to water being ponded on the soil surface</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>aws025wta</attributeName>
+               <attributeLabel>aws025wta</attributeLabel>
+               <attributeDefinition>Available Water Storage 0-25 cm -Weighted Average  - Available water storage (AWS). The volume of water that the soil, to a depth of 25 centimeters, can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of water.  AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3 bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Single</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>cm</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>aws050wta</attributeName>
+               <attributeLabel>aws050wta</attributeLabel>
+               <attributeDefinition>Available Water Storage 0-50 cm -Weighted Average - Available water storage (AWS). The volume of water that the soil, to a depth of 50 centimeters, can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of water.  AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3 bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Single</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>cm</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>aws0100wta</attributeName>
+               <attributeLabel>aws0100wta</attributeLabel>
+               <attributeDefinition>Available Water Storage 0-100 cm -Weighted Average - Available water storage (AWS). The volume of water that the soil, to a depth of 100 centimeters, can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of water.  AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3 bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Single</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>cm</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>aws0150wta</attributeName>
+               <attributeLabel>aws0150wta</attributeLabel>
+               <attributeDefinition>Available Water Storage 0-150 cm -Weighted Average - Available water storage (AWS). The volume of water that the soil, to a depth of 150 centimeters, can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of water.  AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3 bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Single</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>cm</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>drclassdcd</attributeName>
+               <attributeLabel>drclassdcd</attributeLabel>
+               <attributeDefinition>Drainage Class - Dominant Condition  - The natural drainage condition of the soil refers to the frequency and duration of wet periods. This column displays the dominant drainage class for the map unit, based on composition percentage of each map unit component.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Drainage Class - Dominant Condition  - The natural drainage condition of the soil refers to the frequency and duration of wet periods. This column displays the dominant drainage class for the map unit, based on composition percentage of each map unit component.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>drclasswet</attributeName>
+               <attributeLabel>drclasswet</attributeLabel>
+               <attributeDefinition>Drainage Class - Wettest  - The natural drainage condition of the soil refers to the frequency and duration of wet periods.  This column displays the wettest drainage class assigned to an individual component of the map unit whose composition in the map unit is equal to or exceeds 15%.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Drainage Class - Wettest  - The natural drainage condition of the soil refers to the frequency and duration of wet periods.  This column displays the wettest drainage class assigned to an individual component of the map unit whose composition in the map unit is equal to or exceeds 15%.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>hydgrpdcd</attributeName>
+               <attributeLabel>hydgrpdcd</attributeLabel>
+               <attributeDefinition>Hydrologic Group  - Dominant Conditions - Hydrologic Group is a grouping of soils that have similar runoff potential under similar storm and cover conditions. This column displays the dominant hydrologic group for the map unit, based on composition percentage of each map unit component. </attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>A</code>
+                              <definition>Combination of the following factors: High infiltration rate, low runoff potential when thoroughly wet; Very deep, well drained to excessively drained; sands or gravelly sands; high rate of water transmission.</definition>
+                              <source>USDA SSURGO</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>B</code>
+                              <definition>Combination of the following factors: Moderate infiltration rate, moderate runoff potential when thoroughly wet; moderately deep or deep, moderately well drained to well drained; moderately fine to moderately coarse; moderate rate of water transmission.</definition>
+                              <source>USDA SSURGO</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>C</code>
+                              <definition>Combination of the following factors: Slow infiltration rate, slow runoff potential when thoroughly wet; has layer that impedes downward movement of water; moderately fine to fine; slow rate of water transmission.</definition>
+                              <source>USDA SSURGO</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>D</code>
+                              <definition>Combination of the following factors: Very slow infiltration rate, high runoff potential when thoroughly wet; has permanent high water table, claypan or clay layer at or near surface, or shallow over nearly impervious layer; clayey soil that has high shrink-swell potential; very slow rate of water transmission.</definition>
+                              <source>USDA SSURGO</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>A/D</code>
+                              <definition>dual class: the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.</definition>
+                              <source>USDA SSURGO</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>B/D</code>
+                              <definition>dual class: the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.</definition>
+                              <source>USDA SSURGO</source>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>C/D</code>
+                              <definition>dual class: the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.</definition>
+                              <source>USDA SSURGO</source>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>hydclprs</attributeName>
+               <attributeLabel>hydclprs</attributeLabel>
+               <attributeDefinition>Hydric Classification  - Presence  - An indication of the proportion of the map unit that is "hydric", based on the hydric classification of individual map unit components.</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Hydric Classification  - Presence  - An indication of the proportion of the map unit that is "hydric", based on the hydric classification of individual map unit components.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>9738</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="GCS_WGS_1984">
+               <geogCoordSys name="GCS_WGS_1984">
+                  <datum name="D_WGS_1984" />
+                  <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="cm" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>0</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</eml:eml>

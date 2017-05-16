@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Daniel Calhoun</origin>
+        <pubdate>2016</pubdate>
+        <title>Photoelectric erosion pin (PEEP) data from Cumberland Island National Seashore (CUIS), May 2012 - May 2013</title>
+        <geoform>comma separated values (.csv)</geoform>
+        <pubinfo>
+          <pubplace>Denver</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://dx.doi.org/10.5066/F7Z60M4M</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Daniel Calhoun</origin>
+            <origin>Jeffrey Riley</origin>
+            <pubdate>2016</pubdate>
+            <title>Spatial  and Temporal Assessment of Back-Barrier Erosion on Cumberland Island National Seashore, Georgia, 2011–2013</title>
+            <geoform>pdf</geoform>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains daily estimates of erosion for select time windows at four sites along the back barrier margin of Cumberland Island National Seashore (CUIS). The four locations selected for instrumentation are referenced by the name of the general area where they were located and are as follows: Brickhill Bluff (bb), Dungeness Wharf (dw), Plum Orchard (po), and Racoon Key (rk). Additionally, this dataset provides offsets that were used to correct the photo-electric erosion pin (PEEP) erosion values to those measured in the field. Using the offsets and magnitude of erosion between site visits, a running cumulative sum of erosion is also provided.</abstract>
+      <purpose>These data were collected to evaluate the spatial and temporal behavior of erosion at select locations along the back barrier of CUIS. The high temporal resolution of of the PEEPs was expect to provide greater insight into erosional processes and allow an assessment of meteorological/hydrological conditions to drive erosion in this environment.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20120522</begdate>
+          <enddate>20130514</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Not planned</update>
+    </status>
+    <spdom>
+      <descgeog>Cumberland Island National Seashore</descgeog>
+      <bounding>
+        <westbc>-81.482936</westbc>
+        <eastbc>-81.443104</eastbc>
+        <northbc>30.930110</northbc>
+        <southbc>30.736775</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>barrier islands</themekey>
+        <themekey>coastal erosion</themekey>
+        <themekey>peep</themekey>
+        <themekey>erosion pins</themekey>
+        <themekey>cumberland island</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Cumberland Island National Seashore</placekey>
+        <placekey>Camden County</placekey>
+        <placekey>Georgia</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Daniel Calhoun</cntper>
+          <cntorg>USGS</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1770 Corporate Dr. Suite 500</address>
+          <city>Norcross</city>
+          <state>GA</state>
+          <postal>30093</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>678-924-6629</cntvoice>
+        <cntemail>dcalhoun@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>funding provided by National Park Service Cumberland Island National Seashore</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Data were processed on several occasions using the same procedures which are briefly described below. Field measurements of erosion magnitude were made and used to correct the continuous record obtained by the PEEPs. Due to uneven lighting throughout the day an "ideal window" was selected for each site (not necessarliy the same) which had the most uniform lighting and provided stable peep values. The median value within each window was used to represent the the daily erosion value. Further documentation of selected time windows and calibration information is available in the complete report which is cited above.</procdesc>
+        <procdate>20130505</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>cuis_peep_erosion_data</enttypl>
+        <enttypd>Magnitude of erosion at 4 sites on CUIS. Each site has two PEEPs identified as p1 and p2</enttypd>
+        <enttypds>Daniel Calhoun</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>site</attrlabl>
+        <attrdef>Site identifier to which the data belong</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>two letter representation of the site id</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>date</attrlabl>
+        <attrdef>calendar date that measurement(s) was collected</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20120522</rdommin>
+            <rdommax>20130514</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>p1_median</attrlabl>
+        <attrdef>median erosion value in millimeters for peep 1</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>median erosion estimate in millimeters for the select time window discussed in text of full publication referenced above</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>p2_median</attrlabl>
+        <attrdef>median erosion value in millimeters for peep 2</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>daily median erosion estimate in millimeters for the select time window discussed in text of full publication referenced above</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>p1_offset</attrlabl>
+        <attrdef>manual measurement of erosion made during site visits used to correct the continuous PEEP record</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>field measured erosion magnitude in millimeters  + total erosion from previous deployment to be added to to the median PEEP value to get cumulative erosion magnitude over the study at PEEP 1</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>p2_offset</attrlabl>
+        <attrdef>manual measurement of erosion made during site visits used to correct the continuous PEEP record</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>field measured erosion magnitude in millimeters  + total erosion from previous deployment to be added to to the median PEEP value to get cumulative erosion magnitude over the study at PEEP 2</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>p1_median_additive</attrlabl>
+        <attrdef>median erosion magnitude for PEEP 1 + p1_offset</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>median erosion magnitude for PEEP 1 + p1_offset</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>p2_median_additive</attrlabl>
+        <attrdef>median erosion magnitude for PEEP 2 + p2_offset</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>median erosion magnitude for PEEP 2 + p2_offset</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>There is no guarantee concerning the accuracy of the data. No warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general scientific purposes, nor shall the act of distribution constitute any such warranty. Users should not use this data for critical applications without a full awareness of the limitations. Acknowledgement of originating agencies would be appreciated in products derived from this data.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20160711</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jeffrey Riley</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1770 Corporate Dr Suite 500</address>
+          <city>Norcross</city>
+          <state>GA</state>
+          <postal>30093</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>678-924-6682</cntvoice>
+        <cntemail>jriley@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

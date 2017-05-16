@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="217.0"
+            type="primary">
+   <timeStamp value="2015-02-10 21:44:28 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>GFDL Atmospheric Circulation Analyses by Bram Oort, monthly May 1958 to April 1973</title>
+   <summary>
+      <p>The "classic" derived by Bram Oort from MIT, GTS, ETAC, NCDC and NCAR data.
+              See also <a href="http://rda.ucar.edu/datasets/ds431.0/">DS431.0</a>.</p>
+      <p>
+              Unless you have a special interest in this dataset, DSS recommends that you
+              use one of our reanalysis datasets, such as <a href="http://rda.ucar.edu/datasets/ds090.2/">ds090.2</a>.  That's because those are
+              based on a more complete collection of observations, improved analysis methods,
+              and are provided in a common modern format (GRIB).
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/GFDL &gt; NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce"
+                contact="Abraham H. Oort"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Potential Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Convergence/Divergence</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vorticity</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Oort, A.H.</authorList>
+      <year>1983</year>
+      <title>Global Atmospheric Circulation Statistics</title>
+      <organization reportID="Professional Paper No. 14" pages="180">U.S. Government Printing Office, Washington D.C.</organization>
+   </reference>
+   <publicationDate>1984-07-24</publicationDate>
+   <contentMetadata>
+      <temporal start="1958-05" end="1973-04" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="950" units="mbar"/>
+         <level type="Isobaric level" value="900" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="400" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+      </levels>
+      <geospatialCoverage>
+         <grid definition="latLon"
+               numX="73"
+               numY="73"
+               startLon="180.0W"
+               startLat="90.0S"
+               endLon="180.0W"
+               endLat="90.0N"
+               xRes="5.0"
+               yRes="2.5"/>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Berger, Vladimir I.</origin>
+            <origin>Singer, Donald A.</origin>
+            <origin>Orris, Greta J.</origin>
+            <title>Carbonatites of the world, explored deposits of Nb and REE</title>
+            <pubdate>2009</pubdate>
+            <serinfo>
+               <sername>Open-File Report</sername>
+               <issue>2009-1139</issue>
+            </serinfo>
+            <pubinfo>
+               <publish>Geological Survey (U.S.)</publish>
+               <pubplace>Menlo Park, California</pubplace>
+            </pubinfo>
+            <onlink>http://mrdata.usgs.gov/carbonatite/</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>Data on 60 of the 527 known carbonatites in the world, providing reliable quantitative data on ore tonnages and grades of niobium and REE.</abstract>
+         <purpose>Assist in the creation of descriptive and grade-tonnage models for mineral deposits to support a new national mineral resource assessment.  The models used for such an assessment must be based on information that is available for undiscovered deposits, including lithology, age, structural features, and geophysical and geochemical anomalies that are visible on regional geologic maps rather than the detailed studies commonly carried out on deposits that are well known.</purpose>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>2011</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>revision date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>as needed</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-123.749167</westbc>
+            <eastbc>127.1625</eastbc>
+            <northbc>71.053611</northbc>
+            <southbc>-30.884167</southbc>
+         </bounding>
+      </spdom>
+      <accconst>none</accconst>
+      <useconst>none</useconst>
+      <keywords>
+         <theme>
+            <themekt>General glossary for mineral resources spatial data</themekt>
+            <themekey>comma-delimited text</themekey>
+            <themekey>HTML table</themekey>
+            <themekey>KML</themekey>
+            <themekey>OGC WMS</themekey>
+            <themekey>shapefile</themekey>
+            <themekey>tab-delimited text</themekey>
+         </theme>
+         <theme>
+            <themekt>Mineral Resources Data System commodity types</themekt>
+            <themekey>Niobium</themekey>
+            <themekey>rare earth elements</themekey>
+         </theme>
+         <theme>
+            <themekt>USGS Thesaurus</themekt>
+            <themekey>economic geology</themekey>
+            <themekey>geospatial analysis</themekey>
+            <themekey>geospatial datasets</themekey>
+            <themekey>metallic ores</themekey>
+            <themekey>metamorphic rocks</themekey>
+         </theme>
+         <theme>
+            <themekt>NGDA Portfolio Themes</themekt>
+            <themekey>Geology</themekey>
+         </theme>
+      </keywords>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Dan L Mosier</cntper>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>345 Middlefield Road Mail Stop 901</address>
+               <city>Menlo Park</city>
+               <state>CA</state>
+               <postal>94025</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>650-329-5050</cntvoice>
+            <cntemail>mosier@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <browse>
+         <browsen>http://mrdata.usgs.gov/carbonatite/carbonatite-global.png</browsen>
+         <browsed>Reduced-size image of the global distribution of deposits, (180 x 90 pixels)</browsed>
+         <browset>PNG</browset>
+      </browse>
+   </idinfo>
+   <dataqual>
+      <lineage>
+         <procstep>
+            <procdesc>Modified oreton field for record 34 (Ruri, Kenya) to 0.375 Mt in consultation with database author.</procdesc>
+            <procdate>20111207</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Point</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>Entity point</sdtstype>
+            <ptvctcnt>60</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <geograph>
+            <geogunit>decimal degrees</geogunit>
+         </geograph>
+         <geodetic>
+            <horizdn>World Geodetic System 1984</horizdn>
+            <ellips>WGS 84</ellips>
+            <semiaxis>6378137</semiaxis>
+            <denflat>298.257</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>main</enttypl>
+            <enttypd>General descriptive information about the deposit</enttypd>
+         </enttyp>
+         <attr>
+            <attrlabl>rec_id</attrlabl>
+            <attrdef>Record ID.
+A distinct numerical identifier for the database record without
+further scientific significance.
+Integer values.
+Int of width 3.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>60</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>country</attrlabl>
+            <attrdef>Country.
+Name of the country where the deposit occurs.
+Textual values of no more than 28 characters.</attrdef>
+         </attr>
+         <attr>
+            <attrlabl>cntrycd</attrlabl>
+            <attrdef>Country code.
+Coded abbreviation combining the country and state or province.
+Textual values of no more than 4 characters.</attrdef>
+         </attr>
+         <attr>
+            <attrlabl>stprov</attrlabl>
+            <attrdef>State or Province.
+State or province, if known, where the deposit occurs.
+Textual values of no more than 24 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+12 records have no value for stprov.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>depname</attrlabl>
+            <attrdef>Deposit name.
+The most recent deposit name.
+Textual values of no more than 16 characters.</attrdef>
+         </attr>
+         <attr>
+            <attrlabl>altname</attrlabl>
+            <attrdef>Other names.
+Alternative names that have been used for the deposit.
+Textual values of no more than 20 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+38 records have no value for altname.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>includes</attrlabl>
+            <attrdef>Includes.
+The names of deposits that have been combined with the primary deposit
+as a result of the two-kilometer minimum separation rule.
+Textual values of no more than 16 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+58 records have no value for includes.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>latitude</attrlabl>
+            <attrdef>Latitude.
+Geographic latitude in decimal degrees, datum WGS84. South is
+negative, north positive.
+Real numbers stored in double precision.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-30.8841666666667</rdommin>
+                  <rdommax>71.0536111111111</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>latdeg</attrlabl>
+            <attrdef>Latitude (degrees).
+Degrees of latitude.
+Integer values.
+Int of width 2.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-30</rdommin>
+                  <rdommax>71</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>latmin</attrlabl>
+            <attrdef>Latitude (minutes).
+Minutes of latitude.
+Integer values.
+Int of width 2.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-59</rdommin>
+                  <rdommax>59</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>latsec</attrlabl>
+            <attrdef>Latitude (seconds).
+Seconds of latitude.
+Integer values.
+Int of width 2.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+1 records have no value for latsec.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-58</rdommin>
+                  <rdommax>58</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>longitude</attrlabl>
+            <attrdef>Longitude.
+Geographic longitude in decimal degrees, datum WGS84. West is
+negative, east positive.
+Real numbers stored in double precision.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-123.749166666667</rdommin>
+                  <rdommax>127.1625</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>londeg</attrlabl>
+            <attrdef>Longitude (degrees).
+Degrees of lontitude.
+Integer values.
+Int of width 2.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-123</rdommin>
+                  <rdommax>127</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>lonmin</attrlabl>
+            <attrdef>Longitude (minutes).
+Minutes of longitude.
+Integer values.
+Int of width 2.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-56</rdommin>
+                  <rdommax>58</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>lonsec</attrlabl>
+            <attrdef>Longitude (seconds).
+Seconds of longitude.
+Integer values.
+Int of width 2.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+1 records have no value for lonsec.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <rdom>
+                  <rdommin>-59</rdommin>
+                  <rdommax>57</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>discdate</attrlabl>
+            <attrdef>Discovery date.
+Date the deposit was discovered.
+Textual values of no more than 11 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+27 records have no value for discdate.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>startdate</attrlabl>
+            <attrdef>Startup date.
+Date mining started.
+Textual values of no more than 18 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+38 records have no value for startdate.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>mintype</attrlabl>
+            <attrdef>Mineral type.
+Mineralogical subtype of the deposit, based on the dominant carbonate
+mineral composition and textural features.
+Textual values of no more than 41 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+1 records have no value for mintype.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>oreton</attrlabl>
+            <attrdef>Tonnage.
+Tonnage based on the total production, reserves, and resources at the
+lowest possible cutoff grade, in millions of metric tons.
+Real numbers stored in double precision.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+5 records have no value for oreton.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0.03</rdommin>
+                  <rdommax>2898</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>deptype</attrlabl>
+            <attrdef>Deposit subtype.
+Deposit type given in Cox and Singer (1986); all records have the
+value 10 for this field.
+Integer values.
+Int of width 2.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>10</rdommin>
+                  <rdommax>10</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>niobium</attrlabl>
+            <attrdef>Niobium grade.
+Niobium oxide grade in percent of oxide in the ore.
+Real numbers stored in double precision.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>2.86</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ree</attrlabl>
+            <attrdef>REE grade.
+Rare earth element oxide grade in percent of oxide in the ore.
+Real numbers stored in double precision.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>6.3</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>p2o5</attrlabl>
+            <attrdef>P2O5 grade.
+Phosphorus grade as percent of oxide in the ore.
+Real numbers stored in double precision.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>25</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>grade_src</attrlabl>
+            <attrdef>Grades.
+Reference sources used to determine grade values.
+Textual values of no more than 181 characters.</attrdef>
+         </attr>
+         <attr>
+            <attrlabl>depage</attrlabl>
+            <attrdef>Age of deposit.
+Quantitative age determinations for the deposit, indicating the method
+used and material dated, where available.
+Textual values of no more than 68 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+1 records have no value for depage.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>agemy</attrlabl>
+            <attrdef>Age (m.y.).
+Radiometric age reported in millions of years before the present based
+on measurements or midpoints of units from the geologic time scale.
+Real numbers stored in double precision.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>2047</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>tectset</attrlabl>
+            <attrdef>Tectonic setting.
+Type of tectonic unit hosting the deposit.
+Textual values of no more than 196 characters.</attrdef>
+         </attr>
+         <attr>
+            <attrlabl>rocks</attrlabl>
+            <attrdef>Rocks in deposit.
+Rock types within the deposit and not reported on regional maps.
+Textual values of no more than 149 characters.</attrdef>
+         </attr>
+         <attr>
+            <attrlabl>rocksmap</attrlabl>
+            <attrdef>Rocks on map.
+Country rocks recorded both in the deposits and on a regional map,
+along with the geologic age of the rocks.
+Textual values of no more than 126 characters.</attrdef>
+         </attr>
+         <attr>
+            <attrlabl>ganguemin</attrlabl>
+            <attrdef>Gangue minerals.
+Gangue minerals present in the deposit.
+Textual values of no more than 279 characters.</attrdef>
+         </attr>
+         <attr>
+            <attrlabl>orebody_fm</attrlabl>
+            <attrdef>Orebody form.
+General form of the carbonatite intrusion or alkali-carbonatite
+intrusive complex.
+Textual values of no more than 140 characters.</attrdef>
+         </attr>
+         <attr>
+            <attrlabl>ore_a</attrlabl>
+            <attrdef>Orebody A-axis.
+Long axis of the two-dimensional projection of the ore body onto the
+surface, in km.
+Real numbers stored in double precision.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+14 records have no value for ore_a.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>18</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ore_area</attrlabl>
+            <attrdef>Orebody area.
+General size of the carbonatite intrusion or intrusive complex.
+Textual values of no more than 6 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+10 records have no value for ore_area.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0.3</rdommin>
+                  <rdommax>1327</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ore_b</attrlabl>
+            <attrdef>Orebody B-axis.
+Short axis of the two-dimensional projection of the ore body onto the
+surface, in km.
+Textual values of no more than 5 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+14 records have no value for ore_b.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0.3</rdommin>
+                  <rdommax>5.6</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>alttype</attrlabl>
+            <attrdef>Alteration type.
+Type of alteration present.
+Textual values of no more than 59 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+5 records have no value for alttype.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>altwidth</attrlabl>
+            <attrdef>Alteration zone width.
+Width of the alteration zone, in km.
+Real numbers stored in double precision.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>2.5</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>dep5km</attrlabl>
+            <attrdef>Deposits within 5km.
+Types of other mineral deposits found within 5km, values from Cox and
+Singer (1986).
+Textual values of no more than 22 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+37 records have no value for dep5km.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>dep10km</attrlabl>
+            <attrdef>Deposits within 10km.
+Types of other mineral deposits found between 5km and 10km away,
+values from Cox and Singer (1986).
+Textual values of no more than 16 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+56 records have no value for dep10km.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>comments</attrlabl>
+            <attrdef>Comments.
+Additional descriptive comments about the deposit.
+Textual values of no more than 1024 characters.</attrdef>
+            <attrdomv>
+               <edom>
+                  <edomv>(no value)</edomv>
+                  <edomvd>Information not available for this record.
+7 records have no value for comments.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>minerals</enttypl>
+            <enttypd>Mineralogy of the deposit as reported in scientific literature</enttypd>
+         </enttyp>
+         <attr>
+            <attrlabl>rec_id</attrlabl>
+            <attrdef>Record ID.
+A distinct numerical identifier for the database record without
+further scientific significance.
+Integer values.
+Int of width 3.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>60</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>value</attrlabl>
+            <attrdef>Mineralogy.
+Name of minerals reported as present in the deposit, without regard
+for their abundance. Most rock-forming minerals, such as feldspar,
+calcite, and quartz, are not included. Some variants of rock forming
+minerals that may be related to mineralization or alteration, such as
+Ag calcite, are included.
+Textual values of no more than 32 characters.</attrdef>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>ref</enttypl>
+            <enttypd>Scientific literature consulted by the authors to characterize the deposit</enttypd>
+         </enttyp>
+         <attr>
+            <attrlabl>rec_id</attrlabl>
+            <attrdef>Record ID.
+A distinct numerical identifier for the database record without
+further scientific significance.
+Integer values.
+Int of width 3.</attrdef>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>60</rdommax>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>value</attrlabl>
+            <attrdef>Reference.
+Papers and web sites that were used to describe the deposit. In a few
+cases unpublished sources were used.
+Textual values of no more than 400 characters.</attrdef>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>USGS Information Services</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>Box 25286, Denver Federal Center</address>
+               <city>Denver</city>
+               <state>Colorado</state>
+               <postal>80255-0046</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-ASK-USGS</cntvoice>
+            <cntfax>1-303-202-4695</cntfax>
+            <cntemail>infoservices@usgs.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>This report is preliminary and has not been reviewed for
+conformity with U.S. Geological Survey editorial standards or
+with the North American Stratigraphic Code.  Any use of trade,
+product, or firm names is for descriptive purposes only and
+does not imply endorsement by the U.S. Government.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Shapefile</formname>
+               <formvern>1.0</formvern>
+               <formcont>Deposit locations with geologic and economic characteristics</formcont>
+               <filedec>unzip</filedec>
+               <transize>0.04</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://mrdata.usgs.gov/carbonatite/carbonatite.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>CSV</formname>
+               <formvern>1.0</formvern>
+               <formcont>Deposit locations with geologic and economic characteristics</formcont>
+               <filedec>unzip</filedec>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://mrdata.usgs.gov/carbonatite/carbonatite-csv.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>WMS</formname>
+               <formvern>1.1.1</formvern>
+               <formcont>Deposit locations with geological and economic characteristics</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://mrdata.usgs.gov/services/carbonatite?request=GetCapabilities&amp;service=WMS&amp;version=1.1.1</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>WFS</formname>
+               <formvern>1.0.0</formvern>
+               <formcont>Deposit locations with geological and economic characteristics</formcont>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://mrdata.usgs.gov/wfs/carbonatite?request=GetCapabilities&amp;service=WFS&amp;version=1.0.0</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>none</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20141205</metd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Peter N Schweitzer</cntper>
+               <cntorg>USGS Eastern Mineral and Environmental Resources Science Center</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>12201 Sunrise Valley Drive</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192-0002</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>703-648-6533</cntvoice>
+            <cntfax>703-648-6252</cntfax>
+            <cntemail>pschweitzer@usgs.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

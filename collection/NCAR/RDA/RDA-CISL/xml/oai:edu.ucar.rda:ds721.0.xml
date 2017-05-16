@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsOverview 
+            
+                                                     
+            ID="721.0"
+            type="primary">
+   <timeStamp value="2014-10-28 11:06:19 -0600"/>
+   <continuingUpdate value="yes" frequency="irregularly"/>
+   <title>Suominet Daily Archive, 2001 - Continuing</title>
+   <summary>
+      <p>This archive includes a global set of Suominet reports updated in irregular intervals.
+              Additionally, FSL network reports are now included in the set.
+              The hourly reports, encoded in netCDF format, include
+              surface pressure, surface temperature, relative humidity, and
+              estimated column precipitable water vapor.  Data spans the period from June 2001 to the present.
+              Archived data includes real-time and post-processed reports.</p>
+      <p>Suominet is a network of ground-based GPS receivers
+              and met packs which are used to estimate column
+              precipitable water vapor, both in the zenith and
+              along slanted ray paths to GPS satellites.  Additional information, including
+              a plot of suominet station locations can be found at the
+              <a href="http://www.suominet.ucar.edu">COSMIC Suominet site</a>.
+              </p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/COSMIC/CDAAC &gt; COSMIC Data Analysis and Archive Center, Constellation Observing System for Meteorology, Ionosphere and Climate, University Corporation for Atmospheric Research"
+                contact="Teresa Vanhove;Doug Hunt"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Precipitable Water</variable>
+   <contact>Doug Schuster</contact>
+   <platform vocabulary="GCMD">GPS &gt; Global Positioning System Satellites</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <relatedResource url="http://www.suominet.ucar.edu/">SuomiNet real time website</relatedResource>
+   <publicationDate>2001-09-20</publicationDate>
+   <contentMetadata>
+      <temporal start="2001-06-07" end="2014-09-30" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="3" unit="hour"/>
+      <temporalFrequency type="regular" number="1" unit="day"/>
+      <dataType>platform_observation</dataType>
+      <dataType>satellite</dataType>
+      <format>proprietary_ASCII</format>
+      <format>netCDF</format>
+      <levels>
+         <layer type="Entire Atmosphere" top="0" bottom="0"/>
+      </levels>
+      <geospatialCoverage>
+         <location>Geographic Region &gt; Global</location>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>
