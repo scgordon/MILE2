@@ -6,8 +6,8 @@
 #a .csv that contains a row for each concept found in each record. Each row contains: Collection Name, File Name, Dialect Code, Concept Name, Xpath, and Concept Content
 
 
-./RunExtract.sh &&
-./RunRubric.sh &&
-./RubricCleaner.sh &&
-./GetData.sh
+./RunToRosetta.sh &&
+./CleanRosetta.sh &&
+./UseRosetta.sh &&
+
 
