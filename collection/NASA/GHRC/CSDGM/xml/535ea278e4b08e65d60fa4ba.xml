@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Battaglin, W.A., and Goolsby, D.A.</origin>
+            <pubdate>1994</pubdate>
+            <title>Estimates of agricultural cropping-practices in counties in the conterminous United States as reported in the 1987 Census of Agriculture</title>
+            <edition>1.0</edition>
+            <geoform>Digital Data</geoform>
+            <pubinfo>
+               <pubplace>Reston, Virginia</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?ag_crop1</onlink>
+            <lworkcit>
+               <citeinfo>
+                  <origin>Battaglin, W. A.; Goolsby, D. A.</origin>
+                  <pubdate>1995</pubdate>
+                  <title>Spatial data in geographic information system format on agricultural chemical use, land use, cropping practices in the United States</title>
+                  <geoform>report</geoform>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Water Resources Investigative Report</sername>
+                     <issue>WRIR 944176</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <pubplace>Reston, VA</pubplace>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+                  <onlink>http://pubs.er.usgs.gov/publication/wri944176</onlink>
+               </citeinfo>
+            </lworkcit>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This coverage contains estimates of agricultural cropping-practices in counties in the conterminous 
+			United States as reported in the 1987 Census of Agriculture (U.S. Department of Commerce, 1989a). 
+			Agricultural cropping-practice data are reported as either acres, or as a percentage of county area. 
+			Agricultural cropping-practice estimates were generated from surveys of all farms where $1,000 or 
+			more of agricultural products were sold, or normally would have been sold, during the census year.
+
+Most of the attributes summarized represent 1987 data, but some information for the 1982 Census of Agriculture also was included.
+
+The polygons representing county boundaries in the conterminous United States, as well as lakes, 
+estuaries, and other nonland-area features were derived from the Digital Line Graph (DLG) files 
+representing the 1:2,000,000-scale map in the National Atlas of the United States (1970).
+
+crops
+Agricultural cropping-practices
+Census of Agriculture
+Counties
+United States
+			</abstract>
+         <purpose>The agricultural cropping-practice estimates in this coverage are intend for use in estimating regional cropping-practices, and in producing visual displays and mapping relative amounts of agricultural crops across broad regions of the United States.
+			</purpose>
+         <supplinf>Procedures_Used:
+CENSUS DATA
+
+An automated procedure was developed for processing the raw census data into ARC/INFO coverage attributes. 
+The procedure is summarized below:
+1) copy county2m coverage to coverage representing type of census data (i.e. ag_expn or ag_land),
+2) run agadd.aml for each item added to the coverage, giving coverage name and attribute field number as arguments.
+
+The agadd.aml program runs a fortran program to extract field data from the raw census data files, and then 
+processes that raw data finally adding it as a column of attribute data to the county coverage. Other programs 
+were developed to calculate summary statistics of the census attribute data, and to make graphics representing 
+attribute values across the United States.
+COUNTY BOUNDARIES
+
+This series of maps was published as part of the National Atlas of the United States (U.S.Geological Survey, 1970).  
+The maps for the conterminous United States were digitized in 15 sheets and published in the Digital Line Graph 
+(DLG) format as described by Domeratz and others (1983).
+
+Each sheet was prepared by reading the DLG files of the political and water bodies layers, converting them to 
+ARC/INFO, extracting the county boundaries and the coastline, respectively, and joining the two layers. FIPS 
+codes were assigned to all polygons by using available sources and were checked manually.
+
+Boundaries with adjacent sheets of the 15-sheet set were edgematched manually, arbitrarily choosing one of 
+the sheets as the "correct" border. Edgematching operations adjusted the linework as far as was necessary 
+so that the coverages would fit to a tolerance of 100 meters.  The coverage (referred to herein as Version 1.0) 
+was stored as 49 separate coverages (48 States and the District of Columbia) because the ARC/INFO software 
+in use at the time could not process the entire coverage.  Individual States could be joined by specifying a 
+tolerance of 100 meters.
+
+From time to time, adjustments were made to the State coverages to reflect changes in U.S. counties.  
+It is believed the accuracy of these adjustments is comparable to the original linework.
+
+For Version 2.0, all State coverages were rejoined and manually edited to produce a perfect edgematch between all States.  
+For States on the original map sheet boundaries, this adjustment averaged less than 20 meters and in no case was more 
+than 100 meters.  The whole coverage was CLEANed to a tolerance of 20 meters, which resulted in few, if any, effect on 
+small offshore islands. The coverage also was checked to ensure that it represented current U.S. counties or county equivalents.
+
+The coverage in Version 1.0 stopped at the coastline. There was no attempt to depict offshore areas.  This created some 
+problems when the coverage was used to assign county codes to sampling stations located near the coast. To help in this 
+matter, Version 2.0 includes offshore extensions of the county polygons.  The (water) boundaries of many of these 
+polygons are arbitrary.
+
+The Canadian Great Lakes features are another new addition to Version 2. They were added to improve the utility of the 
+coverage for visual displays Although the Canadian Great Lakes are logically represented by a single polygon, practical 
+considerations -- the inability of some software to plot polygons with a large number of vertices -- made it necessary to 
+separate them into four polygons.  The dividing lines are located in narrow channel to minimize interference with plotting
+ patterns.  Canadian islands within the Great Lakes also were included.
+
+All ticks were relocated to places that are easily visible on maps of the United States, to help in registering maps 
+that may not otherwise have adequate registration information.
+
+To expedite accessing parts of the coverage, certain items have been indexed with the procedure, INDEX_COUNTY.AML.  
+See Section 3 above.  A spatial index also was created.
+
+When using this coverage to clip or intersect other coverages, a tolerance as low as 2 meters can be used.
+
+The processing used to derive this coverage moved boundaries from their positions on the original maps.  
+In cases of conflicting lines, preference was given to forming the correct topology. Strictly speaking, this 
+coverage is not identical to the source materials.  These changes were unavoidable in producing a continuous 
+coverage of the conterminous United States.
+
+Revisions made to data (revision number, date, description)
+COUNTY POLYGON DATA
+
+Revision 1.0, 12/17/90.  This revision represents numerous corrections and minor modifications made to this set 
+of coverages from its construction in 1985 through the revision date.
+
+Revision 2.0,  3/18/91.  Major reworking of the coverage, combining all State coverages.
+
+Reviews_Applied_to_Data:
+The Census of Agriculture data processing procedure and attribute data have been peer reviewed in 1993 by 
+Leonard Orzol and Barbara Ruddy, both hydrologist with the USGS.
+
+The county boundaries in this coverage have received no formal review. They have, however, been used in 
+numerous applications where serious error would have been obvious.  Some State coverages were corrected 
+following such use. The offshore polygon extensions and the Canadian Great Lakes polygons have had no review.
+
+Related_Spatial_and_Tabular_Data_Sets:
+This coverage is part of series of 1:2,000,000-scale base maps covering the United States.  
+Layers in this set include:
+
+COUNTY -- County boundaries.
+STATE -- State boundaries (formed from COUNTY).
+WATERBOD -- Water Bodies.
+STREAM -- Streams.
+HUC -- Hydrologic cataloging units (basins).
+
+References_Cited:
+Domeratz, M. A., Hallam, C. A., Schmidt, W. E., and Calkins, H. W., 1983,
+USGS Digital Cartographic Data Standards: Digital Line Graphs from
+1:2,000,000-scale Maps.  U.S. Geological Survey Circular 895-D, 38p.
+
+Nebert, Douglas D., 1994, Design of the distributed spatial data library
+for the Water Resources Division, U. S. Geological Survey: U. S.
+Geological Survey Open-File Report, 94-327, 30 p.
+
+U.S. Department of Commerce, 1989a, Census of agriculture, 1987 -- Final
+county file: U.S. Department of Commerce, Bureau of the Census,
+[machine-readable data file]
+
+U.S. Department of Commerce, 1989b, Census of agriculture, 1987 -- Final
+county file technical documentation: U.S. Department of Commerce,
+Bureau of the Census, Data User Services Division.
+
+U.S. Department of Commerce, 1990, Census of agriculture, 1987 --
+Agricultural atlas of the United States, volume 2: U.S. Department
+of Commerce, Bureau of the Census, Agriculture Division, AC87-S-1,
+210 p.
+
+U.S. Geological Survey, 1970, National atlas of the United States
+of America: Washington D.C., U. S. Geological Survey, 417 p.
+
+Notes:
+DOCUMENTATION
+
+The documentation for this coverage was generated by using the ARC macro language (AML) program 
+document.aml available from the U.S. Geological Survey (Nebert, 1994).
+
+			</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>0000</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>Unspecified</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>Unknown</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-128.07002717</westbc>
+            <eastbc>-65.25698378</eastbc>
+            <northbc>48.26194027</northbc>
+            <southbc>22.67774911</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>Agricultural cropping-practices in counties from the 1987 Census of Agriculture</themekey>
+            <themekey>inlandWaters</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>Conterminous United States</placekey>
+         </place>
+         <stratum>
+            <stratkt>None</stratkt>
+            <stratkey>None</stratkey>
+         </stratum>
+         <temporal>
+            <tempkt>None</tempkt>
+            <tempkey>None</tempkey>
+         </temporal>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>CENSUS DATA
+
+Estimates of agricultural cropping-practices by county were reported by the U.S. Department of Commerce 
+(1989a, 1898b) in the 1987 Census of Agriculture. The estimates were constructed from surveys of all farms 
+where $1,000 or more of agricultural products were sold, or normally would have been sold, during the census 
+year.  Sampling and statistics were used to account for nonresponding farm operations. Thus, the information 
+in the Census of Agriculture is subject to sampling variability as well as reporting and coverage errors.
+
+Census disclosure rules prevent publication of information that would disclose the operation of individual farms. 
+Thus, for example, one or two sod farms may be reported in a county, but no acreage of sod harvested is reported, 
+because release of that information might disclose information about a particular farmer's operation.
+
+COUNTY BOUNDARIES
+
+The original files for this map were provided in 15 sections. 
+Boundaries near the edges of sections have been adjusted in edgematching.
+
+Polygons that extend into the water (an ocean or the Great Lakes) should be considered arbitrary.
+		</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>William A. Battaglin</cntper>
+               <cntorg>U.S. Geological Survey, Water Resources Div. (WRD)</cntorg>
+            </cntperp>
+            <cntpos>Hydrologist, Office of the Regional Hydrologist</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>P.O. Box 25046, Denver Federal Center, Bldg. 25</address>
+               <city>Lakewood</city>
+               <state>CO</state>
+               <postal>80225</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747</cntvoice>
+            <cntfax>303-236-5959</cntfax>
+            <cntemail>wbattagl@usgs.gov</cntemail>
+            <hours>8:00am-4:30pm MST</hours>
+            <cntinst>Please contact thru email</cntinst>
+         </cntinfo>
+      </ptcontac>
+      <browse>
+         <browsen>http://water.usgs.gov/GIS/browse/ag_crop1.gif</browsen>
+         <browsed>Illlustration of data set</browsed>
+         <browset>GIF</browset>
+      </browse>
+      <secinfo>
+         <secsys>None</secsys>
+         <secclass>Unclassified</secclass>
+         <sechandl>None</sechandl>
+      </secinfo>
+      <native>dgux, 5.4R3.10, AViiON UNIX, ARC/INFO version 7.0.4</native>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>See Entity_Attribute_Information</attraccr>
+         <qattracc>
+            <attraccv>See Explanation</attraccv>
+            <attracce>Attribute accuracy is described, where present, with each
+attribute defined in the Entity and Attribute Section.
+				</attracce>
+         </qattracc>
+      </attracc>
+      <logic>Polygon and chain-node topology present.</logic>
+      <complete>Unspecified</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>Unspecified</horizpar>
+            <qhorizpa>
+               <horizpav>approx. 1 km</horizpav>
+               <horizpae>1 kilometer</horizpae>
+            </qhorizpa>
+         </horizpa>
+      </posacc>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Unspecified</origin>
+                  <pubdate>0000</pubdate>
+                  <title>Unspecified</title>
+               </citeinfo>
+            </srccite>
+            <srcscale>2,000,000</srcscale>
+            <typesrc>Unspecified</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>0000</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Unspecified</srccurr>
+            </srctime>
+            <srccitea>Unspecified</srccitea>
+            <srccontr>Unspecified</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>RESELECT COUNTY2M COUNTY.NEW POLY</procdesc>
+            <srcused>None</srcused>
+            <procdate>19911112</procdate>
+            <proctime>1528</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>LABELERRORS COUNTY.NEW</procdesc>
+            <srcused>None</srcused>
+            <procdate>19911112</procdate>
+            <proctime>1529</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>LABELERRORS COUNTY.NEW</procdesc>
+            <srcused>None</srcused>
+            <procdate>19911112</procdate>
+            <proctime>1556</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>EXTERNALALL</procdesc>
+            <srcused>None</srcused>
+            <procdate>19911112</procdate>
+            <proctime>1721</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>RENAME COUNTY.NEW COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19911113</procdate>
+            <proctime>1249</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>CREATELABELS COUNTY2M 5000</procdesc>
+            <srcused>None</srcused>
+            <procdate>19911115</procdate>
+            <proctime>1656</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>EXTERNALALL</procdesc>
+            <srcused>None</srcused>
+            <procdate>19911204</procdate>
+            <proctime>1410</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>COPY COUNTY2M /ARC3/WORK/LIB/COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920102</procdate>
+            <proctime>0833</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>COPY /ARC3/WORK/LIB/COUNTY2M COUNTY.AG</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920102</procdate>
+            <proctime>1527</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>RENAME COUNTY.AG CNTY.AG</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920102</procdate>
+            <proctime>1527</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>COPY /ARC3/WORK/CNTY.AG COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920107</procdate>
+            <proctime>1423</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>EXPORT COVER COUNTY2M COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920117</procdate>
+            <proctime>1350</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>COPY /ARC3/WORK/LIB/COUNTY2M COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920121</procdate>
+            <proctime>1549</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>BUILD COUNTY2M POLY</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920121</procdate>
+            <proctime>1615</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>ARCEDIT /ARC3/WORK/COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920122</procdate>
+            <proctime>0948</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>BUILD COUNTY2M POLY</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920122</procdate>
+            <proctime>0956</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>IDEDIT COUNTY2M POLY</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920122</procdate>
+            <proctime>1101</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>COPY COUNTY2M /ARC3/WORK/LIB/COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920122</procdate>
+            <proctime>1102</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>IDEDIT COUNTY2M POLY</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920330</procdate>
+            <proctime>1537</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>EXPORT COVER COUNTY2M COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920608</procdate>
+            <proctime>1103</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>ARCEDIT /ARC3/WORK/LIB/COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920803</procdate>
+            <proctime>1748</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>BUILD COUNTY2M POLY</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920803</procdate>
+            <proctime>1758</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>CLEAN COUNTY2M # 2 2 POLY</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920803</procdate>
+            <proctime>1846</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>COPY COUNTY2M /WB2/DB/USA/COUNTY2M</procdesc>
+            <srcused>None</srcused>
+            <procdate>19920804</procdate>
+            <proctime>0919</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>COPY /WB2/DB/USA/COUNTY2M AG_CROP1</procdesc>
+            <srcused>None</srcused>
+            <procdate>19930112</procdate>
+            <proctime>0948</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>DOCUMENT AG_CROP1 DELETE WBATTAGL</procdesc>
+            <srcused>None</srcused>
+            <procdate>19930329</procdate>
+            <proctime>1509</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>DOCUMENT AG_CROP1 UPDATE WBATTAGL</procdesc>
+            <srcused>None</srcused>
+            <procdate>19930329</procdate>
+            <proctime>1549</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>EXPORT COVER AG_CROP1 AG_CROP1</procdesc>
+            <srcused>None</srcused>
+            <procdate>19930330</procdate>
+            <proctime>1050</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>COPY /ARC3/EPA1/CENSUS/AG_CROP1 AG_CROP1</procdesc>
+            <srcused>None</srcused>
+            <procdate>19941228</procdate>
+            <proctime>0834</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>PROJECTDEFINE COVER AG_CROP1</procdesc>
+            <srcused>None</srcused>
+            <procdate>19941228</procdate>
+            <proctime>0836</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>DOCUMENT AG_CROP1 UPDATE WBATTAGL</procdesc>
+            <srcused>None</srcused>
+            <procdate>19941228</procdate>
+            <proctime>0850</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>DOCUMENT AG_CROP1 UPDATE WBATTAGL</procdesc>
+            <srcused>None</srcused>
+            <procdate>19941229</procdate>
+            <proctime>1634</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>DOCUMENT AG_CROP1 UPDATE WBATTAGL</procdesc>
+            <srcused>None</srcused>
+            <procdate>19941230</procdate>
+            <proctime>1127</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>MNEGRI   IMPORT COVER AG_CROP1.E00 AG_CROP1</procdesc>
+            <srcused>None</srcused>
+            <procdate>19950307</procdate>
+            <proctime>1027</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>Unspecified</procdesc>
+            <srcused>None</srcused>
+            <procdate>19950307</procdate>
+            <proctime>1040</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>MNEGRI   EXPORT COVER AG_CROP1 AG_CROP1.E00</procdesc>
+            <srcused>None</srcused>
+            <procdate>19950309</procdate>
+            <proctime>1517</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>MNEGRI   EXPORT COVER AG_CROP1 AG_CROP1.E00</procdesc>
+            <srcused>None</srcused>
+            <procdate>19950309</procdate>
+            <proctime>1544</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>MNEGRI ARCSDTS AG_CROP1 AG_CROP1.TAR.GZ PREF</procdesc>
+            <srcused>None</srcused>
+            <procdate>19950309</procdate>
+            <proctime>1559</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>MNEGRI   EXPORT COVER AG_CROP1 /SCRATCH_AREA1/MNEGRI/AG_CROP1.E00 NONE</procdesc>
+            <srcused>None</srcused>
+            <procdate>19950919</procdate>
+            <proctime>1500</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>MNEGRI EXPORT COVER /DSDL1/CUSA/TILES/CUSA/AG_CROP1 AG_CROP1.E00</procdesc>
+            <srcused>None</srcused>
+            <procdate>19960624</procdate>
+            <proctime>0819</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>MNEGRI EXPORT COVER /DSDL1/CUSA/TILES/CUSA/AG_CROP1 AG_CROP1.E00</procdesc>
+            <srcused>None</srcused>
+            <procdate>19960625</procdate>
+            <proctime>1048</proctime>
+            <srcprod>None</srcprod>
+         </procstep>
+      </lineage>
+      <cloud>Unknown</cloud>
+   </dataqual>
+   <spdoinfo>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>4787</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>String</sdtstype>
+            <ptvctcnt>11926</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>GT-polygon composed of chains</sdtstype>
+            <ptvctcnt>4788</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <mapprojn>Albers Conical Equal Area</mapprojn>
+               <albers>
+                  <stdparll>29.5</stdparll>
+                  <stdparll>45.5</stdparll>
+                  <longcm>-96</longcm>
+                  <latprjo>23</latprjo>
+                  <feast>0.0</feast>
+                  <fnorth>0.0</fnorth>
+               </albers>
+            </mapproj>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>1.0</absres>
+                  <ordres>1.0</ordres>
+               </coordrep>
+               <plandu>METERS</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>Unknown</horizdn>
+            <ellips>Clarke 1866</ellips>
+            <semiaxis>6378206.4</semiaxis>
+            <denflat>294.98</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>AG_CROP1.PAT</enttypl>
+            <enttypd>Polygon attribute table</enttypd>
+            <enttypds>ARC/INFO file</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>AREA</attrlabl>
+            <attrdef>Area of polygon in square coverage units (meters)</attrdef>
+            <attrdefs>Computed</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Positive real numbers</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PERIMETER</attrlabl>
+            <attrdef>Perimeter of polygon in coverage units (meters)</attrdef>
+            <attrdefs>Computed</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Positive real numbers</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AG_CROP1#</attrlabl>
+            <attrdef>Internal feature number</attrdef>
+            <attrdefs>Computed</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Sequential unique positive integer</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AG_CROP1-ID</attrlabl>
+            <attrdef>User-assigned feature number</attrdef>
+            <attrdefs>User-defined</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Integer</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FIPS</attrlabl>
+            <attrdef>5-digit county FIPS code</attrdef>
+            <attrdefs>Federal Information Processing Standard</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>01001 - 56998, none = 0</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ST</attrlabl>
+            <attrdef>two-character state abbreviation</attrdef>
+            <attrdefs>U.S. Postal Service</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>AL - WY, none = blank</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CNTYNAME</attrlabl>
+            <attrdef>County name</attrdef>
+            <attrdefs>U.S. Geological Survey files</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>upper-case alphanumeric, none = blank</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PLYTYPE</attrlabl>
+            <attrdef>polygon type: 0=county land, others are lakes, estuaries, etc.</attrdef>
+            <attrdefs>see narrative</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0-4,9</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WORKB</attrlabl>
+            <attrdef>variable used for data processing</attrdef>
+            <attrdefs>n/a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>any integer</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AREA.ACRES</attrlabl>
+            <attrdef>total county area (all polygons) in acres</attrdef>
+            <attrdefs>calculated from areas of polygons with like FIPS code and PLYTYPE=0</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99.000</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2107</attrlabl>
+            <attrdef>Corn for grain or seed, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PCT2107</attrlabl>
+            <attrdef>Percent of county as corn for grain or seed, harvested, 1987</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99.000</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2110</attrlabl>
+            <attrdef>Corn for grain or seed, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2117</attrlabl>
+            <attrdef>Sorghum for grain or seed, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PCT2117</attrlabl>
+            <attrdef>Percent of county as sorghum for grain or seed, harvested, 1987</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99.000</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2120</attrlabl>
+            <attrdef>Sorghum for grain or seed, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2127</attrlabl>
+            <attrdef>Wheat for grain, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PCT2127</attrlabl>
+            <attrdef>Percent of county as wheat for grain, harvested, 1987</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99.000</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2130</attrlabl>
+            <attrdef>Wheat for grain, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2137</attrlabl>
+            <attrdef>Barley for grain, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2140</attrlabl>
+            <attrdef>Barley for grain, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2197</attrlabl>
+            <attrdef>Oats for grain, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2200</attrlabl>
+            <attrdef>Oats for grain, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Deparment of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2227</attrlabl>
+            <attrdef>Rice, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2230</attrlabl>
+            <attrdef>Rice, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2237</attrlabl>
+            <attrdef>Rye for grain, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2240</attrlabl>
+            <attrdef>Rye for grain, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2287</attrlabl>
+            <attrdef>Cotton, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2290</attrlabl>
+            <attrdef>Cotton, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2297</attrlabl>
+            <attrdef>Tobacco, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2300</attrlabl>
+            <attrdef>Tobacco, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2307</attrlabl>
+            <attrdef>Soybeans for beans, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PCT2307</attrlabl>
+            <attrdef>Percent of county as soybeans for beans, harvested, 1987</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99.000</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2310</attrlabl>
+            <attrdef>Soybeans for beans, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2317</attrlabl>
+            <attrdef>Dry edible beans, excluding limas, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2320</attrlabl>
+            <attrdef>Dry edible beans, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2367</attrlabl>
+            <attrdef>Irish potatoes, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2370</attrlabl>
+            <attrdef>Irish potatoes, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2397</attrlabl>
+            <attrdef>Sugar beets for sugar, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2400</attrlabl>
+            <attrdef>Sugar beets for sugar, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2427</attrlabl>
+            <attrdef>Sugar cane for sugar, harvested, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CA2430</attrlabl>
+            <attrdef>Sugar cane for sugar, irrigated, 1987 (acres)</attrdef>
+            <attrdefs>U.S. Department of Commerce, 1989a</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>numeric values greater than 0, missing = -99</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FIPSST</attrlabl>
+            <attrdef>two-digit state FIPS code</attrdef>
+            <attrdefs>Federal Information Processing Standard</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>01 - 56, none = 0</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FIPSCNTY</attrlabl>
+            <attrdef>three-digit county FIPS code</attrdef>
+            <attrdefs>Federal Information Processing Standard</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>001 - 998, none = 0</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>AG_CROP1.AAT</enttypl>
+            <enttypd>Line attribute table</enttypd>
+            <enttypds>ARC/INFO file</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>FNODE#</attrlabl>
+            <attrdef>Internal number of from-node</attrdef>
+            <attrdefs>Computed</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Sequential unique positive integer</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TNODE#</attrlabl>
+            <attrdef>Internal number of to-node</attrdef>
+            <attrdefs>Computed</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Sequential unique positive integer</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LPOLY#</attrlabl>
+            <attrdef>Internal number of polygon to left of arc</attrdef>
+            <attrdefs>Computed</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Sequential unique positive integer</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>RPOLY#</attrlabl>
+            <attrdef>Internal number of polygon to right of arc</attrdef>
+            <attrdefs>Computed</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Sequential unique positive integer</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LENGTH</attrlabl>
+            <attrdef>Length of arc in coverage units (meters)</attrdef>
+            <attrdefs>Computed</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Positive real numbers</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AG_CROP1#</attrlabl>
+            <attrdef>Internal feature number</attrdef>
+            <attrdefs>Computed</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Sequential unique positive integer</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AG_CROP1-ID</attrlabl>
+            <attrdef>User-assigned feature number</attrdef>
+            <attrdefs>User-defined</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Integer</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>BNDTYPE</attrlabl>
+            <attrdef>boundary type</attrdef>
+            <attrdefs>see narrative</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0-8</edomv>
+                  <edomvd>unspecified</edomvd>
+                  <edomvds>unspecified</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <overview>
+         <eaover>CENSUS ATTRIBUTES
+
+All census attributes were extracted from tabular data files provided by the U.S. Department of Commerce (1989a). 
+Data are reported in either thousands of dollars, number; acres; or percent of county. Attribute names are keyed to 
+field names found in the technical documentation of the the Census of Agriculture (U.S. Department of Commerce, 1989b). 
+Specifically, the four-digit number at the end of the ARC/INFO item name matches the field-name numbers in the technical-documentation reference. 
+Complete definitions of attributes and terms used in the census can be found in U.S. Department of Commerce (1989b; 1990).
+
+Thirty-two atributes were added to the ARC/INFO coverage of agricultural cropping-practice estimates from the 1987 Census of Agriculture. 
+The coverage name, attribute names, and short attribute descriptions are listed in table 1. 
+Attribute names beginning with CA represent data fields transferred directly from the census tabular data files. 
+Attribute names beginning with PCT are percent-of-county attributes, and represent relative intensities of an agricultural practice. 
+Attributes reported as percent of county were calculated as the attribute value (in acres) divided by the county polygon area (in acres) multiplied by 100. 
+
+Table 1. 1987 Census of Agriculture agricultural cropping-practice estimates coverage name, attribute names, and short attribute descriptions
+__________________________________________________________________________
+AG_CROP1--Coverage of cropping-practices estimates from the 1987 Census of Agriculture--part 1
+__________________________________________________________________________
+Attribute name    Description
+__________________________________________________________________________
+CA2107        Corn for grain or seed, harvested, 1987 (acres)
+PCT2107       Percent of county as corn for grain or seed, harvested, 1987
+CA2110         Corn for grain or seed, irrigated, 1987 (acres)
+CA2117         Sorghum for grain or seed, harvested, 1987 (acres)
+PCT2117       Percent of county as sorghum for grain or seed, harvested, 1987
+
+CA2120        Sorghum for grain or seed, irrigated, 1987 (acres)
+CA2127        Wheat for grain, harvested, 1987 (acres)
+PCT2127      Percent of county as wheat for grain, harvested, 1987
+CA2130        Wheat for grain, irrigated, 1987 (acres)
+CA2137        Barley for grain, harvested, 1987 (acres)
+
+CA2140        Barley for grain, irrigated, 1987 (acres)
+CA2197        Oats for grain, harvested, 1987 (acres)
+CA2200        Oats for grain, irrigated, 1987 (acres)
+CA2227        Rice, harvested, 1987 (acres)
+CA2230        Rice, irrigated, 1987 (acres)
+
+CA2237        Rye for grain, harvested, 1987 (acres)
+CA2240        Rye for grain, irrigated, 1987 (acres)
+CA2287        Cotton, harvested, 1987 (acres)
+CA2290        Cotton, irrigated, 1987 (acres)
+CA2297        Tobacco, harvested, 1987 (acres)
+
+CA2300        Tobacco, irrigated, 1987 (acres)
+CA2307        Soybeans for beans, harvested, 1987 (acres)
+PCT2307       Percent of county as soybeans for beans, harvested,
+1987
+CA2310        Soybeans for beans, irrigated, 1987 (acres)
+CA2317        Dry edible beans, excluding limas, harvested, 1987 (acres)
+
+CA2320        Dry edible beans, excluding limas, irrigated, 1987 (acres)
+CA2367        Irish potatoes, harvested, 1987 (acres)
+CA2370        Irish potatoes, irrigated, 1987 (acres)
+CA2397        Sugar beets for sugar, harvested, 1987 (acres)
+CA2340        Sugar beets for sugar, irrigated, 1987 (acres)
+
+CA2427        Sugarcane for sugar, harvested, 1987 (acres)
+CA2430        Sugarcane for sugar, irrigated, 1987 (acres)
+__________________________________________________________________________
+
+Census estimates for counties represented by one polygon are equal to county totals. 
+For counties described by more than one polygon, attribute values are provided for each polygon and are calculated 
+as the county total multiplied by the ratio of the area of each county polygon divided by the total area of the county.
+
+A missing-value code of -99 is used when no census-attribute data are given for a county, and for all nonland-area polygons. 
+A missing-value code in a county land polygon could indicate any of the following condition:
+
+--agricultural practice not present in county (for example, no corn grown in county)
+--data withheld because of census disclosure rules
+--data not available to census
+--data not published because county contains less than 10 farms
+--data not applicable
+
+COUNTY POLYGON ATTRIBUTES
+
+Each county is identified by a five-digit Federal Information Processing Standard (FIPS) code.  
+The first two digits represent the state and the three remaining represent the county within State. 
+County names (in upper case) and the two-character State abbreviation also are included.
+
+All polygons are coded by polygon type (PLYTYPE) as follows:
+0 = U.S. land.
+1 = Extensions of counties into the ocean and estuaries. Some boundaries may be arbitrary.
+2 = U.S. Great Lakes.  Some boundaries between counties may be arbitrary.
+3 = Canadian Great Lakes.
+4 = Canadian islands in Great Lakes, included for visual cartographic purposes.
+9 = External polygon.
+
+All arcs are coded by boundary type (BNDTYPE) as follows:
+0 = Coastline of United States.
+1 = State-State border occurring on land.
+2 = County-county border, within state, occurring on land.
+3 = State-State border occurring on the ocean, an estuary, or a Great Lake.  Some of these borders are arbitrary.
+4 = County-county border, with State, but occurring on the ocean, an estuary, or a Great Lake.  Some of these borders are arbitrary.
+5 = International border occurring on land.
+6 = International border occurring on water.
+7 = Canadian shoreline of the Great Lakes.
+8 = Arbitrary separation line between the Canadian portions of the Great Lakes.
+9 = Closure line with the external polygon.  This is arbitrary.
+
+All BNDTYPE values are determined from the adjoining polygons by the routine, INDEX_COUNTY.AML.  
+The coverage is indexed (ARC: INDEXITEM) on FIPS code, State FIPS code, State abbreviation, county name, polygon type, and boundary type.
+			</eaover>
+         <eadetcit>Not Available</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS - Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://water.usgs.gov/user_feedback_form.html </cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although this data set has been used by the U.S. Geological Survey, U.S. Department of the Interior, 
+		no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data and 
+		related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed 
+		by the U.S. Geological Survey in the use of this data, software, or  related materials.
+
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Export</formname>
+               <formcont>Full coverage</formcont>
+               <filedec>zipped</filedec>
+               <transize>3.39 MB</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/ag_crop1.e00.gz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>Export</formname>
+               <formcont>Full coverage</formcont>
+               <filedec>winzip</filedec>
+               <transize>3.47 MB</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/ag_crop1.e00.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>SDTS</formname>
+               <formcont>Full coverage</formcont>
+               <filedec>winzip</filedec>
+               <transize>3.02 MB</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/ag_crop1.sdts.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>SDTS</formname>
+               <formcont>Full coverage</formcont>
+               <filedec>zipped</filedec>
+               <transize>2.73 MB</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/ag_crop1.sdts.tgz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. This dataset is provided by USGS as a public service.</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20041108</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ag_crop1</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

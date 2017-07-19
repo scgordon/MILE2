@@ -16,7 +16,7 @@ if [[ "${SECT[3]}" != "master" ]]; then
 fi
 for index in "${!SECT[@]}"; do
   if [ $index -gt 3 ]; then
-    FOLDER=$FOLDER/${SECT[index]}
+    FOLDER=../collection/$FOLDER/${SECT[index]}
   fi
 done
 

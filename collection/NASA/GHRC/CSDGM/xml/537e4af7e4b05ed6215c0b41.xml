@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Wellmeyer, J.L.</origin>
+            <origin>Dudash, S.L.</origin>
+            <pubdate>2001</pubdate>
+            <title>Geologic Map and Digital Database of Part of the Uinkaret Volcanic Field,Mohave County, Northwestern Arizona</title>
+            <edition>1.0</edition>
+            <geoform>geologic map</geoform>
+            <serinfo>
+               <sername>U.S. Geological Survey Miscellaneous Field Studies Map</sername>
+               <issue>2368</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Flagstaff, AZ</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://pubs.usgs.gov/mf/2001/2368/</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This digital map database is compiled from unpublished data andnew mapping by the authors, represents the general distribution ofsurficial and bedrock geology in the mapped area.  Together withthe accompanying pamphlet, it provides current information on thegeologic structure and stratigraphy of the area.  The databasedelineates map units that are identified by age and lithologyfollowing the stratigraphic nomenclature of the U.S. GeologicalSurvey.  The scale of the source maps limits the spatialresolution of the database to 1:31,680 or smaller.</abstract>
+         <purpose>The geologic map of the Uinkaret volcanic field area covers partof the Colorado Plateau and several large tributary canyons thatmake up the western part of Arizona's Grand Canyon.  The map ispart of a cooperative U.S. Geological Survey and National ParkService project to provide geologic information for areas withinthe newly established Grand Canyon/Parashant Canyon NationalMonument. Most of the Grand Canyon and parts of the adjacentplateaus have been geologically mapped; this map fills in one ofthe remaining areas where uniform quality geologic mapping wasneeded.  The geologic information presented may be useful infuture related studies as to land use management, rangemanagement, and flood control programs for federal and stateagencies, and private concerns.</purpose>
+         <supplinf>This report consists of a set of geologic map database files (ARC/INFO coverages) and supporting text and plot files.  In addition,the report includes two sets of plot files (Post Script and PDFformat) that will generate map sheets and pamphlets similar to atraditional USGS Miscellaneous Field Studies Report.  These filesare described in the explanatory pamphlets (uink.eps, uink.pdf, oruink.txt).  The base layer used in the preparation of the geologicmap plot files was derived from four Digital Raster Graphicversions of standard USGS 7.5' quadrangles.  These raster imageswhere converted to Grid format in ARC/INFO, trimmed and seamedtogether, then converted to a GeoTIFF image.  The resultant TIFFimage was combined with geologic data to produce the final mapimage in Illustrator 9.0.</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>2001</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>The date given is the anticipated publication date.</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>As needed</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-113.257211</westbc>
+            <eastbc>-112.99361063</eastbc>
+            <northbc>36.50445323</northbc>
+            <southbc>36.24555938</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>USGS Thesaurus</themekt>
+            <themekey>geology</themekey>
+            <themekey>geologic maps</themekey>
+            <themekey>lithostratigraphy</themekey>
+            <themekey>bedrock geologic units</themekey>
+            <themekey>surficial geologic units</themekey>
+            <themekey>volcanic rocks</themekey>
+            <themekey>geospatial datasets</themekey>
+         </theme>
+         <theme>
+            <themekt>none</themekt>
+            <themekey>Uinkaret</themekey>
+            <themekey>Volcano</themekey>
+            <themekey>geology</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Categories</themekt>
+            <themekey>geoscientificInformation</themekey>
+         </theme>
+         <place>
+            <placekt>none</placekt>
+            <placekey>Northern Arizona</placekey>
+         </place>
+         <place>
+            <placekt>Augmented FIPS 10-4 and FIPS 6-4</placekt>
+            <placekey>04015 = Mohave</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>Uses of this digital geologic map should not violate the spatialresolution of the map area (1:31,680) even though the digital dataform removes the constraint of scale on a paper map.  The accuracyinherent in map scale are also present in digital format.  At ascale larger than 1:31,680, higher resolution data is notavailable and will not yield greater real detail.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Wellmeyer, Jessica L.</cntper>
+               <cntorg>USGS-GEO-WRG-NGM</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>2255 North Gemini Drive</address>
+               <city>Flagstaff</city>
+               <state>AZ</state>
+               <postal>86001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>520-556-7267</cntvoice>
+            <cntemail>jwellmey@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <datacred>We would like to thank Debra Block at the Flagstaff USGS for allher GIS and ARC support and answers to all those questions. Thanksalso to Scott Graham for the digital review of the dataset, HaydeeHampton for initial preparation of the digital files, Theresa Ikifor her map editing, and Rich Koch and Carolyn Donlin for finalpublications work.</datacred>
+      <native>OSF1, V4.0, alpha UNIX, ARC/INFO version 7.1.2</native>
+   </idinfo>
+   <dataqual>
+      <logic>Polygon and chain-node topology present</logic>
+      <complete>This report is designed to describe completely the surficial andbedrock geology at a 1:31,680 scale.  Geologic information onlymappable at a larger scale has been omitted.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>Well located data item are intended to have a positional accuracywithin .5 mm at a 1:31,680 map scale, or 16 meters on the ground.</horizpar>
+         </horizpa>
+      </posacc>
+      <lineage>
+         <procstep>
+            <procdesc>The databases in this report were compiled in ARC/INFO version 7.1.2, a commercial Geographic Information System (EnvironmentalSystems Research Institute, Redlands, CA).  The files are ineither raster (GRID) or vector (coverage) format.  Coverages arestored in uncompressed ARC export format.  ARC/INFO export fileswith the .e00 extension can be converted into ARC/INFO coveragesin ARC/INFO and can be read by other commercially availableGeographic Information Systems.  Stable-base maps were scanned atthe Flagstaff USGS Field site using an Optronics 5040 rasterscanner at a resolution of 50 microns (508 dpi).  The resultingraster file was in RLE  format and converted to the RLC formatusing the "rle2rlc" program written by Marilyn Flyn.  The RLCfile was subsequently converted to an ARC/INFO Grid in ARC/INFO.The linework was vectorized using Gridline.  A tic file wascreated in latitute and longitude and projected into the base mapprojection (Geographic).  Tics are defined in the four extremecorners of the map are in the geologic coverages correspondingwith quadrangle corners both in base maps and digital maps.  Thetic file was used to transform the grid into Universal TransverseMercator projection.  ARC/INFO generated an RMS (root meansquare) report after transforming the original Grid (rasterimage) into UTM. Scanned lines were edited interactively by handusing the ARC module ARCEDIT and a series of macros and menus,polygon regions were attributed as necessary, and all artifactsand scanning errors visible at 1:31,680 were removed.
+Wendell Duffield, Susan Priest and Charles Powell II allcontibuted to the review process</procdesc>
+            <procdate>20010608</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Creation of original metadata record</procdesc>
+            <procdate>20010608</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Wellmeyer, Jessica L</cntper>
+                     <cntorg>USGS-GEO-WRG-NGM</cntorg>
+                  </cntperp>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>2255 N. Gemini Drive</address>
+                     <city>Flagstaff</city>
+                     <state>AZ</state>
+                     <postal>86001</postal>
+                     <country>US</country>
+                  </cntaddr>
+                  <cntvoice>(520) 556-7267</cntvoice>
+                  <cntemail>jwellmey@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>2491</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>Complete chain</sdtstype>
+            <ptvctcnt>8642</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>GT-Polygon composed of chains</sdtstype>
+            <ptvctcnt>2185</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <gridsys>
+               <gridsysn>Universal Transverse Mercator</gridsysn>
+               <utm>
+                  <utmzone>12</utmzone>
+                  <transmer>
+                     <sfctrmer>0.9996</sfctrmer>
+                     <longcm>-105</longcm>
+                     <latprjo>0.0</latprjo>
+                     <feast>500000</feast>
+                     <fnorth>0.0</fnorth>
+                  </transmer>
+               </utm>
+            </gridsys>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>1</absres>
+                  <ordres>1</ordres>
+               </coordrep>
+               <plandu>meters</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>NAD27</horizdn>
+            <ellips>Clarke 1866</ellips>
+            <semiaxis>6378206.4</semiaxis>
+            <denflat>294.98</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>UINK_POLY.PAT</enttypl>
+            <enttypd>attribute table of uink_poly</enttypd>
+            <enttypds>ARC/INFO</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>UNIT</attrlabl>
+            <attrdef>Geologic unit label</attrdef>
+            <attrdefs>author</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Cm</edomv>
+                  <edomvd>Muav Limestone</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Dtb</edomv>
+                  <edomvd>Temple Butte Formation</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Mr</edomv>
+                  <edomvd>Redwall Limestone</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>MPs</edomv>
+                  <edomvd>Supai Group undivided</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Pe</edomv>
+                  <edomvd>Esplanade Sandstone</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Ph</edomv>
+                  <edomvd>Hermit Formation</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Pc</edomv>
+                  <edomvd>Coconino Sandstone</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Pkf</edomv>
+                  <edomvd>Kaibab Formation Fossil Mountain member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Pkh</edomv>
+                  <edomvd>Kaibab Formation Harrisburg member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Ptb</edomv>
+                  <edomvd>Toroweap Formation Brady Canyon member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Pts</edomv>
+                  <edomvd>Toroweap Formation Seligman member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Ptw</edomv>
+                  <edomvd>Toroweap Formation Woods Ranch member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qa1</edomv>
+                  <edomvd>Young alluvial fan deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qa2</edomv>
+                  <edomvd>Young intermediate age alluvial fan deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qa3</edomv>
+                  <edomvd>Older intermediate age alluvial fan deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qaf</edomv>
+                  <edomvd>Artificial deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qb</edomv>
+                  <edomvd>Quaternary basalt flows</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qb1</edomv>
+                  <edomvd>Quaternary basalt flows</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qb6375</edomv>
+                  <edomvd>Basalt flows of hill 6375</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qb6467</edomv>
+                  <edomvd>Basalt flows of hill 6467</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qb6588</edomv>
+                  <edomvd>Basalt flows of hill 6588</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qb6646</edomv>
+                  <edomvd>Basalt flows of hill 6646</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qc</edomv>
+                  <edomvd>Colluvial deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qltb</edomv>
+                  <edomvd>Larimore Tank basalt</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qcbb</edomv>
+                  <edomvd>Craigs Knoll and Berry Knoll basalt flows</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qcbi</edomv>
+                  <edomvd>Craigs Knoll and Berry Knoll intrusives</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qcbp</edomv>
+                  <edomvd>Craigs Knoll and Berry Knoll pyroclastics</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qf</edomv>
+                  <edomvd>Floodplain deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qg1</edomv>
+                  <edomvd>Young terrace gravel deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qg2</edomv>
+                  <edomvd>Intermediate terrace gravel deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qi</edomv>
+                  <edomvd>Basalt Dikes</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qkrb</edomv>
+                  <edomvd>Kenworthy Ranch basalt flows</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qkrp</edomv>
+                  <edomvd>Kenworthy Ranch pyroclastic deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Ql</edomv>
+                  <edomvd>Landslide deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qlsb</edomv>
+                  <edomvd>Little Springs basalt flow</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qlsp</edomv>
+                  <edomvd>Little Springs pyroclastic deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qmrb</edomv>
+                  <edomvd>Marshall Ranch basalt flow</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qmrp</edomv>
+                  <edomvd>Marshall Ranch pyroclastic deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qp</edomv>
+                  <edomvd>Quaternary pyroclastic deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qp1</edomv>
+                  <edomvd>Quaternary pyroclastic deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qp6375</edomv>
+                  <edomvd>Pyroclastics of Hill 6375</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qp6467</edomv>
+                  <edomvd>Pyroclastics of Hill 6467</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qp6588</edomv>
+                  <edomvd>Pyroclastics of Hill 6588</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qp6646</edomv>
+                  <edomvd>Pyroclastics of Hill 6646</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qpvb</edomv>
+                  <edomvd>Potato Vally basalt flows</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qpvp</edomv>
+                  <edomvd>Potato Vally pyroclastic deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qs</edomv>
+                  <edomvd>Stream-channel alluvium</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qgrb</edomv>
+                  <edomvd>Graham Ranch basalt</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qgrp</edomv>
+                  <edomvd>Graham Ranch pyroclastics</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qt</edomv>
+                  <edomvd>Talus deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>QTi</edomv>
+                  <edomvd>Intrusive dikes</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Qv</edomv>
+                  <edomvd>Valley-fill deposits</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Tb</edomv>
+                  <edomvd>Basalt flows north of Mt. Emma</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Tbb</edomv>
+                  <edomvd>Bundyville basalt flows</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Tbi</edomv>
+                  <edomvd>Bundyville intrusives</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Ti</edomv>
+                  <edomvd>Intrusive dikes</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Tmlb</edomv>
+                  <edomvd>Mount Logan basalt flows</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Tmb</edomv>
+                  <edomvd>Mount Trumbull basalt flows</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Tmi</edomv>
+                  <edomvd>Mount Trumbull intrusives</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Tp</edomv>
+                  <edomvd>Pyroclastics north of Mt. Emma</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Trcp</edomv>
+                  <edomvd>Chinle Formation Petrified Forest member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Trml</edomv>
+                  <edomvd>Moenkopi Formation Lower red member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Trmm</edomv>
+                  <edomvd>Moenkopi Formation Middle red member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Trms</edomv>
+                  <edomvd>Moenkopi Formation Shnabkaib member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Trmt</edomv>
+                  <edomvd>Moenkopi Formation Timpoweap member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Trmu</edomv>
+                  <edomvd>Moenkopi Formation Upper red member</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>Trmv</edomv>
+                  <edomvd>Moenkopi Formation Virgin Limestone member</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PATTERN</attrlabl>
+            <attrdef>Graphic fill pattern</attrdef>
+            <attrdefs>Author</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>0</edomv>
+                  <edomvd>No fill pattern in poly/region</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>4</edomv>
+                  <edomvd>Breccia fill pattern</edomvd>
+                  <edomvds>Computed for all PTYPEs = Ql</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>UINK_POLY.AAT</enttypl>
+            <enttypd>attribute table of uink_poly</enttypd>
+            <enttypds>ARC/INFO</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>LINETYPE</attrlabl>
+            <attrdef>Type of geologic or geographic feature denoted by a line in the database.</attrdef>
+            <attrdefs>author</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>CONTACT</edomv>
+                  <edomvd>Boundary between two mapped units that retains the original depositional or intrusive relationship.  The contact has been observed or is closely constrained, so it is well located as described in Positional_Accuracy.</edomvd>
+                  <edomvds>Author</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>NORMAL HIGH ANGLE INFERRED FAULT</edomv>
+                  <edomvd>Structural boundary between mapped units or structural discontinuity within a mapped unit that has experienced relative offset between the rock boundaries on either side of the fault.  The contact has not been observed, so it is not well-located as described in Positional_Accuracy, but the location is constrained to be within 2 mm at map scale or within about 63 meters on the ground.</edomvd>
+                  <edomvds>Author</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>NORMAL HIGH ANGLE FAULT</edomv>
+                  <edomvd>Structural boundary between mapped units or structural discontinuity within a mapped unit that has experienced relative offset between the rock bodies on either side of the fault.  The fault has been observed or is closely constrained, so it is well located as described in Positional_Accuracy.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>NORMAL HIGH ANGLE CONCEALED FAULT</edomv>
+                  <edomvd>Structural boundary between mapped units or structural discontinuity withina mapped unit that has experienced relative offset between the rok bodies on either side of the fault.  The fault is obscured by overlying mapped units, so it is not well-located as described in Positional_Accuracy, but the location isconstrained to be within 3 mm at mapscale or within about 95 meters on the ground</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>LANDSLIDE SCARP</edomv>
+                  <edomvd>Line demarcating the headwall of a landslide, also serving as a contact betweena landslide unit (Ql) and the adjacent lithologic unit. This feature has been well-located as described in Positional_Accuracy.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>MAP BOUNDARY</edomv>
+                  <edomvd>Edge of the mapped area.  Used primarily to bound polygons at the edge of the map database.  The location of the boundary is well located as described in positional_accuracy.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>BASALT FLOW DIRECTION</edomv>
+                  <edomvd>Interpreted direction of flow as seen in a basalt flow unit.  Arrowhead points in direction of flow</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>BASALT FLOW DIRECTION TAIN</edomv>
+                  <edomvd>Interpreted direction of flow as seen in a basalt flow unit.  No arrowhead is present</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>POINTTYPE</attrlabl>
+            <attrdef>arc marker point type</attrdef>
+            <attrdefs>author</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>bar and ball</edomv>
+                  <edomvd>Arcmarker attached to an arc describing the nature of displacement along a fault. Side of arc with bar and ball is the side with downthrown displacement.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>none</edomv>
+                  <edomvd>Indicates that no arcmarker is to be placed on specified arc</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>UINK_FOLD.AAT</enttypl>
+            <enttypd>Attribute table of uink_fold</enttypd>
+            <enttypds>ARC/INFO</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>LINETYPE</attrlabl>
+            <attrdef>Type of geologic or geographic feature denoted by a line in the database.</attrdef>
+            <attrdefs>author</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>SYNCLINE</edomv>
+                  <edomvd>The surface trace of the axis of a syncline. The axis cannot been observed, but the location is constrained to be within about 5 mm at map scale or within about 160 meters on the ground.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>MONOCLINE</edomv>
+                  <edomvd>The surface trace of the axis of a monocline. The axis cannot been observed, but the location is constrained to be within about 5 mm at map scale or within about 160 meters on the ground.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>CONCEALED MONOCLINE</edomv>
+                  <edomvd>The surface trace of the axis of a monocline. The axis cannot been observed, but the location is constrained to be within about 5 mm at map scale or within about 160 meters on the ground.  The axis is concealed by younger units unaffected by earlier folding.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>POINTTYPE</attrlabl>
+            <attrdef>arc marker point type</attrdef>
+            <attrdefs>author</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>monocline</edomv>
+                  <edomvd>Arcmarker attached to an arc describing the monoclinal nature of fold axis</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>syncline</edomv>
+                  <edomvd>Arcmarker attached to an arc describing the synclinal nature of fold axis</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>none</edomv>
+                  <edomvd>Indicates that no arcmarker is to be placed on specified arc</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <detailed>
+         <enttyp>
+            <enttypl>UINK_POINT.PAT</enttypl>
+            <enttypd>Attribute table of uink_point</enttypd>
+            <enttypds>ARC/INFO</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>POINTTYPE</attrlabl>
+            <attrdef>The type of planar feature which was observed and the orientation of which was measured at this point.</attrdef>
+            <attrdefs>author</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>bedding</edomv>
+                  <edomvd>Originally horizontal sedimentary layers were observed and measured at this point.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>probable breccia pipe (C)</edomv>
+                  <edomvd>Location where a circular collapse structure characterized by strata dipping inward toward central point was observed.  May reflect collapse of a deep-seated breccia pipe.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>sinkhole</edomv>
+                  <edomvd>Observed location of an enclosed depression or cave</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>vertical joint</edomv>
+                  <edomvd>The orientation of  vertical rock fractures without displacement was measured at this point.</edomvd>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>pyroclastic cone</edomv>
+                  <edomvd>Observed location of a volcanic vent or cinder cone center.</edomvd>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DIP</attrlabl>
+            <attrdef>The inclination of planar structures measured in degrees down from horizontal.</attrdef>
+            <attrdefs>author</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>90</rdommax>
+                  <attrunit>degrees</attrunit>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>STRIKE</attrlabl>
+            <attrdef>The orientation of a horizontal line in an inclined planar structure measured in degrees clockwise from north.</attrdef>
+            <attrdefs>author</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>0</rdommin>
+                  <rdommax>359</rdommax>
+                  <attrunit>degrees</attrunit>
+                  <attrmres>1</attrmres>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <overview>
+         <eaover>The databases described in this report were compiled in ARC/INFO,a commercial Geographic Information System by EnvironmentalSystems Research Institute.  Almost all the attributes in thevarious attribute tables of the coverages included in the reportare set or calculated by ARC/INFO.  The exceptions being &lt;COVER&gt;-ID, LINETYPE, UNIT, POINTTYPE, PATTERN, STRIKE, and DIP.LINETYPE, UNIT and POINTTYPE are author added aspects of thecoverages added to the PAT or AAT and are used to describe thetype of line (LINETYPE), area (UNIT), point or arcmarker (POINTTYPE).  LINETYPE and POINTTYPE are each defined with WIDTH50, OUTPUT 50, and TYPE C (character).  UNIT is defined with WIDTH8, OUTPUT 8, and TYPE C.  STRIKE and DIP are only present in UINK_POINT.PAT, because they describe bedding orientation of pointobjects.  Each is defined with WIDTH and OUTPUT of 3, and TYPE I (integer).  PATTERN was another author-added attribute only inUINK_POINT.PAT, and is defined by WIDTH 3, OUTPUT 3, and TYPE I.The data in PATTERN correlates directly with specific values inthe UNIT field.</eaover>
+         <eadetcit>The report combined with uinkmap.eps, uinkmap.pdf, uinkgeo.doc, uinkgeo.txt, or uinkgeo.pdf</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>USGS Information Services</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>Box 25286, Denver Federal Center</address>
+               <city>Denver</city>
+               <state>CO</state>
+               <postal>80225-0046</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>(303) 202-4200</cntvoice>
+            <cntvoice>1-888-ASK-USGS</cntvoice>
+            <cntfax>(303) 202-4695</cntfax>
+            <cntemail>infoservices@usgs.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>USGS Map MF-2368</resdesc>
+      <distliab>Any use of trade, product of firm names is for descriptive purposesonly and does not imply endorsement by the U.S. Government.Although this publication has been subjected to rigorous review andis substantially complete, the USGS reserves the right to revisethe data pursuant to further analysis and review.  Furthermore, itis released on condition that neither the USGS nor the UnitedStates Government may be held liable for any damages resulting fromits authorized or unauthorized use.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ARCE</formname>
+               <formvern>7.2.1</formvern>
+               <formcont>Geologic units and structural features</formcont>
+               <filedec>unzip</filedec>
+               <transize>14.1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://pubs.usgs.gov/mf/2001/2368/uinkdb.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>none</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20150202</metd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Peter N Schweitzer</cntper>
+               <cntorg>USGS Midwest Area</cntorg>
+            </cntperp>
+            <cntpos>Collection manager, USGS Geoscience Data Clearinghouse, http://geo-nsdi.er.usgs.gov/</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>Mail Stop 95412201 Sunrise Valley Dr</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192-0002</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>703-648-6533</cntvoice>
+            <cntfax>703-648-6252</cntfax>
+            <cntemail>pschweitzer@usgs.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

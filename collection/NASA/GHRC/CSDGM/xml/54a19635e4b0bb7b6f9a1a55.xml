@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Canada Centre for Remote Sensing (CCRS), Earth Sciences Sector, Natural Resources
+Canada</origin>
+            <origin>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO)</origin>
+            <origin>Comisión Nacional Forestal (CONAFOR)</origin>
+            <origin>Insituto Nacional de Estadística y Geografía (INEGI)</origin>
+            <origin>U.S. Geological Survey (USGS)</origin>
+            <pubdate>2013</pubdate>
+            <title>2010 Land Cover of North America at 250 meters - National Geospatial Data Asset (NGDA) Land Use Land Cover</title>
+            <edition>1.0</edition>
+            <geoform>Raster digital data</geoform>
+            <pubinfo>
+               <pubplace>Montréal, Québec, Canada</pubplace>
+               <publish>Commission for Environmental Cooperation</publish>
+            </pubinfo>
+            <onlink>http://www.cec.org/naatlas/</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>The 2010 North American Land Cover data set was produced as part of the North
+American Land Change Monitoring System (NALCMS), a trilateral effort between the
+Canada Centre for Remote Sensing, the United States Geological Survey, and three
+Mexican organizations including the National Institute of Statistics and Geography
+(Instituto Nacional de Estadistica y Geografia), National Commission for the
+Knowledge and Use of the Biodiversity (Comisión Nacional Para el Conocimiento y
+Uso de la Biodiversidad), and the National Forestry Commission of Mexico (Comisión
+Nacional Forestal).  The collaboration is facilitated by the Commission for
+Environmental Cooperation, an international organization created by the Canada,
+Mexico, and United States governments under the North American Agreement on
+Environmental Cooperation to promote environmental collaboration between the three
+countries.
+The general objective of NALCMS is to devise, through collective effort, a
+harmonized multi-scale land cover monitoring approach which ensures high accuracy
+and consistency in monitoring land cover changes at the North American scale and
+which meets each country&#x92;s specific requirements.
+The initial data set of North American Land Cover at 250 meters reflected land
+cover information for 2005.  This 2010 data set was produced by updating the 2005
+data to show land cover changes as determined from more recent data.  No changes
+were mapped in Hawaii because newer data were not available.  Land cover
+classification changed between 2005 and 2010 for approximately 1 percent of the
+continental area.  For the continental data sets (including surrounding water
+fringe) 4150241 pixels (1.03% of the area) changed in the update.   The following
+national counts exclude the water fringe: Canada, 3264779 pixels changed (2.05%);
+Mexico, 47070 pixels changed (0.15%), and U.S., 836706 pixels changed (0.55%).
+The initial data set used to generate land cover information over North America was
+produced by the Canada Centre for Remote Sensing from observations acquired by the
+Moderate Resolution Imaging Spectroradiometer (MODIS/Terra).  All seven land
+spectral bands were processed from Level 1 granules into top-of-atmosphere
+reflectance covering North America at a 250-meter spatial and 10-day temporal
+resolution.
+In order to generate a seamless and consistent land cover map of North America,
+national maps were generated for Canada by the CCRS; for Mexico by INEGI, CONABIO,
+and CONAFOR; and for the United States by the USGS.  Each country used specific
+training data and land cover mapping methodologies to create national data sets.
+This North America data set was produced by combining the national land cover
+data sets.
+The countries worked together to produce a definitive list of land cover
+classifications for the 2005 data; the same classifications were used for the 2010
+data.  This document is available for download from the same site as the data and
+is entitled: North American Land Cover Classifications (2005).</abstract>
+         <purpose>Information on land cover across North America provided by this data set is
+valuable for a range of audiences, including international organizations such as
+the United Nations Environment Programme, nongovernmental conservation
+organizations, land managers, and scientific researchers.  The continental scale
+land cover data generated under NALCMS can be used to address issues such as
+climate change, carbon sequestration, biodiversity loss, and changes in ecosystem
+structure and function, by helping users to better understand the dynamics and
+continental-scale patterns of North America&#x92;s changing environment.
+The North American Atlas data are intended for geographic display and analysis at
+the national and continental level.  These data should be displayed and analyzed at
+scales appropriate for 1:10,000,000-scale data.  No responsibility is assumed by
+Natural Resources Canada, Instituto Nacional de Estadística y Geografía, the U.S.
+Geological Survey, or the Commission for Environmental Cooperation in the use of
+these data.</purpose>
+         <supplinf>The standard distribution formats for this data set are listed below.  Users
+interested in receiving the data as a GRID or BIN file may contact the CEC.
+Land cover monitoring, the goal of the NALCMS project, requires multiple land cover
+maps, ideally at annual intervals.  It has been shown that post-classification
+change detection, i.e. the comparison of two land cover maps, does not yield
+satisfying results because it highly overestimates changes.  Therefore, the NALCMS
+builds upon a two-step approach that 1) estimates the change between two sample
+years, also called maximum potential change, and 2) updates the classification of
+only those pixels that were identified as potential change.  This process ensures
+that changes in classification will only focus on areas where a previous algorithm
+detected the potential for change and the remainder of the map remains without
+modifications.  For more information on NALCMS, see
+http://www.cec.org/Page.asp?PageID=122&amp;ContentID=25501.
+Natural Resources Canada has North American Land Cover information available online
+at
+http://www.nrcan.gc.ca/earth-sciences/geography-boundary/remote-sensing/optical/2208#_North_American_Land.
+The U.S. Geological Survey has North American Land Cover information available online at
+http://landcover.usgs.gov/nalcms.php.
+For more information on MODIS, see http://modis.gsfc.nasa.gov/
+The following table describes the display of land cover classification in the
+.img file:
+&gt;Value  Class                                     RGB values
+&gt;----------------------------------------------------------------------------
+&gt;1      Temperate or sub-polar needleleaf forest  0     0.24  0
+&gt;2      Sub-polar taiga needleleaf forest         0.58  0.61  0.44
+&gt;3      Tropical or sub-tropical broadleaf
+&gt;         evergreen forest                        0     0.39  0
+&gt;4      Tropical or sub-tropical broadleaf
+&gt;         deciduous forest                        0.12  0.67  0.02
+&gt;5      Temperate or sub-polar broadleaf
+&gt;         deciduous forest                        0.08  0.55  0.24
+&gt;6      Mixed forest                              0.36  0.46  0.17
+&gt;7      Tropical or sub-tropical shrubland        0.7   0.62  0.18
+&gt;8      Temperate or sub-polar shrubland          0.7   0.54  0.2
+&gt;9      Tropical or sub-tropical grassland        0.91  0.86  0.37
+&gt;10     Temperate or sub-polar grassland          0.88  0.81  0.54
+&gt;11     Sub-polar or polar shrubland-lichen-moss  0.61  0.46  0.33
+&gt;12     Sub-polar or polar grassland-lichen-moss  0.73  0.83  0.56
+&gt;13     Sub-polar or polar barren-lichen-moss     0.25  0.54  0.45
+&gt;14     Wetland                                   0.42  0.64  0.54
+&gt;15     Cropland                                  0.9   0.68  0.4
+&gt;16     Barren lands                              0.66  0.67  0.68
+&gt;17     Urban                                     0.86  0.13  0.15
+&gt;18     Water                                     0.3   0.44  0.64
+&gt;19     Snow and Ice                              1     0.98  1
+&gt;
+The Commission for Environmental Cooperation (CEC) is an international organization
+created by Canada, Mexico, and the United States of America under the North
+American Agreement on Environmental Cooperation (NAAEC).  The CEC was established
+to address regional environmental concerns, help prevent potential trade and
+environmental conflicts, and to promote the effective enforcement of environmental
+law.  The Agreement complements the environmental provisions of the North American
+Free Trade Agreement (NAFTA).  Further information on the CEC is available from
+http://www.cec.org/ or from
+&gt;Commission for Environmental Cooperation
+&gt;393, rue St-Jacques Ouest
+&gt;Bureau 200
+&gt;Montréal (Québec)
+&gt;H2Y 1N9 Canada
+&gt;
+&gt;Telephone: 1 514 350 4300
+&gt;Facsimile: 1 514 350 4314
+&gt;Electronic mail: info@cec.org
+&gt;
+The following references provide additional information on processing methodologies
+and may be referenced in the process steps, below.
+Guindon et al. (2011). An improved method for the annual mapping of forest
+disturbance across Canada based on MODIS 250m data and decision/regression trees.
+32nd Canadian Symposium on Remote Sensing, June 13-16, Sherbrooke, Quebec.
+Timoney, K.P., La Roi, G.H., Zoltai, S.C., and Robinson, A.G. (1992). The high
+subarctic forest-tundra of northwestern Canada: Position, width, and vegetation
+gradients in relation to climate. Arctic, 45, 1-9.
+Pavlic, G., and Latifovic, R. (2007). Canada-wide 250-m Water Fraction Coverage
+derived from National Topographic Data Base. NRCan, ESS Program: Understanding
+Canada from Space, Project: Land Surface Characterization.
+Pouliot, D., Latifovic, R., Zabcic, N., Guindon, L., and  Olthof, I. (2013).
+Development and assessment of a 250m spatial resolution MODIS annual land cover
+time series (2000-2011) for Canada derived from change based updating. In review.
+Olthof, I., Pouliot, D., Fernandes, R., and Latifovic, R, (April 2005).  Landsat-7
+ETM+ radiometric normalization comparison for northern mapping applications.
+Remote Sensing of Environment, Volume 95, no. 3:388&#x96;398.
+Beaubien, J., Cihlar, J., Simard, G., and Latifovic, R. (1999). Land cover from
+multiple thematic mapper scenes using a new enhancement-classification methodology.
+Journal of Geophysical Research, 104:27909 &#x96; 27920.
+Cihlar, J., Xiao, Q., Beaubien, J., Fung, K., &amp; Latifovic, R. (1998) Classification
+by progressive generalization: a new automated methodology for remote sensing
+multichannel data. International Journal of Remote Sensing 19:2685-2704.
+Khlopenkov, K., &amp; Trichtchenko, A. (2008). Implementation and evaluation of
+concurrent gradient search method for reprojection of MODIS level 1B imagery. IEEE
+Transaction on Geoscience and Remote Sensing, 46:2016&#x96;2027.
+Latifovic, R., and Olthof, I. 2004. Accuracy assessment using sub-pixel fractional
+error matrices of global land cover products derived from satellite data. Remote
+Sensing of Environment, 90:153-165
+Latifovic, R., Zhu, Z., Cihlar, J., Giri, C., &amp; Olthof, I. (2004). Land cover
+mapping of North and Central America - Global Land Cover 2000. Remote Sensing of
+Environment, 89:116-127.
+Luo, Y., Trishchenko, A., &amp; Khlopenkov, K. (2008). Developing clear-sky, cloud and
+cloud shadow mask for producing clear-sky composites at 250-meter spatial
+resolution for the seven MODIS land bands over Canada and North America. Remote
+Sensing of Environment, Volume 112:4167-4185.
+Trichtchenko, A., Luo Y., &amp; Khlopenkov, K. (2006). A method for downscaling MODIS
+land channels to 250m spatial resolution using adaptive regression and
+normalization, Proceedings of SPIE &#x96; The International Society for Optical
+Engineering v.6366 (2006) art. no. 636607. 8 pp.</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>201001</begdate>
+               <enddate>201012</enddate>
+            </rngdates>
+         </timeinfo>
+         <current>Ground condition</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>As needed</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>170</westbc>
+            <eastbc>-50</eastbc>
+            <northbc>84</northbc>
+            <southbc>14</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>NGDA Portfolio Themes</themekt>
+            <themekey>NGDA</themekey>
+            <themekey>National Geospatial Data Asset</themekey>
+            <themekey>Land Use Land Cover Theme</themekey>
+         </theme>
+         <theme>
+            <themekt>GCMD Science keywords</themekt>
+            <themekey>Land Surface &gt; Land Use/Land Cover &gt; Land Cover</themekey>
+            <themekey>Land Surface &gt; Surface Radiative Properties &gt; Reflectance</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Category</themekt>
+            <themekey>imageryBaseMapsEarthCover</themekey>
+         </theme>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>Remote sensing</themekey>
+            <themekey>Land cover</themekey>
+            <themekey>MODIS</themekey>
+            <themekey>Reflectance</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>Mid-latitude</placekey>
+            <placekey>Western Hemisphere</placekey>
+            <placekey>Northern Hemisphere</placekey>
+            <placekey>North America</placekey>
+            <placekey>NAFTA</placekey>
+            <placekey>North America Free Trade Agreement</placekey>
+            <placekey>Canada</placekey>
+            <placekey>Mexico</placekey>
+            <placekey>United States</placekey>
+         </place>
+      </keywords>
+      <accconst>None.</accconst>
+      <useconst>None.  Acknowledgement of Natural Resources Canada, Instituto Nacional de Estadística
+y Geografía, and the U.S. Geological Survey is required in products derived from
+these data.  Acknowledgement of the Commission for Environmental Cooperation would be
+appreciated in products derived from these data.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+               <cntper>Customer Services Representative</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>Mailing and physical address</addrtype>
+               <address>USGS, Earth Resources Observation and  Science (EROS) Center</address>
+               <address>Mundt Federal Building</address>
+               <address>47914 252nd Street</address>
+               <city>Sioux Falls</city>
+               <state>South Dakota</state>
+               <postal>57198-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1 605 594 6151</cntvoice>
+            <cntemail>custserv@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>The Quantitative Attribute Accuracy reports listed below reflect the accuracy of
+the 2005 data used as a source.  The 2010 data show a change in classification for
+approximately 1 percent of the land surface, so attribute accuracy is assumed to be
+essentially the same as for the 2005 data set.</attraccr>
+         <qattracc>
+            <attraccv>70</attraccv>
+            <attracce>The above listed value is the overall accuracy obtained for the Canada land cover
+data using the reference data set.</attracce>
+         </qattracc>
+         <qattracc>
+            <attraccv>69</attraccv>
+            <attracce>The above listed value is the overall accuracy obtained for the United States
+land cover data using a cross-validation estimate from the decision tree model.</attracce>
+         </qattracc>
+         <qattracc>
+            <attraccv>85</attraccv>
+            <attracce>The above listed value is the overall accuracy obtained for the Mexican land
+cover data using a subset of 20 percent of the training samples from the decision
+tree model.</attracce>
+         </qattracc>
+      </attracc>
+      <logic>No tests for logical consistency have been performed on this data set.</logic>
+      <complete>Data completeness reflects the content of the original MODIS data.</complete>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing (CCRS), Earth Sciences Sector, Natural
+Resources Canada</origin>
+                  <origin>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO)</origin>
+                  <origin>Comisión Nacional Forestal (CONAFOR)</origin>
+                  <origin>Insituto Nacional de Estadística y Geografía (INEGI)</origin>
+                  <origin>U.S. Geological Survey (USGS)</origin>
+                  <pubdate>2013</pubdate>
+                  <title>2005 Land Cover of North America at 250 meters</title>
+                  <edition>2.0</edition>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Montréal, Québec, Canada</pubplace>
+                     <publish>Commission for Environmental Cooperation</publish>
+                  </pubinfo>
+                  <onlink>http://www.cec.org/naatlas/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2005</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>LandCover2005_v2</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing, Earth Sciences Sector, Natural Resources
+Canada</origin>
+                  <pubdate>2008</pubdate>
+                  <title>MODIS Level 1B 250m swath data, 5-min granules</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Ottawa, Ontario, Canada</pubplace>
+                     <publish>NASA</publish>
+                  </pubinfo>
+                  <onlink>http://ladsweb.nascom.nasa.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2008</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication date</srccurr>
+            </srctime>
+            <srccitea>MOD02QKM</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing, Earth Sciences Sector, Natural Resources
+Canada</origin>
+                  <pubdate>2008</pubdate>
+                  <title>MODIS Level 1B 500m swath data, 5-min granules</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Ottawa, Ontario, Canada</pubplace>
+                     <publish>NASA</publish>
+                  </pubinfo>
+                  <onlink>http://ladsweb.nascom.nasa.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2008</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication date</srccurr>
+            </srctime>
+            <srccitea>MOD02HKM</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing, Earth Sciences Sector, Natural Resources
+Canada</origin>
+                  <pubdate>2008</pubdate>
+                  <title>MODIS Level 1 Geolocation information, 1km swath data, 5-min granules</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Ottawa, Ontario, Canada</pubplace>
+                     <publish>NASA</publish>
+                  </pubinfo>
+                  <onlink>http://ladsweb.nascom.nasa.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2008</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication date</srccurr>
+            </srctime>
+            <srccitea>MOD03</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing, Earth Sciences Sector, Natural Resources
+Canada</origin>
+                  <pubdate>2009</pubdate>
+                  <title>MODIS Monthly composites 2005</title>
+                  <geoform>Raster digital data</geoform>
+               </citeinfo>
+            </srccite>
+            <typesrc>Internal files</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2009</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Processing date</srccurr>
+            </srctime>
+            <srccitea>NA Monthly Composites 2005</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing, Earth Sciences Sector, Natural Resources
+Canada</origin>
+                  <pubdate>2012</pubdate>
+                  <title>MODIS Level 1B 250m swath data, 5-min granules</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Ottawa, Ontario, Canada</pubplace>
+                     <publish>NASA</publish>
+                  </pubinfo>
+                  <onlink>http://ladsweb.nascom.nasa.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2008</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication date</srccurr>
+            </srctime>
+            <srccitea>MOD02QKM 2012</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing, Earth Sciences Sector, Natural Resources
+Canada</origin>
+                  <pubdate>2012</pubdate>
+                  <title>MODIS Level 1B 500m swath data, 5-min granules</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Ottawa, Ontario, Canada</pubplace>
+                     <publish>NASA</publish>
+                  </pubinfo>
+                  <onlink>http://ladsweb.nascom.nasa.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2008</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication date</srccurr>
+            </srctime>
+            <srccitea>MOD02HKM 2012</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing, Earth Sciences Sector, Natural Resources
+Canada</origin>
+                  <pubdate>2012</pubdate>
+                  <title>MODIS Level 1 Geolocation information, 1km swath data, 5-min granules</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Ottawa, Ontario, Canada</pubplace>
+                     <publish>NASA</publish>
+                  </pubinfo>
+                  <onlink>http://ladsweb.nascom.nasa.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2008</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication date</srccurr>
+            </srctime>
+            <srccitea>MOD03 2012</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing, Earth Sciences Sector, Natural Resources
+Canada</origin>
+                  <pubdate>2013</pubdate>
+                  <title>MODIS Monthly composites 2010</title>
+                  <geoform>Raster digital data</geoform>
+               </citeinfo>
+            </srccite>
+            <typesrc>Internal files</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2013</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Processing date</srccurr>
+            </srctime>
+            <srccitea>NA Monthly Composites 2010</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Various</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>Ancillary data</title>
+                  <pubinfo>
+                     <pubplace>Various</pubplace>
+                     <publish>Various</publish>
+                  </pubinfo>
+                  <othercit>The following data sets were used to aid cluster labelling:
+&gt;Data set                           Source
+&gt;-----------------------------------------------------------------------------------
+&gt;Water Fraction Map of Canada       http://www.geobase.ca
+&gt;  assembled from the National
+&gt;  Topographic Data Base (NTDB)
+&gt;
+&gt;Canada Digital Elevation Data,     http://www.geobase.ca
+&gt;  Level 1
+&gt;
+&gt;National Road Network, Canada      http://www.geobase.ca
+&gt;
+&gt;Satellite database for the land    CCRS
+&gt;  cover of Canada is a sample
+&gt;  of LANDSAT TM/ETM+ scenes
+&gt;  representing the distribution
+&gt;  of land cover across Canada.
+&gt;
+&gt;Earth Observation for Sustainable  CFS
+&gt;  Development (EOSD) of  Forests
+&gt;  Land Cover Classification
+&gt;
+&gt;National Land and Water            http://www.agr.gc.ca/eng/?id=1343071073307#a9
+&gt;  Information System (NLWIS)
+&gt;  Land Cover for agricultural
+&gt;  regions of Canada, circa 2000
+&gt;
+&gt;Circa-2000 Northern Land Cover     http://geogratis.cgdi.gc.ca
+&gt;  of Canada
+&gt;
+&gt;Classification of Agricultural     Agricultural Financial Services
+&gt;  Lands in Alberta, Saskatchewan     Corporation Saskatchewan Crop
+&gt;  and the Peace Region of            Insurance Corporation
+&gt;  British Columbia                   British Columbia Ministry of
+&gt;                                     Agriculture and Lands (Business
+&gt;                                     Risk management Division)
+&gt;
+&gt;Northern Treeline (Timoney         http://data.arcticatlas.org
+&gt;  et al., 1992)
+&gt;
+&gt;North American Regional            http://nomads.ncdc.noaa.gov
+&gt;  Reanalysis, Daily Dataset
+&gt;  Degree days
+&gt;
+&gt;Fire data base                     CCRS
+&gt;
+&gt;Ground truth data                  CCRS</othercit>
+               </citeinfo>
+            </srccite>
+            <typesrc>Various</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2009</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Date of acquisition</srccurr>
+            </srctime>
+            <srccitea>Canada ancillary data</srccitea>
+            <srccontr>Attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>NASA</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>Landsat Thematic Mapper, LandsatLook Images with Geographic Reference</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Washington, DC</pubplace>
+                     <publish>NASA</publish>
+                  </pubinfo>
+                  <othercit>Mexico used Landsat data for 76 locations; for each location there was an image for April 2005, and in most
+cases also for October 2005.  The following row/path locations were used: 26/40, 26/41, 26/42, 26/43,
+26/44, 27/42, 27/43, 28/40, 28/41, 28/42, 28/43, 28/44, 29/39, 29/40, 29/41, 29/42, 29/43, 29/44, 29/45,
+30/39, 30/40, 30/41, 30/42, 30/43, 30/44, 31/39, 31/40, 31/41, 31/42, 31/43, 31/44, 31/45, 32/38, 32/39,
+32/40, 32/41, 32/42, 32/43, 32/44, 33/38, 33/39, 33/40, 33/41, 33/42, 33/43, 33/44, 34/38, 34/39, 34/40,
+34/41, 34/42, 34/43, 35/38, 35/39, 35/40, 35/41, 35/42, 35/43, 36/38, 36/39, 36/40, 36/41, 36/42, 37/38,
+37/39, 37/40, 37/41, 38/38, 38/39, 38/40, 38/41, 39/37, 39/38, 39/39, 40/37, 40/38.  Detailed information
+on Landsat source IDs, which indicate the specific date of the image, is available from Mexico.</othercit>
+                  <onlink>http://earthexplorer.usgs.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2005</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>Landsat 2005</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>NASA</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>Landsat Thematic Mapper, LandsatLook Images with Geographic Reference</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Washington, DC</pubplace>
+                     <publish>NASA</publish>
+                  </pubinfo>
+                  <othercit>Mexico used Landsat data for 76 locations; for each location there was an image for April 2010, and for all
+but one location there was also an image for October 2010.  The following row/path locations were used:
+26/40, 26/41, 26/42, 26/43, 26/44, 27/42, 27/43, 28/40, 28/41, 28/42, 28/43, 28/44, 29/39, 29/40, 29/41,
+29/42, 29/43, 29/44, 29/45, 30/39, 30/40, 30/41, 30/42, 30/43, 30/44, 31/39, 31/40, 31/41, 31/42, 31/43,
+31/44, 31/45, 32/38, 32/39, 32/40, 32/41, 32/42, 32/43, 32/44, 33/38, 33/39, 33/40, 33/41, 33/42, 33/43,
+33/44, 34/38, 34/39, 34/40, 34/41, 34/42, 34/43, 35/38, 35/39, 35/40, 35/41, 35/42, 35/43, 36/38, 36/39,
+36/40, 36/41, 36/42, 37/38, 37/39, 37/40, 37/41, 38/38, 38/39, 38/40, 38/41, 39/37, 39/38, 39/39, 40/37,
+40/38.  Detailed information on Landsat source IDs, which indicate the specific date of the image, is
+available from Mexico.</othercit>
+                  <onlink>http://earthexplorer.usgs.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2010</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>Landsat 2010</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Centre National d&#x92;Études Spatiales (CNES)</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>SPOT 5 High Resolution Geometric data</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Paris, France</pubplace>
+                     <publish>CNES</publish>
+                  </pubinfo>
+                  <othercit>SPOT data were used for quality assurance.  There were eight SPOT images taken on various dates in 2005 and
+one in 2006.  Detailed information on SPOT source IDs, which indicate the specific date of the image, row
+and path, and processing level, is available from Mexico.</othercit>
+                  <onlink>http://www.astrium-geo.com/en/143-spot-satellite-imagery</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>20050404</begdate>
+                     <enddate>20060226</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>SPOT 5 HRG 2005</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Centre National d&#x92;Études Spatiales (CNES)</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>SPOT 5 High Resolution Geometric data</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Paris, France</pubplace>
+                     <publish>CNES</publish>
+                  </pubinfo>
+                  <othercit>SPOT data were used for quality assurance.  There was one SPOT image taken in 2009, and eight SPOT images
+taken on various dates in 2010.  Detailed information on SPOT source IDs, which indicate the specific date
+of the image, row and path, and processing level, is available from Mexico.</othercit>
+                  <onlink>http://www.astrium-geo.com/en/143-spot-satellite-imagery</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>20091115</begdate>
+                     <enddate>20101107</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>SPOT 5 HRG 2010</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Geological Survey</origin>
+                  <pubdate>2008</pubdate>
+                  <title>National Elevation Dataset</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Reston, VA</pubplace>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+                  <onlink>http://ned.usgs.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2005</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>DEM</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Natural Resources Canada</origin>
+                  <pubdate>Unpublished material</pubdate>
+                  <title>Cross-border DEM</title>
+                  <geoform>Raster digital data</geoform>
+               </citeinfo>
+            </srccite>
+            <typesrc>Internal file</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2013</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Data acquisition date</srccurr>
+            </srctime>
+            <srccitea>CADEM</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>National Geospatial-Intelligence Agency (NGA)</origin>
+                  <origin>National Aeronautics and Space Administration (NASA)</origin>
+                  <pubdate>2009</pubdate>
+                  <title>Shuttle Radar Topography Mission</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Pasadena, CA</pubplace>
+                     <publish>Jet Propulsion Laboratory, NASA</publish>
+                  </pubinfo>
+                  <onlink>http://www2.jpl.nasa.gov/srtm/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2000</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>SRTM</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Geological Survey, Center for Earth Resources Observation and Science
+(EROS)</origin>
+                  <origin>U.S. Department of Agriculture, Forest Service, Remote Sensing Applications
+Center (RSAC)</origin>
+                  <pubdate>20121003</pubdate>
+                  <title>Multi-Temporal Burn Severity Fire Perimeters</title>
+                  <onlink>&lt;http://www.mtbs.gov/dataquery/individualfiredata.html&gt;</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>20121003</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication date</srccurr>
+            </srctime>
+            <srccitea>MTBS</srccitea>
+            <srccontr>Spatial and attribute information.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>NASA</origin>
+                  <pubdate>2001</pubdate>
+                  <title>Landsat MRLC</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Washington, DC</pubplace>
+                     <publish>NASA</publish>
+                  </pubinfo>
+                  <onlink>http://earthexplorer.usgs.gov/</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>Online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2001</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication date</srccurr>
+            </srctime>
+            <srccitea>Landsat MRLC</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Canada Centre for Remote Sensing</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>2010 Land Cover Map of North America at 250m: Canada</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Ottawa, Ontario, Canada</pubplace>
+                     <publish>Canada Centre for Remote Sensing</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <typesrc>Internal file</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2010</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>CCRS_NLCD 2010</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO)</origin>
+                  <origin>Comisión Nacional Forestal (CONAFOR)</origin>
+                  <origin>Insituto Nacional de Estadística y Geografía (INEGI)</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>Land Cover Map of Mexico for 2010 at 250m</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Mexico City, Mexico</pubplace>
+                     <publish>Insituto Nacional de Estadística y Geografía</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <typesrc>Internal file</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2010</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>INEGI_NLCD 2010</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Geological Survey</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>2010 North American Land Cover Database for the United States</title>
+                  <geoform>Raster digital data</geoform>
+                  <pubinfo>
+                     <pubplace>Sioux Falls, South Dakota, USA</pubplace>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <typesrc>Internal file</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2010</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Ground condition</srccurr>
+            </srctime>
+            <srccitea>USGS_NLCD 2010</srccitea>
+            <srccontr>Spatial and attribute information</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>A series of monthly MODIS composites were produced prior to the compilation of
+land cover data for each country.
+Input data used in land cover mapping were generated from the following original
+Level 1B MODIS data (collection 5): a) MOD02QKM - Level 1B 250m swath data, 5-min
+Granules; b) MOD02HKM - Level 1B 500m swath data, 5-min granules; c) MOD03 &#x96;
+Level 1 Geolocation information, 1km swath data, 5-min granules.  All input data
+are available from the NASA Level 1 and Atmosphere Archive and Distribution
+System (LAADS), http://ladsweb.nascom.nasa.gov/
+The MODIS 500m land channels (B3-B7) were downscaled to 250m spatial resolution
+as described by Trishchenko et al. (2006) and then re-projected into Lambert
+Azimuthal Equal Area projection using software developed at the CCRS (Khlopenkov
+et al., 2008). Two original 250m MODIS channels and five downscaled 250m MODIS
+land channels were assembled into North-America-wide 1  10-day composites following
+the methods developed in Luo et al., (2008).
+MODIS 10-day composites were further processed to reduce data noise due to
+different viewing conditions and remaining cloud and atmosphere contamination.  A
+temporal rank filter was applied, calculated as the maximum of minimum values for
+two overlapping moving windows.  For this implementation, a window size of three
+ten-day composites was used with one pixel overlap between windows.  After rank
+filtering, a procedure to detect residual spikes in the data was applied based on
+a neighbourhood comparison.  Within a moving window of 3 composites, if the
+neighbouring pixels were both above or below the centre pixel by 25%, the centre
+pixel was linearly interpolated from its neighbours.  The filtered 10-day
+composites were averaged to generate monthly composites.  The processed data set
+contained 12 monthly composites of channels 1 (B1, VIS) and 2 (B2, near-infrared
+NIR) at 250m spatial resolution and five channels designed for land applications
+(bands B3 to B7) resampled to 250m spatial resolution.</procdesc>
+            <srcused>MOD02QKM</srcused>
+            <srcused>MOD02HKM</srcused>
+            <srcused>MOD03</srcused>
+            <procdate>2009</procdate>
+            <srcprod>NA Monthly composites 2005</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>MODIS monthly composites for 2010 were produced using the same process as for the
+2005 data, but with updated source material.</procdesc>
+            <srcused>MOD02QKM 2012</srcused>
+            <srcused>MOD02HKM 2012</srcused>
+            <srcused>MOD03 2012</srcused>
+            <procdate>2013</procdate>
+            <srcprod>NA Monthly composites 2010</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>Version 2 of the 2005 Land Cover was used as the starting point for all three
+countries.  Areas of potential change were identified and then reclassified as
+necessary.  Country-specific processes are described in this process step and the
+ones below.  Please see the points-of-contact if additional processing
+information is needed.
+For Canada, the 2010 land cover was derived from a time series of land cover,
+developed for Canada from 2000 to 2010 at an annual time step, using MODIS data
+as input (Pouliot et al., 2013).  The method used to update land cover for each
+year in the time series followed a change- and evidence-based classification
+approach.  It was applied separately for six mapping zones.  Mapping zones were
+selected to have similar spectral and land cover properties that could be
+optimized within the zone so as to reduce class confusion.
+Change detection was a critical step, as the basic premise of the method required
+changes to be detected with high confidence.  Three methods were used to capture
+different types of change and at different temporal scales.  Annual negative
+change results were generated in previous research by Guindon et al. (2011),
+which mostly captured forest-stand-replacing disturbances such as harvesting and
+fire.  New methods were developed to capture annual positive change in disturbed
+areas and to account for subtle multi-year change of either a negative or
+positive nature.  Negative change refers to vegetation loss and positive change
+to vegetation establishment and growth.  In the context of multi-year change,
+examples of the negative case include recurrent insect defoliation, gradual
+urbanization, and persistent climatic or hydrological alteration.  For the
+positive case, examples include gradual regeneration of disturbed areas and
+climate-related vegetation change.
+To predict the new land cover label for a change area, several sources of
+evidence were combined including the class membership output from a decision tree
+classifier, class temporal transition likelihood, and regional and neighbourhood
+class proportions.  The class with the maximum combined evidence was taken as the
+updated land cover label. A base land cover map for 2005 was used for the update
+and served as the classification training data source.  To capture class temporal
+variability, training samples were taken for pixels that had not changed within
+plus or minus 1 year of the base map.  Temporal filtering of the time series was
+the final step applied to remove highly improbable land cover transitions once
+all maps in the time series were processed.
+Several sources of ancillary data were incorporated in the classification to develop
+or refine the initial base map.  These included a 250-meter spatial resolution water
+fraction map assembled from the National Topographic Data Base at 1:2500000 scale
+(Palvic and Latifovic, 2007), digital elevation data at 1:50000 scale, Canada road
+network data at 1:250000 scale converted to road density within a 250 meter grid cell,
+and an indicator of the Taiga class likelihood based on proximity to the northern
+treeline (Timoney et al., 1992) and conifer class density measured within a 50x50
+pixel window of the 2005 land cover base map.  Exponentially decreasing membership
+functions were defined for the distance and density layers and multiplied to
+calculate the final Taiga likelihood estimate.</procdesc>
+            <srcused>LandCover2005_v2</srcused>
+            <srcused>NA Monthly Composites 2005</srcused>
+            <srcused>NA Monthly Composites 2010</srcused>
+            <srcused>Canada ancillary data</srcused>
+            <procdate>2013</procdate>
+            <srcprod>CCRS_NLCD 2010</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>In Mexico, potential change estimation built on the monthly MODIS image composites of all
+seven spectral bands.  Image data from 2010 were normalized to the corresponding band and
+month from 2005 using Theil-Sen regression (Olthof et al. 2005).  Next, the normalized
+difference vegetation index (NDVI) was calculated.  Based on the NDVI, textural Laplace
+and Sobel filters with 3x3 kernel size were applied to enhance change detection along land
+cover edges.  In total a set of 120 data layers were used: data for 7 spectral bands, NDVI,
+Sobel, and Laplace filters (10 data layers), for 12 months of the year.  This set of data
+layers was produced for both 2005 and 2010, and compared between the two subject years.
+A small difference in values between the 2005 and 2010 data indicates areas that have not
+changed, whereas extreme negative and positive values indicate changes.  For areas of change,
+the most appropriate lower and upper cut-off thresholds in the difference image histogram
+(lower and upper quantile) must be determined, and also the frequency, i.e. number of times,
+out of the 120 data layers used for comparison, that a pixel should be flagged as changed.
+The appropriate threshold values for the lower quantile, upper quantile, and frequency were
+defined by training an algorithm using pairs of Landsat images from April (the end of the dry
+season) and October (the end of the rainy season) for 2005 and 2010, from which change was
+estimated by visual interpretation.  The optimal thresholds were defined as: lower
+quantile, 1 percent; upper quantile, 99 percent; and frequency (the number of data layers
+indicating change), 30.  The resulting change mask identified areas of potential change;
+errors remaining in the change mask were removed by manual editing.  The mask was assessed
+with 10m SPOT 5 HRG images for nine sites; the overall accuracy was 80 percent, with a
+commission error rate of 20 percent and a omission error rate of 50 percent.
+Map updating employs the above-described change mask, the baseline version 2 land cover map
+from 2005, and spectral data from the year 2010.  Updating builds on the assumption that all
+pixels that were not identified as potential change will indicate no change between 2005
+and 2010.  For each class, 1,500 samples were selected from unchanged areas within 1-2 km of
+potential areas of change; those samples were used to train the decision tree model which was
+then applied to classify areas of change within the potential change mask area for the
+year 2010.</procdesc>
+            <srcused>LandCover2005_v2</srcused>
+            <srcused>NA Monthly Composites 2005</srcused>
+            <srcused>NA Monthly Composites 2010</srcused>
+            <srcused>Landsat 2005</srcused>
+            <srcused>Landsat 2010</srcused>
+            <srcused>SPOT 5 HRG 2005</srcused>
+            <srcused>SPOT 5 HRG 2010</srcused>
+            <procdate>2013</procdate>
+            <srcprod>INEGI_NLCD 2010</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>In the United States, land cover for 2010 was mapped by first running a spectral
+change analysis model to identify areas that potentially had changed between 2005
+and 2010.  Included in the model were burn areas from MTBS, with an effort made
+to model burn severity and potential recovery.  Only fires from 2010 and earlier
+were considered in the modeling.
+Areas of potential change were classified through a process similar to that used
+to classify the 2005 data, using a combination of MODIS composite imagery and ancillary
+data.  Adjustments to the model were made based on experience gained in producing
+the 2005 Version 2 data set.  Classification was achieved by use of a
+classification and decision tree method (DT).  The specific DT program employed
+is called SEE5, which implements a gain ratio criterion in tree development and
+pruning (Quinlan, 1993).  SEE5 also implemented several advanced features that can
+aid and improve land cover classification, including boosting and
+cross-validation.  Boosting is a technique for improving classification accuracy,
+while cross-validation can provide a certain level of estimation regarding the
+land cover classification quality.  In addition, SEE5 can generate a confidence
+estimate for each classified pixel and record the associated classification logic
+in a text file that can be readily interpreted and incorporated into a metadata
+system.  To conduct the land cover classification using DT, a large quantity of
+training data was required.
+The change pixels represent a conservative estimate of change based on both
+spectral analysis and thematic change between land cover modeled for both 2005
+and 2010.  Much of the change is in fire perimeter areas.  Burned areas were
+reclassified as necessary, based on the length of time since the fire occurred.
+Alaska was processed separately from the conterminous United States, using DEM, SRTM,  
+and CADEM.  The conterminous United States was processed using DEM elevation data. 
+Hawaii was not updated because newer data were not available.
+The resulting data set was checked against Landsat MRLC for quality assurance.</procdesc>
+            <srcused>LandCover2005_v2</srcused>
+            <srcused>NA Monthly composites 2005</srcused>
+            <srcused>NA Monthly composites 2010</srcused>
+            <srcused>MTBS</srcused>
+            <srcused>DEM</srcused>
+            <srcused>CADEM</srcused>
+            <srcused>SRTM</srcused>
+            <srcused>Landsat MRLC</srcused>
+            <procdate>2013</procdate>
+            <srcprod>USGS_NLCD 2010</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>To produce the seamless land cover map of North America, the three national land cover
+products (Canada, Mexico, USA) were edge matched along the borders using an
+object-oriented segmentation technique.  Land cover regions that crossed borders were
+reclassified using the majority class segment.</procdesc>
+            <srcused>CCRS_NLCD 2010</srcused>
+            <srcused>USGS_NLCD 2010</srcused>
+            <srcused>INEGI_NLCD 2010</srcused>
+            <procdate>2013</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Raster</direct>
+      <rastinfo>
+         <rasttype>Pixel</rasttype>
+         <rowcount>35000</rowcount>
+         <colcount>37000</colcount>
+      </rastinfo>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <mapprojn>Lambert Azimuthal Equal Area</mapprojn>
+               <lamberta>
+                  <longpc>-100.00</longpc>
+                  <latprjc>45.00</latprjc>
+                  <feast>0.0</feast>
+                  <fnorth>0.0</fnorth>
+               </lamberta>
+            </mapproj>
+            <planci>
+               <plance>row and column</plance>
+               <coordrep>
+                  <absres>250.0</absres>
+                  <ordres>250.0</ordres>
+               </coordrep>
+               <plandu>Meters</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>None</horizdn>
+            <ellips>Sphere</ellips>
+            <semiaxis>6370977</semiaxis>
+            <denflat>1.0</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>Land cover classification grid cell</enttypl>
+            <enttypd>Any of the data elements in the 2010 North American land cover file</enttypd>
+            <enttypds>North American Atlas GIS Group</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Land cover classification grid cell value</attrlabl>
+            <attrdef>The value is an indication of the land cover class</attrdef>
+            <attrdefs>North American Atlas GIS Group</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>1</edomv>
+                  <edomvd>Temperate or sub-polar needleleaf forest.  Forests generally taller than
+three meters and more than 20 percent of total vegetation cover.  This type
+occurs across the northern United States, Canada and mountainous zones of
+Mexico.  The tree crown cover contains at least 75 percent of needleleaved
+species.  Land Cover Classification System (LCCS) code: 20134.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>2</edomv>
+                  <edomvd>Sub-polar taiga needleleaf forest.  Forest and woodlands with trees generally
+taller than three meters and more than 5 percent of total vegetation cover
+with shrubs and lichens commonly present in the understory.  The tree crown
+cover contains at least 75 percent of needleleaved species.  This type occurs
+across Alaska and northern Canada and may consist of treed muskeg or
+wetlands.  Forest canopies are variable and often sparse, with generally
+greater tree cover in the southern latitude parts of the zone than the north.
+LCCS code: 20229.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>3</edomv>
+                  <edomvd>Tropical or sub-tropical broadleaf evergreen forest.  Forests generally
+taller than five meters and more than 20 percent of total vegetation cover.
+These occur in the southern United States and Mexico.  These forests have
+greater than 75 percent of tree crown cover represented by evergreen species.
+LCCS code: 20090.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>4</edomv>
+                  <edomvd>Tropical or sub-tropical broadleaf deciduous forest.  Forests generally
+taller than five meters and more than 20 percent of total vegetation cover.
+These occur in the southern United States and Mexico.  These forests have
+greater than 75 percent of tree crown cover represented by deciduous species.
+LCCS code: 20132.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>5</edomv>
+                  <edomvd>Temperate or sub-polar broadleaf deciduous forest.  Forests generally taller
+than three meters and more than 20 percent of total vegetation cover.  These
+occur in the northern United States, Canada and mountainous zones of Mexico.
+These forests have greater than 75 percent of tree crown cover represented by
+deciduous species.  LCCS code: 20227.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>6</edomv>
+                  <edomvd>Mixed forest.  Forests generally taller than three meters and more than 20
+percent of total vegetation cover.  Neither needleleaf nor broadleaf tree
+species occupy more than 75 percent of total tree cover, but are co-dominant.
+LCCS codes: 20092, 20090, 20134, 20132, 20229, 20227.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>7</edomv>
+                  <edomvd>Tropical or sub-tropical shrubland.  Areas dominated by woody perennial
+plants with persistent woody stems less than five meters tall and typically
+greater than 20 percent of total vegetation.  This class occurs across the
+southern United States and Mexico.  LCCS code: 21450-13476.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>8</edomv>
+                  <edomvd>Temperate or sub-polar shrubland.  Areas dominated by woody perennial plants
+with persistent woody stems less than three meters tall and typically greater
+than 20 percent of total vegetation.  This class occurs across the northern
+United States, Canada and highlands of Mexico.  LCCS code: 21450-12050.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>9</edomv>
+                  <edomvd>Tropical or sub-tropical grassland.  Areas dominated by graminoid or
+herbaceous vegetation generally accounting for greater than 80 percent of
+total vegetation cover.  These areas are not subject to intensive management
+such as tilling, but can be utilized for grazing.  This class occurs across
+the southern United States and Mexico.  LCCS code: 21669.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>10</edomv>
+                  <edomvd>Temperate or sub-polar grassland.  Areas dominated by graminoid or herbaceous
+vegetation, generally accounting for greater than 80 percent of total
+vegetation cover.  These areas are not subject to intensive management such
+as tilling, but can be utilized for grazing.  This class occurs across
+Canada, United States and highlands of Mexico.  LCCS code: 21537-12212.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>11</edomv>
+                  <edomvd>Sub-polar or polar shrubland-lichen-moss.  Areas dominated by dwarf shrubs
+with lichen and moss typically accounting for at least 20 percent of total
+vegetation cover.  This class occurs across northern Canada and Alaska.  LCCS
+codes: 20022-12050, 21454-12212, 21439-3012.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>12</edomv>
+                  <edomvd>Sub-polar or polar grassland-lichen-moss.  Areas dominated by grassland with
+lichen and moss typically accounting for at least 20 percent of total
+vegetation cover.  This class occurs across northern Canada and Alaska.  LCCS
+codes: 21454-12212, 20022-12050, 21439-3012.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>13</edomv>
+                  <edomvd>Sub-polar or polar barren-lichen-moss.  Areas dominated by a mixture of bare
+areas with lichen and moss that typically account for at least 20 percent of
+total vegetation cover.  This class occurs across northern Canada and Alaska.
+LCCS codes: 21468, 21454-12212, 20022-12050.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>14</edomv>
+                  <edomvd>Wetland.  Areas dominated by perennial herbaceous and woody wetland
+vegetation which is influenced by the water table at or near surface over
+extensive periods of time.  This includes marshes, swamps, bogs, mangroves,
+etc., either coastal or inland where water is present for a substantial
+period annually.  LCCS codes: 42349, 41809.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>15</edomv>
+                  <edomvd>Cropland.  Areas dominated by intensively managed crops.  These areas
+typically require human activities for their maintenance.  This includes
+areas used for the production of annual crops, such as corn, soybeans, wheat,
+maize, vegetables, tobacco, cotton, etc.; perennial grasses for grazing; and
+woody crops such as orchards and vineyards.  Crop vegetation accounts for
+greater than 20 percent of total vegetation.  This class does not represent
+natural grasslands used for light to moderate grazing.
+LCCS codes: 10037, 10025, 21441, 21453.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>16</edomv>
+                  <edomvd>Barren lands.  Areas characterized by bare rock, gravel, sand, silt, clay, or
+other earthen material, with little or no "green" vegetation present
+regardless of its inherent ability to support life. Generally,  vegetation
+accounts for less than 10 percent of total cover.  LCCS codes: 6001, 6004.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>17</edomv>
+                  <edomvd>Urban and built-up.  Areas that contain at least 30 percent or greater urban
+constructed materials for human activities (cities, towns, transportation
+etc.)  LCCS code: 5003.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>18</edomv>
+                  <edomvd>Water.  Areas of open water, generally with less than 25 percent cover of
+non-water cover types.  This class refers to areas that are consistently
+covered by water.  LCCS codes: 8001, 7001.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+            <attrdomv>
+               <edom>
+                  <edomv>19</edomv>
+                  <edomvd>Snow and ice.  Areas characterized by a perennial cover of ice and/or snow,
+generally greater than 25 percent of total cover.  LCCS codes: 8005, 8008.</edomvd>
+                  <edomvds>North American Atlas GIS Group</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Commission for Environmental Cooperation</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>Mailing address</addrtype>
+               <address>393, rue St-Jacques Ouest, Bureau 200</address>
+               <city>Montréal</city>
+               <state>Québec</state>
+               <postal>H2Y 1N9</postal>
+               <country>Canada</country>
+            </cntaddr>
+            <cntvoice>1 514 350 4300</cntvoice>
+            <cntfax>1 514 350 4314</cntfax>
+            <cntemail>info@cec.org</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although these data have been processed successfully on computer systems at the CCRS,
+INEGI, USGS, and the Commission for Environmental Cooperation, no warranty expressed
+or implied is made by these agencies regarding the utility of the data on any other
+system, nor shall the act of distribution constitute any such warranty.  Use of
+trademarks or formats does not constitute endorsement by these agencies.  No
+responsibility is assumed by the CCRS, INEGI, USGS, or the CEC in the use of these
+data.</distliab>
+   </distinfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Canada Centre for Remote Sensing</cntorg>
+            </cntorgp>
+            <cntpos>Scientist</cntpos>
+            <cntaddr>
+               <addrtype>Mailing and physical address</addrtype>
+               <address>CCRS/NRCan</address>
+               <address>588 Booth Street</address>
+               <city>Ottawa</city>
+               <state>ON</state>
+               <postal>K1A 0Y7</postal>
+               <country>Canada</country>
+            </cntaddr>
+            <cntvoice>1 613 947 1816</cntvoice>
+            <cntfax>1 613 947 1383</cntfax>
+            <cntemail>Rasim.Latifovic@nrcan.gc.ca</cntemail>
+            <hours>0900 - 1700 ET, M - F (-5h EST/-4h EDT GMT)</hours>
+         </cntinfo>
+      </distrib>
+      <distliab>Although these data have been processed successfully on computer systems at the CCRS,
+INEGI, USGS, and the Commission for Environmental Cooperation, no warranty expressed
+or implied is made by these agencies regarding the utility of the data on any other
+system, nor shall the act of distribution constitute any such warranty.  Use of
+trademarks or formats does not constitute endorsement by these agencies.  No
+responsibility is assumed by the CCRS, INEGI, USGS, or the CEC in the use of these
+data.</distliab>
+   </distinfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Instituto Nacional de Estadística y Geografía (INEGI)</cntorg>
+            </cntorgp>
+            <cntpos>Director of Natural Resources and Environment Information</cntpos>
+            <cntaddr>
+               <addrtype>Mailing and physical address</addrtype>
+               <address>Av. Héroe de Nacozari Sur 2301. Fraccionamiento Jardines del Parque.</address>
+               <city>Aguascalientes</city>
+               <state>Aguascalientes</state>
+               <postal>20270</postal>
+               <country>Mexico</country>
+            </cntaddr>
+            <cntvoice>52 44 99 10 53 65</cntvoice>
+            <cntemail>jose.ornelas@inegi.org.mx</cntemail>
+            <hours>0800 - 1600 (-6h GMT)</hours>
+         </cntinfo>
+      </distrib>
+      <distliab>Although these data have been processed successfully on computer systems at the CCRS,
+INEGI, USGS, and the Commission for Environmental Cooperation, no warranty expressed
+or implied is made by these agencies regarding the utility of the data on any other
+system, nor shall the act of distribution constitute any such warranty.  Use of
+trademarks or formats does not constitute endorsement by these agencies.  No
+responsibility is assumed by the CCRS, INEGI, USGS, or the CEC in the use of these
+data.</distliab>
+   </distinfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+               <cntper>Customer Services Representative</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>Mailing and physical address</addrtype>
+               <address>USGS, Earth Resources Observation and  Science (EROS) Center</address>
+               <address>Mundt Federal Building</address>
+               <address>47914 252nd Street</address>
+               <city>Sioux Falls</city>
+               <state>South Dakota</state>
+               <postal>57198-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1 605 594 6151</cntvoice>
+            <cntemail>custserv@usgs.gov</cntemail>
+            <hours>0800 - 1600 CT, M - F (-6h CST/-5h CDT GMT)</hours>
+         </cntinfo>
+      </distrib>
+      <distliab>Although these data have been processed successfully on computer systems at the CCRS,
+INEGI, USGS, and the Commission for Environmental Cooperation, no warranty expressed
+or implied is made by these agencies regarding the utility of the data on any other
+system, nor shall the act of distribution constitute any such warranty.  Use of
+trademarks or formats does not constitute endorsement by these agencies.  No
+responsibility is assumed by the CCRS, INEGI, USGS, or the CEC in the use of these
+data.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>IMG</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://www.cec.org/naatlas/</networkr>
+                        <networkr>http://www.inegi.org.mx</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>TIFF</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://www.cec.org/naatlas/</networkr>
+                        <networkr>http://www.inegi.org.mx</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>MXD</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://www.cec.org/naatlas</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>GeoPDF</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://www.cec.org/naatlas</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>Gratuit-Free</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20131206</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Commission for Environmental Cooperation</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>Mailing address</addrtype>
+               <address>393, rue St-Jacques Ouest, Bureau 200</address>
+               <city>Montréal</city>
+               <state>Québec</state>
+               <postal>H2Y 1N9</postal>
+               <country>Canada</country>
+            </cntaddr>
+            <cntvoice>1 514 350 4300</cntvoice>
+            <cntfax>1 514 350 4314</cntfax>
+            <cntemail>info@cec.org</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

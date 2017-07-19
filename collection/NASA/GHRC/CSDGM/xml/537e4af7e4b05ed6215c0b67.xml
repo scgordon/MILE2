@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Jeremiah B. Workman</origin>
+            <origin>Christopher M. Menges</origin>
+            <origin>William R. Page</origin>
+            <origin>Emily M. Taylor</origin>
+            <origin>E. B. Ekren</origin>
+            <origin>Peter D. Rowley</origin>
+            <origin>Gary L. Dixon</origin>
+            <origin>Ren A. Thompson</origin>
+            <origin>Laren A. Wright</origin>
+            <pubdate>2002</pubdate>
+            <title>Geologic Map of the Death Valley Ground-Water Model Area, Nevada and California</title>
+            <edition>version 1.0</edition>
+            <geoform>map</geoform>
+            <serinfo>
+               <sername>Miscellaneous Field Studies Map</sername>
+               <issue>MF-2381-A</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Denver, Colorado</pubplace>
+               <publish>U. S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://pubs.usgs.gov/mf/2002/mf-2381/</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This digital geologic and tectonic database of the Death Valley ground-water model area, as well as its accompanying geophysical maps, are compiled at 1:250,000 scale.  The map compilation presents new polygon, line, and point vector data for the Death Valley region.  The map area is enclosed within a 3 degree X 3 degree area along the border of southern Nevada and southeastern California.  In addition to the Death Valley National Park and Death Valley-Furnace Creek fault systems, the map area includes the Nevada Test Site, the southwest Nevada volcanic field, the southern end of the Walker Lane (from southern Esmeralda County, Nevada, to the Las Vegas Valley shear zone and Stateline fault system in Clark County, Nevada), the eastern California shear zone (in the Cottonwood and Panamint Mountains), the eastern end of the Garlock fault zone (Avawatz Mountains), and the southern basin and range (central Nye and western Lincoln Counties, Nevada).  This geologic map improves on previous geologic mapping in the area by providing new and updated Quaternary and bedrock geology, new interpretation of mapped faults and regional structures, new geophysical interpretations of faults beneath the basins, and improved GIS coverages.  The basic geologic database has tectonic interpretations imbedded within it through attributing of structure lines and unit polygons which emphasize significant and through-going structures and units.  An emphasis has been put on features which have important impacts on ground-water flow.  Concurrent publications to this one include a new isostatic gravity map (Ponce and others, 2001), a new aeromagnetic map (Ponce and Blakely, 2001), and contour map of depth to basement based on inversion of gravity data (Blakely and Ponce, 2001).</abstract>
+         <purpose>This map compilation was completed in support of the Death Valley Ground-Water Basin regional flow model funded by the Department of Energy in conjunction with the U. S. Geological Survey and National Park Service.  The proposed model is intended to address issues concerning the availability of water in Death Valley National Park and surrounding counties of Nevada and California and the migration of contaminants off of the Nevada Test Site and Yucca Mountain high-level waste repository.  The geologic compilation and tectonic interpretations contained within this database will serve as the basic framework for the flow model.  The database also represents a synthesis of many sources of data compiled over many years in this geologically and tectonically significant area.</purpose>
+         <supplinf>A composite base map is included which contains topographic contour lines based upon published USGS 1:100,000-scale DLG data and computer contouring (ARC/INFO) of published USGS 1-degree (3- by 3-arc-second spacing) DEM data and road lines and political boundaries both from published USGS 1:100,000-scale DLG data.  1:100,000-scale data was generalized to 1:250,000-scale for inclusion with the 1:250,000-scale database.
+The subdirectory DVRFS_BASEMAPS within the database will contain additional coverages, grids, and projection files necessary for generating graphical representation of the map along with the basemap files.  These include: the hypsography (dvrfs_hp), the political boundaries (dvrfs_bd), the roads (dvrfs_rd), the Nevada Test Site boundary (nts_bd), textpoint annotations for the base map (dvrfs_hptxt), the three color separated grids used to generate the hillshade on the tectonic map (dvrfs_blue, dvrfs_green, and dvrfs_red), a polygon coverage defining the map boundary (basemaparea) used for defining mapextent in ARCPLOT, a polygon coverage defining the map area (maparea), polygon coverage defining the groud-water model area (modelarea), a polygon coverage used to shade the tectonically significant structural zones (dvrfs_tzone), text labels for faults and regional structures (dvrfs_text), a coverage used to draw a map scale bar (scale250), and two projection files for the geographic projection (geo.prj) and UTM projection (utm.prj).</supplinf>
+      </descript>
+      <dsstruct>
+         <dspart>
+            <dsptname>DVRFS_GEO</dsptname>
+            <dspttype>ArcInfo coverage of type POLY/ARC</dspttype>
+            <dsptdesc>Geologic contacts and unit labels.</dsptdesc>
+         </dspart>
+         <dspart>
+            <dsptname>DVRFS_FLT</dsptname>
+            <dspttype>ArcInfo coverage of type ARC</dspttype>
+            <dsptdesc>Geologic fault structures.</dsptdesc>
+         </dspart>
+         <dspart>
+            <dsptname>DVRFS_GPFLT</dsptname>
+            <dspttype>ArcInfo coverage of type ARC</dspttype>
+            <dsptdesc>Structures based upon interpretation of gravity data.</dsptdesc>
+         </dspart>
+         <dspart>
+            <dsptname>DVRFS_SYM</dsptname>
+            <dspttype>ArcInfo coverage of type ARC/POINT</dspttype>
+            <dsptdesc>Fault symbols representing offset orientations in both cartographic arc format and point format.</dsptdesc>
+         </dspart>
+         <dspart>
+            <dsptname>DVRFS_CALD</dsptname>
+            <dspttype>ArcInfo coverage of type ARC</dspttype>
+            <dsptdesc>Caldera walls (both structural and topographic in some cases).</dsptdesc>
+         </dspart>
+         <dspart>
+            <dsptname>DVRFS_LIN</dsptname>
+            <dspttype>ArcInfo coverage of type ARC</dspttype>
+            <dsptdesc>Lineaments.</dsptdesc>
+         </dspart>
+         <dspart>
+            <dsptname>DVRFS_TLINE</dsptname>
+            <dspttype>ArcInfo coverage of type ARC</dspttype>
+            <dsptdesc>Axis of tectonically significant structural zones (shown on the printed tectonic map as broad stippled zones using the coverage DVRFS_TZONE which is included in the basemap data discussed in the Supplemental_Information element above).  These lines are being used as the first order structures in the ground-water model constructed from this geologic model.</dsptdesc>
+         </dspart>
+         <dspart>
+            <dsptname>DVRFS_WLANE</dsptname>
+            <dspttype>ArcInfo coverage of type ARC</dspttype>
+            <dsptdesc>Eastern limit of Walker Lane where constrained by geology and geophysics.</dsptdesc>
+         </dspart>
+      </dsstruct>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>2002</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-118.000</westbc>
+            <eastbc>-115.000</eastbc>
+            <northbc>38.250</northbc>
+            <southbc>35.000</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>USGS Thesaurus</themekt>
+            <themekey>geology</themekey>
+            <themekey>geologic maps</themekey>
+            <themekey>bedrock geologic units</themekey>
+            <themekey>geologic structure</themekey>
+            <themekey>geospatial datasets</themekey>
+            <themekey>faulting (geologic)</themekey>
+            <themekey>tectonic processes</themekey>
+         </theme>
+         <theme>
+            <themekt>none</themekt>
+            <themekey>basin and range</themekey>
+            <themekey>southern Great Basin</themekey>
+            <themekey>walker lane</themekey>
+            <themekey>eastern California shear zone</themekey>
+            <themekey>Death Valley-Furnace Creek fault zone</themekey>
+            <themekey>southwest Nevada volcanic field</themekey>
+            <themekey>Death Valley Ground-Water Flow Model</themekey>
+            <themekey>Garlock fault</themekey>
+            <themekey>Las Vegas Valley shear zone</themekey>
+            <themekey>Stateline fault zone</themekey>
+            <themekey>sevier thrust belt</themekey>
+            <themekey>Death Valley thrust belt</themekey>
+            <themekey>central Nevada thrust belt</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Categories</themekt>
+            <themekey>geoscientificInformation</themekey>
+         </theme>
+         <place>
+            <placekt>none</placekt>
+            <placekey>Nevada</placekey>
+            <placekey>California</placekey>
+            <placekey>Nevada Test Site</placekey>
+            <placekey>Death Valley National Park</placekey>
+            <placekey>Las Vegas</placekey>
+            <placekey>Nellis Air Force Base</placekey>
+            <placekey>Inyo County</placekey>
+            <placekey>San Bernardino County</placekey>
+            <placekey>Clark County</placekey>
+            <placekey>Nye County</placekey>
+            <placekey>Esmeralda County</placekey>
+            <placekey>Lincoln County</placekey>
+         </place>
+         <place>
+            <placekt>Augmented FIPS 10-4 and FIPS 6-4</placekt>
+            <placekey>32023 = Nye</placekey>
+            <placekey>32003 = Clark</placekey>
+            <placekey>32009 = Esmeralda</placekey>
+            <placekey>32017 = Lincoln</placekey>
+            <placekey>06027 = Inyo</placekey>
+            <placekey>06071 = San Bernardino</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>None</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Jeremiah B. Workman</cntper>
+               <cntorg>U. S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>Mailing Address</addrtype>
+               <address>Box 25046</address>
+               <address>Denver Federal Center, MS-913</address>
+               <city>Denver</city>
+               <state>CO</state>
+               <postal>80225</postal>
+               <country>U.S.A.</country>
+            </cntaddr>
+            <cntvoice>303-236-1257</cntvoice>
+            <cntemail>jworkman@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <browse>
+         <browsen>http://geo-nsdi.er.usgs.gov/metadata/map-mf/2381/mf-2381.png</browsen>
+         <browsed>Reduced-size image of the study area showing the areas of previous mapping, 570x740 pixels, 248k bytes.</browsed>
+         <browset>PNG</browset>
+      </browse>
+      <browse>
+         <browsen>http://pubs.usgs.gov/mf/2002/mf-2381/mf-2381-a/mf-2381-a.pdf</browsen>
+         <browsed>Printable representation of map sheet, 41 MB.</browsed>
+         <browset>PDF</browset>
+      </browse>
+      <native>SunOS 5.7, sun4m UNIXARC/INFO version 8.1</native>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>The database was compiled largely from pre-existing digital data and combined in ARC/INFO.  Frequency tests were run on the arc and polygon labels to ensure that no features are unlabeled.  The attributes have been checked by both the authors and the reviewers for agreement with published maps, unpublished field mapping, annotated airphotos, annotated LANSAT images, and preliminary drafted versions of the map.  The attribute data in the data set should be taken as an accurate representation of the authors' geologic interpretations.</attraccr>
+      </attracc>
+      <logic>The database was compiled from data mapped previously at various scales from 1:24,000 scale to 1:250,000 scale.  The data was generalized to fit a consistent set of criteria.  All lines were visually inspected by the authors for proper intersections, repetition, overshoots, undershoots, and overall logical consistency.  The geologic features in the map area are all described, in the view of the authors, at a consistent scale of 1:250,000.  All coverages were cleaned and built in ARC/INFO (version 8.2) to ensure a logical consistency which is topologically clean.</logic>
+      <complete>This dataset includes only the coverages pertaining to the geologic map.  Any margin material on the printed map (correlation chart, explanation of map symbols) is not included.  This map was produced to be used at 1:250,000 scale.  Any geologic features too small to be shown at this scale have been omitted or generalized if they are of significant importance.  The smallest objects are approximately 100 meters on a side.  A topographic base map compiled from the published USGS DLG and DEM data is included.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>The estimated horizontal positional accuracy of the data is 65 meters.  All data used from published and unpublished digital sources is limited by the accuracy of that data.  Attempts were made to verify the accuracy of this data by comparison to published topographic data and overlap with other digital data.  All new linework and point data were digitized at 1:100,000 and 1:250,000 scale using a CalComp digitizing tablet (model 34360) with an accuracy of 0.005 inches (~12 meters at 1:100,000 scale and ~30 meters at 1:250,000 scale) or by on screen digitizing from georeferenced digital imagery at an approximate 1:100,000 scale.  This database was produced to be used at 1:250,000 scale and any problems arising from use at other scales are not the responsibilities of the authors.  No vertical data are included in the database (basemap elevations are reproductions of published USGS topographic maps).</horizpar>
+         </horizpa>
+      </posacc>
+      <lineage>
+         <procstep>
+            <procdesc>Compilation of previous digital data.</procdesc>
+            <procdate>1999 to 2000</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Reinterpretation, editing, edgmatching, and updating of previous mapping.</procdesc>
+            <procdate>1999 to 2001</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Digitized and incorporated new mapping into database.</procdesc>
+            <procdate>1999 to 2001</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Review of data by J. Stewart and P. Stone (concentrating on bedrock and older structures).</procdesc>
+            <procdate>2000</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Review of data by M. Reheis (concentrated on quaternary deposits and structure).</procdesc>
+            <procdate>2001</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Review of data by R. Bohannon (concentrated on Tertiary sediments and volcanics)</procdesc>
+            <procdate>2001</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>final editing of database to address review comments</procdesc>
+            <procdate>2000 to 2001</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Creation of original metadata record</procdesc>
+            <procdate>20020702</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Jeremiah B. Workman</cntper>
+                     <cntorg>U. S. Geological Survey</cntorg>
+                  </cntperp>
+                  <cntaddr>
+                     <addrtype>mailing address</addrtype>
+                     <address>Box 25046</address>
+                     <address>Denver Federal Center, MS-913</address>
+                     <city>Denver</city>
+                     <state>CO</state>
+                     <postal>80225</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>303-236-1257</cntvoice>
+                  <cntemail>jworkman@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>vector</direct>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <gridsys>
+               <gridsysn>Universal Transverse Mercator</gridsysn>
+               <utm>
+                  <utmzone>11</utmzone>
+                  <transmer>
+                     <sfctrmer>0.9996</sfctrmer>
+                     <longcm>-117.0</longcm>
+                     <latprjo>0.0</latprjo>
+                     <feast>500000.0</feast>
+                     <fnorth>0.0</fnorth>
+                  </transmer>
+               </utm>
+            </gridsys>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>65</absres>
+                  <ordres>65</ordres>
+               </coordrep>
+               <plandu>meters</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>North American Datum of 1927</horizdn>
+            <ellips>Clarke 1866</ellips>
+            <semiaxis>6378206.4</semiaxis>
+            <denflat>294.98</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <overview>
+         <eaover>The database consists of eight coverages (excluding the coverages mentioned in the Supplemental_Information element)
+&gt;The individual attributes for each coverage are described as follows (*=DVRFS):
+&gt;--------POLYGONS-&lt;*_GEO&gt;
+&gt;UNIT: see map text for explanation of lithologic unit symbols&gt;&amp;=Pennsylvanian&gt;@=Triassic&gt;_=Cambrian
+&gt;UNIT_CODE:&gt;1=surficial Quaternary unit&gt;2=igneous Quaternary unit&gt;3=sedimentary Tertiary unit&gt;4=volcanic Tertiary unit&gt;5=intrusive Tertiary unit&gt;6=sedimentary Mesozoic unit&gt;7=igneous Mesozoic unit&gt;8=sedimentary Paleozoic unit&gt;9=igneous Paleozoic unit&gt;10=Precambrian unit
+&gt;TECT_CODE:&gt;0=no tectonic significance assigned&gt;1=Mesozoic intrusive rocks&gt;2=Tertiary intrusive rocks&gt;3=Proterozoic basement rocks (base of ground-water model)
+&gt;SYMBOL: value from CTR269 shadeset for coloring polygons
+&gt;--------ARCS-&lt;*_GEO, *_FLT, *_GPFLT, *_CALD, *_LIN, *_TLINE, *_WLANE&gt;
+&gt;TECT_INDEX (*_FLT only):&gt;0=not regionally significant structure&gt;1=regionally significant structure
+&gt;LABEL (*_CALD, *_LIN, *_TLINE, and *_WLANE only):&gt;character attribute describing structure
+&gt;LINE_CODE, DESCRIPTION (*_GEO, *_FLT, *_GPFLT and *_CALD only):&gt;1, "contact-certain"&gt;2, "contact-inferred"&gt;10, "contact-faulted" +&gt;20, "fault-certain"&gt;21, "fault-inferred"&gt;22, "fault-concealed"&gt;23, "fault-queried"&gt;30, "thrust fault-certain"&gt;31, "thrust fault-inferred"&gt;32, "thrust fault-concealed"&gt;40, "low-angle normal fault-certain"&gt;41, "low-angle normal fault-inferred"&gt;42, "low-angle normal fault-concealed"&gt;60, "caldera boundary-certain"&gt;62, "caldera boundary-concealed"&gt;90, "geophysically inferred structure-well constrained"&gt;91, "geophysically inferred structure-poorly constrained"&gt;99, "map area boundary"&gt;+ code=10 is used for lines which represent both fault lines and unit contacts in DVRFS_GEO.  It is a cartographic designation for lines repeated in both the geology and fault coverages so that they will not be drawn twice in plotting and is not used uniformly due to inconsistent attribution of source data.
+&gt;SYMBOL: value from GEOSCAMP1 lineset for drawing lines
+&gt;--------ARC-&lt;*_SYM&gt;
+&gt;SYMBOL:&gt;1= bar and ball symbol&gt;2= bar and ball symbol (geophysically inferred structure)&gt;3= right-lateral offset arrows&gt;4= right-lateral offset arrows (geophysically inferred structure)&gt;5= left-lateral offset arrows&gt;6= left-lateral offset arrows (geophysically inferred structure)
+&gt;--------POINT-&lt;*_SYM&gt;
+&gt;SYMBOL:&gt;1= bar and ball symbol&gt;2= bar and ball symbol (geophysically inferred structure)&gt;3= right-lateral offset arrows&gt;4= right-lateral offset arrows (geophysically inferred structure)&gt;5= left-lateral offset arrows&gt;6= left-lateral offset arrows (geophysically inferred structure)
+&gt;ANGLE: angle to plot offset symbol</eaover>
+         <eadetcit>http://pubs.usgs.gov/mf/2002/mf-2381/mf-2381-a/mf-2381-a_p.pdf</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey Central Publications Group</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing addressBox 25046Denver Federal Center, MS-902</addrtype>
+               <city>Denver</city>
+               <state>CO</state>
+               <postal>80225-0046</postal>
+            </cntaddr>
+            <cntvoice>303-236-5486</cntvoice>
+         </cntinfo>
+      </distrib>
+      <distliab>Although this digital spatial data has been subjected to rigorous review and is substantially complete, it is released on the condition that neither the USGS nor the United States Government may be held liable for any damage resulting from its authorized or unauthorized use.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Shapefile</formname>
+               <formvern>1.0</formvern>
+               <formcont>Geologic units and structural features</formcont>
+               <filedec>.tar.gz - UNIX gzip-compressed TAR file - use GNU zip and TAR.zip - Windows ZIP archive - use WinZip, PKZip, or similar program to extract</filedec>
+               <transize>82</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://pubs.usgs.gov/mf/2002/mf-2381/mf-2381-a/mf-2381_nobase.tar.gz</networkr>
+                        <networkr>http://pubs.usgs.gov/mf/2002/mf-2381/mf-2381-a/mf-2381nobase.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>ARCE</formname>
+               <formvern>8.1</formvern>
+               <formcont>Geologic units and structural features</formcont>
+               <filedec>.tar.gz - UNIX gzip-compressed TAR file - use GNU zip and TAR.zip - Windows ZIP archive - use WinZip, PKZip, or similar program to extract</filedec>
+               <transize>82</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://pubs.usgs.gov/mf/2002/mf-2381/mf-2381-a/mf-2381_nobase.tar.gz</networkr>
+                        <networkr>http://pubs.usgs.gov/mf/2002/mf-2381/mf-2381-a/mf-2381nobase.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>none</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20150204</metd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Peter N Schweitzer</cntper>
+               <cntorg>USGS Midwest Area</cntorg>
+            </cntperp>
+            <cntpos>Collection manager, USGS Geoscience Data Clearinghouse, http://geo-nsdi.er.usgs.gov/</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>Mail Stop 95412201 Sunrise Valley Dr</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192-0002</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>703-648-6533</cntvoice>
+            <cntfax>703-648-6252</cntfax>
+            <cntemail>pschweitzer@usgs.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <metac>none</metac>
+      <metuc>none</metuc>
+      <metextns>
+         <onlink>http://geology.usgs.gov/tools/metadata/tools/ext/parts.ext</onlink>
+      </metextns>
+   </metainfo>
+</metadata>

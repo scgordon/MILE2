@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Matthias Leu, Steve Hanser, and Steve Knick, USGS-FRESC, Snake River Field Station</origin>
+            <pubdate>2008</pubdate>
+            <title>The Human Footprint in the West</title>
+            <geoform Sync="TRUE">raster digital data</geoform>
+            <onlink>http://srfs.wr.usgs.gov/Fresc_ScienceData/hfootprint.zip</onlink>
+            <onlink>https://www.sciencebase.gov/catalog/item/542f08b6e4b092f17df5ede9</onlink>
+            <onlink>http://sagemap.wr.usgs.gov/</onlink>
+            <ftname Sync="TRUE">hfootprint</ftname>
+            <othercit>Leu, M., S.E. Hanser, S.T. Knick. 2008. The human footprint in the west: a large-scale analysis of anthropogenic impacts. Ecological Applications 18(5): 1119-1139.</othercit>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>Humans have dramatically altered wildlands in the western United States over the past 100 years by using these lands and the resources they provide.  Anthropogenic changes to the landscape, such as urban expansion, construction of roads, power lines, and other networks and land uses necessary to maintain human populations influence the number and kinds of plants and wildlife that remain.  We developed the map of the human footprint for the western United States from an analysis of 14 landscape structure and anthropogenic features:  human habitation, interstate highways, federal and state highways, secondary roads, railroads, irrigation canals, power lines, linear feature densities, agricultural land, campgrounds, highway rest stops, land fills, oil and gas development, and human induced fires.  We used these input layers to develop seven models to estimate the total influence of the human footprint.  These models either explored how anthropogenic features influence wildlife populations via changes in habitat (road-induced dispersal of invasive plants, oil and gas developments, human induced fires, and anthropogenic habitat fragmentation) or predators densities (spatial distribution of domestic and synanthropic avian predators).  The human footprint map is a composite of these seven models.  The final map consists of a 180 meter resolution raster data set with 10 human footprint classes.</abstract>
+         <purpose>Model the influence of anthropogenic disturbance in the western United States.</purpose>
+         <langdata Sync="TRUE">en</langdata>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>2008</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc Sync="TRUE">-126.251168</westbc>
+            <eastbc Sync="TRUE">-99.317208</eastbc>
+            <northbc Sync="TRUE">49.619578</northbc>
+            <southbc Sync="TRUE">30.506824</southbc>
+         </bounding>
+         <lboundng>
+            <leftbc Sync="TRUE">-906972.718982</leftbc>
+            <rightbc Sync="TRUE">1089947.281018</rightbc>
+            <bottombc Sync="TRUE">-316417.189867</bottombc>
+            <topbc Sync="TRUE">1728022.810133</topbc>
+         </lboundng>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>Human</themekey>
+            <themekey>Footprint</themekey>
+            <themekey>Anthropogenic</themekey>
+            <themekey>Disturbance</themekey>
+            <themekey>Human Footprint</themekey>
+            <themekey>Model</themekey>
+            <themekey>Landscape</themekey>
+            <themekey>Wildlands</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>Washington</placekey>
+            <placekey>Oregon</placekey>
+            <placekey>California</placekey>
+            <placekey>Idaho</placekey>
+            <placekey>Nevada</placekey>
+            <placekey>Utah</placekey>
+            <placekey>Arizona</placekey>
+            <placekey>Montana</placekey>
+            <placekey>Wyoming</placekey>
+            <placekey>Colorado</placekey>
+            <placekey>Wyoming</placekey>
+            <placekey>New Mexico</placekey>
+            <placekey>Conservation Assessment</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>None, but the user assumes all responsibility for appropriate use of the data.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Matthias Leu</cntper>
+               <cntorg>USGS-FRESC, Snake River Field Station</cntorg>
+            </cntperp>
+            <cntpos>Ecologist</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>970 Lusk St</address>
+               <city>Boise</city>
+               <state>ID</state>
+               <postal>83706</postal>
+            </cntaddr>
+            <cntvoice>208-426-2598</cntvoice>
+            <cntfax>208-426-5210</cntfax>
+            <cntemail>mleu@usgs.gov</cntemail>
+            <hours>8 - 5</hours>
+         </cntinfo>
+      </ptcontac>
+      <secinfo>
+         <secclass>Unclassified</secclass>
+         <secsys>None</secsys>
+         <sechandl>None</sechandl>
+      </secinfo>
+      <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+      <natvform Sync="TRUE">Raster Dataset</natvform>
+      <datacred>Matthias Leu, Steve Hanser, and Steve Knick USGS-FRESC Snake River Field Station</datacred>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>Dependent upon the source data.</attraccr>
+      </attracc>
+      <logic>Dependent on the logical consistency of the data from which this coverage was created. No additional checks for consistency or accuracy was completed on this final product.</logic>
+      <complete>Based on the completeness of the data from which this coverage was created. Review metadata for individual source coverages to assess completeness of each.</complete>
+      <lineage>
+         <procstep>
+            <procdesc>Standardized all input models to range from zero to one by dividing by the maximum value in each grid. This was done due to the fact that the inputs models were developed with various techniques and therefore had different numerical ranges. So in order to weigh the model equally in the final human footprint model we need to standardize the ranges of the inputs.</procdesc>
+            <srcused>exotic</srcused>
+            <srcused>Fire</srcused>
+            <srcused>dog_model</srcused>
+            <srcprod>frag01</srcprod>
+            <srcprod>corvid01</srcprod>
+            <srcprod>oilwells01</srcprod>
+            <procdate>200312</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Steve Hanser</cntper>
+                     <cntorg>USGS, Snake River Field Station</cntorg>
+                  </cntperp>
+                  <cntpos>Wildlife Biologist / GIS Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>970 Lusk St</address>
+                     <city>Boise</city>
+                     <state>ID</state>
+                     <postal>83706</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>208-426-2892</cntvoice>
+                  <cntfax>208-426-5210</cntfax>
+                  <cntemail>shanser@usgs.gov</cntemail>
+                  <hours>8 - 5</hours>
+               </cntinfo>
+            </proccont>
+            <srcused>cat_model</srcused>
+            <srcused>oilwells</srcused>
+            <srcused>corvid_model</srcused>
+            <srcused>frag_model</srcused>
+            <srcprod>cat01</srcprod>
+            <srcprod>dog01</srcprod>
+            <srcprod>fire01</srcprod>
+            <srcprod>exotic01</srcprod>
+         </procstep>
+         <procstep>
+            <procdesc>Added the seven input models together.</procdesc>
+            <srcused>exotic01</srcused>
+            <srcprod>Hfoot_prelim</srcprod>
+            <procdate>200312</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Steve Hanser</cntper>
+                     <cntorg>USGS, Snake River Field Station</cntorg>
+                  </cntperp>
+                  <cntpos>Wildlife Biologist / GIS Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>970 Lusk St</address>
+                     <city>Boise</city>
+                     <state>ID</state>
+                     <postal>83706</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>208-426-2892</cntvoice>
+                  <cntfax>208-426-5210</cntfax>
+                  <cntemail>shanser@usgs.gov</cntemail>
+                  <hours>8 - 5</hours>
+               </cntinfo>
+            </proccont>
+            <srcused>dog01</srcused>
+            <srcused>cat01</srcused>
+            <srcused>fire01</srcused>
+            <srcused>frag01</srcused>
+            <srcused>corvid01</srcused>
+            <srcused>oilwells01</srcused>
+         </procstep>
+         <procstep>
+            <procdesc>Reclassified hfoot_prelim into 10 classes with the following class ranges: 1 = 0-0.333; 2 = 0.333-0.666; 3 = 0.666-1; 4 = 1-1.333; 5 = 1.333-1.666; 6 = 1.666-2; 7 = 2-2.333; 8 = 2.333-2.666; 9 = 2.666-3; 10 = greater than 3.</procdesc>
+            <srcused>Hfoot_prelim</srcused>
+            <srcused>Forest/Non-Forest</srcused>
+            <srcprod>hfootprint</srcprod>
+            <procdate>200311</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Steve Hanser</cntper>
+                     <cntorg>USGS, Snake River Field Station</cntorg>
+                  </cntperp>
+                  <cntpos>Wildlife Biologist / GIS Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>970 Lusk St</address>
+                     <city>Boise</city>
+                     <state>ID</state>
+                     <postal>83706</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>208-426-2892</cntvoice>
+                  <cntfax>208-426-5210</cntfax>
+                  <cntemail>shanser@usgs.gov</cntemail>
+                  <hours>8 - 5</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Steve Hanser and Matthias Leu, USGS-FRESC, Snake River Field Station</origin>
+                  <pubdate>200406</pubdate>
+                  <title>Probability of Synanthropic Feral House Cat Presence in the Western United States</title>
+                  <geoform>raster digital data</geoform>
+                  <onlink>http://sagemap.wr.usgs.gov/ftp/regional/usgs/cat_model_hf.zip</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srccitea>cat_model</srccitea>
+            <srccontr>Probability of synanthropic feral house cat presence.</srccontr>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2000</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Steve Hanser and Matthias Leu, USGS-FRESC Snake River Field Station</origin>
+                  <title>Probability of Synanthropic Feral Dog Presence in the Western United States</title>
+                  <geoform>raster digital data</geoform>
+                  <onlink>http://sagemap.wr.usgs.gov/ftp/regional/usgs/dog_model_hf.zip</onlink>
+                  <pubdate>200406</pubdate>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srccitea>dog_model</srccitea>
+            <srccontr>Probability of synanthropic feral dog presence.</srccontr>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2000</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+         </srcinfo>
+         <srcinfo>
+            <typesrc>online</typesrc>
+            <srccitea>exotic</srccitea>
+            <srccite>
+               <citeinfo>
+                  <onlink>http://sagemap.wr.usgs.gov/ftp/regional/usgs/exotic_hf.zip</onlink>
+                  <title>Exotic Plant Invasion Risk in the Western United States</title>
+                  <origin>Steve Hanser and Matthias Leu, USGS-FRESC, Snake River Field Station</origin>
+                  <pubdate>200406</pubdate>
+                  <geoform>raster digital data</geoform>
+               </citeinfo>
+            </srccite>
+            <srccontr>Risk of invasion by exotic plant species.</srccontr>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2000</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+         </srcinfo>
+         <srcinfo>
+            <typesrc>online</typesrc>
+            <srccitea>fire</srccitea>
+            <srccite>
+               <citeinfo>
+                  <onlink>http://sagemap.wr.usgs.gov/ftp/regional/usgs/firemodel_hf.zip</onlink>
+                  <title>Human Caused Fires in the Western United States (1986 - 2001)</title>
+                  <origin>Steve Hanser, USGS-FRESC, Snake River Field Station</origin>
+                  <pubdate>200406</pubdate>
+                  <geoform>raster digital data</geoform>
+               </citeinfo>
+            </srccite>
+            <srccontr>Density of human caused fires.</srccontr>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>1986</begdate>
+                     <enddate>2001</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+         </srcinfo>
+         <srcinfo>
+            <typesrc>online</typesrc>
+            <srccitea>oilwells</srccitea>
+            <srccite>
+               <citeinfo>
+                  <onlink>http://sagemap.wr.usgs.gov/ftp/regional/usgs/oilwells_hf.zip</onlink>
+                  <title>Oil and Gas Well Density in the Western United States</title>
+                  <origin>Steve Hanser and Matthias Leu, USGS-FRESC Snake River Field Station</origin>
+                  <pubdate>200406</pubdate>
+                  <geoform>raster digital data</geoform>
+               </citeinfo>
+            </srccite>
+            <srccontr>Density of oil and gas wells.</srccontr>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>1995</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+         </srcinfo>
+         <srcinfo>
+            <typesrc>online</typesrc>
+            <srccitea>frag_model</srccitea>
+            <srccite>
+               <citeinfo>
+                  <onlink>http://sagemap.wr.usgs.gov/ftp/regional/usgs/fragmodel_hf.zip</onlink>
+                  <title>Anthropogenic Fragmentation in the Western United States</title>
+                  <origin>Steve Hanser and Matthias Leu, USGS-FRESC, Snake River Field Station</origin>
+                  <pubdate>200406</pubdate>
+                  <geoform>raster digital data</geoform>
+               </citeinfo>
+            </srccite>
+            <srccontr>Proportion of habitat that contains an anthropogenic feature.</srccontr>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2003</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <title>Probability of Synanthropic Corvid Presence in the Western United States</title>
+                  <origin>Steve Hanser and Matthias Leu, USGS-FRESC, Snake River Field Station</origin>
+                  <pubdate>200406</pubdate>
+                  <geoform>raster digital data</geoform>
+                  <onlink>http://sagemap.wr.usgs.gov/ftp/regional/usgs/corvid_hf.zip</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srccitea>corvid_model</srccitea>
+            <srccontr>Probability of synanthropic corvid presence</srccontr>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>2004</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+         </srcinfo>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct Sync="TRUE">Raster</direct>
+      <rastinfo>
+         <rasttype Sync="TRUE">Grid Cell</rasttype>
+         <rowcount Sync="TRUE">11358</rowcount>
+         <colcount Sync="TRUE">11094</colcount>
+         <vrtcount Sync="TRUE">1</vrtcount>
+         <rastxsz Sync="TRUE">180.000000</rastxsz>
+         <rastysz Sync="TRUE">180.000000</rastysz>
+         <rastbpp Sync="TRUE">8</rastbpp>
+         <rastorig Sync="TRUE">Upper Left</rastorig>
+         <rastcmap Sync="TRUE">FALSE</rastcmap>
+         <rastcomp Sync="TRUE">Default</rastcomp>
+         <rastband Sync="TRUE">1</rastband>
+         <rastdtyp Sync="TRUE">matrix values</rastdtyp>
+         <rastplyr Sync="TRUE">FALSE</rastplyr>
+         <rastifor Sync="TRUE"/>
+      </rastinfo>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <planci>
+               <plance Sync="TRUE">row and column</plance>
+               <coordrep>
+                  <absres Sync="TRUE">180.000000</absres>
+                  <ordres Sync="TRUE">180.000000</ordres>
+               </coordrep>
+               <plandu Sync="TRUE">meters</plandu>
+            </planci>
+            <mapproj>
+               <mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn>
+               <albers>
+                  <stdparll Sync="TRUE">38.000000</stdparll>
+                  <stdparll Sync="TRUE">41.000000</stdparll>
+                  <longcm Sync="TRUE">-114.000000</longcm>
+                  <latprjo Sync="TRUE">34.000000</latprjo>
+                  <feast Sync="TRUE">0.000000</feast>
+                  <fnorth Sync="TRUE">0.000000</fnorth>
+               </albers>
+            </mapproj>
+         </planar>
+         <geodetic>
+            <horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+            <ellips Sync="TRUE">Clarke 1866</ellips>
+            <semiaxis Sync="TRUE">6378206.400000</semiaxis>
+            <denflat Sync="TRUE">294.978698</denflat>
+         </geodetic>
+         <cordsysn>
+            <geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn>
+            <projcsn Sync="TRUE">NAD_1927_Albers</projcsn>
+         </cordsysn>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed Name="hfootprint.vat">
+         <attr>
+            <attrlabl Sync="TRUE">Count</attrlabl>
+            <attalias Sync="TRUE">Count</attalias>
+            <attrtype Sync="TRUE">Double</attrtype>
+            <attwidth Sync="TRUE">0</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+            <attrdef>Count of grid cells with associated Value attirbute</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommax>33934829</rdommax>
+                  <rdommin>10305230</rdommin>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">Rowid</attrlabl>
+            <attalias Sync="TRUE">Rowid</attalias>
+            <attrtype Sync="TRUE">OID</attrtype>
+            <attwidth Sync="TRUE">4</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+            <attrdef Sync="TRUE">Internal feature number.</attrdef>
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+            <attrdomv>
+               <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">VALUE</attrlabl>
+            <attalias Sync="TRUE">VALUE</attalias>
+            <attrtype Sync="TRUE">Integer</attrtype>
+            <attwidth Sync="TRUE">4</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <attr>
+            <attrlabl Sync="TRUE">COUNT</attrlabl>
+            <attalias Sync="TRUE">COUNT</attalias>
+            <attrtype Sync="TRUE">Integer</attrtype>
+            <attwidth Sync="TRUE">4</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+         <enttyp>
+            <enttypl Sync="TRUE">hfootprint.vat</enttypl>
+            <enttypt Sync="TRUE">Table</enttypt>
+            <enttypc Sync="TRUE">10</enttypc>
+            <enttypd>Value attribute table</enttypd>
+            <enttypds>ESRI</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl Sync="TRUE">Value</attrlabl>
+            <attrdef>Human Footprint Class</attrdef>
+            <attrdefs>U.S Geological Survey</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>10</rdommax>
+               </rdom>
+            </attrdomv>
+            <attalias Sync="TRUE">Value</attalias>
+            <attrtype Sync="TRUE">Integer</attrtype>
+            <attwidth Sync="TRUE">0</attwidth>
+            <atprecis Sync="TRUE">0</atprecis>
+            <attscale Sync="TRUE">0</attscale>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>USGS, Snake River Field Station, GIS Laboratory</cntorg>
+            </cntorgp>
+            <cntpos>Geographer</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>970 Lusk St</address>
+               <city>Boise</city>
+               <state>ID</state>
+               <postal>83706</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>208-426-5204</cntvoice>
+            <cntfax>208-426-5210</cntfax>
+            <cntemail>tom_zarriello@usgs.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>The Human Footprint Across the Western United States</resdesc>
+      <distliab>We make every effort to provide and maintain accurate, complete, usable, and timely information on our web sites. However, some USGS data and information accessed through these pages may, of necessity, be preliminary in nature and presented prior to final review and approval by the Director of the USGS. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <transize Sync="TRUE">41.452</transize>
+               <dssize Sync="TRUE">41.452</dssize>
+               <formname>ARCG</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <oncomp>http://sagemap.wr.usgs.gov/ftp/regional/usgs/</oncomp>
+                  <computer>
+                     <networka>
+                        <networkr>http://sagemap.wr.usgs.gov/ftp/regional/usgs/</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+               <onlinopt>
+                  <oncomp>http://prairiemap.wr.usgs.gov/</oncomp>
+                  <computer>
+                     <networka>
+                        <networkr>http://prairiemap.wr.usgs.gov/</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>none</fees>
+         <ordering>Go to SAGEMAP (http://sagemap.wr.usgs.gov)</ordering>
+      </stdorder>
+   </distinfo>
+   <distinfo>
+- <distrib>
+- <cntinfo>
+- <cntorgp>
+               <cntorg>USGS Forest and Rangeland Ecosystem Science Center</cntorg>
+            </cntorgp>
+            <cntpos>Communications and Information Program</cntpos> 
+- <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>777 NW 9th Street, Suite 400</address>
+               <city>Corvallis</city>
+               <state>Oregon</state>
+               <postal>97300</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>541-750-1030</cntvoice>
+            <cntemail>fresc_outreach@usgs.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server, and not indirectly through other sources which may have changed the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+   </distinfo>
+- <metainfo>
+      <metd>20111003</metd> 
+- <metc>
+- <cntinfo>
+- <cntorgp>
+               <cntorg>USGS Forest and Rangeland Ecosystem Science Center</cntorg>
+            </cntorgp>
+            <cntpos>Communications and Information Program</cntpos> 
+- <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>777 NW 9th Street, Suite 400</address>
+               <city>Corvallis</city>
+               <state>Oregon</state>
+               <postal>97330</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>541-750-1030</cntvoice>
+            <cntemail>fresc_outreach@usgs.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001.1-1999</metstdv>
+   </metainfo>
+   <metainfo>
+      <metd Sync="TRUE">20080702</metd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Steve Hanser</cntper>
+               <cntorg>USGS, Snake River Field Station</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist (GIS)</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>970 Lusk St.</address>
+               <city>Boise</city>
+               <state>ID</state>
+               <postal>83706</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>208-426-2892</cntvoice>
+            <cntfax>208-426-5210</cntfax>
+            <cntemail>shanser@usgs.gov</cntemail>
+            <hours>8 - 5</hours>
+         </cntinfo>
+      </metc>
+      <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+      <mettc Sync="TRUE">local time</mettc>
+      <metac>none</metac>
+      <metuc>none</metuc>
+      <metsi>
+         <metsc>Unclassified</metsc>
+         <metscs>None</metscs>
+         <metshd>None</metshd>
+      </metsi>
+      <metextns>
+         <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+         <metprof>ESRI Metadata Profile</metprof>
+      </metextns>
+      <langmeta Sync="TRUE">en</langmeta>
+      <metextns>
+         <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+         <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+      </metextns>
+   </metainfo>
+   <dataIdInfo>
+      <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</envirDesc>
+      <dataLang>
+         <languageCode Sync="TRUE" value="en"/>
+      </dataLang>
+      <idCitation>
+         <resTitle Sync="TRUE">hfootprint</resTitle>
+         <presForm>
+            <PresFormCd Sync="TRUE" value="005"/>
+         </presForm>
+      </idCitation>
+      <spatRpType>
+         <SpatRepTypCd Sync="TRUE" value="002"/>
+      </spatRpType>
+      <dataExt>
+         <geoEle>
+            <GeoBndBox esriExtentType="native">
+               <westBL Sync="TRUE">-906972.718982</westBL>
+               <eastBL Sync="TRUE">1089947.281018</eastBL>
+               <northBL Sync="TRUE">1728022.810133</northBL>
+               <southBL Sync="TRUE">-316417.189867</southBL>
+               <exTypeCode Sync="TRUE">1</exTypeCode>
+            </GeoBndBox>
+         </geoEle>
+      </dataExt>
+      <geoBox esriExtentType="decdegrees">
+         <westBL Sync="TRUE">-126.251168</westBL>
+         <eastBL Sync="TRUE">-99.317208</eastBL>
+         <northBL Sync="TRUE">49.619578</northBL>
+         <southBL Sync="TRUE">30.506824</southBL>
+         <exTypeCode Sync="TRUE">1</exTypeCode>
+      </geoBox>
+   </dataIdInfo>
+   <mdLang>
+      <languageCode Sync="TRUE" value="en"/>
+   </mdLang>
+   <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+   <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+   <mdChar>
+      <CharSetCd Sync="TRUE" value="004"/>
+   </mdChar>
+   <mdHrLv>
+      <ScopeCd Sync="TRUE" value="005"/>
+   </mdHrLv>
+   <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+   <distInfo>
+      <distributor>
+         <distorTran>
+            <onLineSrc>
+               <orDesc Sync="TRUE">002</orDesc>
+               <linkage Sync="TRUE">file://\\Igswidwbfs232\SRFS Commons\hanser\HumanFootprintData\hfootprint\hfootprint</linkage>
+               <protocol Sync="TRUE">Local Area Network</protocol>
+            </onLineSrc>
+            <transSize Sync="TRUE">41.452</transSize>
+         </distorTran>
+         <distorFormat>
+            <formatName Sync="TRUE">Raster Dataset</formatName>
+         </distorFormat>
+      </distributor>
+   </distInfo>
+   <refSysInfo>
+      <RefSystem>
+         <refSysID>
+            <identCode Sync="TRUE">NAD_1927_Albers</identCode>
+         </refSysID>
+      </RefSystem>
+   </refSysInfo>
+   <spatRepInfo>
+      <GridSpatRep>
+         <numDims Sync="TRUE">2</numDims>
+         <cellGeo>
+            <CellGeoCd Sync="TRUE" value="002"/>
+         </cellGeo>
+         <tranParaAv Sync="TRUE">1</tranParaAv>
+         <axDimProps>
+            <Dimen>
+               <dimName>
+                  <DimNameTypCd Sync="TRUE" value="002"/>
+               </dimName>
+               <dimSize Sync="TRUE">11094</dimSize>
+               <dimResol>
+                  <value Sync="TRUE">180</value>
+                  <uom>
+                     <UomLength>
+                        <uomName Sync="TRUE">Meter</uomName>
+                        <conversionToISOstandardUnit Sync="TRUE">1 Meter = 1 Meter(s)</conversionToISOstandardUnit>
+                     </UomLength>
+                  </uom>
+               </dimResol>
+            </Dimen>
+            <Dimen>
+               <dimName>
+                  <DimNameTypCd Sync="TRUE" value="001"/>
+               </dimName>
+               <dimSize Sync="TRUE">11358</dimSize>
+               <dimResol>
+                  <value Sync="TRUE">180</value>
+                  <uom>
+                     <UomLength>
+                        <uomName Sync="TRUE">Meter</uomName>
+                        <conversionToISOstandardUnit Sync="TRUE">1 Meter = 1 Meter(s)</conversionToISOstandardUnit>
+                     </UomLength>
+                  </uom>
+               </dimResol>
+            </Dimen>
+         </axDimProps>
+      </GridSpatRep>
+   </spatRepInfo>
+   <Esri>
+      <SyncDate>20080702</SyncDate>
+      <SyncTime>12015600</SyncTime>
+      <ModDate>20080702</ModDate>
+      <ModTime>12015600</ModTime>
+      <CreaDate>20040823</CreaDate>
+      <CreaTime>15104100</CreaTime>
+      <SyncOnce>FALSE</SyncOnce>
+      <MetaID>{02908CDF-E8AA-447B-8412-44CDF660AF6E}</MetaID>
+   </Esri>
+   <mdDateSt Sync="TRUE">20080702</mdDateSt>
+</metadata>

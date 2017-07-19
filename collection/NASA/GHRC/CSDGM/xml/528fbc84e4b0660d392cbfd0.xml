@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>James E. Hines</origin>
+            <pubdate>Unknown</pubdate>
+            <title>MSSURVIV- computes parameter estimates of survival/transition and capture probability under the multistate models described in ''Capture-recapture Studies for Multiple Strata including nonMarkovian Transition Probabilities'' </title>
+            <geoform>tools software</geoform>
+            <pubinfo>
+               <pubplace>Laurel, Maryland</pubplace>
+               <publish>U.S. Geological Survey, Biological Resources Division, Patuxent Wildlife Research Center</publish>
+            </pubinfo>
+            <onlink>http://www.mbr-pwrc.usgs.gov/software/</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>Program MSSURVIV (Multi-State-SURVIVal analysis) computes parameter estimates of survival/transition and capture probability under the multistate models described in ''Capture-recapture Studies for Multiple Strata including nonMarkovian Transition Probabilities'' (Brownie et. al., 1993).  Actually, MSSURVIV is a specially modified version of Dr. G. White's program SURVIV (White, 1983) which incorporates the multistate models. With this program and it's companion program, CNVMEMOV,  users are able to get parameter estimates for these complex models from capture history data without having to specify the cell probabilities.</abstract>
+         <purpose>MSSURVIV is intended to be used in a situation where one is interested in not only survival and capture probabilities, but also transition probabilities (the probability of moving from one stratum to another).  The strata may be defined as any discrete categories to which captured animals can be assigned at any given time.  For example, strata may be based on such factors as capture location or individual variables such as breeding status or weight class.  This situation may be thought of as a more general Jolly-Seber model where a matrix of survival/transition probabilities replaces a single survival rate and a vector of capture probabilities replaces a single capture probability.</purpose>
+         <supplinf>the information for this metadata was taken from http://www.mbr-pwrc.usgs.gov/software/doc/mssurviv.html.  (previous geoform was 'software')</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>Unknown</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <keywords>
+         <theme>
+            <themekt>none</themekt>
+            <themekey>survival/transition</themekey>
+            <themekey>parameter estimates</themekey>
+            <themekey>capture probability</themekey>
+         </theme>
+      </keywords>
+      <taxonomy>
+         <keywtax>
+            <taxonkt>none</taxonkt>
+            <taxonkey>animal</taxonkey>
+         </keywtax>
+         <taxoncl>
+            <taxonrn>Kingdom</taxonrn>
+            <taxonrv>Animal</taxonrv>
+         </taxoncl>
+      </taxonomy>
+      <accconst>none</accconst>
+      <useconst>none</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>James E. Hines</cntper>
+               <cntorg>U.S. Geological Survey, Biological Resources Division</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>11510 American Holly Dr. #201</address>
+               <city>Laurel</city>
+               <state>Maryland</state>
+               <postal>20708-4017</postal>
+            </cntaddr>
+            <cntvoice>301 497-5661</cntvoice>
+            <cntemail>Jim_Hines@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <crossref>
+         <citeinfo>
+            <origin>Hines, J.E.</origin>
+            <pubdate>1994</pubdate>
+            <title>MSSURVIV User's Manual.</title>
+            <geoform>online article</geoform>
+            <pubinfo>
+               <pubplace>Laurel, Maryland</pubplace>
+               <publish>U.S. Geological Survey, Biological Resources Division, Patuxent Wildlife Research Center</publish>
+            </pubinfo>
+         </citeinfo>
+      </crossref>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>Although MSSURVIV eliminates the need for specifying cell probabilities, the job of summarizing capture-history records and defining model structure can be very complicated and can lead to errors. Program CNVMEMOV was created to automate this process.  CNVMEMOV reads as input the capture-history records and produces all of the statements necessary to run program MSSURVIV under the "Markovian" or "memory" model sets described above.</attraccr>
+      </attracc>
+      <logic>not applicable</logic>
+      <complete>By default, three models are generated for either of these two model-sets.  The three models are analogous to Models "D", "B", and "A" produced by program JOLLY for standard Jolly-Seber analysis (Pollock et. al., 1990).  Model "D" computes estimates under the assumption that survival/transition probabilities and capture probabilities are constant over time.  Model "B" assumes survival/transition probabilities are constant over time, but capture probabilities are time-dependent.  Model "A" assumes both survival/transition and capture probabilities are time-dependent.  If necessary, users may examine these models to generate statements for their own models.</complete>
+      <lineage>
+         <method>
+            <methtype>Field</methtype>
+            <methodid>
+               <methkt>none</methkt>
+               <methkey>models</methkey>
+            </methodid>
+            <methdesc>The experimental situation to which this program applies is one in which animals are initially marked with a unique tag, and released.  This process is repeated for each of the sampling periods.  Information used to assign the animal to the proper stratum (eg. sex, weight, age, capture location, ...) is recorded for each capture of each animal. Using these data, the capture-history of each animal is generated consisting of codes indicating the status of the animal at each capture period.  For example, if an animal were captured in stratum A in time-period 1, not captured in periods 2 and 3, and captured in stratum B in time-period 4, the capture history would be: "A 0 0 B".  If the variable of interest is a continuous variable, cutpoints must be defined to break it into discrete strata (eg., weight -&gt; weight-class) before the capture-history records can be generated.</methdesc>
+         </method>
+         <procstep>
+            <procdesc>Output from MSSURVIV includes survival/movement probability estimates, capture probability estimates, goodness-of-fit tests, and likelihood-ratio tests.  Estimates may be computed under the "Markovian" models or the "Non-Markovian/memory" models.  The Markovian models assume that survival/transition probabilities of an animal depend on the stratum in which the animal is located at the beginning of the interval.  The parameters under these models would be a matrix of survival/transition probabilities and a vector of capture probabilities for each time-period.  Optionally, MSSURVIV may be instructed to decompose the combined survival/transition probabilities into separate survival and transition probabilities.  Non-Markovian models assume that survival/transition probabilities for the interval (i, i+1) depend not only on stratum at time i, but also on stratum at i-1.  These models produce much larger matrices of parameter estimates than Markovian models.</procdesc>
+            <procdate>Unknown</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntperp>
+               <cntper>James E. Hines</cntper>
+               <cntorg>U.S. Geological Survey, Biological Resources Division</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>11510 American Holly Dr. #201</address>
+               <city>Laurel</city>
+               <state>Maryland</state>
+               <postal>20708-4017</postal>
+            </cntaddr>
+            <cntvoice>301 497-5661</cntvoice>
+            <cntemail>Jim_Hines@usgs.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a U.S.. Geological Survey server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ZIP</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://www.mbr-pwrc.usgs.gov/software.html</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None if available online.</fees>
+         <ordering>The FTP server is located at ftp://pwrcftpr.er.usgs.gov/research. This should have no effect on downloading files. If you have trouble, please let the distributor know. The programs are stored as ""zip"" archives. Most of the zip files contain both the source code (usually FORTRAN) and IBM-PC compatible executable files. If you need an unzipping program, you can download a free Windows unzipper [PowerArc] or a free MSDOS unzipper [unzip.exe].</ordering>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20020329</metd>
+      <metfrd>20030329</metfrd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Cheryl Solomon</cntper>
+               <cntorg>Science Systems and Applications, Inc.</cntorg>
+            </cntperp>
+            <cntpos>Metadata specialist</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>10210 Greenbelt Road, Suite 500</address>
+               <city>Lanham</city>
+               <state>Maryland</state>
+               <postal>20706</postal>
+            </cntaddr>
+            <cntvoice>301 867-2080</cntvoice>
+            <cntfax>301-867-2149.</cntfax>
+            <cntemail>solomon@gcmd.nasa.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001.1-1999</metstdv>
+      <metac>none</metac>
+      <metuc>none</metuc>
+   </metainfo>
+</metadata>

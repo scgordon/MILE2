@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Sean M. Quigley</origin>
+            <pubdate>2003</pubdate>
+            <title>Ohio-drainage stream centerline coverage for use with Water Resources Investigations Report 03-4164</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+               <sername>Water-Resources Investigations Report</sername>
+               <issue>USGS WRIR 03-4164</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Columbus, Ohio</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?streamclp</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This vector coverage of hydrography centerlines was derived from
+the National Hydrography Dataset (NHD), and encompasses all of Ohio and portions of Indiana,
+Michigan, Kentucky, West Virginia, Pennsylvania, and New York. This coverage is comprised of
+105 Catalog Units (CUs) obtained from http://nhd.usgs.gov/. Each CU approximately represents
+a single 8-digit Hydrologic Unit Code (HUC).
+			</abstract>
+         <purpose>This coverage was used to determine parameters required to use regression equations
+presented by Koltun (2003). This dataset can be used to determine the location and extent
+of hydrography based solely on the centerlines of hydrographic features in Ohio and portions
+of Indiana, Michigan, Kentucky, West Virginia, Pennsylvania, and New York. Area and boundary
+features of lakes, ponds, etc., cannot be determined from this dataset. This dataset was
+created to derive data related to drainage density and main-channel length for selected basins
+inside and outside of Ohio. The scale of the dataset is 1:100,000 and should not be used with
+data at scales greater than this.
+
+Koltun, G.F., 2003, Techniques for Estimating Flood-Peak Discharges of
+Rural, Unregulated Streams in Ohio: U.S. Geological Survey Water-Resources
+Investigations Report 03-4164
+			</purpose>
+         <supplinf>The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely
+identifies the stream segments or reaches that comprise the nations surface water drainage system.
+More information is available at http://nhd.usgs.gov/.
+			</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>20010107</caldate>
+               <time>unknown</time>
+            </sngdate>
+         </timeinfo>
+         <current>ground condition</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>As required</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-85.45514928</westbc>
+            <eastbc>-79.44478482</eastbc>
+            <northbc>42.30393709</northbc>
+            <southbc>37.7339405</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>NONE</themekt>
+            <themekey>Hydrography</themekey>
+            <themekey>Centerlines</themekey>
+            <themekey>NHD</themekey>
+            <themekey>Streams</themekey>
+            <themekey>Vector</themekey>
+            <themekey>Drainage</themekey>
+            <themekey>inlandWaters</themekey>
+         </theme>
+         <place>
+            <placekt>NONE</placekt>
+            <placekey>Ohio</placekey>
+            <placekey>Indiana</placekey>
+            <placekey>Michigan</placekey>
+            <placekey>Kentucky</placekey>
+            <placekey>West Virginia</placekey>
+            <placekey>Pennsylvania</placekey>
+            <placekey>New York</placekey>
+         </place>
+      </keywords>
+      <accconst>NONE</accconst>
+      <useconst>This coverage is intended for use with regression equations given in
+Koltun (2003). Suitability for other uses has not been determined.
+		</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Sean M. Quigley</cntper>
+               <cntorg>United States Geological Survey, WRD</cntorg>
+            </cntperp>
+            <cntpos>Computer Information Specialist</cntpos>
+            <cntaddr>
+               <addrtype>physical address</addrtype>
+               <address>6480 Doubletree Avenue</address>
+               <city>Columbus</city>
+               <state>OH</state>
+               <postal>43229</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747</cntvoice>
+            <cntfax>614-430-7700</cntfax>
+            <cntemail>squigley@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800</native>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>The accuracy of the attributes of the Digital Line Graph data is estimated to be 98.5 percent. One or more of the following methods were used to test attribute accuracy: - manual comparison of the source with hardcopy plots. - symbolized display of the digital line graph on an interactive computer graphic system. - Selected attributes that could not be visually verified on plots or on screen were interactively queried and verified on screen. In addition, software validated feature types and characteristics against a master set of types and characteristics, checked that combinations of types and characteristics were valid, and that types and characteristics were valid for the delineation of the feature. Feature types, characteristics, and other attributes conform to the Standards for National Hydrography Dataset (USGS, 1999) as of the date they were loaded into the database. All names on reaches were validated against a March 1999 extract from the Geographic Names Information System.</attraccr>
+         <qattracc>
+            <attraccv>98.5</attraccv>
+            <attracce>The accuracy of the attributes of the DLG data is estimated to be 98.5 percent.</attracce>
+         </qattracc>
+      </attracc>
+      <logic>Arc-Node topology is present. Points, nodes, lines, and areas conform to topological rules.</logic>
+      <complete>This dataset was derived from the ROUTE.RCH coverage created from the Append_nhd AML. No other information or coverages from the NHD workspaces were used.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>The accuracy of the attributes of the Digital Line Graph data is estimated to be
+98.5 percent.
+				</horizpar>
+         </horizpa>
+         <vertacc>
+            <vertaccr>Not Applicable</vertaccr>
+         </vertacc>
+      </posacc>
+      <lineage>
+         <procstep>
+            <procdesc>Identified and downloaded 104 CUs from the National Hydrography Dataset web server at: http://edcw2ks56.cr.usgs.gov/Website/nhdserver/viewer.htm.</procdesc>
+            <procdate>20020304</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey, WRD</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>All 104 CU workspaces were appended into a single Arc Info workspace using the Append_nhd211 AML obtained from http://nhd.usgs.gov/tools.html.</procdesc>
+            <procdate>20020306</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey, WRD</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Single coverage of 104 CUs was opened in Arc View for verification, and to derive centerline data with correct attribute information. The Route.rch coverage containing centerlines and appropriate attribute information was converted to a shapefile named STREAMS. Shapefile STREAMS was then converted back to an Arc Info coverage named STREAMS using the SHAPEARC command.</procdesc>
+            <procdate>20020306</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey, WRD</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Coverage STREAMS was clipped against a polygon coverage representing the study area. The resulting coverage was named STREAMS2. The resulting coverage was then projected to the desired projection using the following procedure:
+
+Project: input
+Project: projection geographic
+Project: units dd
+Project: datum nad83
+Project: parameters
+Project: output
+Project: projection utm
+Project: units meters
+Project: zone 17
+Project: datum nad83
+Project: parameters
+Project: end
+
+The resulting coverage was named STREAMCLP
+				</procdesc>
+            <procdate>20020306</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey, WRD</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Identified  a CU (02050201) that was required but was not originally one of the 104 obtained from the NHD web server. This missing CU was downloaded and all of the above process steps were re-executed for al 105 CUs.</procdesc>
+            <procdate>20020901</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Sean M. Quigley</cntper>
+                     <cntorg>United States Geological Survey, WRD</cntorg>
+                  </cntperp>
+                  <cntpos>Computer Information Specialist</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>6480 Doubletree Avenue</address>
+                     <city>Columbus</city>
+                     <state>OH</state>
+                     <postal>43229</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-888-275-8747</cntvoice>
+                  <cntfax>(614) 430-7700</cntfax>
+                  <cntemail>squigley@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Metadata imported.</procdesc>
+            <srcused>C:\DOCUME~1\squigley\LOCALS~1\Temp\xml6.tmp</srcused>
+            <procdate>20030507</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Appended CU 05030104 that was originally missing from the dataset. This was done using the same process described above. Clipped the resulting coverage with a redefined study area boundary.</procdesc>
+            <procdate>20030507</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>String</sdtstype>
+            <ptvctcnt>65008</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>GT-polygon composed of chains</sdtstype>
+            <ptvctcnt>1119</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <gridsys>
+               <gridsysn>Universal Transverse Mercator</gridsysn>
+               <utm>
+                  <utmzone>17</utmzone>
+                  <transmer>
+                     <sfctrmer>0.999600</sfctrmer>
+                     <longcm>-81.000000</longcm>
+                     <latprjo>0.000000</latprjo>
+                     <feast>500000.000000</feast>
+                     <fnorth>0.000000</fnorth>
+                  </transmer>
+               </utm>
+            </gridsys>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>0.000239</absres>
+                  <ordres>0.000239</ordres>
+               </coordrep>
+               <plandu>meters</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>North American Datum of 1983</horizdn>
+            <ellips>GRS1980</ellips>
+            <semiaxis>6378137.0</semiaxis>
+            <denflat>298.257</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>streamclp.aat</enttypl>
+            <enttypd>Arc Attribute Table</enttypd>
+            <enttypds>ESRI ARC/INFO 8.0.2</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>FID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+            <attrvai>
+               <attrva>98.5</attrva>
+               <attrvae>The accuracy of the attributes of the DLG is estimated to be 98.5 percent</attrvae>
+            </attrvai>
+            <attrmfrq>Unknown</attrmfrq>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+            <attrvai>
+               <attrva>98.5</attrva>
+               <attrvae>The accuracy of the attributes of the DLG is estimated to be 98.5 percent</attrvae>
+            </attrvai>
+            <attrmfrq>Unknown</attrmfrq>
+         </attr>
+         <attr>
+            <attrlabl>LENGTH</attrlabl>
+            <attrdef>Length of feature in internal units.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+            <attrvai>
+               <attrva>98.5</attrva>
+               <attrvae>The accuracy of the attributes of the DLG is estimated to be 98.5 percent</attrvae>
+            </attrvai>
+            <attrmfrq>Unknown</attrmfrq>
+         </attr>
+         <attr>
+            <attrlabl>STREAMCLP#</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>variable Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+            <attrvai>
+               <attrva>98.5</attrva>
+               <attrvae>The accuracy of the attributes of the DLG is estimated to be 98.5 percent</attrvae>
+            </attrvai>
+            <attrmfrq>Unknown</attrmfrq>
+         </attr>
+         <attr>
+            <attrlabl>STREAMCLP-ID</attrlabl>
+            <attrdef>User-defined feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>variable</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LEVEL</attrlabl>
+            <attrdef>Numeric code that identifies each main path of water flow through a drainage network.</attrdef>
+            <attrdefs>The National Hydrography Dataset: Concepts and Contents. Feb. 2000</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>1</edomv>
+                  <edomvd>Drainage terminates in the ocean or a Great Lake</edomvd>
+                  <edomvds>The National Hydrography Dataset: Concepts and Contents. Feb. 2002</edomvds>
+               </edom>
+               <edom>
+                  <edomv>2</edomv>
+                  <edomvd>Drainage terminates in a level 1 water body</edomvd>
+                  <edomvds>The National Hydrography Dataset: Concepts and Contents. Feb. 2002</edomvds>
+               </edom>
+               <edom>
+                  <edomv>3</edomv>
+                  <edomvd>Drainage terminates in a level 2 water body</edomvd>
+                  <edomvds>The National Hydrography Dataset: Concepts and Contents. Feb. 2002</edomvds>
+               </edom>
+               <edom>
+                  <edomv>4</edomv>
+                  <edomvd>Drainage terminates in a level 3 water body</edomvd>
+                  <edomvds>The National Hydrography Dataset: Concepts and Contents. Feb. 2002</edomvds>
+               </edom>
+               <edom>
+                  <edomv>5</edomv>
+                  <edomvd>Drainage terminates in a level 4 water body</edomvd>
+                  <edomvds>The National Hydrography Dataset: Concepts and Contents. Feb. 2002</edomvds>
+               </edom>
+               <edom>
+                  <edomv>6</edomv>
+                  <edomvd>Drainage terminates in a level 5 water body</edomvd>
+                  <edomvds>The National Hydrography Dataset: Concepts and Contents. Feb. 2002</edomvds>
+               </edom>
+               <edom>
+                  <edomv>7</edomv>
+                  <edomvd>Drainage terminates in a level 6 water body</edomvd>
+                  <edomvds>The National Hydrography Dataset: Concepts and Contents. Feb. 2002</edomvds>
+               </edom>
+            </attrdomv>
+            <attrvai>
+               <attrva>98.5</attrva>
+               <attrvae>The accuracy of the attributes of the DLG is estimated to be 98.5 percent</attrvae>
+            </attrvai>
+         </attr>
+         <attr>
+            <attrlabl>NAME</attrlabl>
+            <attrdef>The GNIS name for a given reach.</attrdef>
+            <attrdefs>U.S. Department of the Interior. U.S. Geological Survey. Standards for National Hydrography Dataset. Jul. 1999</attrdefs>
+            <attrdomv>
+               <udom>variable</udom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <overview>
+         <eaover>The stream level is a numeric code that identifies each main path of water flow through a drainage network. It is the only attribute (besides arc length and presence of nodes) pertinent to the purpose of this dataset. The lowest value for stream level is assigned to a transport reach at the end of a flow and to upstream transport reaches that trace the main path of flow back to the head. The stream level value is incremented by one and is assigned to all transport reaches that terminate at this path.</eaover>
+         <eadetcit>U.S. Department of the Interior. U.S. Geological Survey. The National Hydrography Dataset: Concepts and Contents. February 2000</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS - Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+streamclp</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Export</formname>
+               <formcont>Full coverage</formcont>
+               <filedec>zipped</filedec>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/streamclp.e00.gz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>SDTS</formname>
+               <formcont>Full coverage</formcont>
+               <filedec>zipped</filedec>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/streamclp.sdts.tar.gz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. This dataset is provided by USGS as a public service.</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20041108</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+streamclp</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>
