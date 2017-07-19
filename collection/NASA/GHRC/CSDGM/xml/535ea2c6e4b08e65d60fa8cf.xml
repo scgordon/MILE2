@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Johnson, Adam G., U.S. Geological Survey</origin>
+            <pubdate>20140201</pubdate>
+            <title>Land Use for the Island of Maui, Hawaii, circa 2010</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+               <pubplace> Reston, Virginia</pubplace>
+               <publish> U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?maui_land_use_circa_2010</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This dataset is a map of land use and vegetation for the Island of Maui, Hawaii, circa 2010. This dataset is a modified version of the U.S. Geological Survey LANDFIRE Existing Vegetation Type map (LANDFIRE.HI_110EVT, Refresh 2008) for the Island of Maui, Hawaii. The LANDFIRE Existing Vegetation Type map was modified to create this map of land use and vegetation for use in a water-budget model. Modifications included converting the LANDFIRE Existing Vegetation Type map from a raster to a shapefile format, assigning land-use names, and adding golf-course and crop boundaries.</abstract>
+         <purpose>This dataset was developed for use in a water-budget model that computes groundwater recharge, fog drip, irrigation, evapotranspiration, and runoff.</purpose>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>20080101</begdate>
+               <enddate>20101231</enddate>
+            </rngdates>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-156.702822</westbc>
+            <eastbc>-155.970161</eastbc>
+            <northbc>21.033181</northbc>
+            <southbc>20.567470</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>inlandWaters</themekey>
+            <themekey>Land Use</themekey>
+            <themekey>Land Cover</themekey>
+            <themekey>Vegetation</themekey>
+            <themekey>Maui</themekey>
+            <themekey>Hawaii</themekey>
+            <themekey>Water Budget</themekey>
+            <themekey>USGS</themekey>
+            <themekey>LF_1.1.0</themekey>
+            <themekey>LANDFIRE</themekey>
+         </theme>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>This digital publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, make any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data published in this Data Series have been used by the USGS, no warranty, expressed or implied, is made by the U.S. Geological Survey as to the accuracy of the data and related materials and/or the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of this data, software, or related materials. Graphical map depictions are intended to be used within the map scale limits applicable to the source data. Although software enables the user to view data at various scales, the user is cautioned to refer to the source documentation for the appropriate map scale limitations.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+               <cntper>Adam Johnson</cntper>
+            </cntorgp>
+            <cntpos>Hydrologist</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>Pacific Islands Water Science Center</address>
+               <address>Gold Bond Building</address>
+               <address>677 Ala Moana Blvd. Suite 415</address>
+               <city>Honolulu</city>
+               <state>Hawaii</state>
+               <postal>96813-5415</postal>
+               <country>US</country>
+            </cntaddr>
+            <cntvoice>808-587-2421</cntvoice>
+            <cntfax/>
+            <cntemail>ajohnson@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <browse>
+         <browsen>http://water.usgs.gov/GIS/browse/maui_land_use_circa_2010.png</browsen>
+         <browsed>Graphic representation of the data set</browsed>
+         <browset>jpg</browset>
+      </browse>
+      <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</native>
+   </idinfo>
+   <dataqual>
+      <logic>No gaps or overlaps were found in this shapefile</logic>
+      <complete>All fields for all features are attributed.</complete>
+      <lineage>
+         <procstep>
+            <procdesc>Convert LANDFIRE Existing Vegetation Type map from a raster to a polygon shapefile.</procdesc>
+            <procdate>20131023</procdate>
+            <proctime>070000</proctime>
+         </procstep>
+         <procstep>
+            <procdesc>Project coordinate system from NAD 1983 Albers to NAD 1983 UTM Zone 4N.</procdesc>
+            <procdate>20131023</procdate>
+            <proctime>080000</proctime>
+         </procstep>
+         <procstep>
+            <procdesc>Merge each polygon that has an area less than 3,600 square meters, other than those with an "Open Water" land-use name, with an adjacent polygon that has an area of at least 3,600 square meters. Retain all "Open Water" polygons, regardless of shape or area, in the new map. The ArcGIS "Eliminate Tool" was used for this process step.</procdesc>
+            <procdate>20131023</procdate>
+            <proctime>090000</proctime>
+         </procstep>
+         <procstep>
+            <procdesc>Create two new feature attributes "NAME_2010" and "ilu2010" and assign their values for each polygon. "NAME_2010" contains the land-use name assigned to each polygon. Most polygons were assigned land-use names on the basis of the LANDFIRE Existing Vegetation System Group Identification attribute values (SYTMGRPNA). All remaining polygons were assigned land-use names on the basis of crop types. "ilu2010" contains the identification number assigned to each land-use name.</procdesc>
+            <procdate>20131023</procdate>
+            <proctime>100000</proctime>
+         </procstep>
+         <procstep>
+            <procdesc>Digitize boundaries of golf courses, and fields of sugarcane, pineapple, coffee, and taro. Also digitize boundaries of diversified-agriculture fields within the Kula Agricultural Park. Fields of diversified agriculture within the Kula Agricultural Park, golf courses, pineapple, coffee, and taro were digitized using 2010-2013 satellite imagery and 2007 orthoimagery. Fields of sugarcane were digitized using a plantation-divisions map, dated July 2008, that was provided by Hawaiian Commercial and Sugar Company. Assign the following land-use name values and identification numbers (NAME_2010, ilu1010): (Sugarcane, 1); (Pineapple, 2); (Coffee, 3); (Diversified Agriculture, 4); and (Golf course, 24).</procdesc>
+            <procdate>20131023</procdate>
+            <proctime>120000</proctime>
+         </procstep>
+         <procstep>
+            <procdesc>Redefine land-use names (NAME_2010) of polygons with a LANDFIRE System Group name (SYTMGRPNA) of "Agriculture-Cultivated Crops and Irrigated Agriculture", hereafter referred to as "agriculture polygons". Agriculture polygons on the east slope of West Maui Mountain with groves of trees were redefined as "Macadamia".  Agriculture polygons in the LANDFIRE map that are adjacent to but not within the fields of sugarcane, pineapple, coffee, or taro were assigned a land-use name (NAME_2010) of "Grassland", "Developed, Low-intensity", or "Developed, Open space" on the basis of the land use for nearby polygons. Agriculture polygons that appeared in the imagery as being uncultivated and covered by grass were redefined as "Fallow/grassland". All remaining agriculture polygons that appeared in the imagery as being actively cultivated were redefined as "Diversified Agriculture". </procdesc>
+            <procdate>20131024</procdate>
+            <proctime>150000</proctime>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>GT-polygon composed of chains</sdtstype>
+            <ptvctcnt>29685</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <mapprojn>NAD 1983 UTM Zone 4N</mapprojn>
+               <transmer>
+                  <sfctrmer>0.9996</sfctrmer>
+                  <longcm>-159.0</longcm>
+                  <latprjo>0.0</latprjo>
+                  <feast>500000.0</feast>
+                  <fnorth>0.0</fnorth>
+               </transmer>
+            </mapproj>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>0.000000002220024164500956</absres>
+                  <ordres>0.000000002220024164500956</ordres>
+               </coordrep>
+               <plandu>meter</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>D North American 1983</horizdn>
+            <ellips>GRS 1980</ellips>
+            <semiaxis>6378137.0</semiaxis>
+            <denflat>298.257222101</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>maui_land_use_circa_2010_updated</enttypl>
+            <enttypd>NONE</enttypd>
+            <enttypds>NONE</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>FID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>Esri</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>Esri</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ilu2010</attrlabl>
+            <attrdef>Identification number of land-use name.</attrdef>
+            <attrdefs>Originator</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>1</edomv>
+                  <edomvd>Sugarcane</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>2</edomv>
+                  <edomvd>Pineapple</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>3</edomv>
+                  <edomvd>Coffee</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>4</edomv>
+                  <edomvd>Diversified Agriculture</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>5</edomv>
+                  <edomvd>Macadamia</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>6</edomv>
+                  <edomvd>Fallow/grassland</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>7</edomv>
+                  <edomvd>Developed, Open Space</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>8</edomv>
+                  <edomvd>Developed, Low-Intensity</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>9</edomv>
+                  <edomvd>Developed, Medium-Intensity</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>10</edomv>
+                  <edomvd>Developed, High-Intensity</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>11</edomv>
+                  <edomvd>Water body</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>12</edomv>
+                  <edomvd>Wetland</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>13</edomv>
+                  <edomvd>Sparsely vegetated</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>14</edomv>
+                  <edomvd>Grassland</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>15</edomv>
+                  <edomvd>Shrubland</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>16</edomv>
+                  <edomvd>Native forest</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>17</edomv>
+                  <edomvd>Alien forest</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>18</edomv>
+                  <edomvd>Tree plantation</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>19</edomv>
+                  <edomvd>Reservoir</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>24</edomv>
+                  <edomvd>Golf course</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+               <edom>
+                  <edomv>25</edomv>
+                  <edomvd>Taro</edomvd>
+                  <edomvds>U.S. Geological Survey</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NAME_2010</attrlabl>
+            <attrdef>Name of dominant land use or vegetation.</attrdef>
+            <attrdefs>U.S. Geological Survey</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Sugarcane</edomv>
+                  <edomvd>Digitized sugarcane fields</edomvd>
+                  <edomvds>Map of Hawaiian Commercial and Sugar Company's sugarcane fields.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Pineapple</edomv>
+                  <edomvd>Digitized pineapple fields.</edomvd>
+                  <edomvds>Digitized from 2010-13 satellite imagery and 2007 orthoimagery.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Coffee</edomv>
+                  <edomvd>Digitized coffee fields.</edomvd>
+                  <edomvds>2010-13 satellite imagery and 2007 orthoimagery.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Diversified agriculture</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Agriculture-Cultivated Crops and Irrigated Agriculture" that (1) appear in imagery as being actively cultivated, and (2) are not sugarcane, pineapple, coffee, macadamia, or taro. Also includes diversified agriculture fields within the Kula Agricultural Park that were digitized and some fields near Hawaiian Commercial and Sugarcane Company's fields.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008), 2010-13 satellite imagery, and 2007 orthoimagery.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Macadamia</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Agriculture-Cultivated Crops and Irrigated Agriculture" that appear in imagery as being macadamia trees.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008), 2010-13 satellite imagery, and land-use maps within U.S. Geological Survey Scientific Investigations Report 2007-5103</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Fallow/grassland</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Agriculture-Cultivated Crops and Irrigated Agriculture" that appear in imagery as being abandoned and covered by grass.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008) and 2010-13 satellite imagery</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Developed, Open Space</edomv>
+                  <edomvd>Consists of (1) polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Developed, Open Space", and (2) some polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Agriculture-Cultivated Crops and Irrigated Agriculture" that are adjacent to but not within digitized fields of sugarcane, pineapple, or coffee. Includes areas that are a mixture of mostly vegetation in the form of lawn grasses and some constructed materials. Impervious surfaces account for less than 20 percent of total cover.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Developed, Low-Intensity</edomv>
+                  <edomvd>Consists of (1) polygons with LANDFIRE System Group (SYSTMGRPNA) value of "Developed, Low-Intensity", and (2) some polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Agriculture-Cultivated Crops and Irrigated Agriculture" that are adjacent to but not within digitized fields of sugarcane, pineapple, or coffee. Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 20-49 percent of total cover.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Developed, Medium-Intensity</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Developed, Medium-Intensity". Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50-79 percent of the total cover.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Developed, High-Intensity</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Developed, High-Intensity". Includes highly developed areas where people reside or work in high numbers. Impervious surfaces account for 80-100 percent of total cover.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Water body</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Open Water", excluding reservoirs.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Wetland</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Inland Marshes and Prairies".</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Sparsely vegetated</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Barren".</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Grassland</edomv>
+                  <edomvd>Includes polygons with a LANDFIRE System Group (SYSTMGRPNA) value of “Hawaiian Dry Grassland”, “Hawaiian Mesic Grassland", or “Introduced Perennial Grassland and Forbland”. Also includes some polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Agriculture-Cultivated Crops and Irrigated Agriculture" that are adjacent to but not within digitized fields of sugarcane, pineapple, coffee, and taro.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Shrubland</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of either “Hawaiian Dry Shrubland”, “Hawaiian Mesic Shrubland”, or “Introduced Upland Vegetation – Shrub”.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Native forest</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of either “Hawaiian Dry Forest”, “Hawaiian Mesic Forest”, or “Hawaiian Rainforest”.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Alien forest</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of “Introduced Upland Vegetation – Treed”.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Tree Plantation</edomv>
+                  <edomvd>Polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Hawaiian Managed Tree Plantation".</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008)</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Reservoir</edomv>
+                  <edomvd>Polygons that are reservoirs. Includes some polygons with a LANDFIRE System Group (SYSTMGRPNA) value of "Open Water", and some reservoirs near sugarcane fields that were digitized.</edomvd>
+                  <edomvds>LANDFIRE Existing Vegetation Type Map (Refresh 2008), 2010-13 satellite imagery, and 2007 orthoimagery.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Golf course</edomv>
+                  <edomvd>Digitized golf courses.</edomvd>
+                  <edomvds>2010-13 satellite imagery and 2007 orthoimagery.</edomvds>
+               </edom>
+               <edom>
+                  <edomv>Taro</edomv>
+                  <edomvd>Digitized taro fields.</edomvd>
+                  <edomvds>2010-13 satellite imagery, 2007 orthoimagery, and U.S. Geological Survey Open-File Report 2007-1157.</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS – Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://water.usgs.gov/user_feedback_form.html</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although this data set has been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of this data, software, or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Shapefile</formname>
+               <formvern>Not specified</formvern>
+               <formcont>Full coverage</formcont>
+               <filedec>zipped</filedec>
+               <transize>14.740 mb</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/maui_land_use_circa_2010.zip</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>This dataset is provided by USGS as a public service.</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20140212</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS - Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+maui_land_use_circa_2010</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

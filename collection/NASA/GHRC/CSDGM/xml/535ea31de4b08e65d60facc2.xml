@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.fgdc.gov/metadata/csdgm"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Price, Curtis</origin>
+            <origin>Clawges, Rick</origin>
+            <pubdate>1999</pubdate>
+            <title>Digital data sets describing population density in the conterminous US</title>
+            <edition>1.0</edition>
+            <geoform>map</geoform>
+            <serinfo>
+               <sername>Open-File Report</sername>
+               <issue>99-78</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Reston, VA</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?ofr99-78_popdeng</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>Grid of population density in the conterminous United States at a
+resolution of one kilometer. The grid was converted from an
+ASCII file obtained from the Consortium for International
+Earth Science Information Network (CIESIN).
+			</abstract>
+         <purpose>Large scale representation of population distribution in the
+conterminous United  States.  This data set was converted for
+use in the analysis of ground-water quality data on volatile
+organic compounds (VOCs) by the U.S. Geological Survey
+(USGS) National Water-Quality Assessment Program (NAWQA) VOC
+National Synthesis Team.
+			</purpose>
+         <supplinf>PROCEDURES USED
+
+The data from which the population density grid was created
+was retrieved in ASCII format from data released by the
+Consortium for International Earth Science Information Network
+(CIESIN) (1995) and a FORTRAN program was used to convert it
+into a format that could be read into an ARC/INFO grid data
+set. The data was then projected from its original projection
+to an Albers projection using nearest-neighbor
+resampling. Detailed processing steps are included in this
+metadata file.
+The following documentation file also was released
+by CIESIN and is included here.
+
+&gt;
+&gt;
+&gt;******************** BEGIN CIESIN README FILE ********************
+
+&gt;
+&gt; The Socioeconomic Data and Applications Center (SEDAC)
+&gt;
+&gt;         INTEGRATED DATASETS FOR THE USA
+&gt;                 June 27 1995
+&gt;
+&gt;---------------------------------------------------------
+GENERAL
+
+The primary mission of The Socioeconomic Data and Applications Center
+(SEDAC), at the Consortium for International Earth Science Information
+Network (CIESIN), is to develop new policy oriented applications and
+information products that synthesize earth science and socioeconomic
+data. The SEDAC policy applications development effort is the primary
+means by which the Earth Observing System Data and Information System
+(EOSDIS) program helps to ensure that the scientific investment embodied
+in NASA's Mission to Planet Earth (MTPE) program leads to tangible
+benefits.
+
+Within this framework, the "Population, Land Use and Emissions" Task
+(PLUE) embarked on integrating data from different sources.
+Specifically, data from the US decennial census (1990) and recent
+satelite data were integrated. In the initial attempt, the focus is on
+transforming census vector based data to satelite pixel based data.
+&gt;From the US census data Total Persons and Total Housing Unit Structures
+were the selected data items (from the blockgroup geography) to be
+merged with the Land Cover Characteristics database (square kilometer
+resolution) for the conterminous United States from the EROS Data
+Center.  This land cover was derived from Advanced Very High Resolution
+Radiometer (AVHRR) 1990 multitemporal satelite data.
+
+LOCATION
+
+The US census blockgroup boundary information are present on a publicly
+accessible FTP archive: The Archive of Census Related Products. To
+access this Archive connect to
+
+&gt;    ftp ftp.ciesin.org &lt;160.39.8.201&gt;
+&gt;      user &lt;log in as anonymous or ftp&gt;
+&gt;      password &lt;enter email address&gt;
+&gt;      cd /pub/census
+
+Please read the file "archive.ann" and "archive2.ann" for a detailed
+description of this Archive which contains 11,000+ densely compressed
+boundary and demographic data files. The census blockgroup boundary
+files are located, by state, in /pub/census/usa/tiger.
+
+The Archive may also be reached via WWW at the URL
+
+http://www.ciesin.org/datasets/us-demog/us-demog-home.html
+
+The integrated data products are posted as generic compressed ascii files
+in the location in
+
+ftp://ftp.ciesin.org/pub/census/usa/grid
+
+The data files, their structure and creation, are described in further
+detail below. A series of graphic (GIF) files provide for a quick
+glance at the data products. In the near future, this information will
+be accessible via The Interactive System for Analysis Services (ISAS), a
+suite of query engines for WWW browsers.
+
+LAYOUT
+
+For each state, US census data and EROS Land Cover data have been
+integrated, meaning both datasets are reported at the square kilometer
+resolution for the conterminous USA. Support files include:
+
+&gt;      gridlgd.txt    legend  &amp; variable/file descriptions
+&gt;      griddoc.txt    [this file]
+&gt;      gridbox.txt    bounding boxes for the states
+&gt;     gridcomb.sas    file for data processing and image creation
+
+CREATION
+
+The integrated data were created using in-house developed algorithms written
+in C. A proportional allocation algorithm was applied. The individual steps
+of data processing are described next.
+
+a) The census blockgroups, derived from the US Bureau of the Census
+Topologically Integrated Geographic Encoding and Referencing database
+(TIGER/Line 1992), were first projected from their latitude-longitude
+source to the projection used in the Land Cover Charateristics database.
+This coordinate system is the oblique Lamberts Azimuthal Equal Area
+LAZEA) projection with an origin of -100 longitude and +45 latitude.
+The exact equations applied to tranform TIGER92 to this projection were:
+
+&gt;X=Rkcos(lat)sin(long-long_origin)
+&gt;Y=Rk[cos(lat_origin)sin(lat)-sin(lat_origin)cos(lat)cos(long-long_origin)]
+&gt;
+&gt;k={2/[1+sin(lat_origin)sin(lat)+
+&gt;  cos(lat_origin)cos(lat)cos(long-long_origin)]}**1/2
+
+R is radius of sphere (by default 6,370,997 meters)
+
+[from: Map Projections-A Working Manual by John P. Snyder, USGS 1987].
+
+b) Once the boundaries are in LAZEA format, the selected data items from
+the census were merged into these files and submitted to a suite of
+programs.
+
+c) Proportional allocation. By state, each census blockgroup's bounding
+box is first determined in the LAZEA X-Y system. Next the area of
+overlap for each pixel (km2 grid) is determined. The sum of all
+overlapping areas is assigned as the total area of the polygon. Next,
+the data items, typically count type data (such as number of persons or
+buildings), are distributed across the intersecting grids based on the
+fraction of grid-overlapping-area over total-polygon-area. These steps
+are repeated for all polygons within each state and the values are
+accumulated in memory for each grid. (A check calculation is performed
+by adding all grid values for the polygon in question and verifying that
+the actual value does sum to the original total). In a final step, the
+accumulated total within each LAZEA X-Y grid are divided by the area of
+the grid itself to arrive at density measures (in our example, each grid
+is 1 kilometer by 1 kilometer, but this value may be changed).
+
+d) To make the data available in a generic way, the saved binary output
+files, one for each state, are accessed and the data dumped out in a
+generic image format. The structure of these files (the ??_int.zip files
+in ftp://ftp.ciesin.org/pub/census/usa/grid/pall) is as follows:
+&gt;
+&gt;2781 3475 1862 2569          xmin xmax ymin ymax
+&gt;1.000000 1.000000            xsize ysize
+&gt;0.000000 0.000000 0          pdkm hdkm lckm
+&gt;0.000000 0.000000 0          pdkm hdkm lckm
+&gt;1.105958 4.150659 91         pdkm hdkm lckm
+&gt;0.736277 3.411086 136        pdkm hdkm lckm
+&gt;...                          ...
+
+Records are shown for each grid inside the state's bounding box. The
+size of the image (bounding box) is determined by the points (xmin,ymin)
+for lower left and (xmax,ymax) for top right. The table size is
+rows=ymax-ymin by cols=xmax-xmin. The grid size is, in kilometers,
+reported on record 2. The sequence of the records reported from line 3
+till end of file begin at (xmin,ymax) on row=1, col=1. Sequentially,
+all grid values are reported for row=1 until the end of row=1 is
+encountered (cols) before the row iterates and reporting starts at
+(row=2,col=1).
+
+These ascii files are then zipped with a CR-LF added to the end of each
+record (unix users use the unzip -a option replacng CR-LF with a LF).
+See the file "gridcomb.sas" for more detail.
+
+The file "gridbox.txt" summarizes all the bounding boxes for all states.
+
+e) When accessing multiple states, boundary conditions need to be
+corrected.  For example, the state boundary line between two states
+could split a single grid. So the grid in question will get data
+allocated to it by both states . When splicing multiple states together
+these duplicate records need to be collapsed into one record.
+
+For the users this has been done for regions of the US (See the directory
+/pub/census/usa/grid/pall/us). The abbreviations used are:
+
+&gt;      Regional Area                States
+&gt;      ------------------------     --------------------------
+&gt;      NE    NorthEast              me nh vt ma ct ri ny pa nj
+&gt;      SA    South Atlantic         dc de md wv va nc sc ga fl
+&gt;      ESA   East South Atlantic    ky tn al ms
+&gt;      WSA   West South Atlantic    ar la ok tx
+&gt;      ENC   East North Central     mi wi il in oh
+&gt;      WNC   West North Central     mn ia mo nd sd ne ks
+&gt;      NWM   North West Mountain    mt wy id
+&gt;      SWM   South West Mountain    ut az co nm
+&gt;      PAC   Pacific                wa or ca nv
+
+From these files a USgrid.asc file will be put together for the whole US.
+More information on this file and a program to extract, based on any 2
+points defining a rectangle, will be added into this file soon.
+
+These &lt;REGION&gt;grid.asc files have yet another file structure simplifying
+spatial retrievals based LAZEA X-Y. The layout looks like:
+
+&gt;3556 1559 42.638058 16.016323 47   lazea-X lazea-Y pdkm hdkm lckm
+&gt;3557 1559 5.12569 1.939586 47      lazea-X lazea-Y pdkm hdkm lckm
+&gt;3336 1558 1.402889 0.5097 52       lazea-X lazea-Y pdkm hdkm lckm
+&gt;...
+
+The file "gridbox.txt" can be used in conjunctions with these X,Y
+coordinates for spatial referencing. The "USgrid.asc" file
+created solves the boundary problems between regions. Consult
+the file "us/us-dist.txt" for simple stats on these files.
+
+PROBLEMS
+
+These files currently contain two problems which have been identified.
+Future releases will correct for these errors or approach the problem
+differently. In addition, in the future we will add more census and land
+cover varibales as well as emissions data.
+
+1. Water areas receiving data in allocation program. First, this is
+explained by those grids on the shorelines. Part of the grid is water,
+part of the grid is land. The proportional allocation algorithm thus
+allocates census data to the grids for which there is partial water. The
+definition of the grid being water or land should be incorporated into
+the algorithm to fix this. The other problem in this area is those
+census blockgroups who consists of a large portion of water area and a
+tiny land area with significant population (see the Saginaw Bay area of
+Lake Huron). To avoid this problem, census blocks should be used which
+are either land or water, not a mixture of the two.
+
+2. An oddity was discovered when examining the District of Columbia. In
+this area certain pixels receive data values that absolutely have no
+coverage with any of the polygons in the census blockgroup layer. We are
+currently investigating this problem and its effect on the integrated
+data layers.
+
+3. A peculiarity. Certain areas of the census blockgroup coverage are
+missing because we were unable to "chain" the particular polygon. In
+other instances, large geographic areas might not contain persons in it.
+In both cases the density values assinged to the grid are 0. When
+integrating with the Land Cover grids, the with 0 density were missed
+when integrating the grid data. There does exist a Land Cover
+Characterization Code for these grids and their density values are zero.
+A peculiarity we did not catch in time when processing.
+
+4. One LCKM values in the Northwest was assigned a nonsense value over
+the maximum possible of 159. Please delete this value.
+
+NOTE: Please note that the term "land use" is used loosely. Land cover
+is a better definition. The housing unit structures density is the only
+measure of urban activity in these data so far. Similarly, emissions
+data is at the current time lacking from the design.
+
+&gt;---------------------------------------------------------------------------
+Email comments/ideas/suggestions and bug reports to ciesin.info@ciesin.org
+
+Phone them in at: 517.797.2727
+
+&gt;********************* END CIESIN README FILE *********************
+&gt;
+&gt;
+
+REVIEWS APPLIED TO DATA
+
+This electronic report was subjected to the same review
+standard that applies to all U.S. Geological Survey
+reports. Reviewers were asked to check the topological
+consistency, tolerances, attribute frequencies and statistics,
+projection, and geographic extent. The reviewers checked the
+metadata and a_readme.1st files for completeness and accuracy.
+REFERENCES
+
+Consortium for International Earth Science Information Network (CIESIN),
+1995, Socioeconomic Data and Applications Center (SEDAC),
+Archive of Census Related Products: CIESIN/SEDAC,
+accessed July 21, 1998 at URL http://sedac.ciesin.org/plue/cenguide.html
+
+Environmental Systems Research Institute, Inc. (ESRI), 1997,
+ARC/INFO 7.1.1 Help, Redlands, Calif., [on-line documentation].
+
+NOTES
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the
+U.S. Government.
+
+Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed
+or implied is made by the U.S. Geological Survey as to the
+accuracy of the data and related materials.
+
+The act of distribution shall not constitute any such
+warranty, and no responsibility is assumed by the
+U.S. Geological Survey in the use of this data, software, or
+related materials.
+
+Although this Federal Geographic Data Committee-compliant
+metadata file is intended to document the data set in
+nonproprietary form, as well as in ARC/INFO format, this
+metadata file may include some ARC/INFO-specific terminology.
+			</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>1990</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>The data is described by CIESIN in their online documentation as
+derived from 1990 Census block-group level data.
+			</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>None planned.</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-129.49760931</westbc>
+            <eastbc>-64.43380054</eastbc>
+            <northbc>48.63644682</northbc>
+            <southbc>21.80790306</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>census</themekey>
+            <themekey>population</themekey>
+            <themekey>density</themekey>
+            <themekey>inlandWaters</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>Conterminous 48 United States</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>None</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Curtis V. Price</cntper>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Physical Scientist</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1608 Mountain View Rd</address>
+               <city>Rapid City</city>
+               <state>South Dakota</state>
+               <postal>57702</postal>
+               <country>United States of America</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747</cntvoice>
+            <cntfax>(605) 355-4523</cntfax>
+            <cntemail>cprice@usgs.gov</cntemail>
+            <cntinst>none</cntinst>
+         </cntinfo>
+      </ptcontac>
+      <datacred>Compilation of the data sets was supported by the National
+Water-Quality Assessment (NAWQA) Program of the U.S. Geological
+Survey. The objectives of the NAWQA Program are to: (1) describe
+current water-quality conditions for a large part of the
+Nation's freshwater streams, rivers, and aquifers, (2) describe
+how water quality is changing over time, and (3) improve the
+understanding of the primary natural and anthropogenic factors
+that affect water-quality conditions. National analysis of data,
+based on aggregation of comparable information obtained from
+across the United States, is a major component of the NAWQA
+Program. These data sets were created in support of NAWQA
+national data analysis activities.
+		</datacred>
+      <secinfo>
+         <secsys>Public</secsys>
+         <secclass>Unclassified</secclass>
+         <sechandl>None</sechandl>
+      </secinfo>
+      <native>Operating System: UNIX, ARC/INFO version 7.1.1</native>
+   </idinfo>
+   <dataqual>
+      <logic>Not applicable</logic>
+      <complete>No changes were made (except for integer truncation) of the persons per
+square mile grid and the reprojection to Albers coordinates.
+		</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>Grid cell size is one kilometer; accuracy of edges (coastlines, etc.)
+not tested.
+				</horizpar>
+         </horizpa>
+         <vertacc>
+            <vertaccr>Unknown</vertaccr>
+         </vertacc>
+      </posacc>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Consortium for International Earth Science Information Network</origin>
+                  <pubdate>19950627</pubdate>
+                  <title>Archive of Census Related Products</title>
+                  <geoform>map</geoform>
+                  <serinfo>
+                     <sername>NA</sername>
+                     <issue>NA</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <pubplace>NA</pubplace>
+                     <publish>Information available online</publish>
+                  </pubinfo>
+                  <onlink>http://water.usgs.gov/lookup/getspatial?ofr99-78_popdeng</onlink>
+               </citeinfo>
+            </srccite>
+            <srcscale>2000000</srcscale>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>19900101</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>ground condition</srccurr>
+            </srctime>
+            <srccitea>none</srccitea>
+            <srccontr>Array of population density values.</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>The data from which the population density grid was created
+was retrieved from URL
+
+ftp://ftp.ciesin.org/pub/census/grid/us
+
+The original data file was formatted like this:
+
+&gt;16 1909 0.150968 0.145122 149
+&gt;16 1910 0.384075 0.369201 149
+&gt;16 1911 0.407049 0.391286 149
+&gt;(... 245 MB of data)
+
+The first three columns represent row, column,
+and population density.
+
+A FORTRAN program was used to reformat the file into
+an input format used by the ARC ASCIIGRID command. The
+cell size, corner coordinates, and projection came from the
+documentation of the data files as posted on the CIESIN ftp site.
+(This documentation file is included in this metadata file.)
+
+The ASCIIGRID file was formatted like this:
+
+&gt;ncols         4587
+&gt;nrows         2889
+&gt;xllcorner     -2050500
+&gt;yllcorner     -2136500
+&gt;cellsize      1000
+&gt;NODATA_value  -9
+&gt;4 5 3 5 3 4 5 5 3 3 3 2 2 1 1 1 1 ... (4587 values per row)
+(data continues for a total of 2889 rows)
+
+The ARC/INFO ASCIIGRID command was used to read this into a
+grid, and the PROJECT command then was used to project the
+grid from its original projection (Lambert Azimuthal) to the
+Albers projection.  Nearest-neighbor resampling was done to
+preserve the population density values through the
+projection change.
+
+This processing was performed by David Wolock, U.S. Geological
+Survey, Lawrence, Kansas.
+				</procdesc>
+            <procdate>19950829</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Raster</direct>
+      <rastinfo>
+         <rasttype>Grid Cell</rasttype>
+         <rowcount>2898</rowcount>
+         <colcount>4521</colcount>
+      </rastinfo>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <mapproj>
+               <mapprojn>Albers Conical Equal Area</mapprojn>
+               <albers>
+                  <stdparll>29.5</stdparll>
+                  <stdparll>45.5</stdparll>
+                  <longcm>-96</longcm>
+                  <latprjo>23</latprjo>
+                  <feast>0.00000</feast>
+                  <fnorth>0.00000</fnorth>
+               </albers>
+            </mapproj>
+            <planci>
+               <plance>coordinate pair</plance>
+               <coordrep>
+                  <absres>1055.359799626</absres>
+                  <ordres>1055.359799626</ordres>
+               </coordrep>
+               <plandu>METERS</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>North American Datum of 1927</horizdn>
+            <ellips>Clarke 1866</ellips>
+            <semiaxis>6378206.4</semiaxis>
+            <denflat>294.98</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <overview>
+         <eaover>There is a value attribute table associated with this data set,
+as well as a file containing statistics about the grid.
+&gt;
+&gt;POPDENG.VAT:
+&gt;
+&gt;COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC  ALTERNATE NAME
+&gt;    1  VALUE                  4    10     B      -
+&gt;    5  COUNT                  4    10     B      -
+&gt;
+&gt;VALUE contains values of population density.
+&gt;
+&gt;COUNT is the number of grid cells with each particular VALUE.
+&gt;
+&gt;
+&gt;POPDENG.STA:
+&gt;
+&gt;COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC  ALTERNATE NAME
+&gt;    1  MIN                    8    15     F      3
+&gt;    9  MAX                    8    15     F      3
+&gt;   17  MEAN                   8    15     F      3
+&gt;   25  STDV                   8    15     F      3
+&gt;
+&gt;MIN is minumum value.
+&gt;
+&gt;MAX is maximum value.
+&gt;
+&gt;MEAN is the arithmetic mean.
+&gt;
+&gt;STDV is the standard deviation.
+			</eaover>
+         <eadetcit>None</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS - Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://water.usgs.gov/user_feedback_form.html</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Export</formname>
+               <formcont>Full coverage</formcont>
+               <filedec>zipped</filedec>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/ofr99-78_popdenge.gz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>Other</formname>
+               <formcont>DEM Format</formcont>
+               <filedec>zipped</filedec>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/ofr99-78_popdengd.gz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <digform>
+            <digtinfo>
+               <formname>Grid</formname>
+               <formcont>Full coverage</formcont>
+               <filedec>zipped</filedec>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://water.usgs.gov/GIS/dsdl/ofr99-78_popdenga.gz</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. This dataset is provided by USGS as a public service.</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20041108</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+            <cntaddr>
+               <addrtype>mailing</addrtype>
+               <address>445 National Center</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192</postal>
+            </cntaddr>
+            <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+            <cntemail>http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ofr99-78_popdeng</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>

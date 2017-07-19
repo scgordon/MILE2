@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Reed S. Lewis</origin>
+            <origin>Russell F. Burmester</origin>
+            <origin>Mark D. McFaddan</origin>
+            <origin>Pamela D. Derkey</origin>
+            <origin>Jon R. Oblad</origin>
+            <pubdate>1999</pubdate>
+            <title>Digital geologic map of the Wallace 1:100,000 quadrangle, Idaho</title>
+            <edition>version 1.0</edition>
+            <geoform>map</geoform>
+            <serinfo>
+               <sername>U.S. Geological Survey Open-File Report</sername>
+               <issue>99-390</issue>
+            </serinfo>
+            <pubinfo>
+               <pubplace>Spokane WA</pubplace>
+               <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://pubs.usgs.gov/of/1999/of99-390/</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>The geology of the Wallace 1:100,000 quadrangle, Idaho was compiled byReed S. Lewis in 1997 and supplemented by field mapping by Reed S. Lewis,Russell F. Burmester, and Mark D. McFaddan in 1997 and 1998. The geologicmap information was inked onto a 1:100,000-scale topographic base map forinput into an Arc/Info geographic information system(GIS).  The digitalgeologic map database can be queried in many ways to produce a variety ofderivative geologic maps.</abstract>
+         <purpose>This dataset was developed to provide geologic map GIS of the Idahoportion of the Wallace 1:100,000 quadrangle for use in future spatialanalysis by a variety of users.
+This database is not meant to be used or displayed at any scale largerthan 1:100,000 (e.g., 1:62,500 or 1:24,000).</purpose>
+         <supplinf>This GIS consists of two major Arc/Info datasets: one line and polygonfile (wa100k) containing geologic contacts and structures (lines) andgeologic map rock units (polygons), and one point file (wapnt) containingstructural data.</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>19990805</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>As needed</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-116.0</westbc>
+            <eastbc>-115.0</eastbc>
+            <northbc>47.50</northbc>
+            <southbc>47.00</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>USGS Thesaurus</themekt>
+            <themekey>geology</themekey>
+            <themekey>geologic maps</themekey>
+            <themekey>bedrock geologic units</themekey>
+            <themekey>geologic structure</themekey>
+            <themekey>geospatial datasets</themekey>
+         </theme>
+         <theme>
+            <themekt>National Geologic Map Database Catalog themes, augmented</themekt>
+            <themekey>1100 - Geology</themekey>
+            <themekey>1101 - General</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Categories</themekt>
+            <themekey>geoscientificInformation</themekey>
+         </theme>
+         <place>
+            <placekt>none</placekt>
+            <placekey>Idaho</placekey>
+            <placekey>Wallace</placekey>
+            <placekey>Shoshone County</placekey>
+            <placekey>Pacific Northwest</placekey>
+            <placekey>USA</placekey>
+         </place>
+         <place>
+            <placekt>Augmented FIPS 10-4 and FIPS 6-4</placekt>
+            <placekey>16079 = Shoshone</placekey>
+         </place>
+      </keywords>
+      <accconst>none</accconst>
+      <useconst>This digital database is not meant to be used or displayed at any scalelarger than 1:100,000 (e.g., 1:62,500 or 1:24,00).
+Any hardcopies utilizing these data sets shall clearly indicate theirsource.  If the user has modified the data in any way they are obligatedto describe the types of modifications they have performed on thehardcopy map.  User specifically agrees not to misrepresent these datasets, nor to imply that changes they made were approved by the U.S.Geological Survey.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Pamela D. Derkey</cntper>
+               <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>geologist</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>904 W. Riverside Ave., Rm. 202</address>
+               <city>Spokane</city>
+               <state>WA</state>
+               <postal>99201</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-509-368-3114</cntvoice>
+            <cntfax>1-509-368-3199</cntfax>
+            <cntemail>pderkey@usgs.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <datacred>Reed S. Lewis, Russell F. Burmester and Mark D. McFadden compiled andmapped the geology onto stable-base material;
+Optronics Specialty Co., Inc. scanned the geologic map and providedminimally attributed Arc/Info interchange-format files to the USGS;
+Pamela D. Derkey (USGS) imported the files, transformed them to UTM zone11 (with a y-shift) and attached and attributed an interim geologic mapdata model;
+Thomas P. Frost (USGS) visually compared the hard copy plots with thesource;
+Jon R. Oblad (EWU) annotated the point data for output at a scale of1:100,000.</datacred>
+      <native>SunOS, 5.5.1, sun4u UNIXARC/INFO version 7.1.1</native>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>Attribute accuracy was verified by manual comparisonof the source with hard copy printouts and plots.</attraccr>
+      </attracc>
+      <logic>Polygon and chain-node topology present.Polygons intersecting the neatline are closed along the border.Segments making up the outer and inner boundaries of a poygontie end-to-end to completely enclose the area.  Line segments area set of sequentially numbered coordinate pairs.  No duplicatefeatures exist nor duplicate points in a data string.  Intersectinglines are separated into individual line segments at the point ofintersection.  Point data are represented by two sets of coordinatepairs, each with the same coordinate values.  All nodes arerepresented by a single coordinate pair which indicates the beginningor end of a line segment.  The neatline was generated bymathematically  generating the four sides of the quadrangle,densifying the lines of latitude and projecting the file to UTMzone 11 (with a y-shift).</logic>
+      <complete>Geologic units were both compiled from previously existing geologic mapsgenerally ranging in scale from 1:24,000 to 1:48,000 and mapped in thefield at a scale of 1:24,000.  Some small units and those obscured bydense forest cover may not be included in this dataset.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>The horizontal positional accuracy for the digital data is no better than+/- 6 meters based on the transformation RMS error.  It was tested byvisual comparison of the source with hard copy plots.</horizpar>
+         </horizpa>
+      </posacc>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Harrison, J.E.</origin>
+                  <pubdate>(unpublished)</pubdate>
+                  <title>Unpublished geologic maps of the Bathtub Mountain 7.5-, FishhookCreek 7.5-, Haugen 15-, Hoyt Mountain 7.5-, Montana Peak 7.5-,Monumental Buttes 7.5-, Saltese 15-, Thor Mountain 7.5-, ThreeSisters 7.5-, Wallace 15- and Widow Mountain 7.5-minute quadrangles,Idaho</title>
+                  <geoform>map</geoform>
+                  <pubinfo>
+                     <pubplace>Denver CO</pubplace>
+                     <publish>U.S. Geological Survey Field Records Library</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000 and 62500</srcscale>
+            <typesrc>paper maps</typesrc>
+            <srctime>
+               <timeinfo>
+                  <rngdates>
+                     <begdate>1975?</begdate>
+                     <enddate>1985?</enddate>
+                  </rngdates>
+               </timeinfo>
+               <srccurr>date of field mapping</srccurr>
+            </srctime>
+            <srccitea>Harrison, unpublished field notes</srccitea>
+            <srccontr>These field maps were used in the map compilation.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Hietenan, Anna</origin>
+                  <pubdate>1963</pubdate>
+                  <title>Anorthosite and associated rocks in the Boehls Buttequadrangle and vicinity, Idaho</title>
+                  <geoform>map</geoform>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Professional Paper</sername>
+                     <issue>344-B</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <srcscale>48000</srcscale>
+            <typesrc>paper map</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>1963</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>Hietenan, 1963</srccitea>
+            <srccontr>This map was used in the map compilation.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Hietenan, Anna</origin>
+                  <pubdate>1967</pubdate>
+                  <title>Scapolite in the Belt Series in the St. Joe-Clearwaterregion, Idaho</title>
+                  <geoform>maps</geoform>
+                  <serinfo>
+                     <sername>Special Paper</sername>
+                     <issue>86</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <publish>Geological Society of America</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <srcscale>48000</srcscale>
+            <typesrc>paper map</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>1968</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>Hietenan, 1967</srccitea>
+            <srccontr>These maps were used in the map compilation.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Hietenan, Anna</origin>
+                  <pubdate>1968</pubdate>
+                  <title>Belt Series in the region around Snow Peak and MallardPeak, Idaho</title>
+                  <geoform>map</geoform>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Professional Paper</sername>
+                     <issue>344-E</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <srcscale>48000</srcscale>
+            <typesrc>paper map</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>1968</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>Hietenan, 1968</srccitea>
+            <srccontr>These maps were used in the map compilation.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Hietenan, Anna</origin>
+                  <pubdate>1984</pubdate>
+                  <title>Geology along the northwest border zone of the Idahobatholith, northern Idaho</title>
+                  <geoform>map</geoform>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Bulletin</sername>
+                     <issue>1608</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <typesrc>paper map</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>1984</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>Hietenan, 1984</srccitea>
+            <srccontr>These figures were used in the map compilation.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Hobbs, S.W.</origin>
+                  <origin>Griggs, A.B.</origin>
+                  <origin>Wallace, R.E.</origin>
+                  <origin>Campbell, A.B.</origin>
+                  <pubdate>1965</pubdate>
+                  <title>Geology of the Coeur d'Alene district</title>
+                  <geoform>map</geoform>
+                  <serinfo>
+                     <sername>U.S. Geological Survey Professional Paper</sername>
+                     <issue>478</issue>
+                  </serinfo>
+                  <pubinfo>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>paper maps</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>1965</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>Hobbs and others, 1965</srccitea>
+            <srccontr>These maps were used in the map compilation.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Geological Survey</origin>
+                  <pubdate>1993</pubdate>
+                  <title>1:100,000-scale digital line graph (DLG) data -hydrography and transportation, Area 13 --Northwestern states</title>
+                  <geoform>digital line graph (DLG) data</geoform>
+                  <pubinfo>
+                     <publish>U.S. Geological Survey</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <srcscale>100000</srcscale>
+            <typesrc>CD-ROM</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>1993</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>USGS, 1993</srccitea>
+            <srccontr>This source provided the eastern boundary of the maparea (Idaho-Montana) boundary in a digital format.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Vance, R.B.</origin>
+                  <pubdate>1981</pubdate>
+                  <title>Geology of the NW 1/4 of the Wallace 15-minute quadrangle,Shoshone County, Idaho</title>
+                  <geoform>map</geoform>
+                  <othercit>M.S. thesis</othercit>
+                  <pubinfo>
+                     <pubplace>Moscow, Idaho</pubplace>
+                     <publish>University of Idaho</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>paper map</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>1981</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>Vance, 1981</srccitea>
+            <srccontr>This map was used in the map compilation.</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Foster, S.A.</origin>
+                  <pubdate>1983</pubdate>
+                  <title>Structural analysis of the NE 1/4 fo the Wallace 15-minute quadrangle, Shoshone County, Idaho: Universityof Idaho M.S. thesis, 150 p.</title>
+                  <geoform>map</geoform>
+                  <pubinfo>
+                     <publish>University of Idaho</publish>
+                  </pubinfo>
+               </citeinfo>
+            </srccite>
+            <srcscale>24000</srcscale>
+            <typesrc>paper map</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>1983</caldate>
+                  </sngdate>
+               </timeinfo>
+            </srctime>
+            <srccitea>Foster, 1983</srccitea>
+            <srccontr>This map was used in the map compilation.</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>Geologic map information primarily from Foster (1983), Harrison(1975?-1985?), Hietenan (1963, 1967, 1968, 1984), Hobbs and others(1965), and Vance (1981) were compiled on a stable-base copy of the USGS1:100,000-scale topographic quadrangle map and manually labeled.Additional geology from field mapping efforts in 1997 was alsoincorporated onto the stable-base map.</procdesc>
+            <procdate>1997</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntperp>
+                     <cntper>Reed S. Lewis</cntper>
+                     <cntorg>Idaho Geological Survey</cntorg>
+                  </cntperp>
+                  <cntpos>geologist</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing address</addrtype>
+                     <address>Idaho Geological Survey, University of Idaho</address>
+                     <city>Moscow</city>
+                     <state>Idaho</state>
+                     <postal>83844</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-208-885-7472</cntvoice>
+                  <cntemail>reedl@uidaho.edu</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Stable-base map was scanned and converted from a raster to a vectorformat (in scanner units).</procdesc>
+            <procdate>1998</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Digital files were transformed to UTM zone 11 (meters), with a RMS error(input,output) = (0.002, 6.148), and attributed using an interim geologicmap data model.  The data were checked for position by comparing plots ofthe digital data to the source.</procdesc>
+            <procdate>1998</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Senior author revised the geologic map based on mapping during the summerof 1998, and this information was incorporated into the digital map GIS.</procdesc>
+            <procdate>1999</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Creation of original metadata record</procdesc>
+            <procdate>19991015</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>U.S. Geological Survey</cntorg>
+                     <cntper>Pamela D. Derkey</cntper>
+                  </cntorgp>
+                  <cntpos>geologist</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>904 West Riverside Avenue, Rm. 202</address>
+                     <city>Spokane</city>
+                     <state>WA</state>
+                     <postal>99201</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>1-509-368-3114</cntvoice>
+                  <cntfax>1-509-368-3199</cntfax>
+                  <cntemail>pderkey@usgs.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>491</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>String</sdtstype>
+            <ptvctcnt>1562</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>GT-polygon composed of chains</sdtstype>
+            <ptvctcnt>492</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <planar>
+            <gridsys>
+               <gridsysn>Universal Transverse Mercator</gridsysn>
+               <utm>
+                  <utmzone>11</utmzone>
+                  <transmer>
+                     <sfctrmer>0.9996</sfctrmer>
+                     <longcm>-117</longcm>
+                     <latprjo>0</latprjo>
+                     <feast>0.000</feast>
+                     <fnorth>-5000000</fnorth>
+                  </transmer>
+               </utm>
+            </gridsys>
+            <planci>
+               <plance>coordinate pair</plance>
+               <plandu>METERS</plandu>
+            </planci>
+         </planar>
+         <geodetic>
+            <horizdn>North American Datum of 1927</horizdn>
+            <ellips>Clarke 1866</ellips>
+            <semiaxis>6378206.4</semiaxis>
+            <denflat>294.98</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <overview>
+         <eaover>The 'Digital geologic map of the Wallace 1:100,000 quadrangle, Idaho'Open-File Report 99-390 contains a detailed description of each attributecode and a reference to the associated map symbols on the map sourcematerials.  The GIS includes a geologic linework arc attribute table,wa100k.aat, that relates to the wa100k.con (contact look-up table),wa100k.str (structure look-up table), wa100k.lgu (linear geologic unitlook-up table) and wa100k.ref (source reference look-up table) files; arock unit polygon attribute table, wa100k.pat, that relates to thewa100k.ru (rock unit look-up table) and wa100k.ref (source referencelook-up table) files; and a geologic map symbol point attribute table,wapnt.pat, that relates to the wapnt.sym (structural point data look-uptables) and wapnt.ref (source reference look-up table) files.</eaover>
+         <eadetcit>A detailed description of the items in the Wallace 100K GIS are given inthe text of the Open-File Report 99-390 available in Adobe Acrobat PDFformat at http://pubs.usgs.gov/of/1999/of99-390/OF99-390.PDF</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>USGS Information Services</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>Box 25286Denver Federal Center</address>
+               <city>Denver</city>
+               <state>CO</state>
+               <postal>80225-0046</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-ASK-USGS</cntvoice>
+            <cntfax>303-202-4693</cntfax>
+         </cntinfo>
+      </distrib>
+      <distliab>The U.S. Geological Survey (USGS) provides these geographic data "as is."The USGS makes no guarantee or warranty concerning the accuracy ofinformation contained in the geographic data.  The USGS further makes nowarranties, either expressed or implied as to any other matter whatsoever,including, without limitation, the condition of the product, or itsfitness for any particular purpose. The burden for determining fitness foruse lies entirely with the user.  Although these data have been processedsuccessfully on computers at the USGS, no warranty, expressed or implied,is made by the USGS regarding the use of these data on any other system,nor does the fact of distribution constitute or imply any such warranty.
+In no event shall the USGS have any liability whatsoever for paymentof any consequential, incidental, indirect, special, or tort damagesof any kind, including, but not limited to, any loss of profitsarising out of use of or reliance on the geographic data or arisingout of the delivery, installation, operation, or support by USGS.
+This digital geologic map GIS of the Wallace 1:100,000 quadrangle,Idaho, is not meant to be used or displayed at any scale larger than1:100,000 (e.g., 1:62,500 or 1:24,000).</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ARCE</formname>
+               <formvern>7.x</formvern>
+               <formcont>Geologic units, structural features, point features, and graphics files</formcont>
+               <filedec>uncompress and tar</filedec>
+               <transize>18</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://pubs.usgs.gov/of/1999/of99-390/wa100k.tar.Z</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>none</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>20150204</metd>
+      <metrd>19991015</metrd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Peter N Schweitzer</cntper>
+               <cntorg>USGS Midwest Area</cntorg>
+            </cntperp>
+            <cntpos>Collection manager, USGS Geoscience Data Clearinghouse, http://geo-nsdi.er.usgs.gov/</cntpos>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>Mail Stop 95412201 Sunrise Valley Dr</address>
+               <city>Reston</city>
+               <state>VA</state>
+               <postal>20192-0002</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>703-648-6533</cntvoice>
+            <cntfax>703-648-6252</cntfax>
+            <cntemail>pschweitzer@usgs.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+   </metainfo>
+</metadata>
