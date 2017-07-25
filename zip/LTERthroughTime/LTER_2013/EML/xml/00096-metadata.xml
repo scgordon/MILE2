@@ -1,0 +1,623 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.74.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>uid=MCM,o=lter,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset>
+		<shortName>ADCP-ID.74</shortName>
+		<title>2009-10 Sub-ice Current Velocities Recorded with an Acoustic Doppler Current Profiler</title>
+		<creator>
+			<individualName>
+				<givenName>Devin</givenName>
+				<surName>Castendyk</surName>
+			</individualName>
+			<address>
+				<deliveryPoint>State University of New York</deliveryPoint>
+				<deliveryPoint>Dept of Earth and Atmospheric Science</deliveryPoint>
+				<city>Oneonta</city>
+				<administrativeArea>NY</administrativeArea>
+				<postalCode>13820</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">(607)437-9530</phone>
+			<electronicMailAddress>Devin.Castendyk@oneonta.edu</electronicMailAddress>
+		</creator>
+		<metadataProvider>
+			<organizationName>McMurdo Dry Valleys LTER</organizationName>
+			<address>
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>University of New Mexico</deliveryPoint>
+				<deliveryPoint>MSC03 2020</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505-277-3418</phone>
+			<phone phonetype="fax">505-277-0304</phone>
+			<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+		</metadataProvider>
+		<associatedParty>
+			<individualName>
+				<givenName>Hugh</givenName>
+				<surName>Gallagher</surName>
+			</individualName>
+			<address>
+				<deliveryPoint>State University of New York</deliveryPoint>
+				<city>Oneonta</city>
+				<administrativeArea>NY</administrativeArea>
+				<postalCode>13820</postalCode>
+				<country>USA</country>
+			</address>
+			<role>Researcher</role>
+		</associatedParty>
+		<associatedParty>
+			<individualName>
+				<givenName>John</givenName>
+				<surName>Priscu</surName>
+			</individualName>
+			<address>
+				<deliveryPoint>Montana State University</deliveryPoint>
+				<city>Bozeman</city>
+				<administrativeArea>MT</administrativeArea>
+				<country>USA</country>
+			</address>
+			<role>Researcher</role>
+		</associatedParty>
+		<associatedParty>
+			<individualName>
+				<givenName>W Berry</givenName>
+				<surName>Lyons</surName>
+			</individualName>
+			<address>
+				<deliveryPoint>Ohio State University</deliveryPoint>
+				<city>Columbus</city>
+				<administrativeArea>OH</administrativeArea>
+				<country>USA</country>
+			</address>
+			<role>Researcher</role>
+		</associatedParty>
+		<associatedParty>
+			<individualName>
+				<givenName>John</givenName>
+				<surName>Sloat</surName>
+			</individualName>
+			 <organizationName>SonTek/YSI Inc</organizationName>
+			<role>Data Interpretation</role>
+		</associatedParty>
+		<associatedParty>
+			<individualName>
+				<givenName>Kevin</givenName>
+				<surName>Labbe</surName>
+			</individualName>
+			 <organizationName>SonTek/YSI Inc</organizationName>
+			<role>Data Interpretation</role>
+		</associatedParty>
+		<pubDate>2013</pubDate>
+		<abstract>
+			<section>
+				<para>
+   On 7 January 2010, a SonTek Argonaut-XR 1.5 MHz Acoustic Doppler Current Profiler (ADCP) was fixed at the bottom of the lake ice in the Lake Hoare Limno Hole inside the Polar Haven, looking downward through the water column.  Every 10 seconds, the ADCP measured horizontal and vertical current velocities in ten, 30-cm-thick cells between 0.5 and 3.5 m below the lake ice.  Over 32.5 hours, horizontal currents in the shallowest cell (0.5 to 0.8 m below lake ice) had a mean speed of 23.8 cm/sec.  This speed was independently validated by lowering a SonTek handheld Acoustic Doppler Velocity (ADV) meter into the ice hole.  Horizontal speeds oscillated between 10.1 and 37.5 cm/sec over the course of the ADCP dataset.  Fast Fourier Transforms of x-direction velocity data from the shallowest cell identified oscillation periods of 11, 3.7, and 2.5 minutes consistent with the theoretical first-mode longitudinal surface seiche in Lake Hoare.  Current direction oscillated between N 78 degrees E and N 289 degrees E along the east-west longitudinal axis of the lake, consistent with the behavior of a seiche. 
+    </para>
+			</section>
+		</abstract>
+		<keywordSet>
+			<keyword keywordType="theme"> lake</keyword>
+			<keyword keywordType="theme"> velocity</keyword>
+			<keyword keywordType="theme"> depth</keyword>
+			<keyword keywordType="theme"> acoustic</keyword>
+			<keyword keywordType="theme"> doppler</keyword>
+			<keyword keywordType="theme"> Antarctica</keyword>
+			<keyword keywordType="theme"> LTER</keyword>
+			<keyword keywordType="place">McMurdo Dry Valleys</keyword>
+			<keyword keywordType="theme">MCM</keyword>
+		</keywordSet>
+		<additionalInfo>
+			<section>
+				<title>Notes</title>
+				<para>
+					<literalLayout> Data contained in these files has been subjected to quality control standards
+      imposed by the investigator. The user of this data should be aware that, while efforts have
+      been taken to ensure that these data are of the highest quality, there is no guarantee of
+      perfection for the data contained herein and the possibility of errors exists. If you
+      encounter questionable data, please contact the MCM LTER data manager corrected or qualified.
+      Thus, these data may be modified and future data will be appended.</literalLayout>
+
+				</para>
+			</section>
+			
+		</additionalInfo>
+		<intellectualRights>
+			<section>
+				<title>MCM LTER data may be used freely with the following restrictions:</title>
+				<para>
+					<itemizedlist>
+						<listitem>
+							<para>
+								<literalLayout>The Principal Investigator be sent a notice stating reasons for acquiring any
+         data and a description of the publication intentions. </literalLayout>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<literalLayout>The Principal Investigator of the data set be sent a copy of the report or
+         manuscript prior to submission and be adequately cited in any resultant
+        publications.</literalLayout>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<literalLayout>A copy of any resultant publications should be sent to the McMurdo data
+         manager and principal investigator.</literalLayout>
+							</para>
+						</listitem>
+						<listitem>
+							<para>
+								<literalLayout>The end-user follow the guidelines set forth in the LTER Network Data Access
+         Policy, Data Access Requirements, and General Data Use Agreement found at
+         http://www.mcmlter.org/data_guidelines.htm</literalLayout>
+							</para>
+						</listitem>
+					</itemizedlist>
+				</para>
+			</section>
+		</intellectualRights>
+		<distribution>
+			<online>
+<url>http://mcmlter.org/queries/limno_adcp_results.jsp?begDate=09/09/2009&amp;endDate=05/05/2010&amp;minDepth=0&amp;maxDepth=15</url>
+			</online>
+		</distribution>
+		<coverage>
+			<geographicCoverage>
+				<geographicDescription> Lake Hoare is in the
+     Taylor Valley, Southern Victoria Land, Antarctica (77 degrees S, 162 degrees E).
+  Lake Hoare is unstratified during the summer and is freshwater. It has a maximum
+     depth of 34m. Summer temperatures in the water column ranged between 0.01 degrees C and 1.0
+     degrees C.   </geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>162</westBoundingCoordinate>
+					<eastBoundingCoordinate>163.6</eastBoundingCoordinate>
+					<northBoundingCoordinate>-77.2</northBoundingCoordinate>
+					<southBoundingCoordinate>-77.8</southBoundingCoordinate>
+					<boundingAltitudes>
+						<altitudeMinimum>0</altitudeMinimum>
+						<altitudeMaximum>1000</altitudeMaximum>
+						<altitudeUnits>meter</altitudeUnits>
+					</boundingAltitudes>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage>
+				<rangeOfDates>
+					<beginDate>
+						<calendarDate>2009</calendarDate>
+					</beginDate>
+					<endDate>
+						<calendarDate>2010</calendarDate>
+					</endDate>
+				</rangeOfDates>
+			</temporalCoverage>
+		</coverage>
+		<purpose>
+			<para>To investigate whether sub-ice currents occur in Lake Hoare which may have caused changes in CTD profiles associated with the 2001-2002 flood event.</para>
+		</purpose>
+		<contact>
+			<organizationName>McMurdo Dry Valleys LTER</organizationName>
+			<address>
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>University of New Mexico</deliveryPoint>
+				<deliveryPoint>MSC03 2020</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505-277-3418</phone>
+			<phone phonetype="fax">505-277-0304</phone>
+			<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+		</contact>
+		<publisher>
+			<organizationName>McMurdo Dry Valleys LTER</organizationName>
+			<address>
+				<deliveryPoint>Department of Biology</deliveryPoint>
+				<deliveryPoint>University of New Mexico</deliveryPoint>
+				<deliveryPoint>MSC03 2020</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505-277-3418</phone>
+			<phone phonetype="fax">505-277-0304</phone>
+			<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+		</publisher>
+		<methods>
+		<methodStep>
+			<description><para>
+              <orderedlist>
+					<listitem>
+						<para>Location: 	Limno Sample Hole, Lake Hoare, Taylor Dry Valley</para></listitem>
+					<listitem>
+						<para>GPS:		S77&#176;37.660&#8217;, E162&#176;54.572&#8217;</para>
+					</listitem> 
+                     <listitem>
+					    <para> 7 January 2010, 10:50 p.m. to 9 January 2010, 7:24 a.m. (New Zealand Time).</para>
+					</listitem>
+                    <listitem>
+						<para>Duration:	32.5 hours</para>
+					</listitem>
+					<listitem>
+						<para>Time correction:	Add 18 hours to the raw data times to convert to the New Zealand Time Zone used in the McMurdo Dry Valleys and to synchronize sample times with other datasets provided on MCM-LTER web page. </para>
+					</listitem>
+				</orderedlist>			
+			</para></description>
+		</methodStep>
+			<methodStep>
+				<description>
+					<section>
+						<title>7 - 9 January 2010 Methods and Settings</title>
+						<section>
+							<title>1) ADCP fixed to a metal pole</title>
+							<para> to minimize motion</para>
+						</section>
+						<section>
+							<title> 2) ADCP inverted and arrow aligned with North </title>
+							<para>
+								<literalLayout>such that:</literalLayout>
+								<itemizedlist>
+									<listitem>
+										<para>+x is West, -x is East</para>
+									</listitem>
+									<listitem>
+										<para>+y is North, -y is South</para>
+									</listitem>
+									<listitem>
+										<para>+z is Down, -z is up</para>
+									</listitem>
+								</itemizedlist>
+								<literalLayout>And, true current direction (degrees from N) = 360 &#8211; observed direction </literalLayout>
+							</para>
+						</section>
+						<section>
+							<title>3) ADCP lowered to the bottom of the limno ice hole</title>
+							<para> top of ADCP near the ice-water interface.</para>
+						</section>
+						<section>
+							<title>4) ADCP diagnostics</title>
+							<para> test performed</para>
+						</section>
+						<section>
+							<title>5) Tarp placed over sample hole during deployment</title>
+							<para>
+								<itemizedlist>
+									<listitem>
+										<para>Averaging Interval:	10 seconds</para>
+									</listitem>
+									<listitem>
+										<para>Sampling Interval:	10 seconds</para>
+									</listitem>
+									<listitem>
+										<para>Quality of data: Good.  </para>
+									</listitem>
+									<listitem>
+										<para>ADCP resolution = plus/minus 0.1 cm/sec.  </para>
+									</listitem>
+									<listitem>
+										<para>ADCP accuracy = plus/minus 0.5 cm/sec.  Files for standard deviations and signal-to-noise ratios provided.</para>
+									</listitem>
+									<listitem>
+										<para>Total ice thickness:	3.3 m</para>
+									</listitem>
+									<listitem>
+										<para>Distance from piezometric surface to base of ice:	2.8 m</para>
+									</listitem>
+									<listitem>
+										<para>Date ice thickness measured:	7 January 2010</para>
+									</listitem>
+									<listitem>
+										<para>"Automatic Boundary Adjustment" used</para>
+									</listitem>
+									<listitem>
+										<para>Coordinant system "XYZ"</para>
+									</listitem>
+									<listitem>
+										<para>"Profile Mode" used</para>
+									</listitem>
+									<listitem>
+										<para>Cell thickness: 0.3 m</para>
+									</listitem>
+									<listitem>
+										<para>Number of cells:	10</para>
+									</listitem>
+									<listitem>
+										<para>
+											<literalLayout>Approximate depth range of ADCP cells: 
+Relative to the bottom of the lake ice:		Relative to piezometric surface
+   Cell 1:	0.5 to 0.8				3.6 to 3.9
+	Cell 2:	0.8 to 1.1				3.9 to 4.2
+	Cell 3:	1.1 to 1.4				4.2 to 4.5
+	Cell 4:	1.4 to 1.7				4.5 to 4.8
+	Cell 5: 	1.7 to 2.0				4.8 to 5.1
+	Cell 6: 	2.0 to 2.3				5.1 to 5.4
+	Cell 7: 	2.3 to 2.6				5.4 to 5.7
+	Cell 8: 	2.6 to 2.9				5.7 to 6.0
+	Cell 9:	2.9 to 3.2				6.0 to 6.3
+	Cell 10: 3.2 to 3.5				6.3 to 6.6
+</literalLayout>
+										</para>
+									</listitem>
+								</itemizedlist>
+							</para>
+						</section>
+					</section>
+				</description>
+			</methodStep>
+			<methodStep>
+				<description>
+                  <section>
+				<title>Supporting file links (Standard Deviations, etc)</title>
+			    	<para>
+			    	<orderedlist>
+					 <listitem>
+						<para>"ADCP set up 7- 9 January 2010 This text file lists more details about how data were recorded. <ulink>http://mcmlter.org/data/lakes/physical/short_term/ADCP_setup_7_to_9_Jan_2010.txt</ulink></para>
+					 </listitem>
+					 <listitem>
+						<para>"ADCP signal to noise ratio 26-30 Dec 2012"  This file provides diagnostic data on the instrument which someone might find useful.
+<ulink>http://mcmlter.org/data/lakes/physical/short_term/ADCP_SignalToNoise_7_to_9_Jan_2010.txt</ulink></para>
+					 </listitem>
+					 <listitem>
+						<para>"ADCP standard deviation 26-30 Dec 2012"  This text file provides information on sampling error.<ulink>http://mcmlter.org/data/lakes/physical/short_term/ADCP_std_7_to_9_Jan_2010.txt</ulink></para>
+					  </listitem>             
+			     	</orderedlist>
+                  </para>
+			     </section>
+				</description>
+			</methodStep>
+		</methods>
+		<dataTable>
+			<entityName>LIMNO_ANCILLARY_ADCP_Units_And_Column_Descriptions</entityName>
+			<physical>
+				<objectName>LIMNO_ANCILLARY_ADCP_Units_And_Column_Descriptions</objectName>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>28</numHeaderLines>
+						<numFooterLines>1</numFooterLines>
+						<recordDelimiter>\n</recordDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+							<quoteCharacter>"</quoteCharacter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+<url function="download">http://mcmlter.org/queries/limno_adcp_results.jsp?begDate=09/09/2009&amp;endDate=05/05/2010&amp;minDepth=0&amp;maxDepth=15</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>DATASET_CODE</attributeName>
+					<attributeDefinition>A code used to identify the entity table name and create lists of data holdings</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>A code used to identify the entity table name and create lists of data holdings - LIMNO_ANCILLARY_ADCP</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>LOCATION NAME</attributeName>
+					<attributeDefinition>Name of lake where measurement was made</attributeDefinition>
+					<storageType typeSystem="Text" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Name of lake where measurement was made</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>LOCATION CODE</attributeName>
+					<attributeDefinition>Location in the lake where measurement was made</attributeDefinition>
+					<storageType typeSystem="Text" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Location code for the lake and place where measurement was made</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>Required entry</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>DATE_TIME</attributeName>
+					<attributeLabel>Attribute Label</attributeLabel>
+					<attributeDefinition>Date on which sample was gathered</attributeDefinition>
+					<storageType typeSystem="Date" />
+					<measurementScale>
+						<dateTime>
+							<formatString>mm/dd/yy H:M:S</formatString>
+						</dateTime>
+					</measurementScale>
+					<missingValueCode>
+						<code>Required entry</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>SAMPLE_ID</attributeName>
+					<attributeDefinition>An internal identifier for the record</attributeDefinition>
+					<storageType typeSystem="Text" />
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>A numeric identifier, and integer, for the record.</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+					<missingValueCode>
+						<code>Null</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>MIN_DEPTH (m)</attributeName>
+					<attributeDefinition>Minimum Depth value for the measurement range</attributeDefinition>
+					<storageType typeSystem="Number" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Required entry</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>MAX_DEPTH (m)</attributeName>
+					<attributeDefinition>Maximum Depth value for the measurement range</attributeDefinition>
+					<storageType typeSystem="Number" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Required entry</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>Vx (cm/s)</attributeName>
+					<attributeDefinition>the velocity component for the X-axis - East-West, where positive values mean fluid moving towards the west</attributeDefinition>
+					<storageType typeSystem="Number" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>centimetersPerSecond</standardUnit>
+							</unit>
+							<precision>0.5</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Required entry</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>Vy (cm/s)</attributeName>
+					<attributeDefinition>the velocity component for the Y-axis - North-South, where positive values mean fluid moving towards the north</attributeDefinition>
+					<storageType typeSystem="Number" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>centimetersPerSecond</standardUnit>
+							</unit>
+							<precision>0.5</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Required entry</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>Vz (cm/s)</attributeName>
+					<attributeDefinition>the velocity component for the Z-axis - Bottom-Up, where positive values mean fluid moving towards the bottom (down)</attributeDefinition>
+					<storageType typeSystem="Number" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>centimetersPerSecond</standardUnit>
+							</unit>
+							<precision>0.5</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Required entry</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>Spd_xy (cm/s)</attributeName>
+					<attributeDefinition>the magnitude of the velocity (the speed) on the horizontal plane for the x-axis </attributeDefinition>
+					<storageType typeSystem="Number" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>centimetersPerSecond</standardUnit>
+							</unit>
+							<precision>0.5</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Required entry</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute>
+					<attributeName>Dir</attributeName>
+					<attributeDefinition>THe orientation of the velocity vector on the horizontal plane</attributeDefinition>
+					<storageType typeSystem="Number" />
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>degree</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+					<missingValueCode>
+						<code>Required entry</code>
+						<codeExplanation>None given</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+		</dataTable>
+	</dataset>
+</eml:eml>
