@@ -1,0 +1,1028 @@
+<gmi:MI_Metadata xmlns:eos="http://earthdata.nasa.gov/schema/eos"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gmi="http://www.isotc211.org/2005/gmi"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gmx="http://www.isotc211.org/2005/gmx"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr"
+    xmlns:gss="http://www.isotc211.org/2005/gss"
+    xmlns:gts="http://www.isotc211.org/2005/gts"
+    xmlns:srv="http://www.isotc211.org/2005/srv"
+    xmlns:swe="http://schemas.opengis.net/sweCommon/2.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <!--Other Properties, all:0, coi:0,ii:0,si:0,pli:0,pri:0,qi:0,gi:0,ci:0,dk:0,pcc:0,icc:0,scc:0-->
+    <!--Translated from ECHO using ECHOToISO.xsl Version: 1.33-->
+    <gmd:fileIdentifier>
+        <gco:CharacterString>gov.nasa.echo:PODAAC-GH18G-2PN02</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode
+            codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+                <gco:CharacterString>PO.DAAC</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:role>
+                <gmd:CI_RoleCode
+                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2016-10-05T16:40:17.097Z</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+            <gmd:referenceSystemIdentifier>
+                <gmd:RS_Identifier>
+                    <gmd:code>
+                        <gco:CharacterString>CARTESIAN</gco:CharacterString>
+                    </gmd:code>
+                </gmd:RS_Identifier>
+            </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>AVHRR18_G-NAVO-L2P-v1.0 &gt; GHRSST Level 2P Global 1m Sea Surface Temperature from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-18 satellite produced by NAVO</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:DateTime>2013-09-25T15:56:34.977Z</gco:DateTime>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:DateTime>2013-09-25T15:56:34.977Z</gco:DateTime>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                        <gco:CharacterString>1</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:identifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code>
+                                <gco:CharacterString>AVHRR18_G-NAVO-L2P-v1.0</gco:CharacterString>
+                            </gmd:code>
+                            <gmd:description>
+                                <gco:CharacterString>GHRSST Level 2P Global 1m Sea Surface Temperature from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-18 satellite produced by NAVO</gco:CharacterString>
+                            </gmd:description>
+                        </gmd:MD_Identifier>
+                    </gmd:identifier>
+                    <gmd:otherCitationDetails>
+                        <gco:CharacterString/>
+                    </gmd:otherCitationDetails>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>A global Group for High Resolution Sea Surface Temperature (GHRSST) Level 2P dataset based on multi-channel sea surface temperature (SST) retrievals generated in real-time from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-18 platform (launched 20 May 2005) produced and used operationally in  oceanographic analyses and forecasts by the US Naval Oceanographic Office (NAVO). The AVHRR is a space-borne scanning sensor on the National Oceanic and Atmospheric Administration (NOAA) family of Polar Orbiting Environmental Satellites (POES) having a operational legacy that traces back to the Television Infrared Observation Satellite-N (TIROS-N) launched in 1978. AVHRR instruments measure the radiance of the Earth in 5 (or 6) relatively wide spectral bands. The first two are centered around the red (0.6 micrometer) and near-infrared (0.9 micrometer) regions, the third one is located around 3.5 micrometer, and the last two sample the emitted thermal radiation, around 11 and 12 micrometers, respectively. The legacy 5 band instrument is known as AVHRR/2 while the more recent version, the AVHRR/3 (first carried on the NOAA-15 platform),  acquires data in a 6th channel located at 1.6 micrometer. Typically the 11 and 12 micron channels are used to derive SST sometimes in combination with the 3.5 micron channel. The NOAA platforms are sun synchronous generally viewing the same earth location twice a day (latitude dependent) due to the relatively large AVHRR swath of approximately 2400 km. The highest ground resolution that can be obtained from the current AVHRR instruments is 1.1 km at nadir. AVHRR data are acquired in three formats: High Resolution Picture Transmission (HRPT), Local Area Coverage (LAC), and Global Area Coverage (GAC).  HRPT data are full resolution image data transmitted to a ground stations as they are collected. LAC are also full resolution data, but the acquisition is prescheduled and recorded with an on-board tape recorder for subsequent transmission during a station overpass. This particular dataset is produced from GAC data that are derived from an on-board sample averaging of the full resolution global AVHRR data. Four out of every five samples along the scan line are used to compute on average value and the data from only every third scan line are processed, yielding an effective 4 km resolution at nadir.  Further binning and averaging of these pixels results in a final dataset resolution of 8.8 km.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose gco:nilReason="missing"/>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                        <gco:CharacterString>PO.DAAC</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>NETCDF</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="unknown"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Earth Science&gt;Oceans&gt;Ocean Temperature&gt;Sea Surface Temperature&gt;NONE&gt;NONE&gt;Bulk Sea Surface Temperature</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>NASA/GCMD Science Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date gco:nilReason="unknown"/>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>NASA</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName>
+                                    <gco:CharacterString>GCMD User Support Office</gco:CharacterString>
+                                    </gmd:positionName>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:name>
+                                    <gco:CharacterString>GCMD Feedback Form</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>Have a Comment for the GCMD?</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName gco:nilReason="inapplicable"/>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:onlineResource xlink:title="GCMD Keyword Page">
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/Resources/valids/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:name>
+                                    <gco:CharacterString>GCMD Keywords Page</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>This page describes the NASA GCMD Keywords, how to reference those keywords and provides download instructions. </gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Global</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>NASA/Global Change Master Directory (GCMD) Location Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date gco:nilReason="unknown"/>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>NASA Global Change Master Directory (GCMD) User Support Office</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:phone gco:nilReason="missing"/>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>NASA Global Change Master Directory, Goddard Space Flight Center</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Greenbelt</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>MD</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>20771</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/index.html</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                    <gco:CharacterString>http</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:applicationProfile>
+                                    <gco:CharacterString>web browser</gco:CharacterString>
+                                    </gmd:applicationProfile>
+                                    <gmd:name>
+                                    <gco:CharacterString>NASA Global Change Master Directory (GCMD)</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>Home Page</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:contactInstructions>
+                                    <gco:CharacterString>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>NASA Global Change Master Directory (GCMD)</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:phone gco:nilReason="missing"/>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>NASA Global Change Master Directory, Goddard Space Flight Center</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Greenbelt</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>MD</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>20771</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/Resources/valids/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                    <gco:CharacterString>http</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:applicationProfile>
+                                    <gco:CharacterString>web browser</gco:CharacterString>
+                                    </gmd:applicationProfile>
+                                    <gmd:name>
+                                    <gco:CharacterString>NASA Global Change Master Directory (GCMD) Keyword Page</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>This page describes the NASA GCMD Keywords, how to reference those keywords and provides download instructions.</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:contactInstructions>
+                                    <gco:CharacterString>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>PO.DAAC</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString> NASA/Global Change Master Directory (GCMD) Data Center Keywords </gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2008-02-07</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier/>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>NASA</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName>
+                                    <gco:CharacterString>GCMD User Support Office</gco:CharacterString>
+                                    </gmd:positionName>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:name>
+                                    <gco:CharacterString>GCMD Feedback Form</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>Have a Comment for the GCMD?</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName gco:nilReason="inapplicable"/>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:onlineResource xlink:title="GCMD Keyword Page">
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/Resources/valids/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:name>
+                                    <gco:CharacterString>GCMD Keywords Page</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>This page describes the NASA GCMD Keywords, how to reference those keywords and provides download instructions. </gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>NOAA-18 &gt; National Oceanic &amp; Atmospheric Administration-18</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>NASA/GCMD Platform Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date gco:nilReason="unknown"/>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>NASA</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName>
+                                    <gco:CharacterString>GCMD User Support Office</gco:CharacterString>
+                                    </gmd:positionName>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:name>
+                                    <gco:CharacterString>GCMD Feedback Form</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>Have a Comment for the GCMD?</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName gco:nilReason="inapplicable"/>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:onlineResource xlink:title="GCMD Keyword Page">
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/Resources/valids/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:name>
+                                    <gco:CharacterString>GCMD Keywords Page</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>This page describes the NASA GCMD Keywords, how to reference those keywords and provides download instructions. </gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>AVHRR-3 &gt; Advanced Very High Resolution Radiometer-3</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>NASA/GCMD Instrument Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date gco:nilReason="unknown"/>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>NASA</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName>
+                                    <gco:CharacterString>GCMD User Support Office</gco:CharacterString>
+                                    </gmd:positionName>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gcmduso@gcmd.gsfc.nasa.gov</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=gcmduso</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:name>
+                                    <gco:CharacterString>GCMD Feedback Form</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>Have a Comment for the GCMD?</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName gco:nilReason="inapplicable"/>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://gcmd.nasa.gov/Resources/valids/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:name>
+                                    <gco:CharacterString>GCMD Keywords Page</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>This page describes the NASA GCMD Keywords, how to reference those keywords and provides download instructions. </gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </gmd:language>
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode
+                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+            </gmd:characterSet>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:description>
+                        <gco:CharacterString>SpatialCoverageType=HORIZONTAL, SpatialGranuleSpatialRepresentation=CARTESIAN</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:geographicElement>
+                        <!--Bounding Rectangle-->
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-180.0</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>180.0</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>-70</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>80</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <!--RangeDateTime-->
+                        <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="d8920e35">
+                                    <gml:beginPosition>2013-09-24T10:34:01.000Z</gml:beginPosition>
+                                    <gml:endPosition/>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation/>
+            <gmd:processingLevel>
+                <gmd:MD_Identifier>
+                    <gmd:code>
+                        <gco:CharacterString>2P</gco:CharacterString>
+                    </gmd:code>
+                    <gmd:description>
+                        <gco:CharacterString/>
+                    </gmd:description>
+                </gmd:MD_Identifier>
+            </gmd:processingLevel>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:contentInfo>
+        <gmd:MD_ImageDescription>
+            <gmd:attributeDescription/>
+            <gmd:contentType/>
+            <gmd:processingLevelCode>
+                <gmd:MD_Identifier>
+                    <gmd:code>
+                        <gco:CharacterString>2P</gco:CharacterString>
+                    </gmd:code>
+                    <gmd:description>
+                        <gco:CharacterString/>
+                    </gmd:description>
+                </gmd:MD_Identifier>
+            </gmd:processingLevelCode>
+        </gmd:MD_ImageDescription>
+    </gmd:contentInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Doug none May</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Naval Oceanographic Office (NAVOCEANO)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Primary Contact</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>228-688-4859</gco:CharacterString>
+                                    </gmd:voice>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint gco:nilReason="missing"/>
+                                    <gmd:city gco:nilReason="missing"/>
+                                    <gmd:administrativeArea gco:nilReason="missing"/>
+                                    <gmd:postalCode gco:nilReason="missing"/>
+                                    <gmd:country gco:nilReason="missing"/>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>doug.may@navy.mil</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:hoursOfService gco:nilReason="missing"/>
+                                    <gmd:contactInstructions gco:nilReason="missing"/>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributionOrderProcess>
+                        <gmd:MD_StandardOrderProcess>
+                            <gmd:fees gco:nilReason="missing"/>
+                        </gmd:MD_StandardOrderProcess>
+                    </gmd:distributionOrderProcess>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>NETCDF</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="unknown"/>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>ftp://ftp.nodc.noaa.gov/pub/data.nodc/ghrsst/GDS2/L2P/AVHRR18_G/NAVO/v1</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:applicationProfile gco:nilReason="missing"/>
+                                    <gmd:description>
+                                    <gco:CharacterString>The FTP base directory location for the collection.</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>ftp://podaac-ftp.jpl.nasa.gov/allData/ghrsst/data/GDS2/L2P/AVHRR18_G/NAVO/v1</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:applicationProfile gco:nilReason="missing"/>
+                                    <gmd:description>
+                                    <gco:CharacterString>The FTP base directory location for the collection.</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://data.nodc.noaa.gov/cgi-bin/nph-dods/ghrsst/GDS2/L2P/AVHRR18_G/NAVO/v1/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:applicationProfile gco:nilReason="missing"/>
+                                    <gmd:description>
+                                    <gco:CharacterString>The OPeNDAP base directory location for the collection.</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://podaac-opendap.jpl.nasa.gov/opendap/allData/ghrsst/data/GDS2/L2P/AVHRR18_G/NAVO/v1/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:applicationProfile gco:nilReason="missing"/>
+                                    <gmd:description>
+                                    <gco:CharacterString>The OPeNDAP base directory location for the collection.</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GH18G-2PN02&amp;apidoc</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:applicationProfile gco:nilReason="missing"/>
+                                    <gmd:name>
+                                    <gco:CharacterString>PORTAL_DA_DIRECT_ACCESS</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>(Search Granule)</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""/>
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://podaac.jpl.nasa.gov:2031/DATASET_DOCS/avhrr_navoceano.html</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:applicationProfile gco:nilReason="missing"/>
+                                    <gmd:name>
+                                    <gco:CharacterString>Reference Materials</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>JPL Physical Oceanography Data Active Archive Centre (PO.DAAC)</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://ghrsst.jpl.nasa.gov</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:applicationProfile gco:nilReason="missing"/>
+                                    <gmd:name>
+                                    <gco:CharacterString>Get Data</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>Portal to the GHRSST Global Data Assembly Center and data access</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""/>
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+            <gmd:scope>
+                <gmd:DQ_Scope>
+                    <gmd:level>
+                        <gmd:MD_ScopeCode
+                            codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+                    </gmd:level>
+                </gmd:DQ_Scope>
+            </gmd:scope>
+            <gmd:lineage>
+                <gmd:LI_Lineage>
+                    <gmd:processStep>
+                        <gmi:LE_ProcessStep>
+                            <gmd:description gco:nilReason="unknown"/>
+                            <gmd:processor>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>Naval Oceanographic Office</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:processor>
+                        </gmi:LE_ProcessStep>
+                    </gmd:processStep>
+                </gmd:LI_Lineage>
+            </gmd:lineage>
+        </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+                <gmd:MD_MaintenanceFrequencyCode
+                    codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
+            </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+    <gmi:acquisitionInformation>
+        <gmi:MI_AcquisitionInformation>
+            <gmi:instrument>
+                <eos:EOS_Instrument id="d8920e85">
+                    <gmi:citation>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>AVHRR-3 &gt; Advanced Very High Resolution Radiometer-3</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date gco:nilReason="unknown"/>
+                        </gmd:CI_Citation>
+                    </gmi:citation>
+                    <gmi:identifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code>
+                                <gco:CharacterString>AVHRR-3</gco:CharacterString>
+                            </gmd:code>
+                            <gmd:description>
+                                <gco:CharacterString>Advanced Very High Resolution Radiometer-3</gco:CharacterString>
+                            </gmd:description>
+                        </gmd:MD_Identifier>
+                    </gmi:identifier>
+                    <gmi:type>
+                        <gco:CharacterString/>
+                    </gmi:type>
+                    <gmi:description gco:nilReason="missing"/>
+                    <gmi:mountedOn xlink:href="#d8920e77"/>
+                    <eos:sensor>
+                        <eos:EOS_Sensor id="d8920e91">
+                            <eos:citation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                    <gco:CharacterString>AVHRR-3&gt;Advanced Very High Resolution Radiometer-3</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date gco:nilReason="unknown"/>
+                                </gmd:CI_Citation>
+                            </eos:citation>
+                            <eos:identifier>
+                                <gmd:MD_Identifier>
+                                    <gmd:code>
+                                    <gco:CharacterString>AVHRR-3</gco:CharacterString>
+                                    </gmd:code>
+                                    <gmd:description>
+                                    <gco:CharacterString>Advanced Very High Resolution Radiometer-3</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:MD_Identifier>
+                            </eos:identifier>
+                            <eos:type gco:nilReason="missing"/>
+                            <eos:mountedOn xlink:href="#d8920e85"/>
+                        </eos:EOS_Sensor>
+                    </eos:sensor>
+                </eos:EOS_Instrument>
+            </gmi:instrument>
+            <gmi:platform>
+                <eos:EOS_Platform id="d8920e77">
+                    <gmi:identifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code>
+                                <gco:CharacterString>NOAA-18</gco:CharacterString>
+                            </gmd:code>
+                            <gmd:description>
+                                <gco:CharacterString>National Oceanic &amp; Atmospheric Administration-18</gco:CharacterString>
+                            </gmd:description>
+                        </gmd:MD_Identifier>
+                    </gmi:identifier>
+                    <gmi:description>
+                        <gco:CharacterString>SPACECRAFT</gco:CharacterString>
+                    </gmi:description>
+                    <gmi:instrument xlink:href="#d8920e85"/>
+                </eos:EOS_Platform>
+            </gmi:platform>
+        </gmi:MI_AcquisitionInformation>
+    </gmi:acquisitionInformation>
+</gmi:MI_Metadata>
