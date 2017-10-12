@@ -8,8 +8,8 @@ CrosswalkHome=$(pwd)
 
     java net.sf.saxon.Transform \
     -s:$Mile2/collection/dummy.xml \
-    -xsl:$CrosswalkHome/Rosetta/Rosetta.xsl \
-    -o:$Mile2/data/$1/$2_$3_data.csv \
+    -xsl:$CrosswalkHome/Evaluator/AllNodes.xsl \
+    -o:$Mile2/data/$1/$2_$3_dataAll.csv \
     recordSetPath=$Mile2/collection/$1/$2/$3/xml \
       
 
