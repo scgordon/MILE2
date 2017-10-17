@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="utf-8" ?><gmi:MI_Metadata
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:gco="http://www.isotc211.org/2005/gco"
+  xmlns:gfc="http://www.isotc211.org/2005/gfc"
+  xmlns:gmd="http://www.isotc211.org/2005/gmd"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:srv="http://www.isotc211.org/2005/srv"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gsr="http://www.isotc211.org/2005/gsr"
+  xmlns:gss="http://www.isotc211.org/2005/gss"
+  xmlns:gts="http://www.isotc211.org/2005/gts"
+  xmlns:gmi="http://www.isotc211.org/2005/gmi"
+  xmlns:gmx="http://www.isotc211.org/2005/gmx"
+  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>http://lod.bco-dmo.org/id/dataset/4001</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng; USA</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>Highest level of data collection, from a common set of sensors or instrumentation, usually within the same research project</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2013-07-19</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo xlink:href="https://www.ngdc.noaa.gov/docucomp/895cc120-95ed-11e0-aa80-0800200c9a66" xlink:title="WGS 84 / World Mercator"/>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/4001.rdf" xlink:actuate="onRequest">Transmissometer_GTC from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gmx:Anchor>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2013-11-05</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50572.rdf" xlink:actuate="onRequest">Dr Robert  F. Anderson</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/68.rdf" xlink:actuate="onRequest">Lamont-Doherty Earth Observatory</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+          </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>NAZT particle beam attenuation coefficient (Cp) data from GT-C (GEOTRACES carousel) rosette system Dataset Description: &amp;lt;p&amp;gt;NOTE: Revised dataset was served on 5 Nov. 2013.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Calibrated transmissometer data (particle beam attenuation coefficient, Cp) for the two deployed transmissometers (trace-metal clean Geotraces Carousel, GT-C; and the Ocean Data Facility conventional rosette, ODF, also known as the SIOR rosette). The transmissometers were WET Labs, Inc., 25 cm pathlength, C-Star transmissometer (660 nm). Traditional CTD readings (pressure, temp, sal, oxygen, depth) are reproduced here for convenience. Metadata for data other than Cp reported here should be consulted.&amp;lt;/p&amp;gt; Acquisition Description:</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/55143.rdf" xlink:title="OCE-0927064" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-0927064 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0927064</gmx:Anchor>
+      </gmd:credit>
+        <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50572.rdf" xlink:actuate="onRequest">Dr Robert  F. Anderson</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/68.rdf" xlink:actuate="onRequest">Lamont-Doherty Earth Observatory</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(845) 365-8508</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>61 U.S. Route 9W,  P.O. Box 1000 231 Comer</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Palisades</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>NY</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>10964-8000</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>boba@ldeo.columbia.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+            <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="009">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+          <gmd:maintenanceNote>
+            <gco:CharacterString>Dataset Version: 7 Oct 2013</gco:CharacterString>
+          </gmd:maintenanceNote>
+          </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35722.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1102.rdf" xlink:actuate="onRequest">cruise_id</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35723.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/829.rdf" xlink:actuate="onRequest">event</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35724.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1103.rdf" xlink:actuate="onRequest">sta</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35725.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/761.rdf" xlink:actuate="onRequest">cast</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35726.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/730.rdf" xlink:actuate="onRequest">latitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35727.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/731.rdf" xlink:actuate="onRequest">longitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35728.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/732.rdf" xlink:actuate="onRequest">pressure</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35729.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35730.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/733.rdf" xlink:actuate="onRequest">temperature</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35731.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35732.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/955.rdf" xlink:actuate="onRequest">sal</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35733.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35734.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/910.rdf" xlink:actuate="onRequest">dissolved Oxygen</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35735.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35736.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1825.rdf" xlink:actuate="onRequest">trans_raw</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35737.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35738.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/836.rdf" xlink:actuate="onRequest">fluor voltage</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35739.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35740.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/808.rdf" xlink:actuate="onRequest">depth</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35741.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35742.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1013.rdf" xlink:actuate="onRequest">transmission</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35743.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35744.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1147.rdf" xlink:actuate="onRequest">beam_cp</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35745.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-instrument/6224.rdf" xlink:title="http://lod.bco-dmo.org/id/instrument/593.rdf" xlink:actuate="onRequest">Wet Labs CSTAR Transmissometer</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>None, User defined</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1102.rdf" xlink:title="Parameter" xlink:actuate="onRequest">cruise id</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/829.rdf" xlink:title="Parameter" xlink:actuate="onRequest">event</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1103.rdf" xlink:title="Parameter" xlink:actuate="onRequest">station number</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/761.rdf" xlink:title="Parameter" xlink:actuate="onRequest">cast</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/730.rdf" xlink:title="Parameter" xlink:actuate="onRequest">latitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/731.rdf" xlink:title="Parameter" xlink:actuate="onRequest">longitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/732.rdf" xlink:title="Parameter" xlink:actuate="onRequest">water pressure</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1730.rdf" xlink:title="Parameter" xlink:actuate="onRequest">flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/733.rdf" xlink:title="Parameter" xlink:actuate="onRequest">water temperature</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/955.rdf" xlink:title="Parameter" xlink:actuate="onRequest">salinity calculated from CTD primary sensors</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/910.rdf" xlink:title="Parameter" xlink:actuate="onRequest">dissolved Oxygen</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1825.rdf" xlink:title="Parameter" xlink:actuate="onRequest">trans_raw</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/836.rdf" xlink:title="Parameter" xlink:actuate="onRequest">flvolt</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/808.rdf" xlink:title="Parameter" xlink:actuate="onRequest">depth</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1013.rdf" xlink:title="Parameter" xlink:actuate="onRequest">transmission</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1147.rdf" xlink:title="Parameter" xlink:actuate="onRequest">beam attenuation</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="featureType">featureType</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>BCO-DMO Standard Parameters</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/593.rdf" xlink:title="Instrument" xlink:actuate="onRequest">Wet Labs CSTAR Transmissometer</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>BCO-DMO Standard Instruments</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/58066.rdf" xlink:title="Cruise" xlink:actuate="onRequest">KN199-04</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/58786.rdf" xlink:title="Cruise" xlink:actuate="onRequest">KN204-01</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="service">service</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Deployment Activity</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+        <gmd:keyword>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/58786.rdf" xlink:title="Deployment Location" xlink:actuate="onRequest">Subtropical northern Atlantic Ocean</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Locations</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+          <gmd:MD_AggregateInformation>
+            <gmd:aggregateDataSetName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2022.rdf" xlink:title="Program" xlink:actuate="onRequest">U.S. GEOTRACES</gmx:Anchor>
+                </gmd:title>
+                <gmd:date gco:nilReason="inapplicable"/>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.geotraces.org/</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:name>
+                            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2022.rdf" xlink:title="Program Name" xlink:actuate="onRequest">U.S. GEOTRACES</gmx:Anchor>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>GEOTRACES is a SCOR sponsored program; and funding for program infrastructure development is provided by the U.S. National Science Foundation.GEOTRACES gained momentum following a special symposium, S02: Biogeochemical cycling of trace elements and isotopes in the ocean and applications to constrain contemporary marine processes (GEOSECS II), at a 2003 Goldschmidt meeting convened in Japan. The GEOSECS II acronym referred to the Geochemical Ocean Section Studies To determine full water column distributions of selected trace elements and isotopes, including their concentration, chemical speciation, and physical form, along a sufficient number of sections in each ocean basin to establish the principal relationships between these distributions and with more traditional hydrographic parameters;* To evaluate the sources, sinks, and internal cycling of these species and thereby characterize more completely the physical, chemical and biological processes regulating their distributions, and the sensitivity of these processes to global change; and* To understand the processes that control the concentrations of geochemical species used for proxies of the past environment, both in the water column and in the substrates that reflect the water column.GEOTRACES will be global in scope, consisting of ocean sections complemented by regional process studies. Sections and process studies will combine fieldwork, laboratory experiments and modelling. Beyond realizing the scientific objectives identified above, a natural outcome of this work will be to build a community of marine scientists who understand the processes regulating trace element cycles sufficiently well to exploit this knowledge reliably in future interdisciplinary studies.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                          </gmd:function>
+                      </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role/>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+          </gmd:CI_Citation>
+        </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2022.rdf" xlink:title="Program Acronym" xlink:actuate="onRequest">U.S. GEOTRACES</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="program">program</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo><gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/2066.rdf" xlink:title="Project" xlink:actuate="onRequest">U.S. GEOTRACES North Atlantic Transect</gmx:Anchor>
+                </gmd:title>
+                <gmd:date gco:nilReason="inapplicable"/>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.geotraces.org/</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:name>
+                            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/2066.rdf" xlink:title="Project Name" xlink:actuate="onRequest">U.S. GEOTRACES North Atlantic Transect</gmx:Anchor>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/GEOTRACES_Atl_stas.jpg</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                          </gmd:function>
+                      </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role/>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+          </gmd:CI_Citation>
+        </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/2066.rdf" xlink:title="Project Acronym" xlink:actuate="onRequest">U.S. GEOTRACES NAT</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="project">project</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+       <gmd:extent>
+        <gmd:EX_Extent id="boundingExtent"><gmd:description>
+            <gco:CharacterString>Subtropical northern Atlantic Ocean</gco:CharacterString>
+          </gmd:description><gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-69.81104</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-9.6601</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.3501</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>39.70024</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
+                  <gml:timePosition>2013-11-05</gml:timePosition>
+                </gml:TimeInstant>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+          </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmd:MD_FeatureCatalogueDescription>
+      <gmd:includedWithDataset>
+        <gco:Boolean>0</gco:Boolean>
+      </gmd:includedWithDataset>
+      <gmd:featureCatalogueCitation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Transmissometer_GTC from the U.S. GEOTRACES NAT project of the U.S. GEOTRACES program</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="unknown"/>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>
+            http://lod.bco-dmo.org/id/dataset-parameter/35722.rdf
+	Name: CRUISE_ID
+	Units: unitless
+	Description: cruise identification: GT11 = KN204; GT10 = KN199-4 
+http://lod.bco-dmo.org/id/dataset-parameter/35723.rdf
+	Name: GEOTRC_EVENTNO
+	Units: unitless
+	Description: Geotraces event number 
+http://lod.bco-dmo.org/id/dataset-parameter/35724.rdf
+	Name: STNNBR
+	Units: unitless
+	Description: Station number within each cruise 
+http://lod.bco-dmo.org/id/dataset-parameter/35725.rdf
+	Name: CASTNO
+	Units: unitless
+	Description: Cast number within each station 
+http://lod.bco-dmo.org/id/dataset-parameter/35726.rdf
+	Name: LATITUDE
+	Units: decimal degrees
+	Description: Station latitude; north is positive 
+http://lod.bco-dmo.org/id/dataset-parameter/35727.rdf
+	Name: LONGITUDE
+	Units: decimal degrees
+	Description: Station longitude; east is positive 
+http://lod.bco-dmo.org/id/dataset-parameter/35728.rdf
+	Name: CTDPRS
+	Units: decibars
+	Description: pressure 
+http://lod.bco-dmo.org/id/dataset-parameter/35729.rdf
+	Name: CTDPRS_FLAG_W
+	Units: unitless
+	Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted 
+http://lod.bco-dmo.org/id/dataset-parameter/35730.rdf
+	Name: CTDTMP
+	Units: degrees Celsius (ITS-90)
+	Description: temperature 
+http://lod.bco-dmo.org/id/dataset-parameter/35731.rdf
+	Name: CTDTMP_FLAG_W
+	Units: unitless
+	Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted 
+http://lod.bco-dmo.org/id/dataset-parameter/35732.rdf
+	Name: CTDSAL
+	Units: practical salinity scale (PSS-78)
+	Description: practical salinity 
+http://lod.bco-dmo.org/id/dataset-parameter/35733.rdf
+	Name: CTDSAL_FLAG_W
+	Units: unitless
+	Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted 
+http://lod.bco-dmo.org/id/dataset-parameter/35734.rdf
+	Name: CTDOXY
+	Units: micromole per kilogram
+	Description: dissolved oxygen 
+http://lod.bco-dmo.org/id/dataset-parameter/35735.rdf
+	Name: CTDOXY_FLAG_W
+	Units: unitless
+	Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted 
+http://lod.bco-dmo.org/id/dataset-parameter/35736.rdf
+	Name: TRANSM
+	Units: volts
+	Description: raw transmissometer reading 
+http://lod.bco-dmo.org/id/dataset-parameter/35737.rdf
+	Name: TRANSM_FLAG_W
+	Units: unitless
+	Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted 
+http://lod.bco-dmo.org/id/dataset-parameter/35738.rdf
+	Name: FLUORM
+	Units: volts
+	Description: fluorometer voltage measurement 
+http://lod.bco-dmo.org/id/dataset-parameter/35739.rdf
+	Name: FLUORM_FLAG_W
+	Units: unitless
+	Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted 
+http://lod.bco-dmo.org/id/dataset-parameter/35740.rdf
+	Name: DEPTH
+	Units: meters
+	Description: depth of sample 
+http://lod.bco-dmo.org/id/dataset-parameter/35741.rdf
+	Name: DEPTH_FLAG_W
+	Units: unitless
+	Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted 
+http://lod.bco-dmo.org/id/dataset-parameter/35742.rdf
+	Name: Trans
+	Units: unitless
+	Description: light transmittance 
+http://lod.bco-dmo.org/id/dataset-parameter/35743.rdf
+	Name: Trans_Flag
+	Units: unitless
+	Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted 
+http://lod.bco-dmo.org/id/dataset-parameter/35744.rdf
+	Name: Cp
+	Units: per meter
+	Description: Particle beam attenuation coefficient 
+http://lod.bco-dmo.org/id/dataset-parameter/35745.rdf
+	Name: Cp_Flag
+	Units: unitless
+	Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted 
+</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:featureCatalogueCitation>
+      <gmd:featureCatalogueCitation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>GB/NERC/BODC &gt; British Oceanographic Data Centre, Natural Environment Research Council, United Kingdom</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="unknown"/>
+          <gmd:citedResponsibleParty xlink:href="https://www.ngdc.noaa.gov/docucomp/3D8FE2C9DA324D40939C8D007587E011" xlink:title="GB/NERC/BODC &gt; British Oceanographic Data Centre, Natural Environment Research Council, United Kingdom"/>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>
+            http://vocab.nerc.ac.uk/collection/P09/current/LATX/ 
+	Name: LATITUDE 
+	Description: The angular distance north or south from the equator, measured along the meridian of the point of interest. 
+http://vocab.nerc.ac.uk/collection/P09/current/LONX/ 
+	Name: LONGITUDE 
+	Description: The angular distance east or west east or west of Greenwich to the point of interest. 
+http://vocab.nerc.ac.uk/collection/P01/current/PRESPR01/ 
+	Name: Pressure (spatial co-ordinate) exerted by the water body by profiling pressure sensor and corrected to read zero at sea level 
+	Description: The force per unit area exerted by the water column on a mobile sensor located in the water column. 
+http://vocab.nerc.ac.uk/collection/P01/current/TEMPP901/ 
+	Name: Temperature (ITS-90) of the water body 
+	Description: The degree of hotness at any position within a volume of fresh or salt water expressed against the International Temperature Scale 1990 (ITS-90) calibration standard. 
+http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/ 
+	Name: Practical salinity of the water body by CTD and computation using UNESCO 1983 algorithm 
+	Description: This is the preferred term for this definition.  Alternative term PSALST02 is included to cover cases where there are two sensors of the same type contributing to the data set and referential integrity considerations prevent a usage of a single code. 
+http://vocab.nerc.ac.uk/collection/P09/current/DEPH/ 
+	Name: DEPTH BELOW SEA SURFACE 
+	Description: The distance of a sensor or sampling point below the sea surface. 
+http://vocab.nerc.ac.uk/collection/P01/current/ATTNZZ01/ 
+	Name: Attenuance (unspecified wavelength) per unit length of the water body by transmissometer 
+	Description: Red light unspecified path length transmissometer 
+</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:featureCatalogueCitation>
+    </gmd:MD_FeatureCatalogueDescription>
+  </gmd:contentInfo>
+  <gmd:contentInfo>
+    <gmi:MI_CoverageDescription>
+      <gmd:attributeDescription>
+        <gco:RecordType>Parameters for this dataset</gco:RecordType>
+      </gmd:attributeDescription>
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeList="MD_CoverageContentTypeCode" codeListValue="physicalMeasurement">physicalMeasurement</gmd:MD_CoverageContentTypeCode>
+      </gmd:contentType>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35722.rdf" xlink:title="cruise id" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CRUISE_ID</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>cruise id</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: cruise identification: GT11 = KN204; GT10 = KN199-4; General Description: cruise designation; name</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35722">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35722.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35722.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35723.rdf" xlink:title="event" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>GEOTRC_EVENTNO</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>event</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Geotraces event number; General Description: event or operation number; often derived from date/time (MMDDHHmm) of sampling and when combined with year (YYYY) is a unique sampling identifier/data processing key.  Date/time is not necessarily in GMT.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35723">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35723.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35723.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35724.rdf" xlink:title="station number" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>STNNBR</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>station number</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Station number within each cruise; General Description: station number; generally sequential; a unique number designating a general geographic location at which one or more sampling activities may occur.* Please use station rather than sta</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35724">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35724.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35724.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35725.rdf" xlink:title="cast" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CASTNO</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>cast</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Cast number within each station; General Description: cast or profile number</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35725">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35725.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35725.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35726.rdf" xlink:title="latitude" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>LATITUDE</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P09/current/LATX/" xlink:title="LATITUDE" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>latitude</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Station latitude; north is positive; General Description: latitude, in decimal degrees, North is positive, negative denotes South; Reported in some datasets as degrees, minutes NERC Description: The angular distance north or south from the equator, measured along the meridian of the point of interest.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35726">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35726.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35726.rdf</gml:identifier>
+             <gml:name>decimal degrees</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35727.rdf" xlink:title="longitude" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>LONGITUDE</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P09/current/LONX/" xlink:title="LONGITUDE" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>longitude</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Station longitude; east is positive; General Description: longitude, in decimal degrees, East is positive, negative denotes West; Reported in some datsets as degrees, minutes NERC Description: The angular distance east or west east or west of Greenwich to the point of interest.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35727">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35727.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35727.rdf</gml:identifier>
+             <gml:name>decimal degrees</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35728.rdf" xlink:title="water pressure" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CTDPRS</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/PRESPR01/" xlink:title="Pressure (spatial co-ordinate) exerted by the water body by profiling pressure sensor and corrected to read zero at sea level" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>water pressure</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: pressure; General Description: water pressure at measurement; depth reported as pressure; positive number increasing with water depth NERC Description: The force per unit area exerted by the water column on a mobile sensor located in the water column.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35728">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35728.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35728.rdf</gml:identifier>
+             <gml:name>decibars</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35729.rdf" xlink:title="flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CTDPRS_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted; General Description: Data flag. Multiple uses which are dataset dependent. Some uses: data quality, collection occurance or success, depth indicator. See dataset documentation for specific details</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35729">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35729.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35729.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35730.rdf" xlink:title="water temperature" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CTDTMP</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/TEMPP901/" xlink:title="Temperature (ITS-90) of the water body" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>water temperature</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: temperature; General Description: water temperature at measurement depth NERC Description: The degree of hotness at any position within a volume of fresh or salt water expressed against the International Temperature Scale 1990 (ITS-90) calibration standard.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35730">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35730.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35730.rdf</gml:identifier>
+             <gml:name>degrees Celsius (ITS-90)</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35731.rdf" xlink:title="flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CTDTMP_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted; General Description: Data flag. Multiple uses which are dataset dependent. Some uses: data quality, collection occurance or success, depth indicator. See dataset documentation for specific details</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35731">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35731.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35731.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35732.rdf" xlink:title="salinity calculated from CTD primary sensors" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CTDSAL</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/" xlink:title="Practical salinity of the water body by CTD and computation using UNESCO 1983 algorithm" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>salinity calculated from CTD primary sensors</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: practical salinity; General Description: salinity, calculated from the CTD 'primary sensors' of conductivity and temperature, Practical Salinity Scale (PSS-78), dimensionless. Depending on the input source, salinity from the primary sensors can have a variety of names i.e. s0, s00, sal0, sal00. NERC Description: This is the preferred term for this definition.  Alternative term PSALST02 is included to cover cases where there are two sensors of the same type contributing to the data set and referential integrity considerations prevent a usage of a single code.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35732">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35732.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35732.rdf</gml:identifier>
+             <gml:name>practical salinity scale (PSS-78)</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35733.rdf" xlink:title="flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CTDSAL_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted; General Description: Data flag. Multiple uses which are dataset dependent. Some uses: data quality, collection occurance or success, depth indicator. See dataset documentation for specific details</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35733">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35733.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35733.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35734.rdf" xlink:title="dissolved Oxygen" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CTDOXY</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>dissolved Oxygen</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: dissolved oxygen; General Description: dissolved oxygen; e.g. measurement from a high resolution CTD instrument</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35734">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35734.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35734.rdf</gml:identifier>
+             <gml:name>micromole per kilogram</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35735.rdf" xlink:title="flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CTDOXY_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted; General Description: Data flag. Multiple uses which are dataset dependent. Some uses: data quality, collection occurance or success, depth indicator. See dataset documentation for specific details</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35735">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35735.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35735.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35736.rdf" xlink:title="trans_raw" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>TRANSM</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>trans_raw</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: raw transmissometer reading; General Description: Raw 12-bit transmittance in counts</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35736">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35736.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35736.rdf</gml:identifier>
+             <gml:name>volts</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35737.rdf" xlink:title="flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>TRANSM_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted; General Description: Data flag. Multiple uses which are dataset dependent. Some uses: data quality, collection occurance or success, depth indicator. See dataset documentation for specific details</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35737">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35737.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35737.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35738.rdf" xlink:title="flvolt" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>FLUORM</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flvolt</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: fluorometer voltage measurement; General Description: fluorometer voltage measurements, in volts</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35738">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35738.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35738.rdf</gml:identifier>
+             <gml:name>volts</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35739.rdf" xlink:title="flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>FLUORM_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted; General Description: Data flag. Multiple uses which are dataset dependent. Some uses: data quality, collection occurance or success, depth indicator. See dataset documentation for specific details</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35739">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35739.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35739.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35740.rdf" xlink:title="depth" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>DEPTH</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P09/current/DEPH/" xlink:title="DEPTH BELOW SEA SURFACE" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>depth</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: depth of sample; General Description: observation/sample depth, in meters; best estimate; usually but not always calculated from pressure; calculated either from CTD pressure using Fofonoff and Millard (1982; UNESCO Tech Paper #44) algorithm adjusted for 1980 equation of state for seawater (EOS80) or simply equivalent to nominal depth as recorded during sampling if CTD pressure was unavailable NERC Description: The distance of a sensor or sampling point below the sea surface.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35740">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35740.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35740.rdf</gml:identifier>
+             <gml:name>meters</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35741.rdf" xlink:title="flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>DEPTH_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted; General Description: Data flag. Multiple uses which are dataset dependent. Some uses: data quality, collection occurance or success, depth indicator. See dataset documentation for specific details</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35741">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35741.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35741.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35742.rdf" xlink:title="transmission" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Trans</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>transmission</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: light transmittance; General Description: light transmission, as percent</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35742">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35742.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35742.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35743.rdf" xlink:title="flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Trans_Flag</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted; General Description: Data flag. Multiple uses which are dataset dependent. Some uses: data quality, collection occurance or success, depth indicator. See dataset documentation for specific details</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35743">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35743.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35743.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35744.rdf" xlink:title="beam attenuation" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Cp</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/ATTNZZ01/" xlink:title="Attenuance (unspecified wavelength) per unit length of the water body by transmissometer" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>beam attenuation</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Particle beam attenuation coefficient; General Description: attenuation (loss of light) of a narrow, well collimated beam of light;  beam attenuation due to particles;  the particulate beam attenuation coefficient (cp) NERC Description: Red light unspecified path length transmissometer</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35744">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35744.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35744.rdf</gml:identifier>
+             <gml:name>per meter</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/35745.rdf" xlink:title="flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Cp_Flag</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: 1 = uncalibrated reading; 2 = calibrated and no problems noted; General Description: Data flag. Multiple uses which are dataset dependent. Some uses: data quality, collection occurance or success, depth indicator. See dataset documentation for specific details</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits35745">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/35745.rdf">http://lod.bco-dmo.org/id/dataset-parameter/35745.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      </gmi:MI_CoverageDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+        <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.bco-dmo.org/dataset/4001/data/download</gmd:URL>
+              </gmd:linkage>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:processStep xlink:title="Processing Description">
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Calibrating the transmissometer data from the Geotraces North Atlantic Transect&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;amp;nbsp;Christopher Hayes (Lamont-Doherty Earth Observatory of Columbia University)&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The Geotraces North Atlantic Transect consisted of two legs: KN199-4 (aka GT10) and K204 (aka GT11).&amp;amp;nbsp; Transmissometer data was collected on three deployment systems during these cruises: (1) the Geotraces rosette or carousel (GT-C) which collected contamination prone elements in Go-Flo bottles, (2) a conventional Niskin bottle rosette operated by the Ocean Data Facility out of Scripps (ODF) and (3) a CTD attached to the end of the wire used for deploying in-situ pumps (PUMP). This document describes calibration of the raw voltages (from downcasts) recorded from the ODF and GT-C transmissometers and how they were calibrated into particle beam attenuation coefficients (Cp) which should be independent of the collection system. In this calibration the PUMP data was consulted but it will be submitted separately.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Equations used&amp;lt;/strong&amp;gt; (from GEOTRACES protocols, 2010; see also Bishop and Wood, 2008):&amp;lt;br /&amp;gt;[V_CTD_ref - V_CTD_dark ] = (V_factory_ref - V_factory_dark) *&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; (V_CTD_air - V_CTD_dark)&amp;amp;nbsp; / (V_factory_air - V_factory_dark)&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Transmission (tr.) = (V_obs - V_CTD_dark) / [V_CTD_ref - V_CTD_dark ]&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Cp = - 4 * ln(tr.)&amp;lt;br /&amp;gt;V_factory_ref is the maximum voltage as reported by the factory&amp;lt;br /&amp;gt;V_factory_dark is the minimum voltage (blocked path) as reported by the factory&amp;lt;br /&amp;gt;V_factory_air is the voltage reading in clean air as reported by the factory&amp;lt;br /&amp;gt;V_CTD_air is the voltage reading in clean air (cleaned windows) reported on board&amp;lt;br /&amp;gt;V_CTD_dark is the minimum (blocked path) voltage reading reported on board&amp;lt;br /&amp;gt;V_obs is the voltage reading observed during the cast&amp;lt;br /&amp;gt;Cp is calculated here for a 25 cm path length transmissometer and is in units of [1/m].&amp;lt;br /&amp;gt;V_CTD_air&amp;amp;nbsp; and V_CTD_dark were checked routinely at sea for the PUMP on both cruises and only occasionally on the second cruise for the GT-C and ODF. The transmissometer windows were cleaned routinely for the PUMP and GT-C on both cruises and periodically for the ODF system.&amp;amp;nbsp; Based on the relatively stability of voltages at the particle minimum (~3 km depth) for the PUMP and GT-C systems, there do not appear to be significant drift issues. This was not true for the ODF system.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The calibration equations calculations, using the shipboard voltage readings result in negative Cp values (&amp;amp;gt;100% transmission) for both the GT-C and PUMP systems because the V_factory_ref is too low (presumably the distilled water used in factory calibration is more particle-rich than seawater). The maximum voltage for each system therefore had to be tuned (values listed below). The cruise-wide maximum transmission was set to about 0.997 which occurs in the deep western basin (cruise KN204 or GT11, station 12). The data from the first leg of the cruise (KN199-4 or GT10) was tuned so that the Cp profiles matched in deep water at the cross-over station (TENATSO = GT11 station 24 = GT10 station 12).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;There was significant variability in the background (deep water) values on the ODF system. Either ODF had drift or windows weren’t always cleaned between casts. There was also a problem with the profile shape of the transmissometer data collected by the ODF cast. The maximum voltage on the ODF casts was reached at ~1km rather than 2-3km from PUMP and GT-C. I have attempted to correct the ODF data for drift by matching Cp values at the clear water minimum (~3 km depth) with the PUMP and GT-C casts, but the profile shape problem cannot be corrected for. I therefore do not recommend using the ODF transmissometer data quantitatively; although, for large beam attenuation signals like nepheloid layers or the hydrothermal plume, Cp estimated from the ODF casts is most likely a reasonable estimate.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The Cp results for the PUMP and GT-C casts generally appear internally consistent. The PUMP did not produce reliable voltage readings for the full water column at GT10 station 11 and GT11 stations 2 and 6. The GT-C casts also sampled demi-stations, shallow casts halfway between the full depth stations. One other factor about the data collection is that the during the GT-C downcasts, there was uninterrupted descent of the transmissometer (whereas during the PUMP up- and down- casts the transmissometer is stalled during deployment and retrieval of each pump from the wire). The GT-C rosette, however, did not sample at GT11 station 4, because of time constraints. This is unfortunate because this station was observed to have most particle rich nepheloid layer of the entire cruise. In order to have one file with Cp for all the deep stations, I have pasted in the Cp values measured by the PUMP system at GT11 station 4 into the GT-C data and did a slight adjustment so the deep background values matched between the surround stations 3 and 6 (GT11) in the GT-C casts.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References&amp;lt;/strong&amp;gt;:&amp;lt;br /&amp;gt;Geotraces. 2010. Sample and sample-handing protocols for GEOTRACES Cruises. In Standards and Intercalibration Committee [ed.]. http://www.obs-vlfr.fr/GEOTRACES/libraries/documents/Intercalibration/Cookbook.pdf.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bishop, J.K.B., Wood, T.J., 2008. Particulate matter chemistry and dynamics in the twilight zone at VERTIGO ALOHA and K2 sites. Deep Sea Research Part I: Oceanographic Research Papers 55 (12), 1684-1706.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;strong&amp;gt;Calibration (tuned) voltages used&amp;lt;/strong&amp;gt;:&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; [V_CTD_ref - V_CTD_dark]&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; V_CTD_dark&amp;lt;br /&amp;gt;GT11, GT-C casts:&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.686 V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.055 V&amp;lt;br /&amp;gt;GT10, GT-C casts: &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.646 V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.055 V&amp;lt;br /&amp;gt;GT11, PUMP casts:&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.852 V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.055 V&amp;lt;br /&amp;gt;GT10, PUMP casts:&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.8155 V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.0556 V&amp;lt;br /&amp;gt;GT11, st. 4 (GT-C) &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.8443&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; V&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.055 V*Note GT-C did not sample St. 4, these are the modified values for using the PUMP data at St. 4 in the GT-C section&amp;lt;br /&amp;gt;For ODF casts:&amp;lt;br /&amp;gt;Cruise&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Station&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Cast&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; V_CTD_ref-V_CTD_dark&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; V_CTD_dark&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.555&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.545&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.543&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 13&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 14&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 14&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 14&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.533&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 15&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.54&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 16&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.537&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 17&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.535&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 18&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.529&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 18&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.529&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 18&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.525&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 19&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.528&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.525&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.525&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.525&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.523&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.52&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 20&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.518&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 21&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.518&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 22&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.518&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 22&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.515&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 22&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.515&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 23&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.515&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 24&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.508&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 24&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.508&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 24&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.508&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.605&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.58&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.58&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 7&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.58&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 8&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.592&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 1&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.595&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 3&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 5&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 9&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.59&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.585&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 11&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.58&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 2&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.575&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.575&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;GT10&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 12&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 6&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 4.575&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; 0.059&amp;lt;br /&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</gco:CharacterString>
+              </gmd:description>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+   </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="009">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:maintenanceNote>
+        <gco:CharacterString>7.x-1.1</gco:CharacterString>
+      </gmd:maintenanceNote>
+      <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+      </gmd:contact>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+  <gmi:acquisitionInformation>
+    <gmi:MI_AcquisitionInformation>
+    <gmi:instrument>
+        <gmi:MI_Instrument>
+          <gmi:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/593.rdf" xlink:title="Wet Labs CSTAR Transmissometer" xlink:actuate="onRequest">Wet Labs CSTAR Transmissometer</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmi:identifier>
+          <gmi:type>
+            <gco:CharacterString>Wet Labs CSTAR Transmissometer</gco:CharacterString>
+          </gmi:type>
+          <gmi:description>
+            <gco:CharacterString>PI Supplied Instrument Name: Wet Labs CSTAR Transmissometer PI Supplied Instrument Description:25 cm pathlength, 660 nm Instrument Name: Wet Labs CSTAR Transmissometer Instrument Short Name:WL CSTAR Trans   Instrument Description: A highly integrated opto-electronic design to provide a low cost, compact solution for underwater measurements of beam transmittance. The instrument is capable of either free space measurements, or through the use of an optical flow tube, flow-through sampling with a pump. It can be used in profiling, moored, or underway applications. more information from Wet Labs Community Standard Description: http://vocab.nerc.ac.uk/collection/L22/current/TOOL0160/</gco:CharacterString>
+          </gmi:description>
+        </gmi:MI_Instrument>
+      </gmi:instrument>
+      <gmi:operation>
+          <gmi:MI_Operation>
+            <gmi:description>
+              <gco:CharacterString>Cruise: KN199-04</gco:CharacterString>
+            </gmi:description>
+            <gmi:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/58066.rdf" xlink:title="Cruise" xlink:actuate="onRequest">KN199-04</gmx:Anchor>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmi:identifier>
+            <gmi:status>
+              <gmd:MD_ProgressCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+            </gmi:status>
+            <gmi:type>
+              <gmi:MI_OperationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MI_OperationTypeCode" codeListValue="real"/>
+            </gmi:type>
+            <gmi:parentOperation gco:nilReason="inapplicable"/>
+            <gmi:platform>
+              <gmi:MI_Platform>
+                <gmi:citation>
+                 <gmd:CI_Citation>
+                   <gmd:title>
+                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+                   </gmd:title>
+                   <gmd:date gco:nilReason="unknown"/>
+                 </gmd:CI_Citation>
+                </gmi:citation>
+                <gmi:citation>
+                 <gmd:CI_Citation>
+                   <gmd:title>
+                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+                   </gmd:title>
+                   <gmd:date gco:nilReason="unknown"/>
+                 </gmd:CI_Citation>
+                </gmi:citation>
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:authority>
+                      <gmd:CI_Citation>
+                        <gmd:title>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+                        </gmd:title>
+                        <gmd:date gco:nilReason="unknown"/>
+                      </gmd:CI_Citation>
+                    </gmd:authority>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:description>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+                </gmi:description>
+                <gmi:instrument gco:nilReason="unknown"/>
+              </gmi:MI_Platform>
+            </gmi:platform>
+            <gmi:plan>
+              <gmi:MI_Plan>
+                <gmi:status>
+                  <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+                </gmi:status>
+                <gmi:citation>
+                  <gmd:CI_Citation>
+                    <gmd:title>
+                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/58066.rdf" xlink:title="Cruise" xlink:actuate="onRequest">KN199-04</gmx:Anchor>
+                    </gmd:title>
+                    <gmd:date gco:nilReason="unknown"/>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                      <gmd:individualName>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50745.rdf" xlink:actuate="onRequest">Dr William  J. Jenkins</gmx:Anchor>
+                        </gmd:individualName>
+                        <gmd:organisationName>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/2.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Woods Hole Oceanographic Institution</gmx:Anchor>
+                        </gmd:organisationName>
+                        <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                          <gmd:onlineResource>
+                            <gmd:CI_OnlineResource>
+                              <gmd:linkage>
+                                <gmd:URL>http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/Cruise_Report_for_Knorr_199_Final_v3.pdf</gmd:URL>
+                              </gmd:linkage>
+                              <gmd:description>
+                                <gco:CharacterString>Report describing KN199-04</gco:CharacterString>
+                              </gmd:description>
+                            </gmd:CI_OnlineResource>
+                          </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                      </gmd:contactInfo>
+                      <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+                      </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                   </gmd:CI_Citation>
+                </gmi:citation>
+              </gmi:MI_Plan>
+            </gmi:plan>
+            </gmi:MI_Operation>
+      </gmi:operation><gmi:operation>
+          <gmi:MI_Operation>
+            <gmi:description>
+              <gco:CharacterString>Cruise: KN204-01</gco:CharacterString>
+            </gmi:description>
+            <gmi:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/58786.rdf" xlink:title="Cruise" xlink:actuate="onRequest">KN204-01</gmx:Anchor>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmi:identifier>
+            <gmi:status>
+              <gmd:MD_ProgressCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+            </gmi:status>
+            <gmi:type>
+              <gmi:MI_OperationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MI_OperationTypeCode" codeListValue="real"/>
+            </gmi:type>
+            <gmi:parentOperation gco:nilReason="inapplicable"/>
+            <gmi:platform>
+              <gmi:MI_Platform>
+                <gmi:citation>
+                 <gmd:CI_Citation>
+                   <gmd:title>
+                     <gmx:Anchor xlink:href="http://www.whoi.edu/page.do?pid=8157" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+                   </gmd:title>
+                   <gmd:date gco:nilReason="unknown"/>
+                 </gmd:CI_Citation>
+                </gmi:citation>
+                <gmi:citation>
+                 <gmd:CI_Citation>
+                   <gmd:title>
+                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/316N" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+                   </gmd:title>
+                   <gmd:date gco:nilReason="unknown"/>
+                 </gmd:CI_Citation>
+                </gmi:citation>
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:authority>
+                      <gmd:CI_Citation>
+                        <gmd:title>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+                        </gmd:title>
+                        <gmd:date gco:nilReason="unknown"/>
+                      </gmd:CI_Citation>
+                    </gmd:authority>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf"
+                       xlink:title="316N" xlink:actuate="onRequest">R/V Knorr</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:description>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/53994.rdf" xlink:title="R/V Knorr" xlink:actuate="onRequest">vessel</gmx:Anchor>
+                </gmi:description>
+                <gmi:instrument gco:nilReason="unknown"/>
+              </gmi:MI_Platform>
+            </gmi:platform>
+            <gmi:plan>
+              <gmi:MI_Plan>
+                <gmi:status>
+                  <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+                </gmi:status>
+                <gmi:citation>
+                  <gmd:CI_Citation>
+                    <gmd:title>
+                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/58786.rdf" xlink:title="Cruise" xlink:actuate="onRequest">KN204-01</gmx:Anchor>
+                    </gmd:title>
+                    <gmd:date gco:nilReason="unknown"/>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                      <gmd:individualName>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50984.rdf" xlink:actuate="onRequest">Dr Edward  A. Boyle</gmx:Anchor>
+                        </gmd:individualName>
+                        <gmd:organisationName>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/222.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">Massachusetts Institute of Technology</gmx:Anchor>
+                        </gmd:organisationName>
+                        <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                          <gmd:onlineResource>
+                            <gmd:CI_OnlineResource>
+                              <gmd:linkage>
+                                <gmd:URL>http://bcodata.whoi.edu/US_GEOTRACES/AtlanticSection/STS_Prelim_GT11_Doc.pdf</gmd:URL>
+                              </gmd:linkage>
+                              <gmd:description>
+                                <gco:CharacterString>Report describing KN204-01</gco:CharacterString>
+                              </gmd:description>
+                            </gmd:CI_OnlineResource>
+                          </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                      </gmd:contactInfo>
+                      <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+                      </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                   </gmd:CI_Citation>
+                </gmi:citation>
+              </gmi:MI_Plan>
+            </gmi:plan>
+            </gmi:MI_Operation>
+      </gmi:operation></gmi:MI_AcquisitionInformation>
+  </gmi:acquisitionInformation>
+</gmi:MI_Metadata>
