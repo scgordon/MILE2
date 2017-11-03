@@ -1,0 +1,2178 @@
+<?xml version="1.0" encoding="utf-8" ?><gmi:MI_Metadata
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:gco="http://www.isotc211.org/2005/gco"
+  xmlns:gfc="http://www.isotc211.org/2005/gfc"
+  xmlns:gmd="http://www.isotc211.org/2005/gmd"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:srv="http://www.isotc211.org/2005/srv"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gsr="http://www.isotc211.org/2005/gsr"
+  xmlns:gss="http://www.isotc211.org/2005/gss"
+  xmlns:gts="http://www.isotc211.org/2005/gts"
+  xmlns:gmi="http://www.isotc211.org/2005/gmi"
+  xmlns:gmx="http://www.isotc211.org/2005/gmx"
+  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>http://lod.bco-dmo.org/id/dataset/643494</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng; USA</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>Highest level of data collection, from a common set of sensors or instrumentation, usually within the same research project</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2016-04-26</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo xlink:href="https://www.ngdc.noaa.gov/docucomp/895cc120-95ed-11e0-aa80-0800200c9a66" xlink:title="WGS 84 / World Mercator"/>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset/643494.rdf" xlink:actuate="onRequest">Mercury speciation across the US GEOTRACES East Pacific Zonal Transect, from cruise TN303, 2013</gmx:Anchor>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-06-13</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50968.rdf" xlink:actuate="onRequest">Dr Carl Lamborg</gmx:Anchor>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/120.rdf" xlink:actuate="onRequest">University of California-Santa Cruz</gmx:Anchor>
+              </gmd:organisationName>
+              <gmd:positionName>
+               <gco:CharacterString></gco:CharacterString>
+              </gmd:positionName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+          </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Mercury speciation across the US GEOTRACES East Pacific Zonal Transect, from cruise TN303, 2013 Dataset Description: &amp;lt;p&amp;gt;This dataset includes concentrations of filtered total mercury, elemental mercury, monomethylmercury and dimethylmercury from 18 full-depth stations (36 depths each), 13 demi stations (12 depths in upper 1000 m), and 4 stations on the South American margin (6–23 depths).&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The FISH and BOTTLE data have been split into separate columns as per GEOTRACES Parameter Naming Conventions.The data is the same as version 2016-04-22.&amp;amp;nbsp;The&amp;amp;nbsp;FISH data are to the far right.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;* To access the data with the FISH and BOTTLE data merged, see:&amp;lt;br /&amp;gt;http://datap-geotraces-epzt.bco-dmo.org/jg/serv/RESTRICTED/GEOTRACES/EPZT/Hg_filtered_joined.html0%7Bdir=data.bco-dmo.org/jg/dir/BCO/GEOTRACES/EPZT/,info=data.bco-dmo.org/jg/info/BCO/GEOTRACES/EPZT/Hg_filtered%7D&amp;lt;/p&amp;gt; Acquisition Description: &amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Detailed method descriptions can be found in Lamborg et al., 2012, Hammerschmidt &amp;amp;amp; Bowman, 2012, Bowman et al., 2015&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Sample collection: Cutter &amp;amp;amp; Bruland, 2012&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;TMR - trace metal rosette&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;FISH – trace-metal clean, surface towed pump system&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Sample bottles/cleaning: Hammerschmidt et al., 2012&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;HgT analysis:&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Fitzgerald &amp;amp;amp; Gill, 1979, Bloom &amp;amp;amp; Fitzgerald, 1988, Bloom, 1989&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Tekran Model 2500 CVAFS Mercury Detector&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Detection limit: 0.03 pM&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Procedural duplicates: 7 ± 9% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt; 29)&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Recovery of known additions: 97 ± 2% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt; 5)&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Hg&amp;lt;sup&amp;gt;0&amp;lt;/sup&amp;gt; analysis:&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Fitzgerald &amp;amp;amp; Gill, 1979, Bloom &amp;amp;amp; Fitzgerald, 1988, Bloom, 1989&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Tekran Model 2500 CVAFS Detector&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Detection limit: 0.01 pM&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Procedural duplicates: 20 ± 15%, &amp;lt;em&amp;gt;n = &amp;lt;/em&amp;gt;27&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Recovery of known additions: N/A&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;MMHg analysis:&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Bowman &amp;amp;amp; Hammerschmidt, 2011, Tseng et al., 2004, Munson et al., 2014&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Tekran Model 2500 CVAFS Mercury Detector&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Detection limit: 0.02 pM&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Procedural duplicates: 35 ± 22% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt; 6)&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Recovery of known additions: 84 ± 12% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt;3)&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;DMHg analysis:&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Bowman &amp;amp;amp; Hammerschmidt, 2011, Tseng et al., 2004, Baya et al., 2013&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Tekran Model 2500 CVAFS Mercury Detector&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Detection limit: 0.002 pM&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Procedural duplicates: 27 ± 20% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt; 17)&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Recovery of known additions: N/A&amp;amp;nbsp;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;“lt_DL” indicates that a sample was below the method detection limit.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample volumes were used to calculate picomolar concentrations of different mercury species.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related References:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Baya, P.A., Hollinsworth, J.L. and Hintelmann, H., 2013. Evaluation and optimization of solid adsorbents for the sampling of gaseous methylated mercury species. Anal. Chim. Acta, 786, 61–69.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bloom, N. 1989. Determination of picogram levels of methylmercury by aqueous phase ethylation, followed by cryogenic gas-chromatography with cold vapor atomic fluorescence detection. Can. J. Fish. Aquat. Sci. 46, 1131–1140.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bloom, N.S., Fitzgerald, W.F. 1988. Determination of volatile mercury species at the picogram level by low-temperature gas chromatography with cold-vapor atomic fluorescence detection. Anal. Chim Acta 208, 151–161.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bowman, K.L., Hammerschmidt, C.R. 2011. Extraction of monomethylmercury from seawater for low-femtomolar determination. Limnol. Oceanogr.: Methods 9, 121–128.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bowman, K.L., Hammerschmidt, C.R., Lamborg, C.H. and Swarr, G., 2015. Mercury in the North Atlantic Ocean: The U.S. GEOTRACES zonal and meridional sections. Deep-Sea Res. Pt. II. 116, 251–261.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cutter, G.A., Bruland, K.W. 2012. Rapid and noncontaminating sampling system for trace elements in global ocean surveys. Limnol. Oceanogr.: Methods 10, 425–436.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Fitzgerald, W.F., Gill, G.A. 1979. Subnanogram determination of mercury by two-stage gold amalgamation applied to atmospheric analysis. Anal. Chem. 51, 1714–1720.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Hammerschmidt, C.R., Bowman, K.L. 2012. Vertical methylmercury distribution in the subtropical North Pacific Ocean. Mar. Chem. 132, 77–82.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Hammerschmidt, C.R., Bowman, K.L., Tabatchnick, M.D., Lamborg, C.H. 2011. Storage bottle material and cleaning for determination of total mercury in seawater. Limnol. Oceanogr.: Methods 9, 426–431.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Lamborg, C.H., Hammerschmidt, C.R., Gill, G.A., Mason, R.P., Gichuki, S. 2012. An intercomparison of procedures for the determination of total mercury in seawater and recommendations regarding mercury speciation during GEOTRACES cruises. Limnol. Oceanogr.: Methods, 10, 90-100.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Munson, K.M., Babi, D. and Lamborg, C.H., 2014. Determination of monomethylmercury from seawater with ascorbic acid-assisted direct ethylation. Limnol. Oceanogr.-Meth. 12, 1–9.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Tseng, C.-M., Hammerschmidt, C.R., Fitzgerald, W.F. 2004. Determination of methylmercury in environmental matrixes by on-line flow injection and atomic fluorescence spectrometry. Anal. Chem. 76, 7131–7136.&amp;lt;/p&amp;gt;</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643509.rdf" xlink:title="OCE-1232979" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1232979 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1232979</gmx:Anchor>
+      </gmd:credit>
+        <gmd:credit>
+        <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/award/643517.rdf" xlink:title="OCE-1232760" xlink:actuate="onRequest">Funding provided by NSF Ocean Sciences (NSF OCE) Award Number: OCE-1232760 Award URL: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1232760</gmx:Anchor>
+      </gmd:credit>
+        <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50968.rdf" xlink:actuate="onRequest">Dr Carl Lamborg</gmx:Anchor>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/120.rdf" xlink:actuate="onRequest">University of California-Santa Cruz</gmx:Anchor>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+            <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>831-459-2908</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+            <gmd:address>
+                <gmd:CI_Address>
+                                  <gmd:deliveryPoint>
+                    <gco:CharacterString>A442 Earth &amp; Marine Sciences 1156 High Street</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                                  <gmd:city>
+                    <gco:CharacterString>Santa Cruz</gco:CharacterString>
+                  </gmd:city>                  <gmd:administrativeArea>
+                    <gco:CharacterString>CA</gco:CharacterString>
+                  </gmd:administrativeArea>                  <gmd:postalCode>
+                    <gco:CharacterString>95064</gco:CharacterString>
+                  </gmd:postalCode>                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>clamborg@ucsc.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+            <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="009">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+          </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648666.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1102.rdf" xlink:actuate="onRequest">cruise_id</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648667.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1929.rdf" xlink:actuate="onRequest">Cruise Name</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648668.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1103.rdf" xlink:actuate="onRequest">sta</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648669.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1070.rdf" xlink:actuate="onRequest">date</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648670.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1075.rdf" xlink:actuate="onRequest">time</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648671.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/730.rdf" xlink:actuate="onRequest">latitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648672.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/731.rdf" xlink:actuate="onRequest">longitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648673.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/960.rdf" xlink:actuate="onRequest">sample</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648674.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/829.rdf" xlink:actuate="onRequest">event</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648675.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/864.rdf" xlink:actuate="onRequest">instrument</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648676.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/761.rdf" xlink:actuate="onRequest">cast</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648677.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/730.rdf" xlink:actuate="onRequest">latitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648678.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/731.rdf" xlink:actuate="onRequest">longitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648679.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1908.rdf" xlink:actuate="onRequest">ISO_DateTime_UTC</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648680.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1908.rdf" xlink:actuate="onRequest">ISO_DateTime_UTC</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648681.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/960.rdf" xlink:actuate="onRequest">sample</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648682.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/757.rdf" xlink:actuate="onRequest">bottle</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648683.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:actuate="onRequest">q_flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648684.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/808.rdf" xlink:actuate="onRequest">depth</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648685.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1945.rdf" xlink:actuate="onRequest">trace_metal_conc</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648686.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:actuate="onRequest">q_flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648687.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1945.rdf" xlink:actuate="onRequest">trace_metal_conc</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648688.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:actuate="onRequest">q_flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648689.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1945.rdf" xlink:actuate="onRequest">trace_metal_conc</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648690.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:actuate="onRequest">q_flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648691.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1945.rdf" xlink:actuate="onRequest">trace_metal_conc</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648692.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:actuate="onRequest">q_flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648693.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1945.rdf" xlink:actuate="onRequest">trace_metal_conc</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648694.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:actuate="onRequest">q_flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648695.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1945.rdf" xlink:actuate="onRequest">trace_metal_conc</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648696.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:actuate="onRequest">q_flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648697.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1945.rdf" xlink:actuate="onRequest">trace_metal_conc</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648698.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:actuate="onRequest">q_flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648699.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1945.rdf" xlink:actuate="onRequest">trace_metal_conc</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648700.rdf" xlink:title="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:actuate="onRequest">q_flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-instrument/643505.rdf" xlink:title="http://lod.bco-dmo.org/id/instrument/493.rdf" xlink:actuate="onRequest"></gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-instrument/643504.rdf" xlink:title="http://lod.bco-dmo.org/id/instrument/619.rdf" xlink:actuate="onRequest"></gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/dataset-instrument/643503.rdf" xlink:title="http://lod.bco-dmo.org/id/instrument/692.rdf" xlink:actuate="onRequest"></gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>None, User defined</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1102.rdf" xlink:title="Parameter" xlink:actuate="onRequest">cruise id</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1929.rdf" xlink:title="Parameter" xlink:actuate="onRequest">cruise name</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1103.rdf" xlink:title="Parameter" xlink:actuate="onRequest">station number</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1070.rdf" xlink:title="Parameter" xlink:actuate="onRequest">date</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1075.rdf" xlink:title="Parameter" xlink:actuate="onRequest">time of day</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/730.rdf" xlink:title="Parameter" xlink:actuate="onRequest">latitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/731.rdf" xlink:title="Parameter" xlink:actuate="onRequest">longitude</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/960.rdf" xlink:title="Parameter" xlink:actuate="onRequest">sample identification</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/829.rdf" xlink:title="Parameter" xlink:actuate="onRequest">event</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/864.rdf" xlink:title="Parameter" xlink:actuate="onRequest">instrument</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/761.rdf" xlink:title="Parameter" xlink:actuate="onRequest">cast</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1908.rdf" xlink:title="Parameter" xlink:actuate="onRequest">ISO_DateTime_UTC</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/757.rdf" xlink:title="Parameter" xlink:actuate="onRequest">bottle</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1144.rdf" xlink:title="Parameter" xlink:actuate="onRequest">quality flag</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/808.rdf" xlink:title="Parameter" xlink:actuate="onRequest">depth</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/parameter/1945.rdf" xlink:title="Parameter" xlink:actuate="onRequest">trace metal concentration</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="featureType">featureType</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>BCO-DMO Standard Parameters</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/493.rdf" xlink:title="Instrument" xlink:actuate="onRequest">Trace Metal Bottle</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/619.rdf" xlink:title="Instrument" xlink:actuate="onRequest">Pump surface</gmx:Anchor>
+        </gmd:keyword>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/692.rdf" xlink:title="Instrument" xlink:actuate="onRequest">Cold Vapor Atomic Fluorescence Spectrophotometer</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>BCO-DMO Standard Instruments</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+                <gmd:keyword>
+          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/499719.rdf" xlink:title="Cruise" xlink:actuate="onRequest">TN303</gmx:Anchor>
+        </gmd:keyword>
+        <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="service">service</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Deployment Activity</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+        <gmd:keyword>
+            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/499719.rdf" xlink:title="Deployment Location" xlink:actuate="onRequest">Eastern Tropical Pacific - Transect from Peru to Tahiti</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Locations</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Access Constraints: none. Use Constraints: Please follow guidelines at: http://www.bco-dmo.org/terms-use Distribution liability: Under no circumstances shall BCO-DMO be liable for any direct, incidental, special, consequential, indirect, or punitive damages that result from the use of, or the inability to use, the materials in this data submission. If you are dissatisfied with any materials in this data submission your sole and exclusive remedy is to discontinue use.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+          <gmd:MD_AggregateInformation>
+            <gmd:aggregateDataSetName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2022.rdf" xlink:title="Program" xlink:actuate="onRequest">U.S. GEOTRACES</gmx:Anchor>
+                </gmd:title>
+                <gmd:date gco:nilReason="inapplicable"/>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.geotraces.org/</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:name>
+                            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2022.rdf" xlink:title="Program Name" xlink:actuate="onRequest">U.S. GEOTRACES</gmx:Anchor>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>GEOTRACES is a SCOR sponsored program; and funding for program infrastructure development is provided by the U.S. National Science Foundation.GEOTRACES gained momentum following a special symposium, S02: Biogeochemical cycling of trace elements and isotopes in the ocean and applications to constrain contemporary marine processes (GEOSECS II), at a 2003 Goldschmidt meeting convened in Japan. The GEOSECS II acronym referred to the Geochemical Ocean Section Studies To determine full water column distributions of selected trace elements and isotopes, including their concentration, chemical speciation, and physical form, along a sufficient number of sections in each ocean basin to establish the principal relationships between these distributions and with more traditional hydrographic parameters;* To evaluate the sources, sinks, and internal cycling of these species and thereby characterize more completely the physical, chemical and biological processes regulating their distributions, and the sensitivity of these processes to global change; and* To understand the processes that control the concentrations of geochemical species used for proxies of the past environment, both in the water column and in the substrates that reflect the water column.GEOTRACES will be global in scope, consisting of ocean sections complemented by regional process studies. Sections and process studies will combine fieldwork, laboratory experiments and modelling. Beyond realizing the scientific objectives identified above, a natural outcome of this work will be to build a community of marine scientists who understand the processes regulating trace element cycles sufficiently well to exploit this knowledge reliably in future interdisciplinary studies.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                          </gmd:function>
+                      </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role/>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+          </gmd:CI_Citation>
+        </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/program/2022.rdf" xlink:title="Program Acronym" xlink:actuate="onRequest">U.S. GEOTRACES</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="program">program</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo><gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/499723.rdf" xlink:title="Project" xlink:actuate="onRequest">U.S. GEOTRACES East Pacific Zonal Transect</gmx:Anchor>
+                </gmd:title>
+                <gmd:date gco:nilReason="inapplicable"/>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.geotraces.org/</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:name>
+                            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/499723.rdf" xlink:title="Project Name" xlink:actuate="onRequest">U.S. GEOTRACES East Pacific Zonal Transect</gmx:Anchor>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>http://dmoserv3.whoi.edu/data_docs/GEOTRACES/EPZT/GEOTRACES_EPZT_TN303_CruiseTrack.png</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                          </gmd:function>
+                      </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role/>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+          </gmd:CI_Citation>
+        </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/499723.rdf" xlink:title="Project Acronym" xlink:actuate="onRequest">U.S. GEOTRACES EPZT</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="project">project</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/643510.rdf" xlink:title="Project" xlink:actuate="onRequest">GEOTRACES Pacific Section: Mercury Speciation Along a Zonal Section in the Eastern Tropical South Pacific</gmx:Anchor>
+                </gmd:title>
+                <gmd:date gco:nilReason="inapplicable"/>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.bco-dmo.org/project/643510</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:name>
+                            <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/643510.rdf" xlink:title="Project Name" xlink:actuate="onRequest">GEOTRACES Pacific Section: Mercury Speciation Along a Zonal Section in the Eastern Tropical South Pacific</gmx:Anchor>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Scientists from Wright State University and Woods Hole Oceanographic Institution will participate in the 2013 GEOTRACES cruise to the Eastern Tropical South Pacific (ETSP). Seawater samples collected during this transect from Peru to Tahiti will be analyzed for total mercury (Hg), monomethylmercury (CH3Hg+), dimethylmercury ((CH3)2Hg), and elemental Hg (Hg0) to construct high-resolution vertical and horizontal sections. In addition to filtered seawater samples, the scientists will also analyze suspended particles for total Hg and CH3Hg+, as well as rain and aerosol samples for Hg species and dissolved and particulate thiols, such as cysteine and glutathione.The cruise track extends from the upwelling region off Peru, to an expansive oxygen minimum zone (OMZ), followed by the hydrothermal vent fields of the East Pacific Rise, and finally into the highly oligotrophic waters near Tahiti. These different oceanographic features will allow the researchers to determine their influence on the inputs and cycling of Hg in the ocean. Specifically, they plan to assess whether (1) continental margins off Peru are a significant source of Hg, CH3Hg+, and (CH3)2Hg; (2) the OMZ sustains the highest levels of methylated Hg in the ocean; (3) hydrothermal systems are important sources of total and methylated Hg; and (4) the large gradient in productivity along this track impact the vertical distribution of this element, its bioavailability, and its speciation.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                          </gmd:function>
+                      </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role/>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+          </gmd:CI_Citation>
+        </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/project/643510.rdf" xlink:title="Project Acronym" xlink:actuate="onRequest">EPZT Mercury</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="project">project</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+       <gmd:extent>
+        <gmd:EX_Extent id="boundingExtent"><gmd:description>
+            <gco:CharacterString>Eastern Tropical Pacific - Transect from Peru to Tahiti</gco:CharacterString>
+          </gmd:description><gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimeInstant frame="#ISO-8601" gml:id="ID">
+                  <gml:timePosition>2016-06-13</gml:timePosition>
+                </gml:TimeInstant>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+          </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmd:MD_FeatureCatalogueDescription>
+      <gmd:includedWithDataset>
+        <gco:Boolean>0</gco:Boolean>
+      </gmd:includedWithDataset>
+      <gmd:featureCatalogueCitation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>BCO-DMO catalogue of parameters from Mercury speciation across the US GEOTRACES East Pacific Zonal Transect, from cruise TN303, 2013</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="unknown"/>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>
+            http://lod.bco-dmo.org/id/dataset-parameter/648666.rdf
+	Name: cruise_id
+	Units: unitless
+	Description: Official cruise identifier 
+http://lod.bco-dmo.org/id/dataset-parameter/648667.rdf
+	Name: cruise_name
+	Units: unitless
+	Description: cruise name used by PI 
+http://lod.bco-dmo.org/id/dataset-parameter/648668.rdf
+	Name: STNNBR
+	Units: integer
+	Description: station number; provided in original data submission. 
+http://lod.bco-dmo.org/id/dataset-parameter/648669.rdf
+	Name: date
+	Units: yyyymmdd
+	Description: date; provided in original data submission. 
+http://lod.bco-dmo.org/id/dataset-parameter/648670.rdf
+	Name: time
+	Units: HHMM
+	Description: UTC time; provided in original data submission. 
+http://lod.bco-dmo.org/id/dataset-parameter/648671.rdf
+	Name: lat
+	Units: decimal degrees
+	Description: latitude; north is positive; provided in original data submission. 
+http://lod.bco-dmo.org/id/dataset-parameter/648672.rdf
+	Name: lon
+	Units: decimal degrees
+	Description: longitude; east is positive; provided in original data submission. 
+http://lod.bco-dmo.org/id/dataset-parameter/648673.rdf
+	Name: GEOTRC_SAMPNO
+	Units: integer
+	Description: Unique identifying number for US GEOTRACES sample. PI-supplied values were identical to those in the intermediate US GEOTRACES master file. Originally submitted as &amp;#039;sample&amp;#039;; this parameter name has been changed to conform to BCO-DMO&amp;#039;s GEOTRACES naming conventions. 
+http://lod.bco-dmo.org/id/dataset-parameter/648674.rdf
+	Name: GEOTRC_EVENTNO
+	Units: unitless
+	Description: Unique identifying number for US GEOTRACES sampling events. Values were added from the intermediate US GEOTRACES master file (see Processing Description). 
+http://lod.bco-dmo.org/id/dataset-parameter/648675.rdf
+	Name: inst
+	Units: unitless
+	Description: instrument; provided in original data submission. 
+http://lod.bco-dmo.org/id/dataset-parameter/648676.rdf
+	Name: CASTNO
+	Units: unitless
+	Description: Cast identifier numbered consecutively within a station. Values were added from the intermediate US GEOTRACES master file (see Processing Description). 
+http://lod.bco-dmo.org/id/dataset-parameter/648677.rdf
+	Name: BTL_LAT
+	Units: decimal degrees
+	Description: Latitude of bottle firing; north is positive. Values were added from the intermediate US GEOTRACES master file (see Processing Description). 
+http://lod.bco-dmo.org/id/dataset-parameter/648678.rdf
+	Name: BTL_LON
+	Units: decimal degrees
+	Description: Lonitude of bottle firing; east is positive. Values were added from the intermediate US GEOTRACES master file (see Processing Description). 
+http://lod.bco-dmo.org/id/dataset-parameter/648679.rdf
+	Name: ISO_DATETIME_UTC_START_EVENT
+	Units: YYYY-mm-ddTHH:MM:SS.ssZ
+	Description: Event start date/time (UTC) formatted to ISO8601 standard. T indicates start of time string; Z indicates UTC. Calculated from original date and time fields. 
+http://lod.bco-dmo.org/id/dataset-parameter/648680.rdf
+	Name: BTL_ISO_DATETIME_UTC
+	Units: YYYY-mm-ddTHH:MM:SS.ssZ
+	Description: Bottle date/time (UTC) formatted to ISO8601 standard. T indicates start of time string; Z indicates UTC. Calculated from original date and time fields. 
+http://lod.bco-dmo.org/id/dataset-parameter/648681.rdf
+	Name: SAMPNO
+	Units: unitless
+	Description: Sample number; Values were added from the intermediate US GEOTRACES master file (see Processing Description). 
+http://lod.bco-dmo.org/id/dataset-parameter/648682.rdf
+	Name: BTLNBR
+	Units: unitless
+	Description: Alphanumeric characters identifying bottle type (e.g. NIS representing Niskin and GF representing GOFLO) and position on a CTD rosette. Values were added from the intermediate US GEOTRACES master file (see Processing Description). 
+http://lod.bco-dmo.org/id/dataset-parameter/648683.rdf
+	Name: BTLNBR_FLAG_W
+	Units: unitless
+	Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates 
+http://lod.bco-dmo.org/id/dataset-parameter/648684.rdf
+	Name: depth
+	Units: meters
+	Description: Depth as reported by PI (CTD coordinates as included in the Pacific cruise Report.) 
+http://lod.bco-dmo.org/id/dataset-parameter/648685.rdf
+	Name: Hg_TD_CONC_BOTTLE
+	Units: picomoles
+	Description: Total dissolved concentration of mercury from CTD bottle samples 
+http://lod.bco-dmo.org/id/dataset-parameter/648686.rdf
+	Name: Hg_TD_CONC_BOTTLE_FLAG_W
+	Units: unitless
+	Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis 
+http://lod.bco-dmo.org/id/dataset-parameter/648687.rdf
+	Name: Hg0_D_CONC_BOTTLE
+	Units: picomoles
+	Description: Concentration of gaseous elemental mercury from CTD bottle samples 
+http://lod.bco-dmo.org/id/dataset-parameter/648688.rdf
+	Name: Hg0_D_CONC_BOTTLE_FLAG_W
+	Units: unitless
+	Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis 
+http://lod.bco-dmo.org/id/dataset-parameter/648689.rdf
+	Name: MMHg_D_CONC_BOTTLE
+	Units: picomoles
+	Description: monomethylmercury concentration from CTD bottle samples 
+http://lod.bco-dmo.org/id/dataset-parameter/648690.rdf
+	Name: MMHg_D_CONC_BOTTLE_FLAG_W
+	Units: unitless
+	Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis 
+http://lod.bco-dmo.org/id/dataset-parameter/648691.rdf
+	Name: DMHg_D_CONC_BOTTLE
+	Units: picomoles
+	Description: dimethylmercury concentration from CTD bottle samples 
+http://lod.bco-dmo.org/id/dataset-parameter/648692.rdf
+	Name: DMHg_D_CONC_BOTTLE_FLAG_W
+	Units: unitless
+	Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis 
+http://lod.bco-dmo.org/id/dataset-parameter/648693.rdf
+	Name: Hg_TD_CONC_FISH
+	Units: picomoles
+	Description: Total dissolved concentration of mercury from GEO-Fish samples 
+http://lod.bco-dmo.org/id/dataset-parameter/648694.rdf
+	Name: Hg_TD_CONC_FISH_FLAG_W
+	Units: unitless
+	Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis 
+http://lod.bco-dmo.org/id/dataset-parameter/648695.rdf
+	Name: Hg0_D_CONC_FISH
+	Units: picomoles
+	Description: Concentration of gaseous elemental mercury from GEO-Fish samples 
+http://lod.bco-dmo.org/id/dataset-parameter/648696.rdf
+	Name: Hg0_D_CONC_FISH_FLAG_W
+	Units: unitless
+	Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis 
+http://lod.bco-dmo.org/id/dataset-parameter/648697.rdf
+	Name: MMHg_D_CONC_FISH
+	Units: picomoles
+	Description: monomethylmercury concentration from GEO-Fish samples 
+http://lod.bco-dmo.org/id/dataset-parameter/648698.rdf
+	Name: MMHg_D_CONC_FISH_FLAG_W
+	Units: unitless
+	Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis 
+http://lod.bco-dmo.org/id/dataset-parameter/648699.rdf
+	Name: DMHg_D_CONC_FISH
+	Units: picomoles
+	Description: dimethylmercury concentration from GEO-Fish samples 
+http://lod.bco-dmo.org/id/dataset-parameter/648700.rdf
+	Name: DMHg_D_CONC_FISH_FLAG_W
+	Units: unitless
+	Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis 
+</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:featureCatalogueCitation>
+      <gmd:featureCatalogueCitation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>GB/NERC/BODC &gt; British Oceanographic Data Centre, Natural Environment Research Council, United Kingdom</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="unknown"/>
+          <gmd:citedResponsibleParty xlink:href="https://www.ngdc.noaa.gov/docucomp/3D8FE2C9DA324D40939C8D007587E011" xlink:title="GB/NERC/BODC &gt; British Oceanographic Data Centre, Natural Environment Research Council, United Kingdom"/>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>
+            http://vocab.nerc.ac.uk/collection/P01/current/ADATAA01/ 
+	Name: Date (UT as yyyymmdd) 
+	Description: Unavailable 
+http://vocab.nerc.ac.uk/collection/P01/current/AHMSAA01/ 
+	Name: Time (UT as hh24miss) 
+	Description: Time elapsed between 00:00 UT on the date of the event of interest and that event. 
+http://vocab.nerc.ac.uk/collection/P09/current/LATX/ 
+	Name: LATITUDE 
+	Description: The angular distance north or south from the equator, measured along the meridian of the point of interest. 
+http://vocab.nerc.ac.uk/collection/P09/current/LONX/ 
+	Name: LONGITUDE 
+	Description: The angular distance east or west east or west of Greenwich to the point of interest. 
+http://vocab.nerc.ac.uk/collection/P02/current/ACYC/ 
+	Name: Reference numbers 
+	Description: Data record, event, sample or measurement reference numbers 
+http://vocab.nerc.ac.uk/collection/P09/current/LATX/ 
+	Name: LATITUDE 
+	Description: The angular distance north or south from the equator, measured along the meridian of the point of interest. 
+http://vocab.nerc.ac.uk/collection/P09/current/LONX/ 
+	Name: LONGITUDE 
+	Description: The angular distance east or west east or west of Greenwich to the point of interest. 
+http://vocab.nerc.ac.uk/collection/P01/current/DTUT8601/ 
+	Name: Date and time (UT in ISO8601 format to sub-second precision) 
+	Description: String corresponding to format 'yyyy-mm-ddThh:mi:ss.sss' optionally terminated by 'Z' 
+http://vocab.nerc.ac.uk/collection/P01/current/DTUT8601/ 
+	Name: Date and time (UT in ISO8601 format to sub-second precision) 
+	Description: String corresponding to format 'yyyy-mm-ddThh:mi:ss.sss' optionally terminated by 'Z' 
+http://vocab.nerc.ac.uk/collection/P02/current/ACYC/ 
+	Name: Reference numbers 
+	Description: Data record, event, sample or measurement reference numbers 
+http://vocab.nerc.ac.uk/collection/P09/current/DEPH/ 
+	Name: DEPTH BELOW SEA SURFACE 
+	Description: The distance of a sensor or sampling point below the sea surface. 
+http://vocab.nerc.ac.uk/collection/P03/current/C035/ 
+	Name: Metal and metalloid concentrations 
+	Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material. 
+http://vocab.nerc.ac.uk/collection/P03/current/C035/ 
+	Name: Metal and metalloid concentrations 
+	Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material. 
+http://vocab.nerc.ac.uk/collection/P03/current/C035/ 
+	Name: Metal and metalloid concentrations 
+	Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material. 
+http://vocab.nerc.ac.uk/collection/P03/current/C035/ 
+	Name: Metal and metalloid concentrations 
+	Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material. 
+http://vocab.nerc.ac.uk/collection/P03/current/C035/ 
+	Name: Metal and metalloid concentrations 
+	Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material. 
+http://vocab.nerc.ac.uk/collection/P03/current/C035/ 
+	Name: Metal and metalloid concentrations 
+	Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material. 
+http://vocab.nerc.ac.uk/collection/P03/current/C035/ 
+	Name: Metal and metalloid concentrations 
+	Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material. 
+http://vocab.nerc.ac.uk/collection/P03/current/C035/ 
+	Name: Metal and metalloid concentrations 
+	Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material. 
+</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:featureCatalogueCitation>
+    </gmd:MD_FeatureCatalogueDescription>
+  </gmd:contentInfo>
+  <gmd:contentInfo>
+    <gmi:MI_CoverageDescription>
+      <gmd:attributeDescription>
+        <gco:RecordType>Parameters for this dataset</gco:RecordType>
+      </gmd:attributeDescription>
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeList="MD_CoverageContentTypeCode" codeListValue="physicalMeasurement">physicalMeasurement</gmd:MD_CoverageContentTypeCode>
+      </gmd:contentType>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648666.rdf" xlink:title="cruise id" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>cruise_id</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>cruise id</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Official cruise identifier; General Description: cruise designation; name</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648666">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648666.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648666.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648667.rdf" xlink:title="cruise name" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>cruise_name</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>cruise name</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: cruise name used by PI; General Description: The cruise_name is a local name chosen by project investigators for a research expedition on a vessel, as opposed to the formal/official cruise ID asserted by the vessel operator.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648667">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648667.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648667.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648668.rdf" xlink:title="station number" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>STNNBR</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>station number</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: station number; provided in original data submission.; General Description: station number; generally sequential; a unique number designating a general geographic location at which one or more sampling activities may occur.* Please use station rather than sta</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648668">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648668.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648668.rdf</gml:identifier>
+             <gml:name>integer</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648669.rdf" xlink:title="date" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>date</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/ADATAA01/" xlink:title="Date (UT as yyyymmdd)" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>date</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: date; provided in original data submission.; General Description: date; generally reported in GMT as YYYYMMDD (year; month; day); also as MMDD (month; day); EqPac dates are local Hawaii time NERC Description: Unavailable</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648669">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648669.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648669.rdf</gml:identifier>
+             <gml:name>yyyymmdd</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648670.rdf" xlink:title="time of day" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>time</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/AHMSAA01/" xlink:title="Time (UT as hh24miss)" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>time of day</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: UTC time; provided in original data submission.; General Description: Time GMT defined as HHMM; time of day; generally reported in GMT as HHMM (hours and minutes) but may also be HH.H (decimal hours) or HHMMSS (hours; minutes and seconds); in EqPac time is reported as Hawaii local time NERC Description: Time elapsed between 00:00 UT on the date of the event of interest and that event.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648670">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648670.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648670.rdf</gml:identifier>
+             <gml:name>HHMM</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648671.rdf" xlink:title="latitude" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>lat</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P09/current/LATX/" xlink:title="LATITUDE" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>latitude</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: latitude; north is positive; provided in original data submission.; General Description: latitude, in decimal degrees, North is positive, negative denotes South; Reported in some datasets as degrees, minutes NERC Description: The angular distance north or south from the equator, measured along the meridian of the point of interest.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648671">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648671.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648671.rdf</gml:identifier>
+             <gml:name>decimal degrees</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648672.rdf" xlink:title="longitude" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>lon</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P09/current/LONX/" xlink:title="LONGITUDE" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>longitude</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: longitude; east is positive; provided in original data submission.; General Description: longitude, in decimal degrees, East is positive, negative denotes West; Reported in some datsets as degrees, minutes NERC Description: The angular distance east or west east or west of Greenwich to the point of interest.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648672">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648672.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648672.rdf</gml:identifier>
+             <gml:name>decimal degrees</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648673.rdf" xlink:title="sample identification" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>GEOTRC_SAMPNO</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/ACYC/" xlink:title="Reference numbers" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>sample identification</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Unique identifying number for US GEOTRACES sample. PI-supplied values were identical to those in the intermediate US GEOTRACES master file. Originally submitted as &amp;#039;sample&amp;#039;; this parameter name has been changed to conform to BCO-DMO&amp;#039;s GEOTRACES naming conventions.; General Description: unique sample identification or number; any combination of alpha numeric characters; precise definition is file dependent NERC Description: Data record, event, sample or measurement reference numbers</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648673">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648673.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648673.rdf</gml:identifier>
+             <gml:name>integer</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648674.rdf" xlink:title="event" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>GEOTRC_EVENTNO</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>event</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Unique identifying number for US GEOTRACES sampling events. Values were added from the intermediate US GEOTRACES master file (see Processing Description).; General Description: event or operation number; often derived from date/time (MMDDHHmm) of sampling and when combined with year (YYYY) is a unique sampling identifier/data processing key.  Date/time is not necessarily in GMT.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648674">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648674.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648674.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648675.rdf" xlink:title="instrument" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>inst</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>instrument</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: instrument; provided in original data submission.; General Description: instrument used to collect or process data, definition is specific to the data set in which it appears</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648675">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648675.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648675.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648676.rdf" xlink:title="cast" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>CASTNO</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>cast</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Cast identifier numbered consecutively within a station. Values were added from the intermediate US GEOTRACES master file (see Processing Description).; General Description: cast or profile number</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648676">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648676.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648676.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648677.rdf" xlink:title="latitude" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>BTL_LAT</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P09/current/LATX/" xlink:title="LATITUDE" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>latitude</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Latitude of bottle firing; north is positive. Values were added from the intermediate US GEOTRACES master file (see Processing Description).; General Description: latitude, in decimal degrees, North is positive, negative denotes South; Reported in some datasets as degrees, minutes NERC Description: The angular distance north or south from the equator, measured along the meridian of the point of interest.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648677">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648677.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648677.rdf</gml:identifier>
+             <gml:name>decimal degrees</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648678.rdf" xlink:title="longitude" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>BTL_LON</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P09/current/LONX/" xlink:title="LONGITUDE" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>longitude</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Lonitude of bottle firing; east is positive. Values were added from the intermediate US GEOTRACES master file (see Processing Description).; General Description: longitude, in decimal degrees, East is positive, negative denotes West; Reported in some datsets as degrees, minutes NERC Description: The angular distance east or west east or west of Greenwich to the point of interest.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648678">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648678.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648678.rdf</gml:identifier>
+             <gml:name>decimal degrees</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648679.rdf" xlink:title="ISO_DateTime_UTC" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>ISO_DATETIME_UTC_START_EVENT</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/DTUT8601/" xlink:title="Date and time (UT in ISO8601 format to sub-second precision)" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>ISO_DateTime_UTC</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Event start date/time (UTC) formatted to ISO8601 standard. T indicates start of time string; Z indicates UTC. Calculated from original date and time fields.; General Description: Date/Time (UTC) ISO formattedThis standard is based on ISO 8601:2004(E) and takes on any of the following forms:2009-08-30T09:05:00[.xx] (local time)2009-08-30T14:05:00[.xx]Z (UTC time)2009-08-30T14:05:00[.xx]-05:00The dashes and the colons can be dropped.The T can also be dropped &quot;by mutual agreement&quot;, but one needs the trailing Z if the time is UTC.Sample ISO_datetime_utc:2009-08-30T14:05:00[.xx]Z (UTC time)Format: YYYY-mm-ddTHH:MM:SS[.xx]Z (UTC time) NERC Description: String corresponding to format 'yyyy-mm-ddThh:mi:ss.sss' optionally terminated by 'Z'</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648679">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648679.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648679.rdf</gml:identifier>
+             <gml:name>YYYY-mm-ddTHH:MM:SS.ssZ</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648680.rdf" xlink:title="ISO_DateTime_UTC" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>BTL_ISO_DATETIME_UTC</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/DTUT8601/" xlink:title="Date and time (UT in ISO8601 format to sub-second precision)" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>ISO_DateTime_UTC</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Bottle date/time (UTC) formatted to ISO8601 standard. T indicates start of time string; Z indicates UTC. Calculated from original date and time fields.; General Description: Date/Time (UTC) ISO formattedThis standard is based on ISO 8601:2004(E) and takes on any of the following forms:2009-08-30T09:05:00[.xx] (local time)2009-08-30T14:05:00[.xx]Z (UTC time)2009-08-30T14:05:00[.xx]-05:00The dashes and the colons can be dropped.The T can also be dropped &quot;by mutual agreement&quot;, but one needs the trailing Z if the time is UTC.Sample ISO_datetime_utc:2009-08-30T14:05:00[.xx]Z (UTC time)Format: YYYY-mm-ddTHH:MM:SS[.xx]Z (UTC time) NERC Description: String corresponding to format 'yyyy-mm-ddThh:mi:ss.sss' optionally terminated by 'Z'</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648680">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648680.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648680.rdf</gml:identifier>
+             <gml:name>YYYY-mm-ddTHH:MM:SS.ssZ</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648681.rdf" xlink:title="sample identification" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>SAMPNO</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/ACYC/" xlink:title="Reference numbers" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>sample identification</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Sample number; Values were added from the intermediate US GEOTRACES master file (see Processing Description).; General Description: unique sample identification or number; any combination of alpha numeric characters; precise definition is file dependent NERC Description: Data record, event, sample or measurement reference numbers</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648681">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648681.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648681.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648682.rdf" xlink:title="bottle" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>BTLNBR</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>bottle</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Alphanumeric characters identifying bottle type (e.g. NIS representing Niskin and GF representing GOFLO) and position on a CTD rosette. Values were added from the intermediate US GEOTRACES master file (see Processing Description).; General Description: water bottle number, generally assigned to a position on a CTD rosette, identifies all samples drawn from a given bottle</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648682">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648682.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648682.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648683.rdf" xlink:title="quality flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>BTLNBR_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>quality flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; General Description: quality flag; based on a PI established code; identifies a problem/quality issue with sample(s) from a given water bottle or single observation</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648683">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648683.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648683.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648684.rdf" xlink:title="depth" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>depth</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P09/current/DEPH/" xlink:title="DEPTH BELOW SEA SURFACE" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>depth</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Depth as reported by PI (CTD coordinates as included in the Pacific cruise Report.); General Description: observation/sample depth, in meters; best estimate; usually but not always calculated from pressure; calculated either from CTD pressure using Fofonoff and Millard (1982; UNESCO Tech Paper #44) algorithm adjusted for 1980 equation of state for seawater (EOS80) or simply equivalent to nominal depth as recorded during sampling if CTD pressure was unavailable NERC Description: The distance of a sensor or sampling point below the sea surface.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648684">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648684.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648684.rdf</gml:identifier>
+             <gml:name>meters</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648685.rdf" xlink:title="trace metal concentration" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Hg_TD_CONC_BOTTLE</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/C035/" xlink:title="Metal and metalloid concentrations" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>trace metal concentration</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Total dissolved concentration of mercury from CTD bottle samples; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648685">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648685.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648685.rdf</gml:identifier>
+             <gml:name>picomoles</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648686.rdf" xlink:title="quality flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Hg_TD_CONC_BOTTLE_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>quality flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis; General Description: quality flag; based on a PI established code; identifies a problem/quality issue with sample(s) from a given water bottle or single observation</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648686">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648686.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648686.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648687.rdf" xlink:title="trace metal concentration" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Hg0_D_CONC_BOTTLE</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/C035/" xlink:title="Metal and metalloid concentrations" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>trace metal concentration</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Concentration of gaseous elemental mercury from CTD bottle samples; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648687">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648687.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648687.rdf</gml:identifier>
+             <gml:name>picomoles</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648688.rdf" xlink:title="quality flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Hg0_D_CONC_BOTTLE_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>quality flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis; General Description: quality flag; based on a PI established code; identifies a problem/quality issue with sample(s) from a given water bottle or single observation</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648688">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648688.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648688.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648689.rdf" xlink:title="trace metal concentration" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>MMHg_D_CONC_BOTTLE</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/C035/" xlink:title="Metal and metalloid concentrations" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>trace metal concentration</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: monomethylmercury concentration from CTD bottle samples; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648689">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648689.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648689.rdf</gml:identifier>
+             <gml:name>picomoles</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648690.rdf" xlink:title="quality flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>MMHg_D_CONC_BOTTLE_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>quality flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis; General Description: quality flag; based on a PI established code; identifies a problem/quality issue with sample(s) from a given water bottle or single observation</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648690">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648690.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648690.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648691.rdf" xlink:title="trace metal concentration" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>DMHg_D_CONC_BOTTLE</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/C035/" xlink:title="Metal and metalloid concentrations" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>trace metal concentration</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: dimethylmercury concentration from CTD bottle samples; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648691">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648691.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648691.rdf</gml:identifier>
+             <gml:name>picomoles</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648692.rdf" xlink:title="quality flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>DMHg_D_CONC_BOTTLE_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>quality flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis; General Description: quality flag; based on a PI established code; identifies a problem/quality issue with sample(s) from a given water bottle or single observation</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648692">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648692.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648692.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648693.rdf" xlink:title="trace metal concentration" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Hg_TD_CONC_FISH</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/C035/" xlink:title="Metal and metalloid concentrations" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>trace metal concentration</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Total dissolved concentration of mercury from GEO-Fish samples; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648693">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648693.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648693.rdf</gml:identifier>
+             <gml:name>picomoles</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648694.rdf" xlink:title="quality flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Hg_TD_CONC_FISH_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>quality flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis; General Description: quality flag; based on a PI established code; identifies a problem/quality issue with sample(s) from a given water bottle or single observation</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648694">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648694.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648694.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648695.rdf" xlink:title="trace metal concentration" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Hg0_D_CONC_FISH</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/C035/" xlink:title="Metal and metalloid concentrations" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>trace metal concentration</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Concentration of gaseous elemental mercury from GEO-Fish samples; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648695">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648695.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648695.rdf</gml:identifier>
+             <gml:name>picomoles</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648696.rdf" xlink:title="quality flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Hg0_D_CONC_FISH_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>quality flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis; General Description: quality flag; based on a PI established code; identifies a problem/quality issue with sample(s) from a given water bottle or single observation</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648696">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648696.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648696.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648697.rdf" xlink:title="trace metal concentration" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>MMHg_D_CONC_FISH</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/C035/" xlink:title="Metal and metalloid concentrations" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>trace metal concentration</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: monomethylmercury concentration from GEO-Fish samples; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648697">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648697.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648697.rdf</gml:identifier>
+             <gml:name>picomoles</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648698.rdf" xlink:title="quality flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>MMHg_D_CONC_FISH_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>quality flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis; General Description: quality flag; based on a PI established code; identifies a problem/quality issue with sample(s) from a given water bottle or single observation</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648698">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648698.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648698.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648699.rdf" xlink:title="trace metal concentration" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>DMHg_D_CONC_FISH</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/C035/" xlink:title="Metal and metalloid concentrations" xlink:actuate="onRequest">                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>trace metal concentration</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: dimethylmercury concentration from GEO-Fish samples; General Description: Concentration of a trace metal in seawater. Refer to dataset for element name and units. NERC Description: Parameters pertaining to metal and trace metalloid (i.e. excluding Si) concentrations in any material.</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648699">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648699.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648699.rdf</gml:identifier>
+             <gml:name>picomoles</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier xlink:href="http://lod.bco-dmo.org/id/dataset-parameter/648700.rdf" xlink:title="quality flag" xlink:actuate="onRequest">
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>DMHg_D_CONC_FISH_FLAG_W</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>quality flag</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+          <gmd:descriptor>
+            <gco:CharacterString>PI-supplied Description: Quality flag: 2) ok; 3) questionable; 4) bad analysis; 5) sample lost; 6) mean of replicates; 9) sample was not collected for Hg analysis; General Description: quality flag; based on a PI established code; identifies a problem/quality issue with sample(s) from a given water bottle or single observation</gco:CharacterString>
+          </gmd:descriptor>
+          <gmd:units>
+            <gml:UnitDefinition gml:id="_parameterUnits648700">
+             <gml:identifier codeSpace="http://lod.bco-dmo.org/id/dataset-parameter/648700.rdf">http://lod.bco-dmo.org/id/dataset-parameter/648700.rdf</gml:identifier>
+             <gml:name>unitless</gml:name>
+          </gml:UnitDefinition>
+          </gmd:units>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      </gmi:MI_CoverageDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+        <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.bco-dmo.org/dataset/643494/data/download</gmd:URL>
+              </gmd:linkage>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:processStep xlink:title="Acquisition Description">
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Detailed method descriptions can be found in Lamborg et al., 2012, Hammerschmidt &amp;amp;amp; Bowman, 2012, Bowman et al., 2015&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Sample collection: Cutter &amp;amp;amp; Bruland, 2012&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;TMR - trace metal rosette&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;FISH – trace-metal clean, surface towed pump system&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Sample bottles/cleaning: Hammerschmidt et al., 2012&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;HgT analysis:&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Fitzgerald &amp;amp;amp; Gill, 1979, Bloom &amp;amp;amp; Fitzgerald, 1988, Bloom, 1989&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Tekran Model 2500 CVAFS Mercury Detector&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Detection limit: 0.03 pM&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Procedural duplicates: 7 ± 9% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt; 29)&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Recovery of known additions: 97 ± 2% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt; 5)&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Hg&amp;lt;sup&amp;gt;0&amp;lt;/sup&amp;gt; analysis:&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Fitzgerald &amp;amp;amp; Gill, 1979, Bloom &amp;amp;amp; Fitzgerald, 1988, Bloom, 1989&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Tekran Model 2500 CVAFS Detector&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Detection limit: 0.01 pM&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Procedural duplicates: 20 ± 15%, &amp;lt;em&amp;gt;n = &amp;lt;/em&amp;gt;27&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Recovery of known additions: N/A&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;MMHg analysis:&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Bowman &amp;amp;amp; Hammerschmidt, 2011, Tseng et al., 2004, Munson et al., 2014&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Tekran Model 2500 CVAFS Mercury Detector&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Detection limit: 0.02 pM&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Procedural duplicates: 35 ± 22% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt; 6)&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Recovery of known additions: 84 ± 12% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt;3)&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;DMHg analysis:&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Bowman &amp;amp;amp; Hammerschmidt, 2011, Tseng et al., 2004, Baya et al., 2013&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Tekran Model 2500 CVAFS Mercury Detector&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Detection limit: 0.002 pM&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Procedural duplicates: 27 ± 20% (&amp;lt;em&amp;gt;n =&amp;lt;/em&amp;gt; 17)&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Recovery of known additions: N/A&amp;amp;nbsp;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;“lt_DL” indicates that a sample was below the method detection limit.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sample volumes were used to calculate picomolar concentrations of different mercury species.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Related References:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Baya, P.A., Hollinsworth, J.L. and Hintelmann, H., 2013. Evaluation and optimization of solid adsorbents for the sampling of gaseous methylated mercury species. Anal. Chim. Acta, 786, 61–69.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bloom, N. 1989. Determination of picogram levels of methylmercury by aqueous phase ethylation, followed by cryogenic gas-chromatography with cold vapor atomic fluorescence detection. Can. J. Fish. Aquat. Sci. 46, 1131–1140.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bloom, N.S., Fitzgerald, W.F. 1988. Determination of volatile mercury species at the picogram level by low-temperature gas chromatography with cold-vapor atomic fluorescence detection. Anal. Chim Acta 208, 151–161.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bowman, K.L., Hammerschmidt, C.R. 2011. Extraction of monomethylmercury from seawater for low-femtomolar determination. Limnol. Oceanogr.: Methods 9, 121–128.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bowman, K.L., Hammerschmidt, C.R., Lamborg, C.H. and Swarr, G., 2015. Mercury in the North Atlantic Ocean: The U.S. GEOTRACES zonal and meridional sections. Deep-Sea Res. Pt. II. 116, 251–261.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Cutter, G.A., Bruland, K.W. 2012. Rapid and noncontaminating sampling system for trace elements in global ocean surveys. Limnol. Oceanogr.: Methods 10, 425–436.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Fitzgerald, W.F., Gill, G.A. 1979. Subnanogram determination of mercury by two-stage gold amalgamation applied to atmospheric analysis. Anal. Chem. 51, 1714–1720.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Hammerschmidt, C.R., Bowman, K.L. 2012. Vertical methylmercury distribution in the subtropical North Pacific Ocean. Mar. Chem. 132, 77–82.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Hammerschmidt, C.R., Bowman, K.L., Tabatchnick, M.D., Lamborg, C.H. 2011. Storage bottle material and cleaning for determination of total mercury in seawater. Limnol. Oceanogr.: Methods 9, 426–431.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Lamborg, C.H., Hammerschmidt, C.R., Gill, G.A., Mason, R.P., Gichuki, S. 2012. An intercomparison of procedures for the determination of total mercury in seawater and recommendations regarding mercury speciation during GEOTRACES cruises. Limnol. Oceanogr.: Methods, 10, 90-100.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Munson, K.M., Babi, D. and Lamborg, C.H., 2014. Determination of monomethylmercury from seawater with ascorbic acid-assisted direct ethylation. Limnol. Oceanogr.-Meth. 12, 1–9.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Tseng, C.-M., Hammerschmidt, C.R., Fitzgerald, W.F. 2004. Determination of methylmercury in environmental matrixes by on-line flow injection and atomic fluorescence spectrometry. Anal. Chem. 76, 7131–7136.&amp;lt;/p&amp;gt;</gco:CharacterString>
+              </gmd:description>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep xlink:title="Processing Description">
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;BCO-DMO Processing:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;- added conventional header with dataset name, PI name, version date&amp;lt;br /&amp;gt;- renamed parameters to BCO-DMO standard&amp;lt;br /&amp;gt;- added cruise_id&amp;lt;br /&amp;gt;- replaced blank cells with nd (no data)&amp;lt;br /&amp;gt;- replaced '&amp;amp;lt;' with 'lt_' ('less than')&amp;lt;br /&amp;gt;- bottle and fish samples separated; parameter names revised&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Additional GEOTRACES Processing:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;As was done for the GEOTRACES-NAT data, BCO-DMO added standard US GEOTRACES information, such as the US GEOTRACES event number, to each submitted dataset lacking this information. To accomplish this, BCO-DMO compiled a 'master' dataset composed of the following parameters:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;cruise_id, EXPOCODE,SECT_ID, STNNBR, CASTNO, GEOTRC_EVENTNO, GEOTRC_SAMPNO, GEOTRC_INSTR, SAMPNO, GF_NO, BTLNBR, BTLNBR_FLAG_W, DATE_START_EVENT, TIME_START_EVENT, ISO_DATETIME_UTC_START_EVENT, EVENT_LAT, EVENT_LON, DEPTH_MIN, DEPTH_MAX, &amp;amp;nbsp;BTL_DATE, BTL_TIME, BTL_ISO_DATETIME_UTC, BTL_LAT, BTL_LON, ODF_CTDPRS, SMDEPTH, FMDEPTH, BTMDEPTH, CTDPRS, CTDDEPTH.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This added information will facilitate subsequent analysis and inter comparison of the datasets.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bottle parameters in the master file were taken from the GT-C_Bottle and ODF_Bottle datasets. Non-bottle parameters, including those from GeoFish tows, Aerosol sampling, and McLane Pumps, were taken from the TN303 Event Log (version 30 Oct 2014). Where applicable, pump information was taken from the PUMP_Nuts_Sals dataset.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;A standardized BCO-DMO method (called &amp;quot;join&amp;quot;) was then used to merge the missing parameters to each US GEOTRACES dataset, most often by matching on sample_GEOTRC or on some unique combination of other parameters.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;If the master parameters were included in the original data file and the values did not differ from the master file, the original data columns were retained and the names of the parameters were changed from the PI-submitted names to the standardized master names. If there were differences between the PI-supplied parameter values and those in the master file, both columns were retained. If the original data submission included all of the master parameters, no additional columns were added, but parameter names were modified to match the naming conventions of the master file.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;See the dataset parameters documentation for a description of which parameters were supplied by the PI and which were added via the join method.&amp;lt;/p&amp;gt;</gco:CharacterString>
+              </gmd:description>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+   </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="009">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:maintenanceNote>
+        <gco:CharacterString>7.x-1.1</gco:CharacterString>
+      </gmd:maintenanceNote>
+      <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+  <gmd:organisationName>
+    <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/191.rdf" xlink:actuate="onRequest">Biological and Chemical Oceanography Data Management Office (BCO-DMO)</gmx:Anchor>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+		  <gmd:phone>
+		    <gmd:CI_Telephone>
+				  <gmd:voice>
+				    <gco:CharacterString>Unavailable</gco:CharacterString>
+				  </gmd:voice>
+				  <gmd:facsimile>
+				    <gco:CharacterString>508-289-2009</gco:CharacterString>
+				  </gmd:facsimile>
+				</gmd:CI_Telephone>
+		  </gmd:phone>
+		  <gmd:address>
+		    <gmd:CI_Address>
+				  <gmd:deliveryPoint>
+				    <gco:CharacterString>WHOI MS#36</gco:CharacterString>
+				  </gmd:deliveryPoint>
+				  <gmd:city>
+				    <gco:CharacterString>Woods Hole</gco:CharacterString>
+				  </gmd:city>
+				  <gmd:administrativeArea>
+				    <gco:CharacterString>MA</gco:CharacterString>
+				  </gmd:administrativeArea>
+				  <gmd:postalCode>
+				    <gco:CharacterString>02543</gco:CharacterString>
+				  </gmd:postalCode>
+				  <gmd:country>
+				    <gco:CharacterString>USA</gco:CharacterString>
+				  </gmd:country>
+				  <gmd:electronicMailAddress>
+				    <gco:CharacterString>info@bco-dmo.org</gco:CharacterString>
+				  </gmd:electronicMailAddress>
+		    </gmd:CI_Address>
+		  </gmd:address>
+      <gmd:onlineResource>
+          <gmd:CI_OnlineResource>
+            <gmd:linkage>
+              <gmd:URL>http://www.bco-dmo.org</gmd:URL>
+            </gmd:linkage>
+          </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+		  <gmd:hoursOfService>
+        <gco:CharacterString>Monday - Friday 8:00am - 5:00pm</gco:CharacterString>
+      </gmd:hoursOfService>
+		  <gmd:contactInstructions>
+		    <gco:CharacterString>For questions regarding this resource, please contact BCO-DMO via the email address provided.</gco:CharacterString>
+		  </gmd:contactInstructions>
+		</gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+      </gmd:contact>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+  <gmi:acquisitionInformation>
+    <gmi:MI_AcquisitionInformation>
+    <gmi:instrument>
+        <gmi:MI_Instrument>
+          <gmi:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/493.rdf" xlink:title="Trace Metal Bottle" xlink:actuate="onRequest"></gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmi:identifier>
+          <gmi:type>
+            <gco:CharacterString></gco:CharacterString>
+          </gmi:type>
+          <gmi:description>
+            <gco:CharacterString>PI Supplied Instrument Name:  PI Supplied Instrument Description:Trace metal rosette Instrument Name: Trace Metal Bottle Instrument Short Name:TM Bottle   Instrument Description: Trace metal (TM) clean rosette bottle used for collecting trace metal clean seawater samples. Community Standard Description: http://vocab.nerc.ac.uk/collection/L05/current/30/</gco:CharacterString>
+          </gmi:description>
+        </gmi:MI_Instrument>
+      </gmi:instrument>
+      <gmi:instrument>
+        <gmi:MI_Instrument>
+          <gmi:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/619.rdf" xlink:title="Pump surface" xlink:actuate="onRequest"></gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmi:identifier>
+          <gmi:type>
+            <gco:CharacterString></gco:CharacterString>
+          </gmi:type>
+          <gmi:description>
+            <gco:CharacterString>PI Supplied Instrument Name:  PI Supplied Instrument Description:trace-metal clean, surface towed pump system Instrument Name: Pump surface Instrument Short Name:Pump surface   Instrument Description: A source of uncontaminated near-surface seawater pumped onto the deck of the research vessel that can be sampled and analyzed. This pumped seawater supply is from an over-the-side pumping system, and is therefore different from the vessel underway seawater system. Community Standard Description: http://vocab.nerc.ac.uk/collection/L05/current/31/</gco:CharacterString>
+          </gmi:description>
+        </gmi:MI_Instrument>
+      </gmi:instrument>
+      <gmi:instrument>
+        <gmi:MI_Instrument>
+          <gmi:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/instrument/692.rdf" xlink:title="Cold Vapor Atomic Fluorescence Spectrophotometer" xlink:actuate="onRequest"></gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmi:identifier>
+          <gmi:type>
+            <gco:CharacterString></gco:CharacterString>
+          </gmi:type>
+          <gmi:description>
+            <gco:CharacterString>PI Supplied Instrument Name:  Instrument Name: Cold Vapor Atomic Fluorescence Spectrophotometer Instrument Short Name:CVAFS   Instrument Description: A Cold Vapor Atomic Fluorescent Spectrophotometer (CVAFS) is an instrument used for quantitative determination of volatile heavy metals, such as mercury. CVAFS make use of the characteristic of mercury that allows vapor measurement at room temperature. Mercury atoms in an inert carrier gas are excited by a collimated UV light source at a particular wavelength. As the atoms return to their non-excited state they re-radiate their absorbed energy at the same wavelength. The fluorescence may be detected using a photomultiplier tube or UV photodiode.</gco:CharacterString>
+          </gmi:description>
+        </gmi:MI_Instrument>
+      </gmi:instrument>
+      <gmi:operation>
+          <gmi:MI_Operation>
+            <gmi:description>
+              <gco:CharacterString>Cruise: TN303</gco:CharacterString>
+            </gmi:description>
+            <gmi:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/499719.rdf" xlink:title="Cruise" xlink:actuate="onRequest">TN303</gmx:Anchor>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmi:identifier>
+            <gmi:status>
+              <gmd:MD_ProgressCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+            </gmi:status>
+            <gmi:type>
+              <gmi:MI_OperationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MI_OperationTypeCode" codeListValue="real"/>
+            </gmi:type>
+            <gmi:parentOperation gco:nilReason="inapplicable"/>
+            <gmi:platform>
+              <gmi:MI_Platform>
+                <gmi:citation>
+                 <gmd:CI_Citation>
+                   <gmd:title>
+                     <gmx:Anchor xlink:href="http://www.ocean.washington.edu/story/RV+Thomas+G+Thompson" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+                   </gmd:title>
+                   <gmd:date gco:nilReason="unknown"/>
+                 </gmd:CI_Citation>
+                </gmi:citation>
+                <gmi:citation>
+                 <gmd:CI_Citation>
+                   <gmd:title>
+                     <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/3250" xlink:actuate="onRequest">Community Standard Description</gmx:Anchor>
+                   </gmd:title>
+                   <gmd:date gco:nilReason="unknown"/>
+                 </gmd:CI_Citation>
+                </gmi:citation>
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:authority>
+                      <gmd:CI_Citation>
+                        <gmd:title>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/authority/1.rdf" xlink:actuate="onRequest">International Council for the Exploration of the Sea</gmx:Anchor>
+                        </gmd:title>
+                        <gmd:date gco:nilReason="unknown"/>
+                      </gmd:CI_Citation>
+                    </gmd:authority>
+                    <gmd:code>
+                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf"
+                       xlink:title="3250" xlink:actuate="onRequest">R/V Thomas G. Thompson</gmx:Anchor>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:description>
+                  <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/platform/54017.rdf" xlink:title="R/V Thomas G. Thompson" xlink:actuate="onRequest">vessel</gmx:Anchor>
+                </gmi:description>
+                <gmi:instrument gco:nilReason="unknown"/>
+              </gmi:MI_Platform>
+            </gmi:platform>
+            <gmi:plan>
+              <gmi:MI_Plan>
+                <gmi:status>
+                  <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+                </gmi:status>
+                <gmi:citation>
+                  <gmd:CI_Citation>
+                    <gmd:title>
+                      <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/deployment/499719.rdf" xlink:title="Cruise" xlink:actuate="onRequest">TN303</gmx:Anchor>
+                    </gmd:title>
+                    <gmd:date gco:nilReason="unknown"/>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                      <gmd:individualName>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/person/50800.rdf" xlink:actuate="onRequest">Dr James W. Moffett</gmx:Anchor>
+                        </gmd:individualName>
+                        <gmd:organisationName>
+                          <gmx:Anchor xlink:href="http://lod.bco-dmo.org/id/affiliation/39.rdf" xlink:title="Affiliation" xlink:actuate="onRequest">University of Southern California</gmx:Anchor>
+                        </gmd:organisationName>
+                        <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                          <gmd:onlineResource>
+                            <gmd:CI_OnlineResource>
+                              <gmd:linkage>
+                                <gmd:URL>http://dmoserv3.whoi.edu/data_docs/GEOTRACES/EPZT/GT13_EPZT_ODFReport_All.pdf</gmd:URL>
+                              </gmd:linkage>
+                              <gmd:description>
+                                <gco:CharacterString>Report describing TN303</gco:CharacterString>
+                              </gmd:description>
+                            </gmd:CI_OnlineResource>
+                          </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                      </gmd:contactInfo>
+                      <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator"/>
+                      </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                   </gmd:CI_Citation>
+                </gmi:citation>
+              </gmi:MI_Plan>
+            </gmi:plan>
+            </gmi:MI_Operation>
+      </gmi:operation></gmi:MI_AcquisitionInformation>
+  </gmi:acquisitionInformation>
+</gmi:MI_Metadata>
