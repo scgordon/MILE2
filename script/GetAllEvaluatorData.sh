@@ -3,7 +3,7 @@
 #is the dialect, DataOne the third is the collection. GetData.sh is the batch script for Data.sh
 
 ./UseEvaluatorAll.sh DataOne CDL CSDGM  
-#./UseEvaluatorAll.sh DataOne CLOEBIRD EML
+./UseEvaluatorAll.sh DataOne CLOEBIRD EML
 ./UseEvaluatorAll.sh DataOne Dryad Dryad
 ./UseEvaluatorAll.sh DataOne EDACGSTORE CSDGM
 ./UseEvaluatorAll.sh DataOne EDORA Mercury
